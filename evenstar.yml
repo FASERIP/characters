@@ -1,0 +1,277 @@
+Hero:
+  Game System: TSR Marvel Super Heroes RPG Advanced/2nd Edition
+  Name: Evenstar
+  Identity: Stella Blake
+  Secret: Yes
+  Base of Operations: Manhattan
+  Group Affiliation: None
+  Age: 18
+  Origin:
+    Physical Form: Modified Human
+    Origin of Power: Endowment
+  Weakness:
+    Stimulus: Psychological
+    Effect: Power Negation
+    Duration: Continuous with Contact
+    Conditions:
+      - Extreme stress leading loss of focus and inner balance may cause reversion to Alter Ego and the accompanying loss of powers.
+      - Overuse of powers could make transformation to Evenstar permanent.
+      - Possibility of Cosmic Awareness overload.
+  Abilities:
+    Primary Abilities:
+      Fighting:
+        Evenstar:
+          Rank: Excellent
+          Number: 20
+        Stella:
+          Rank: Good
+          Number: 10
+      Agility:
+        Evenstar:
+          Rank: Incredible
+          Number: 40
+        Stella:
+          Rank: Excellent
+          Number: 20
+      Strength:
+        Evenstar:
+          Rank: Excellent
+          Number: 20
+        Stella:
+          Rank: Typical
+          Number: 6
+      Endurance:
+        Evenstar:
+          Rank: Amazing
+          Number: 50
+        Stella:
+          Rank: Excellent
+          Number: 20
+      Reason:
+        Rank: Remarkable
+        Number: 30
+      Intuition:
+        Evenstar:
+          Rank: Monstrous
+          Number: 75
+        Stella:
+          Rank: Remarkable
+          Number: 30
+      Psyche:
+        Evenstar:
+          Rank: Monstrous
+          Number: 75
+        Stella:
+          Rank: Remarkable
+          Number: 30
+    Secondary Abilities:
+      Health:
+        Evenstar: 130
+        Stella: 56
+      Karma:
+        Evenstar: 180
+        Stella: 90
+      Resources:
+        Rank: Good
+        Number: 10
+      Popularity:
+        Evenstar: 5
+        Stella: 5
+    Special Abilities:
+      Powers:
+        Note: Only Evenstar possesses Powers. The Alter Ego, Stella does not.
+        Defensive:
+          Resistance to Energy Attacks:
+            Rank: Incredible
+            Number: 40
+          Resistance to Physical Attacks:
+            Rank: Remarkable
+            Number: 30
+          Resistance to Power Manipulation:
+            Rank: Monstrous
+            Number: 75
+          Resistance to Vampirism:
+            Rank: Monstrous
+            Number: 75
+        Detection:
+          Energy Detection:
+            Rank: Incredible
+            Number: 40
+          Environmental Awareness:
+            Rank: Remarkable
+            Number: 30
+          Microscopic Vision:
+            Rank: Incredible
+            Number: 40
+          Telescopic Vision:
+            Rank: Incredible
+            Number: 40
+          True Sight:
+            Rank: Remarkable
+            Number: 30
+            Type: Deliberate
+        Energy Control:
+          Energy Solidification:
+            Rank: Incredible
+            Number: 40
+          Gravity Manipulation:
+            Rank: Excellent
+            Number: 20
+          Power Stunts:
+            - Changing the direction of gravity.
+            - Creating artificial gravity in a normally weightless situation.
+            - Levitation at -1CS speed; this can be done to the hero himself or a target.
+            - Forming large asteroids by coalescing space debris.
+          Light Control:
+            Rank: Amazing
+            Number: 50
+          Plasma Control:
+            Rank: Amazing
+            Number: 50
+        Energy Emission:
+          Light Emission:
+            Rank: Amazing
+            Number: 50
+          Plasma Generation:
+            Rank: Amazing
+            Number: 50
+            Power Stunts:
+              - Plasma fields may have any two of the following side effects:
+                - Light at -2CS level of illumination
+                - Heat at -2CS damage
+                - Flame at -2CS damage
+                - Hard Radiation at -2CS damage
+                - Magnetism at -2CS damage but full Power rank range
+                - Electricity at -2CS damage.
+        Mental Enhancement:
+          Cosmic Awareness:
+            Rank: Monstrous
+            Number: 75
+        Physical Enhancement:
+          Body Resistance:
+            Rank: Remarkable
+            Number: 30
+          Regeneration:
+            Rank: Remarkable
+            Number: 30
+          Self-Sustenance:
+            Rank: Monstrous
+            Number: 75
+            Type: Permanent
+        Power Control:
+          Focus:
+            Rank: Monstrous
+            Number: 75
+        Total:
+          Rank: Class 1000
+          Number: 1665
+          Spread: 34
+          Rounds Until Full Recovery: 23
+        Self-Alteration:
+          Alter Ego: No Rank
+          Energy Body:
+            Light:
+              Rank: Incredible
+              Number: 40
+            Plasma:
+              Rank: Incredible
+              Number: 40
+          Energy Sheath:
+            Light:
+              Rank: Incredible
+              Number: 40
+            Plasma:
+              Rank: Incredible
+              Number: 40
+        Travel:
+          Carrier Wave:
+            Light:
+              Rank: Monstrous
+              Number: 75
+            Plasma:
+              Rank: Unearthly
+              Number: 100
+              Limitation: Only works outside atmosphere.
+          Gateway:
+            Rank: Monstrous
+            Number: 75
+      Talents:
+        Fighting Skills:
+          - Martial Arts A
+          - Martial Arts B
+          - Martial Arts C
+          - Acrobatics
+          - Tumbling
+        Mystic and Mental Skills:
+          - Mystic Background
+        Other Talents:
+          - First Aid
+          - Repair/Tinkering
+          - Languages (Greek, Italian, Spanish, Russian)
+          - Student
+      Equipment:
+        Vehicles:
+          - Motorcycle
+        Headquarters:
+          1 BR Apartment:
+            Status: Rented
+            Location: Greenwich Village
+            Type: Residence
+        Other Equipment:
+          - Normal Flashlight
+          - Camera, with Film, Normal Flash, and Telephoto Lens
+          - Personal Computer, with Modem
+          - Roller Skates
+      Contacts:
+        Professional Contacts:
+          Law:
+            Jennifer Walters:
+              Stella: Yes
+              Evenstar: No
+              Knows Secret: No
+          Journalism:
+            Peter Parker:
+              Stella: Yes
+              Evenstar: No
+              Knows Secret: No
+          Crime:
+            Dominikos Petrakis:
+              Stella: No
+              Evenstar: Yes
+              Knows Secret: No
+          Espionage:
+            Elektra Natchios:
+              Stella: Yes
+              Evenstar: No
+              Knows Secret: No
+        Scientific Contacts:
+          Physics:
+            Reed Richards:
+              Stella: Yes
+              Evenstar: No
+              Knows Secret: No
+        Mystical Contacts:
+          Mystic Arts:
+            Stephen Strange:
+              Stella: Yes
+              Evenstar: Yes
+              Knows Secret: Yes
+          Mythology:
+            Hercules Panhellenios:
+              Stella: Yes
+              Evenstar: Yes
+              Knows Secret: Yes
+            Apalla:
+              Stella: Yes
+              Evenstar: Yes
+              Knows Secret: Yes
+  Description: |
+    **Stella Blake**, a young dynamo from the heart of Manhattan, stands with a poise that's a touch above the crowd. Her athletic silhouette is a testament to countless hours balancing the rigors of academia and the demands of a bustling city life. Her raven-black waves cascade like a waterfall, a stark contrast to her sun-kissed, Mediterranean skin. But it's those piercing emerald eyes that truly tell her story - a tale of dreams, destiny, and the dance of the stars.
+
+    When the cosmos beckon and Stella heeds the call, she transforms into the radiant **Evenstar**, a heroine draped in the very fabric of the universe, a tapestry of twinkling stars, swirling nebulae, and distant galaxies. Her cosmic attire, sleek and form-fitting, boasts a deep celestial palette, punctuated by a silvery V-neckline that plunges to a star emblem, the very heart of her cosmic identity. Each fold of her majestic cloak, billowing like the night sky,is chapter of the cosmos she's sworn to explore and protect.
+
+    Stella's path to cosmic greatness wasn't some walk in Central Park. A starry-eyed teen with a penchant for physics, her world was turned upside-down when a celestial titan, a star on the brink of oblivion, chose her as its cosmic heir. This starry essence fused with Stella, gifting her with powers that'd make even the mightiest of heroes tip their hat.
+
+    Back on terra firma, Stella's a regular Jane, juggling the challenges of college life with shifts at **Nonna Maria's Pizza and Gyros**, the local joint run by the ever-charming duo, Konstantinos "Pappous Kostas" and Maria Theresa "Nonna" Athanasiou. Whether she's hitting the books or dishing out slices, Stella's tale is one of duality - a dance between the wonders of the cosmos and the rhythm of the Big Apple.
+
+    Stella's two worlds are a study in contrasts. By day, she's the diligent student, her gaze often lost in thought or fixed on some distant star. But when duty calls, as Evenstar, she's the very embodiment of cosmic valor, a beacon of hope in a universe filled with endless wonders and dangers.
