@@ -162,11 +162,11 @@ Hero:
           Focus:
             Rank: Monstrous
             Number: 75
-        Total:
-          Rank: Class 1000
-          Number: 1665
-          Spread: 34
-          Rounds Until Full Recovery: 23
+            Total:
+              Rank: Class 1000
+              Number: 1665
+              Spread: 34
+              Rounds Until Full Recovery: 23
         Self-Alteration:
           Alter Ego: No Rank
           Energy Body:
