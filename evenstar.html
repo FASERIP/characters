@@ -25,14 +25,21 @@
             content: ':';
         }
 
-        dd>dl {
-            margin-left: 4em;
+        dl {
+            display: grid;
+            grid-template-columns: max-content auto;
+            gap: 2ex 1ch;
         }
 
-        dd,
         dt {
-            margin-left: 3em;
+            grid-column: 1;
+            font-weight: bolder;
         }
+
+        dd {
+            grid-column: 2;
+        }
+
 
         p {
             margin-left: 4em;
@@ -308,7 +315,7 @@
                 <dl>
                     <dt>Power Stunts</dt>
                     <dd>
-                        <p>Plasma fields may have any two of the following side effects:</p>
+                        <span>Plasma fields may have any two of the following side effects:</span>
                         <ul>
                             <li><a href="/system/powers.html#light_emission">Light</a> at -2CS
                                 level of illumination</li>
@@ -325,171 +332,171 @@
                     </dd>
                 </dl>
             </dd>
-            <h5 id="mental_enhancement"><a href="/system/powers.html#mental_enhancement">Mental Enhancement</a></h5>
-            <dl>
-                <dt id="cosmic_awareness"><a href="/system/powers.html#cosmic_awareness">Cosmic Awareness</a> (<a
-                        href="/system/powers.html#m7">M7</a>)</dt>
-                <dd><a href="/system/index.html#ranks_and_rank_numbers">Monstrous (75)</a></dd>
-            </dl>
-            <h5 id="physical_enhancement"><a href="/system/powers.html#physical_enhancement">Physical Enhancement</a>
-            </h5>
-            <dl>
-                <dt id="body_resistance"><a href="/system/powers.html#body_resistance">Body Resistance</a> (<a
-                        href="/system/powers.html#p2">P2</a>)</dt>
-                <dd><a href="/system/index.html#ranks_and_rank_numbers">Remarkable (30)</a></dd>
-                <dt id="regeneration"><a href="/system/powers.html#regeneration">Regeneration</a> (<a
-                        href="/system/powers.html#p9">P9</a>)</dt>
-                <dd><a href="/system/index.html#ranks_and_rank_numbers">Remarkable (30)</a></dd>
-                <dt id="self-sustenance"><a href="/system/powers.html#self-sustenance">Self-Sustenance</a> (<a
-                        href="/system/powers.html#p11">P11</a>)</dt>
-                <dd><a href="/system/index.html#ranks_and_rank_numbers">Monstrous (75)</a></dd>
-                <dd>Permanent</dd>
-            </dl>
-            <h5 id="power_control"><a href="/system/powers.html#power_control">Power Control</a></h5>
-            <dl>
-                <dt id="focus"><a href="/system/powers.html#focus">Focus</a> (<a href="/system/powers.html#pc7">PC7</a>)
-                </dt>
-                <dd>
-                    <a href="/system/index.html#ranks_and_rank_numbers">Monstrous (75)</a>
-                    <dl>
-                        <dt>Total</dt>
-                        <dd><a href="/system/index.html#ranks_and_rank_numbers">Class 1000 (1665)</a></dd>
-                        <dt>Spread</dt>
-                        <dd>34</dd>
-                        <dt>Rounds Until Full Recovery</dt>
-                        <dd>21</dd>
-                    </dl>
-                </dd>
-            </dl>
-            <h5 id="self-alteration"><a href="/system/powers.html#self-alteration">Self-Alteration</a></h5>
-            <dl>
-                <dt id="alter_ego"><a href="/system/powers.html#alter_ego">Alter Ego</a> (<a
-                        href="/system/powers.html#s2">S2</a>)</dt>
-                <dd>No Rank</dd>
-                <dt id="body"><a href="/system/powers.html#body">Energy Body</a> (<a
-                        href="/system/powers.html#s14">S13</a>)
-                <dd>
-                    <dl>
-                        <dt><a href="/system/powers.html#light_emission">Light</a></dt>
-                        <dd><a href="/system/index.html#ranks_and_rank_numbers">Incredible (40)</a></dd>
-                        <dt><a href="/system/powers.html#plasma_generation">Plasma</a></dt>
-                        <dd><a href="/system/index.html#ranks_and_rank_numbers">Incredible (40)</a></dd>
-                    </dl>
-                </dd>
-                <dt id="energy_sheath"><a href="/system/powers.html#energy_sheath">Energy Sheath</a> (<a
-                        href="/system/powers.html#s14">S14</a>)</dt>
-                <dd>
-                    <dl>
-                        <dt><a href="/system/powers.html#light_emission">Light</a></dt>
-                        <dd><a href="/system/index.html#ranks_and_rank_numbers">Incredible (40)</a></dd>
-                        <dt><a href="/system/powers.html#plasma_generation">Plasma</a></dt>
-                        <dd><a href="/system/index.html#ranks_and_rank_numbers">Incredible (40)</a></dd>
-                    </dl>
-                </dd>
-            </dl>
-            <h5 id="travel"><a href="/system/powers.html#travel">Travel</a></h5>
-            <dl>
-                <dt id="carrier_wave"><a href="/system/powers.html#carrier_wave">Carrier Wave</a> (<a
-                        href="/system/powers.html#t2">T2</a>)</dt>
-                <dd>
-                    <dl>
-                        <dt><a href="/system/powers.html#light_emission">Light</a></dt>
-                        <dd><a href="/system/index.html#ranks_and_rank_numbers">Monstrous (75)</a></dd>
-                        <dt><a href="/system/powers.html#light_emission">Plasma</a></dt>
-                        <dd>
-                            <a href="/system/index.html#ranks_and_rank_numbers">Unearthly (100)</a>
-                            <dl>
-                                <dt>Limitation</dt>
-                                <dd>Only works outside atmosphere.</dd>
-                            </dl>
-                        </dd>
-                    </dl>
-                </dd>
-                <dt id="gateway"><a href="/system/powers.html#gateway">Gateway</a> (<a
-                        href="/system/powers.html#t5">T5</a>)</dt>
-                <dd><a href="/system/index.html#ranks_and_rank_numbers">Monstrous (75)</a></dd>
-            </dl>
-            <h4 id="talents"><a href="/system/index.html#ability_talents">Talents</a></h4>
-            <h5 id="fighting_skills"><a href="/system/talents.html#fighting_skills">Fighting Skills</a></h5>
-            <ul>
-                <li><a href="/system/talents.html#martial_arts_a">Martial Arts A</a></li>
-                <li><a href="/system/talents.html#martial_arts_b">Martial Arts B</a></li>
-                <li><a href="/system/talents.html#martial_arts_c">Martial Arts C</a></li>
-                <li><a href="/system/talents.html#acrobatics">Acrobatics</a></li>
-                <li><a href="/system/talents.html#tumbling">Tumbling</a></li>
-            </ul>
-            <h5 id="mystic_and_mental_skills"><a href="/system/talents.html#mystic_and_mental_skills">Mystic
-                    and Mental Skills</a></h5>
-            <ul>
-                <li><a href="/system/talents.html#mystic_backgroud">Mystic Background</a></li>
-            </ul>
-            <h5 id="other_talents"><a href="/system/talents.html#other_talents">Other Talents</a></h5>
-            <ul>
-                <li><a href="/system/talents.html#first_aid">First Aid</a></li>
-                <li><a href="/system/talents.html#repair_tinkering">Repair/Tinkering</a></li>
-                <li><a href="/system/talents.html#languages">Languages</a> (Greek, Italian, Spanish, Russian)</li>
-                <li><a href="/system/talents.html#student">Student</a></li>
-            </ul>
-            <h4 id="equipment"><a href="/system/equipment.html">Equipment</a></h4>
-            <h5 id="vehicles"><a href="/system/equipment.html#vehicles">Vehicles</a></h5>
-            <ul>
-                <li><a href="/system/equipment.html#motorcycle">Motorcycle</a></li>
-            </ul>
-            <h5 id="headquarters"><a href="/system/equipment.html#headquarters">Headquarters</a></h5>
-            <ul>
-                <li><a href="/system/equipment.html#1br_apartment">1 BR Apartment</a> (Rented), Greenwich Village,
-                    Residence
-                </li>
-                <li><a href="/system/equipment.html#storefront">Storefront</a> (Family), SoHo, Nonna Maria's Pizza and
-                    Gyros
-                </li>
-            </ul>
-            <h5 id="other_equipment"><a href="/system/equipment.html#salaries_sundries_and_other_equipment">Other
-                    Equipment</a></h5>
-            <ul>
-                <li><a href="/system/equipment.html#flashlight_normal">Normal Flashlight</a></li>
-                <li><a href="/system/equipment.html#camera">Camera</a>, with Film, <a
-                        href="/system/equipment.html#flashlight_normal">Normal Flash</a>, and Telephoto Lens</li>
-                <li><a href="/system/equipment.html#personal_computer">Personal Computer</a>, with Modem</li>
-                <li><a href="/system/equipment.html#roller_skates">Roller Skates</a></li>
-            </ul>
-            <h4 id="contacts">
-                <a href="/system/index.html#ability_contacts">Contacts</a>
-            </h4>
-            <h5 id="professional_contacts"><a href="/system/contacts.html#professional_contacts">Professional
-                    Contacts</a></h5>
-            <h6 id="law"><a href="/system/contacts.html#law">Law</a></h6>
-            <ul>
-                <li>Jennifer Walters (Stella)</li>
-            </ul>
-            <h6 id="journalism"><a href="/system/contacts.html#journalism">Journalism</a></h6>
-            <ul>
-                <li>Peter Parker (Stella)</li>
-            </ul>
-            <h6 id="crime"><a href="/system/contacts.html#crime">Crime</a></h6>
-            <ul>
-                <li>Dominikos Petrakis (Evenstar)</li>
-            </ul>
-            <h6 id="espionage"><a href="/system/contacts.html#espionage">Espionage</a></h6>
-            <ul>
-                <li>Elektra Natchios (Stella)</li>
-            </ul>
-            <h5 id="scientific_contacts"><a href="/system/contacts.html#scientific_contacts">Scientific Contacts</a>
-            </h5>
-            <h6 id="physics"><a href="/system/talents.html#physics">Physics</a></h6>
-            <ul>
-                <li>Reed Richards (Stella)</li>
-            </ul>
-            <h5 id="mystical_contacts"><a href="/system/contacts.html#mystical_contacts">Mystical Contacts</a></h5>
-            <h6 id="mystic_arts"><a href="/system/contacts.html#mystic_arts">Mystic Arts</a></h6>
-            <ul>
-                <li>Stephen Strange (Both)</li>
-            </ul>
-            <h6 id="mythology"><a href="/system/contacts.html#mythology">Mythology</a></h6>
-            <ul>
-                <li>Hercules Panhellenios (Both)</li>
-                <li>Apalla (Both)</li>
-            </ul>
+        </dl>
+        <h5 id="mental_enhancement"><a href="/system/powers.html#mental_enhancement">Mental Enhancement</a></h5>
+        <dl>
+            <dt id="cosmic_awareness"><a href="/system/powers.html#cosmic_awareness">Cosmic Awareness</a> (<a
+                    href="/system/powers.html#m7">M7</a>)</dt>
+            <dd><a href="/system/index.html#ranks_and_rank_numbers">Monstrous (75)</a></dd>
+        </dl>
+        <h5 id="physical_enhancement"><a href="/system/powers.html#physical_enhancement">Physical Enhancement</a>
+        </h5>
+        <dl>
+            <dt id="body_resistance"><a href="/system/powers.html#body_resistance">Body Resistance</a> (<a
+                    href="/system/powers.html#p2">P2</a>)</dt>
+            <dd><a href="/system/index.html#ranks_and_rank_numbers">Remarkable (30)</a></dd>
+            <dt id="regeneration"><a href="/system/powers.html#regeneration">Regeneration</a> (<a
+                    href="/system/powers.html#p9">P9</a>)</dt>
+            <dd><a href="/system/index.html#ranks_and_rank_numbers">Remarkable (30)</a></dd>
+            <dt id="self-sustenance"><a href="/system/powers.html#self-sustenance">Self-Sustenance</a> (<a
+                    href="/system/powers.html#p11">P11</a>)</dt>
+            <dd><a href="/system/index.html#ranks_and_rank_numbers">Monstrous (75)</a></dd>
+            <dd>Permanent</dd>
+        </dl>
+        <h5 id="power_control"><a href="/system/powers.html#power_control">Power Control</a></h5>
+        <dl>
+            <dt id="focus"><a href="/system/powers.html#focus">Focus</a> (<a href="/system/powers.html#pc7">PC7</a>)
+            </dt>
+            <dd>
+                <a href="/system/index.html#ranks_and_rank_numbers">Monstrous (75)</a>
+                <dl>
+                    <dt>Total</dt>
+                    <dd><a href="/system/index.html#ranks_and_rank_numbers">Class 1000 (1665)</a></dd>
+                    <dt>Spread</dt>
+                    <dd>34</dd>
+                    <dt>Rounds Until Full Recovery</dt>
+                    <dd>21</dd>
+                </dl>
+            </dd>
+        </dl>
+        <h5 id="self-alteration"><a href="/system/powers.html#self-alteration">Self-Alteration</a></h5>
+        <dl>
+            <dt id="alter_ego"><a href="/system/powers.html#alter_ego">Alter Ego</a> (<a
+                    href="/system/powers.html#s2">S2</a>)</dt>
+            <dd>No Rank</dd>
+            <dt id="body"><a href="/system/powers.html#body">Energy Body</a> (<a href="/system/powers.html#s14">S13</a>)
+            <dd>
+                <dl>
+                    <dt><a href="/system/powers.html#light_emission">Light</a></dt>
+                    <dd><a href="/system/index.html#ranks_and_rank_numbers">Incredible (40)</a></dd>
+                    <dt><a href="/system/powers.html#plasma_generation">Plasma</a></dt>
+                    <dd><a href="/system/index.html#ranks_and_rank_numbers">Incredible (40)</a></dd>
+                </dl>
+            </dd>
+            <dt id="energy_sheath"><a href="/system/powers.html#energy_sheath">Energy Sheath</a> (<a
+                    href="/system/powers.html#s14">S14</a>)</dt>
+            <dd>
+                <dl>
+                    <dt><a href="/system/powers.html#light_emission">Light</a></dt>
+                    <dd><a href="/system/index.html#ranks_and_rank_numbers">Incredible (40)</a></dd>
+                    <dt><a href="/system/powers.html#plasma_generation">Plasma</a></dt>
+                    <dd><a href="/system/index.html#ranks_and_rank_numbers">Incredible (40)</a></dd>
+                </dl>
+            </dd>
+        </dl>
+        <h5 id="travel"><a href="/system/powers.html#travel">Travel</a></h5>
+        <dl>
+            <dt id="carrier_wave"><a href="/system/powers.html#carrier_wave">Carrier Wave</a> (<a
+                    href="/system/powers.html#t2">T2</a>)</dt>
+            <dd>
+                <dl>
+                    <dt><a href="/system/powers.html#light_emission">Light</a></dt>
+                    <dd><a href="/system/index.html#ranks_and_rank_numbers">Monstrous (75)</a></dd>
+                    <dt><a href="/system/powers.html#light_emission">Plasma</a></dt>
+                    <dd>
+                        <a href="/system/index.html#ranks_and_rank_numbers">Unearthly (100)</a>
+                        <dl>
+                            <dt>Limitation</dt>
+                            <dd>Only works outside atmosphere.</dd>
+                        </dl>
+                    </dd>
+                </dl>
+            </dd>
+            <dt id="gateway"><a href="/system/powers.html#gateway">Gateway</a> (<a href="/system/powers.html#t5">T5</a>)
+            </dt>
+            <dd><a href="/system/index.html#ranks_and_rank_numbers">Monstrous (75)</a></dd>
+        </dl>
+        <h4 id="talents"><a href="/system/index.html#ability_talents">Talents</a></h4>
+        <h5 id="fighting_skills"><a href="/system/talents.html#fighting_skills">Fighting Skills</a></h5>
+        <ul>
+            <li><a href="/system/talents.html#martial_arts_a">Martial Arts A</a></li>
+            <li><a href="/system/talents.html#martial_arts_b">Martial Arts B</a></li>
+            <li><a href="/system/talents.html#martial_arts_c">Martial Arts C</a></li>
+            <li><a href="/system/talents.html#acrobatics">Acrobatics</a></li>
+            <li><a href="/system/talents.html#tumbling">Tumbling</a></li>
+        </ul>
+        <h5 id="mystic_and_mental_skills"><a href="/system/talents.html#mystic_and_mental_skills">Mystic
+                and Mental Skills</a></h5>
+        <ul>
+            <li><a href="/system/talents.html#mystic_backgroud">Mystic Background</a></li>
+        </ul>
+        <h5 id="other_talents"><a href="/system/talents.html#other_talents">Other Talents</a></h5>
+        <ul>
+            <li><a href="/system/talents.html#first_aid">First Aid</a></li>
+            <li><a href="/system/talents.html#repair_tinkering">Repair/Tinkering</a></li>
+            <li><a href="/system/talents.html#languages">Languages</a> (Greek, Italian, Spanish, Russian)</li>
+            <li><a href="/system/talents.html#student">Student</a></li>
+        </ul>
+        <h4 id="equipment"><a href="/system/equipment.html">Equipment</a></h4>
+        <h5 id="vehicles"><a href="/system/equipment.html#vehicles">Vehicles</a></h5>
+        <ul>
+            <li><a href="/system/equipment.html#motorcycle">Motorcycle</a></li>
+        </ul>
+        <h5 id="headquarters"><a href="/system/equipment.html#headquarters">Headquarters</a></h5>
+        <ul>
+            <li><a href="/system/equipment.html#1br_apartment">1 BR Apartment</a> (Rented), Greenwich Village,
+                Residence
+            </li>
+            <li><a href="/system/equipment.html#storefront">Storefront</a> (Family), SoHo, Nonna Maria's Pizza and
+                Gyros
+            </li>
+        </ul>
+        <h5 id="other_equipment"><a href="/system/equipment.html#salaries_sundries_and_other_equipment">Other
+                Equipment</a></h5>
+        <ul>
+            <li><a href="/system/equipment.html#flashlight_normal">Normal Flashlight</a></li>
+            <li><a href="/system/equipment.html#camera">Camera</a>, with Film, <a
+                    href="/system/equipment.html#flashlight_normal">Normal Flash</a>, and Telephoto Lens</li>
+            <li><a href="/system/equipment.html#personal_computer">Personal Computer</a>, with Modem</li>
+            <li><a href="/system/equipment.html#roller_skates">Roller Skates</a></li>
+        </ul>
+        <h4 id="contacts">
+            <a href="/system/index.html#ability_contacts">Contacts</a>
+        </h4>
+        <h5 id="professional_contacts"><a href="/system/contacts.html#professional_contacts">Professional
+                Contacts</a></h5>
+        <h6 id="law"><a href="/system/contacts.html#law">Law</a></h6>
+        <ul>
+            <li>Jennifer Walters (Stella)</li>
+        </ul>
+        <h6 id="journalism"><a href="/system/contacts.html#journalism">Journalism</a></h6>
+        <ul>
+            <li>Peter Parker (Stella)</li>
+        </ul>
+        <h6 id="crime"><a href="/system/contacts.html#crime">Crime</a></h6>
+        <ul>
+            <li>Dominikos Petrakis (Evenstar)</li>
+        </ul>
+        <h6 id="espionage"><a href="/system/contacts.html#espionage">Espionage</a></h6>
+        <ul>
+            <li>Elektra Natchios (Stella)</li>
+        </ul>
+        <h5 id="scientific_contacts"><a href="/system/contacts.html#scientific_contacts">Scientific Contacts</a>
+        </h5>
+        <h6 id="physics"><a href="/system/talents.html#physics">Physics</a></h6>
+        <ul>
+            <li>Reed Richards (Stella)</li>
+        </ul>
+        <h5 id="mystical_contacts"><a href="/system/contacts.html#mystical_contacts">Mystical Contacts</a></h5>
+        <h6 id="mystic_arts"><a href="/system/contacts.html#mystic_arts">Mystic Arts</a></h6>
+        <ul>
+            <li>Stephen Strange (Both)</li>
+        </ul>
+        <h6 id="mythology"><a href="/system/contacts.html#mythology">Mythology</a></h6>
+        <ul>
+            <li>Hercules Panhellenios (Both)</li>
+            <li>Apalla (Both)</li>
+        </ul>
     </main>
     <footer>
         <p>
