@@ -21,8 +21,8 @@ Hero:
     Primary Abilities:
       Fighting:
         Evenstar:
-          Rank: Excellent
-          Number: 20
+          Rank: Remarkable
+          Number: 30
         Stella:
           Rank: Good
           Number: 10
@@ -48,8 +48,12 @@ Hero:
           Rank: Excellent
           Number: 20
       Reason:
-        Rank: Remarkable
-        Number: 30
+        Evenstar:
+          Rank: Monstrous
+          Number: 75
+        Stella:
+          Rank: Remarkable
+          Number: 30
       Intuition:
         Evenstar:
           Rank: Monstrous
@@ -66,14 +70,14 @@ Hero:
           Number: 30
     Secondary Abilities:
       Health:
-        Evenstar: 130
+        Evenstar: 140
         Stella: 56
       Karma:
-        Evenstar: 180
+        Evenstar: 225
         Stella: 90
       Resources:
-        Rank: Good
-        Number: 10
+        Rank: Remarkable
+        Number: 30
       Popularity:
         Evenstar: 5
         Stella: 5
@@ -200,7 +204,6 @@ Hero:
             Rank: Monstrous
             Number: 75
             Effect: +9 CS to Reason and Intuition (Max Shift-Z) for 75 Minutes
-            Note: This power is available to Stella
           Total Memory:
             Rank: Monstrous
             Number: 75
@@ -222,9 +225,9 @@ Hero:
             Number: 75
             Total:
               Rank: Class 1000
-              Number: 1665
-              Spread: 34
-              Rounds Until Full Recovery: 23
+              Number: 2340
+              Spread: 45
+              Rounds Until Full Recovery: 32
         Self-Alteration:
           Alter Ego: No Rank
           Energy Body:
@@ -261,23 +264,57 @@ Hero:
           - Martial Arts A
           - Martial Arts B
           - Martial Arts C
+          - Wrestling
           - Acrobatics
           - Tumbling
         Mystic and Mental Skills:
           - Mystic Background
+          - Resist Domination
+        Scientific Skills:
+          - Chemistry
+          - Biology
+          - Physics
+          - Computers
         Other Talents:
           - First Aid
           - Repair/Tinkering
           - Languages (Greek, Italian, Spanish, Russian)
+          - Heir to Fortune
           - Student
       Equipment:
         Vehicles:
+          - Jeep
           - Motorcycle
         Headquarters:
-          1 BR Apartment:
-            Status: Rented
-            Location: Greenwich Village
+          Brownstone:
+            Status: Owned
+            Location: West Village
             Type: Residence
+            Note: Converted carriage house
+            Rooms:
+              - Name: Bedroom
+                Count: 3
+              - Name: Living Room Package
+                Cost: Remarkable
+              - Name: Dining Room Package
+                Cost: Remarkable
+              - Name: Kitchen Package
+                Cost: Remarkable
+              - Name: Library Package
+                Cost: Remarkable
+              - Name: Workshop Package
+                Cost: Remarkable
+              - Name: Rec Room Package
+                Cost: Remarkable
+              - Name: Garage Package
+                Cost: Excellent
+              - Name: Porches, storage, bathrooms, and closets
+              - Name: Security Package
+                Cost: Excellent
+              - Name: Fire Protection Package
+                Cost: Excellent
+
+
         Other Equipment:
           - Normal Flashlight
           - Camera, with Film, Normal Flash, and Telephoto Lens
