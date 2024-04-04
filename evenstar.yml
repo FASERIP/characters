@@ -76,8 +76,8 @@ Hero:
         Evenstar: 225
         Stella: 90
       Resources:
-        Rank: Remarkable
-        Number: 30
+        Rank: Good
+        Number: 10
       Popularity:
         Evenstar: 5
         Stella: 5
@@ -188,6 +188,11 @@ Hero:
           Radiowave Generation:
             Rank: Excellent
             Number: 20
+        Magic:
+          Internal Limbo:
+            Rank: Monstrous
+            Number: 75
+            Note: Evenstar's "Black Hole" where time is completely stopped for anything inside due to intense warping of spacetime.
         Matter Control:
           Disintegration:
             Rank: Remarkable
@@ -256,6 +261,7 @@ Hero:
           Gateway:
             Rank: Monstrous
             Number: 75
+            Note: Evenstar's "Wormhole" ability, from intense multidimensional spacetime warping.
           True Flight:
             Rank: Monstrous
             Number: 75
@@ -279,21 +285,20 @@ Hero:
           - First Aid
           - Repair/Tinkering
           - Languages (Greek, Italian, Spanish, Russian)
-          - Heir to Fortune
           - Student
       Equipment:
         Vehicles:
           - Jeep
           - Motorcycle
         Headquarters:
-          Brownstone:
+          Medium House:
             Status: Owned
             Location: West Village
             Type: Residence
             Note: Converted carriage house
             Rooms:
               - Name: Bedroom
-                Count: 3
+                Count: 1
               - Name: Living Room Package
                 Cost: Remarkable
               - Name: Dining Room Package
@@ -313,8 +318,6 @@ Hero:
                 Cost: Excellent
               - Name: Fire Protection Package
                 Cost: Excellent
-
-
         Other Equipment:
           - Normal Flashlight
           - Camera, with Film, Normal Flash, and Telephoto Lens
