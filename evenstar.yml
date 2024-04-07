@@ -16,7 +16,7 @@ Hero:
     Conditions:
       - Extreme stress leading loss of focus and inner balance may cause reversion to Alter Ego and the accompanying loss of powers.
       - Overuse of powers could make transformation to Evenstar permanent.
-      - Possibility of Cosmic Awareness overload.
+      - Possibility of Cosmic Awareness overload, especially as Stella.
   Abilities:
     Primary Abilities:
       Fighting:
@@ -42,8 +42,8 @@ Hero:
           Number: 6
       Endurance:
         Evenstar:
-          Rank: Amazing
-          Number: 50
+          Rank: Monstrous
+          Number: 75
         Stella:
           Rank: Excellent
           Number: 20
@@ -70,31 +70,31 @@ Hero:
           Number: 30
     Secondary Abilities:
       Health:
-        Evenstar: 140
+        Evenstar: 165
         Stella: 56
       Karma:
         Evenstar: 225
         Stella: 90
       Resources:
-        Rank: Good
-        Number: 10
+        Rank: Remarkable
+        Number: 30
+        Note: Works for the family's restaurant business as a server and delivery driver and goes to college as part of the family trust's stipulations.
       Popularity:
         Evenstar: 5
         Stella: 5
     Special Abilities:
       Powers:
-        Note: Only Evenstar possesses Powers. The Alter Ego, Stella does not, except for Total Memory and the occasional flash of Cosmic Awareness.
         Defensive:
           Resistance to Emotion Attacks:
             Rank: Unearthly
             Number: 100
             Note: Minimum of Psyche +1 CS
           Resistance to Energy Attacks:
+            Rank: Monstrous
+            Number: 75
+          Resistance to Physical Attacks:
             Rank: Amazing
             Number: 50
-          Resistance to Physical Attacks:
-            Rank: Incredible
-            Number: 40
           Resistance to Power Manipulation:
             Rank: Monstrous
             Number: 75
@@ -107,26 +107,28 @@ Hero:
             Number: 75
         Detection:
           Energy Detection:
-            Rank: Incredible
-            Number: 40
+            Rank: Amazing
+            Number: 50
           Environmental Awareness:
             Rank: Remarkable
             Number: 30
           Extradimensional Detection:
-            Rank: Excellent
-            Number: 20
+            Rank: Remarkable
+            Number: 30
           Life Detection:
-            Rank: Excellent
-            Number: 20
+            Rank: Remarkable
+            Number: 30
           Magic Detection:
             Rank: Excellent
             Number: 20
           Microscopic Vision:
             Rank: Incredible
             Number: 40
+            Note: Light-control-based.
           Telescopic Vision:
             Rank: Incredible
             Number: 40
+            Note: Light-control-based.
           Thermal Vision:
             Rank: Incredible
             Number: 40
@@ -163,8 +165,8 @@ Hero:
             Number: 20
         Energy Emission:
           Hard Radiation:
-            Rank: Excellent
-            Number: 20
+            Rank: Remarkable
+            Number: 30
           Heat:
             Rank: Amazing
             Number: 50
@@ -186,19 +188,19 @@ Hero:
                 - Magnetism at -2CS damage but full Power rank range
                 - Electricity at -2CS damage.
           Radiowave Generation:
-            Rank: Excellent
-            Number: 20
+            Rank: Remarkble
+            Number: 30
         Magic:
           Internal Limbo:
             Rank: Monstrous
             Number: 75
-            Note: Evenstar's "Black Hole" where time is completely stopped for anything inside due to intense warping of spacetime.
+            Note: Evenstar's "Black Hole" ability where time is completely stopped for anything inside due to intense warping of spacetime.
         Matter Control:
           Disintegration:
             Rank: Remarkable
             Number: 30
           Ionization:
-            Rank: Excellent
+            Rank: Remarkable
             Number: 30
         Mental Enhancement:
           Cosmic Awareness:
@@ -208,18 +210,22 @@ Hero:
           Hyper Intelligence:
             Rank: Monstrous
             Number: 75
-            Effect: +9 CS to Reason and Intuition (Max Shift-Z) for 75 Minutes
+            Effect: Gives +9 CS to Reason and Intuition (Max Shift-Z) for 75 Minutes.
+          Incarnation Awareness:
+            Rank: Monstrous
+            Number: 75
+            Note: The past incarnation is the star whose power she inherited rather than any past lives Stella may have had. This power is available to Stella.
           Total Memory:
             Rank: Monstrous
             Number: 75
-            Note: This power is available to Stella
+            Note: This power is available to Stella.
         Physical Enhancement:
           Body Resistance:
             Rank: Amazing
             Number: 50
           Regeneration:
-            Rank: Remarkable
-            Number: 30
+            Rank: Incredible
+            Number: 50
           Self-Sustenance:
             Rank: Monstrous
             Number: 75
@@ -229,23 +235,27 @@ Hero:
             Rank: Monstrous
             Number: 75
             Total:
-              Rank: Class 1000
-              Number: 2415
-              Spread: 46
-              Rounds Until Full Recovery: 33
+              Rank: Class 3000
+              Number: 3005
+              Spread: 54
+              Rounds Until Full Recovery: 41
         Self-Alteration:
-          Alter Ego: No Rank
+          Alter Ego:
+            Rank: No Rank
+            Note: |
+              Only Evenstar possesses Powers. The Alter Ego, Stella does not, except for Incarnation Awareness, Total Memory, and the occasional flash of Cosmic Awareness.
+              Evenstar's costume is part of the transformation. Stella's clothing reappears when she transforms back.
           Energy Body:
             Light:
-              Rank: Incredible
-              Number: 40
+              Rank: Amazing
+              Number: 50
             Plasma:
               Rank: Monstrous
               Number: 75
           Energy Sheath:
             Light:
-              Rank: Incredible
-              Number: 40
+              Rank: Amazing
+              Number: 50
             Plasma:
               Rank: Monstrous
               Number: 75
@@ -285,11 +295,23 @@ Hero:
           - First Aid
           - Repair/Tinkering
           - Languages (Greek, Italian, Spanish, Russian)
+          - Heir to Fortune
           - Student
       Equipment:
         Vehicles:
-          - Jeep
-          - Motorcycle
+          - Jeep:
+              Type: Off-Road
+              Control: Good
+              Speed: Excellent
+              Body: Good
+              Protection: Poor
+          - Motorcycle:
+              Type: Off-Road
+              Control: Typical
+              Speed: Excellent
+              Body: Poor
+              Protection: Shift-0
+              Note: A Motorcycle that goes out of control cannot be brought under control until it comes to a stop. Cycle riders may reduce damage by one rank by wearing adequate headgear. Seats two.
         Headquarters:
           Medium House:
             Status: Owned
@@ -319,53 +341,90 @@ Hero:
               - Name: Fire Protection Package
                 Cost: Excellent
         Other Equipment:
-          - Normal Flashlight
-          - Camera, with Film, Normal Flash, and Telephoto Lens
-          - Personal Computer, with Modem
-          - Roller Skates
+          - Flashlight:
+              Type: Normal
+              Intensity: Typical
+              Range: 2 Areas
+          - Camera:
+              Accessories:
+                - Film
+                - Flash:
+                    Type: Normal
+                    Intensity: Typical
+                    Range: 2 Areas
+                - Special Lenses:
+                    - Telephoto Lens
+                    - Wide-Angle Lens
+                    - Macro Lens
+                    - Fisheye Lens
+          - Personal Computer:
+              Reason: Poor
+              Modem: Yes
+          - Roller Skates:
+              Note: +3CS Movement Speed
+          - Mace:
+              Effect: Tear Gas
+              Intensity: Typical
+              Targets: 1
+              Range: Adjacent Area
+              Note: Foes not require an Agility FEAT to hit, target resists with an Endurance FEAT.
+          - Knife:
+              Damage: 10
+              Type:
+                - Edged Attack
+                - Edged Throwing
+              Strength: Excellent
       Contacts:
         Professional Contacts:
           Law:
             Jennifer Walters:
               Stella: Yes
-              Evenstar: No
-              Knows Secret: No
+              Evenstar: Yes
+              Knows Secret: Yes
+              Note: Stella retains Ms. Walters as an attorney for Evenstar-related issues.
           Journalism:
             Peter Parker:
               Stella: Yes
-              Evenstar: No
-              Knows Secret: No
-          Crime:
-            Dominikos Petrakis:
-              Stella: No
               Evenstar: Yes
               Knows Secret: No
+              Note: Stella knows Peter as a classmate from ESU, Evenstar knows Spider-Man, neither know the other's secret.
+          Crime:
+            Dominikos Petrakis:
+              Stella: Yes
+              Evenstar: No
+              Knows Secret: No
+              Note: Stella knows him as part of the NYC Greek community.
           Espionage:
             Elektra Natchios:
               Stella: Yes
               Evenstar: No
               Knows Secret: No
+              Note: Stella knows her as part of the NYC Greek community.  Elektra's father and Stella's grandfather were close.
         Scientific Contacts:
           Physics:
             Reed Richards:
               Stella: Yes
               Evenstar: No
               Knows Secret: No
+              Note: Stella's Professor at Empire State University for her in-major physics classes.
         Mystical Contacts:
           Mystic Arts:
             Stephen Strange:
               Stella: Yes
               Evenstar: Yes
               Knows Secret: Yes
+              Note: Mentor and confidant.  Stella had to register with him as a Cosmic Entity.
           Mythology:
             Hercules Panhellenios:
               Stella: Yes
               Evenstar: Yes
               Knows Secret: Yes
-            Apalla:
+              Note: Stella knows him as part of the NYC Greek community.  Regular at herEntrusted with her secret.
+            Apalla the Sun Queen:
               Stella: Yes
               Evenstar: Yes
               Knows Secret: Yes
+              Note: Apalla, as the embodiment of the Earth's sun, was entrusted by the dying star to look out for Stella when it chose a human from Earth as its cosmic heiress.
   Description: |
     **Stella Blake**, a young dynamo from the heart of Manhattan, stands with a poise that's a touch above the crowd. Her athletic silhouette is a testament to countless hours balancing the rigors of academia and the demands of a bustling city life. Her raven-black waves cascade like a waterfall, a stark contrast to her sun-kissed, Mediterranean skin. But it's those piercing emerald eyes that truly tell her story - a tale of dreams, destiny, and the dance of the stars.
     When the cosmos beckon and Stella heeds the call, she transforms into the radiant **Evenstar**, a heroine draped in the very fabric of the universe, a tapestry of twinkling stars, swirling nebulae, and distant galaxies. Her cosmic attire, sleek and form-fitting, boasts a deep celestial palette, punctuated by a silvery V-neckline that plunges to a star emblem, the very heart of her cosmic identity. Each fold of her majestic cloak, billowing like the night sky,is chapter of the cosmos she's sworn to explore and protect.
@@ -374,4 +433,4 @@ Hero:
     Stella's two worlds are a study in contrasts. By day, she's the diligent student, her gaze often lost in thought or fixed on some distant star. But when duty calls, as Evenstar, she's the very embodiment of cosmic valor, a beacon of hope in a universe filled with endless wonders and dangers.
     The Power Astral that Stella Lucia Blake, also known as Evenstar, received from a celestial titan at the brink of oblivion is a profound testament to the interstellar legacy bestowed upon her. This endowment not only transformed her physical, but also imbued her with a suite of cosmic abilities that defy the very laws of physics as we understand them. The Power Astral is a cosmic endowment that has woven the fabric of the universe into the core of her being. Each ability, from manipulating gravity to emitting plasma, serves as a thread in the vast tapestry of powers that Stella wields as Evenstar. These powers are not just tools but extensions of her very essence, shaped by the cosmic forces that chose her as their champion.
     The psychological depth of Stella's transformation into Evenstar is mirrored in the duality of her existence. As Stella, she embodies the humility and warmth of human life, whereas, as Evenstar, she transcends to a celestial domain, becoming a custodian of cosmic balance-- in her words, "Me, but a star". This duality is a poignant reflection of her journey, marked by the slow aging process akin to being near a collapsing star---a metaphor for the timeless burden she bears. Her powers, while magnificent, come with their challenges. The very essence that makes her a beacon of hope in the cosmos, packed as it is in a mortal frame, also renders her vulnerable to psychological stimuli, where extreme stress or the loss of focus could either negate her powers or trap her in her celestial form permanently. Thus, The Power Astral is not merely a set of supernatural abilities but a complex legacy that balances immense strength with profound vulnerability, casting Stella as a paragon of cosmic duality and human resilience.
-    Stella lives in West Village near the river, in a carriage house converted to a loft and garage after the old mansion it was attached to was torn down. She is an undergraduate physics major at Empire State University, with an eye towards a doctorate in astrophysics. Her maternal grandparents have a restaurant (Pizzeria and Greek Diner)/specialty grocery/bodega at the edge of SoHo where it meets Little Italy, Nonna Maria's Pizza and Gyros. Not far away, the same grandfather operates the nearby (in Little Italy near SoHo and Chinatown) Kratos Athletic Club, a gym that features wrestling, boxing, and gymnastics along with weights and an authentic Turkish Bath.
+    Stella lives in West Village near the river, in a carriage house converted to a loft and garage after the old mansion it was attached to was torn down. She is an undergraduate physics major at Empire State University, with an eye towards a doctorate in astrophysics. Her maternal grandparents have a restaurant (Pizzeria and Greek Diner)/specialty grocery/bodega at the edge of SoHo where it meets Little Italy, Nonna Maria's Pizza and Gyros. Not far away, the same grandfather operates the nearby (in Little Italy near SoHo and Chinatown) Kratos Athletic Club, a gym that features wrestling, boxing, and gymnastics along with weights and an authentic Turkish Bath, the Kalliopi Arcade on South Street Pier, and several apartment buildings, parking garages and lots, and commercial rentals.
