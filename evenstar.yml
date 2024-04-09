@@ -206,7 +206,7 @@ Hero:
           Cosmic Awareness:
             Rank: Monstrous
             Number: 75
-            Note: Occasional flashes of Cosmic Awareness as Stella
+            Note: Occasional flashes of Cosmic Awareness as Stella.
           Hyper Intelligence:
             Rank: Monstrous
             Number: 75
@@ -383,13 +383,13 @@ Hero:
               Knows Secret: Yes
               Note: Stella retains Ms. Walters as an attorney for Evenstar-related issues.
           Journalism:
-            Peter Parker:
+            Peter Parker / Spider-Man:
               Stella: Yes
               Evenstar: Yes
               Knows Secret: No
               Note: Stella knows Peter as a classmate from ESU, Evenstar knows Spider-Man, neither know the other's secret.
           Crime:
-            Dominikos Petrakis:
+            Dominikos Petrakis / Avalanche:
               Stella: Yes
               Evenstar: No
               Knows Secret: No
@@ -419,7 +419,7 @@ Hero:
               Stella: Yes
               Evenstar: Yes
               Knows Secret: Yes
-              Note: Stella knows him as part of the NYC Greek community.  Regular at herEntrusted with her secret.
+              Note: Stella knows him as part of the NYC Greek community.  Regular at her family's restaurant.  Entrusted with her secret.
             Apalla the Sun Queen:
               Stella: Yes
               Evenstar: Yes
