@@ -15,6 +15,7 @@ Hero:
     Duration: Continuous with Contact
     Conditions:
       - Extreme stress leading loss of focus and inner balance may cause reversion to Alter Ego and the accompanying loss of powers.
+    Notes:
       - Overuse of powers could make transformation to Evenstar permanent.
       - Possibility of Cosmic Awareness overload, especially as Stella.
   Abilities:
@@ -88,7 +89,9 @@ Hero:
           Resistance to Emotion Attacks:
             Rank: Unearthly
             Number: 100
-            Note: Minimum of Psyche +1 CS
+            Notes:
+              - Minimum of Psyche +1 CS
+              - Stella has this power at Incredible (40)
           Resistance to Energy Attacks:
             Rank: Monstrous
             Number: 75
@@ -101,7 +104,9 @@ Hero:
           Resistance to Mental Attacks:
             Rank: Unearthly
             Number: 100
-            Note: Minimum of Psyche +1 CS
+            Notes:
+              - Minimum of Psyche +1 CS
+              - Stella has this power at Incredible (40)
           Resistance to Vampirism:
             Rank: Monstrous
             Number: 75
@@ -132,6 +137,7 @@ Hero:
           Thermal Vision:
             Rank: Incredible
             Number: 40
+            Note: Consciously-Activated
           True Sight:
             Rank: Monstrous
             Number: 75
@@ -206,7 +212,7 @@ Hero:
           Cosmic Awareness:
             Rank: Monstrous
             Number: 75
-            Note: Occasional flashes of Cosmic Awareness as Stella.
+            Note: Occasional flashes of Cosmic Awareness as Stella.  Stella must make a Psyche FEAT of a color based on the Intensity of manifestation or be overloaded, using the Stun column of the Effects portion of the Universal Table.
           Hyper Intelligence:
             Rank: Monstrous
             Number: 75
@@ -214,7 +220,7 @@ Hero:
           Incarnation Awareness:
             Rank: Monstrous
             Number: 75
-            Note: The past incarnation is the star whose power she inherited rather than any past lives Stella may have had. This power is available to Stella.
+            Note: The past incarnation is the star whose power she inherited rather than any past lives Stella may have had, and any prior stars whose cycle of death and rebirth lead directly to its existence, since the beginning of the universe. This power is available to Stella.
           Total Memory:
             Rank: Monstrous
             Number: 75
@@ -243,15 +249,16 @@ Hero:
           Alter Ego:
             Rank: No Rank
             Note: |
-              Only Evenstar possesses Powers. The Alter Ego, Stella does not, except for Incarnation Awareness, Total Memory, and the occasional flash of Cosmic Awareness.
+              Only Evenstar possesses Powers. The Alter Ego, Stella does not, except for Resistance to Mental and Emotion Attacks (albeit reduced), Incarnation Awareness, Total Memory, and the occasional flash of Cosmic Awareness.
               Evenstar's costume is part of the transformation. Stella's clothing reappears when she transforms back.
           Energy Body:
             Light:
               Rank: Amazing
               Number: 50
             Plasma:
-              Rank: Monstrous
-              Number: 75
+              Rank: Unearthly
+              Number: 100
+              Limitation: Only works outside atmosphere.
           Energy Sheath:
             Light:
               Rank: Amazing
@@ -399,7 +406,7 @@ Hero:
               Stella: Yes
               Evenstar: No
               Knows Secret: No
-              Note: Stella knows her as part of the NYC Greek community.  Elektra's father and Stella's grandfather were close.
+              Note: Stella knows her as part of the NYC Greek community.  Elektra's father Hugo and Stella's grandfather Konstantinos were close.
         Scientific Contacts:
           Physics:
             Reed Richards:
@@ -419,18 +426,18 @@ Hero:
               Stella: Yes
               Evenstar: Yes
               Knows Secret: Yes
-              Note: Stella knows him as part of the NYC Greek community.  Regular at her family's restaurant.  Entrusted with her secret.
+              Note: Stella knows him as part of the NYC Greek community.  Friends with her Pappous and a longtime regular at her family's restaurant.  Entrusted with her secret shortly after Stella was first endowed with The Power Astral.
             Apalla the Sun Queen:
               Stella: Yes
               Evenstar: Yes
               Knows Secret: Yes
-              Note: Apalla, as the embodiment of the Earth's sun, was entrusted by the dying star to look out for Stella when it chose a human from Earth as its cosmic heiress.
+              Note: Apalla, as the embodiment of the Earth's sun, was entrusted by the dying star to look out for Stella when it chose a human from Earth as its cosmic heiress. Her close relationship with Doctor Strange facilitates Stella's mentorship.
   Description: |
     **Stella Blake**, a young dynamo from the heart of Manhattan, stands with a poise that's a touch above the crowd. Her athletic silhouette is a testament to countless hours balancing the rigors of academia and the demands of a bustling city life. Her raven-black waves cascade like a waterfall, a stark contrast to her sun-kissed, Mediterranean skin. But it's those piercing emerald eyes that truly tell her story - a tale of dreams, destiny, and the dance of the stars.
     When the cosmos beckon and Stella heeds the call, she transforms into the radiant **Evenstar**, a heroine draped in the very fabric of the universe, a tapestry of twinkling stars, swirling nebulae, and distant galaxies. Her cosmic attire, sleek and form-fitting, boasts a deep celestial palette, punctuated by a silvery V-neckline that plunges to a star emblem, the very heart of her cosmic identity. Each fold of her majestic cloak, billowing like the night sky,is chapter of the cosmos she's sworn to explore and protect.
     Stella's path to cosmic greatness wasn't some walk in Central Park. A starry-eyed teen with a penchant for physics, her world was turned upside-down when a celestial titan, a star on the brink of oblivion, chose her as its cosmic heir. This starry essence fused with Stella, gifting her with powers that'd make even the mightiest of heroes tip their hat.
-    Back on terra firma, Stella's a regular Jane, juggling the challenges of college life with shifts at **Nonna Maria's Pizza and Gyros**, the local joint run by the ever-charming duo, Konstantinos "Pappous Kostas" and Maria Theresa "Nonna" Athanasiou. Whether she's hitting the books or dishing out slices, Stella's tale is one of duality - a dance between the wonders of the cosmos and the rhythm of the Big Apple.
+    Back on terra firma, Stella's a regular Jane, juggling the challenges of college life with shifts at **Nonna Maria's Pizza and Gyros**, the local joint run by her maternal grandparents, **Konstantinos "Pappous Kostas" Athanasiou** and **Maria Theresa "Nonna" Athanasiou**. Whether she's hitting the books, the mats, or dishing out slices, Stella's tale is one of duality - a dance between the wonders of the cosmos and the rhythm of the Big Apple.
     Stella's two worlds are a study in contrasts. By day, she's the diligent student, her gaze often lost in thought or fixed on some distant star. But when duty calls, as Evenstar, she's the very embodiment of cosmic valor, a beacon of hope in a universe filled with endless wonders and dangers.
-    The Power Astral that Stella Lucia Blake, also known as Evenstar, received from a celestial titan at the brink of oblivion is a profound testament to the interstellar legacy bestowed upon her. This endowment not only transformed her physical, but also imbued her with a suite of cosmic abilities that defy the very laws of physics as we understand them. The Power Astral is a cosmic endowment that has woven the fabric of the universe into the core of her being. Each ability, from manipulating gravity to emitting plasma, serves as a thread in the vast tapestry of powers that Stella wields as Evenstar. These powers are not just tools but extensions of her very essence, shaped by the cosmic forces that chose her as their champion.
-    The psychological depth of Stella's transformation into Evenstar is mirrored in the duality of her existence. As Stella, she embodies the humility and warmth of human life, whereas, as Evenstar, she transcends to a celestial domain, becoming a custodian of cosmic balance-- in her words, "Me, but a star". This duality is a poignant reflection of her journey, marked by the slow aging process akin to being near a collapsing star---a metaphor for the timeless burden she bears. Her powers, while magnificent, come with their challenges. The very essence that makes her a beacon of hope in the cosmos, packed as it is in a mortal frame, also renders her vulnerable to psychological stimuli, where extreme stress or the loss of focus could either negate her powers or trap her in her celestial form permanently. Thus, The Power Astral is not merely a set of supernatural abilities but a complex legacy that balances immense strength with profound vulnerability, casting Stella as a paragon of cosmic duality and human resilience.
-    Stella lives in West Village near the river, in a carriage house converted to a loft and garage after the old mansion it was attached to was torn down. She is an undergraduate physics major at Empire State University, with an eye towards a doctorate in astrophysics. Her maternal grandparents have a restaurant (Pizzeria and Greek Diner)/specialty grocery/bodega at the edge of SoHo where it meets Little Italy, Nonna Maria's Pizza and Gyros. Not far away, the same grandfather operates the nearby (in Little Italy near SoHo and Chinatown) Kratos Athletic Club, a gym that features wrestling, boxing, and gymnastics along with weights and an authentic Turkish Bath, the Kalliopi Arcade on South Street Pier, and several apartment buildings, parking garages and lots, and commercial rentals.
+    **The Power Astral** that **Stella Lucia Blake**, also known as **Evenstar**, received from a celestial titan at the brink of oblivion is a profound testament to the interstellar legacy bestowed upon her. This endowment not only transformed her physical, but also imbued her with a suite of cosmic abilities that defy the very laws of physics as we understand them. The Power Astral is a cosmic endowment that has woven the fabric of the universe into the core of her being. Each ability, from manipulating gravity to emitting plasma, serves as a thread in the vast tapestry of powers that Stella wields as Evenstar. These powers are not just tools but extensions of her very essence, shaped by the cosmic forces that chose her as their champion.
+    The psychological depth of Stella's transformation into **Evenstar** is mirrored in the duality of her existence. As Stella, she embodies the humility and warmth of human life, whereas, as Evenstar, she transcends to a celestial domain, becoming a custodian of cosmic balance-- in her words, "Me, but a star". This duality is a poignant reflection of her journey, marked by the slow aging process akin to being near a collapsing star---a metaphor for the timeless burden she bears. Her powers, while magnificent, come with their challenges. The very essence that makes her a beacon of hope in the cosmos, packed as it is in a mortal frame, also renders her vulnerable to psychological stimuli, where extreme stress or the loss of focus could either negate her powers or trap her in her celestial form permanently. Thus, The Power Astral is not merely a set of supernatural abilities but a complex legacy that balances immense strength with profound vulnerability, casting Stella as a paragon of cosmic duality and human resilience.
+    Stella lives in West Village on the riverfront, in a carriage house converted to a loft and garage after the old, formerly-stately mansion it was attached to was torn down, owned by the family trust. She is an undergraduate physics major at Empire State University, with an eye towards a doctorate in astrophysics. Her maternal grandparents have a restaurant (Pizzeria and Greek Diner)/specialty grocery/bodega at the edge of SoHo where it meets Little Italy, **Nonna Maria's Pizza and Gyros**, where she works as a server and delivery driver. Not far away, the same grandfather operates the nearby (in Little Italy near SoHo and Chinatown) **Kratos Athletic Club**, a gym that features wrestling, boxing, and gymnastics along with weights and an authentic Turkish Bath, where Stella trains her body, the **Kalliopi Arcade** on South Street Pier, and several apartment buildings, parking garages and lots, and commercial rentals.  The latter three have begun to be managed by her uncles as the scope grew.
