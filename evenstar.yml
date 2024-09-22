@@ -91,7 +91,7 @@ Hero:
             Number: 100
             Notes:
               - Minimum of Psyche +1 CS
-              - Stella has this power at Incredible (40)
+              - Stella has this power at Incredible (40) from the Resist Domination Talent
           Resistance to Energy Attacks:
             Rank: Monstrous
             Number: 75
@@ -106,7 +106,7 @@ Hero:
             Number: 100
             Notes:
               - Minimum of Psyche +1 CS
-              - Stella has this power at Incredible (40)
+              - Stella has this power at Incredible (40) from the Resist Domination Talent
           Resistance to Vampirism:
             Rank: Monstrous
             Number: 75
@@ -249,7 +249,7 @@ Hero:
           Alter Ego:
             Rank: No Rank
             Note: |
-              Only Evenstar possesses Powers. The Alter Ego, Stella does not, except for Resistance to Mental and Emotion Attacks (albeit reduced), Incarnation Awareness, Total Memory, and the occasional flash of Cosmic Awareness.
+              Only Evenstar possesses Powers. The Alter Ego, Stella does not, except for Resistance to Mental and Emotion Attacks (albeit reduced, as a result of her Resist Domination Talent), Incarnation Awareness, Total Memory, and the occasional flash of Cosmic Awareness.
               Evenstar's costume is part of the transformation. Stella's clothing reappears when she transforms back.
           Energy Body:
             Light:
@@ -298,6 +298,7 @@ Hero:
           - Biology
           - Physics
           - Computers
+          - Electronics
         Other Talents:
           - First Aid
           - Repair/Tinkering
@@ -312,6 +313,7 @@ Hero:
               Speed: Excellent
               Body: Good
               Protection: Poor
+              Special: Winch, Air compressor with tank, welder/generator, CB Radio, Ham Radios, Police Scanners, Public Address, Siren, Air Horn, hidden kill switch, Diff Lockers, Off-Road Lights, Spotlights, Work Lights, water heater and pumps with tanks, trail vise, propane tank, Mini-TV with VCR, Car Phone, GPS, CD Changer, premium sound system, tailgate table, fold-out propane grill/camp stove combo, camp cooking tools, pioneer tools (shovel, axe, pick), lockboxes, recovery tools, automotive tool kit, first aid kit, survival kit, roadside emergency kit, multitool, towels, fresh water, snacks, cooler, thermos, rain poncho, rain boots, change of clothes, heavy blanket, work gloves, protective goggles, Fire Extinguisher (Good Intensity), Flashlight (Typical Intensity, 2 Areas), Flare Pistol (Good Incendiary)
           - Motorcycle:
               Type: Off-Road
               Control: Typical
@@ -319,6 +321,7 @@ Hero:
               Body: Poor
               Protection: Shift-0
               Note: A Motorcycle that goes out of control cannot be brought under control until it comes to a stop. Cycle riders may reduce damage by one rank by wearing adequate headgear. Seats two.
+              Special: Insulated delivery box to keep hot things hot and cold things cold, lockable, made of diamondplate steel (Remarkable material) mounted on luggage rack, locking helmet box, saddlebags, tank bags, backrest, windscreen, engine guard, tank bags, CB Radio, Public Address, spotlight, footboards, rain gear, first aid kit, roadside emergency kit, motorcycle tool kit
         Headquarters:
           Medium House:
             Status: Owned
