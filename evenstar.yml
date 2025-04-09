@@ -317,7 +317,7 @@ Hero:
               Body: Poor
               Protection: Shift-0
               Note: A Motorcycle that goes out of control cannot be brought under control until it comes to a stop. Cycle riders may reduce damage by one rank by wearing adequate headgear. Seats two.
-              Special: Insulated delivery box to keep hot things hot and cold things cold, lockable, made of diamondplate steel (Remarkable material) mounted on luggage rack, locking helmet box, saddlebags, tank bags, backrest, windscreen, engine guard, tank bags, CB Radio, Public Address, spotlight, footboards, rain gear, first aid kit, roadside emergency kit, motorcycle tool kit.
+              Special: Insulated delivery box to keep hot things hot and cold things cold, lockable, made of diamondplate steel (Remarkable material) mounted on luggage rack with a locking helmet box on top, saddlebags, tank bags, backrest, windscreen, engine guard, CB Radio with PA, footboards, rain gear, first aid kit, roadside emergency kit, motorcycle tool kit.
               Description: A black 1983 Honda CB450SC, bought used and rebuilt and upfitted for delivery by Pappous and Stella.
         Headquarters:
           Medium House:
@@ -352,6 +352,7 @@ Hero:
               Type: Normal
               Intensity: Typical
               Range: 2 Areas
+              Note: Mini Mag-Lite.  She carries spare batteries.
           - Camera:
               Accessories:
                 - Film
@@ -364,9 +365,11 @@ Hero:
                     - Wide-Angle Lens
                     - Macro Lens
                     - Fisheye Lens
+              Note: Nikon F-401 QD
           - Personal Computer:
               Reason: Poor
               Modem: Yes
+              Note: Macintosh SE
           - Roller Skates:
               Note: +3CS Movement Speed
           - Mace:
@@ -381,6 +384,7 @@ Hero:
                 - Edged Attack
                 - Edged Throwing
               Strength: Excellent
+              Note: An old-style Navy-issue sailor's knife with a pair of blades (clip-point and sheepsfoot), marlinspike, shackle tool, and can opener.
       Contacts:
         Professional Contacts:
           Law:
