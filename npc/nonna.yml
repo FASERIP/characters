@@ -1,0 +1,180 @@
+Hero:
+  Game System: TSR Marvel Super Heroes RPG Advanced/2nd Edition
+  Name: Nonna Maria
+  Identity: Maria Teresa "Nonna Maria" Athanasiou (née Aiello)
+  Secret: No
+  Base of Operations: Manhattan
+  Group Affiliation: None
+  Era: Bronze-Iron Transition (Mid 1980's-Early 1990's)
+  Continuity: Earth-1986
+  Age: 66
+  DoB: 1920-04-20T01:23:00+01
+  Origin:
+    Physical Form: Normal Human
+    Origin of Power: Self-Achievement
+  Abilities:
+    Primary Abilities:
+      Fighting:
+        Rank: Typical
+        Number: 6
+      Agility:
+        Rank: Typical
+        Number: 6
+      Strength:
+        Rank: Poor
+        Number: 4
+      Endurance:
+        Rank: Good
+        Number: 10
+      Reason:
+        Rank: Good
+        Number: 10
+      Intuition:
+        Rank: Remarkable
+        Number: 30
+      Psyche:
+        Nonna:
+        Rank: Remarkable
+        Number: 30
+    Secondary Abilities:
+      Health: 26
+      Karma: 70
+      Resources:
+        Rank: Remarkable
+        Number: 30
+      Popularity: 20
+    Special Abilities:
+      Talents:
+        Professional Skills:
+          - Business/Finance
+        Mystic and Mental Skills:
+          - Occult Lore
+          - Mystic Background
+        Other Talents:
+          - First Aid
+          - Languages (Italian, Greek, Spanish, French)
+        Magic Wielder Talents:
+          - Bibliophile
+          - Demonologist
+          - Occultist
+          - Runesmith
+          - Theoginist
+      Magic:
+        Character Type: Magic Wielder
+        Magic School: Eclectic Magic
+        Energy Use: All Energies
+        Rank: Disciple
+        Master: None
+        Spells:
+          - Charm:
+              Rank: Excellent
+              Number: 20
+          - Foretelling:
+              Rank: Excellent
+              Number: 20
+          - Forgetfulness:
+              Rank: Excellent
+              Number: 20
+          - Gramarye:
+              Rank: Excellent
+              Number: 20
+          - Luck:
+              Rank: Excellent
+              Number: 20
+          - Mental Barrier:
+              Rank: Excellent
+              Number: 20
+          - Post-Cognition:
+              Rank: Excellent
+              Number: 20
+          - Sensing-Evil:
+              Rank: Excellent
+              Number: 20
+          - Sensing-Fields:
+              Rank: Excellent
+              Number: 20
+          - Sensing-Mystical Detection:
+              Rank: Excellent
+              Number: 20
+          - Trance:
+              Rank: Excellent
+              Number: 20
+      Equipment:
+        Vehicles:
+          - Luxury Car:
+              Type: Road
+              Control: Poor
+              Speed: Good
+              Body: Excellent
+              Protection: Good
+              Description: 1980 Cadillac Fleetwood Brougham 368
+        Headquarters:
+          - Brownstone (Owned), SoHo, Residential floors above restaurant/grocery
+          - Office Floor (Owned), SoHo, Nonna Maria's Pizza and Gyros (Greek Diner, Pizzeria, Café, Bakery, Delicatessen, Specialty Grocer, Bodega)
+        Other Equipment:
+          - Seemingly endless supply of crucifixes, icons, holy water, annointing oil, and other trinkets and relics blessed by the Pope or Patriarch
+          - Tarot Cards
+          - Playing Cards
+          - Wooden Spoon
+          - Oversized vintage designer purse with endless supply of grandma candies, cosmetics, and tissues
+          - Alpha Business Grandma wardrobe and jewelry
+          - Card-playing-night cigars, matches, and accessories
+          - The Recipe Book
+          - Cat-eye reading glasses with a Tiffany-beaded frame chain
+          - Knife:
+              Damage: 10
+              Type:
+                - Edged Attack
+                - Edged Throwing
+              Strength: Excellent
+              Description: An antique, ivory-handled stiletto from Italy.
+          - Cheap Handgun:
+              Range: 2
+              Damage: 6
+              Type: Shooting
+              Rate: 1
+              Shots: 6
+              Material Strength:
+                Rank: Poor
+                Number: 4
+              Notes: 
+                - One-handed
+                - No special ammo
+              Description: Baby Browning .25 ACP purse pistol
+          - Mace:
+              Effect: Tear Gas
+              Intensity: Typical
+              Targets: 1
+              Range: Adjacent Area
+              Note: Foes not require an Agility FEAT to hit, target resists with an Endurance FEAT.
+    Contacts:
+      Professional Contacts:
+        Law:
+          - Matt Murdock
+          - Foggy Nelson: Represents her business
+        Military:
+          - Steve Rogers: Met in 1942 at BNY, occasional diner at her restaurant
+        Journalism:
+          - Peter Parker: Has an ever-growing tab at the restaurant
+      Mystical Contacts:
+        Mystic Arts:
+          - Stephen Strange: Tarocchi Night Occasional Player, Regular Observer
+          - Wong: Tarocchi Night Regular Player
+          - Agatha Harkness: Tarocchi Night Regular Player, occasionally banned for excess smack talk, always reinvited because she's a good player, often Wong's partner by default, but it works out somehow
+          - Lilia Calderu: Usual Tarocchi Partner, they speak Extreme Southern Italian together that no one else understands
+          - Wanda Maximoff: Semi-Regular Tarocchi Night Player
+          - Illyana Rasputin: Occasional Tarocchi Night Player
+          - Anthony Druid: Occasional Tarocchi Night Player
+        Occult Lore:
+          - Blade
+        Mythology:
+          Hercules Panhellenios: Longtime regular at her restaurant, close friend of her husband's.
+          Loki Laufeyson: Occasional Tarocchi Player, surprisingly, plays the game very sincerely and seriously, speculates Nonna might be a Norn, Allspeak understands Nonna and Lilia's ESI, allowing participation when present
+      Political Contacts:
+        Other National: 
+          - Pope John Paul II
+          - Victor Von Doom: Occasional Tarocchi Player when in New York, the Latverian Embassy buys hard-to-source Eastern and Central European specialty foods at her grocery-bodega
+  Biography: |
+    Maria Teresa "Nonna Maria" Athanasiou (née Aiello) is Stella Blake's  (alter ego of the cosmic hero Evenstar) maternal grandmother. She immigrated to New York City from Calabria, Italy as a child. Maria worked odd jobs to make ends meet, and went to a vocational training program for secretarial work after high school. When World War II broke out, Maria worked at the Brooklyn Naval Yards as a "Rosie," and scrimped and saved every dime she could. After the war she married Konstantinos Theódoros Athanasiou, and worked as a secretary until they'd saved enough money to open the restaurant and grocery in 1947.
+
+    A petite but spry and fiery woman with curly black hair shot with grey, dark olive skin, and hazel eyes, Nonna Maria is the family matriarch and its de-facto head. She is gregarious, warm, and nurturing, but can be somewhat stern. The kitchen genius behind the restaurant, Nonna Maria also keeps the books, which is likely the reason Stella's mother, Sophia, became an accountant. Nonna is a practicing Stregha, telling fortunes in a room in the back of the restaurant. The Aiellos distant Jewish roots, having been forcibly converted from Judaism in the 1490s, due to the Alhambra Decree, have her Stregheria tinged with Kabbalistic practices as well.

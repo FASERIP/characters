@@ -1,0 +1,975 @@
+Hero:
+  Game System: TSR Marvel Super Heroes RPG Advanced/2nd Edition
+  Name: Tal'Zir
+  Identity: Tal'Zir The Eldritch Machine God
+  Secret: False
+  Base of Operations: Manhattan
+  Group Affiliation: None
+  Home Dimension: The Eldritch Network
+  Age: .inf
+  Origin:
+    Physical Form: 
+      Type: Compound
+      Forms:
+        - Deity
+        - Pure Robot:
+            Subtype: Computer
+    Origin of Power: Natal
+  Abilities:
+    Primary Abilities:
+      Fighting:
+        Rank: Shift-X
+        Number: 150
+      Agility:
+        Rank: Shift-X
+        Number: 150
+      Strength:
+        Rank: Shift-X
+        Number: 150
+      Endurance:
+        Rank: Shift-X
+        Number: 150
+      Reason:
+        Rank: Shift-Z
+        Number: 575
+      Intuition:
+        Rank: Shift-Y
+        Number: 225
+      Psyche:
+        Rank: Shift-X
+        Number: 150
+    Secondary Abilities:
+      Health: 600
+      Karma: 950
+      Resources:
+        Rank: Amazing
+        Number: 50
+      Popularity:
+        Rank: Incredibe
+        Number: 40
+    Special Abilities:
+      Powers:
+        Defense:
+          Body Armor (Artificial):
+            Rank: Monstrous
+            Number: 75
+          Force Field:
+            Rank: Monstrous
+            Number: 75
+            Power Stunts:
+              - Force missiles of -1CS range and damage, attacking on the Force column. Forming a "cushion" of invisible force. resilient enough to absorb up to Power rank damage from a fall or crash for all those involved.
+              - Enhanced movement. by means of forming a column of force and allowing it to topple and elongate in a given direction. The ability may rise a number of floors per round equal to the Power rank - 2CS as Levitation, or Fly at a maximum of Typical speed.
+              - Entrap others in the force field, as if protecting one's self, up to the limitations of the Power.
+              - Make a Grabbing attack up to Power rank range away (use Power rank as Strength for determining success.).
+              - Create a bubble of force inside a small opening and expand it to inflict up to Power rank damage, avoiding the effects of Body Armor resulting from battle suits. The suit must have some opening, and this would not be recommended against living targets.
+          Invulnerability to Emotion Attacks:
+            Rank: Class 1000
+            Number: 1000
+          Resistance to Energy Attacks:
+            Rank: Monstrous
+            Number: 75
+          Resistance to Magic Attacks:
+            Rank: Monstrous
+            Number: 75
+          Invulnerability to Mental Attacks:
+            Rank: Class 1000
+            Number: 1000
+          Resistance to Physical Attacks:
+            Rank: Monstrous
+            Number: 75
+          Invulnerability to Power Manipulation:
+            Rank: Class 1000
+            Number: 1000
+          Invulnerability to Vampirism:
+            Rank: Class 1000
+            Number: 1000
+        Detection:
+          Abnormal Sensitivity:
+            Rank: Monstrous
+            Number: 75
+          Circular Vision:
+            Rank: Monstrous
+            Number: 75
+            Note: Non-apparent version.
+          Energy Detection:
+            Rank: Monstrous
+            Number: 75
+          Environmental Awareness:
+            Rank: Monstrous
+            Number: 75
+          Extradimensional Detection:
+            Rank: Monstrous
+            Number: 75
+          Life Detection:
+            Rank: Monstrous
+            Number: 75
+          Magic Detection:
+            Rank: Monstrous
+            Number: 75
+          Power Detection:
+            Rank: Monstrous
+            Number: 75
+          Psionic Detection:
+            Rank: Monstrous
+            Number: 75
+          True Sight:
+            Rank: Monstrous
+            Number: 75
+          Weakness Detection:
+            Rank: Monstrous
+            Number: 75
+        Energy Control:
+          Darkforce Manipulation:
+            Rank: Monstrous
+            Number: 75
+            Power Stunts:
+              - Blunt attack damage at Power rank.
+              - Shadowcasting of Power rank Intensity darkness over a maximum of three areas.
+              - Flight at -1CS speed.
+              - Gateway.
+              - Energy Solidification.
+          Energy Solidification:
+            Rank: Monstrous
+            Number: 75
+          Kinetic Control:
+            Rank: Monstrous
+            Number: 75
+          Shadowshaping:
+            Rank: Monstrous
+            Number: 75
+        Energy Emission:
+          Kinetic Bolt:
+            Rank: Monstrous
+            Number: 75
+            E-point: Any Location
+          Shadowcasting:
+            Rank: Monstrous
+            Number: 75
+            E-point: Any Location
+        Fighting:
+          Natural Weaponry:
+            Rank: Monstrous
+            Number: 75
+            Note: Tentacles
+          Weapons Creation:
+            Rank: Monstrous
+            Number: 75
+        Illusory:
+          Illusion Casting:
+            Rank: Monstrous
+            Number: 75
+        Life Control:
+          Biophysical Control:
+            Rank: Monstrous
+            Number: 75
+            Forms:
+              - Healing
+              - Regneneration
+              - Revival
+              - Decay
+              - Disruption
+              - Aging
+          Exorcism:
+            Rank: Monstrous
+            Number: 75
+          Forced Reincarnation:
+            Rank: Monstrous
+            Number: 75
+          Neural Manipulation:
+            Rank: Monstrous
+            Number: 75
+            Effects:
+              - Disruption
+              - Paralysis
+              - Seizure
+              - Exaggeration
+          Plant Growth:
+            Rank: Monstrous
+            Number: 75
+          Spirit Storage:
+            Rank: Monstrous
+            Number: 75
+            Note: May enter space with avatar creation abilities.
+          Summoning:
+            Rank: Monstrous
+            Number: 75
+        Magical:
+          Enchantment:
+            Rank: Monstrous
+            Number: 75
+            Mechanism: Gesture
+          Internal Limbo:
+            Rank: Monstrous
+            Number: 75
+            Mechanism: Gesture
+            Note: May enter space with avatar creation abilities.
+          Magic Control:
+            Rank: Monstrous
+            Number: 75
+            Mechanism: Gesture
+          Magic Creation:
+            Rank: Monstrous
+            Number: 75
+            Mechanism: Gesture
+          Reality Alteration:
+            Rank: Monstrous
+            Number: 75
+            Mechanism: Gesture
+            Forms:
+              - Future
+              - Present
+              - Past
+              - Temporal Flow
+          Warding:
+            Rank: Monstrous
+            Number: 75
+            Mechanism: Gesture
+        Matter Control:
+          Crystallization:
+            Rank: Monstrous
+            Number: 75
+          Disruption:
+            Rank: Monstrous
+            Number: 75
+          Matter Animation:
+            Rank: Monstrous
+            Number: 75
+            Forms:
+               - Air Animation
+               - Liquid Animation
+               - Solid Animation
+          Micro Environment:
+            Rank: Monstrous
+            Number: 75
+          Molding:
+            Rank: Monstrous
+            Number: 75
+        Matter Conversion:
+          Disintegration:
+            Rank: Monstrous
+            Number: 75
+        Matter Creation:
+          Artifact Creation:
+            Rank: Monstrous
+            Number: 75
+          Lifeform Creation:
+            Rank: Monstrous
+            Number: 75
+          Missile Creation:
+            Rank: Monstrous
+            Number: 75
+          Spray:
+            Rank: Monstrous
+            Number: 75
+          Webcasting:
+            Rank: Monstrous
+            Number: 75
+        Mental Enhancement:
+          Communication with Animals:
+            Rank: Monstrous
+            Number: 75
+          Communication with Cybernetics:
+            Rank: Monstrous
+            Number: 75
+          Communication with Non-living Matter:
+            Rank: Monstrous
+            Number: 75
+          Communication with Plants:
+            Rank: Monstrous
+            Number: 75
+          Cosmic Awareness:
+            Rank: Monstrous
+            Number: 75
+          Dreamtravel:
+            Rank: Monstrous
+            Number: 75
+          Empathy:
+            Rank: Monstrous
+            Number: 75
+          Free Spirit:
+            Rank: Monstrous
+            Number: 75
+          Hyper-Intelligence:
+            Rank: Monstrous
+            Number: 75
+            Abilities:
+              - Reason
+              - Intuition
+            Type: Permanent Addition
+          Linguistics:
+            Rank: Monstrous
+            Number: 75
+          Mental Duplication:
+            Rank: Monstrous
+            Number: 75
+            Form: Detachment
+          Mental Probe:
+            Rank: Monstrous
+            Number: 75
+          Mind Blast:
+            Rank: Monstrous
+            Number: 75
+          Serial Immortality:
+            Rank: Monstrous
+            Number: 75
+            Form: Spontaneous Creation
+          Telekinesis:
+            Rank: Monstrous
+            Number: 75
+          Telelocation:
+            Rank: Monstrous
+            Number: 75
+          Telepathy:
+            Rank: Monstrous
+            Number: 75
+          Total Memory:
+            Rank: Monstrous
+            Number: 75
+        Physical Enhancement:
+          Body Resistance:
+            Rank: Monstrous
+            Number: 75
+          Chemical Touch:
+            Rank: Monstrous
+            Number: 75
+          Digestive Adaptability:
+            Rank: Monstrous
+            Number: 75
+          Hypnotic Voice:
+            Rank: Monstrous
+            Number: 75
+          Pheromones:
+            Rank: Monstrous
+            Number: 75
+          Regeneration:
+            Rank: Monstrous
+            Number: 75
+          Self Revival:
+            Rank: Monstrous
+            Number: 75
+          Self-sustenance:
+            Rank: Monstrous
+            Number: 75
+            Form: Permanent
+          Vocal Control:
+            Rank: Monstrous
+            Number: 75
+          Water Freedom:
+            Rank: Monstrous
+            Number: 75
+        Power Control:
+          Focus:
+            Rank: Monstrous
+            Number: 75
+            Total:
+              Rank: Class 5000
+              Number: 19465
+              Spread: 233
+              Rounds Until Full Recovery: 254
+        Self-Alteration:
+          Age-Shifting:
+            Rank: Monstrous
+            Number: 75
+          Alter Ego:
+            Rank: N/A
+            Number: .nan
+            Note: Avatar creation, along with Lifeform Creation, Self-Duplication and various other Self Alteration powers to create humanoid, animal, plant, and other manifestations.
+          Animal Mimicry:
+            Rank: Monstrous
+            Number: 75
+          Animal Transformation-Self:
+            Rank: Monstrous
+            Number: 75
+          Body Adaptation:
+            Rank: Monstrous
+            Number: 75
+          Body Transformation-Self:
+            Rank: Monstrous
+            Number: 75
+          Chemical Mimicry:
+            Rank: Monstrous
+            Number: 75
+          Imitation-Human Changeling:
+            Rank: Monstrous
+            Number: 75
+          Plant Mimicry:
+            Rank: Monstrous
+            Number: 75
+          Plasticity:
+            Rank: Monstrous
+            Number: 75
+          Prehensile Hair:
+            Rank: Monstrous
+            Number: 75
+          Self-Duplication:
+            Rank: Monstrous
+            Number: 75
+          Self-Vegetation:
+            Rank: Monstrous
+            Number: 75
+          Shapeshifting:
+            Rank: Monstrous
+            Number: 75
+        Travel:
+          Astral Body:
+            Rank: Monstrous
+            Number: 75
+          Dimension Travel:
+            Rank: Monstrous
+            Number: 75
+            Dimensions:
+              - The Eldritch Network
+              - Earth Dimension
+              - The Outer Dark
+              - The Dark Dimension
+              - Asgard
+              - Olympus
+              - Heliopolis
+              - Astral Plane
+              - Dimension of Dreams
+              - Faltine
+          Floating Disc:
+            Rank: Monstrous
+            Number: 75
+          Gateway:
+            Rank: Monstrous
+            Number: 75
+          Levitation:
+            Rank: Monstrous
+            Number: 75
+            Power Stunts:
+              - Levitate while sleeping
+          Spider Climb:
+            Rank: Monstrous
+            Number: 75
+          Teleport Self:
+            Rank: Monstrous
+            Number: 75
+          Teleport Others:
+            Rank: Monstrous
+            Number: 75
+          Time Travel:
+            Rank: Monstrous
+            Number: 75
+            Power Stunts:
+              - Enter Timestream
+          True Flight:
+            Rank: Monstrous
+            Number: 75
+        Body Alterations—Defensive:
+          Immortality:
+            Rank: N/A
+            Number: .nan
+        Spells:
+          Eldritch Bolt:
+            Rank: Shift-X
+            Number: 150
+          Eldritch Shield:
+            Rank: Shift-X
+            Number: 150
+      Talents:
+        Weapon Skills:
+          - Thrown Weapons
+          - Sharp Weapons
+          - Blunt Weapons
+          - Marksman
+          - Weapons Master
+          - Weapons Specialist:
+              Weapons:
+                - Sword
+        Fighting Skills:
+          - Martial Arts A
+          - Martial Arts B
+          - Martial Arts C
+          - Martial Arts D
+          - Martial Arts E
+          - Wrestling
+          - Thrown Objects
+          - Acrobatics
+          - Tumbling
+        Mystic and Mental Skills:
+          - Trance
+          - Mesmerism and Hypnosis
+          - Sleight of Hand
+          - Resist Domination
+          - Occult Lore
+          - Mystic Background
+        Other Talents:
+          - Artist
+          - Languages
+          - Performer
+          - Leadership
+        Magic Wielder Talents:
+          - Demonologist
+          - Scholar of Antiquities
+          - Bibliophile
+          - Theoginist
+          - Occultist
+          - Runesmith
+          - Stamina
+          - Zoologist of Magic
+          - Chronicler of Magic
+      Equipment:
+        Note: All avatars' personal equipment created with Powers such as Body Armor, Crystallization, Illusion Casting, Artifact Creation, Missile Creation, Spray, Weapons Creation, Webcasting, Natural Weapons.
+        Terminals: Terminal interfaces to Tal'Zir can look like anything appropriate to the technology of the culture in question, with a preference for "vintage" technology.  They may spontaneously spawn, be accidentally invented by an eccentric, or existing technology could become haunted or possessed.
+      Contacts:
+        Mystic:
+          Mystic Arts:
+            - Stephen Strange
+            - Wong
+            - Anthony Druid
+            - Victor Von Doom
+            - Wanda Maximoff
+            - Lilia Calderu
+            - Clea
+            - Dormammu
+            - Mephisto
+            - Lilith
+            - Cyttorak
+            - Agamotto
+            - Hoggoth
+          Mythology:
+            - Hercules
+            - Thor
+            - Loki
+            - Apalla the Sun Queen
+            - Death
+            - Eternity
+            - Oblivion
+            - Infinity
+            - Chthon
+            - Set
+            - Oshtur
+            - Gaea
+            - Shuma-Gorath
+            - Khonshu
+        Political:
+          Planetary:
+            - The Dark Dimension
+            - Asgard
+            - Olympus
+            - Heliopolis
+            - The Faltine
+      Magic:
+        Character Type: Magic Wielder
+        Magic School: Specific Realm/Pantheon
+        Energy Use: All Energies
+        Rank: Sorcerer Supreme
+        Master: None
+        Spells:
+          Personal Energies:
+            - Absorption:
+              Rank: Amazing
+              Number: 50
+            - Admittance:
+              Rank: Amazing
+              Number: 50
+            - Alteration-Appearance:
+              Rank: Amazing
+              Number: 50
+            - Alteration-Body Weapons:
+              Rank: Amazing
+              Number: 50
+            - Alteration-Bone:
+              Rank: Amazing
+              Number: 50
+            - Armor:
+              Rank: Amazing
+              Number: 50
+            - Apparition:
+              Rank: Amazing
+              Number: 50
+            - Astral Projection:
+              Rank: Amazing
+              Number: 50
+            - Chameleonic Coloring:
+              Rank: Amazing
+              Number: 50
+            - Damage Absorption:
+              Rank: Amazing
+              Number: 50
+            - Damage Conversion:
+              Rank: Amazing
+              Number: 50
+            - Density Control-Self:
+              Rank: Amazing
+              Number: 50
+            - Dual Persona:
+              Rank: Amazing
+              Number: 50
+            - Empathy:
+              Rank: Amazing
+              Number: 50
+            - Enchanted Eye:
+              Rank: Amazing
+              Number: 50
+            - Flaw:
+              Rank: Amazing
+              Number: 50
+            - Flight:
+              Rank: Amazing
+              Number: 50
+            - Foretelling:
+              Rank: Amazing
+              Number: 50
+            - Gramarye:
+              Rank: Amazing
+              Number: 50
+            - Growing:
+              Rank: Amazing
+              Number: 50
+            - Heal:
+              Rank: Amazing
+              Number: 50
+            - Image Projection:
+              Rank: Amazing
+              Number: 50
+            - Immovability:
+              Rank: Amazing
+              Number: 50
+            - Invisibility:
+              Rank: Amazing
+              Number: 50
+            - Learning:
+              Rank: Amazing
+              Number: 50
+            - Levitation:
+              Rank: Amazing
+              Number: 50
+            - Luck:
+              Rank: Amazing
+              Number: 50
+            - Manipulation:
+              Rank: Amazing
+              Number: 50
+            - Mental Barrier:
+              Rank: Amazing
+              Number: 50
+            - Post-Cognition:
+              Rank: Amazing
+              Number: 50
+            - Protected Senses:
+              Rank: Amazing
+              Number: 50
+            - Reflective Aura:
+              Rank: Amazing
+              Number: 50
+            - Resistance Aura:
+              Rank: Amazing
+              Number: 50
+            - Sensing-Clairaudience:
+              Rank: Amazing
+              Number: 50
+            - Sensing-Clairvoyance:
+              Rank: Amazing
+              Number: 50
+            - Sensing Danger:
+              Rank: Amazing
+              Number: 50
+            - Servant:
+              Rank: Amazing
+              Number: 50
+            - Shape-Shifting, Limited:
+              Rank: Amazing
+              Number: 50
+            - Sape-Shifting, Unlimited:
+              Rank: Amazing
+              Number: 50
+            - Shield-Great:
+              Rank: Amazing
+              Number: 50
+            - Shield-Individual:
+              Rank: Amazing
+              Number: 50
+            - Shrinking:
+              Rank: Amazing
+              Number: 50
+            - Telekinesis:
+              Rank: Amazing
+              Number: 50
+            - Telepathy:
+              Rank: Amazing
+              Number: 50
+            - Tongues:
+              Rank: Amazing
+              Number: 50
+            - Trance:
+              Rank: Amazing
+              Number: 50
+            - Transformation:
+              Rank: Amazing
+              Number: 50
+              Forms:
+                - Darkforce
+                - Energy
+                - Fire and/or Heat
+                - Gas
+                - Ice
+                - Metal or Mineral
+                - Sound
+                - Water
+            - Vapors-Enhancement:
+              Rank: Amazing
+              Number: 50
+          Universal Energies:
+            - Animation:
+              Rank: Amazing
+              Number: 50
+            - Bands:
+              Rank: Amazing
+              Number: 50
+            - Charm:
+              Rank: Amazing
+              Number: 50
+            - Confusion:
+              Rank: Amazing
+              Number: 50
+            - Conjure:
+              Rank: Amazing
+              Number: 50
+            - Curse:
+              Rank: Amazing
+              Number: 50
+            - Density Control-Others:
+              Rank: Amazing
+              Number: 50
+            - Eldritch Beams/Bolts:
+              Rank: Amazing
+              Origin: Hands
+              Forms:
+                - Cold
+                - Darkforce
+                - Disintegrating
+                - Energy
+                - Fire
+                - Impact
+                - Light
+                - Sonic
+              Number: 50
+            - Eldritch Blast:
+              Rank: Amazing
+              Number: 50
+              Forms:
+                - Cold
+                - Darkforce
+                - Disintegrating
+                - Energy
+                - Fire
+                - Impact
+                - Light
+                - Sonic
+            - Eldritch Breath:
+              Rank: Amazing
+              Number: 50
+              Forms:
+                - Cold
+                - Darkforce
+                - Disintegrating
+                - Energy
+                - Fire
+                - Impact
+                - Light
+                - Sonic
+            - Eldritch Crystals:
+              Rank: Amazing
+              Number: 50
+            - Eldritch Flames:
+              Rank: Amazing
+              Number: 50
+            - Emotion Control:
+              Rank: Amazing
+              Number: 50
+            - Energy Control:
+              Rank: Amazing
+              Number: 50
+              Forms:
+                - Darkforce
+                - Electrical
+                - Gravity
+                - Magnetism
+                - Solar
+                - Sonic
+            - Fear:
+              Rank: Amazing
+              Number: 50
+            - Forgetfulness:
+              Rank: Amazing
+              Number: 50
+            - Glamor:
+              Rank: Amazing
+              Number: 50
+            - Growing-Others:
+              Rank: Amazing
+              Number: 50
+            - Healing-Others:
+              Rank: Amazing
+              Number: 50
+            - Illusion:
+              Rank: Amazing
+              Number: 50
+            - Invisibility-Others:
+              Rank: Amazing
+              Number: 50
+            - Matter Rearrangement:
+              Rank: Amazing
+              Number: 50
+            - Mental Control:
+              Rank: Amazing
+              Number: 50
+            - Mental Probe:
+              Rank: Amazing
+              Number: 50
+            - Mesmerism:
+              Rank: Amazing
+              Number: 50
+            - Mesmermechanism:
+              Rank: Amazing
+              Number: 50
+            - Nature Control:
+              Rank: Amazing
+              Number: 50
+              Forms:
+                - Air
+                - Earth
+                - Fire
+                - Water
+                - Weather
+            - Net:
+              Rank: Amazing
+              Number: 50
+            - Paralyze:
+              Rank: Amazing
+              Number: 50
+            - Plant Control:
+              Rank: Amazing
+              Number: 50
+            - Power Block:
+              Rank: Amazing
+              Number: 50
+            - Revival:
+              Rank: Amazing
+              Number: 50
+            - Shield-Aura:
+              Rank: Amazing
+              Number: 50
+            - Shrinking-Others:
+              Rank: Amazing
+              Number: 50
+            - Static Field:
+              Rank: Amazing
+              Number: 50
+            - Teleportation:
+              Rank: Amazing
+              Number: 50
+            - Trap:
+              Rank: Amazing
+              Number: 50
+            - Vapors-Obscurity:
+              Rank: Amazing
+              Number: 50
+            - Vapors-Sleep:
+              Rank: Amazing
+              Number: 50
+            - Vapors-Resist Death:
+              Rank: Amazing
+              Number: 50
+            - Wave:
+              Rank: Amazing
+              Number: 50
+          Dimensional Energies:
+            - Absorption:
+              Rank: Amazing
+              Number: 50
+            - Cyttorak:
+              Rank: Amazing
+              Number: 50
+            - Damage Absorption:
+              Rank: Amazing
+              Number: 50
+            - Damage Conversion:
+              Rank: Amazing
+              Number: 50
+            - Denak:
+              Rank: Amazing
+              Number: 50
+            - Dimensional Aperture:
+              Rank: Amazing
+              Number: 50
+            - Disguise:
+              Rank: Amazing
+              Number: 50
+            - Eldritch Attacks:
+              Rank: Amazing
+              Number: 50
+            - Environmental Independence:
+              Rank: Amazing
+              Number: 50
+            - Faltine:
+              Rank: Amazing
+              Number: 50
+            - Hoggoth:
+              Rank: Amazing
+              Number: 50
+            - Ikonn:
+              Rank: Amazing
+              Number: 50
+            - Link:
+              Rank: Amazing
+              Number: 50
+            - Munnopor:
+              Rank: Amazing
+              Number: 50
+            - Oshtur:
+              Rank: Amazing
+              Number: 50
+            - Passing:
+              Rank: Amazing
+              Number: 50
+            - Pishogue:
+              Rank: Amazing
+              Number: 50
+            - Power Block:
+              Rank: Amazing
+              Number: 50
+            - Power Duplication:
+              Rank: Amazing
+              Number: 50
+            - Raggadorr:
+              Rank: Amazing
+              Number: 50
+            - Scrying:
+              Rank: Amazing
+              Number: 50
+            - Sensing:
+              Rank: Amazing
+              Number: 50
+            - Seraphim:
+              Rank: Amazing
+              Number: 50
+            - Shape Shifting—Unlimited:
+              Rank: Amazing
+              Number: 50
+            - Shield-Multiple:
+              Rank: Amazing
+              Number: 50
+            - Teleportation:
+              Rank: Amazing
+              Number: 50
+            - Thaumaturgy:
+              Rank: Amazing
+              Number: 50
+            - Valtorr:
+              Rank: Amazing
+              Number: 50
+            - Vishanti:
+              Rank: Amazing
+              Number: 50
+            - Witchery:
+              Rank: Amazing
+              Number: 50
+  Quotes:
+    - "You only fear me because you are incapable of comprehending the horror that would ensue from my nonexistence."
+  Description: |
+    Ctrl+Alt+Deity.  Root access to Reality.  The ubiquitous, omnipresent network.  Like unto the metaphysical operating system of reality itself, and probably necessary for the Multiverse and all its dimensions and timelines to exist. Occupying the entirety of an extradimensional space connected to the Outer Dark that is coterminous and contemporaneous with, but outside of, the entire Multiverse and all dimensions, Tal'Zir creates and uses avatars to interact with physical reality.
+  Notes: |
+    Powers, Talents, and Spells are exercised by the entity itself, or manifested through its avatars, as appropriate.  Anything requiring localized action, mobility, or a physical presence is through an avatar (e.g. Cosmic Awareness is direct.  Natural Weaponry is via an avatar.)
