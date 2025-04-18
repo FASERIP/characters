@@ -25,14 +25,16 @@ Hero:
       Duration: Continuous with Contact
       Conditions: Hallowed Ground
     Deity:
-      - Stimulus: Energy Depletion
-        Effect: Special
-        Duration: Special
-        Conditions: Forced change back to Demon Aspect until 1d100 turns exposure to Energy Source after 1d100 turns in Deity Aspect.
-      - Stimulus:
-        Effect: Loss of -1CS to all Powers and abilities
-        Duration: Limited with Contact
-        Conditions: Actively promoting a religion based on herself
+      - Primary:
+          Stimulus: Energy Depletion
+          Effect: Special
+          Duration: Special
+          Conditions: Forced change back to Demon Aspect until 1d100 turns exposure to Energy Source after 1d100 turns in Deity Aspect.
+      - Secondary:
+          Stimulus: Special
+          Effect: Loss of -1CS to all Powers and abilities
+          Duration: Limited with Contact
+          Conditions: Actively promoting a religion based on herself
 Abilities:
   Primary Abilities:
     Fighting:
@@ -360,7 +362,10 @@ Abilities:
         - Languages
         - Performer
         - Trivia:
-        - Hisstory
+          - History
+          - Religion
+          - Art
+          - Fashion
       Magic Wielder Talents:
         - Bibliophile
         - Chronicler of Magic
