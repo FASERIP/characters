@@ -162,7 +162,7 @@ Abilities:
           Fire and Heat:
             Rank: Class 1000
             Number: 1000
-            Note: Inherent to all Demon-type Physical Form characters. Retained in Deity Aspect.
+            Note: Both Aspects. Inherent to all Demon-type Physical Form characters. Retained in Deity Aspect.
           Toxins:
             Rank: Class 1000
             Number: 1000
@@ -227,7 +227,7 @@ Abilities:
         Fire Generation:
           Rank: Good
           Number: 10
-          Note: Demon Aspect only.
+          Note: Inherent to all Demon-type Physical Form Characters. Demon Aspect only.
         Shadowcasting:
           Rank: Remarkable
           Number: 30
@@ -248,7 +248,25 @@ Abilities:
         Summoning:
           Rank: Amazing
           Number: 50
+      Matter Control:
+        Crystallization:
+          Rank: Remarkable
+          Number: 30
+        Geoforce:
+          Rank: Incredible
+          Number: 40
+          Note: Deity Aspect only.
+        Molding:
+          Rank: Excellent
+          Number: 20
+        Weather Control:
+          Rank: Incredible
+          Number: 40
+          Note: Deity Aspect only.
       Matter Conversion:
+        Elemental Conversion:
+          Rank: Amazing
+          Number: 50
         Molecular Conversion:
           Rank: Amazing
           Number: 50
@@ -256,6 +274,13 @@ Abilities:
         Artifact Creation:
           Rank: Incredible
           Number: 40
+        Elemental Creation:
+          Rank: Incredible
+          Number: 40
+        Lifeform Creation:
+          Rank: Amazing
+          Number: 50
+          Note: Deity Aspect only.
         Molecular Creation:
           Rank: Incredible
           Number: 40
@@ -279,12 +304,16 @@ Abilities:
           Type: Additive
           Abilities:
             - Intuition
+          Note: Adds Power Rank to base Ability Rank.
         Iron Will:
           Rank: Monstrous
           Number: 75
         Linguistics:
           Rank: Monstrous
           Number: 75
+        Mental Probe:
+          Rank: Remarkable
+          Number: 30
         Telepathy:
           Rank: Remarkable
           Number: 30
@@ -304,6 +333,13 @@ Abilities:
         Self-Revival:
           Rank: Monstrous
           Number: 75
+        Self-Sustenance:
+          Rank: Monstrous
+          Number: 75
+          Type: Permanent
+        Stealth:
+          Rank: Remarkable
+          Number: 30
         True Invulnerability:
           Rank: Monstrous
           Number: 75
@@ -333,6 +369,14 @@ Abilities:
           Rank: Monstrous
           Number: 75
         Gateway:
+          Rank: Monstrous
+          Number: 75
+          Note: Deity Aspect only.
+        Teleport Others:
+          Rank: Monstrous
+          Number: 75
+          Note: Deity Aspect only.
+        Teleport Self:
           Rank: Monstrous
           Number: 75
           Note: Deity Aspect only.
@@ -421,6 +465,7 @@ Abilities:
       Hero Group:
         - Defenders
         - Hellfire Club
+        - Cloak & Dagger
     Magic:
     Character Type: Magic Wielder
     Magic School: Magic for Chaos
