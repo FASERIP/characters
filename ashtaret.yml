@@ -384,12 +384,21 @@ Abilities:
           - Olympus
           - Asgard
       Mystic:
+        Occult Lore:
+          - Michael Morbius
+          - Frank Blade
+          - Azazel
+          - Nightmare
         Mystic Arts:
-          - Stephen Strange
+          - Doctor Stephen Strange
           - Clea
           - Wong
           - Illyana Rasputin
-          - Satanna
+          - Satana Hellstrom
+          - Daimon Hellstrom
+          - Eric Simon Payne
+          - Jennifer Kale
+          - Lilia Calderu
         Mythology:
           - Inanna (Other Universes)
           - Mephisto
@@ -400,9 +409,9 @@ Abilities:
           - Oshtur
           - Set
           - Gaea
-          - Nightmare
           - Ikonn
           - Khonshu
+          - Loki Laufeyson
       Hero Group:
         - Defenders
         - Hellfire Club
