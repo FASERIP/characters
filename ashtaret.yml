@@ -14,8 +14,8 @@ Hero:
     Physical Form:
       Type: Changeling
       Forms:
-      - Demon
-      - Deity
+        - Demon
+        - Deity
     Origin of Power: Natal
   Weakness:
     Demon:
@@ -24,14 +24,14 @@ Hero:
       Duration: Continuous with Contact
       Conditions: Hallowed Ground
     Deity:
-    - Stimulus: Energy Depletion
-      Effect: Special
-      Duration: Special
-      Conditions: Forced change back to Demon form until 1d100 turns exposure to Energy Source after 1d100 turns in Deity form.
-    - Stimulus:
-      Effect: Loss of -1CS to all Powers and abilities
-      Duration: Limited with Contact
-      Conditions: Actively promoting a religion based on herself
+      - Stimulus: Energy Depletion
+        Effect: Special
+        Duration: Special
+        Conditions: Forced change back to Demon form until 1d100 turns exposure to Energy Source after 1d100 turns in Deity form.
+      - Stimulus:
+        Effect: Loss of -1CS to all Powers and abilities
+        Duration: Limited with Contact
+        Conditions: Actively promoting a religion based on herself
 Abilities:
   Primary Abilities:
     Fighting:
@@ -73,10 +73,16 @@ Abilities:
       Demon:
         Rank: Shift-X
         Number: 150
+        Base:
+          Rank: Monstrous
+          Number: 75
       Deity:
         Rank: Shift-Y
         Number: 225
-      Note: Monstrous (75) Additive Hyper-Intelligence added to Monstrous (75) base Intuition in Demon form and Shift-X (150) base Intuition in Deity form
+        Base:
+          Rank: Shift-X
+          Number: 150
+      Note: Monstrous (75) Additive Hyper-Intelligence added to base Intuition
     Psyche:
       Demon:
         Rank: Monstrous
@@ -108,32 +114,37 @@ Abilities:
   Special Abilities:
     Powers:
       Defensive:
+        Resistance to Emotion Attacks:
+          Rank: Shift-X
+          Number: 150
+          Note: Demon form only.
         Immunity to Emotion Attacks:
           Rank: Class 1000
           Number: 1000
           Note: Deity form only.
         Resistance to Energy Attacks:
-          Heat and Flame:
-            Rank: Class 1000
-            Number: 1000
           Cold:
             Rank: Excellent
             Number: 20
           Electricity:
             Rank: Good
             Number: 10
+        Immunity to Energy Attacks:
+          Heat and Flame:
+            Rank: Class 1000
+            Number: 1000
         Resistance to Magic Attacks:
           Rank: Monstrous
           Number: 75
-          Note: Deity form only.
+        Resistance to Mental Attacks:
+          Rank: Shift-X
+          Number: 150
+          Note: Demon form only.
         Immunity to Mental Attacks:
           Rank: Class 1000
           Number: 1000
           Note: Deity form only.
         Resistance to Physical Attacks:
-          Fire and Heat:
-            Rank: Class 1000
-            Number: 1000
           Toxins:
             Rank: Monstrous
             Number: 75
@@ -143,10 +154,30 @@ Abilities:
           Corrosives:
             Rank: Remarkable
             Number: 30
+        Immunity to Physical Attacks:
+          Fire and Heat:
+            Rank: Class 1000
+            Number: 1000
+          Toxins:
+            Rank: Class 1000
+            Number: 1000
+            Note: Deity form only.
+          Disease:
+            Rank: Class 1000
+            Number: 1000
+            Note: Deity form only.
+        Resistance to Power Manipulation:
+          Rank: Monstrous
+          Number: 75
+          Note: Demon form only.
         Immunity to Power Manipulation:
           Rank: Class 1000
           Number: 1000
           Note: Deity form only.
+        Resistance to Vampirism:
+          Rank: Monstrous
+          Number: 75
+          Note: Demon form only.
         Immunity to Vampirism:
           Rank: Class 1000
           Number: 1000
@@ -282,7 +313,7 @@ Abilities:
           Type: Hell Dimension
           Note: Deity form only.
       Self Alteration:
-        Imitation- Human Changeling:
+        Imitation-Human Changeling:
           Rank: Monstrous
           Number: 75
         Invisibility:
@@ -304,38 +335,77 @@ Abilities:
           Rank: Monstrous
           Number: 75
           Note: Deity form only.
-  Talents:
-    Fighting Skills:
-      - Acrobatics
-      - Tumbling
-    Professional Skills:
-      - Criminology
-      - Psychiatry
-      - Detective/Espionage
-    Scientific Skills:
-      - Geology
-      - Archaeology
-    Mystic and Mental Skills:
-      - Mesmerism and Hypnosis
-      - Sleight of Hand
-      - Occult Lore
-      - Mystic Background
-    Other Talents:
-      - Languages
-      - Performer
-    Magic Wielder Talents:
-      - Bibliophile
-      - Chronicler of Magic
-      - Demonologist
-      - Occultist
-      - Runesmith
-      - Scholar of Antiquities
-      - Stamina
-      - Theoginist
-      - Zoologist of Magic
-  Equipment: Equipment is ad hoc via Artifact Creation.
-  Contacts: null
-  Magic:
+      Body Alterations-Defensive:
+        Immortality:
+          Rank: null
+          Number: .nan
+    Talents:
+      Fighting Skills:
+        - Acrobatics
+        - Tumbling
+      Professional Skills:
+        - Criminology
+        - Psychiatry
+        - Detective/Espionage
+      Scientific Skills:
+        - Geology
+        - Archaeology
+      Mystic and Mental Skills:
+        - Mesmerism and Hypnosis
+        - Sleight of Hand
+        - Occult Lore
+        - Mystic Background
+      Other Talents:
+        - Languages
+        - Performer
+        - Trivia:
+        - Hisstory
+      Magic Wielder Talents:
+        - Bibliophile
+        - Chronicler of Magic
+        - Demonologist
+        - Occultist
+        - Runesmith
+        - Scholar of Antiquities
+        - Stamina
+        - Theoginist
+        - Zoologist of Magic
+    Equipment: All equipment is ad hoc via Artifact Creation.
+    Contacts:
+      Political:
+        Planetary:
+          - Elder Gods
+          - Hell Dimension
+          - Dimension of Dreams
+          - Dark Dimension
+          - Faltine
+          - Heliopolis
+          - Olympus
+          - Asgard
+      Mystic:
+        Mystic Arts:
+          - Stephen Strange
+          - Clea
+          - Wong
+          - Illyana Rasputin
+          - Satanna
+        Mythology:
+          - Inanna (Other Universes)
+          - Mephisto
+          - Dormammu
+          - Satannish
+          - Cyttorak
+          - Chthon
+          - Oshtur
+          - Set
+          - Gaea
+          - Nightmare
+          - Ikonn
+          - Khonshu
+      Hero Group:
+        - Defenders
+        - Hellfire Club
+    Magic:
     Character Type: Magic Wielder
     Magic School: Magic for Chaos
     Energy Use: All Energies
@@ -371,7 +441,7 @@ Abilities:
         Fear: Amazing (50)
         Forgetfulness: Amazing (50)
         Glamor: Amazing (50)
-        Healing- Others: Amazing (50)
+        Healing-Others: Amazing (50)
         Illusion: Amazing (50)
         Mesmerism: Amazing (50)
         Paralyze: Amazing (50)
@@ -379,43 +449,80 @@ Abilities:
         Teleportation: Amazing (50)
         Trap: Amazing (50)
       Dimensional Energies:
-      Absorption: Amazing (50)
-      Denak:
-        Rank: Amazing (50)
-        Entreaty: true
-      Dimensional Aperture: Amazing (50)
-      Disguise:
-        Rank: Amazing (50)
-        Group Spell: true
-      Faltine:
-        Rank: Amazing (50)
-        Entreaty: true
-      Ikonn:
-        Rank: Amazing (50)
-        Entreaty: true
-      Link: Amazing (50)
-      Passing:
-        Rank: Amazing (50)
-        Group Spell: true
-      Pishogue:
-        Rank: Amazing (50)
-        Group Spell: true
-      Scrying:
-        Rank: Amazing (50)
-        Group Spell: true
-      Sensing:
-        Rank: Amazing (50)
-        Group Spell: true
-      Teleportation: Amazing (50)
-      Valtorr:
-        Rank: Amazing (50)
-        Entreaty: true
-      Witchery:
-        Rank: Amazing (50)
-        Group Spell: true
-      Entreaty Notes: "Entreaty spells are in boldface type and marked with a dagger (†)."
-      Group Spells Notes: "Group spells are in italic type and marked with a double dagger (‡)."
+        Absorption: Amazing (50)
+        Denak:
+          Rank: Amazing (50)
+          Entreaty: true
+        Dimensional Aperture: Amazing (50)
+        Disguise:
+          Rank: Amazing (50)
+          Group Spell:
+            - Alteration-Appearance
+            - Chameleonic
+            - Coloring
+            - Glamor
+            - Growing
+            - Shrinking
+        Faltine:
+          Rank: Amazing (50)
+          Entreaty: true
+        Ikonn:
+          Rank: Amazing (50)
+          Entreaty: true
+        Link: Amazing (50)
+        Passing:
+          Rank: Amazing (50)
+          Group Spell:
+            - Admittance
+            - Alteration-Bone
+            - Astral Projection
+            - Density Control-Self
+            - Transformation
+        Pishogue:
+          Rank: Amazing (50)
+          Group Spell:
+            - Confusion
+            - Fear
+            - Forgetfulness
+            - Mesmerism
+            - Paralyze
+        Scrying:
+          Rank: Amazing (50)
+          Group Spell:
+            - Enchanted Eye
+            - Foretelling
+            - Post-Cognition,
+            - Sensing-Clairaudience
+            - Sensing-Clairvoyance
+        Sensing:
+          Rank: Amazing (50)
+          Group Spell:
+            - Sensing-Danger
+            - Sensing-Evil
+            - Sensing-Fields
+            - Sensing-identity
+            - Sensing-Mystical Detection
+        Teleportation: Amazing (50)
+        Thaumaturgy:
+          Rank: Amazing (50)
+          Group Spell:
+            - Bands
+            - Curse
+            - Net
+            - Trap
+            - Wave
+        Valtorr:
+          Rank: Amazing (50)
+          Entreaty: true
+        Witchery:
+          Rank: Amazing (50)
+          Group Spell:
+            - Density Control-Others
+            - Growing-Others
+            - Healing-Others
+            - Invisibility-Others
+            - Shrinking-Others
   Biography: |
-    An ancient Demon from terrible realms beyond, formerly a primeval Deity no longer widely worshipped, Ashtaret is long since finished with the machinations of cosmic evil and pops in to the Earth Dimension from time to time to live her best immortal life in the dual-natured glamour and shadows of 1980's Manhattan. Vain, capricious, self-serving, whiny, pouty, manipulative, hedonistic, vindictive, and generally chaotic, though not particularly malevolent, Ashtaret is out for herself first, last, and only. She just wants to have fun.
+    An ancient Demon from terrible realms beyond, formerly a primeval Deity no longer widely worshipped, Ashtaret is long since finished with the machinations of cosmic evil and pops in to the Earth Dimension from time to time to live her best immortal life in the dual-natured glamour and shadows of 1980's Manhattan. Vain, capricious, self-serving, whiny, pouty, manipulative, hedonistic, vindictive, and generally chaotic, though not particularly malevolent, Ashtaret is out for herself first, last, and only. She just wants to have fun.  It is possible Ashtaret is Earth-1986's version of Inanna.
   Description: |
-    While capable of any humanlike form via Imitation- Human Mimic, Ashtaret's typical form is a tall, long-legged, voluptuous but fit woman with loose spirals of shiny, jet-black hair, burning honey-amber eyes, lustrous dark olive-bronze skin, and regal, decidedly Eastern Mediterranean facial features.
+    While capable of any humanlike form via Imitation-Human Mimic, Ashtaret's typical form is a tall, long-legged, voluptuous but fit woman with loose spirals of shiny, jet-black hair, burning honey-amber eyes, lustrous dark olive-bronze skin, and regal, decidedly Eastern Mediterranean facial features.  She is typically dressed and accessorized in whatever is considered high-fashion for the time, place, and situation, via Artifact Creation.
