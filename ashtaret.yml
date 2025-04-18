@@ -35,7 +35,7 @@ Hero:
       Effect: Loss of -1CS to all Powers and abilities
       Duration: Continuous with Contact
       Conditions: Actively promoting a religion based on herself.
-      Note: Inherent to Deity Physical Form.
+      Note: Inherent to all Deity Physical Form characters.
 Abilities:
   Primary Abilities:
     Fighting:
@@ -162,6 +162,7 @@ Abilities:
           Fire and Heat:
             Rank: Class 1000
             Number: 1000
+            Note: Inherent to all Demon-type Physical Form characters. Retained in Deity Aspect.
           Toxins:
             Rank: Class 1000
             Number: 1000
