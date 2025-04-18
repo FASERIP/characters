@@ -13,9 +13,10 @@ Hero:
   Origin:
     Physical Form:
       Type: Changeling
-      Forms:
+      Aspects:
         - Demon
         - Deity
+      Note: 10 turns to change, no Powers can function and all Abilities -2CS during.
     Origin of Power: Natal
   Weakness:
     Demon:
@@ -27,7 +28,7 @@ Hero:
       - Stimulus: Energy Depletion
         Effect: Special
         Duration: Special
-        Conditions: Forced change back to Demon form until 1d100 turns exposure to Energy Source after 1d100 turns in Deity form.
+        Conditions: Forced change back to Demon Aspect until 1d100 turns exposure to Energy Source after 1d100 turns in Deity Aspect.
       - Stimulus:
         Effect: Loss of -1CS to all Powers and abilities
         Duration: Limited with Contact
@@ -117,11 +118,11 @@ Abilities:
         Resistance to Emotion Attacks:
           Rank: Shift-X
           Number: 150
-          Note: Demon form only.
+          Note: Demon Aspect only.
         Immunity to Emotion Attacks:
           Rank: Class 1000
           Number: 1000
-          Note: Deity form only.
+          Note: Deity Aspect only.
         Resistance to Energy Attacks:
           Cold:
             Rank: Excellent
@@ -139,11 +140,11 @@ Abilities:
         Resistance to Mental Attacks:
           Rank: Shift-X
           Number: 150
-          Note: Demon form only.
+          Note: Demon Aspect only.
         Immunity to Mental Attacks:
           Rank: Class 1000
           Number: 1000
-          Note: Deity form only.
+          Note: Deity Aspect only.
         Resistance to Physical Attacks:
           Toxins:
             Rank: Monstrous
@@ -161,27 +162,27 @@ Abilities:
           Toxins:
             Rank: Class 1000
             Number: 1000
-            Note: Deity form only.
+            Note: Deity Aspect only.
           Disease:
             Rank: Class 1000
             Number: 1000
-            Note: Deity form only.
+            Note: Deity Aspect only.
         Resistance to Power Manipulation:
           Rank: Monstrous
           Number: 75
-          Note: Demon form only.
+          Note: Demon Aspect only.
         Immunity to Power Manipulation:
           Rank: Class 1000
           Number: 1000
-          Note: Deity form only.
+          Note: Deity Aspect only.
         Resistance to Vampirism:
           Rank: Monstrous
           Number: 75
-          Note: Demon form only.
+          Note: Demon Aspect only.
         Immunity to Vampirism:
           Rank: Class 1000
           Number: 1000
-          Note: Deity form only.
+          Note: Deity Aspect only.
       Detection:
         Environmental Awareness:
           Rank: Monstrous
@@ -214,7 +215,7 @@ Abilities:
         Fire Control:
           Rank: Good
           Number: 10
-          Note: Demon form only.
+          Note: Demon Aspect only.
         Shadowshaping:
           Rank: Amazing
           Number: 50
@@ -222,7 +223,7 @@ Abilities:
         Fire Generation:
           Rank: Good
           Number: 10
-          Note: Demon form only.
+          Note: Demon Aspect only.
         Shadowcasting:
           Rank: Remarkable
           Number: 30
@@ -231,7 +232,7 @@ Abilities:
           Rank: Good
           Number: 10
           Type: Claws (Edged Attack)
-          Note: Demon form only.
+          Note: Demon Aspect only.
       Illusory:
         Illusion Casting:
           Rank: Incredible
@@ -258,7 +259,7 @@ Abilities:
         Cosmic Awareness:
           Rank: Monstrous
           Number: 75
-          Note: Deity form only.
+          Note: Deity Aspect only.
         Dreamtravel:
           Rank: Monstrous
           Number: 75
@@ -302,7 +303,7 @@ Abilities:
         True Invulnerability:
           Rank: Monstrous
           Number: 75
-          Note: Deity form only.
+          Note: Deity Aspect only.
         Vocal Control:
           Rank: Monstrous
           Number: 75
@@ -311,7 +312,7 @@ Abilities:
           Rank: null
           Number: .nan
           Type: Hell Dimension
-          Note: Deity form only.
+          Note: Deity Aspect only.
       Self Alteration:
         Imitation-Human Changeling:
           Rank: Monstrous
@@ -330,11 +331,11 @@ Abilities:
         Gateway:
           Rank: Monstrous
           Number: 75
-          Note: Deity form only.
+          Note: Deity Aspect only.
         True Flight:
           Rank: Monstrous
           Number: 75
-          Note: Deity form only.
+          Note: Deity Aspect only.
       Body Alterations-Defensive:
         Immortality:
           Rank: null
