@@ -24,6 +24,7 @@ Hero:
       Effect: Power Negation
       Duration: Continuous with Contact
       Conditions: Hallowed Ground
+      Note: Powers cease functioning withing 20 feet of stimulus, -1CS Abilities per 10 turns of exposure, cannot directly use Powers against Stimulus from outside radius. Instantly reverses when moved away from Stimulus.
     Deity:
       Stimulus: Energy Depletion
       Effect: Special
@@ -34,6 +35,7 @@ Hero:
       Effect: Loss of -1CS to all Powers and abilities
       Duration: Continuous with Contact
       Conditions: Actively promoting a religion based on herself.
+      Note: Inherent to Deity Physical Form.
 Abilities:
   Primary Abilities:
     Fighting:
