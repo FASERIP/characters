@@ -16,7 +16,7 @@ Hero:
       Aspects:
         - Demon
         - Deity
-      Note: 10 turns to change, no Powers can function and all Abilities -2CS during.
+      Note: Takes 10 turns to change. No Powers can function and all Abilities -2CS during change.
     Origin of Power: Natal
   Weakness:
     Demon:
@@ -25,16 +25,15 @@ Hero:
       Duration: Continuous with Contact
       Conditions: Hallowed Ground
     Deity:
-      - Primary:
-          Stimulus: Energy Depletion
-          Effect: Special
-          Duration: Special
-          Conditions: Forced change back to Demon Aspect until 1d100 turns exposure to Energy Source after 1d100 turns in Deity Aspect.
-      - Secondary:
-          Stimulus: Special
-          Effect: Loss of -1CS to all Powers and abilities
-          Duration: Limited with Contact
-          Conditions: Actively promoting a religion based on herself
+      Stimulus: Energy Depletion
+      Effect: Special
+      Duration: Special
+      Conditions: Forced change back to Demon Aspect until 1d100 turns exposure to Energy Source after 1d100 turns in Deity Aspect, unless in continuous contact with Energy Source while in that Aspect.
+    Special:
+      Stimulus: Psychological
+      Effect: Loss of -1CS to all Powers and abilities
+      Duration: Limited with Contact
+      Conditions: Actively promoting a religion based on herself.
 Abilities:
   Primary Abilities:
     Fighting:
@@ -314,7 +313,7 @@ Abilities:
           Rank: null
           Number: .nan
           Type: Hell Dimension
-          Note: Deity Aspect only.
+          Note: Recharges Deity Aspect.
       Self Alteration:
         Imitation-Human Changeling:
           Rank: Monstrous
