@@ -28,11 +28,11 @@ Hero:
       Stimulus: Energy Depletion
       Effect: Special
       Duration: Special
-      Conditions: Forced change back to Demon Aspect until 1d100 turns exposure to Energy Source after 1d100 turns in Deity Aspect, unless in continuous contact with Energy Source while in that Aspect.
+      Conditions: Forced change back to Demon Aspect after 1d100 turns in Deity Aspect, unless in continuous contact with Energy Source while in that Aspect, until 1d100 turns exposure to Energy Source to recharge.
     Special:
-      Stimulus: Psychological
+      Stimulus: Special
       Effect: Loss of -1CS to all Powers and abilities
-      Duration: Limited with Contact
+      Duration: Continuous with Contact
       Conditions: Actively promoting a religion based on herself.
 Abilities:
   Primary Abilities:
@@ -391,8 +391,6 @@ Abilities:
         Occult Lore:
           - Michael Morbius
           - Frank Blade
-          - Azazel
-          - Nightmare
         Mystic Arts:
           - Doctor Stephen Strange
           - Clea
@@ -403,6 +401,8 @@ Abilities:
           - Eric Simon Payne
           - Jennifer Kale
           - Lilia Calderu
+          - Azazel
+          - Nightmare
         Mythology:
           - Inanna (Other Universes)
           - Mephisto
