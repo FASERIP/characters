@@ -531,6 +531,7 @@ Abilities:
           Rank: Monstrous
           Number: 75
           Description: Instantly understands and communicates in any language encountered, spoken or written.
+          Note: Available to Normal Human Aspect.
         Mental Probe:
           Demon:
             Rank: Excellent
@@ -581,8 +582,8 @@ Abilities:
         Self-Revival:
           Rank: Monstrous
           Number: 75
-          Note: Normal Human Aspect reverts to Demon Aspect, but Power does not begin functioning until after change is complete according to Changeling mechanic.
-          Description: Automatically revives after death, restoring life functions after fatal harm.
+          Note: Normal Human Aspect reverts to Demon Aspect on death or incapacitation, but Power does not begin functioning until after change is complete according to Changeling mechanic.
+          Description: Functions as Regeneration, but also automatically revives after death, restoring life functions after fatal harm.
         Self-Sustenance:
           Rank: Monstrous
           Number: 75
