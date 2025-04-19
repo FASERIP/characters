@@ -597,8 +597,8 @@ Abilities:
         Self-Revival:
           Rank: Monstrous
           Number: 75
-          Note: Normal Human Aspect uses Serial Immortality instead, as does a destroyed body in other Aspects (less than 1/4 remaining).
-          Description: Functions identically to Regeneration, healing at Power Rank multiple rate (lost limbs and organs requiring a Red FEAT), except also automatically revives after death, restoring life functions after fatal harm.  Color of FEAT required depends on condition of body.
+          Note: Normal Human Aspect uses Serial Immortality instead, as does a destroyed body in other Aspects (less than one quarter of body remaining).
+          Description: Functions identically to Regeneration, healing at Power Rank multiple rate (lost limbs and organs requiring a Red FEAT), except also automatically revives after death, restoring life functions after fatal harm.  Color of FEAT required depends on condition of body (Green for Intact, Yellow for vitals intact, Red for at least one-quarter body remaining).
         Self-Sustenance:
           Rank: Monstrous
           Number: 75
