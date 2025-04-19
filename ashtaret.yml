@@ -540,21 +540,23 @@ Abilities:
           Note: Recharges Deity Aspect.
           Description: Supplies energy to sustain other Powers or devices continuously without external input.
         Focus:
-          Rank: Monstrous
-          Number: 75
           Demon:
+            Rank: Monstrous
+            Number: 75
             Total:
               Rank: Class 3000
-              Number: 3920
-              Spread: 62
-              Turns Until Full Recovery: 53
+              Number: 4820
+              Spread: 63
+              Turns Until Full Recovery: 65
           Deity:
+            Rank: Unearthly
+            Number: 100
             Total:
               Rank: Class 3000
-              Number: 4700
-              Spread: 75
-              Turns Until Full Recovery: 63
-          Note: Rankless abilities not included. Class 1000 Immunity Powers treated as Unearthly (100), multiplying each recovered point by 10 for that Power.
+              Number: 11900
+              Spread: 83
+              Turns Until Full Recovery: 119
+          Note: Rankless abilities not included.
           Description: Channels all Abilities and Powers into a single burst, replacing the target Power’s rank with the sum of all other ranks. After use, all Abilities and Powers drop to Feeble. The Focus rank determines how many points can be recovered each turn, divided evenly across all affected traits.
       Self Alteration:
         Imitation-Human Changeling:
