@@ -17,7 +17,7 @@ Hero:
       Note: Takes 10 turns to change Aspect. No Powers can function and all Abilities -2CS during change.
       Aspects:
         - Demon: Supernatural, corporeal being from another dimension, inherently malevolent by nature. Demons possess increased physical abilities, fire generation, invulnerability to heat and fire, and reduced popularity.
-        - Deity: A former powerful entity worshiped as a god, now diminished and bound to a mortal form on Earth. Deities have significantly enhanced abilities, additional powers, automatic access to at least one travel power, and increased popularity with the general public, though limited influence among modern religious groups.
+        - Deity: A former powerful entity worshiped as a god, now diminished and bound to a mortal form on Earth. Deities have significantly enhanced abilities, additional powers, automatic access to at least one travel power, and increased popularity with the general public, though limited influence among modern religious groups. Eventually attract any remaining living worshippers they still have as Contacts.
     Origin of Power: Natal
   Weakness:
     Demon:
@@ -35,7 +35,7 @@ Hero:
       Stimulus: Special
       Effect: Loss of -1CS to all Powers and abilities
       Duration: Continuous with Contact
-      Conditions: Actively promoting a religion based on herself.
+      Conditions: Engaging personally in actively promoting a religion based on herself (may still passively attract folowers).
       Note: Inherent to all Deity Physical Form characters.
 Abilities:
   Primary Abilities:
@@ -639,6 +639,10 @@ Abilities:
         - Zoologist of Magic: Expert in magical creatures and mythical beasts across dimensions, providing +1CS when identifying or studying these creatures.
     Equipment: All equipment is ad hoc via Artifact Creation.
     Contacts:
+      Professional:
+        Crime:
+          - Frank Castle
+          - Wilson Fisk
       Political:
         Planetary:
           - Elder Gods
@@ -680,6 +684,7 @@ Abilities:
           - Loki Laufeyson
           - Amora
           - Lorelei
+          - Remaining living worshippers
       Hero Group:
         - Defenders
         - Hellfire Club
