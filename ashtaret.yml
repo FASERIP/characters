@@ -39,7 +39,8 @@ Hero:
         - Energy Allergy
       Effect: Fatal
       Duration: Continuous with Contact
-      Conditions: Exposure to toxic substances or energies cause loss of Health and Endurance.  May heal as normal after exposure ceases.
+      Conditions: Exposure to energies or toxic substances causes loss of Health and Endurance.  May heal as normal after exposure ceases.
+      Note: Inherent to all Normal Human Physical Form Characters.
     Special:
       Stimulus: Special
       Effect: Loss of -1CS to all Powers and abilities
@@ -469,6 +470,9 @@ Abilities:
           Deity:
             Rank: Monstrous
             Number: 75
+          Normal Human:
+            Rank: Excellent
+            Number: 20
           Description: Creates a single-piece object from nothing, detailed replicas require memorized designs. Temporarily drains Health per ounce created. Lifespan depends on FEAT success, from temporary to permanent.
         Lifeform Creation:
           Rank: Amazing
