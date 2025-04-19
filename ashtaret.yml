@@ -14,10 +14,11 @@ Hero:
     Physical Form:
       Type: Changeling
       Description: Able to transform between multiple distinct Body Types, each with unique advantages, disadvantages, and at least one exclusive power. Transformation temporarily disables all powers and reduces abilities.
-      Note: Takes 10 turns to change Aspect. No Powers can function and all Abilities -2CS during change.
+      Note: Takes 10 turns to change Aspect. No Powers can function and all Abilities -2CS during change. No Powers available to Normal Human Aspect unless specifically noted under that Power.
       Aspects:
         - Demon: Supernatural, corporeal being from another dimension, inherently malevolent by nature. Demons possess increased physical abilities, fire generation, invulnerability to heat and fire, and reduced popularity.
         - Deity: A former powerful entity worshiped as a god, now diminished and bound to a mortal form on Earth. Deities have significantly enhanced abilities, additional powers, automatic access to at least one travel power, and increased popularity with the general public, though limited influence among modern religious groups. Eventually attract any remaining living worshippers they still have as Contacts.
+        - Normal Human: The body is completely normal and possesses no detectable abnormalities. Any Powers the hero possesses have left no visible mark on the body.
     Origin of Power: Natal
   Weakness:
     Demon:
@@ -31,6 +32,14 @@ Hero:
       Effect: Special
       Duration: Special
       Conditions: Forced change back to Demon Aspect after 1d100 turns in Deity Aspect, unless in continuous contact with Energy Source while in that Aspect, until 1d100 turns exposure to Energy Source to recharge.
+    Normal Human:
+      Stimulus:
+        - Elemental Allergy
+        - Molecular Allergy
+        - Energy Allergy
+      Effect: Fatal
+      Duration: Continuous with Contact
+      Conditions: Exposure to toxic substances or energies cause loss of Health and Endurance.  May heal as normal after exposure ceases.
     Special:
       Stimulus: Special
       Effect: Loss of -1CS to all Powers and abilities
@@ -48,6 +57,10 @@ Abilities:
         Rank: Remarkable
         Number: 30
         Rank Description: Superior talent
+      Normal Human:
+        Rank: Excellent
+        Number: 20
+        Rank Description: Regular, formal training
     Agility:
       Demon:
         Rank: Amazing
@@ -57,6 +70,10 @@ Abilities:
         Rank: Monstrous
         Number: 75
         Rank Description: Super-human accuracy and sense of dexterity
+      Normal Human:
+        Rank: Excellent
+        Number: 20
+        Rank Description: Intensive training in dexterity and/or accuracy
     Strength:
       Demon:
         Rank: Excellent
@@ -66,6 +83,10 @@ Abilities:
         Rank: Remarkable
         Number: 30
         Rank Description: Able to press up to 2000 lbs (1 ton)
+      Normal Human:
+        Rank: Excellent
+        Number: 20
+        Rank Description: Able to press up to 800 lbs. (Maximum human ability)
     Endurance:
       Demon:
         Rank: Monstrous
@@ -75,6 +96,10 @@ Abilities:
         Rank: Unearthly
         Number: 100
         Rank Description: Never tires
+      Normal Human:
+        Rank: Excellent
+        Number: 20
+        Rank Description: Regular exercise
     Reason:
       Demon:
         Rank: Incredible
@@ -84,6 +109,10 @@ Abilities:
         Rank: Monstrous
         Number: 75
         Rank Description: Improve and modify advanced alien technologies
+      Normal Human:
+        Rank: Excellent
+        Number: 20
+        Rank Description: odify existing 1980's technology
     Intuition:
       Demon:
         Rank: Shift-X
@@ -98,7 +127,15 @@ Abilities:
         Base:
           Rank: Shift-X
           Number: 150
-      Note: Monstrous (75) Additive Hyper-Intelligence added to base Intuition of both forms.
+      Normal Human:
+        Rank: Unearthly
+        Number: 95
+        Rank Description: In touch with universe, cannot be blindsided
+        Base:
+          Rank: Excellent
+          Number: 20
+          Rank Description: Detective skills or background
+      Note: Monstrous (75) Additive Hyper-Intelligence added to base Intuition of Demon and Deity Aspects.
     Psyche:
       Demon:
         Rank: Monstrous
@@ -108,16 +145,29 @@ Abilities:
         Rank: Unearthly
         Number: 100
         Rank Description: A closed mind, practically uncontrollable by outside means
+      Normal Human:
+        Rank: Excellent
+        Number: 20
+        Rank Description: Some experience with mental control and/or mystic forces
   Secondary Abilities:
     Health:
       Demon: 165
       Deity: 235
+      Normal Human: 80
     Karma:
       Demon: 190
       Deity: 475
+      Normal Human: 135
     Resources:
-      Rank: Poor
-      Number: 4
+      Demon:
+        Rank: Poor
+        Number: 4
+      Deity:
+        Rank: Poor
+        Number: 4
+      Normal Human:
+        Rank: Typical
+        Number: 6
     Popularity:
       Demon:
         Rank: 0
@@ -129,13 +179,21 @@ Abilities:
         Established Religions:
           Rank: 0
           Number: 0
+      Normal Human:
+        Rank: Good
+        Number: 10
   Special Abilities:
     Powers:
+      Note: No Powers available to Normal Human Aspect unless specifically noted.
       Defensive:
         Resistance to Emotion Attacks:
-          Rank: Unearthly
-          Number: 100
-          Note: Demon Aspect only. Minimum Psyche +1CS.
+          Demon:
+            Rank: Unearthly
+            Number: 100
+          Normal Human:
+            Rank: Remarkable
+            Number: 30
+          Note: Minimum Psyche +1CS. Normal Human Aspects Resistance comes from the Resist Domination Talent.
           Description: Grants resistance to attacks targeting emotions or Intuition, reducing damage from attacks like Emotion Control and Hallucinations by Power rank number. Attacks below rank are ignored.
         Immunity to Emotion Attacks:
           Rank: Class 1000
@@ -162,7 +220,7 @@ Abilities:
           Heat and Flame:
             Rank: Class 1000
             Number: 1000
-            Note: Both Aspects. Inherent to all Demon Physical Form characters. Retained in Deity Aspect.
+            Note: Both Demon and Deity Aspects. Inherent to all Demon Physical Form characters. Retained in Deity Aspect.
           Description: Grants full immunity against specific energy types like Heat and Flame.
         Resistance to Magic Attacks:
           Demon:
@@ -173,9 +231,13 @@ Abilities:
             Number: 75
           Description: Protects against magical attacks of both physical and mental nature, reducing their effectiveness by Power rank number.
         Resistance to Mental Attacks:
-          Rank: Unearthly
-          Number: 100
-          Note: Demon Aspect only. Minimum Psyche +1CS.
+          Demon:
+            Rank: Unearthly
+            Number: 100
+          Normal Human:
+            Rank: Remarkable
+            Number: 30
+          Note: Minimum Psyche +1CS. Normal Human Aspects Resistance comes from the Resist Domination Talent.
           Description: Enhances resistance against Psionics and Neural Manipulation, ignoring attacks below rank and reducing others by Power rank number.
         Immunity to Mental Attacks:
           Rank: Class 1000
@@ -203,7 +265,7 @@ Abilities:
           Fire and Heat:
             Rank: Class 1000
             Number: 1000
-            Note: Both Aspects. Inherent to all Demon Physical Form characters. Retained in Deity Aspect.
+            Note: Both Demon and Deity Aspects. Inherent to all Demon Physical Form characters. Retained in Deity Aspect.
           Toxins:
             Rank: Class 1000
             Number: 1000
@@ -216,7 +278,7 @@ Abilities:
         Resistance to Power Manipulation:
           Rank: Monstrous
           Number: 75
-          Note: Demon Aspect only.
+          Note: Demon and Normal Human Aspects only.
           Description: Grants resistance against direct attacks affecting the character’s powers, reducing their effectiveness by Power rank number.
         Immunity to Power Manipulation:
           Rank: Class 1000
@@ -226,7 +288,7 @@ Abilities:
         Resistance to Vampirism:
           Rank: Monstrous
           Number: 75
-          Note: Demon Aspect only.
+          Note: Demon Aspect and Normal Human Aspects only.
           Description: Provides resistance against vampiric attacks (Psi, Bio, Energy, Magic, and Power Vampirism), reducing effectiveness by Power rank number.
         Immunity to Vampirism:
           Rank: Class 1000
@@ -454,12 +516,13 @@ Abilities:
           Type: Additive
           Abilities:
             - Intuition
-          Note: Adds Power Rank to base Ability Rank.
+          Note: Adds Power Rank to base Ability Rank. Available to Normal Human Aspect.
           Description: Significantly boosts intellectual capabilities and intuition, enhancing mental acuity and problem-solving.
         Iron Will:
           Rank: Monstrous
           Number: 75
           Description: Strengthens mental fortitude, resisting psychological manipulation and enhancing determination.
+          Note: Available to Normal Human Aspect.
         Linguistics:
           Rank: Monstrous
           Number: 75
@@ -496,6 +559,7 @@ Abilities:
         Total Memory:
           Rank: Monstrous
           Number: 75
+          Note: Available to Normal Human Aspect.
           Description: Perfectly recalls any previously experienced event or information without degradation.
       Physical Enhancement:
         Body Resistance:
@@ -513,6 +577,7 @@ Abilities:
         Self-Revival:
           Rank: Monstrous
           Number: 75
+          Note: Normal Human Aspect reverts to Demon Aspect, but Power does not begin functioning until after change is complete according to Changeling mechanic.
           Description: Automatically revives after death, restoring life functions after fatal harm.
         Self-Sustenance:
           Rank: Monstrous
@@ -563,6 +628,7 @@ Abilities:
           Rank: Monstrous
           Number: 75
           Description: Physically alters appearance to mimic other humans perfectly, copying their physical traits and features.
+          Note: Appearance of Normal Human Aspect is last form taken by Demon or Deity Aspects.
         Invisibility:
           Rank: Remarkable
           Number: 30
@@ -601,7 +667,7 @@ Abilities:
         Immortality:
           Rank: null
           Number: .nan
-          Note: From Advanced Player's Book, not Ultimate Powers Book.
+          Note: From Advanced Player's Book, not Ultimate Powers Book. Available to Normal Human Aspect.
           Description: Character does not age or die normally. Still vulnerable to damage that reduces Endurance; if Endurance reaches Shift 0, character is incapacitated but not killed. Cannot move or act until healed above Shift 0, and cannot heal while continually sustaining damage.
     Talents:
       Fighting Skills:
@@ -617,6 +683,7 @@ Abilities:
       Mystic and Mental Skills:
         - Mesmerism and Hypnosis: A primitive form of Mind Control at Reason rank level, allowing extraction of information and placement of posthypnotic suggestions.
         - Sleight of Hand: Skilled in manual deception, able to discreetly manipulate small objects with +1CS Agility.
+        - Resist Domination: Resist mental attacks as if the character had a mental power of Psyche +1CS.
         - Occult Lore: Knowledgeable about magical items and mystical traditions, gaining +1CS on Reason FEATs involving magical artifacts.
         - Mystic Background: Indicates experience or training in magical forces, potentially qualifying for magical powers or spellcasting with Judge approval.
       Other Talents:
@@ -695,6 +762,7 @@ Abilities:
     Energy Use: All Energies
     Rank: Master
     Master: null
+    Note: Normal Human Aspect is still capable of magic use.
     Spells:
       Personal Energies:
         Absorption:
