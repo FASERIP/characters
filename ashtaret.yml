@@ -540,6 +540,21 @@ Abilities:
             Rank: Incredible
             Number: 40
           Description: Accesses thoughts and memories of others through telepathic intrusion.
+        Serial Immortality:
+          Demon:
+            Rank: Monstrous
+            Number: 75
+          Deity:
+            Rank: Monstrous
+            Number: 75
+          Normal Human:
+            Rank: Incredible
+            Number: 40
+          Form:
+            Type: Spontaneous Creation
+            Description: Psionically fabricate a full-grown duplicate of your previous body from raw matter and energy, with a build time of (100 – Power rank) days. The body reverts to its original materials.
+          Note: Default for Normal Human Aspect.  New body will match Aspect at Death, except Deity will be Demon.
+          Description: Upon Death, lifeforce rebounds into a new host while you forfeit all Karma.
         Telekinesis:
           Demon:
             Rank: Good
@@ -582,8 +597,8 @@ Abilities:
         Self-Revival:
           Rank: Monstrous
           Number: 75
-          Note: Normal Human Aspect reverts to Demon Aspect on death or incapacitation, but Power does not begin functioning until after change is complete according to Changeling mechanic.
-          Description: Functions identically to Regeneration, except also automatically revives after death, restoring life functions after fatal harm.
+          Note: Normal Human Aspect uses Serial Immortality instead, as does a destroyed body in other Aspects (less than 1/4 remaining).
+          Description: Functions identically to Regeneration, healing at Power Rank multiple rate (lost limbs and organs requiring a Red FEAT), except also automatically revives after death, restoring life functions after fatal harm.  Color of FEAT required depends on condition of body.
         Self-Sustenance:
           Rank: Monstrous
           Number: 75
