@@ -51,143 +51,143 @@ Hero:
       Duration: Continuous with Contact
       Conditions: Engaging personally in actively promoting a religion based on herself (may still passively attract folowers).
       Note: Inherent to all Deity Physical Form characters.
-Abilities:
-  Primary Abilities:
-    Fighting:
-      Demon:
-        Rank: Excellent
-        Number: 20
-        Rank Description: Regular, formal training
-      Deity:
-        Rank: Remarkable
-        Number: 30
-        Rank Description: Superior talent
-      Normal Human:
-        Rank: Excellent
-        Number: 20
-        Rank Description: Regular, formal training
-    Agility:
-      Demon:
-        Rank: Amazing
-        Number: 50
-        Rank Description: Super-human accuracy
-      Deity:
-        Rank: Monstrous
-        Number: 75
-        Rank Description: Super-human accuracy and sense of dexterity
-      Normal Human:
-        Rank: Excellent
-        Number: 20
-        Rank Description: Intensive training in dexterity and/or accuracy
-    Strength:
-      Demon:
-        Rank: Excellent
-        Number: 20
-        Rank Description: Able to press up to 800 lbs. (Maximum human ability)
-      Deity:
-        Rank: Remarkable
-        Number: 30
-        Rank Description: Able to press up to 2000 lbs (1 ton)
-      Normal Human:
-        Rank: Excellent
-        Number: 20
-        Rank Description: Able to press up to 800 lbs. (Maximum human ability)
-    Endurance:
-      Demon:
-        Rank: Monstrous
-        Number: 75
-        Rank Description: Rarely tires, great fortitude
-      Deity:
-        Rank: Unearthly
-        Number: 100
-        Rank Description: Never tires
-      Normal Human:
-        Rank: Excellent
-        Number: 20
-        Rank Description: Regular exercise
-    Reason:
-      Demon:
-        Rank: Incredible
-        Number: 40
-        Rank Description: Understand non-terran technologies
-      Deity:
-        Rank: Monstrous
-        Number: 75
-        Rank Description: Improve and modify advanced alien technologies
-      Normal Human:
-        Rank: Excellent
-        Number: 20
-        Rank Description: odify existing 1980's technology
-    Intuition:
-      Demon:
-        Rank: Shift-X
-        Number: 150
-        Base:
-          Rank: Monstrous
-          Number: 75
-          Rank Description: Senses beyond all normal limitations
-      Deity:
-        Rank: Shift-Y
-        Number: 225
-        Base:
-          Rank: Shift-X
-          Number: 150
-      Normal Human:
-        Rank: Unearthly
-        Number: 95
-        Rank Description: In touch with universe, cannot be blindsided
-        Base:
+  Abilities:
+    Primary Abilities:
+      Fighting:
+        Demon:
           Rank: Excellent
           Number: 20
-          Rank Description: Detective skills or background
-      Note: Monstrous (75) Additive Hyper-Intelligence added to base Intuition of Demon and Deity Aspects.
-    Psyche:
-      Demon:
-        Rank: Monstrous
-        Number: 75
-        Rank Description: Intense training in mental powers, experience in wielding those powers
-      Deity:
-        Rank: Unearthly
-        Number: 100
-        Rank Description: A closed mind, practically uncontrollable by outside means
-      Normal Human:
-        Rank: Excellent
-        Number: 20
-        Rank Description: Some experience with mental control and/or mystic forces
-  Secondary Abilities:
-    Health:
-      Demon: 165
-      Deity: 235
-      Normal Human: 80
-    Karma:
-      Demon: 190
-      Deity: 475
-      Normal Human: 135
-    Resources:
-      Demon:
-        Rank: Poor
-        Number: 4
-      Deity:
-        Rank: Poor
-        Number: 4
-      Normal Human:
-        Rank: Typical
-        Number: 6
-    Popularity:
-      Demon:
-        Rank: 0
-        Number: 0
-      Deity:
-        Public:
-          Rank: Good
-          Number: 10
-        Established Religions:
+          Rank Description: Regular, formal training
+        Deity:
+          Rank: Remarkable
+          Number: 30
+          Rank Description: Superior talent
+        Normal Human:
+          Rank: Excellent
+          Number: 20
+          Rank Description: Regular, formal training
+      Agility:
+        Demon:
+          Rank: Amazing
+          Number: 50
+          Rank Description: Super-human accuracy
+        Deity:
+          Rank: Monstrous
+          Number: 75
+          Rank Description: Super-human accuracy and sense of dexterity
+        Normal Human:
+          Rank: Excellent
+          Number: 20
+          Rank Description: Intensive training in dexterity and/or accuracy
+      Strength:
+        Demon:
+          Rank: Excellent
+          Number: 20
+          Rank Description: Able to press up to 800 lbs. (Maximum human ability)
+        Deity:
+          Rank: Remarkable
+          Number: 30
+          Rank Description: Able to press up to 2000 lbs (1 ton)
+        Normal Human:
+          Rank: Excellent
+          Number: 20
+          Rank Description: Able to press up to 800 lbs. (Maximum human ability)
+      Endurance:
+        Demon:
+          Rank: Monstrous
+          Number: 75
+          Rank Description: Rarely tires, great fortitude
+        Deity:
+          Rank: Unearthly
+          Number: 100
+          Rank Description: Never tires
+        Normal Human:
+          Rank: Excellent
+          Number: 20
+          Rank Description: Regular exercise
+      Reason:
+        Demon:
+          Rank: Incredible
+          Number: 40
+          Rank Description: Understand non-terran technologies
+        Deity:
+          Rank: Monstrous
+          Number: 75
+          Rank Description: Improve and modify advanced alien technologies
+        Normal Human:
+          Rank: Excellent
+          Number: 20
+          Rank Description: odify existing 1980's technology
+      Intuition:
+        Demon:
+          Rank: Shift-X
+          Number: 150
+          Base:
+            Rank: Monstrous
+            Number: 75
+            Rank Description: Senses beyond all normal limitations
+        Deity:
+          Rank: Shift-Y
+          Number: 225
+          Base:
+            Rank: Shift-X
+            Number: 150
+        Normal Human:
+          Rank: Unearthly
+          Number: 95
+          Rank Description: In touch with universe, cannot be blindsided
+          Base:
+            Rank: Excellent
+            Number: 20
+            Rank Description: Detective skills or background
+        Note: Monstrous (75) Additive Hyper-Intelligence added to base Intuition of Demon and Deity Aspects.
+      Psyche:
+        Demon:
+          Rank: Monstrous
+          Number: 75
+          Rank Description: Intense training in mental powers, experience in wielding those powers
+        Deity:
+          Rank: Unearthly
+          Number: 100
+          Rank Description: A closed mind, practically uncontrollable by outside means
+        Normal Human:
+          Rank: Excellent
+          Number: 20
+          Rank Description: Some experience with mental control and/or mystic forces
+    Secondary Abilities:
+      Health:
+        Demon: 165
+        Deity: 235
+        Normal Human: 80
+      Karma:
+        Demon: 190
+        Deity: 475
+        Normal Human: 135
+      Resources:
+        Demon:
+          Rank: Poor
+          Number: 4
+        Deity:
+          Rank: Poor
+          Number: 4
+        Normal Human:
+          Rank: Typical
+          Number: 6
+      Popularity:
+        Demon:
           Rank: 0
           Number: 0
-      Normal Human:
-        Rank: Typical
-        Number: 5
-  Special Abilities:
+        Deity:
+          Public:
+            Rank: Good
+            Number: 10
+          Established Religions:
+            Rank: 0
+            Number: 0
+        Normal Human:
+          Rank: Typical
+          Number: 5
+    Special Abilities:
     Powers:
       Note: No Powers available to Normal Human Aspect unless specifically noted.
       Defensive:
