@@ -186,12 +186,18 @@ Abilities:
           Toxins:
             Rank: Monstrous
             Number: 75
+            Note: Demon Aspect only.
           Disease:
             Rank: Monstrous
             Number: 75
+            Note: Demon Aspect only.
           Corrosives:
-            Rank: Remarkable
-            Number: 30
+            Demon:
+              Rank: Remarkable
+              Number: 30
+            Deity:
+              Rank: Monstrous
+              Number: 75
           Description: Reduces damage from brute force, chemical weapons, diseases, corrosives, extreme temperatures, and hostile environments by Power rank number.
         Immunity to Physical Attacks:
           Fire and Heat:
@@ -300,10 +306,59 @@ Abilities:
           Number: 40
           Description: Creates visual, auditory, or tactile illusions, deceiving targets through realistic sensory deception.
       Lifeform Control:
+        Biophysical Control:
+          Rank: Monstrous
+          Number: 75
+          Note: Deity Aspect only.
+          Forms:
+            - Healing: Restores a target’s Health by up to your Power rank per day, sealing wounds and curing disease without regrowing lost tissue.
+            - Regeneration: Heals damage and reconstructs lost tissue—limbs with green FEATs, organs with yellow, and neural tissue with red.
+            - Revival: Reanimates a corpse up to Power‑rank days old by healing damage, repairing cause of death, and reuniting the spirit.
+            - Damage Transferral: Heals a target by shifting their damage into your body, which you then self‑heal at your Power rank.
+            - Decay: Rapidly accelerates cellular collapse, inflicting Power‑rank damage each turn until the victim crumbles to dust.
+            - Disruption: Disrupts normal physiology, causing up to Power‑rank Health losses from nausea and chills to fatal trauma.
+            - Aging: Alters a target’s age at your Power‑rank rate—green FEATs speed it up, yellow stop it, red reverse it.
+          Description: By touch (or at –1 CS per 10 ft and per extra target), permanently alter a target’s physiology in one of seven forms, so long as the Power is maintained.
+        Exorcism:
+          Rank: Monstrous
+          Number: 75
+          Note: Deity Aspect only.
+          Description: Within 10 feet, sever any external magical, mental, or immortal‐type domination over a subject by matching FEAT intensity against the controlling Power’s rank, and instantly teleport the controller back to its home dimension.
         Hypnotic Control:
           Rank: Amazing
           Number: 50
           Description: Exerts mental control over targets through hypnotic suggestions, compelling actions or behaviors.
+        Neural Manipulation:
+          Demon:
+            Rank: Good
+            Number: 10
+          Deity:
+            Rank: Monstrous
+            Number: 75
+          Forms:
+            - Disruption: Block all sensory and motor signals, causing the target to collapse limp and unresponsive.
+            - Paralysis: Freeze the target’s voluntary muscles in total rigidity, impervious to any chemical countermeasures.
+            - Seizure: Trigger uncontrollable, painful muscle spasms for the Power’s duration.
+            - Exaggeration: Amplify nerve impulses so every attempt at movement becomes wildly overdone and erratic.
+          Description: Within a rank‑determined range, alter a target’s voluntary muscle nerve signals to produce one of effects while leaving senses and autonomic functions intact and reducing duration by –1CS per extra target.
+        Plant Control:
+          Rank: Monstrous
+          Number: 75
+          Note: Deity Aspect only.
+          Description: Animate and command multiple plants within your rank-based limit—granting them basic awareness, senses, and movement for a duration that decreases if you exceed your plant quota.
+        Plant Growth:
+          Rank: Monstrous
+          Number: 75
+          Note: Deity Aspect only.
+          Description: Instantly supercharge the growth and size of existing or carried plants up to your Power rank—even in poor conditions—with FEATs determining success and yielding naturally limited lifespans.
+        Sleep-Induced:
+          Demon:
+            Rank: Excellent
+            Number: 20
+          Deity:
+            Rank: Monstrous
+            Number: 75
+          Description: Within a Power‑rank–determined range, put all targets into an irresistible, deep sleep for a rank‑based duration, with unconsciousness persisting 1–10 hours after the effect ends.
         Summoning:
           Rank: Amazing
           Number: 50
@@ -336,14 +391,6 @@ Abilities:
           Note: Deity Aspect only.
           Description: Manipulates weather patterns and conditions, such as storms, temperature shifts, wind, and precipitation.
       Matter Conversion:
-        Elemental Conversion:
-          Demon:
-            Rank: Remarkable
-            Number: 30
-          Deity:
-            Rank: Amazing
-            Number: 50
-          Description: Converts elements from one type to another, altering material compositions fundamentally.
         Molecular Conversion:
           Demon:
             Rank: Remarkable
@@ -361,14 +408,6 @@ Abilities:
             Rank: Monstrous
             Number: 75
           Description: Creates a single-piece object from nothing, detailed replicas require memorized designs. Temporarily drains Health per ounce created. Lifespan depends on FEAT success, from temporary to permanent.
-        Elemental Creation:
-          Demon:
-            Rank: Remarkable
-            Number: 30
-          Deity:
-            Rank: Amazing
-            Number: 50
-          Description: Creates pure elements in specified forms and locations, temporarily costing Health per ounce. Durability varies by FEAT roll, from temporary to permanent.
         Lifeform Creation:
           Rank: Amazing
           Number: 50
@@ -441,6 +480,11 @@ Abilities:
             Rank: Incredible
             Number: 40
           Description: Moves and manipulates objects with mental energy, exerting force remotely without physical contact.
+        Telelocation:
+          Rank: Monstrous
+          Number: 75
+          Note: Deity Aspect only.
+          Description: Within a spherical range set by your Power rank, psionically sense and pinpoint a target without any physical or sensory contact—using green FEATs for direct possession of a part, yellow for past contact, or red for reliable second‑hand information.
         Telepathy:
           Demon:
             Rank: Remarkable
@@ -496,22 +540,21 @@ Abilities:
           Note: Recharges Deity Aspect.
           Description: Supplies energy to sustain other Powers or devices continuously without external input.
         Focus:
+          Rank: Monstrous
+          Number: 75
           Demon:
-            Rank: Monstrous
-            Number: 75
             Total:
               Rank: Class 3000
-              Number: 4850
+              Number: 3920
               Spread: 62
-              Turns Until Full Recovery: 65
+              Turns Until Full Recovery: 53
           Deity:
-            Rank: Unearthly
-            Number: 100
             Total:
-              Rank: Class 5000
-              Number: 11530
-              Spread: 70
-              Turns Until Full Recovery: 116
+              Rank: Class 3000
+              Number: 4700
+              Spread: 75
+              Turns Until Full Recovery: 63
+          Note: Rankless abilities not included. Class 1000 Immunity Powers treated as Unearthly (100), multiplying each recovered point by 10 for that Power.
           Description: Channels all Abilities and Powers into a single burst, replacing the target Power’s rank with the sum of all other ranks. After use, all Abilities and Powers drop to Feeble. The Focus rank determines how many points can be recovered each turn, divided evenly across all affected traits.
       Self Alteration:
         Imitation-Human Changeling:
