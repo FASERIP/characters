@@ -9,6 +9,7 @@ Hero:
     Note: Normal Human Aspects may have appropriate cover identities.
   Base of Operations:
     - Hell Dimension
+    - Dimension of Dreams
     - Manhattan
   Group Affiliation: None
   Era: Bronze-Iron Transition (Mid 1980's-Early 1990's)
@@ -625,7 +626,10 @@ Hero:
         Energy Source:
           Rank: null
           Number: .nan
-          Type: Hell Dimension
+          Type:
+            - Hell Dimension
+            - Dimension of Dreams
+            - Site of active worship: Cannot benefit from actively self-promoted worship.
           Note: Recharges Deity Aspect.
           Description: Supplies energy to sustain other Powers or devices continuously without external input.
         Focus:
@@ -762,7 +766,7 @@ Hero:
           - Michael Morbius
           - Frank Blade
         Mythology:
-          - Inanna (Other Universes)
+          - Inanna: Other universes' versions of Inanna
           - Mephisto
           - Satannish
           - Cyttorak
@@ -777,9 +781,9 @@ Hero:
           - Lorelei
           - Remaining living worshippers
       Hero Group:
-        - Defenders
-        - Hellfire Club
-        - Cloak & Dagger
+        - Defenders: Non-member
+        - Hellfire Club: Non-member
+        - Cloak & Dagger: Non-member
     Magic:
     Character Type: Magic Wielder
     Magic School: Magic for Chaos
