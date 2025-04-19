@@ -553,7 +553,7 @@ Abilities:
           Form:
             Type: Spontaneous Creation
             Description: Psionically fabricate a full-grown duplicate of your previous body from raw matter and energy, with a build time of (100 – Power rank) days. The body reverts to its original materials.
-          Note: Default for Normal Human Aspect.  New body will match Aspect at Death, except Deity will be Demon, and requires 1d100 Turns of exposure to Energy Source to regain ability to assume Deity Aspect.
+          Note: Default for Normal Human Aspect.  New body will match Aspect at Death, except Deity will be Demon, and requires 1d100 Turns of exposure to Energy Source to regain ability to assume Deity Aspect.  Death in any Aspect automatically triggers Free Spirit Power.
           Description: Upon Death, lifeforce rebounds into a new host while you forfeit all Karma.
         Telekinesis:
           Demon:
@@ -597,8 +597,8 @@ Abilities:
         Self-Revival:
           Rank: Monstrous
           Number: 75
-          Note: Normal Human Aspect uses Serial Immortality instead, as does a destroyed body in other Aspects (less than one quarter of body remaining).
-          Description: Functions identically to Regeneration, healing at Power Rank multiple rate (lost limbs and organs requiring a Red FEAT), except also automatically revives after death, restoring life functions after fatal harm.  Color of FEAT required depends on condition of body (Green for Intact, Yellow for vitals intact, Red for at least one-quarter body remaining).
+          Note: Normal Human Aspect uses Serial Immortality instead, as does a destroyed body in other Aspects (less than one quarter of body remaining). Death in any Aspect automatically triggers Free Spirit power.
+          Description: Functions identically to Regeneration, healing at Power Rank multiple rate (lost limbs and organs requiring a Red FEAT), except also automatically revives after death, restoring life functions after fatal harm.  Color of FEAT required depends on condition of body (Green for intact, Yellow for vitals intact, Red for at least one-quarter body remaining).
         Self-Sustenance:
           Rank: Monstrous
           Number: 75
