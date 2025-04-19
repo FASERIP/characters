@@ -553,9 +553,9 @@ Abilities:
             Number: 100
             Total:
               Rank: Class 3000
-              Number: 11900
+              Number: 11925
               Spread: 83
-              Turns Until Full Recovery: 119
+              Turns Until Full Recovery: 120
           Note: Rankless abilities not included.
           Description: Channels all Abilities and Powers into a single burst, replacing the target Power’s rank with the sum of all other ranks. After use, all Abilities and Powers drop to Feeble. The Focus rank determines how many points can be recovered each turn, divided evenly across all affected traits.
       Self Alteration:
@@ -593,8 +593,8 @@ Abilities:
           Note: Deity Aspect only.
           Description: Instantaneously moves self from one location to another without physically traversing the space in between.
         True Flight:
-          Rank: Monstrous
-          Number: 75
+          Rank: Unearthly
+          Number: 100
           Note: Deity Aspect only.
           Description: Grants the natural ability to fly freely, allowing complete aerial maneuverability and sustained flight without external assistance.
       Body Alterations-Defensive:
@@ -660,8 +660,10 @@ Abilities:
           - Eric Simon Payne
           - Jennifer Kale
           - Lilia Calderu
+          - Wanda Maximoff
           - Azazel
           - Nightmare
+          - Selene
           - Michael Morbius
           - Frank Blade
         Mythology:
@@ -676,6 +678,8 @@ Abilities:
           - Ikonn
           - Khonshu
           - Loki Laufeyson
+          - Amora
+          - Lorelei
       Hero Group:
         - Defenders
         - Hellfire Club
