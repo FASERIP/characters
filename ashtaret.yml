@@ -583,7 +583,7 @@ Abilities:
           Rank: Monstrous
           Number: 75
           Note: Normal Human Aspect reverts to Demon Aspect on death or incapacitation, but Power does not begin functioning until after change is complete according to Changeling mechanic.
-          Description: Functions as Regeneration versus injuries, but also automatically revives after death, restoring life functions after fatal harm.
+          Description: Functions identically to Regeneration, except also automatically revives after death, restoring life functions after fatal harm.
         Self-Sustenance:
           Rank: Monstrous
           Number: 75
