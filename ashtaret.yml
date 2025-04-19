@@ -318,12 +318,12 @@ Abilities:
             - Decay: Rapidly accelerates cellular collapse, inflicting Power‑rank damage each turn until the victim crumbles to dust.
             - Disruption: Disrupts normal physiology, causing up to Power‑rank Health losses from nausea and chills to fatal trauma.
             - Aging: Alters a target’s age at your Power‑rank rate—green FEATs speed it up, yellow stop it, red reverse it.
-          Description: By touch (or at –1 CS per 10 ft and per extra target), permanently alter a target’s physiology in one of seven forms, so long as the Power is maintained.
+          Description: By touch (or at –1CS per 10 ft and per extra target), permanently alter a target’s physiology in one of seven forms, so long as the Power is maintained.
         Exorcism:
           Rank: Monstrous
           Number: 75
           Note: Deity Aspect only.
-          Description: Within 10 feet, sever any external magical, mental, or immortal‐type domination over a subject by matching FEAT intensity against the controlling Power’s rank, and instantly teleport the controller back to its home dimension.
+          Description: Within 10 feet, sever any external magical, mental, or immortal‐type domination over a subject by matching FEAT intensity against the controlling Power’s rank, and instantly teleport the controller back to its home dimension.
         Hypnotic Control:
           Rank: Amazing
           Number: 50
@@ -358,7 +358,7 @@ Abilities:
           Deity:
             Rank: Monstrous
             Number: 75
-          Description: Within a Power‑rank–determined range, put all targets into an irresistible, deep sleep for a rank‑based duration, with unconsciousness persisting 1–10 hours after the effect ends.
+          Description: Within a Power‑rank–determined range, put all targets into an irresistible, deep sleep for a rank‑based duration, with unconsciousness persisting 1–10 hours after the effect ends.
         Summoning:
           Rank: Amazing
           Number: 50
