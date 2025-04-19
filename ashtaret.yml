@@ -553,7 +553,7 @@ Abilities:
           Form:
             Type: Spontaneous Creation
             Description: Psionically fabricate a full-grown duplicate of your previous body from raw matter and energy, with a build time of (100 – Power rank) days. The body reverts to its original materials.
-          Note: Default for Normal Human Aspect.  New body will match Aspect at Death, except Deity will be Demon.
+          Note: Default for Normal Human Aspect.  New body will match Aspect at Death, except Deity will be Demon, and requires 1d100 Turns of exposure to Energy Source to regain ability to assume Deity Aspect.
           Description: Upon Death, lifeforce rebounds into a new host while you forfeit all Karma.
         Telekinesis:
           Demon:
