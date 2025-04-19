@@ -2,7 +2,11 @@ Hero:
   Game System: TSR Marvel Super Heroes RPG Advanced
   Name: Ashtaret
   Identity: Ashtaret
-  Public: true
+  Secret:
+    Demon: false
+    Deity: false
+    Normal Human: true
+    Note: Normal Human aspects may have appropriate cover identities.
   Base of Operations:
     - Hell Dimension
     - Manhattan
@@ -181,8 +185,8 @@ Abilities:
           Rank: 0
           Number: 0
       Normal Human:
-        Rank: Good
-        Number: 10
+        Rank: Typical
+        Number: 5
   Special Abilities:
     Powers:
       Note: No Powers available to Normal Human Aspect unless specifically noted.
