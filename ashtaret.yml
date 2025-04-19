@@ -162,7 +162,7 @@ Abilities:
           Heat and Flame:
             Rank: Class 1000
             Number: 1000
-            Note: Both Aspects. Inherent to all Demon-type Physical Form characters. Retained in Deity Aspect.
+            Note: Both Aspects. Inherent to all Demon Physical Form characters. Retained in Deity Aspect.
           Description: Grants full immunity against specific energy types like Heat and Flame.
         Resistance to Magic Attacks:
           Demon:
@@ -197,7 +197,7 @@ Abilities:
           Fire and Heat:
             Rank: Class 1000
             Number: 1000
-            Note: Both Aspects. Inherent to all Demon-type Physical Form characters. Retained in Deity Aspect.
+            Note: Both Aspects. Inherent to all Demon Physical Form characters. Retained in Deity Aspect.
           Toxins:
             Rank: Class 1000
             Number: 1000
@@ -281,7 +281,7 @@ Abilities:
         Fire Generation:
           Rank: Good
           Number: 10
-          Note: Inherent to all Demon-type Physical Form Characters. Demon Aspect only.
+          Note: Inherent to all Demon Physical Form Characters. Demon Aspect only.
           Description: Generates and projects fire directly from the character’s body as offensive energy.
         Shadowcasting:
           Rank: Remarkable
