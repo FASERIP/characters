@@ -31,7 +31,7 @@ Hero:
       Effect: Power Negation
       Duration: Continuous with Contact
       Conditions: Hallowed Ground
-      Note: Powers cease functioning withing 20 feet of stimulus, -1CS Abilities per 10 turns of exposure, cannot directly use Powers against Stimulus from outside radius. Instantly reverses when moved away from Stimulus.
+      Note: Powers cease functioning withing 20 feet of stimulus, -1CS Abilities per 10 turns of exposure, cannot directly use Powers against Stimulus from outside radius. Instantly reverses when moved away from Stimulus. Sites consecrated to her do not trigger this Weakness.
     Deity:
       Stimulus: Energy Depletion
       Effect: Special
