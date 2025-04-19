@@ -44,7 +44,7 @@ Hero:
         - Energy Allergy
       Effect: Fatal
       Duration: Continuous with Contact
-      Conditions: Exposure to energies or toxic substances causes loss of Health and Endurance.  May heal as normal after exposure ceases.
+      Conditions: Exposure to dangerous energies or toxic substances causes loss of Health and Endurance.  May heal as normal after exposure ceases.
       Note: Inherent to all Normal Human Physical Form Characters.
     Special:
       Stimulus: Special
