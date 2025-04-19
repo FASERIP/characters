@@ -495,6 +495,25 @@ Abilities:
           Type: Hell Dimension
           Note: Recharges Deity Aspect.
           Description: Supplies energy to sustain other Powers or devices continuously without external input.
+        Focus:
+          Demon:
+            Rank: Monstrous
+            Number: 75
+            Total:
+              Rank: Class 3000
+              Number: 4850
+              Spread: 62
+              Turns Until Full Recovery: 65
+          Deity:
+            Rank: Unearthly
+            Number: 100
+            Total:
+              Rank: Class 5000
+              Number: 11530
+              Spread: 70
+              Turns Until Full Recovery: 116
+          Description: Channels all Abilities and Powers into a single burst, replacing the target Power’s rank with the sum of all other ranks. After use, all Abilities and Powers drop to Feeble. The Focus rank determines how many points can be recovered each turn, divided evenly across all affected traits.
+
       Self Alteration:
         Imitation-Human Changeling:
           Rank: Monstrous
