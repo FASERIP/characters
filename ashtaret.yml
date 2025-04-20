@@ -269,6 +269,10 @@ Hero:
             Ethereal:
               Rank: Monstrous
               Number: 75
+            Normal Human:
+              Rank: Poor
+              Number: 4
+            Note: The Rank available to Normal Human Aspect is just enough to ignore inclement weather without appropriate clothing.
           Electricity:
             Demon:
               Rank: Good
@@ -319,13 +323,21 @@ Hero:
           Description: Completely immune to mental and psychic-based attacks including Psionics and Neural Manipulation.
         Resistance to Physical Attacks:
           Toxins:
-            Rank: Monstrous
-            Number: 75
-            Note: Demon Aspect only.
+            Demon:
+              Rank: Monstrous
+              Number: 75
+            Normal Human:
+              Rank: Good
+              Number: 10
+            Note: vailable to Normal Human Aspect at lower Rank.
           Disease:
-            Rank: Monstrous
-            Number: 75
-            Note: Demon Aspect only.
+            Demon:
+              Rank: Monstrous
+              Number: 75
+            Normal Human:
+              Rank: Remarkable
+              Number: 30
+            Note: Available to Normal Human Aspect at lower Rank.
           Corrosives:
             Demon:
               Rank: Remarkable
