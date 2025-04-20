@@ -23,10 +23,17 @@ Hero:
       Aspects:
         - Demon: Supernatural, corporeal being from another dimension, inherently malevolent by nature. Demons possess increased physical abilities, fire generation, invulnerability to heat and fire, and reduced popularity.
         - Deity: A former powerful entity worshiped as a god, now diminished and bound to a mortal form on Earth. Deities have significantly enhanced abilities, additional powers, automatic access to at least one travel power, and increased popularity with the general public, though limited influence among modern religious groups. Eventually attract any remaining living worshippers they still have as Contacts.
+        - Ethereal: An intangible, disembodied spirit in the Earth Dimension, can drift about in any direction, can pass through solid matter. May be invisible, transparent, translucent, or opaque.
         - Normal Human: The body is completely normal and possesses no detectable abnormalities. Any Powers the hero possesses have left no visible mark on the body.
     Origin of Power: Natal
   Weakness:
     Demon:
+      Stimulus: Psychological
+      Effect: Power Negation
+      Duration: Continuous with Contact
+      Conditions: Hallowed Ground
+      Note: Powers cease functioning withing 20 feet of stimulus, -1CS Abilities per 10 turns of exposure, cannot directly use Powers against Stimulus from outside radius. Instantly reverses when moved away from Stimulus. Sites consecrated to her do not trigger this Weakness. Magic use is not considered a Power.
+    Ethereal:
       Stimulus: Psychological
       Effect: Power Negation
       Duration: Continuous with Contact
@@ -343,6 +350,11 @@ Hero:
           Rank: Monstrous
           Number: 75
           Description: Sees heat and infrared emissions, able to perceive temperature variations and partially see through solid objects by heat patterns.
+        True Sight:
+          Rank: Monstrous
+          Number: 75
+          Note: Deity Aspect only.
+          Description: The hero can see the correct image of a target, despite any attempts at concealment or disguise.  Automatic success vs. lower-Rank disguise, green FEAT is required at +1CSl yellow FEAT at +2CS; and a red FEAT at +3CS
         Weakness Detection:
           Rank: Monstrous
           Number: 75
@@ -499,6 +511,7 @@ Hero:
           Normal Human:
             Rank: Excellent
             Number: 20
+          Note: Unavailable to Etheral Aspect.
           Description: Creates a single-piece object from nothing, detailed replicas require memorized designs. Temporarily drains Health per ounce created. Lifespan depends on FEAT success, from temporary to permanent.
         Lifeform Creation:
           Rank: Amazing
@@ -521,6 +534,7 @@ Hero:
           Deity:
             Rank: Amazing
             Number: 50
+          Note: Unavailable to Ethereal Aspect.
           Description: Synthesizes compounds and complex materials from nothing, temporarily sacrificing Health points per ounce. Durability based on FEAT, from temporary to permanent.
       Mental Enhancement:
         Cosmic Awareness:
@@ -539,7 +553,7 @@ Hero:
         Free Spirit:
           Rank: Monstrous
           Number: 75
-          Note: Death where Self-Revival is impossible, in any Aspect, automatically triggers Free Spirit power.
+          Note: Death where Self-Revival is impossible, in any Aspect except Ethereal, automatically triggers Free Spirit power. Not available to Ethereal Aspect.
           Description: Allows the character's consciousness to leave their body and travel independently, unaffected by physical constraints.
         Hyper Intelligence:
           Rank: Monstrous
@@ -566,6 +580,9 @@ Hero:
           Deity:
             Rank: Incredible
             Number: 40
+          Ethereal:
+            Rank: Excellent
+            Number: 20
           Description: Accesses thoughts and memories of others through telepathic intrusion.
         Serial Immortality:
           Demon:
@@ -574,13 +591,16 @@ Hero:
           Deity:
             Rank: Monstrous
             Number: 75
+          Ethereal:
+            Rank: Monstrous
+            Number: 75
           Normal Human:
             Rank: Incredible
             Number: 40
           Form:
             Type: Spontaneous Creation
             Description: Psionically fabricate a full-grown duplicate of your previous body from raw matter and energy, with a build time of (100 – Power rank) days. The body reverts to its original materials.
-          Note: Default for Normal Human Aspect.  New body will match Aspect at Death, except Deity will be Demon, and requires 1d100 Turns of exposure to Energy Source to regain ability to assume Deity Aspect.  Death where Self-Revival is impossible, in any Aspect, automatically triggers Free Spirit Power.
+          Note: Default for Normal Human Aspect.  New body will match Aspect at Death, except Deity or Ethereal will be Demon, and requires 1d100 Turns of exposure to Energy Source to regain ability to assume Deity Aspect.  Death where Self-Revival is impossible, in any Aspect except Ethereal, automatically triggers Free Spirit Power.
           Description: Upon Death, lifeforce rebounds into a new host while you forfeit all Karma.
         Telekinesis:
           Demon:
@@ -624,7 +644,7 @@ Hero:
         Self-Revival:
           Rank: Monstrous
           Number: 75
-          Note: Not available to Normal Human Aspect, which uses Serial Immortality instead, as does a destroyed body in other Aspects (less than one quarter of body remaining). Death where Self-Revival is impossible, in any Aspect, automatically triggers Free Spirit power.
+          Note: Not available to Normal Human or Ethereal Aspects, which uses Serial Immortality instead, as does a destroyed body in other Aspects (less than one quarter of body remaining). Death where Self-Revival is impossible, in any Aspect except Ethereal, automatically triggers Free Spirit power.
           Description: Functions identically to Regeneration, healing at Power Rank multiple rate (lost limbs and organs requiring a Red FEAT), except also automatically revives after death, restoring life functions after fatal harm.  Color of FEAT required depends on condition of body (Green for intact, Yellow for vitals intact, Red for at least one-quarter body remaining).
         Self-Sustenance:
           Rank: Monstrous
@@ -634,7 +654,7 @@ Hero:
         Stealth:
           Rank: Remarkable
           Number: 30
-          Note: Available in Normal Human Aspect.
+          Note: Available in Normal Human Aspect. Not available to Ethereal Aspect.
           Description: Moves silently and unnoticed, significantly reducing chances of detection.
         True Invulnerability:
           Rank: Monstrous
@@ -669,17 +689,17 @@ Hero:
             Number: 100
             Total:
               Rank: Class 5000
-              Number: 11925
-              Spread: 83
+              Number: 12000
+              Spread: 84
               Turns Until Full Recovery: 120
-          Note: Rankless abilities not included.
+          Note: Rankless abilities not included.  Not avaialble to Ethereal Aspect.
           Description: Channels all Abilities and Powers into a single burst, replacing the target Power’s rank with the sum of all other ranks. After use, all Abilities and Powers drop to Feeble. The Focus rank determines how many points can be recovered each turn, divided evenly across all affected traits.
       Self Alteration:
         Imitation-Human Changeling:
           Rank: Monstrous
           Number: 75
           Description: Physically alters appearance to mimic other humans perfectly, copying their physical traits and features.
-          Note: Appearance of Normal Human Aspect is last form taken by Demon or Deity Aspects.
+          Note: Appearance of Normal Human Aspect is last form taken by Demon or Deity Aspects. Not available to Ethereal Aspect
         Invisibility:
           Rank: Remarkable
           Number: 30
@@ -689,6 +709,7 @@ Hero:
         Astral Body:
           Rank: Monstrous
           Number: 75
+          Note: Not available to Ethereal Aspect.
           Description: Projects an intangible form for exploration of physical and astral planes without physical constraints.
         Dimension Travel:
           Rank: Monstrous
