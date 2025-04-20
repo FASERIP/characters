@@ -59,7 +59,7 @@ Hero:
       Effect: Loss of -1CS to all Powers and abilities
       Duration: Continuous with Contact
       Conditions: Engaging personally in actively promoting a religion based on herself (may still passively attract folowers).
-      Note: Inherent to all Deity Physical Form characters. This condition and effect applies in any Aspect.
+      Note: Inherent to all Deity Physical Form characters. This condition and effect applies in any Aspect. Independent activity by others does not tirgger this Weakness, nor does assisting or otherwise benefitting those who already follow her.
   Abilities:
     Primary Abilities:
       Fighting:
@@ -883,7 +883,8 @@ Hero:
         - Stamina: Ability to sustain long periods without rest or nourishment while engaged in magical study or casting, lasting up to six days.
         - Theoginist: Scholar of powerful extradimensional beings and gods, gaining +2CS when researching such entities.
         - Zoologist of Magic: Expert in magical creatures and mythical beasts across dimensions, providing +1CS when identifying or studying these creatures.
-    Equipment: All equipment is ad hoc via Artifact Creation.
+    Equipment:
+      Note: Most equipment is ad hoc via Artifact Creation.
     Contacts:
       Professional:
         Crime:
@@ -906,30 +907,27 @@ Hero:
           - Illyana Rasputin
           - Satana Hellstrom
           - Daimon Hellstrom
-          - Eric Simon Payne
           - Jennifer Kale
           - Lilia Calderu
           - Wanda Maximoff
           - Azazel
-          - Nightmare
+          - Nightmare: Relationship, both conflict and cooperation, involves mutual inhabitation of the Dimension of Dreams.
           - Selene: Their frenemy relationship has been going on for a very, very long time.
-          - Michael Morbius
+          - Eric Simon Payne
           - Frank Blade
         Mythology:
           - Inanna: Other universes' versions of Inanna
           - Mephisto
           - Satannish
-          - Cyttorak
           - Chthon
           - Oshtur: As a possible Inanna, also possibly a discarded Aspect of Oshtur
           - Set
           - Gaea
-          - Ikonn
           - Khonshu
           - Loki Laufeyson
           - Amora
           - Lorelei
-          - Remaining living worshippers: Eventually passively attracts followers, but is forbidden from actively promoting a religion based on herself.
+          - Remaining living worshippers: Eventually passively attracts followers, but is forbidden from actively promoting a religion based on herself, including active recruitment.
       Hero Group:
         - Defenders: Non-member
         - Hellfire Club: Non-member
@@ -1193,4 +1191,4 @@ Hero:
   Personality: |
     Vain, capricious, self-serving, whiny, pouty, manipulative, hedonistic, vindictive, and generally chaotic, though not particularly malevolent, Ashtaret is out for herself first, last, and only. She just wants to have fun.  However, she actively likes children and animals, despite her other traits.
   Description: |
-    While capable of any humanlike form via Imitation-Human Mimic, Ashtaret's typical form is a tall, long-legged, voluptuous but fit woman with spiraling ringlets of shiny, jet-black hair, burning honey-amber eyes, lustrous dark olive-bronze skin, and regal, decidedly Eastern Mediterranean facial features.  She is typically dressed and accessorized in whatever is considered high-fashion for the time, place, and situation, via Artifact Creation.
+    While capable of any humanlike form via the Imitation-Human Changeling Power, Ashtaret's typical form is a tall, long-legged, voluptuous but fit woman with spiraling ringlets of shiny, jet-black hair, burning honey-amber eyes, lustrous dark olive-bronze skin, and regal, decidedly Eastern Mediterranean facial features.  She is typically dressed and accessorized in whatever is considered high-fashion for the time, place, and situation, often via use of Artifact Creation.
