@@ -623,8 +623,8 @@ Hero:
           Deity:
             Rank: Amazing
             Number: 50
-          Note: Missiles do Stunning damage on impact unless combined with another power to cause that effect instead of or in addition to it. May be combined with any externally-interacting Power. Limited to Power Rank Number missiles per hour. Not available to Ethereal Aspect.
-          Description: Instantly creates and launches projectiles that inflict Stunning attacks or combine with other Powers for special effects. Limited by hourly missile creation rate.
+          Note: Not available to Ethereal Aspect.
+          Description: Instantly creates and launches projectiles that inflict Stunning attacks or combine with other Powers for special effects. Limited Power Rank Number hourly missile creation rate.
         Molecular Creation:
           Demon:
             Rank: Remarkable
