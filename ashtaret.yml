@@ -19,7 +19,7 @@ Hero:
     Physical Form:
       Type: Changeling
       Description: Able to transform between multiple distinct Body Types, each with unique advantages, disadvantages, and at least one exclusive power. Transformation temporarily disables all powers and reduces abilities.
-      Note: Takes 10 turns to change Aspect. No Powers can function and all Abilities -2CS during change. No Powers available to Normal Human Aspect unless specifically noted under that Power.
+      Note: Takes 10 turns to change Aspect. No Powers can function and all Abilities -2CS during change. No Powers available to Normal Human Aspect unless specifically noted under that Power. Magic use is still available to Normal Human Aspect.
       Aspects:
         - Demon: Supernatural, corporeal being from another dimension, inherently malevolent by nature. Demons possess increased physical abilities, fire generation, invulnerability to heat and fire, and reduced popularity.
         - Deity: A former powerful entity worshiped as a god, now diminished and bound to a mortal form on Earth. Deities have significantly enhanced abilities, additional powers, automatic access to at least one travel power, and increased popularity with the general public, though limited influence among modern religious groups. Eventually attract any remaining living worshippers they still have as Contacts.
@@ -31,7 +31,7 @@ Hero:
       Effect: Power Negation
       Duration: Continuous with Contact
       Conditions: Hallowed Ground
-      Note: Powers cease functioning withing 20 feet of stimulus, -1CS Abilities per 10 turns of exposure, cannot directly use Powers against Stimulus from outside radius. Instantly reverses when moved away from Stimulus. Sites consecrated to her do not trigger this Weakness.
+      Note: Powers cease functioning withing 20 feet of stimulus, -1CS Abilities per 10 turns of exposure, cannot directly use Powers against Stimulus from outside radius. Instantly reverses when moved away from Stimulus. Sites consecrated to her do not trigger this Weakness. Magic use is not considered a Power.
     Deity:
       Stimulus: Energy Depletion
       Effect: Special
@@ -539,6 +539,7 @@ Hero:
         Free Spirit:
           Rank: Monstrous
           Number: 75
+          Note: Death where Self-Revival is impossible, in any Aspect, automatically triggers Free Spirit power.
           Description: Allows the character's consciousness to leave their body and travel independently, unaffected by physical constraints.
         Hyper Intelligence:
           Rank: Monstrous
@@ -579,7 +580,7 @@ Hero:
           Form:
             Type: Spontaneous Creation
             Description: Psionically fabricate a full-grown duplicate of your previous body from raw matter and energy, with a build time of (100 – Power rank) days. The body reverts to its original materials.
-          Note: Default for Normal Human Aspect.  New body will match Aspect at Death, except Deity will be Demon, and requires 1d100 Turns of exposure to Energy Source to regain ability to assume Deity Aspect.  Death in any Aspect automatically triggers Free Spirit Power.
+          Note: Default for Normal Human Aspect.  New body will match Aspect at Death, except Deity will be Demon, and requires 1d100 Turns of exposure to Energy Source to regain ability to assume Deity Aspect.  Death where Self-Revival is impossible, in any Aspect, automatically triggers Free Spirit Power.
           Description: Upon Death, lifeforce rebounds into a new host while you forfeit all Karma.
         Telekinesis:
           Demon:
@@ -623,7 +624,7 @@ Hero:
         Self-Revival:
           Rank: Monstrous
           Number: 75
-          Note: Not available to Normal Human Aspect, which uses Serial Immortality instead, as does a destroyed body in other Aspects (less than one quarter of body remaining). Death in any Aspect automatically triggers Free Spirit power.
+          Note: Not available to Normal Human Aspect, which uses Serial Immortality instead, as does a destroyed body in other Aspects (less than one quarter of body remaining). Death where Self-Revival is impossible, in any Aspect, automatically triggers Free Spirit power.
           Description: Functions identically to Regeneration, healing at Power Rank multiple rate (lost limbs and organs requiring a Red FEAT), except also automatically revives after death, restoring life functions after fatal harm.  Color of FEAT required depends on condition of body (Green for intact, Yellow for vitals intact, Red for at least one-quarter body remaining).
         Self-Sustenance:
           Rank: Monstrous
