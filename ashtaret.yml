@@ -633,6 +633,7 @@ Hero:
         Stealth:
           Rank: Remarkable
           Number: 30
+          Note: Available in Normal Human Aspect.
           Description: Moves silently and unnoticed, significantly reducing chances of detection.
         True Invulnerability:
           Rank: Monstrous
