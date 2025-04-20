@@ -5,6 +5,7 @@ Hero:
   Secret:
     Demon: false
     Deity: false
+    Ethereal: false
     Normal Human: true
     Note: Normal Human Aspects may have appropriate cover identities.
   Base of Operations:
@@ -19,11 +20,11 @@ Hero:
     Physical Form:
       Type: Changeling
       Description: Able to transform between multiple distinct Body Types, each with unique advantages, disadvantages, and at least one exclusive power. Transformation temporarily disables all powers and reduces abilities.
-      Note: Takes 10 turns to change Aspect. No Powers can function and all Abilities -2CS during change. No Powers available to Normal Human Aspect unless specifically noted under that Power. Magic use is still available to Normal Human Aspect.
+      Note: Takes 10 turns to change Aspect. No Powers can function and all Abilities -2CS during change. Some Powers unavailable to Ethereal Aspect, noted under each Power where applicable. No Powers available to Normal Human Aspect unless specifically noted under that Power. Magic use is still available to Normal Human Aspect.
       Aspects:
         - Demon: Supernatural, corporeal being from another dimension, inherently malevolent by nature. Demons possess increased physical abilities, fire generation, invulnerability to heat and fire, and reduced popularity.
         - Deity: A former powerful entity worshiped as a god, now diminished and bound to a mortal form on Earth. Deities have significantly enhanced abilities, additional powers, automatic access to at least one travel power, and increased popularity with the general public, though limited influence among modern religious groups. Eventually attract any remaining living worshippers they still have as Contacts.
-        - Ethereal: An intangible, disembodied spirit in the Earth Dimension, can drift about in any direction, can pass through solid matter. May be invisible, transparent, translucent, or opaque.
+        - Ethereal: An intangible, disembodied spirit in the Earth Dimension, solid in other Dimensions. Can drift about in any direction, can pass through solid matter. May be invisible, transparent, translucent, or opaque. Immune to most physical attacks with Intensities less than Unearthly (-9CS).
         - Normal Human: The body is completely normal and possesses no detectable abnormalities. Any Powers the hero possesses have left no visible mark on the body.
     Origin of Power: Natal
   Weakness:
@@ -74,6 +75,11 @@ Hero:
           Rank: Excellent
           Number: 20
           Rank Description: Regular, formal training
+        Ethereal:
+          Rank: Excellent
+          Number: 20
+          Rank Description: Regular, formal training
+          Note: Shift-0 in Earth Dimension unless fighting another Ethereal.
       Agility:
         Demon:
           Rank: Amazing
@@ -83,6 +89,10 @@ Hero:
           Rank: Monstrous
           Number: 75
           Rank Description: Super-human accuracy and sense of dexterity
+        Ethereal:
+          Rank: Amazing
+          Number: 50
+          Rank Description: Super-human accuracy
         Normal Human:
           Rank: Excellent
           Number: 20
@@ -96,6 +106,10 @@ Hero:
           Rank: Remarkable
           Number: 30
           Rank Description: Able to press up to 2000 lbs (1 ton)
+        Ethereal:
+          Rank: Excellent
+          Number: 20
+          Rank Description: Able to press up to 800 lbs. (Maximum human ability)
         Normal Human:
           Rank: Excellent
           Number: 20
@@ -109,6 +123,10 @@ Hero:
           Rank: Unearthly
           Number: 100
           Rank Description: Never tires
+        Ethereal:
+          Rank: Amazing
+          Number: 50
+          Rank Description: Enhanced and trained abilities
         Normal Human:
           Rank: Excellent
           Number: 20
@@ -122,6 +140,10 @@ Hero:
           Rank: Monstrous
           Number: 75
           Rank Description: Improve and modify advanced alien technologies
+        Ethereal:
+          Rank: Incredible
+          Number: 40
+          Rank Description: Understand non-terran technologies
         Normal Human:
           Rank: Excellent
           Number: 20
@@ -140,6 +162,14 @@ Hero:
           Base:
             Rank: Shift-X
             Number: 150
+        Ethereal:
+          Rank: Unearthly
+          Number: 125
+          Rank Description: In touch with universe, cannot be blindsided
+          Base:
+            Rank: Amazing
+            Number: 50
+            Rank Description: Senses beyond all normal limitations
         Normal Human:
           Rank: Unearthly
           Number: 95
@@ -158,6 +188,10 @@ Hero:
           Rank: Unearthly
           Number: 100
           Rank Description: A closed mind, practically uncontrollable by outside means
+        Ethereal:
+          Rank: Amazing
+          Number: 50
+          Rank Description: Indomitable willpower
         Normal Human:
           Rank: Excellent
           Number: 20
@@ -166,10 +200,12 @@ Hero:
       Health:
         Demon: 165
         Deity: 235
+        Ethereal: 140
         Normal Human: 80
       Karma:
-        Demon: 190
+        Demon: 265
         Deity: 475
+        Ethereal: 215
         Normal Human: 135
       Resources:
         Demon:
@@ -178,12 +214,15 @@ Hero:
         Deity:
           Rank: Poor
           Number: 4
+        Ethereal:
+          Rank: Poor
+          Number: 4
         Normal Human:
           Rank: Typical
           Number: 6
       Popularity:
         Demon:
-          Rank: 0
+          Rank: Shift-0
           Number: 0
         Deity:
           Public:
@@ -192,17 +231,23 @@ Hero:
           Established Religions:
             Rank: 0
             Number: 0
+        Ethereal:
+          Rank: Typical
+          Number: 5
         Normal Human:
           Rank: Typical
           Number: 5
     Special Abilities:
     Powers:
-      Note: No Powers available to Normal Human Aspect unless specifically noted.
+      Note: No Powers available to Normal Human Aspect unless specifically noted. Many Powers unavailable to Ethereal Aspect, check notes.
       Defensive:
         Resistance to Emotion Attacks:
           Demon:
             Rank: Unearthly
             Number: 100
+          Ethereal:
+            Rank: Monstrous
+            Number: 75
           Normal Human:
             Rank: Remarkable
             Number: 30
@@ -221,6 +266,9 @@ Hero:
             Deity:
               Rank: Monstrous
               Number: 75
+            Ethereal:
+              Rank: Monstrous
+              Number: 75
           Electricity:
             Demon:
               Rank: Good
@@ -228,12 +276,15 @@ Hero:
             Deity:
               Rank: Monstrous
               Number: 75
+            Ethereal:
+              Rank: Excellent
+              Number: 20
           Description: Provides resistance against energy forms such as Light, Heat, Flame, Plasma, Radiation, Electricity, Vibration, Sonics, Cold, and Kinetic Bolts, reducing damage by Power rank number.
         Immunity to Energy Attacks:
           Heat and Flame:
             Rank: Class 1000
             Number: 1000
-            Note: Both Demon and Deity Aspects. Inherent to all Demon Physical Form characters. Retained in Deity Aspect.
+            Note: Demon, Deity, and Ethereal Aspects. Inherent to all Demon Physical Form characters. Retained in Deity Aspect.
           Description: Grants full immunity against specific energy types like Heat and Flame.
         Resistance to Magic Attacks:
           Demon:
@@ -242,11 +293,20 @@ Hero:
           Deity:
             Rank: Monstrous
             Number: 75
+          Ethereal:
+            Rank: Amazing
+            Number: 50
+          Normal Human:
+            Rank: Excellent
+            Number: 20
           Description: Protects against magical attacks of both physical and mental nature, reducing their effectiveness by Power rank number.
         Resistance to Mental Attacks:
           Demon:
             Rank: Unearthly
             Number: 100
+          Ethereal:
+            Rank: Monstrous
+            Number: 75
           Normal Human:
             Rank: Remarkable
             Number: 30
@@ -273,6 +333,7 @@ Hero:
             Deity:
               Rank: Monstrous
               Number: 75
+          Note: All Physical Attacks vs Ethereal Aspect have -9CS penalty.  Deity and Ethereal Aspects have Immunity to Toxins and Diseases. Ethereal Aspect has Immunity to Corrosives.
           Description: Reduces damage from brute force, chemical weapons, diseases, corrosives, extreme temperatures, and hostile environments by Power rank number.
         Immunity to Physical Attacks:
           Fire and Heat:
@@ -282,16 +343,20 @@ Hero:
           Toxins:
             Rank: Class 1000
             Number: 1000
-            Note: Deity Aspect only.
+            Note: Deity and Ethereal Aspects only.
           Disease:
             Rank: Class 1000
             Number: 1000
-            Note: Deity Aspect only.
+            Note: Deity and Ethereal Aspects only.
+          Corrosives:
+            Rank: Class 1000
+            Number: 1000
+            Note: Ethereal Aspect only.
           Description: Fully immune to specified physical threats such as Fire, Heat, Toxins, and Disease.
         Resistance to Power Manipulation:
           Rank: Monstrous
           Number: 75
-          Note: Demon and Normal Human Aspects only.
+          Note: Available to Normal Human Aspect.  Deity Aspect uses Immunity instead.
           Description: Grants resistance against direct attacks affecting the character’s powers, reducing their effectiveness by Power rank number.
         Immunity to Power Manipulation:
           Rank: Class 1000
@@ -301,7 +366,7 @@ Hero:
         Resistance to Vampirism:
           Rank: Monstrous
           Number: 75
-          Note: Demon Aspect and Normal Human Aspects only.
+          Note: Available to Normal Human Aspect. Deity Aspect has Immunity instead.
           Description: Provides resistance against vampiric attacks (Psi, Bio, Energy, Magic, and Power Vampirism), reducing effectiveness by Power rank number.
         Immunity to Vampirism:
           Rank: Class 1000
@@ -319,16 +384,21 @@ Hero:
           Normal Human:
             Rank: Remarkable
             Number: 30
+          Note: Not available to Ethereal Aspect.
           Description: Automatically aware of environmental conditions and disturbances such as weather, chemicals, movement, and life within the Power's range. Can gain more detailed information with effort.
         Hypersensitive Touch:
           Rank: Monstrous
           Number: 75
+          Note: Not available to Ethereal Aspect.
           Description: Enhanced sense of touch allows detailed identification of materials and fine surface details.
         Life Detection:
           Demon:
             Rank: Monstrous
             Number: 75
           Deity:
+            Rank: Monstrous
+            Number: 75
+          Ethereal:
             Rank: Monstrous
             Number: 75
           Normal Human:
@@ -340,6 +410,9 @@ Hero:
             Rank: Monstrous
             Number: 75
           Deity:
+            Rank: Monstrous
+            Number: 75
+          Ethereal:
             Rank: Monstrous
             Number: 75
           Normal Human:
@@ -367,6 +440,9 @@ Hero:
           Deity:
             Rank: Monstrous
             Number: 75
+          Ethereal:
+            Rank: Remarkable
+            Number: 30
           Power Stunts:
             - Blunt attack damage at Power rank.
             - Shadowcasting of Power rank Intensity darkness over a maximum of three areas.
@@ -425,10 +501,23 @@ Hero:
           Number: 75
           Note: Deity Aspect only.
           Description: Within 10 feet, sever any external magical, mental, or immortal‐type domination over a subject by matching FEAT intensity against the controlling Power’s rank, and instantly teleport the controller back to its home dimension.
+        Forced Reincarnation:
+          Rank: Remarkable
+          Number: 30
+          Note: Normal Human Aspect only.
+          Description: Capture disembodied spirits and merge them into new bodies.
         Hypnotic Control:
           Rank: Amazing
           Number: 50
           Description: Exerts mental control over targets through hypnotic suggestions, compelling actions or behaviors.
+        Mind Control:
+          Rank: Remarkable
+          Number: 30
+          Form:
+            Type: Possession
+            Description: The target mind loses both control and consciousness.
+          Note: Ethereal Aspect only.
+          Description: The ability to directly control a target's mind through psionic Powers.
         Neural Manipulation:
           Demon:
             Rank: Good
@@ -436,6 +525,9 @@ Hero:
           Deity:
             Rank: Monstrous
             Number: 75
+          Ethereal:
+            Rank: Excellent
+            Number: 20
           Forms:
             - Disruption: Block all sensory and motor signals, causing the target to collapse limp and unresponsive.
             - Paralysis: Freeze the target’s voluntary muscles in total rigidity, impervious to any chemical countermeasures.
@@ -459,6 +551,9 @@ Hero:
           Deity:
             Rank: Monstrous
             Number: 75
+          Ethereal:
+            Rank: Remarkable
+            Number: 30
           Description: Within a Power‑rank–determined range, put all targets into an irresistible, deep sleep for a rank‑based duration, with unconsciousness persisting 1–10 hours after the effect ends.
         Summoning:
           Rank: Amazing
@@ -472,6 +567,7 @@ Hero:
           Deity:
             Rank: Amazing
             Number: 50
+          Note: Not available to Ethereal Aspect.
           Description: Transforms matter into crystalline form, altering its structural integrity and shape.
         Geoforce:
           Rank: Incredible
@@ -485,6 +581,7 @@ Hero:
           Deity:
             Rank: Incredible
             Number: 40
+          Note: Not available to Ethereal Aspect.
           Description: Alters the shape, density, and form of solid matter, reshaping it according to will.
         Weather Control:
           Rank: Incredible
@@ -499,6 +596,7 @@ Hero:
           Deity:
             Rank: Amazing
             Number: 50
+          Note: Not available to Ethereal Aspect.
           Description: Transforms matter at a molecular level, changing substances from one molecular composition to another.
       Matter Creation:
         Artifact Creation:
@@ -511,7 +609,7 @@ Hero:
           Normal Human:
             Rank: Excellent
             Number: 20
-          Note: Unavailable to Etheral Aspect.
+          Note: Not available to Etheral Aspect.
           Description: Creates a single-piece object from nothing, detailed replicas require memorized designs. Temporarily drains Health per ounce created. Lifespan depends on FEAT success, from temporary to permanent.
         Lifeform Creation:
           Rank: Amazing
@@ -525,7 +623,7 @@ Hero:
           Deity:
             Rank: Amazing
             Number: 50
-          Note: Missiles do Stunning damage on impact unless combined with another power to cause that effect instead of or in addition to it. May be combined with any externally-interacting Power. Limited to Power Rank Number missiles per hour.
+          Note: Missiles do Stunning damage on impact unless combined with another power to cause that effect instead of or in addition to it. May be combined with any externally-interacting Power. Limited to Power Rank Number missiles per hour. Not available to Ethereal Aspect.
           Description: Instantly creates and launches projectiles that inflict Stunning attacks or combine with other Powers for special effects. Limited by hourly missile creation rate.
         Molecular Creation:
           Demon:
@@ -547,8 +645,18 @@ Hero:
           Number: 75
           Description: Enables entering and navigating through dreams or dream-like dimensions.
         Empathy:
-          Rank: Monstrous
-          Number: 75
+          Demon:
+            Rank: Monstrous
+            Number: 75
+          Deity:
+            Rank: Monstrous
+            Number: 75
+          Ethereal:
+            Rank: Monstrous
+            Number: 75
+          Normal Human:
+            Rank: Remarkable
+            Number: 30
           Description: Senses and influences emotions of others, understanding their feelings and potentially altering them.
         Free Spirit:
           Rank: Monstrous
@@ -581,8 +689,8 @@ Hero:
             Rank: Incredible
             Number: 40
           Ethereal:
-            Rank: Excellent
-            Number: 20
+            Rank: Remarkable
+            Number: 30
           Description: Accesses thoughts and memories of others through telepathic intrusion.
         Serial Immortality:
           Demon:
@@ -609,6 +717,9 @@ Hero:
           Deity:
             Rank: Incredible
             Number: 40
+          Ethereal:
+            Rank: Incredible
+            Number: 40
           Description: Moves and manipulates objects with mental energy, exerting force remotely without physical contact.
         Telelocation:
           Rank: Monstrous
@@ -622,6 +733,9 @@ Hero:
           Deity:
             Rank: Amazing
             Number: 50
+          Ethereal:
+            Rank: Remarkable
+            Number: 30
           Description: Mentally communicates with others, sending and receiving thoughts, and establishing mental links.
         Total Memory:
           Rank: Monstrous
@@ -632,6 +746,7 @@ Hero:
         Body Resistance:
           Rank: Remarkable
           Number: 30
+          Note: Not available to Ethereal Aspect.
           Description: Enhances natural resistance against physical damage, absorbing and reducing incoming harm.
         Hypnotic Voice:
           Rank: Incredible
@@ -640,6 +755,7 @@ Hero:
         Pheromones:
           Rank: Amazing
           Number: 50
+          Note: Not available to Ethereal Aspect.
           Description: Emits biochemical substances that subtly influence behavior or emotional responses of others nearby.
         Self-Revival:
           Rank: Monstrous
@@ -650,6 +766,7 @@ Hero:
           Rank: Monstrous
           Number: 75
           Type: Permanent
+          Note: Not available to Ethereal Aspect.
           Description: Operates indefinitely without typical biological needs like air, food, water, or sleep.
         Stealth:
           Rank: Remarkable
@@ -673,7 +790,7 @@ Hero:
             - Hell Dimension
             - Dimension of Dreams
             - Site of active worship: Cannot benefit from actively self-promoted worship.
-          Note: Recharges Deity Aspect.
+          Note: Recharges Deity Aspect. Not relevant to other Aspects.
           Description: Supplies energy to sustain other Powers or devices continuously without external input.
         Focus:
           Demon:
@@ -699,11 +816,12 @@ Hero:
           Rank: Monstrous
           Number: 75
           Description: Physically alters appearance to mimic other humans perfectly, copying their physical traits and features.
-          Note: Appearance of Normal Human Aspect is last form taken by Demon or Deity Aspects. Not available to Ethereal Aspect
+          Note: Appearance of Normal Human and Ethereal Aspects is last form taken by Demon or Deity Aspects. Not available to Ethereal Aspect.
         Invisibility:
           Rank: Remarkable
           Number: 30
           Type: Physics
+          Note: Not available to Ethereal Aspect (redundant).
           Description: Becomes unseen to normal sight, avoiding visual detection entirely.
       Travel:
         Astral Body:
@@ -829,259 +947,259 @@ Hero:
         - Hellfire Club: Non-member
         - Cloak & Dagger: Non-member
     Magic:
-    Character Type: Magic Wielder
-    Magic School: Magic for Chaos
-    Energy Use: All Energies
-    Rank: Master
-    Master: null
-    Note: Normal Human Aspect is still capable of magic use.
-    Spells:
-      Personal Energies:
-        Absorption:
-          Rank: Amazing
-          Number: 50
-          Description: Allows caster to take on the physical properties, including strength and armor, of any touched material or energy form temporarily.
-        Admittance:
-          Rank: Amazing
-          Number: 50
-          Description: Magically opens locks or containers regardless of complexity or number of locks.
-        Armor:
-          Rank: Amazing
-          Number: 50
-          Description: Summons mystical armor, reducing Agility by one rank due to its weight and bulk.
-        Apparition:
-          Rank: Amazing
-          Number: 50
-          Description: Caster becomes non-corporeal, allowing movement through solid objects and granting body armor against most physical and energy attacks.
-        Astral Projection:
-          Rank: Amazing
-          Number: 50
-          Description: Projects an intangible astral form capable of independent action, unaffected by physical barriers.
-        Enchanted Eye:
-          Rank: Amazing
-          Number: 50
-          Description: Grants caster remote viewing capabilities, seeing distant places or events clearly.
-        Flaw:
-          Rank: Amazing
-          Number: 50
-          Description: Allows detection and exploitation of weaknesses in objects or opponents.
-        Flight:
-          Rank: Amazing
-          Number: 50
-          Description: Enables natural sustained flight through mystical energy.
-        Foretelling:
-          Rank: Amazing
-          Number: 50
-          Description: Provides insights into possible future events, often through symbolic visions.
-        Gramarye:
-          Rank: Amazing
-          Number: 50
-          Description: Enhances ability to comprehend, decipher, or utilize magical texts and symbols.
-        Heal:
-          Rank: Amazing
-          Number: 50
-          Description: Self-healing through magical means, rapidly restoring health.
-        Image Projection:
-          Rank: Amazing
-          Number: 50
-          Description: Projects realistic images of caster or others at a distance.
-        Invisibility:
-          Rank: Amazing
-          Number: 50
-          Description: Temporarily renders the caster invisible to normal vision.
-        Learning:
-          Rank: Amazing
-          Number: 50
-          Description: Enhances speed and effectiveness of acquiring new knowledge or skills magically.
-        Levitation:
-          Rank: Amazing
-          Number: 50
-          Description: Allows vertical and limited horizontal floating movements without propulsion.
-        Luck:
-          Rank: Amazing
-          Number: 50
-          Description: Magically manipulates circumstances to favor the caster, influencing random outcomes positively.
-        Manipulation:
-          Rank: Amazing
-          Number: 50
-          Description: Enables mental influence or subtle control over others' decisions or actions.
-        Mental Barrier:
-          Rank: Amazing
-          Number: 50
-          Description: Constructs a psychic shield, protecting the caster from mental intrusions and attacks.
-        Servant:
-          Rank: Amazing
-          Number: 50
-          Description: Creates or summons a loyal, obedient creature or entity to perform tasks or assist the caster.
-        Tongues:
-          Rank: Amazing
-          Number: 50
-          Description: Grants instant understanding and fluency in spoken or written languages.
-      Universal Energies:
-        Charm:
-          Rank: Amazing
-          Number: 50
-          Description: Creates a pleasant aura around caster, discouraging hostile actions from affected targets.
-        Confusion:
-          Rank: Amazing
-          Number: 50
-          Description: Causes disorientation and erratic behavior among targets within an area.
-        Conjure:
-          Rank: Amazing
-          Number: 50
-          Description: Instantly summons items, creatures, or allies from distant locations.
-        Curse:
-          Rank: Amazing
-          Number: 50
-          Description: Places a negative magical effect on a target, reducing their effectiveness or luck.
-        Fear:
-          Rank: Amazing
-          Number: 50
-          Description: Magically induces intense fear in targets, disrupting their actions or causing them to flee.
-        Forgetfulness:
-          Rank: Amazing
-          Number: 50
-          Description: Temporarily erases specific memories from the minds of affected targets.
-        Glamor:
-          Rank: Amazing
-          Number: 50
-          Description: Alters perceptions to disguise true appearances or enhance attractiveness.
-        Healing-Others:
-          Rank: Amazing
-          Number: 50
-          Description: Magically heals injuries and illnesses in other beings.
-        Illusion:
-          Rank: Amazing
-          Number: 50
-          Description: Creates detailed sensory illusions to deceive and mislead targets.
-        Mesmerism:
-          Rank: Amazing
-          Number: 50
-          Description: Allows hypnotic control or suggestion over targets, influencing their immediate actions.
-        Paralyze:
-          Rank: Amazing
-          Number: 50
-          Description: Temporarily immobilizes targets, preventing any physical movement.
-        Revival:
-          Rank: Amazing
-          Number: 50
-          Description: Returns recently deceased beings to life, if performed promptly.
-        Teleportation:
-          Rank: Amazing
-          Number: 50
-          Description: Instantly transports the caster or others across distances without physically traversing space.
-        Trap:
-          Rank: Amazing
-          Number: 50
-          Description: Magically binds or immobilizes targets within a confined space.
-      Dimensional Energies:
-        Absorption:
-          Rank: Amazing
-          Number: 50
-          Description: Temporarily adopts properties of dimensional materials or energies upon contact.
-        Denak:
-          Rank: Amazing
-          Number: 50
-          Description: Entreaty invoking Denak's power, often granting mystical strength or force effects.
-          Entreaty: true
-        Dimensional Aperture:
-          Rank: Amazing
-          Number: 50
-          Description: Opens portals between dimensions, allowing travel to alternate realities.
-        Disguise:
-          Rank: Amazing
-          Number: 50
-          Description: Allows various forms of magical disguise.
-          Group Spell:
-            Alteration-Appearance: Magically changes physical appearance.
-            Chameleonic: Adapts coloration to blend with surroundings.
-            Coloring: Alters object or creature colors.
-            Glamor: Creates perceptual illusions of beauty or disguise.
-            Growing: Temporarily increases size.
-            Shrinking: Temporarily decreases size.
-        Faltine:
-          Rank: Amazing
-          Number: 50
-          Description: Invokes power from the Faltine dimension, typically associated with fire or energy blasts.
-          Entreaty: true
-        Ikonn:
-          Rank: Amazing
-          Number: 50
-          Description: Calls upon Ikonn's powers, enhancing psychic abilities or mental attacks.
-          Entreaty: true
-        Link:
-          Rank: Amazing
-          Number: 50
-          Description: Establishes a mystical connection for communication or shared abilities.
-        Passing:
-          Rank: Amazing
-          Number: 50
-          Description: Spells facilitating movement through barriers or altered states.
-          Group Spell:
-            Admittance: Opens locks and barriers.
-            Alteration-Bone: Flexible bone structure allows passage through narrow spaces.
-            Astral Projection: Projects consciousness through barriers.
-            Density Control-Self: Alters own density to pass through obstacles.
-            Transformation: Physically transforms to bypass barriers.
-        Pishogue:
-          Rank: Amazing
-          Number: 50
-          Description: Magical influence causing mental disruption and emotional effects.
-          Group Spell:
-            Confusion: Causes mental disorientation.
-            Fear: Induces intense terror.
-            Forgetfulness: Causes temporary memory loss.
-            Mesmerism: Enables hypnotic control.
-            Paralyze: Immobilizes targets.
-        Scrying:
-          Rank: Amazing
-          Number: 50
-          Description: Gathering information remotely through magical senses.
-          Group Spell:
-            Enchanted Eye: Remote viewing.
-            Foretelling: Predicts future events.
-            Post-Cognition: Views past events.
-            Sensing-Clairaudience: Remote hearing.
-            Sensing-Clairvoyance: Remote sight.
-        Sensing:
-          Rank: Amazing
-          Number: 50
-          Description: Enhanced magical detection and sensory awareness.
-          Group Spell:
-            Sensing-Danger: Detects impending threats.
-            Sensing-Evil: Senses malevolent presence.
-            Sensing-Fields: Detects magical or force fields.
-            Sensing-Identity: Discerns true identities or natures.
-            Sensing-Mystical Detection: Detects magical energies or spells.
-        Teleportation:
-          Rank: Amazing
-          Number: 50
-          Description: Instantly transports caster or target across space without physically crossing the intervening distance. Requires familiarity or successful FEAT roll if teleporting into unknown locations. Can teleport objects or beings within strength limits.
-        Thaumaturgy:
-          Rank: Amazing
-          Number: 50
-          Description: Provides various magical offensive and capturing effects.
-          Group Spell:
-            Bands: Creates mystic bindings to restrain targets.
-            Curse: Imposes negative conditions or misfortune on targets.
-            Net: Generates magical nets to entangle or immobilize.
-            Trap: Magically confines or immobilizes within an area.
-            Wave: Releases a wave of mystical energy for offensive or disruptive purposes.
-        Valtorr:
-          Rank: Amazing
-          Number: 50
-          Description: Entreaty invoking the powers of Valtorr, typically enhancing defense and protective barriers.
-          Entreaty: true
-        Witchery:
-          Rank: Amazing
-          Number: 50
-          Description: Spells specifically affecting others through alterations and enhancements.
-          Group Spell:
-            Density Control-Others: Alters the density of others, making them heavier or lighter.
-            Growing-Others: Temporarily increases the size of targeted beings.
-            Healing-Others: Magically heals wounds and ailments in others.
-            Invisibility-Others: Renders others temporarily invisible.
-            Shrinking-Others: Temporarily reduces the size of targeted beings.
+      Character Type: Magic Wielder
+      Magic School: Magic for Chaos
+      Energy Use: All Energies
+      Rank: Master
+      Master: null
+      Note: Normal Human Aspect is still capable of Magic use.  Magic use is not considered a Power.
+      Spells:
+        Personal Energies:
+          Absorption:
+            Rank: Amazing
+            Number: 50
+            Description: Allows caster to take on the physical properties, including strength and armor, of any touched material or energy form temporarily.
+          Admittance:
+            Rank: Amazing
+            Number: 50
+            Description: Magically opens locks or containers regardless of complexity or number of locks.
+          Armor:
+            Rank: Amazing
+            Number: 50
+            Description: Summons mystical armor, reducing Agility by one rank due to its weight and bulk.
+          Apparition:
+            Rank: Amazing
+            Number: 50
+            Description: Caster becomes non-corporeal, allowing movement through solid objects and granting body armor against most physical and energy attacks.
+          Astral Projection:
+            Rank: Amazing
+            Number: 50
+            Description: Projects an intangible astral form capable of independent action, unaffected by physical barriers.
+          Enchanted Eye:
+            Rank: Amazing
+            Number: 50
+            Description: Grants caster remote viewing capabilities, seeing distant places or events clearly.
+          Flaw:
+            Rank: Amazing
+            Number: 50
+            Description: Allows detection and exploitation of weaknesses in objects or opponents.
+          Flight:
+            Rank: Amazing
+            Number: 50
+            Description: Enables natural sustained flight through mystical energy.
+          Foretelling:
+            Rank: Amazing
+            Number: 50
+            Description: Provides insights into possible future events, often through symbolic visions.
+          Gramarye:
+            Rank: Amazing
+            Number: 50
+            Description: Enhances ability to comprehend, decipher, or utilize magical texts and symbols.
+          Heal:
+            Rank: Amazing
+            Number: 50
+            Description: Self-healing through magical means, rapidly restoring health.
+          Image Projection:
+            Rank: Amazing
+            Number: 50
+            Description: Projects realistic images of caster or others at a distance.
+          Invisibility:
+            Rank: Amazing
+            Number: 50
+            Description: Temporarily renders the caster invisible to normal vision.
+          Learning:
+            Rank: Amazing
+            Number: 50
+            Description: Enhances speed and effectiveness of acquiring new knowledge or skills magically.
+          Levitation:
+            Rank: Amazing
+            Number: 50
+            Description: Allows vertical and limited horizontal floating movements without propulsion.
+          Luck:
+            Rank: Amazing
+            Number: 50
+            Description: Magically manipulates circumstances to favor the caster, influencing random outcomes positively.
+          Manipulation:
+            Rank: Amazing
+            Number: 50
+            Description: Enables mental influence or subtle control over others' decisions or actions.
+          Mental Barrier:
+            Rank: Amazing
+            Number: 50
+            Description: Constructs a psychic shield, protecting the caster from mental intrusions and attacks.
+          Servant:
+            Rank: Amazing
+            Number: 50
+            Description: Creates or summons a loyal, obedient creature or entity to perform tasks or assist the caster.
+          Tongues:
+            Rank: Amazing
+            Number: 50
+            Description: Grants instant understanding and fluency in spoken or written languages.
+        Universal Energies:
+          Charm:
+            Rank: Amazing
+            Number: 50
+            Description: Creates a pleasant aura around caster, discouraging hostile actions from affected targets.
+          Confusion:
+            Rank: Amazing
+            Number: 50
+            Description: Causes disorientation and erratic behavior among targets within an area.
+          Conjure:
+            Rank: Amazing
+            Number: 50
+            Description: Instantly summons items, creatures, or allies from distant locations.
+          Curse:
+            Rank: Amazing
+            Number: 50
+            Description: Places a negative magical effect on a target, reducing their effectiveness or luck.
+          Fear:
+            Rank: Amazing
+            Number: 50
+            Description: Magically induces intense fear in targets, disrupting their actions or causing them to flee.
+          Forgetfulness:
+            Rank: Amazing
+            Number: 50
+            Description: Temporarily erases specific memories from the minds of affected targets.
+          Glamor:
+            Rank: Amazing
+            Number: 50
+            Description: Alters perceptions to disguise true appearances or enhance attractiveness.
+          Healing-Others:
+            Rank: Amazing
+            Number: 50
+            Description: Magically heals injuries and illnesses in other beings.
+          Illusion:
+            Rank: Amazing
+            Number: 50
+            Description: Creates detailed sensory illusions to deceive and mislead targets.
+          Mesmerism:
+            Rank: Amazing
+            Number: 50
+            Description: Allows hypnotic control or suggestion over targets, influencing their immediate actions.
+          Paralyze:
+            Rank: Amazing
+            Number: 50
+            Description: Temporarily immobilizes targets, preventing any physical movement.
+          Revival:
+            Rank: Amazing
+            Number: 50
+            Description: Returns recently deceased beings to life, if performed promptly.
+          Teleportation:
+            Rank: Amazing
+            Number: 50
+            Description: Instantly transports the caster or others across distances without physically traversing space.
+          Trap:
+            Rank: Amazing
+            Number: 50
+            Description: Magically binds or immobilizes targets within a confined space.
+        Dimensional Energies:
+          Absorption:
+            Rank: Amazing
+            Number: 50
+            Description: Temporarily adopts properties of dimensional materials or energies upon contact.
+          Denak:
+            Rank: Amazing
+            Number: 50
+            Description: Entreaty invoking Denak's power, often granting mystical strength or force effects.
+            Entreaty: true
+          Dimensional Aperture:
+            Rank: Amazing
+            Number: 50
+            Description: Opens portals between dimensions, allowing travel to alternate realities.
+          Disguise:
+            Rank: Amazing
+            Number: 50
+            Description: Allows various forms of magical disguise.
+            Group Spell:
+              Alteration-Appearance: Magically changes physical appearance.
+              Chameleonic: Adapts coloration to blend with surroundings.
+              Coloring: Alters object or creature colors.
+              Glamor: Creates perceptual illusions of beauty or disguise.
+              Growing: Temporarily increases size.
+              Shrinking: Temporarily decreases size.
+          Faltine:
+            Rank: Amazing
+            Number: 50
+            Description: Invokes power from the Faltine dimension, typically associated with fire or energy blasts.
+            Entreaty: true
+          Ikonn:
+            Rank: Amazing
+            Number: 50
+            Description: Calls upon Ikonn's powers, enhancing psychic abilities or mental attacks.
+            Entreaty: true
+          Link:
+            Rank: Amazing
+            Number: 50
+            Description: Establishes a mystical connection for communication or shared abilities.
+          Passing:
+            Rank: Amazing
+            Number: 50
+            Description: Spells facilitating movement through barriers or altered states.
+            Group Spell:
+              Admittance: Opens locks and barriers.
+              Alteration-Bone: Flexible bone structure allows passage through narrow spaces.
+              Astral Projection: Projects consciousness through barriers.
+              Density Control-Self: Alters own density to pass through obstacles.
+              Transformation: Physically transforms to bypass barriers.
+          Pishogue:
+            Rank: Amazing
+            Number: 50
+            Description: Magical influence causing mental disruption and emotional effects.
+            Group Spell:
+              Confusion: Causes mental disorientation.
+              Fear: Induces intense terror.
+              Forgetfulness: Causes temporary memory loss.
+              Mesmerism: Enables hypnotic control.
+              Paralyze: Immobilizes targets.
+          Scrying:
+            Rank: Amazing
+            Number: 50
+            Description: Gathering information remotely through magical senses.
+            Group Spell:
+              Enchanted Eye: Remote viewing.
+              Foretelling: Predicts future events.
+              Post-Cognition: Views past events.
+              Sensing-Clairaudience: Remote hearing.
+              Sensing-Clairvoyance: Remote sight.
+          Sensing:
+            Rank: Amazing
+            Number: 50
+            Description: Enhanced magical detection and sensory awareness.
+            Group Spell:
+              Sensing-Danger: Detects impending threats.
+              Sensing-Evil: Senses malevolent presence.
+              Sensing-Fields: Detects magical or force fields.
+              Sensing-Identity: Discerns true identities or natures.
+              Sensing-Mystical Detection: Detects magical energies or spells.
+          Teleportation:
+            Rank: Amazing
+            Number: 50
+            Description: Instantly transports caster or target across space without physically crossing the intervening distance. Requires familiarity or successful FEAT roll if teleporting into unknown locations. Can teleport objects or beings within strength limits.
+          Thaumaturgy:
+            Rank: Amazing
+            Number: 50
+            Description: Provides various magical offensive and capturing effects.
+            Group Spell:
+              Bands: Creates mystic bindings to restrain targets.
+              Curse: Imposes negative conditions or misfortune on targets.
+              Net: Generates magical nets to entangle or immobilize.
+              Trap: Magically confines or immobilizes within an area.
+              Wave: Releases a wave of mystical energy for offensive or disruptive purposes.
+          Valtorr:
+            Rank: Amazing
+            Number: 50
+            Description: Entreaty invoking the powers of Valtorr, typically enhancing defense and protective barriers.
+            Entreaty: true
+          Witchery:
+            Rank: Amazing
+            Number: 50
+            Description: Spells specifically affecting others through alterations and enhancements.
+            Group Spell:
+              Density Control-Others: Alters the density of others, making them heavier or lighter.
+              Growing-Others: Temporarily increases the size of targeted beings.
+              Healing-Others: Magically heals wounds and ailments in others.
+              Invisibility-Others: Renders others temporarily invisible.
+              Shrinking-Others: Temporarily reduces the size of targeted beings.
   Biography: |
     An ancient Demon from terrible realms beyond, formerly a primeval Deity no longer widely worshipped, Ashtaret is long since finished with the machinations of cosmic evil and pops in to the Earth Dimension from time to time to live her best immortal life in the dual-natured glamour and shadows of 1980's Manhattan. It is possible, even likely, but unconformed that Ashtaret is Earth-1986's version of Inanna.
   Personality: |
