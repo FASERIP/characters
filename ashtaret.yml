@@ -751,6 +751,7 @@ Hero:
         Hypnotic Voice:
           Rank: Incredible
           Number: 40
+          Note: Normal Human Aspect uses the Hypnosis and Mesmerism Talent instead at Reason rank.
           Description: Influences or controls others through voice, compelling obedience or specific actions.
         Pheromones:
           Rank: Amazing
@@ -760,7 +761,7 @@ Hero:
         Self-Revival:
           Rank: Monstrous
           Number: 75
-          Note: Not available to Normal Human or Ethereal Aspects, which uses Serial Immortality instead, as does a destroyed body in other Aspects (less than one quarter of body remaining). Death where Self-Revival is impossible, in any Aspect except Ethereal, automatically triggers Free Spirit power.
+          Note: Not available to Normal Human or Ethereal Aspects, which use Serial Immortality instead, as does a destroyed body in other Aspects (less than one quarter of body remaining). Death where Self-Revival is impossible, in any Aspect except Ethereal, automatically triggers Free Spirit power.
           Description: Functions identically to Regeneration, healing at Power Rank multiple rate (lost limbs and organs requiring a Red FEAT), except also automatically revives after death, restoring life functions after fatal harm.  Color of FEAT required depends on condition of body (Green for intact, Yellow for vitals intact, Red for at least one-quarter body remaining).
         Self-Sustenance:
           Rank: Monstrous
@@ -771,7 +772,7 @@ Hero:
         Stealth:
           Rank: Remarkable
           Number: 30
-          Note: Available in Normal Human Aspect. Not available to Ethereal Aspect.
+          Note: Available in Normal Human Aspect. Not available to Ethereal Aspect (redundant).
           Description: Moves silently and unnoticed, significantly reducing chances of detection.
         True Invulnerability:
           Rank: Monstrous
