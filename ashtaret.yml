@@ -24,7 +24,7 @@ Hero:
       Aspects:
         - Demon: Supernatural, corporeal being from another dimension, inherently malevolent by nature. Demons possess increased physical abilities, fire generation, invulnerability to heat and fire, and reduced popularity.
         - Deity: A former powerful entity worshiped as a god, now diminished and bound to a mortal form on Earth. Deities have significantly enhanced abilities, additional powers, automatic access to at least one travel power, and increased popularity with the general public, though limited influence among modern religious groups. Eventually attract any remaining living worshippers they still have as Contacts.
-        - Ethereal: An intangible, disembodied spirit in the Earth Dimension, solid in other Dimensions. Can drift about in any direction, can pass through solid matter. May be invisible, transparent, translucent, or opaque. Immune to most physical attacks with Intensities less than Unearthly (-9CS).
+        - Ethereal: An intangible, disembodied spirit in the Earth Dimension, solid in other Dimensions. Can drift about in any direction, can pass through solid matter. May be invisible, transparent, translucent, or opaque. Immune to most physical attacks with Intensities less than Unearthly (-9CS). Separate from Free Spirit power, as a deliberate, complete transformation into an incorporeal form.
         - Normal Human: The body is completely normal and possesses no detectable abnormalities. Any Powers the hero possesses have left no visible mark on the body.
     Origin of Power: Natal
   Weakness:
@@ -33,13 +33,13 @@ Hero:
       Effect: Power Negation
       Duration: Continuous with Contact
       Conditions: Hallowed Ground
-      Note: Powers cease functioning withing 20 feet of stimulus, -1CS Abilities per 10 turns of exposure, cannot directly use Powers against Stimulus from outside radius. Instantly reverses when moved away from Stimulus. Sites consecrated to her do not trigger this Weakness. Magic use is not considered a Power.
+      Note: Powers cease functioning withing 20 feet of stimulus, -1CS Abilities per 10 turns of exposure, cannot directly use Powers against Stimulus from outside radius. Instantly reverses when moved away from Stimulus. Sites consecrated to her do not trigger this Weakness. Magic use is not considered a Power. Same as Ethereal Aspect Weakness.
     Ethereal:
       Stimulus: Psychological
       Effect: Power Negation
       Duration: Continuous with Contact
       Conditions: Hallowed Ground
-      Note: Powers cease functioning withing 20 feet of stimulus, -1CS Abilities per 10 turns of exposure, cannot directly use Powers against Stimulus from outside radius. Instantly reverses when moved away from Stimulus. Sites consecrated to her do not trigger this Weakness. Magic use is not considered a Power.
+      Note: Powers cease functioning withing 20 feet of stimulus, -1CS Abilities per 10 turns of exposure, cannot directly use Powers against Stimulus from outside radius. Instantly reverses when moved away from Stimulus. Sites consecrated to her do not trigger this Weakness. Magic use is not considered a Power. Same as Demon Aspect Weakness.
     Deity:
       Stimulus: Energy Depletion
       Effect: Special
@@ -54,7 +54,7 @@ Hero:
       Duration: Continuous with Contact
       Conditions: Exposure to dangerous energies or toxic substances causes loss of Health and Endurance.  May heal as normal after exposure ceases.
       Note: Inherent to all Normal Human Physical Form Characters.
-    Special:
+    All Aspects:
       Stimulus: Special
       Effect: Loss of -1CS to all Powers and abilities
       Duration: Continuous with Contact
