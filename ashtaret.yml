@@ -43,7 +43,7 @@ Hero:
     Deity:
       Stimulus: Energy Depletion
       Effect: Special
-      Duration: Special
+      Duration: Permanent
       Conditions: Forced change back to Demon Aspect after 1d100 turns in Deity Aspect, unless in continuous contact with Energy Source while in that Aspect, until 1d100 turns exposure to Energy Source to recharge.
     Normal Human:
       Stimulus:
@@ -53,7 +53,7 @@ Hero:
       Effect: Fatal
       Duration: Continuous with Contact
       Conditions: Exposure to dangerous energies or toxic substances causes loss of Health and Endurance.  May heal as normal after exposure ceases.
-      Note: Inherent to all Normal Human Physical Form Characters.
+      Note: Inherent to all Normal Human Physical Form Characters. This Weakness simply reflects how dangerous substances and energy affects Normal Humans.
     All Aspects:
       Stimulus: Special
       Effect: Loss of -1CS to all Powers and abilities
@@ -178,7 +178,7 @@ Hero:
             Rank: Excellent
             Number: 20
             Rank Description: Detective skills or background
-        Note: Monstrous (75) Additive Hyper-Intelligence added to base Intuition of Demon and Deity Aspects.
+        Note: Monstrous (75) Additive Hyper-Intelligence added to base Intuition.
       Psyche:
         Demon:
           Rank: Monstrous
@@ -822,7 +822,7 @@ Hero:
           Number: 30
           Type: Physics
           Note: Not available to Ethereal Aspect (redundant).
-          Description: Becomes unseen to normal sight, avoiding visual detection entirely.
+          Description: Becomes unseen to normal sight, avoiding visual detection entirely. Physics is actual transparency to visible light, granting immunity to attacks based on it, at Good Rank or higher, includes rest of EM spectrum and may be extended in range.
       Travel:
         Astral Body:
           Rank: Monstrous
