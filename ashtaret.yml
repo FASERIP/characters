@@ -67,88 +67,88 @@ Hero:
         Demon:
           Rank: Excellent
           Number: 20
-          Rank Description: Regular, formal training
+          Rank Equivalency: Regular, formal training
         Deity:
           Rank: Remarkable
           Number: 30
-          Rank Description: Superior talent
+          Rank Equivalency: Superior talent
         Normal Human:
           Rank: Excellent
           Number: 20
-          Rank Description: Regular, formal training
+          Rank Equivalency: Regular, formal training
         Ethereal:
           Rank: Excellent
           Number: 20
-          Rank Description: Regular, formal training
+          Rank Equivalency: Regular, formal training
           Note: Shift-0 in Earth Dimension unless fighting another Ethereal.
       Agility:
         Demon:
           Rank: Amazing
           Number: 50
-          Rank Description: Super-human accuracy
+          Rank Equivalency: Super-human accuracy
         Deity:
           Rank: Monstrous
           Number: 75
-          Rank Description: Super-human accuracy and sense of dexterity
+          Rank Equivalency: Super-human accuracy and sense of dexterity
         Ethereal:
           Rank: Amazing
           Number: 50
-          Rank Description: Super-human accuracy
+          Rank Equivalency: Super-human accuracy
         Normal Human:
           Rank: Excellent
           Number: 20
-          Rank Description: Intensive training in dexterity and/or accuracy
+          Rank Equivalency: Intensive training in dexterity and/or accuracy
       Strength:
         Demon:
           Rank: Excellent
           Number: 20
-          Rank Description: Able to press up to 800 lbs. (Maximum human ability)
+          Rank Equivalency: Able to press up to 800 lbs. (Maximum human ability)
         Deity:
           Rank: Remarkable
           Number: 30
-          Rank Description: Able to press up to 2000 lbs (1 ton)
+          Rank Equivalency: Able to press up to 2000 lbs (1 ton)
         Ethereal:
           Rank: Excellent
           Number: 20
-          Rank Description: Able to press up to 800 lbs. (Maximum human ability)
+          Rank Equivalency: Able to press up to 800 lbs. (Maximum human ability)
         Normal Human:
           Rank: Excellent
           Number: 20
-          Rank Description: Able to press up to 800 lbs. (Maximum human ability)
+          Rank Equivalency: Able to press up to 800 lbs. (Maximum human ability)
       Endurance:
         Demon:
           Rank: Monstrous
           Number: 75
-          Rank Description: Rarely tires, great fortitude
+          Rank Equivalency: Rarely tires, great fortitude
         Deity:
           Rank: Unearthly
           Number: 100
-          Rank Description: Never tires
+          Rank Equivalency: Never tires
         Ethereal:
           Rank: Amazing
           Number: 50
-          Rank Description: Enhanced and trained abilities
+          Rank Equivalency: Enhanced and trained abilities
         Normal Human:
           Rank: Excellent
           Number: 20
-          Rank Description: Regular exercise
+          Rank Equivalency: Regular exercise
       Reason:
         Demon:
           Rank: Incredible
           Number: 40
-          Rank Description: Understand non-terran technologies
+          Rank Equivalency: Understand non-terran technologies
         Deity:
           Rank: Monstrous
           Number: 75
-          Rank Description: Improve and modify advanced alien technologies
+          Rank Equivalency: Improve and modify advanced alien technologies
         Ethereal:
           Rank: Incredible
           Number: 40
-          Rank Description: Understand non-terran technologies
+          Rank Equivalency: Understand non-terran technologies
         Normal Human:
           Rank: Excellent
           Number: 20
-          Rank Description: Modify existing 1980's technology
+          Rank Equivalency: Modify existing 1980's technology
       Intuition:
         Demon:
           Rank: Shift-X
@@ -156,7 +156,7 @@ Hero:
           Base:
             Rank: Monstrous
             Number: 75
-            Rank Description: Senses beyond all normal limitations
+            Rank Equivalency: Senses beyond all normal limitations
         Deity:
           Rank: Shift-Y
           Number: 225
@@ -166,37 +166,37 @@ Hero:
         Ethereal:
           Rank: Unearthly
           Number: 125
-          Rank Description: In touch with universe, cannot be blindsided
+          Rank Equivalency: In touch with universe, cannot be blindsided
           Base:
             Rank: Amazing
             Number: 50
-            Rank Description: Senses beyond all normal limitations
+            Rank Equivalency: Senses beyond all normal limitations
         Normal Human:
           Rank: Amazing
           Number: 50
-          Rank Description: Senses beyond all normal limitations
+          Rank Equivalency: Senses beyond all normal limitations
           Base:
             Rank: Excellent
             Number: 20
-            Rank Description: Detective skills or background
+            Rank Equivalency: Detective skills or background
         Note: Monstrous (75) Additive Hyper-Intelligence added to base Intuition, reduced to Remarkable (30) in Normal Human Aspect.
       Psyche:
         Demon:
           Rank: Monstrous
           Number: 75
-          Rank Description: Intense training in mental powers, experience in wielding those powers
+          Rank Equivalency: Intense training in mental powers, experience in wielding those powers
         Deity:
           Rank: Unearthly
           Number: 100
-          Rank Description: A closed mind, practically uncontrollable by outside means
+          Rank Equivalency: A closed mind, practically uncontrollable by outside means
         Ethereal:
           Rank: Amazing
           Number: 50
-          Rank Description: Indomitable willpower
+          Rank Equivalency: Indomitable willpower
         Normal Human:
           Rank: Excellent
           Number: 20
-          Rank Description: Some experience with mental control and/or mystic forces
+          Rank Equivalency: Some experience with mental control and/or mystic forces
     Secondary Abilities:
       Health:
         Demon: 165
