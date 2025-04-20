@@ -39,9 +39,9 @@ Hero:
       Conditions: Forced change back to Demon Aspect after 1d100 turns in Deity Aspect, unless in continuous contact with Energy Source while in that Aspect, until 1d100 turns exposure to Energy Source to recharge.
     Normal Human:
       Stimulus:
-        - Elemental Allergy
-        - Molecular Allergy
-        - Energy Allergy
+        - Elemental Allergy: The hero suffers adverse effects if he is exposed to a specific one of the hundred-odd elements.
+        - Molecular Allergy: A specific compound causes the Effect.
+        - Energy Allergy: The hero suffers when he is exposed to a specific form of energy
       Effect: Fatal
       Duration: Continuous with Contact
       Conditions: Exposure to dangerous energies or toxic substances causes loss of Health and Endurance.  May heal as normal after exposure ceases.
@@ -303,20 +303,41 @@ Hero:
           Description: Fully immune to all forms of vampiric attacks.
       Detection:
         Environmental Awareness:
-          Rank: Monstrous
-          Number: 75
+          Demon:
+            Rank: Monstrous
+            Number: 75
+          Deity:
+            Rank: Monstrous
+            Number: 75
+          Normal Human:
+            Rank: Remarkable
+            Number: 30
           Description: Automatically aware of environmental conditions and disturbances such as weather, chemicals, movement, and life within the Power's range. Can gain more detailed information with effort.
         Hypersensitive Touch:
           Rank: Monstrous
           Number: 75
           Description: Enhanced sense of touch allows detailed identification of materials and fine surface details.
         Life Detection:
-          Rank: Monstrous
-          Number: 75
+          Demon:
+            Rank: Monstrous
+            Number: 75
+          Deity:
+            Rank: Monstrous
+            Number: 75
+          Normal Human:
+            Rank: Remarkable
+            Number: 30
           Description: Detects and identifies life forms, can pinpoint specific beings amidst similar ones with effort.
         Magic Detection:
-          Rank: Monstrous
-          Number: 75
+          Demon:
+            Rank: Monstrous
+            Number: 75
+          Deity:
+            Rank: Monstrous
+            Number: 75
+          Normal Human:
+            Rank: Remarkable
+            Number: 30
           Description: Identifies the presence and effects of magic, recognizes past magic use, spell types, and magic users with successful feats.
         Thermal Vision:
           Rank: Monstrous
