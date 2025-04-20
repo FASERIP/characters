@@ -36,10 +36,10 @@ Hero:
       Note: Powers cease functioning withing 20 feet of stimulus, -1CS Abilities per 10 turns of exposure, cannot directly use Powers against Stimulus from outside radius. Instantly reverses when moved away from Stimulus. Sites consecrated to her do not trigger this Weakness. Magic use is not considered a Power. Same as Ethereal Aspect Weakness.
     Ethereal:
       Stimulus: Psychological
-      Effect: Power Negation
+      Effect: Special
       Duration: Continuous with Contact
       Conditions: Hallowed Ground
-      Note: Powers cease functioning withing 20 feet of stimulus, -1CS Abilities per 10 turns of exposure, cannot directly use Powers against Stimulus from outside radius. Instantly reverses when moved away from Stimulus. Sites consecrated to her do not trigger this Weakness. Magic use is not considered a Power. Same as Demon Aspect Weakness.
+      Note: Forced change back to Demon Aspect on exposure to stimulus. May not assume Ethereal Aspect again until outside of Stimulus radius.
     Deity:
       Stimulus: Energy Depletion
       Effect: Special
@@ -171,14 +171,14 @@ Hero:
             Number: 50
             Rank Description: Senses beyond all normal limitations
         Normal Human:
-          Rank: Unearthly
-          Number: 95
-          Rank Description: In touch with universe, cannot be blindsided
+          Rank: Amazing
+          Number: 50
+          Rank Description: Senses beyond all normal limitations
           Base:
             Rank: Excellent
             Number: 20
             Rank Description: Detective skills or background
-        Note: Monstrous (75) Additive Hyper-Intelligence added to base Intuition.
+        Note: Monstrous (75) Additive Hyper-Intelligence added to base Intuition, reduced to Remarkable (30) in Normal Human Aspect.
       Psyche:
         Demon:
           Rank: Monstrous
@@ -375,16 +375,12 @@ Hero:
           Description: Fully immune to all forms of vampiric attacks.
       Detection:
         Environmental Awareness:
-          Demon:
-            Rank: Monstrous
-            Number: 75
-          Deity:
-            Rank: Monstrous
-            Number: 75
+          Rank: Monstrous
+          Number: 75
           Normal Human:
             Rank: Remarkable
             Number: 30
-          Note: Not available to Ethereal Aspect.
+          Note: Not available to Ethereal Aspect.  Available to Normal Human Aspect at lower Rank.
           Description: Automatically aware of environmental conditions and disturbances such as weather, chemicals, movement, and life within the Power's range. Can gain more detailed information with effort.
         Hypersensitive Touch:
           Rank: Monstrous
@@ -392,32 +388,20 @@ Hero:
           Note: Not available to Ethereal Aspect.
           Description: Enhanced sense of touch allows detailed identification of materials and fine surface details.
         Life Detection:
-          Demon:
-            Rank: Monstrous
-            Number: 75
-          Deity:
-            Rank: Monstrous
-            Number: 75
-          Ethereal:
-            Rank: Monstrous
-            Number: 75
+          Rank: Monstrous
+          Number: 75
           Normal Human:
             Rank: Remarkable
             Number: 30
+          Note: Available to Normal Human Aspect at lower Rank.
           Description: Detects and identifies life forms, can pinpoint specific beings amidst similar ones with effort.
         Magic Detection:
-          Demon:
-            Rank: Monstrous
-            Number: 75
-          Deity:
-            Rank: Monstrous
-            Number: 75
-          Ethereal:
-            Rank: Monstrous
-            Number: 75
+          Rank: Monstrous
+          Number: 75
           Normal Human:
             Rank: Remarkable
             Number: 30
+          Note: Available to Normal Human Aspect at lower Rank.
           Description: Identifies the presence and effects of magic, recognizes past magic use, spell types, and magic users with successful feats.
         Thermal Vision:
           Rank: Monstrous
@@ -497,14 +481,22 @@ Hero:
             - Aging: Alters a target’s age at your Power‑rank rate—green FEATs speed it up, yellow stop it, red reverse it.
           Description: By touch (or at –1CS per 10 ft and per extra target), permanently alter a target’s physiology in one of seven forms, so long as the Power is maintained.
         Exorcism:
-          Rank: Monstrous
-          Number: 75
-          Note: Deity Aspect only.
+          Deity:
+            Rank: Monstrous
+            Number: 75
+          Normal Human:
+            Rank: Remarkable
+            Number: 30
+          Note: Deity Aspect at full Rank. Available to Normal Human at lower Rank.  Not available to Demon or Ethereal Aspects.
           Description: Within 10 feet, sever any external magical, mental, or immortal‐type domination over a subject by matching FEAT intensity against the controlling Power’s rank, and instantly teleport the controller back to its home dimension.
         Forced Reincarnation:
-          Rank: Remarkable
-          Number: 30
-          Note: Normal Human Aspect only.
+          Deity:
+            Rank: Monstrous
+            Number: 75
+          Normal Human:
+            Rank: Remarkable
+            Number: 30
+          Note: Deity and Normal Human Aspects only.
           Description: Capture disembodied spirits and merge them into new bodies.
         Hypnotic Control:
           Rank: Amazing
@@ -535,13 +527,13 @@ Hero:
             - Exaggeration: Amplify nerve impulses so every attempt at movement becomes wildly overdone and erratic.
           Description: Within a rank‑determined range, alter a target’s voluntary muscle nerve signals to produce one of effects while leaving senses and autonomic functions intact and reducing duration by –1CS per extra target.
         Plant Control:
-          Rank: Monstrous
-          Number: 75
+          Rank: Incredible
+          Number: 40
           Note: Deity Aspect only.
           Description: Animate and command multiple plants within your rank-based limit—granting them basic awareness, senses, and movement for a duration that decreases if you exceed your plant quota.
         Plant Growth:
-          Rank: Monstrous
-          Number: 75
+          Rank: Incredible
+          Number: 40
           Note: Deity Aspect only.
           Description: Instantly supercharge the growth and size of existing or carried plants up to your Power rank—even in poor conditions—with FEATs determining success and yielding naturally limited lifespans.
         Sleep-Induced:
@@ -645,18 +637,12 @@ Hero:
           Number: 75
           Description: Enables entering and navigating through dreams or dream-like dimensions.
         Empathy:
-          Demon:
-            Rank: Monstrous
-            Number: 75
-          Deity:
-            Rank: Monstrous
-            Number: 75
-          Ethereal:
-            Rank: Monstrous
-            Number: 75
+          Rank: Monstrous
+          Number: 75
           Normal Human:
             Rank: Remarkable
             Number: 30
+          Note: Available to Normal Human Aspect at lower Rank.
           Description: Senses and influences emotions of others, understanding their feelings and potentially altering them.
         Free Spirit:
           Rank: Monstrous
@@ -666,10 +652,13 @@ Hero:
         Hyper Intelligence:
           Rank: Monstrous
           Number: 75
+          Normal Human:
+            Rank: Remarkable
+            Number: 30
           Type: Additive
           Abilities:
             - Intuition
-          Note: Adds Power Rank to base Ability Rank. Available to Normal Human Aspect.
+          Note: Adds Power Rank to base Ability Rank. Available to Normal Human Aspect at lower level.
           Description: Significantly boosts intellectual capabilities and intuition, enhancing mental acuity and problem-solving.
         Iron Will:
           Rank: Monstrous
@@ -693,22 +682,15 @@ Hero:
             Number: 30
           Description: Accesses thoughts and memories of others through telepathic intrusion.
         Serial Immortality:
-          Demon:
-            Rank: Monstrous
-            Number: 75
-          Deity:
-            Rank: Monstrous
-            Number: 75
-          Ethereal:
-            Rank: Monstrous
-            Number: 75
+          Rank: Monstrous
+          Number: 75
           Normal Human:
             Rank: Incredible
             Number: 40
           Form:
             Type: Spontaneous Creation
             Description: Psionically fabricate a full-grown duplicate of your previous body from raw matter and energy, with a build time of (100 – Power rank) days. The body reverts to its original materials.
-          Note: Default for Normal Human Aspect.  New body will match Aspect at Death, except Deity or Ethereal will be Demon, and requires 1d100 Turns of exposure to Energy Source to regain ability to assume Deity Aspect.  Death where Self-Revival is impossible, in any Aspect except Ethereal, automatically triggers Free Spirit Power.
+          Note: Available to Normal Human Aspect at lower Rank.  New body will match Aspect at Death, except Deity or Ethereal will be Demon, and requires 1d100 Turns of exposure to Energy Source to regain ability to assume Deity Aspect.  Death where Self-Revival is impossible, in any Aspect except Ethereal, automatically triggers Free Spirit Power.
           Description: Upon Death, lifeforce rebounds into a new host while you forfeit all Karma.
         Telekinesis:
           Demon:
@@ -767,7 +749,7 @@ Hero:
           Rank: Monstrous
           Number: 75
           Type: Permanent
-          Note: Not available to Ethereal Aspect.
+          Note: Not available to Ethereal Aspect (redundant).
           Description: Operates indefinitely without typical biological needs like air, food, water, or sleep.
         Stealth:
           Rank: Remarkable
@@ -807,17 +789,17 @@ Hero:
             Number: 100
             Total:
               Rank: Class 5000
-              Number: 12000
+              Number: 11930
               Spread: 84
               Turns Until Full Recovery: 120
           Note: Rankless abilities not included.  Not avaialble to Ethereal Aspect.
           Description: Channels all Abilities and Powers into a single burst, replacing the target Power’s rank with the sum of all other ranks. After use, all Abilities and Powers drop to Feeble. The Focus rank determines how many points can be recovered each turn, divided evenly across all affected traits.
-      Self Alteration:
+      Self Alteration: 
         Imitation-Human Changeling:
           Rank: Monstrous
           Number: 75
           Description: Physically alters appearance to mimic other humans perfectly, copying their physical traits and features.
-          Note: Appearance of Normal Human and Ethereal Aspects is last form taken by Demon or Deity Aspects. Not available to Ethereal Aspect.
+          Note: Appearance of Normal Human Aspect is last form taken by another Aspect.
         Invisibility:
           Rank: Remarkable
           Number: 30
@@ -852,14 +834,8 @@ Hero:
         True Flight:
           Rank: Unearthly
           Number: 100
-          Note: Deity Aspect only.
+          Note: Deity Aspect only. Redundant for Ethereal Aspect.
           Description: Grants the natural ability to fly freely, allowing complete aerial maneuverability and sustained flight without external assistance.
-      Body Alterations-Defensive:
-        Immortality:
-          Rank: null
-          Number: .nan
-          Note: From Advanced Player's Book, not Ultimate Powers Book. Available to Normal Human Aspect.
-          Description: Character does not age or die normally. Still vulnerable to damage that reduces Endurance; if Endurance reaches Shift 0, character is incapacitated but not killed. Cannot move or act until healed above Shift 0, and cannot heal while continually sustaining damage.
     Talents:
       Fighting Skills:
         - Acrobatics: Grants a +1CS bonus when dodging, evading, or escaping attacks due to enhanced agility.
@@ -899,14 +875,13 @@ Hero:
     Contacts:
       Professional:
         Crime:
-          - Frank Castle
+          - Mariah Dillard
           - Wilson Fisk
       Political:
         Planetary:
           - Elder Gods
           - Hell Dimension
           - Dimension of Dreams
-          - Dark Dimension
           - Faltine
           - Heliopolis
           - Olympus
@@ -925,7 +900,7 @@ Hero:
           - Wanda Maximoff
           - Azazel
           - Nightmare
-          - Selene
+          - Selene: Their frenemy relationship has been going on for a very, very long time.
           - Michael Morbius
           - Frank Blade
         Mythology:
@@ -934,7 +909,7 @@ Hero:
           - Satannish
           - Cyttorak
           - Chthon
-          - Oshtur
+          - Oshtur: As a possible Inanna, also possibly a discarded Aspect of Oshtur
           - Set
           - Gaea
           - Ikonn
@@ -942,7 +917,7 @@ Hero:
           - Loki Laufeyson
           - Amora
           - Lorelei
-          - Remaining living worshippers
+          - Remaining living worshippers: Eventually passively attracts followers, but is forbidden from actively promoting a religion based on herself.
       Hero Group:
         - Defenders: Non-member
         - Hellfire Club: Non-member
@@ -1202,7 +1177,7 @@ Hero:
               Invisibility-Others: Renders others temporarily invisible.
               Shrinking-Others: Temporarily reduces the size of targeted beings.
   Biography: |
-    An ancient Demon from terrible realms beyond, formerly a primeval Deity no longer widely worshipped, Ashtaret is long since finished with the machinations of cosmic evil and pops in to the Earth Dimension from time to time to live her best immortal life in the dual-natured glamour and shadows of 1980's Manhattan. It is possible, even likely, but unconformed that Ashtaret is Earth-1986's version of Inanna.
+    An ancient Demon from terrible realms beyond, formerly a primeval Deity no longer widely worshipped, Ashtaret is long since finished with the machinations of cosmic evil, and mostly so with the idea of regaining her divinity, and pops in to the Earth Dimension from time to time to live her best immortal life in the dual-natured glamour and shadows of 1980's Manhattan. It is possible, even likely, but unconformed that Ashtaret is Earth-1986's version of Inanna.
   Personality: |
     Vain, capricious, self-serving, whiny, pouty, manipulative, hedonistic, vindictive, and generally chaotic, though not particularly malevolent, Ashtaret is out for herself first, last, and only. She just wants to have fun.  However, she actively likes children and animals, despite her other traits.
   Description: |
