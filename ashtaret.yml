@@ -20,7 +20,7 @@ Hero:
     Physical Form:
       Type: Changeling
       Description: Able to transform between multiple distinct Body Types, each with unique advantages, disadvantages, and at least one exclusive power. Transformation temporarily disables all powers and reduces abilities.
-      Note: Takes 10 turns to change Aspect. No Powers can function and all Abilities -2CS during change. Many Powers unavailable to Ethereal Aspect, noted under each Power where applicable. No Powers available to Normal Human Aspect unless specifically noted under that Power. Magic use is still available to Normal Human Aspect. Normal Human aspect does not have a unique Power, an exception to the rules for Changeling Aspects.
+      Note: Takes 10 turns to change Aspect. No Powers can function and all Abilities -2CS during change. Many Powers unavailable to Ethereal Aspect, noted under each Power where applicable. No Powers available to Normal Human Aspect unless specifically noted under that Power. Magic use is still available to Normal Human Aspect.
       Aspects:
         - Demon: Supernatural, corporeal being from another dimension, inherently malevolent by nature. Demons possess increased physical abilities, fire generation, invulnerability to heat and fire, and reduced popularity.
         - Deity: A former powerful entity worshiped as a god, now diminished and bound to a mortal form on Earth. Deities have significantly enhanced abilities, additional powers, automatic access to at least one travel power, and increased popularity with the general public, though limited influence among modern religious groups. Eventually attract any remaining living worshippers they still have as Contacts.
@@ -241,7 +241,7 @@ Hero:
           Note: The average Popularity of a Normal Human cover identity.
     Special Abilities:
     Powers:
-      Note: No Powers available to Normal Human Aspect unless specifically noted.  Normal Human Aspect does not have a unique Power, an exception to Changeling Aspect Rules. Many Powers unavailable to Ethereal Aspect, check notes.
+      Note: No Powers available to Normal Human Aspect unless specifically noted. Many Powers unavailable to Ethereal Aspect, check notes.
       Defensive:
         Resistance to Emotion Attacks:
           Demon:
