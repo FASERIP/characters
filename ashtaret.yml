@@ -25,7 +25,9 @@ Hero:
         - Deity: A former powerful entity worshiped as a god, now diminished and bound to a mortal form on Earth. Deities have significantly enhanced abilities, additional powers, automatic access to at least one travel power, and increased popularity with the general public, though limited influence among modern religious groups. Eventually attract any remaining living worshippers they still have as Contacts.
         - Ethereal: An intangible, disembodied spirit in the Earth Dimension, solid in other Dimensions. Can drift about in any direction, can pass through solid matter. May be invisible, transparent, translucent, or opaque. Immune to most physical attacks with Intensities less than Unearthly (-9CS).
         - Normal Human: The body is completely normal and possesses no detectable abnormalities. Any Powers the hero possesses have left no visible mark on the body.
-    Origin of Power: Natal
+    Origin of Power:
+      Type: Created
+      Description: Born in the current form he now, that of an adult who possesses Power and/or whatever the Body Type is. Inherent to all robots, angels, demons, and deities.
   Weakness:
     Demon:
       Stimulus: Psychological
@@ -217,7 +219,7 @@ Hero:
         Normal Human:
           Rank: Typical
           Number: 6
-          Note: The average Resources of a Normal Human cover identity. May vary from Poor (3) to Incredible (40) if roll on Ability Modifier Table.
+          Note: The average Resources of a Normal Human cover identity. May optionally vary from Poor (3) to Incredible (40) if rolled on Ability Modifier Table for that cover identity.
       Popularity:
         Demon:
           Rank: Poor
