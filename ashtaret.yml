@@ -678,8 +678,11 @@ Hero:
         Iron Will:
           Rank: Monstrous
           Number: 75
+          Normal Human:
+            Rank: Remarkable
+            Number: 30
           Description: Strengthens mental fortitude, resisting psychological manipulation and enhancing determination.
-          Note: Available to Normal Human Aspect.
+          Note: Available to Normal Human Aspect at lower Rank.
         Linguistics:
           Rank: Monstrous
           Number: 75
