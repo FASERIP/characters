@@ -3,12 +3,8 @@ Hero:
   Name: Ashtaret
   Identity: Ashtaret
   Secret:
-    Demon: false
-    Deity: false
-    Ethereal: false
-    Normal Human:
-      Value: null
-      Note: Normal Human Aspects may have appropriate cover identities.
+    Value: false
+    Note: Normal Human Aspects may have appropriate cover identities.
   Base of Operations:
     - Hell Dimension
     - Dimension of Dreams
@@ -21,7 +17,7 @@ Hero:
     Physical Form:
       Type: Changeling
       Description: Able to transform between multiple distinct Body Types, each with unique advantages, disadvantages, and at least one exclusive power. Transformation temporarily disables all powers and reduces abilities.
-      Note: Takes 10 turns to change Aspect. No Powers can function and all Abilities -2CS during change. Many Powers unavailable to Ethereal Aspect, noted under each Power where applicable. No Powers available to Normal Human Aspect unless specifically noted under that Power. Magic use is still available to Normal Human Aspect.
+      Note: Takes 10 turns to change Aspect. No Powers can function and all Abilities -2CS during change. Many Powers unavailable to Ethereal Aspect, noted under each Power where applicable, but are available unless specificall noted. No Powers available to Normal Human Aspect unless specifically noted under that Power. Magic use is still available to Normal Human Aspect.
       Aspects:
         - Demon: Supernatural, corporeal being from another dimension, inherently malevolent by nature. Demons possess increased physical abilities, fire generation, invulnerability to heat and fire, and reduced popularity.
         - Deity: A former powerful entity worshiped as a god, now diminished and bound to a mortal form on Earth. Deities have significantly enhanced abilities, additional powers, automatic access to at least one travel power, and increased popularity with the general public, though limited influence among modern religious groups. Eventually attract any remaining living worshippers they still have as Contacts.
@@ -242,7 +238,7 @@ Hero:
           Note: The average Popularity of a Normal Human cover identity.
     Special Abilities:
     Powers:
-      Note: No Powers available to Normal Human Aspect unless specifically noted. Many Powers unavailable to Ethereal Aspect, check notes.
+      Note: No Powers available to Normal Human Aspect unless specifically noted. Many Powers unavailable to Ethereal Aspect, check notes, but are otherwise available unless specifically noted.
       Defensive:
         Resistance to Emotion Attacks:
           Demon:
