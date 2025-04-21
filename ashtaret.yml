@@ -30,7 +30,7 @@ Hero:
       Effect: Power Negation
       Duration: Continuous with Contact
       Conditions: Hallowed Ground
-      Note: Powers cease functioning withing 20 feet of stimulus, -1CS Abilities per 10 turns of exposure, cannot directly use Powers against Stimulus from outside radius. Instantly reverses when moved away from Stimulus. Sites consecrated to her do not trigger this Weakness. Magic use is not considered a Power. Same as Ethereal Aspect Weakness.
+      Note: Powers cease functioning withing 20 feet of stimulus, -1CS Abilities per 10 turns of exposure, cannot directly use Powers against Stimulus from outside radius. Instantly reverses when moved away from Stimulus. Sites consecrated to her do not trigger this Weakness. Magic use is not considered a Power, but lowered Abilities may impact it. Same as Ethereal Aspect Weakness.
     Ethereal:
       Stimulus: Psychological
       Effect: Special
@@ -41,7 +41,7 @@ Hero:
       Stimulus: Energy Depletion
       Effect: Special
       Duration: Permanent
-      Conditions: Forced change back to Demon Aspect after 1d100 turns in Deity Aspect, unless in continuous contact with Energy Source while in that Aspect, until 1d100 turns exposure to Energy Source to recharge.
+      Conditions: Requires a Yellow Psyche FEAT to assume this Aspect at start of turn. Forced change back to Demon Aspect after 1d100 turns in Deity Aspect, doubled if Psyche FEAT has Red result, unless in continuous contact with Energy Source while in that Aspect (contact pauses countdown).  Cannot resume Deity form until 1d100 turns exposure to Energy Source to recharge, Red Psyche FEAT to halve time (recharge does not begin until duration of change concludes).
     Normal Human:
       Stimulus:
         - Elemental Allergy: Suffers adverse effects if exposed to dangerous chemical elements.
@@ -211,9 +211,7 @@ Hero:
         Deity:
           Rank: Poor
           Number: 4
-        Ethereal:
-          Rank: Poor
-          Number: 4
+        Ethereal: null
         Normal Human:
           Rank: Typical
           Number: 6
@@ -227,11 +225,9 @@ Hero:
             Rank: Good
             Number: 10
           Established Religions:
-            Rank: 0
+            Rank: Shift-0
             Number: 0
-        Ethereal:
-          Rank: Typical
-          Number: 5
+        Ethereal: null
         Normal Human:
           Rank: Typical
           Number: 5
@@ -336,7 +332,7 @@ Hero:
             Normal Human:
               Rank: Remarkable
               Number: 30
-            Note: Available to Normal Human Aspect at lower Rank.
+            Note: 
           Corrosives:
             Demon:
               Rank: Remarkable
@@ -367,7 +363,10 @@ Hero:
         Resistance to Power Manipulation:
           Rank: Monstrous
           Number: 75
-          Note: Available to Normal Human Aspect.  Deity Aspect uses Immunity instead.
+          Normal Human:
+            Rank: Remarkable
+            Number: 30
+          Note:  Deity Aspect uses Immunity instead.
           Description: Grants resistance against direct attacks affecting the character’s powers, reducing their effectiveness by Power rank number.
         Immunity to Power Manipulation:
           Rank: Class 1000
@@ -377,7 +376,10 @@ Hero:
         Resistance to Vampirism:
           Rank: Monstrous
           Number: 75
-          Note: Available to Normal Human Aspect. Deity Aspect has Immunity instead.
+          Normal Human:
+            Rank: Remarkable
+            Number: 30
+          Note: Deity Aspect has Immunity instead.
           Description: Provides resistance against vampiric attacks (Psi, Bio, Energy, Magic, and Power Vampirism), reducing effectiveness by Power rank number.
         Immunity to Vampirism:
           Rank: Class 1000
@@ -391,32 +393,43 @@ Hero:
           Normal Human:
             Rank: Remarkable
             Number: 30
-          Note: Not available to Ethereal Aspect.  Available to Normal Human Aspect at lower Rank.
+          Note: Not available to Ethereal Aspect.
           Description: Automatically aware of environmental conditions and disturbances such as weather, chemicals, movement, and life within the Power's range. Can gain more detailed information with effort.
         Hypersensitive Touch:
           Rank: Monstrous
           Number: 75
+          Normal Human:
+            Rank: Good
+            Number: 10
           Note: Not available to Ethereal Aspect.
           Description: Enhanced sense of touch allows detailed identification of materials and fine surface details.
         Life Detection:
-          Rank: Monstrous
-          Number: 75
+          Rank: Amazing
+          Number: 50
+          Deity:
+            Rank: Monstrous
+            Number: 75
           Normal Human:
             Rank: Remarkable
             Number: 30
-          Note: Available to Normal Human Aspect at lower Rank.
+          Note: 
           Description: Detects and identifies life forms, can pinpoint specific beings amidst similar ones with effort.
         Magic Detection:
           Rank: Monstrous
           Number: 75
           Normal Human:
-            Rank: Remarkable
-            Number: 30
-          Note: Available to Normal Human Aspect at lower Rank.
+            Rank: Excellent
+            Number: 20
+          Note: 
           Description: Identifies the presence and effects of magic, recognizes past magic use, spell types, and magic users with successful feats.
         Thermal Vision:
-          Rank: Monstrous
-          Number: 75
+          Demon:
+            Rank: Amazing
+            Number: 50
+          Deity:
+            Rank: Monstrous
+            Number: 75
+          Note: Not available to Ethereal Aspect.
           Description: Sees heat and infrared emissions, able to perceive temperature variations and partially see through solid objects by heat patterns.
         True Sight:
           Rank: Monstrous
@@ -424,20 +437,23 @@ Hero:
           Note: Deity Aspect only.
           Description: The hero can see the correct image of a target, despite any attempts at concealment or disguise.  Automatic success vs. lower-Rank disguise, green FEAT is required at +1CSl yellow FEAT at +2CS; and a red FEAT at +3CS
         Weakness Detection:
-          Rank: Monstrous
-          Number: 75
-          Description: Detects vulnerabilities in targets, including physical, mental, and power-based weaknesses depending on rank.
-      Energy Control:
-        Darkforce Manipulation:
           Demon:
-            Rank: Incredible
-            Number: 40
+            Rank: Amazing
+            Number: 50
           Deity:
             Rank: Monstrous
             Number: 75
           Ethereal:
-            Rank: Remarkable
-            Number: 30
+            Rank: Incredible
+            Number: 40
+          Description: Detects vulnerabilities in targets, including physical, mental, and power-based weaknesses depending on rank.
+      Energy Control:
+        Darkforce Manipulation:
+          Rank: Incredible
+          Number: 40
+          Deity:
+            Rank: Monstrous
+            Number: 75
           Power Stunts:
             - Blunt attack damage at Power rank.
             - Shadowcasting of Power rank Intensity darkness over a maximum of three areas.
@@ -461,6 +477,11 @@ Hero:
           Number: 10
           Note: Inherent to all Demon Physical Form Characters. Demon Aspect only.
           Description: Generates and projects fire directly from the character’s body as offensive energy.
+        Kinetic Bolt:
+          Rank: Remarkable
+          Number: 30
+          Note: Ethereal Aspect only.
+          Description: The hero can strike a target with a surge of force at Power Rank range and damage, as if the target had been struck by a solid object of equal material strength. It can be shaped as desired, such as a wide cylinder, or an incredibly fine needle. 
         Shadowcasting:
           Rank: Remarkable
           Number: 30
@@ -498,7 +519,7 @@ Hero:
           Normal Human:
             Rank: Remarkable
             Number: 30
-          Note: Deity Aspect at full Rank. Available to Normal Human at lower Rank.  Not available to Demon or Ethereal Aspects.
+          Note: Deity and Normal Human aspects only. Not available to Demon or Ethereal Aspects.
           Description: Within 10 feet, sever any external magical, mental, or immortal‐type domination over a subject by matching FEAT intensity against the controlling Power’s rank, and instantly teleport the controller back to its home dimension.
         Forced Reincarnation:
           Deity:
@@ -512,10 +533,11 @@ Hero:
         Hypnotic Control:
           Rank: Amazing
           Number: 50
+          Note: Normal Human Aspect uses the Hypnosis and Mesmerism Talent instead at Reason Rank.
           Description: Exerts mental control over targets through hypnotic suggestions, compelling actions or behaviors.
         Mind Control:
-          Rank: Remarkable
-          Number: 30
+          Rank: Incredible
+          Number: 40
           Form:
             Type: Possession
             Description: The target mind loses both control and consciousness.
@@ -525,17 +547,15 @@ Hero:
           Demon:
             Rank: Good
             Number: 10
-          Deity:
-            Rank: Monstrous
-            Number: 75
           Ethereal:
             Rank: Excellent
-            Number: 20
+            Number: 30
           Forms:
             - Disruption: Block all sensory and motor signals, causing the target to collapse limp and unresponsive.
             - Paralysis: Freeze the target’s voluntary muscles in total rigidity, impervious to any chemical countermeasures.
             - Seizure: Trigger uncontrollable, painful muscle spasms for the Power’s duration.
             - Exaggeration: Amplify nerve impulses so every attempt at movement becomes wildly overdone and erratic.
+          Note: Demon and Ethereal Aspects only.
           Description: Within a rank‑determined range, alter a target’s voluntary muscle nerve signals to produce one of effects while leaving senses and autonomic functions intact and reducing duration by –1CS per extra target.
         Plant Control:
           Rank: Incredible
@@ -551,12 +571,10 @@ Hero:
           Demon:
             Rank: Excellent
             Number: 20
-          Deity:
-            Rank: Monstrous
-            Number: 75
           Ethereal:
             Rank: Remarkable
             Number: 30
+          Note: Demon and Ethereal Aspects only.
           Description: Within a Power‑rank–determined range, put all targets into an irresistible, deep sleep for a rank‑based duration, with unconsciousness persisting 1–10 hours after the effect ends.
         Summoning:
           Rank: Amazing
@@ -612,7 +630,7 @@ Hero:
           Normal Human:
             Rank: Excellent
             Number: 20
-          Note: Not available to Etheral Aspect.
+          Note: Not available to Ethereal Aspect.
           Description: Creates a single-piece object from nothing, detailed replicas require memorized designs. Temporarily drains Health per ounce created. Lifespan depends on FEAT success, from temporary to permanent.
         Lifeform Creation:
           Rank: Amazing
@@ -653,7 +671,7 @@ Hero:
           Normal Human:
             Rank: Remarkable
             Number: 30
-          Note: Available to Normal Human Aspect at lower Rank.
+          Note: 
           Description: Senses and influences emotions of others, understanding their feelings and potentially altering them.
         Free Spirit:
           Rank: Monstrous
@@ -678,7 +696,7 @@ Hero:
             Rank: Remarkable
             Number: 30
           Description: Strengthens mental fortitude, resisting psychological manipulation and enhancing determination.
-          Note: Available to Normal Human Aspect at lower Rank.
+          Note: 
         Linguistics:
           Rank: Monstrous
           Number: 75
@@ -704,7 +722,7 @@ Hero:
           Form:
             Type: Spontaneous Creation
             Description: Psionically fabricate a full-grown duplicate of your previous body from raw matter and energy, with a build time of (100 – Power rank) days. The body reverts to its original materials.
-          Note: Available to Normal Human Aspect at lower Rank.  New body will match Aspect at Death, except Deity or Ethereal will be Demon, and requires 1d100 Turns of exposure to Energy Source to regain ability to assume Deity Aspect.  Death where Self-Revival is impossible, in any Aspect except Ethereal, automatically triggers Free Spirit Power.
+          Note:  New body will match Aspect at Death, except Deity or Ethereal will be Demon, and requires 1d100 Turns of exposure to Energy Source to regain ability to assume Deity Aspect.  Death where Self-Revival is impossible, in any Aspect except Ethereal, automatically triggers Free Spirit Power.
           Description: Upon Death, lifeforce rebounds into a new host while you forfeit all Karma.
         Telekinesis:
           Demon:
@@ -740,14 +758,18 @@ Hero:
           Description: Perfectly recalls any previously experienced event or information without degradation.
       Physical Enhancement:
         Body Resistance:
-          Rank: Remarkable
-          Number: 30
+          Demon:
+            Rank: Remarkable
+            Number: 30
+          Deity:
+            Rank: Amazing
+            Number: 50
           Note: Not available to Ethereal Aspect.
           Description: Enhances natural resistance against physical damage, absorbing and reducing incoming harm.
         Hypnotic Voice:
           Rank: Incredible
           Number: 40
-          Note: Normal Human Aspect uses the Hypnosis and Mesmerism Talent instead at Reason rank.
+          Note: Normal Human Aspect uses the Hypnosis and Mesmerism Talent instead at Reason Rank.
           Description: Influences or controls others through voice, compelling obedience or specific actions.
         Pheromones:
           Rank: Amazing
@@ -792,10 +814,10 @@ Hero:
         Focus:
           Demon:
             Rank: Monstrous
-            Number: 75
+            Number: 72
             Total:
               Rank: Class 3000
-              Number: 4820
+              Number: 4745
               Spread: 63
               Turns Until Full Recovery: 65
           Deity:
@@ -803,17 +825,22 @@ Hero:
             Number: 100
             Total:
               Rank: Class 5000
-              Number: 11930
-              Spread: 84
-              Turns Until Full Recovery: 120
-          Note: Rankless abilities not included.  Not avaialble to Ethereal Aspect.
+              Number: 11800
+              Spread: 83
+              Turns Until Full Recovery: 118
+          Note: Rankless abilities not included.  Not available to Ethereal Aspect.
           Description: Channels all Abilities and Powers into a single burst, replacing the target Power’s rank with the sum of all other ranks. After use, all Abilities and Powers drop to Feeble. The Focus rank determines how many points can be recovered each turn, divided evenly across all affected traits.
       Self Alteration:
+        Imitation-Face Changer:
+          Rank: Excellent
+          Number: 20
+          Note: Normal Human Aspect only.  Other Aspects use Imitation-Human Changeling instead.
+          Description: The hero can change his superficial appearance but cannot alter his basic form or dimensions, assuming any human appearance, provided the desired shape roughly matches.
         Imitation-Human Changeling:
           Rank: Monstrous
           Number: 75
+          Note: Base appearance of Normal Human Aspect is last form taken by another Aspect. Normal Human Aspect uses Imitation-Face Changer instead.
           Description: Physically alters appearance to mimic other humans perfectly, copying their physical traits and features.
-          Note: Appearance of Normal Human Aspect is last form taken by another Aspect.
         Invisibility:
           Rank: Remarkable
           Number: 30
@@ -862,7 +889,7 @@ Hero:
         - Geology: Specialized knowledge of Earth’s materials and geological processes, providing a +1CS on related Reason FEATs.
         - Archaeology: Skilled in ancient history and artifacts, providing +1CS on FEATs involving historical records, ancient myths, legends, and paleontology.
       Mystic and Mental Skills:
-        - Mesmerism and Hypnosis: A primitive form of Mind Control at Reason rank level, allowing extraction of information and placement of posthypnotic suggestions.
+        - Mesmerism and Hypnosis: A primitive form of Mind Control at Reason Rank level, allowing extraction of information and placement of posthypnotic suggestions.
         - Sleight of Hand: Skilled in manual deception, able to discreetly manipulate small objects with +1CS Agility.
         - Resist Domination: Resist mental attacks as if the character had a mental power of Psyche +1CS.
         - Occult Lore: Knowledgeable about magical items and mystical traditions, gaining +1CS on Reason FEATs involving magical artifacts.
