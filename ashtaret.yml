@@ -48,9 +48,9 @@ Hero:
       Conditions: Forced change back to Demon Aspect after 1d100 turns in Deity Aspect, unless in continuous contact with Energy Source while in that Aspect, until 1d100 turns exposure to Energy Source to recharge.
     Normal Human:
       Stimulus:
-        - Elemental Allergy: The hero suffers adverse effects if he is exposed to a specific one of the hundred-odd elements.
-        - Molecular Allergy: A specific compound causes the Effect.
-        - Energy Allergy: The hero suffers when he is exposed to a specific form of energy
+        - Elemental Allergy: Suffers adverse effects if exposed to dangerous chemical elements.
+        - Molecular Allergy: Dangerous chemical compounds cause the Effect.
+        - Energy Allergy: Exposure to dangerous or powerful forms of energy.
       Effect: Fatal
       Duration: Continuous with Contact
       Conditions: Exposure to dangerous energies or toxic substances causes loss of Health and Endurance.  May heal as normal after exposure ceases.
