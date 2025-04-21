@@ -637,15 +637,6 @@ Hero:
           Number: 50
           Note: Deity Aspect only.
           Description: Forms living organisms from imagination or memory, costing Health points per ounce. Lifespan and complexity depend on FEAT success, can create permanent living beings.
-        Missile Creation:
-          Demon:
-            Rank: Excellent
-            Number: 20
-          Deity:
-            Rank: Amazing
-            Number: 50
-          Note: Not available to Ethereal Aspect.
-          Description: Instantly creates and launches projectiles that inflict Stunning attacks or combine with other Powers for special effects. Limited Power Rank Number hourly missile creation rate.
         Molecular Creation:
           Demon:
             Rank: Remarkable
@@ -814,19 +805,19 @@ Hero:
         Focus:
           Demon:
             Rank: Monstrous
-            Number: 72
+            Number: 75
             Total:
               Rank: Class 3000
-              Number: 4745
-              Spread: 63
+              Number: 4765
+              Spread: 59
               Turns Until Full Recovery: 65
           Deity:
             Rank: Unearthly
             Number: 100
             Total:
               Rank: Class 5000
-              Number: 11800
-              Spread: 83
+              Number: 11750
+              Spread: 82
               Turns Until Full Recovery: 118
           Note: Rankless abilities not included.  Not available to Ethereal Aspect.
           Description: Channels all Abilities and Powers into a single burst, replacing the target Power’s rank with the sum of all other ranks. After use, all Abilities and Powers drop to Feeble. The Focus rank determines how many points can be recovered each turn, divided evenly across all affected traits.
