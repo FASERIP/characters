@@ -4,7 +4,9 @@ Hero:
   Identity: Ashtaret
   Secret:
     Value: false
-    Note: Normal Human Aspects may have appropriate cover identities.
+    Normal Human:
+      Value: true
+      Note: Normal Human Aspects may have appropriate cover identities.
   Base of Operations:
     - Hell Dimension
     - Dimension of Dreams
@@ -21,7 +23,7 @@ Hero:
       Aspects:
         - Demon: Supernatural, corporeal being from another dimension, inherently malevolent by nature. Demons possess increased physical abilities, fire generation, invulnerability to heat and fire, and reduced popularity.
         - Deity: A former powerful entity worshiped as a god, now diminished and bound to a mortal form on Earth. Deities have significantly enhanced abilities, additional powers, automatic access to at least one travel power, and increased popularity with the general public, though limited influence among modern religious groups. Eventually attract any remaining living worshippers they still have as Contacts.
-        - Ethereal: An intangible, disembodied spirit in the Earth Dimension, solid in other Dimensions. Can drift about in any direction, can pass through solid matter. May be invisible, transparent, translucent, or opaque. Immune to most physical attacks with Intensities less than Unearthly (-9CS). Separate from Free Spirit power, as a deliberate, complete transformation into an incorporeal form.
+        - Ethereal: An intangible, disembodied spirit in the Earth Dimension, solid in other Dimensions. Can drift about in any direction, can pass through solid matter. May be invisible, transparent, translucent, or opaque. Immune to most physical attacks with Intensities less than Unearthly (-9CS).
         - Normal Human: The body is completely normal and possesses no detectable abnormalities. Any Powers the hero possesses have left no visible mark on the body.
     Origin of Power: Natal
   Weakness:
@@ -215,22 +217,22 @@ Hero:
         Normal Human:
           Rank: Typical
           Number: 6
-          Note: The average Resources of a Normal Human cover identity.
+          Note: The average Resources of a Normal Human cover identity. May vary from Poor (3) to Incredible (40) if roll on Ability Modifier Table.
       Popularity:
         Demon:
-          Rank: Shift-0
-          Number: 0
+          Rank: Poor
+          Number: 4
         Deity:
           Public:
-            Rank: Good
-            Number: 10
+            Rank: Remarkable
+            Number: 30
           Established Religions:
             Rank: Shift-0
             Number: 0
         Ethereal: null
         Normal Human:
           Rank: Typical
-          Number: 5
+          Number: 6
           Note: The average Popularity of a Normal Human cover identity.
     Special Abilities:
     Powers:
@@ -283,7 +285,7 @@ Hero:
           Heat and Flame:
             Rank: Class 1000
             Number: 1000
-            Note: Demon, Deity, and Ethereal Aspects. Inherent to all Demon Physical Form characters. Retained in Deity Aspect.
+            Note: Demon, Deity, and Ethereal Aspects. Inherent to all Demon Physical Form characters. Retained in Deity Aspect. The Physical version of this is considered the same Power for purposes of Focus.
           Description: Grants full immunity against specific energy types like Heat and Flame.
         Resistance to Magic Attacks:
           Demon:
@@ -324,7 +326,6 @@ Hero:
             Normal Human:
               Rank: Good
               Number: 10
-            Note: vailable to Normal Human Aspect at lower Rank.
           Disease:
             Demon:
               Rank: Monstrous
@@ -346,7 +347,7 @@ Hero:
           Fire and Heat:
             Rank: Class 1000
             Number: 1000
-            Note: Both Demon and Deity Aspects. Inherent to all Demon Physical Form characters. Retained in Deity Aspect.
+            Note: Both Demon and Deity Aspects. Inherent to all Demon Physical Form characters. Retained in Deity Aspect.  The Physical version of this is considered the same Power for purposes of Focus.
           Toxins:
             Rank: Class 1000
             Number: 1000
@@ -454,13 +455,15 @@ Hero:
           Deity:
             Rank: Monstrous
             Number: 75
+          Normal Human:
+            Rank: Remarkable
+            Number: 30
           Power Stunts:
             - Blunt attack damage at Power rank.
             - Shadowcasting of Power rank Intensity darkness over a maximum of three areas.
             - Flight at -1CS speed.
             - Gateway.
             - Energy Solidification.
-          Note: Power Stunts available in both Aspects.
           Description: Controls tangible extradimensional Darkforce energy, creating constructs for physical attacks, darkness areas, flight, gateways, and solidified energy objects.
         Fire Control:
           Rank: Good
@@ -519,7 +522,7 @@ Hero:
           Normal Human:
             Rank: Remarkable
             Number: 30
-          Note: Deity and Normal Human aspects only. Not available to Demon or Ethereal Aspects.
+          Note: Not available to Demon or Ethereal Aspects.
           Description: Within 10 feet, sever any external magical, mental, or immortal‐type domination over a subject by matching FEAT intensity against the controlling Power’s rank, and instantly teleport the controller back to its home dimension.
         Forced Reincarnation:
           Deity:
@@ -528,7 +531,7 @@ Hero:
           Normal Human:
             Rank: Remarkable
             Number: 30
-          Note: Deity and Normal Human Aspects only.
+          Note: Not available to Demon or Ethereal Aspects.
           Description: Capture disembodied spirits and merge them into new bodies.
         Hypnotic Control:
           Rank: Amazing
@@ -664,11 +667,6 @@ Hero:
             Number: 30
           Note: 
           Description: Senses and influences emotions of others, understanding their feelings and potentially altering them.
-        Free Spirit:
-          Rank: Monstrous
-          Number: 75
-          Note: Death where Self-Revival is impossible, in any Aspect except Ethereal, automatically triggers Free Spirit power. Not available to Ethereal Aspect.
-          Description: Allows the character's consciousness to leave their body and travel independently, unaffected by physical constraints.
         Hyper Intelligence:
           Rank: Monstrous
           Number: 75
@@ -678,7 +676,7 @@ Hero:
           Type: Additive
           Abilities:
             - Intuition
-          Note: Adds Power Rank to base Ability Rank. Available to Normal Human Aspect at lower level.
+          Note: Adds Power Rank to base Ability Rank.
           Description: Significantly boosts intellectual capabilities and intuition, enhancing mental acuity and problem-solving.
         Iron Will:
           Rank: Monstrous
@@ -713,18 +711,14 @@ Hero:
           Form:
             Type: Spontaneous Creation
             Description: Psionically fabricate a full-grown duplicate of your previous body from raw matter and energy, with a build time of (100 – Power rank) days. The body reverts to its original materials.
-          Note:  New body will match Aspect at Death, except Deity or Ethereal will be Demon, and requires 1d100 Turns of exposure to Energy Source to regain ability to assume Deity Aspect.  Death where Self-Revival is impossible, in any Aspect except Ethereal, automatically triggers Free Spirit Power.
+          Note:  New body will be Demon Aspect, and requires 1d100 Turns of exposure to Energy Source to regain ability to assume Deity Aspect.
           Description: Upon Death, lifeforce rebounds into a new host while you forfeit all Karma.
         Telekinesis:
+          Rank: Incredible
+          Number: 40
           Demon:
             Rank: Good
             Number: 10
-          Deity:
-            Rank: Incredible
-            Number: 40
-          Ethereal:
-            Rank: Incredible
-            Number: 40
           Description: Moves and manipulates objects with mental energy, exerting force remotely without physical contact.
         Telelocation:
           Rank: Monstrous
@@ -732,15 +726,11 @@ Hero:
           Note: Deity Aspect only.
           Description: Within a spherical range set by your Power rank, psionically sense and pinpoint a target without any physical or sensory contact—using green FEATs for direct possession of a part, yellow for past contact, or red for reliable second‑hand information.
         Telepathy:
-          Demon:
-            Rank: Remarkable
-            Number: 30
+          Rank: Remarkable
+          Number: 30
           Deity:
             Rank: Amazing
             Number: 50
-          Ethereal:
-            Rank: Remarkable
-            Number: 30
           Description: Mentally communicates with others, sending and receiving thoughts, and establishing mental links.
         Total Memory:
           Rank: Monstrous
@@ -770,7 +760,7 @@ Hero:
         Self-Revival:
           Rank: Monstrous
           Number: 75
-          Note: Not available to Normal Human or Ethereal Aspects, which use Serial Immortality instead, as does a destroyed body in other Aspects (less than one quarter of body remaining). Death where Self-Revival is impossible, in any Aspect except Ethereal, automatically triggers Free Spirit power.
+          Note: Not available to Normal Human or Ethereal Aspects, which use Serial Immortality instead, as does a destroyed body in other Aspects (less than one quarter of body remaining), or FEAT fails.
           Description: Functions identically to Regeneration, healing at Power Rank multiple rate (lost limbs and organs requiring a Red FEAT), except also automatically revives after death, restoring life functions after fatal harm.  Color of FEAT required depends on condition of body (Green for intact, Yellow for vitals intact, Red for at least one-quarter body remaining).
         Self-Sustenance:
           Rank: Monstrous
@@ -781,7 +771,10 @@ Hero:
         Stealth:
           Rank: Remarkable
           Number: 30
-          Note: Available in Normal Human Aspect. Not available to Ethereal Aspect (redundant).
+          Normal Human:
+            Rank: Good
+            Number: 10
+          Note: Not available to Ethereal Aspect (redundant).
           Description: Moves silently and unnoticed, significantly reducing chances of detection.
         True Invulnerability:
           Rank: Monstrous
@@ -789,8 +782,8 @@ Hero:
           Note: Deity Aspect only.
           Description: Provides absolute protection against damage from physical and energy attacks.
         Vocal Control:
-          Rank: Monstrous
-          Number: 75
+          Rank: Amazing
+          Number: 50
           Description: Manipulates sound and voice to imitate others, alter tone, or create sonic effects.
       Power Control:
         Energy Source:
@@ -808,23 +801,23 @@ Hero:
             Number: 75
             Total:
               Rank: Class 3000
-              Number: 4765
-              Spread: 59
-              Turns Until Full Recovery: 65
+              Number: 4055
+              Spread: 61
+              Turns Until Full Recovery: 55
           Deity:
             Rank: Unearthly
             Number: 100
             Total:
               Rank: Class 5000
-              Number: 11750
-              Spread: 82
-              Turns Until Full Recovery: 118
+              Number: 11315
+              Spread: 72
+              Turns Until Full Recovery: 114
           Note: Rankless abilities not included.  Not available to Ethereal Aspect.
           Description: Channels all Abilities and Powers into a single burst, replacing the target Power’s rank with the sum of all other ranks. After use, all Abilities and Powers drop to Feeble. The Focus rank determines how many points can be recovered each turn, divided evenly across all affected traits.
       Self Alteration:
         Imitation-Face Changer:
-          Rank: Excellent
-          Number: 20
+          Rank: Remarkable
+          Number: 30
           Note: Normal Human Aspect only.  Other Aspects use Imitation-Human Changeling instead.
           Description: The hero can change his superficial appearance but cannot alter his basic form or dimensions, assuming any human appearance, provided the desired shape roughly matches.
         Imitation-Human Changeling:
@@ -839,11 +832,6 @@ Hero:
           Note: Not available to Ethereal Aspect (redundant).
           Description: Becomes unseen to normal sight, avoiding visual detection entirely. Physics is actual transparency to visible light, granting immunity to attacks based on it, at Good Rank or higher, includes rest of EM spectrum and may be extended in range.
       Travel:
-        Astral Body:
-          Rank: Monstrous
-          Number: 75
-          Note: Not available to Ethereal Aspect.
-          Description: Projects an intangible form for exploration of physical and astral planes without physical constraints.
         Dimension Travel:
           Rank: Monstrous
           Number: 75
