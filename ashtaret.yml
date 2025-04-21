@@ -54,7 +54,7 @@ Hero:
       Effect: Fatal
       Duration: Continuous with Contact
       Conditions: Exposure to dangerous energies or toxic substances causes loss of Health and Endurance.  May heal as normal after exposure ceases.
-      Note: Inherent to all Normal Human Physical Form Characters. This Weakness simply reflects how dangerous substances and energy affect Normal Humans.
+      Note: Inherent to all Normal Human Physical Form Characters. This Weakness simply reflects how dangerous substances and energy like poison, fire, radiation, electricity, etc. affect Normal Humans.
     All Aspects:
       Stimulus: Special
       Effect: Loss of -1CS to all Powers and abilities
