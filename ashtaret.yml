@@ -897,7 +897,39 @@ Hero:
         Melee and Thrown Weapons: null
         Other Weapons: null
       Vehicles: null
-      Headquarters: null
+      Headquarters:
+        - Example Rented Apartment:
+            Type: 1BR Apartment
+            Cost:
+              Rent:
+                Rank: Poor
+                Base: Feeble
+              Own:
+                Rank: Remarkable
+                Base: Excellent
+              Note: +1CS to Cost for Manhattan Location
+            Size: Small
+            Material Strength: Good
+            Room Packages:
+              - Bedroom
+              - Living Room Package:
+                  Cost: Good
+                  Description: Occupies one room. Consists of sofa, two easy chairs, two end tables, coffee tables, two lamps (ceiling table or floor).
+              - Kitchen Package:
+                  Cost: Good
+                  Description: Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing.
+              - Storage, bathrooms, and closets:
+                  Cost: null
+                  Description: These are assumed in the cost of the building, according to its design. 
+              - Security Package:
+                  Cost: Good
+                  Count: 3
+                  Note: One door, two windows.
+                  Description: One Security package to a door or window. Occupies no space. Consists of hand-set burglar alarms on windows and doors, coupled with mechanical locks.
+              - Fire Protection Package:
+                Cost: Excellent
+                Description: Occupies no space. Sprinkler system that may cover up to 10 rooms, provides Good protection from fire.
+          Note: Example typical residence for Normal Human Aspect cover identity. Rented. Furnished. Location, type, and packages may vary.
       Salaries Sundries and Other Equipment: null
       Note: Most equipment is ad hoc via Artifact Creation.
     Contacts:
@@ -926,7 +958,7 @@ Hero:
           - Lilia Calderu
           - Wanda Maximoff
           - Azazel
-          - Nightmare: Relationship, both conflict and cooperation, involves mutual inhabitation of the Dimension of Dreams.
+          - Nightmare: Relationship, both conflict and cooperation, revolves around their mutual inhabitation of the Dimension of Dreams.
           - Selene: Their frenemy relationship has been going on for a very, very long time.
           - Eric Simon Payne
           - Frank Blade
@@ -935,7 +967,7 @@ Hero:
           - Mephisto
           - Satannish
           - Chthon
-          - Oshtur: As a possible Inanna, also possibly a discarded Aspect of Oshtur
+          - Oshtur: As a possible Inanna, Ashtaret is also possibly a discarded Aspect of Oshtur
           - Set
           - Gaea
           - Khonshu
