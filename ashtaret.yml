@@ -920,8 +920,8 @@ Hero:
                   Base: Excellent
               3BR Apartment:
                 Rent:
-                  Rank: Poor
-                  Base: Feeble
+                  Rank: Excellent
+                  Base: Good
                 Own:
                   Rank: Incredible
                   Base: Remarkable
