@@ -217,7 +217,8 @@ Hero:
         Normal Human:
           Rank: Typical
           Number: 6
-          Note: The average Resources of a Normal Human cover identity. May optionally vary from Poor (3) to Incredible (40) if rolled on Ability Modifier Table for that cover identity.
+          Note: The average Resources of a Normal Human cover identity. May optionally vary from Poor (4) to Incredible (40) if rolled on Ability Modifier Table for that cover identity.
+        Note: Molecular Creation can be used to raise resources by up to +3CS, Molding can be used to raise resources by up to +4CS.
       Popularity:
         Demon:
           Rank: Poor
@@ -944,19 +945,28 @@ Hero:
                     High: Excellent
                   Description: One Security package to a door or window. Occupies no space. Consists of hand-set burglar alarms on windows and doors, coupled with mechanical locks.  At Excellent Cost Automatic burglar alarms with computer-code or card identification system.
               - Fire Protection Package:
-                Cost: Excellent
-                Description: Occupies no space. Sprinkler system that may cover up to 10 rooms, provides Good protection from fire.
+                  Cost: Excellent
+                  Description: Occupies no space. Sprinkler system that may cover up to 10 rooms, provides Good protection from fire.
           Note:
             - Example typical residences for Normal Human Aspect cover identity. Rented. Furnished. Location, type, and packages may vary.
-            - RVery high-quality packages may be +1CS or +2CS to Cost.
-            - Fire Extinguishers inflict no damage normally, but against fire are of Good Intensity (eliminate fire of Typical Intensity or less in the same area on a green FEAT, of Good Intensity on a yellow, and up to Excellent on a red). Against characters with flaming powers causes a FEAT roll against that Intensity to retain flame.
+            - Very high-quality packages may be +1CS or +2CS to Cost.
       Salaries Sundries and Other Equipment:
+        - Fire Extinguisher:
+            Price: Typical
+            Note: Included in Kitchen Package
+            Description: Fire Extinguishers inflict no damage normally, but against fire are of Good Intensity (eliminate fire of Typical Intensity or less in the same area on a green FEAT, of Good Intensity on a yellow, and up to Excellent on a red). Against characters with flaming powers causes a FEAT roll against that Intensity to retain flame.
         - Respectable Clothing:
             Price: Typical
             Note: Daily wardrobes of Normal Human cover identities.
         - Original Art: 
             Price: Good
             Note: Decorations in higher-end residences.
+        - Mystic Texts:
+            Price: Incredible
+            Description: Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
+      Magical Items:
+        - Grimoire:
+            Description: The book in which a mage records spells or incantations. Some spells, like many Entreaty spells, cannot be memorized, only read aloud from a text. A character can only have two grimoires at any one time, the primary and a back-up copy. Creating takes 10+1d10 full days of work.
       Note: Most equipment is ad hoc via Artifact Creation, Molecular Creation, and Molding.
     Contacts:
       Professional:
@@ -996,6 +1006,7 @@ Hero:
           - Oshtur: As a possible Inanna, Ashtaret is also possibly a discarded Aspect of Oshtur
           - Set
           - Gaea
+          - Ikonn
           - Khonshu
           - Loki Laufeyson
           - Amora
