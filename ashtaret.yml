@@ -456,9 +456,6 @@ Hero:
           Deity:
             Rank: Monstrous
             Number: 75
-          Normal Human:
-            Rank: Remarkable
-            Number: 30
           Power Stunts:
             - Blunt attack damage at Power rank.
             - Shadowcasting of Power rank Intensity darkness over a maximum of three areas.
@@ -969,40 +966,40 @@ Hero:
         - Grimoire:
             Description: The book in which a mage records spells or incantations. Some spells, like many Entreaty spells, cannot be memorized, only read aloud from a text. A character can only have two grimoires at any one time, the primary and a back-up copy. Creating takes 10+1d10 full days of work.
         - Ebon Staff of Ereshkigal:
-            Category:
-              Miscellaneous: Staff
+            Category: Miscellaneous-Staff
+            Item Condition: The item has no effect when not in plain sight.
+            School: Specific Pantheon (Annunaki)
+            Melee and Thrown Weapon:
+              Weapon: Club
+              Damage: 10
+              Type:
+                - Blunt Attack
+                - Blunt Throwing
+              Material Strength: Unearthly
+            Description: Abbout six feet long and an inch and a half thick, this staff of solid, lightweight, smooth, black metal is twisted along much of its length. It bears a prism of black crystal at one end, terminating in a tapered, blunted spike at the other.
             Spells:
-              Dimensional Energies:
-                - Eldritch Attacks:
+              Universal Energies:
+                Eldritch Beams/Bolts:
+                    Rank: Amazing
+                    Number: 50
+                    Type:
+                      - Darkforce Bolt: The target loses Health points equal to the caster’s spell rank. The bolt is black.
+                      - Disintegrating Bolt: Disintegrates non-living, inanimate objects up to 2 areas away.  Material rank is higher than the spell rank, reduce target’s material strength -1CS. Equal to or less than the spell rank, the target is disintegrated. Small objects destroyed automatically. Human-sized objects require Yellow result on spell rank FEAT. Destroying larger objects requires a successful Red result. If the target is an object of no importance, the Judge can waive the FEAT roll and rule that the item is automatically destroyed.
+                    Note: Beams/bolts originate from the crystal on the end of the staff.
+                    Description: Damage equal to spell Rank to one target in area.  
+                Energy Control:
                   Rank: Amazing
                   Number: 50
-                  Note: All spells originate from the crystal on the end of the staff except Eldritch Breath.
-                  Description: Eldritch attack spells.
-                  Group Spell:
-                    - Eldritch Beams/Bolts:
-                        Type:
-                          - Darkforce Bolt: The target loses Health points equal to the caster’s spell rank. The bolt is black.
-                          - Disintegrating Bolt: Disintegrates non-living, inanimate objects up to 2 areas away.  Material rank is higher than the spell rank, reduce target’s material strength -1CS. Equal to or less than the spell rank, the target is disintegrated. Small objects destroyed automatically. Human-sized objects require Yellow result on spell rank FEAT. Destroying larger objects requires a successful Red result. If the target is an object of no importance, the Judge can waive the FEAT roll and rule that the item is automatically destroyed.
-                        Description: A magical beam (continuous line of energy) or bolt (interrupted line of energy) causing damage to one target in the target area equal to the spell rank.
-                    - Eldritch Blast:
-                        Type:
-                          - Darkforce Blast: The target loses Health points equal to the caster’s spell rank. The blast is black.
-                        Description: A magical blast, causing damage equal to spell rank to everything in the target area, with a chance to slam orstun anyone within the target area (per Magic Effects Table Blasting column). Psyche is reduced to Typical 1 hour, Endurance Feat or pass out for 1-10 rounds.
-                    - Eldritch Breath:
-                        Type:
-                          - Darkforce Breath: The target loses Health points equal to the caster’s spell rank. The breath is black.
-                        Description: Direct Mystical energy into a breath attack, similar to Eldritch Beams/Bolts or an Eldritch Blast, but issuing forth from the mouth, Can still verbally communicate, taste, etc.
-                    - Eldritch Crystals:
-                        Description: A stream or swarm of magical crystals that will bombard a target upon his command. The crystals will appear, attack a single target, cause physical damage equal to the spell rank, then disappear. 
-                    - Eldritch Flames:
-                        Description: Sorcerous flames that cause damage equal to their spell rank every round a character passes through them. Requires a spell rank FEAT roll to activate. The flames are in a designated, fixed location, , and cannot be moved. The flames are  a fiery wall, extening along one side of the target area chosen by the caster and can be from a few feet to three stories in heght and may bend slightly to accommodate structures and obstacles. No more than three walls can be maintained at a time.
+                  Description: Requires a successful spell rank FEAT roll. Can affect all of the specified type of energy within his area of effect, turning it on or off, making it overload, siphoning it, can channel controlled energy around self so as not to be harmed by it. A Red Result on  spell rank FEAT to use this spell offensively. The attack must be made by touch. The damage caused equals the spell rank number. Yellow or Red spell rank FEAT roll to use this spell defensively.
+                  Type: 
+                    - Darkforce: May black out an area so completely that even infravision does not work. Cannot be used as a weapon outside of caster's area, anyone within that area except the caster loses Health points equal to the spell Rank Number each round.
       Note: Most equipment is ad hoc via Artifact Creation, Molecular Creation, and Molding.
     Contacts:
       Professional:
         Crime:
           - Mariah Dillard: From Criminology Talent.
         Espionage:
-          - Marc Spector: Ashtaret already had Heliopolis as a Contact from ancient times. Contact from Detective/Espionage Talent.
+          - Marc Spector: Contact from Detective/Espionage Talent. Ashtaret already had Heliopolis as a Contact from ancient times.
       Political:
         Planetary:
           - Annunaki: Possibly a former member of this pantheon, or related.
@@ -1138,6 +1135,14 @@ Hero:
             Rank: Amazing
             Number: 50
             Description: Creates or summons a loyal, obedient creature or entity to perform tasks or assist the caster.
+          Shield-Great:
+            Rank: Amazing
+            Number: 50
+            Description: Protects an area up to 1 area wide and 3 stories tall with spell Rank +2CS. Only one at a time.
+          Shield-Individual:
+            Rank: Amazing
+            Number: 50
+            Description: Spell rank shield projected from hand. May summon circle of four to protect multiple angles at -1CS, destroyed individually, but cannot move during.
           Tongues:
             Rank: Amazing
             Number: 50
@@ -1191,6 +1196,10 @@ Hero:
             Rank: Amazing
             Number: 50
             Description: Returns recently deceased beings to life, if performed promptly.
+          Shield-Aura:
+            Rank: Amazing
+            Number: 50
+            Description: Body armor of Rank -1CS against all attacks. Self or another, only one at a time.s
           Teleportation:
             Rank: Amazing
             Number: 50
@@ -1278,6 +1287,10 @@ Hero:
               Sensing-Fields: Detects magical or force fields.
               Sensing-Identity: Discerns true identities or natures.
               Sensing-Mystical Detection: Detects magical energies or spells.
+          Shield-Multiple:
+            Rank: Amazing
+            Number: 50
+            Description: As individual shield, but multple stacked, +1 layer per Rank over Good.  Destroyed individually.
           Teleportation:
             Rank: Amazing
             Number: 50
