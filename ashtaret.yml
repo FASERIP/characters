@@ -367,7 +367,7 @@ Hero:
           Normal Human:
             Rank: Remarkable
             Number: 30
-          Note:  Deity Aspect uses Immunity instead.
+          Note: Deity Aspect uses Immunity instead.
           Description: Grants resistance against direct attacks affecting the character’s powers, reducing their effectiveness by Power rank number.
         Immunity to Power Manipulation:
           Rank: Class 1000
@@ -711,7 +711,7 @@ Hero:
           Form:
             Type: Spontaneous Creation
             Description: Psionically fabricate a full-grown duplicate of your previous body from raw matter and energy, with a build time of (100 – Power rank) days. The body reverts to its original materials.
-          Note:  New body will be Demon Aspect, and requires 1d100 Turns of exposure to Energy Source to regain ability to assume Deity Aspect.
+          Note: New body will be Demon Aspect, and requires 1d100 Turns of exposure to Energy Source to regain ability to assume Deity Aspect.
           Description: Upon Death, lifeforce rebounds into a new host while you forfeit all Karma.
         Telekinesis:
           Rank: Incredible
@@ -899,39 +899,64 @@ Hero:
       Vehicles: null
       Headquarters:
         - Example Rented Apartment:
-            Type: 1BR Apartment
+            Type:
+              Low: 1BR Apartment
+              Mid: 2BR Apartment
+              High: 3BR Apartment
             Cost:
-              Rent:
-                Rank: Poor
-                Base: Feeble
-              Own:
-                Rank: Remarkable
-                Base: Excellent
+              1BR Apartment:
+                Rent:
+                  Rank: Poor
+                  Base: Feeble
+                Own:
+                  Rank: Remarkable
+                  Base: Excellent
+              2BR Apartment:
+                Rent:
+                  Rank: Typical
+                  Base: Poor
+                Own:
+                  Rank: Remarkable
+                  Base: Excellent
+              3BR Apartment:
+                Rent:
+                  Rank: Poor
+                  Base: Feeble
+                Own:
+                  Rank: Incredible
+                  Base: Remarkable
               Note: +1CS to Cost for Manhattan Location
             Size: Small
             Material Strength: Good
             Room Packages:
-              - Bedroom
               - Living Room Package:
-                  Cost: Good
-                  Description: Occupies one room. Consists of sofa, two easy chairs, two end tables, coffee tables, two lamps (ceiling table or floor).
+                  Cost:
+                    Low: Good
+                    Mid: Excellent
+                    High: Remarkable
+                  Description: Occupies one room. Consists of sofa, two easy chairs, two end tables, coffee tables, two lamps (ceiling table or floor). At Excellent Cost add television, stereo set-up, or piano. At Remarkable Cost add all three.
+              - Dining Room Package:
+                  Description: Occupies one room. Consists of table, four chairs, ceiling lamp. At Excellent Cost add large table, bureau and four more chairs. At Remarkable Cost add china cabinet, set of good china and sterling tableware.
               - Kitchen Package:
-                  Cost: Good
-                  Description: Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing.
+                  Cost:
+                    Low: Good
+                    Mid: Excellent
+                    High: Remarkable
+                  Description: Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing. At Excellent Cost add refrigerator, dishwasher, or microwave, plus a fire extinguisher. At Remarkable Cost add all three and freezer.
               - Storage, bathrooms, and closets:
                   Cost: null
                   Description: These are assumed in the cost of the building, according to its design. 
               - Security Package:
-                  Cost: Good
-                  Count: 3
-                  Note: One door, two windows.
-                  Description: One Security package to a door or window. Occupies no space. Consists of hand-set burglar alarms on windows and doors, coupled with mechanical locks.
+                  Cost:
+                    Low: Good
+                    High: Excellent
+                  Description: One Security package to a door or window. Occupies no space. Consists of hand-set burglar alarms on windows and doors, coupled with mechanical locks.  At Excellent Cost Automatic burglar alarms with computer-code or card identification system.
               - Fire Protection Package:
                 Cost: Excellent
                 Description: Occupies no space. Sprinkler system that may cover up to 10 rooms, provides Good protection from fire.
-          Note: Example typical residence for Normal Human Aspect cover identity. Rented. Furnished. Location, type, and packages may vary.
+          Note: Example typical residences for Normal Human Aspect cover identity. Rented. Furnished. Location, type, and packages may vary.
       Salaries Sundries and Other Equipment: null
-      Note: Most equipment is ad hoc via Artifact Creation.
+      Note: Most equipment is ad hoc via Artifact Creation, Molecular Creation, and Molding.
     Contacts:
       Professional:
         Crime:
