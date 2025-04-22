@@ -63,22 +63,22 @@ Hero:
     Primary Abilities:
       Fighting:
         Demon:
-          Rank: Excellent
-          Number: 20
-          Rank Equivalency: Regular, formal training
-        Deity:
           Rank: Remarkable
           Number: 30
           Rank Equivalency: Superior talent
-        Normal Human:
-          Rank: Excellent
-          Number: 20
-          Rank Equivalency: Regular, formal training
+        Deity:
+          Rank: Incredible
+          Number: 40
+          Rank Equivalency: Superior talent with training
         Ethereal:
           Rank: Excellent
           Number: 20
           Rank Equivalency: Regular, formal training
           Note: Shift-0 in Earth Dimension unless fighting another Ethereal.
+        Normal Human:
+          Rank: Excellent
+          Number: 20
+          Rank Equivalency: Regular, formal training
       Agility:
         Demon:
           Rank: Amazing
@@ -98,13 +98,13 @@ Hero:
           Rank Equivalency: Intensive training in dexterity and/or accuracy
       Strength:
         Demon:
-          Rank: Excellent
-          Number: 20
-          Rank Equivalency: Able to press up to 800 lbs. (Maximum human ability)
-        Deity:
           Rank: Remarkable
           Number: 30
           Rank Equivalency: Able to press up to 2000 lbs (1 ton)
+        Deity:
+          Rank: Incredible
+          Number: 40
+          Rank Equivalency: Able to press up to 10 tons
         Ethereal:
           Rank: Excellent
           Number: 20
@@ -197,8 +197,8 @@ Hero:
           Rank Equivalency: Some experience with mental control and/or mystic forces
     Secondary Abilities:
       Health:
-        Demon: 165
-        Deity: 235
+        Demon: 185
+        Deity: 255
         Ethereal: 140
         Normal Human: 80
       Karma:
@@ -801,7 +801,7 @@ Hero:
             Number: 75
             Total:
               Rank: Class 3000
-              Number: 4055
+              Number: 4075
               Spread: 61
               Turns Until Full Recovery: 55
           Deity:
@@ -809,7 +809,7 @@ Hero:
             Number: 100
             Total:
               Rank: Class 5000
-              Number: 11315
+              Number: 11325
               Spread: 72
               Turns Until Full Recovery: 114
           Note: Rankless abilities not included.  Not available to Ethereal Aspect.
