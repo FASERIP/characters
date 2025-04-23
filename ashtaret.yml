@@ -967,7 +967,7 @@ Hero:
             Description: The book in which a mage records spells or incantations. Some spells, like many Entreaty spells, cannot be memorized, only read aloud from a text. A character can only have two grimoires at any one time, the primary and a back-up copy. Creating takes 10+1d10 full days of work.
         - Ebon Staff of Ereshkigal:
             Category: Miscellaneous-Staff
-            Item Condition: The item has no effect when not in plain sight.
+            Item Condition: There are no conditions to the item (it operates as described).
             School: Specific Pantheon (Annunaki)
             Melee and Thrown Weapons:
               Weapon: Club
