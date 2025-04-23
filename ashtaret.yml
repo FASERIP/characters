@@ -251,47 +251,53 @@ Hero:
         Normal Human: 80
       Karma:
         Demon: 265
-        Deity: 475
+        Deity: 400
         Ethereal: 215
-        Normal Human: 135
+        Normal Human: 90
       Resources:
-        Demon:
-          Rank:
-            Name: Poor
-            Number: 4
-        Deity:
-          Rank:
-            Name: Poor
-            Number: 4
-        Ethereal: null
+        Rank:
+          Name: Poor
+          Number: 4
         Normal Human:
           Rank:
             Name: Typical
             Number: 6
           Note: The average Resources of a Normal Human cover identity. May optionally vary from Poor (4) to Incredible (40) if rolled on Ability Modifier Table for that cover identity.
-        Note: Molecular Creation can be used to raise resources by up to +3CS, Molding can be used to raise resources by up to +4CS.
+        Note:
+          - Aliens have Poor (4) starting Resources.
+          - Molecular Creation can be used to raise resources by up to +3CS, Molding can be used to raise resources by up to +4CS.
+          - Ashtaret doesn't really interact with mortal economies except in Normal Human Aspect cover identities.
       Popularity:
         Demon:
           Rank:
             Name: Poor
             Number: 4
-          Note: Demons have a -2CS to initial popularity.  Aliens in general have -5 Popularity.
+          Note:
+            - Public identities have +10 starting Popularity.
+            - Aliens in general have -5 starting Popularity.
+            - Demons have a -2CS to initial popularity.
         Deity:
           Public:
             Rank:
-              Name: Incredible
-              Number: 40
+              Name: Remarkable
+              Number: 30
           Established Religions:
             Rank:
               Name: Shift-0
               Number: 0
-          Note: Deities have +2CS Popularity with public and 0 Popularity with established religions.
+          Note:
+            - Public identities have +10 starting Popularity.
+            - Aliens in general have -5 starting Popularity.
+            - Deities have +2CS Popularity with public and 0 Popularity with established religions.
         Ethereal: null
         Normal Human:
           Rank:
             Name: Typical
-            Number: 6
-          Note: The average Popularity of a Normal Human cover identity. Secret identities have -5 Popularity.
+            Number: 5
+          Note:
+            - Secret identities have -5 starting Popularity.
+            - Represents the average Popularity of a Normal Human cover identity.
+        Note: Base starting Popularity is 10.
     Special Abilities:
     Powers:
       Note:
@@ -313,28 +319,24 @@ Hero:
             Rank:
               Name: Remarkable
               Number: 30
+              Note: From Resist Domination Talent.
           Note: Minimum Psyche +1CS. Normal Human Aspects Resistance comes from the Resist Domination Talent.
           Description: Grants resistance to attacks targeting emotions or Intuition, reducing damage from attacks like Emotion Control and Hallucinations by Power rank number. Attacks below rank are ignored.
         Immunity to Emotion Attacks:
           Rank:
-            Name: Class 1000
-            Number: 1000
+            Name: null
+            Number: .nan
           Note: Deity Aspect only.
-          Description: Completely negates damage from emotion-based attacks, including Emotion Control, Hallucinations, and Domination.
+          Description: Completely negates emotion-based attacks, including Emotion Control, Hallucinations, and Domination.
         Resistance to Energy Attacks:
           Cold:
+            Rank:
+              Name: Monstrous
+              Number: 75
             Demon:
               Rank:
                 Name: Excellent
                 Number: 20
-            Deity:
-              Rank:
-                Name: Monstrous
-                Number: 75
-            Ethereal:
-              Rank:
-                Name: Monstrous
-                Number: 75
             Normal Human:
               Rank:
                 Name: Feeble
@@ -349,23 +351,20 @@ Hero:
               Rank:
                 Name: Monstrous
                 Number: 75
-            Ethereal:
-              Rank:
-                Name: Excellent
-                Number: 20
           Fire and Heat:
             Normal Human:
               Rank:
                 Name: Feeble
                 Number: 2
-            Note: The Rank available to Normal Human Aspect is just enough to ignore inclement weather without appropriate clothing. Other aspects have Immunity.
+            Note: The Rank available to Normal Human Aspect is just enough to ignore inclement weather without appropriate clothing.
+          Note: Not available to Ethereal Aspect (redundant). All Physical attacks vs Ethereal Aspect have -9CS penalty, equivalent to Unearthly Resistance.
           Description: Provides resistance against energy forms such as Light, Heat, Flame, Plasma, Radiation, Electricity, Vibration, Sonics, Cold, and Kinetic Bolts, reducing damage by Power rank number.
         Immunity to Energy Attacks:
           Fire and Heat:
             Rank:
-              Name: Class 1000
-              Number: 1000
-            Note: Demon, Deity, and Ethereal Aspects. Inherent to all Demon Physical Form characters. Retained in Deity Aspect. The Physical version of this is considered the same Power for purposes of Focus.
+              Name: null
+              Number: .nan
+            Note: Inherent to all Demon Physical Form characters. Retained in Deity Aspect.
           Description: Grants full immunity against specific energy types like Fire and Heat.
         Resistance to Magic Attacks:
           Demon:
@@ -398,12 +397,15 @@ Hero:
             Rank:
               Name: Remarkable
               Number: 30
-          Note: Minimum Psyche +1CS. Normal Human Aspects Resistance comes from the Resist Domination Talent.
+              Note: From Resist Domination Talent.
+          Note:
+            - Minimum Psyche +1CS.
+            - Normal Human Aspects Resistance comes from the Resist Domination Talent.
           Description: Enhances resistance against Psionics and Neural Manipulation, ignoring attacks below rank and reducing others by Power rank number.
         Immunity to Mental Attacks:
           Rank:
-            Name: Class 1000
-            Number: 1000
+            Name: null
+            Number: .nan
           Note: Deity Aspect only.
           Description: Completely immune to mental and psychic-based attacks including Psionics and Neural Manipulation.
         Resistance to Physical Attacks:
@@ -434,30 +436,26 @@ Hero:
               Rank:
                 Name: Monstrous
                 Number: 75
-          Note: All Physical Attacks vs Ethereal Aspect have -9CS penalty.  Deity and Ethereal Aspects have Immunity to Toxins and Diseases. Ethereal Aspect has Immunity to Corrosives.
+          Note:
+            - Not Available to Ethereal Aspect (redundant). All Physical attacks vs Ethereal Aspect have -9CS penalty, equivalent to Unearthly Resistance.
+            - Deity and Ethereal Aspects have Immunity to Toxins and Diseases. Ethereal Aspect has Immunity to Corrosives.
           Description: Reduces damage from brute force, chemical weapons, diseases, corrosives, extreme temperatures, and hostile environments by Power rank number.
         Immunity to Physical Attacks:
           Fire and Heat:
             Rank:
-              Name: Class 1000
-              Number: 1000
-            Note: Both Demon and Deity Aspects. Inherent to all Demon Physical Form characters. Retained in Deity Aspect.  The Physical version of this is considered the same Power for purposes of Focus.
+              Name: null
+              Number: .nan
+            Note: Both Demon and Deity Aspects. Inherent to all Demon Physical Form characters. Retained in Deity Aspect.
           Toxins:
             Rank:
-              Name: Class 1000
-              Number: 1000
-            Note: Deity and Ethereal Aspects only.
+              Name: null
+              Number: .nan
+            Note: Deity Aspect only.
           Disease:
             Rank:
-              Name: Class 1000
-              Number: 1000
-            Note: Deity and Ethereal Aspects only.
-          Corrosives:
-            Rank:
-              Name: Class 1000
-              Number: 1000
-            Note: Ethereal Aspect only.
-          Description: Fully immune to specified physical threats such as Fire, Heat, Toxins, and Disease.
+              Name: null
+              Number: .nan
+            Note: Deity Aspect only.
         Resistance to Power Manipulation:
           Rank:
             Name: Monstrous
@@ -470,8 +468,8 @@ Hero:
           Description: Grants resistance against direct attacks affecting the character’s powers, reducing their effectiveness by Power rank number.
         Immunity to Power Manipulation:
           Rank:
-            Name: Class 1000
-            Number: 1000
+            Name: null
+            Number: .nan
           Note: Deity Aspect only.
           Description: Completely immune to attacks that alter or negate the character's powers, such as Power Control and Weakness Creation.
         Resistance to Vampirism:
@@ -483,11 +481,11 @@ Hero:
               Name: Remarkable
               Number: 30
           Note: Deity Aspect has Immunity instead.
-          Description: Provides resistance against vampiric attacks (Psi, Bio, Energy, Magic, and Power Vampirism), reducing effectiveness by Power rank number.
+          Description: Provides resistance against vampiric attacks of all kinds, reducing effectiveness by Power rank number.
         Immunity to Vampirism:
           Rank:
-            Name: Class 1000
-            Number: 1000
+            Name: null
+            Number: .nan
           Note: Deity Aspect only.
           Description: Fully immune to all forms of vampiric attacks.
       Detection:
@@ -508,8 +506,8 @@ Hero:
           Description: Automatically aware of environmental conditions and disturbances such as weather, chemicals, movement, and life within the Power's range. Can gain more detailed information with effort.
         Hypersensitive Touch:
           Rank:
-            Name: Monstrous
-            Number: 75
+            Name: Remarkable
+            Number: 30
           Normal Human:
             Rank:
               Name: Good
@@ -557,8 +555,10 @@ Hero:
           Rank:
             Name: Monstrous
             Number: 75
-          Note: Deity Aspect only.
-          Description: The hero can see the correct image of a target, despite any attempts at concealment or disguise.  Automatic success vs. lower-Rank disguise, green FEAT is required at +1CSl yellow FEAT at +2CS; and a red FEAT at +3CS
+          Note:
+            - Deity Aspect only.
+            - Automatic success vs. lower-Rank disguise, green FEAT is required at +1CS; yellow FEAT at +2CS; and a red FEAT at +3CS
+          Description: The hero can see the correct image of a target, despite any attempts at concealment or disguise.  
         Weakness Detection:
           Demon:
             Rank:
@@ -672,6 +672,10 @@ Hero:
           Rank:
             Name: Amazing
             Number: 50
+          Normal Human:
+            Name: Excellent
+            Number: 20
+            Note: From Hypnosis and Mesmerism Talent.
           Note: Normal Human Aspect uses the Hypnosis and Mesmerism Talent instead at Reason Rank.
           Description: Exerts mental control over targets through hypnotic suggestions, compelling actions or behaviors.
         Mind Control:
@@ -684,10 +688,6 @@ Hero:
           Note: Ethereal Aspect only.
           Description: The ability to directly control a target's mind through psionic Powers.
         Neural Manipulation:
-          Demon:
-            Rank:
-              Name: Good
-              Number: 10
           Ethereal:
             Rank:
               Name: Excellent
@@ -805,7 +805,7 @@ Hero:
             Rank:
               Name: Amazing
               Number: 50
-          Note: Unavailable to Ethereal Aspect.
+          Note: Not available to Ethereal Aspect.
           Description: Synthesizes compounds and complex materials from nothing, temporarily sacrificing Health points per ounce. Durability based on FEAT, from temporary to permanent.
       Mental Enhancement:
         Cosmic Awareness:
@@ -842,13 +842,11 @@ Hero:
           Note: Adds Power Rank to base Ability Rank.
           Description: Significantly boosts intellectual capabilities and intuition, enhancing mental acuity and problem-solving.
         Iron Will:
-          Rank:
-            Name: Monstrous
-            Number: 75
           Normal Human:
             Rank:
               Name: Remarkable
               Number: 30
+          Note: Normal Human Aspect only.
           Description: Strengthens mental fortitude, resisting psychological manipulation and enhancing determination.
         Linguistics:
           Rank:
@@ -915,20 +913,19 @@ Hero:
           Description: Perfectly recalls any previously experienced event or information without degradation.
       Physical Enhancement:
         Body Resistance:
-          Demon:
-            Rank:
-              Name: Remarkable
-              Number: 30
-          Deity:
-            Rank:
-              Name: Amazing
-              Number: 50
-          Note: Not available to Ethereal Aspect.
+          Rank:
+            Name: Remarkable
+            Number: 30
+          Note: Not available to Ethereal Aspect. Deity Aspect has True Invulnerability instead.
           Description: Enhances natural resistance against physical damage, absorbing and reducing incoming harm.
         Hypnotic Voice:
           Rank:
             Name: Incredible
             Number: 40
+          Normal Human:
+            Name: Excellent
+            Number: 20
+            Note: From Hypnosis and Mesmerism Talent.
           Note: Normal Human Aspect uses the Hypnosis and Mesmerism Talent instead at Reason Rank.
           Description: Influences or controls others through voice, compelling obedience or specific actions.
         Pheromones:
@@ -984,27 +981,49 @@ Hero:
           Note: Recharges Deity Aspect. Not relevant to other Aspects.
           Description: Supplies energy to sustain other Powers or devices continuously without external input.
         Focus:
+          Rank:
+            Name: Monstrous
+            Number: 75
           Demon:
-            Rank:
-              Name: Monstrous
-              Number: 75
             Total:
               Rank:
-                Name: Class 3000
-                Number: 4015
-              Spread: 61
-              Turns Until Full Recovery: 54
+                Name: Class 1000
+                Number: 2840
+              Spread: 58
+              Turns Until Full Recovery: 38
           Deity:
             Rank:
               Name: Unearthly
               Number: 100
             Total:
               Rank:
-                Name: Class 5000
-                Number: 11325
-              Spread: 72
-              Turns Until Full Recovery: 114
-          Note: Rankless abilities not included.  Not available to Ethereal Aspect.
+                Name: Class 3000
+                Number: 4165
+              Spread: 59
+              Turns Until Full Recovery: 42
+          Ethereal:
+            Rank:
+              Name: Amazing
+              Number: 50
+            Total:
+              Rank:
+                Name: Class 1000
+                Number: 2252
+              Spread: 38
+              Turns Until Full Recovery: 46
+          Normal Human:
+            Rank:
+              Name: Remarkable
+              Number: 30
+            Total:
+              Rank:
+                Name: Shift-Z
+                Number: 814
+              Spread: 34
+              Turns Until Full Recovery: 28
+          Note:
+            - Rankless abilities not included.  Focus itself is.
+            - Not available to Ethereal Aspect.
           Description: Channels all Abilities and Powers into a single burst, replacing the target Power’s rank with the sum of all other ranks. After use, all Abilities and Powers drop to Feeble. The Focus rank determines how many points can be recovered each turn, divided evenly across all affected traits.
       Self Alteration:
         Imitation-Face Changer:
@@ -1098,24 +1117,80 @@ Hero:
         Other Weapons: null
       Vehicles: null
       Headquarters:
-        - Example Rented Apartment:
+        - Extradimensional Lair:
+            Type: Special
+            Cost:
+              Rank: Beyond
+              Number: .inf
+            Size: Deluxe
+            Material Strength: Unearthly
+            Room Packages:
+              - Dining Room Package:
+                Cost: Remarkable
+                Note: Multiple.
+                Description: Good. Occupies one room. Consists of table, four chairs, ceiling lamp. Excellent Cost add large table, bureau and four more chairs. Remarkable Cost add china cabinet, set of good china and sterling tableware.
+              - Kitchen Package:
+                Cost:
+                  Value: Remarkable
+                  Base: Good
+                  Note: +2CS to Cost for very high-quality package.
+                Note:
+                  - Extra large.
+                  - Stoves, ovens, hearths powered by hellfire.
+                Description: Good. Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing.
+              - Library Package:
+                  Cost:
+                    Value: Incredible
+                    Base: Excellent
+                    Note: +2CS to Cost for very high-quality package.
+                  Description: Excellent. Occupies one room. Consists of two easy chairs, table, desk, straight chair, and up to five bookcases on general subjects (texts readily available, and including encyclopedias, world histories, and atlases). Special or rare volumes, such as the Book of the Vishanti, the Necronomicon, or Amazing Fantasy \#15, would have to be obtained separately.
+              - Conference Room Package:
+                  Cost:
+                    Value: Amazing
+                    Base: Remarkable
+                    Note: +2CS to Cost for very high-quality package.
+                  Note:
+                    - Multiple.
+                    - At least one in each format, a third, extra large, set up as a throne room.
+                  Description: Remarkable. Occupies one room. Contains material for assembling of heroes, or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs.
+              - Porches, storage, bathrooms, and closets:
+                  Cost: null
+                  Description: These are assumed in the cost of the building, according to its design. These rooms cost nothing, and no package exists other than what the heroes decide to stuff into the closets.
+              - Trophy Room Package:
+                  Cost:
+                    Value: Amazing
+                    Base: Remarkable
+                    Note: +2CS to Cost for very high-quality package.
+                  Note: Multiple.
+                  Description: Excellent. Occupies one room. Contains showcase, lighting, frames to display mementos, and may be used as a reception half or gallery. At Remarkable Cost, contains capability to handle potentially dangerous exhibits at the Incredible level.
+              - Imprisonment Package:
+                  Cost:
+                    Value: Monstrous
+                    Base: Incredible
+                    Note: +2CS to Cost for very high-quality package.
+                  Note: Multiple.
+                  Description: Excellent. Occupies one room. Contains standard restraining devices, including bars of Remarkable material strength. At Remarkable Cost, restraining devices made of Incredible Strength. At Incredible Cost, restraining devices at Amazing Strength and Excellent Strength inhibitor restraints.
+            Note: About 20+ areas over about 3+ levels.
+            Description: A small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams. Not strictly a structure or building, though there are areas that appear to be "inside," "outside," and "underground." As Ashtaret satisfies her needs with Powers and Spells, the lair has few amenities although everything there is of opulent quality. It primarily comprises places for Ashtaret to keep her Grimoires and other Mystic Texts, along with any treasures, prisoners, or other possessions, as well as a place for her to sit and hold court. The temperature, atmosphere, and other conditions are survivable, even livable, if not pleasant or comfortable, for humans, animals, and humanlike beings.
+        - Example Manhattan Apartment:
             Type:
               Low: 1BR Apartment
               Mid: 2BR Apartment
               High: 3BR Apartment
             Cost:
-              1BR Apartment:
-                Rank:
-                  Name: Poor
-                  Base: Feeble
-              2BR Apartment:
-                Rank:
-                  Name: Typical
-                  Base: Poor
-              3BR Apartment:
-                Rank:
-                  Name: Excellent
-                  Base: Good
+              Rent:
+                1BR Apartment:
+                  Rank:
+                    Name: Poor
+                    Base: Feeble
+                2BR Apartment:
+                  Rank:
+                    Name: Typical
+                    Base: Poor
+                3BR Apartment:
+                  Rank:
+                    Name: Excellent
+                    Base: Good
               Note: +1CS to Cost for Manhattan Location
             Size: Small
             Material Strength: Good
@@ -1150,7 +1225,7 @@ Hero:
                   Cost: Excellent
                   Description: Occupies no space. Sprinkler system that may cover up to 10 rooms, provides Good protection from fire.
           Note:
-            - Example typical residences for Normal Human Aspect cover identity. Rented. Furnished. Location, type, and packages may vary.
+            - Example typical residences for Normal Human Aspect cover identity. Rented furnished. Location, type, and packages may vary by cover identity.
             - There are probably several cats coming and going as they please.
             - Very high-quality room packages may be +1CS or +2CS to Cost, especially in higher-end residences.
       Salaries Sundries and Other Equipment:
@@ -1240,24 +1315,23 @@ Hero:
           - Asgard: Particularly those listed as Contacts by name.
       Mystic:
         Mystic Arts:
-          - Doctor Stephen Strange: Sometimes Ally, Often Babysitter, Occasionally Parole Officer
+          - Doctor Stephen Strange: Sometimes Ally, Often Babysitter, Occasionally Parole Officer.
           - Wong: As Strange, but more longsuffering.
-          - Clea
-          - Illyana Rasputin
-          - Satana Hellstrom: Complicated by relationship with Marduk Kurios
-          - Daimon Hellstrom: Complicated even more by relationship with Marduk Kurios
+          - Clea: As Strange, but less tolerant.
+          - Satana Hellstrom: Complicated by relationship with Marduk Kurios.
+          - Daimon Hellstrom: Complicated even more by relationship with Marduk Kurios.
           - Jennifer Kale: Ashtaret has difficulty distinguishing Jennifer from Zhered-Na.
           - Lilia Calderu: Known since the Middle Ages.
-          - Wanda Maximoff
-          - Azazel
-          - Nightmare: Relationship, both conflict and cooperation, revolves around their mutual inhabitation of the Dimension of Dreams.
           - Selene: Their frenemy relationship has been going on for a very, very long time.
+          - Illyana Rasputin
+          - Wanda Maximoff
           - Eric Simon Payne
           - Frank Blade
         Mythology:
           - Fellow Annunaki?:
             - Ereshkigal: Possible sister and thus ultimate rival if so.  Has, or had, a discarded demonic aspect, Allatou, that Ashtaret possibly merged with or absorbed.
             - Inanna: Other universes' versions of Inanna.
+          - Nightmare: Relationship, both conflict and cooperation, revolves around their mutual inhabitation of the Dimension of Dreams.
           - Co-Inhabitants of Hell Dimension:
             - Mephisto
             - Satannish
@@ -1267,7 +1341,6 @@ Hero:
             - Oshtur: As a possible Inanna, Ashtaret is also possibly a discarded Aspect of Oshtur.
             - Set
             - Gaea
-          - Ikonn
           - Khonshu: In particular among Heliopolis pantheon because of Marc Spector.
           - Three Asgardian Co-Conspirators and Rivals:
             - Loki Laufeyson
@@ -1280,7 +1353,7 @@ Hero:
         - Cloak & Dagger: Non-member
     Magic:
       Character Type: Magic Wielder
-      Magic School: Magic for Chaos
+      Magic School: Specific Pantheon (Annunaki)
       Energy Use: All Energies
       Rank:
         Name: Master
@@ -1590,8 +1663,8 @@ Hero:
               Invisibility-Others: Renders others temporarily invisible.
               Shrinking-Others: Temporarily reduces the size of targeted beings.
   Biography: |
-    An ancient Demon from terrible realms beyond, formerly a primeval Deity no longer widely worshipped, Ashtaret is long since finished with the machinations of cosmic evil, and mostly so with the idea of regaining her divinity, and pops in to the Earth Dimension from time to time to live her best immortal life in the dual-natured glamour and shadows of 1980's Manhattan. It is possible, even likely, but unconformed that Ashtaret is her universe's version of Inanna. Her extradimensional lair is in a small, obscure, demiplanar pocket that straddles Hell Dimension and the Dimension of Dreams.
+    An ancient Demon from terrible realms beyond, formerly a primeval Deity no longer widely worshipped, Ashtaret is long since finished with the machinations of cosmic evil, and mostly so with the idea of regaining her divinity, and pops in to the Earth Dimension from time to time to live her best immortal life in the dual-natured glamour and shadows of 1980's Manhattan. It is possible, even likely, but unconformed that Ashtaret is her universe's version of Inanna. Her extradimensional lair is in a small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams.
   Personality: |
-    Vain, capricious, self-serving, whiny, pouty, manipulative, hedonistic, vindictive, and generally chaotic, though not particularly malevolent, Ashtaret is out for herself first, last, and, usually, only. She just wants to have fun.  However, she actively likes children and animals, despite her other traits.
+    Vain, capricious, self-serving, whiny, pouty, manipulative, hedonistic, vindictive, and generally chaotic, though not particularly malevolent, Ashtaret is out for herself first, last, and, usually, only. She just wants to have fun.  However, she actively likes children and animals, despite her other, less wholesome traits. Dislikes personally interacting with modern technology, but appreciates when others use it to her benefit.
   Description: |
     While capable of any humanlike form via the Imitation-Human Changeling Power, Ashtaret's typical form is a tall, long-legged, voluptuous but fit woman of somewhat indeterminate age, with spiraling ringlets of shiny, jet-black hair, burning honey-amber eyes, lustrous dark olive-bronze skin, and regal, decidedly Eastern Mediterranean facial features.  She is typically dressed and accessorized in whatever is considered high-fashion for the time, place, and situation, with a predilection for vintage wear, often via use of Artifact Creation, Molecular Creation, and Molding.
