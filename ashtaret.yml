@@ -532,7 +532,7 @@ Hero:
           Forms:
             - Healing: Restores a target’s Health by up to your Power rank per day, sealing wounds and curing disease without regrowing lost tissue.
             - Regeneration: Heals damage and reconstructs lost tissue—limbs with green FEATs, organs with yellow, and neural tissue with red.
-            - Revival: Reanimates a corpse up to Power‑rank days old by healing damage, repairing cause of death, and reuniting the spirit.
+            - Revival: Revives a corpse up to Power‑rank days old by healing damage, repairing cause of death, and reuniting the spirit.
             - Damage Transferral: Heals a target by shifting their damage into your body, which you then self‑heal at your Power rank.
             - Decay: Rapidly accelerates cellular collapse, inflicting Power‑rank damage each turn until the victim crumbles to dust.
             - Disruption: Disrupts normal physiology, causing up to Power‑rank Health losses from nausea and chills to fatal trauma.
