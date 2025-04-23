@@ -284,8 +284,8 @@ Hero:
               Rank: Monstrous
               Number: 75
             Normal Human:
-              Rank: Poor
-              Number: 4
+              Rank: Feeble
+              Number: 2
             Note: The Rank available to Normal Human Aspect is just enough to ignore inclement weather without appropriate clothing.
           Electricity:
             Demon:
@@ -297,6 +297,11 @@ Hero:
             Ethereal:
               Rank: Excellent
               Number: 20
+          Heat and Flame:
+            Normal Human:
+              Rank: Feeble
+              Number: 2
+            Note: The Rank available to Normal Human Aspect is just enough to ignore inclement weather without appropriate clothing. Other aspects have Immunity.
           Description: Provides resistance against energy forms such as Light, Heat, Flame, Plasma, Radiation, Electricity, Vibration, Sonics, Cold, and Kinetic Bolts, reducing damage by Power rank number.
         Immunity to Energy Attacks:
           Heat and Flame:
@@ -350,7 +355,6 @@ Hero:
             Normal Human:
               Rank: Remarkable
               Number: 30
-            Note: 
           Corrosives:
             Demon:
               Rank: Remarkable
@@ -430,7 +434,6 @@ Hero:
           Normal Human:
             Rank: Remarkable
             Number: 30
-          Note: 
           Description: Detects and identifies life forms, can pinpoint specific beings amidst similar ones with effort.
         Magic Detection:
           Rank: Monstrous
@@ -438,7 +441,6 @@ Hero:
           Normal Human:
             Rank: Excellent
             Number: 20
-          Note: 
           Description: Identifies the presence and effects of magic, recognizes past magic use, spell types, and magic users with successful feats.
         Thermal Vision:
           Demon:
@@ -679,7 +681,6 @@ Hero:
           Normal Human:
             Rank: Remarkable
             Number: 30
-          Note: 
           Description: Senses and influences emotions of others, understanding their feelings and potentially altering them.
         Hyper Intelligence:
           Rank: Monstrous
@@ -699,7 +700,6 @@ Hero:
             Rank: Remarkable
             Number: 30
           Description: Strengthens mental fortitude, resisting psychological manipulation and enhancing determination.
-          Note: 
         Linguistics:
           Rank: Monstrous
           Number: 75
@@ -962,28 +962,29 @@ Hero:
                   Description: Occupies no space. Sprinkler system that may cover up to 10 rooms, provides Good protection from fire.
           Note:
             - Example typical residences for Normal Human Aspect cover identity. Rented. Furnished. Location, type, and packages may vary.
-            - There are probably several cats.
-            - Very high-quality room packages may be +1CS or +2CS to Cost.
+            - There are probably several cats coming and going as they please.
+            - Very high-quality room packages may be +1CS or +2CS to Cost, especially in higher-end residences.
       Salaries Sundries and Other Equipment:
         - Fire Extinguisher:
             Price: Typical
-            Note: Included in Kitchen Package
+            Note: Included in Kitchen Package with Cost Excellent or better, kept at appropriate Headquarters residences.
             Description: Fire Extinguishers inflict no damage normally, but against fire are of Good Intensity (eliminate fire of Typical Intensity or less in the same area on a green FEAT, of Good Intensity on a yellow, and up to Excellent on a red). Against characters with flaming powers causes a FEAT roll against that Intensity to retain flame.
         - Respectable Clothing:
             Price: Typical
-            Note: Daily wardrobes of Normal Human cover identities.
+            Note: Daily wardrobes of Normal Human cover identities. More basic, casual, off-the-shelf, or mundane than what is created with Artifact Creation, Molecular Creation, and Molding (high fashion, valuable accessories, etc.).  Vintage clothing highly represented.
         - Original Art: 
             Price: Good
-            Note: Decorations in higher-end residences.
+            Note: Decorations and objets d'art, particularly in higher-end residences.
         - Mystic Texts:
             Price: Incredible
             Description: Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
       Magical Items:
         - Grimoire:
+            Note: Primary and backup Grimoires.
             Description: The book in which a mage records spells or incantations. Some spells, like many Entreaty spells, cannot be memorized, only read aloud from a text. A character can only have two grimoires at any one time, the primary and a back-up copy. Creating takes 10+1d10 full days of work.
         - Ebon Staff of Ereshkigal:
             Category: Miscellaneous-Staff
-            Item Condition: There are no conditions to the item (it operates as described).
+            Item Condition: There are no conditions to the item (it operates as described). Has three Universal Energy powers.
             School: Specific Pantheon (Annunaki)
             Melee and Thrown Weapons:
               Weapon: Club
@@ -992,6 +993,7 @@ Hero:
                 - Blunt Attack
                 - Blunt Throwing
               Material Strength: Unearthly
+            Note: Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
             Description: Abbout six feet long and an inch and a half thick, this staff of solid, lightweight, smooth, black metal is twisted along much of its length. It bears a prism of black crystal at one end, terminating in a tapered, blunted spike at the other.
             Spells:
               Universal Energies:
