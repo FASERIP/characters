@@ -410,8 +410,12 @@ Hero:
           Description: Fully immune to all forms of vampiric attacks.
       Detection:
         Environmental Awareness:
-          Rank: Monstrous
-          Number: 75
+          Deity:
+            Rank: Monstrous
+            Number: 75
+          Demon:
+            Rank: Incredible
+            Number: 40
           Normal Human:
             Rank: Remarkable
             Number: 30
@@ -815,9 +819,9 @@ Hero:
             Number: 75
             Total:
               Rank: Class 3000
-              Number: 4075
+              Number: 4040
               Spread: 61
-              Turns Until Full Recovery: 55
+              Turns Until Full Recovery: 54
           Deity:
             Rank: Unearthly
             Number: 100
