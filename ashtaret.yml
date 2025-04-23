@@ -17,12 +17,20 @@ Hero:
     Physical Form:
       Type: Changeling
       Description: Able to transform between multiple distinct Body Types, each with unique advantages, disadvantages, and at least one exclusive power. Transformation temporarily disables all powers and reduces abilities.
-      Note: Takes 10 turns to change Aspect. No Powers can function and all Abilities -2CS during change. Many Powers unavailable to Ethereal Aspect, noted under each Power where applicable, but are available unless specificall noted. No Powers available to Normal Human Aspect unless specifically noted under that Power. Magic use is still available to Normal Human Aspect.
+      Note: Takes 10 turns to change Aspect. No Powers can function and all Abilities -2CS during change. Many Powers unavailable to Ethereal Aspect, noted under each Power where applicable, but are available unless specifically noted. No Powers available to Normal Human Aspect unless specifically noted under that Power. Magic use is still available to Normal Human Aspect.  If a FEAT roll is required for change and failed, must wait 10 turns before attempting again.
       Aspects:
-        - Demon: Supernatural, corporeal being from another dimension, inherently malevolent by nature. Demons possess increased physical abilities, fire generation, invulnerability to heat and fire, and reduced popularity.
-        - Deity: A former powerful entity worshiped as a god, now diminished and bound to a mortal form on Earth. Deities have significantly enhanced abilities, additional powers, automatic access to at least one travel power, and increased popularity with the general public, though limited influence among modern religious groups. Eventually attract any remaining living worshippers they still have as Contacts.
-        - Ethereal: An intangible, disembodied spirit in the Earth Dimension, solid in other Dimensions. Can drift about in any direction, can pass through solid matter. May be invisible, transparent, translucent, or opaque. Immune to most physical attacks with Intensities less than Unearthly (-9CS).
-        - Normal Human: The body is completely normal and possesses no detectable abnormalities. Any Powers the hero possesses have left no visible mark on the body.
+        - Demon:
+            Note: Requires a Green result on Psyche FEAT to assume this Aspect from Normal Human at start of turn.  Automatic from other Aspects.
+            Description: Supernatural, corporeal being from another dimension, inherently malevolent by nature. Demons possess increased physical abilities, fire generation, invulnerability to heat and fire, and reduced popularity.
+        - Deity:
+            Note: Requires a Red result Psyche FEAT to assume this Aspect from Normal Human at start of turn.  Requires a Yellow result from other Aspects. When voluntarily ending duration prematurely, remaining duration is lost.
+            Description: A former powerful entity worshiped as a god, now diminished and bound to a mortal form on Earth. Deities have significantly enhanced abilities, additional powers, automatic access to at least one travel power, and increased popularity with the general public, though limited influence among modern religious groups. Eventually attract any remaining living worshippers they still have as Contacts.
+        - Ethereal:
+            Note: Requires a Yellow result Psyche FEAT to assume this aspect from Normal Human at start of turn.  Requires a Green result from Demon Aspect.  Automatic from Deity Aspect.
+            Description: An intangible, disembodied spirit in the Earth Dimension, solid in other Dimensions. Can drift about in any direction, can pass through solid matter. May be invisible, transparent, translucent, or opaque. Immune to most physical attacks with Intensities less than Unearthly (-9CS).
+        - Normal Human:
+            Note: Changing into this Aspect does not require a FEAT roll unless in Demon Aspect subject to its Weakness, which requires a Yellow result on Psyche feat.
+            Description: The body is completely normal and possesses no detectable abnormalities. Any Powers the hero possesses have left no visible mark on the body.
     Origin of Power:
       Type: Created
       Description: Born in current form, that of an adult who possesses Power and/or whatever the Body Type is. Inherent to all robots, angels, demons, and deities.
@@ -43,7 +51,7 @@ Hero:
       Stimulus: Energy Depletion
       Effect: Special
       Duration: Permanent
-      Conditions: Requires a Yellow Psyche FEAT to assume this Aspect at start of turn. Forced change back to Demon Aspect after 1d100 turns in Deity Aspect, doubled if Psyche FEAT has Red result, unless in continuous contact with Energy Source while in that Aspect (contact pauses countdown).  Cannot resume Deity form until 1d100 turns exposure to Energy Source to recharge, Red Psyche FEAT to halve time (recharge does not begin until duration of change concludes).
+      Conditions: Forced change back to Demon Aspect after 1d100 turns in Deity Aspect, doubled if a Psyche FEAT has Red result rolled after determining duration, unless in continuous contact with Energy Source while in that Aspect (contact pauses countdown).  Cannot resume Deity form until 1d100 turns exposure to Energy Source to recharge, Red Psyche FEAT to halve time (recharge does not begin until duration of change concludes).
     Normal Human:
       Stimulus:
         - Elemental Allergy: Suffers adverse effects if exposed to dangerous chemical elements.
