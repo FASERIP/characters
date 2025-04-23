@@ -1093,6 +1093,8 @@ Hero:
         - Descriptions are short summaries of full text. Consult Realms of Magic for full text of Spell description.
         - Normal Human Aspect is still capable of Magic use.
         - Magic use is not considered a Power.
+        - Ashtaret does not possess any Entreaty Spells.
+        - It may be possible for others to Entreat Ashtaret.
       Spells:
         Personal Energies:
           Absorption:
@@ -1249,11 +1251,6 @@ Hero:
             Rank: Amazing
             Number: 50
             Description: Temporarily adopts properties of dimensional materials or energies upon contact.
-          Denak:
-            Rank: Amazing
-            Number: 50
-            Note: Consult Entreaty Spell rules and specific Entity entries in Realms of Magic.
-            Entreaty: true
           Dimensional Aperture:
             Rank: Amazing
             Number: 50
@@ -1269,16 +1266,6 @@ Hero:
               Glamor: Creates perceptual illusions of beauty or disguise.
               Growing: Temporarily increases size.
               Shrinking: Temporarily decreases size.
-          Faltine:
-            Rank: Amazing
-            Number: 50
-            Note: Consult Entreaty Spell rules and specific Entity entries in Realms of Magic.
-            Entreaty: true
-          Ikonn:
-            Rank: Amazing
-            Number: 50
-            Note: Consult Entreaty Spell rules and specific Entity entries in Realms of Magic.
-            Entreaty: true
           Link:
             Rank: Amazing
             Number: 50
@@ -1341,11 +1328,6 @@ Hero:
               Net: Generates magical nets to entangle or immobilize.
               Trap: Causes damage to attacker when mentally attacked while Spell is active.
               Wave: Releases a wave of mystical energy for offensive or disruptive purposes.
-          Valtorr:
-            Rank: Amazing
-            Number: 50
-            Note: Consult Entreaty Spell rules and specific Entity entries in Realms of Magic.
-            Entreaty: true
           Witchery:
             Rank: Amazing
             Number: 50
