@@ -254,6 +254,7 @@ Hero:
     Special Abilities:
     Powers:
       Note:
+       - Descriptions are short summaries of full text. Consult Ultimate Powers Book for full text of Power description.
        - Power ranks common among Aspects listed without subheading.
        - No Powers available to Normal Human Aspect unless specifically noted.
        - Many Powers unavailable to Ethereal Aspect, check notes, but are otherwise available unless specifically noted.
@@ -1088,7 +1089,10 @@ Hero:
       Energy Use: All Energies
       Rank: Master
       Master: null
-      Note: Normal Human Aspect is still capable of Magic use.  Magic use is not considered a Power.
+      Note:
+        - Descriptions are short summaries of full text. Consult Realms of Magic for full text of Spell description.
+        - Normal Human Aspect is still capable of Magic use.
+        - Magic use is not considered a Power.
       Spells:
         Personal Energies:
           Absorption:
