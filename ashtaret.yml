@@ -16,21 +16,17 @@ Hero:
   Origin:
     Physical Form:
       Type: Changeling
-      Description: Able to transform between multiple distinct Body Types, each with unique advantages, disadvantages, and at least one exclusive power. Transformation temporarily disables all powers and reduces abilities.
-      Note: Takes 10 turns to change Aspect. No Powers can function and all Abilities -2CS during change. Many Powers unavailable to Ethereal Aspect, noted under each Power where applicable, but are available unless specifically noted. No Powers available to Normal Human Aspect unless specifically noted under that Power. Magic use is still available to Normal Human Aspect.  If a FEAT roll is required for change and failed, must wait 10 turns before attempting again.
+      Description: Able to transform between multiple distinct Body Types, each with unique advantages, disadvantages, and at least one exclusive power. Takes 10 turns to change Aspect. No Powers can function and all Abilities -2CS during change.
+      Note:
+        - Not all Powers are available in every aspect, including Deity and Demon Aspects.
+        - No Powers available to Normal Human Aspect unless specifically noted under that Power.
+        - Many Powers unavailable to Ethereal Aspect, noted under each Power where applicable, but are available unless specifically noted.
+        - Magic use is still available to Normal Human Aspect and during Aspect Change, but lower Abilities during change or in different Aspects may impact effectiveness.
       Aspects:
-        - Demon:
-            Note: Requires a Green result on Psyche FEAT to assume this Aspect from Normal Human at start of turn.  Automatic from other Aspects.
-            Description: Supernatural, corporeal being from another dimension, inherently malevolent by nature. Demons possess increased physical abilities, fire generation, invulnerability to heat and fire, and reduced popularity.
-        - Deity:
-            Note: Requires a Red result Psyche FEAT to assume this Aspect from Normal Human at start of turn.  Requires a Yellow result from other Aspects. When voluntarily ending duration prematurely, remaining duration is lost.
-            Description: A former powerful entity worshiped as a god, now diminished and bound to a mortal form on Earth. Deities have significantly enhanced abilities, additional powers, automatic access to at least one travel power, and increased popularity with the general public, though limited influence among modern religious groups. Eventually attract any remaining living worshippers they still have as Contacts.
-        - Ethereal:
-            Note: Requires a Yellow result Psyche FEAT to assume this aspect from Normal Human at start of turn.  Requires a Green result from Demon Aspect.  Automatic from Deity Aspect.
-            Description: An intangible, disembodied spirit in the Earth Dimension, solid in other Dimensions. Can drift about in any direction, can pass through solid matter. May be invisible, transparent, translucent, or opaque. Immune to most physical attacks with Intensities less than Unearthly (-9CS).
-        - Normal Human:
-            Note: Changing into this Aspect does not require a FEAT roll unless in Demon Aspect subject to its Weakness, which requires a Yellow result on Psyche feat.
-            Description: The body is completely normal and possesses no detectable abnormalities. Any Powers the hero possesses have left no visible mark on the body.
+        - Demon: Supernatural, corporeal being from another dimension, inherently malevolent by nature. Demons possess increased physical abilities, fire generation, invulnerability to heat and fire, and reduced popularity.
+        - Deity: A former powerful entity worshiped as a god, now diminished and bound to a mortal form on Earth. Deities have significantly enhanced abilities, additional powers, automatic access to at least one travel power, and increased popularity with the general public, though limited influence among modern religious groups. Eventually attract any remaining living worshippers they still have as Contacts.
+        - Ethereal: An intangible, disembodied spirit in the Earth Dimension, solid in other Dimensions. Can drift about in any direction, can pass through solid matter. May be invisible, transparent, translucent, or opaque. Immune to most physical attacks with Intensities less than Unearthly (-9CS).
+        - Normal Human: The body is completely normal and possesses no detectable abnormalities. Any Powers the hero possesses have left no visible mark on the body.
     Origin of Power:
       Type: Created
       Description: Born in current form, that of an adult who possesses Power and/or whatever the Body Type is. Inherent to all robots, angels, demons, and deities.
@@ -62,11 +58,23 @@ Hero:
       Conditions: Exposure to dangerous energies or toxic substances causes loss of Health and Endurance.  May heal as normal after exposure ceases.
       Note: Inherent to all Normal Human Physical Form Characters. This Weakness simply reflects how dangerous substances and energy like poison, fire, radiation, electricity, etc. affect Normal Humans.
     All Aspects:
-      Stimulus: Special
-      Effect: Loss of -1CS to all Powers and abilities
-      Duration: Continuous with Contact
-      Conditions: Engaging personally in actively promoting a religion based on herself (may still passively attract folowers).
-      Note: Inherent to all Deity Physical Form characters. This condition and effect applies in any Aspect. Independent activity by others where she is not actively involved does not trigger this Weakness, neither does assisting or otherwise taking actions that benefit those who already follow or worship her. Eventual attraction of living followers is passive and does not trigger this Weakness, but actively recruiting or encouraging her existing followers to do so does trigger it.
+      Deity Rule:
+        Stimulus: Special
+        Effect: Special
+        Duration: Continuous with Contact
+        Conditions: Engaging personally in actively promoting a religion based on herself (may still passively attract folowers).
+        Note: Loss of -1CS to all Powers and abilities. Inherent to all Deity Physical Form characters. This condition and effect applies in any Aspect. Independent activity by others where she is not actively involved does not trigger this Weakness, neither does assisting or otherwise taking actions that benefit those who already follow or worship her. Eventual attraction of living followers is passive and does not trigger this Weakness, but actively recruiting or encouraging her existing followers to do so does trigger it.
+      Aspect Shifting:
+        Stimulus: Special
+        Effect: Special
+        Duration: Special
+        Conditions: Attempting to change Aspects.
+        Note:
+          - Assuming Deity Aspect: Requires a Red result on a Psyche FEAT from Normal Human Aspect at start of turn, Yellow from Demon and Ethereal Aspects. Requires a Red result on Psyche FEAT from Demon Aspect if subject to Hallowed Ground Weakness.
+          - Assuming Demon or Ethereal Aspect: Impossible if Aspect would be subject to Hallowed Ground Weakness.
+          - Assuming Normal Human Aspect: Requires a Yellow result on a Psyche FEAT from Demon Aspect if subject to Hallowed Ground Weakness.
+          - Failed FEAT: Requires 1d10 turns until retrying is possible.
+          - Ending Deity Aspect Prematurely: Any remaining duration is lost. Recharge required to assume Deity Aspect afterwards, irrespective of remaining duration.
   Abilities:
     Primary Abilities:
       Fighting:
