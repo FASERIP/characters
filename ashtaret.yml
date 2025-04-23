@@ -300,18 +300,18 @@ Hero:
             Ethereal:
               Rank: Excellent
               Number: 20
-          Heat and Flame:
+          Fire and Heat:
             Normal Human:
               Rank: Feeble
               Number: 2
             Note: The Rank available to Normal Human Aspect is just enough to ignore inclement weather without appropriate clothing. Other aspects have Immunity.
           Description: Provides resistance against energy forms such as Light, Heat, Flame, Plasma, Radiation, Electricity, Vibration, Sonics, Cold, and Kinetic Bolts, reducing damage by Power rank number.
         Immunity to Energy Attacks:
-          Heat and Flame:
+          Fire and Heat:
             Rank: Class 1000
             Number: 1000
             Note: Demon, Deity, and Ethereal Aspects. Inherent to all Demon Physical Form characters. Retained in Deity Aspect. The Physical version of this is considered the same Power for purposes of Focus.
-          Description: Grants full immunity against specific energy types like Heat and Flame.
+          Description: Grants full immunity against specific energy types like Fire and Heat.
         Resistance to Magic Attacks:
           Demon:
             Rank: Incredible
