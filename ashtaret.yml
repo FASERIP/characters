@@ -1011,7 +1011,11 @@ Hero:
                     Number: 50
                     Type:
                       - Darkforce Bolt: The target loses Health points equal to the caster’s spell rank. The bolt is black.
-                      - Disintegrating Bolt: Disintegrates non-living, inanimate objects up to 2 areas away.  Material rank is higher than the spell rank, reduce target’s material strength -1CS. Equal to or less than the spell rank, the target is disintegrated. Small objects destroyed automatically. Human-sized objects require Yellow result on spell rank FEAT. Destroying larger objects requires a successful Red result. If the target is an object of no importance, the Judge can waive the FEAT roll and rule that the item is automatically destroyed.
+                      - Disintegrating Bolt:
+                        - Disintegrates non-living, inanimate objects up to 2 areas away.
+                        - Material rank higher than the spell rank, reduce target’s material strength -1CS.
+                        - Equal to or less than the spell rank, the target is disintegrated. Small objects destroyed automatically. Human-sized objects require Yellow result on spell rank FEAT. Destroying larger objects requires a successful Red result.
+                        - If the target is an object of no importance, the Judge can waive the FEAT roll and rule that the item is automatically destroyed.
                     Note: Beams/bolts originate from the crystal on the end of the staff.
                     Description: Damage equal to spell Rank to one target in area.  
                 Energy Control:
