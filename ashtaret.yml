@@ -440,8 +440,11 @@ Hero:
             Number: 30
           Description: Detects and identifies life forms, can pinpoint specific beings amidst similar ones with effort.
         Magic Detection:
-          Rank: Monstrous
-          Number: 75
+          Rank: Amazing
+          Number: 50
+          Deity:
+            Rank: Monstrous
+            Number: 75
           Normal Human:
             Rank: Excellent
             Number: 20
@@ -579,7 +582,7 @@ Hero:
             - Seizure: Trigger uncontrollable, painful muscle spasms for the Power’s duration.
             - Exaggeration: Amplify nerve impulses so every attempt at movement becomes wildly overdone and erratic.
           Note: Demon and Ethereal Aspects only.
-          Description: Within a rank‑determined range, alter a target’s voluntary muscle nerve signals to produce one of effects while leaving senses and autonomic functions intact and reducing duration by –1CS per extra target.
+          Description: Within a rank‑determined range, alter a target’s voluntary muscle nerve signals to produce one of the listed effects while leaving senses and autonomic functions intact and reducing duration by –1CS per extra target.
         Plant Control:
           Rank: Incredible
           Number: 40
@@ -819,7 +822,7 @@ Hero:
             Number: 75
             Total:
               Rank: Class 3000
-              Number: 4040
+              Number: 4015
               Spread: 61
               Turns Until Full Recovery: 54
           Deity:
@@ -872,7 +875,7 @@ Hero:
         True Flight:
           Rank: Unearthly
           Number: 100
-          Note: Deity Aspect only. Redundant for Ethereal Aspect.
+          Note: Deity Aspect only.
           Description: Grants the natural ability to fly freely, allowing complete aerial maneuverability and sustained flight without external assistance.
     Talents:
       Fighting Skills:
