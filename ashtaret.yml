@@ -1335,7 +1335,7 @@ Hero:
               Bands: Creates mystic bindings to restrain targets.
               Curse: Imposes negative conditions or misfortune on targets.
               Net: Generates magical nets to entangle or immobilize.
-              Trap: Magically confines or immobilizes within an area.
+              Trap: Causes damage to attacer when mentally attacked while Spell is active.
               Wave: Releases a wave of mystical energy for offensive or disruptive purposes.
           Valtorr:
             Rank: Amazing
