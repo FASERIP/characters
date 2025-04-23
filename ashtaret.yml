@@ -1252,7 +1252,7 @@ Hero:
           Denak:
             Rank: Amazing
             Number: 50
-            Description: Entreaty invoking Denak's power, often granting mystical strength or force effects.
+            Note: Consult Entreaty Spell rules and specific Entity entries in Realms of Magic.
             Entreaty: true
           Dimensional Aperture:
             Rank: Amazing
@@ -1272,12 +1272,12 @@ Hero:
           Faltine:
             Rank: Amazing
             Number: 50
-            Description: Invokes power from the Faltine dimension, typically associated with fire or energy blasts.
+            Note: Consult Entreaty Spell rules and specific Entity entries in Realms of Magic.
             Entreaty: true
           Ikonn:
             Rank: Amazing
             Number: 50
-            Description: Calls upon Ikonn's powers, enhancing psychic abilities or mental attacks.
+            Note: Consult Entreaty Spell rules and specific Entity entries in Realms of Magic.
             Entreaty: true
           Link:
             Rank: Amazing
@@ -1344,7 +1344,7 @@ Hero:
           Valtorr:
             Rank: Amazing
             Number: 50
-            Description: Entreaty invoking the powers of Valtorr, typically enhancing defense and protective barriers.
+            Note: Consult Entreaty Spell rules and specific Entity entries in Realms of Magic.
             Entreaty: true
           Witchery:
             Rank: Amazing
