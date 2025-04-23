@@ -533,11 +533,10 @@ Hero:
             - Healing: Restores a target’s Health by up to your Power rank per day, sealing wounds and curing disease without regrowing lost tissue.
             - Regeneration: Heals damage and reconstructs lost tissue—limbs with green FEATs, organs with yellow, and neural tissue with red.
             - Revival: Revives a corpse up to Power‑rank days old by healing damage, repairing cause of death, and reuniting the spirit.
-            - Damage Transferral: Heals a target by shifting their damage into your body, which you then self‑heal at your Power rank.
             - Decay: Rapidly accelerates cellular collapse, inflicting Power‑rank damage each turn until the victim crumbles to dust.
             - Disruption: Disrupts normal physiology, causing up to Power‑rank Health losses from nausea and chills to fatal trauma.
             - Aging: Alters a target’s age at your Power‑rank rate—green FEATs speed it up, yellow stop it, red reverse it.
-          Description: By touch (or at –1CS per 10 ft and per extra target), permanently alter a target’s physiology in one of seven forms, so long as the Power is maintained.
+          Description: By touch (or at –1CS per 10 ft and per extra target), permanently alter a target’s physiology, so long as the Power is maintained.
         Exorcism:
           Deity:
             Rank: Monstrous
