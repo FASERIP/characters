@@ -986,10 +986,11 @@ Hero:
             Note: Decorations and objets d'art, particularly in higher-end residences.
         - Mystic Texts:
             Price: Incredible
+            Note: Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
             Description: Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
       Magical Items:
         - Grimoire:
-            Note: Primary and backup Grimoires.
+            Note: Primary and backup Grimoires. Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
             Description: The book in which a mage records spells or incantations. Some spells, like many Entreaty spells, cannot be memorized, only read aloud from a text. A character can only have two grimoires at any one time, the primary and a back-up copy. Creating takes 10+1d10 full days of work.
         - Ebon Staff of Ereshkigal:
             Category: Miscellaneous-Staff
