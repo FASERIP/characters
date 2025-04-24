@@ -180,7 +180,6 @@ Hero:
           Deity: *Unearthly
           Ethereal: *Amazing 
           Normal Human: *Excellent 
-        Note: Monstrous (75) Additive Hyper-Intelligence added to base Intuition in most Aspects, reduced to Remarkable (30) additive in Normal Human Aspect.
       Psyche:
         Rank:
           Demon: *Monstrous 
@@ -549,17 +548,6 @@ Hero:
             Ethereal: *Monstrous
             Normal Human: *Remarkable
           Description: Senses and influences emotions of others, understanding their feelings and potentially altering them.
-        Hyper Intelligence:
-          Rank:
-            Demon: *Monstrous
-            Deity: *Monstrous
-            Ethereal: *Monstrous
-            Normal Human: *Remarkable
-          Type: Additive
-          Abilities:
-            - Intuition
-          Note: Adds Power Rank to base Ability Rank.
-          Description: Significantly boosts intellectual capabilities and intuition, enhancing mental acuity and problem-solving.
         Iron Will:
           Rank:
             Normal Human: *Remarkable
