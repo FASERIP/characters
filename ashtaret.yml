@@ -1135,8 +1135,8 @@ Hero:
             Room Packages:
               - Dining Room Package:
                 Cost:
-                  Value: Remarkable
-                  Base: Good
+                  Value: Amazing
+                  Base: Remarkable
                   Note: +2CS to Cost for very high-quality package.
                 Note: Multiple.
                 Description: Good. Occupies one room. Consists of table, four chairs, ceiling lamp. Excellent Cost add large table, bureau and four more chairs. Remarkable Cost add china cabinet, set of good china and sterling tableware.
@@ -1145,9 +1145,7 @@ Hero:
                   Value: Remarkable
                   Base: Good
                   Note: +2CS to Cost for very high-quality package.
-                Note:
-                  - Extra large.
-                  - Stoves, ovens, hearths, powered by hellfire.
+                Note:  Stoves, ovens, hearths, powered by hellfire.
                 Description: Good. Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing.
               - Library Package:
                   Cost:
@@ -1181,7 +1179,9 @@ Hero:
                     Note: +2CS to Cost for very high-quality package.
                   Note: Multiple.
                   Description: Excellent. Occupies one room. Contains standard restraining devices, including bars of Remarkable material strength. At Remarkable Cost, restraining devices made of Incredible Strength. At Incredible Cost, restraining devices at Amazing Strength and Excellent Strength inhibitor restraints.
-            Note: About 20+ areas over about 3+ levels.
+            Note:
+              - About 20+ areas over about 3+ levels.
+              - No modern technology.  Amenities such as cooking, hot water, lighting provided by hellfire.
             Description: A small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams. Not strictly a structure or building, though there are areas that appear to be "inside," "outside," and "underground." As Ashtaret satisfies her needs with Powers and Spells, the lair has few amenities although everything there is of opulent quality. It primarily comprises places for Ashtaret to keep her Grimoires and other Mystic Texts, along with any treasures, prisoners, or other possessions, as well as a place for her to sit and hold court. The temperature, atmosphere, and other conditions are survivable, even livable, if not pleasant or comfortable, for humans, animals, and humanlike beings. Though indeed opulent in construction and ornamentation, it is also somewhat spare and spartan, and she finds it boring to spend too much time there.
         - Example Manhattan Apartment:
             Type:
