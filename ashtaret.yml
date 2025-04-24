@@ -984,28 +984,28 @@ Hero:
               - There are probably several cats coming and going as they please.
               - Very high-quality room packages may be +1CS or +2CS to Cost, especially in higher-end residences.
         Salaries Sundries and Other Equipment:
-          Fire Extinguisher:
+          - Name: Fire Extinguisher
             Price: *Typical
             Note: Included in Kitchen Package with Cost Excellent or better, kept at appropriate Headquarters residences.
             Description: |
               Fire Extinguishers inflict no damage normally, but against fire are of Good Intensity (eliminate fire of Typical Intensity or less in the same area on a green FEAT, of Good Intensity on a yellow, and up to Excellent on a red). Against characters with flaming powers causes a FEAT roll against that Intensity to retain flame.
-          Respectable Clothing:
+          - Name: Respectable Clothing
             Price: *Typical
             Note: Daily wardrobes of Normal Human cover identities. More basic, casual, off-the-shelf, or mundane than what is created with Artifact Creation, Molecular Creation, and Molding (high fashion, valuable accessories, etc.).  Vintage clothing highly represented.
-          Original Art: 
+          - Name: Original Art
             Price: *Good
             Note: Decorations and objets d'art, particularly in higher-end residences.
-          Mystic Texts:
+          - Name: Mystic Texts
             Price: *Incredible
             Note: Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
             Description: |
               Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
         Magical Items:
-          Grimoire:
-              Note: Primary and backup Grimoires. Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
-              Description: |
-                The book in which a mage records spells or incantations. Some spells, like many Entreaty spells, cannot be memorized, only read aloud from a text. A character can only have two grimoires at any one time, the primary and a back-up copy. Creating takes 10+1d10 full days of work.
-          Ebon Staff of Ereshkigal:
+          - Name: Grimoire
+            Note: Primary and backup Grimoires. Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
+            Description: |
+              The book in which a mage records spells or incantations. Some spells, like many Entreaty spells, cannot be memorized, only read aloud from a text. A character can only have two grimoires at any one time, the primary and a back-up copy. Creating takes 10+1d10 full days of work.
+          - Name: Ebon Staff of Ereshkigal
             Category: Miscellaneous-Staff
             Item Condition: There are no conditions to the item (it operates as described).
             Melee and Thrown Weapons:
@@ -1055,23 +1055,23 @@ Hero:
                   Type: 
                     - Name: Darkforce
                       Note: May black out an area so completely that even infravision does not work. Cannot be used as a weapon outside of caster's area, anyone within that area except the caster loses Health points equal to the spell Rank Number each round.
-          Ruby of Domination:
-              Note: A relatively recent acquisition, Ashtaret's shard of the Ruby of Domination is set into a gold ring that she often wears in any Aspect.
-              Description: |
-                This large red, floating ruby (3 feet in diameter) was once used by Xandu in an attempt to make Earth's population mind-slaves. When Doctor Strange shattered it, little rubies were left on Earth from its shards. A character attempting the powers of Emotion Control, Mental Control, Mesmerism, or Mesmermechanism has a +1CS for success when focusing the power through one of these smaller Rubies of Domination.
-          Serum of the Seraphim:
-              Note: Unless she's recently used it, Ashtaret tends to have at least one of these stashed somewhere, either on her person, or at most a Conjure Spell away.
-              Description: |
-                This is the most powerful medicine known to the occult and can cure anything but death once it occurs. The serum is so potent that only a few ounces are needed, it is usually kept in tiny ornate containers holding just a few ounces.
-                Any character drinking this serum is instantly returned to his full Health points and has all of his wounds healed. Any magical fungus, physical curses (like blindness), or diseases are held in check, then slowly cured over a few days time.
-          Black Mirror:
-              Note:
-                - An instance of the Black Mirror exists in Ashtaret's demiplanar pocket, as it does in other dimensions.
-                - The incantation to access Ashtaret's domain through a Black Mirror instance is "NU-šu du₁₁-ga! šeg₉! NU-me-en šu-niĝin-na! Uĝu hul gub-bu-a! In-du₁₁-a! E-li a-ma-ru NU-tag-ga, šu-gin-na šeš-e-ne!" (Sumerian, roughly translated as, "Do not enter! Go away! You are not welcome here! Great danger/evil awaits you here! It has been said/you have been warned! Abandon all hope, you who enter here!") Ashtaret has never shared the Black Mirror incantation to her dimension with anyone but it is possible the knowledge is discoverable.
-                - Ashtaret knows the incantations for many other dimensions, or knows how to find them.
-                - There is a custom, dedicated room built around the instance of the Black Mirror in Ashtaret's domain to house it that has the combined features of the Trophy Room Package and Imprisonment Package.
-              Description: |
-                This full length ebony oval of glass is surrounded by an ornate frame. While it has been called a mirror, it does not reflect. Instead, it is a legendary gateway to countless dimensions, to an infinite number of alternate Earths. A specific incantation is needed for each dimension. After speaking the incantation, the character speaking can simply pass through the mirror into the desired world. The mirror also exists on each dimension it opens into, so passage back and forth is easy, but only for those who know the right incantation.
+          - Name: Ruby of Domination
+            Note: A relatively recent acquisition, Ashtaret's shard of the Ruby of Domination is set into a gold ring that she often wears in any Aspect.
+            Description: |
+              This large red, floating ruby (3 feet in diameter) was once used by Xandu in an attempt to make Earth's population mind-slaves. When Doctor Strange shattered it, little rubies were left on Earth from its shards. A character attempting the powers of Emotion Control, Mental Control, Mesmerism, or Mesmermechanism has a +1CS for success when focusing the power through one of these smaller Rubies of Domination.
+          - Name: Serum of the Seraphim
+            Note: Unless she's recently used it, Ashtaret tends to have at least one of these stashed somewhere, either on her person, or at most a Conjure Spell away.
+            Description: |
+              This is the most powerful medicine known to the occult and can cure anything but death once it occurs. The serum is so potent that only a few ounces are needed, it is usually kept in tiny ornate containers holding just a few ounces.
+              Any character drinking this serum is instantly returned to his full Health points and has all of his wounds healed. Any magical fungus, physical curses (like blindness), or diseases are held in check, then slowly cured over a few days time.
+          - Name: Black Mirror
+            Note:
+              - An instance of the Black Mirror exists in Ashtaret's demiplanar pocket, as it does in other dimensions.
+              - The incantation to access Ashtaret's domain through a Black Mirror instance is "NU-šu du₁₁-ga! šeg₉! NU-me-en šu-niĝin-na! Uĝu hul gub-bu-a! In-du₁₁-a! E-li a-ma-ru NU-tag-ga, šu-gin-na šeš-e-ne!" (Sumerian, roughly translated as, "Do not enter! Go away! You are not welcome here! Great danger/evil awaits you here! It has been said/you have been warned! Abandon all hope, you who enter here!") Ashtaret has never shared the Black Mirror incantation to her dimension with anyone but it is possible the knowledge is discoverable.
+              - Ashtaret knows the incantations for many other dimensions, or knows how to find them.
+              - There is a custom, dedicated room built around the instance of the Black Mirror in Ashtaret's domain to house it that has the combined features of the Trophy Room Package and Imprisonment Package.
+            Description: |
+              This full length ebony oval of glass is surrounded by an ornate frame. While it has been called a mirror, it does not reflect. Instead, it is a legendary gateway to countless dimensions, to an infinite number of alternate Earths. A specific incantation is needed for each dimension. After speaking the incantation, the character speaking can simply pass through the mirror into the desired world. The mirror also exists on each dimension it opens into, so passage back and forth is easy, but only for those who know the right incantation.
         Note: Most equipment is ad hoc via Artifact Creation, Molecular Creation, and Molding.
       Contacts:
         Professional:
