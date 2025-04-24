@@ -68,11 +68,13 @@ Hero:
     Normal Human: true
     Note: Normal Human Aspects may have appropriate cover identities.
   Base of Operations:
-    - Ashtaret's Demiplanar Pocket Domain:
-      - Hell Dimension
-      - Dimension of Dreams
-    - Manhattan:
-      - Various, rotating apartments depending on cover identity.
+    Extraplanar:
+      Ashtaret's Demiplanar Pocket Domain:
+        - Hell Dimension
+        - Dimension of Dreams
+    Earth:
+      Manhattan:
+        - Various, rotating apartments depending on cover identity.
   Group Affiliation: None
   Age: Timeless
   Origin:
@@ -84,13 +86,13 @@ Hero:
         - Not all Powers are available in every aspect. An aspect will have a Rank in a Power if it is available.
         - Magic use is not a Power, and still available to Normal Human Aspect and during Aspect Change.
       Aspects:
-        - Demon: |
+        Demon: |
             Supernatural, corporeal being from another dimension, inherently malevolent by nature. Demons possess increased physical abilities, fire generation, invulnerability to heat and fire, and reduced popularity.
-        - Deity: |
+        Deity: |
             A former powerful entity worshiped as a god, now diminished and bound to a mortal form on Earth. Deities have significantly enhanced abilities, additional powers, automatic access to at least one travel power, and increased popularity with the general public, though limited influence among modern religious groups. Eventually attract any remaining living worshippers they still have as Contacts.
-        - Ethereal: |
+        Ethereal: |
             An intangible, disembodied spirit in the Earth Dimension, solid in other Dimensions. Can drift about in any direction, can pass through solid matter. May be invisible, transparent, translucent, or opaque. Immune to most physical attacks with Intensities less than Unearthly (-9CS).
-        - Normal Human: |
+        Normal Human: |
             The body is completely normal and possesses no detectable abnormalities. Any Powers the hero possesses have left no visible mark on the body.
     Origin of Power:
       Type: Created
@@ -122,9 +124,9 @@ Hero:
       Conditions: Forced change back to Demon Aspect after 1d100 turns in Deity Aspect, doubled if a Psyche FEAT has Red result rolled after determining duration, unless in continuous contact with Energy Source while in that Aspect (contact pauses countdown).  Cannot resume Deity form until 1d100 turns exposure to Energy Source to recharge, Red Psyche FEAT to halve time (recharge does not begin until duration of change concludes).
     Normal Human:
       Stimulus:
-        - Elemental Allergy: Suffers adverse effects if exposed to dangerous chemical elements.
-        - Molecular Allergy: Dangerous chemical compounds cause the Effect.
-        - Energy Allergy: Exposure to dangerous or powerful forms of energy.
+        Elemental Allergy: Suffers adverse effects if exposed to dangerous chemical elements.
+        Molecular Allergy: Dangerous chemical compounds cause the Effect.
+        Energy Allergy: Exposure to dangerous or powerful forms of energy.
       Effect: Fatal
       Duration: Continuous with Contact
       Conditions: Exposure to dangerous energies or toxic substances causes loss of Health and Endurance.  May heal as normal after exposure ceases.
@@ -142,11 +144,11 @@ Hero:
         Duration: Special
         Conditions: Attempting to change Aspects.
         Note:
-          - Assuming Deity Aspect: Requires a Red result on a Psyche FEAT from Normal Human Aspect at start of turn, Yellow from Demon and Ethereal Aspects. Requires a Red result on Psyche FEAT from Demon Aspect if subject to Hallowed Ground Weakness.
-          - Assuming Demon or Ethereal Aspect: Impossible if Aspect would be subject to Hallowed Ground Weakness.
-          - Assuming Normal Human Aspect: Requires a Yellow result on a Psyche FEAT from Demon Aspect if subject to Hallowed Ground Weakness.
-          - Failed FEAT: Requires 1d10 turns until retrying is possible.
-          - Ending Deity Aspect Prematurely: Any remaining duration is lost. Recharge required to assume Deity Aspect afterwards, irrespective of remaining duration.
+          - Assuming Deity Aspect requires a Red result on a Psyche FEAT from Normal Human Aspect at start of turn, Yellow from Demon and Ethereal Aspects. Requires a Red result on Psyche FEAT from Demon Aspect if subject to Hallowed Ground Weakness.
+          - Assuming Demon or Ethereal Aspect is impossible if Aspect would be subject to Hallowed Ground Weakness.
+          - Assuming Normal Human Aspect requires a Yellow result on a Psyche FEAT from Demon Aspect if subject to Hallowed Ground Weakness.
+          - Failed FEAT to assume an Aspect requires 1d10 turns until retrying is possible.
+          - Any remaining duration is lost if Deity Aspect transformation ends prematurely. Recharge required to assume Deity Aspect afterwards, irrespective of remaining duration, unless in contact with an Energy Source.
   Abilities:
     Primary Abilities:
       Fighting:
@@ -216,8 +218,8 @@ Hero:
       Popularity:
         Demon: *Poor
         Deity:
-          - Public: *Remarkable
-          - Established Religions: *Shift-0
+          Public: *Remarkable
+          Established Religions: *Shift-0
         Ethereal: null
         Normal Human: *Typical
         Note:
@@ -464,12 +466,12 @@ Hero:
             Rank:
               Deity: *Monstrous
             Forms:
-              - Healing: Restores a target’s Health by up to your Power rank per day, sealing wounds and curing disease without regrowing lost tissue.
-              - Regeneration: Heals damage and reconstructs lost tissue—limbs with green FEATs, organs with yellow, and neural tissue with red.
-              - Revival: Revives a corpse up to Power‑rank days old by healing damage, repairing cause of death, and reuniting the spirit.
-              - Decay: Rapidly accelerates cellular collapse, inflicting Power‑rank damage each turn until the victim crumbles to dust.
-              - Disruption: Disrupts normal physiology, causing up to Power‑rank Health losses from nausea and chills to fatal trauma.
-              - Aging: Alters a target’s age at your Power‑rank rate—green FEATs speed it up, yellow stop it, red reverse it.
+              Healing: Restores a target’s Health by up to your Power rank per day, sealing wounds and curing disease without regrowing lost tissue.
+              Regeneration: Heals damage and reconstructs lost tissue—limbs with green FEATs, organs with yellow, and neural tissue with red.
+              Revival: Revives a corpse up to Power‑rank days old by healing damage, repairing cause of death, and reuniting the spirit.
+              Decay: Rapidly accelerates cellular collapse, inflicting Power‑rank damage each turn until the victim crumbles to dust.
+              Disruption: Disrupts normal physiology, causing up to Power‑rank Health losses from nausea and chills to fatal trauma.
+              Aging: Alters a target’s age at your Power‑rank rate—green FEATs speed it up, yellow stop it, red reverse it.
             Description: |
               By touch (or at –1CS per 10 ft and per extra target), permanently alter a target’s physiology, so long as the Power is maintained.
           Exorcism:
@@ -505,10 +507,10 @@ Hero:
             Rank:
               Ethereal: *Excellent
             Forms:
-              - Disruption: Block all sensory and motor signals, causing the target to collapse limp and unresponsive.
-              - Paralysis: Freeze the target’s voluntary muscles in total rigidity, impervious to any chemical countermeasures.
-              - Seizure: Trigger uncontrollable, painful muscle spasms for the Power’s duration.
-              - Exaggeration: Amplify nerve impulses so every attempt at movement becomes wildly overdone and erratic.
+              Disruption: Block all sensory and motor signals, causing the target to collapse limp and unresponsive.
+              Paralysis: Freeze the target’s voluntary muscles in total rigidity, impervious to any chemical countermeasures.
+              Seizure: Trigger uncontrollable, painful muscle spasms for the Power’s duration.
+              Exaggeration: Amplify nerve impulses so every attempt at movement becomes wildly overdone and erratic.
             Description: |
               Within a rank‑determined range, alter a target’s voluntary muscle nerve signals to produce one of the listed effects while leaving senses and autonomic functions intact and reducing duration by –1CS per extra target.
           Plant Control:
@@ -717,7 +719,7 @@ Hero:
               - Hell Dimension
               - Dimension of Dreams
               - Ashtaret's Demiplanar Pocket Domain
-              - Site of active worship: Cannot benefit from actively self-promoted worship.
+              - Site of active worship (Cannot benefit from actively self-promoted worship.)
             Note: Recharges Deity Aspect.
             Description: |
               Supplies energy to sustain other Powers or devices continuously without external input.
@@ -805,39 +807,39 @@ Hero:
               Grants the natural ability to fly freely, allowing complete aerial maneuverability and sustained flight without external assistance.
       Talents:
         Fighting Skills:
-          - Acrobatics: Grants a +1CS bonus when dodging, evading, or escaping attacks due to enhanced agility.
-          - Tumbling: Enables safe landing from falls; an Agility FEAT allows landing without injury if the fall wouldn't otherwise inflict damage.
+          Acrobatics: Grants a +1CS bonus when dodging, evading, or escaping attacks due to enhanced agility.
+          Tumbling: Enables safe landing from falls; an Agility FEAT allows landing without injury if the fall wouldn't otherwise inflict damage.
         Professional Skills:
-          - Criminology: Provides insights into criminal behavior, granting +1CS on Reason and Intuition FEATs related to crime‑solving and criminal tactics; includes a Contact in police or criminal circles.
-          - Psychiatry: Expertise in mental processes granting +1CS on FEATs involving mental powers, mental manipulation, and psychological understanding.
-          - Detective/Espionage: Trained in clue detection and espionage methods, giving +1CS to uncover clues; includes a Contact in crime, law enforcement, or espionage.
+          Criminology: Provides insights into criminal behavior, granting +1CS on Reason and Intuition FEATs related to crime‑solving and criminal tactics; includes a Contact in police or criminal circles.
+          Psychiatry: Expertise in mental processes granting +1CS on FEATs involving mental powers, mental manipulation, and psychological understanding.
+          Detective/Espionage: Trained in clue detection and espionage methods, giving +1CS to uncover clues; includes a Contact in crime, law enforcement, or espionage.
         Scientific Skills:
-          - Geology: Specialized knowledge of Earth’s materials and geological processes, providing a +1CS on related Reason FEATs.
-          - Archaeology: Skilled in ancient history and artifacts, providing +1CS on FEATs involving historical records, ancient myths, legends, and paleontology.
+          Geology: Specialized knowledge of Earth’s materials and geological processes, providing a +1CS on related Reason FEATs.
+          Archaeology: Skilled in ancient history and artifacts, providing +1CS on FEATs involving historical records, ancient myths, legends, and paleontology.
         Mystic and Mental Skills:
-          - Mesmerism and Hypnosis: A primitive form of Mind Control at Reason Rank level, allowing extraction of information and placement of posthypnotic suggestions.
-          - Sleight of Hand: Skilled in manual deception, able to discreetly manipulate small objects with +1CS Agility.
-          - Resist Domination: Resist mental attacks as if the character had a mental power of Psyche +1CS.
-          - Occult Lore: Knowledgeable about magical items and mystical traditions, gaining +1CS on Reason FEATs involving magical artifacts.
-          - Mystic Background: Indicates experience or training in magical forces, potentially qualifying for magical powers or spellcasting with Judge approval.
+          Mesmerism and Hypnosis: A primitive form of Mind Control at Reason Rank level, allowing extraction of information and placement of posthypnotic suggestions.
+          Sleight of Hand: Skilled in manual deception, able to discreetly manipulate small objects with +1CS Agility.
+          Resist Domination: Resist mental attacks as if the character had a mental power of Psyche +1CS.
+          Occult Lore: Knowledgeable about magical items and mystical traditions, gaining +1CS on Reason FEATs involving magical artifacts.
+          Mystic Background: Indicates experience or training in magical forces, potentially qualifying for magical powers or spellcasting with Judge approval.
         Other Talents:
-          - Languages: Naturally adept at languages, initially knowing one extra language and able to learn new languages at half the normal Karma cost.
-          - Performer: Skilled in performing arts, granting Karma rewards for engaging in performances.
-          - Trivia:
+          Languages: Naturally adept at languages, initially knowing one extra language and able to learn new languages at half the normal Karma cost.
+          Performer: Skilled in performing arts, granting Karma rewards for engaging in performances.
+          Trivia:
               History: Specialized knowledge providing +1CS on Reason FEATs related to historical information.
               Religion: Specialized knowledge providing +1CS on Reason FEATs related to religious doctrines and beliefs.
               Art: Specialized knowledge providing +1CS on FEATs involving art and artistic techniques.
               Fashion: Specialized knowledge providing +1CS on Reason FEATs related to fashion trends and style identification.
         Magic Wielder Talents:
-          - Bibliophile: Extensive knowledge of magical texts and scrolls, providing +2CS when using or researching these materials.
-          - Chronicler of Magic: Expert on magical societies and individuals, granting +2CS when researching magical practitioners or cults.
-          - Demonologist: Specialized understanding of demons, giving +1CS advantage in research, identification, or interactions involving demons.
-          - Occultist: Expertise in supernatural and unexplained phenomena, granting +2CS in researching or interacting with occult events.
-          - Runesmith: Skilled translator and writer of ancient magical runes, gaining +2CS when deciphering or inscribing these runes.
-          - Scholar of Antiquities: Deeply versed in magical artifacts and antiques, receiving +2CS when dealing with or researching such items.
-          - Stamina: Ability to sustain long periods without rest or nourishment while engaged in magical study or casting, lasting up to six days.
-          - Theoginist: Scholar of powerful extradimensional beings and gods, gaining +2CS when researching such entities.
-          - Zoologist of Magic: Expert in magical creatures and mythical beasts across dimensions, providing +1CS when identifying or studying these creatures.
+          Bibliophile: Extensive knowledge of magical texts and scrolls, providing +2CS when using or researching these materials.
+          Chronicler of Magic: Expert on magical societies and individuals, granting +2CS when researching magical practitioners or cults.
+          Demonologist: Specialized understanding of demons, giving +1CS advantage in research, identification, or interactions involving demons.
+          Occultist: Expertise in supernatural and unexplained phenomena, granting +2CS in researching or interacting with occult events.
+          Runesmith: Skilled translator and writer of ancient magical runes, gaining +2CS when deciphering or inscribing these runes.
+          Scholar of Antiquities: Deeply versed in magical artifacts and antiques, receiving +2CS when dealing with or researching such items.
+          Stamina: Ability to sustain long periods without rest or nourishment while engaged in magical study or casting, lasting up to six days.
+          Theoginist: Scholar of powerful extradimensional beings and gods, gaining +2CS when researching such entities.
+          Zoologist of Magic: Expert in magical creatures and mythical beasts across dimensions, providing +1CS when identifying or studying these creatures.
       Equipment:
         Weapons:
           Shooting Weapons: null
@@ -845,13 +847,13 @@ Hero:
           Other Weapons: null
         Vehicles: null
         Headquarters:
-          - Extradimensional Lair:
+          Extradimensional Lair:
               Type: Special
               Cost: *Beyond
               Size: Deluxe
               Material Strength: *Unearthly
               Room Packages:
-                - Dining Room Package:
+                Dining Room Package:
                   Cost:
                     Value: *Amazing
                     Base: *Remarkable
@@ -859,7 +861,7 @@ Hero:
                   Note: Multiple.
                   Description: |
                     Good. Occupies one room. Consists of table, four chairs, ceiling lamp. Excellent Cost add large table, bureau and four more chairs. Remarkable Cost add china cabinet, set of good china and sterling tableware.
-                - Kitchen Package:
+                Kitchen Package:
                   Cost:
                     Value: *Remarkable
                     Base: *Good
@@ -867,14 +869,14 @@ Hero:
                   Note:  Stoves, ovens, hearths, hot water, etc. powered by hellfire. Water provided by "natural" springs.
                   Description: |
                     Good. Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing.
-                - Library Package:
+                Library Package:
                     Cost:
                       Value: *Incredible
                       Base: *Excellent
                       Note: +2CS to Cost for very high-quality package.
                     Description: |
                       Excellent. Occupies one room. Consists of two easy chairs, table, desk, straight chair, and up to five bookcases on general subjects (texts readily available, and including encyclopedias, world histories, and atlases). Special or rare volumes, such as the Book of the Vishanti, the Necronomicon, or Amazing Fantasy \#15, would have to be obtained separately.
-                - Conference Room Package:
+                Conference Room Package:
                     Cost:
                       Value: *Amazing
                       Base: *Remarkable
@@ -884,12 +886,12 @@ Hero:
                       - At least one in each format, a third, extra large, set up as a throne room; yet another extra large one is set up as an arena or small coliseum.
                     Description: |
                       Remarkable. Occupies one room. Contains material for assembling of heroes, or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs.
-                - Porches, storage, bathrooms, and closets:
+                Porches, storage, bathrooms, and closets:
                     Cost: *Unranked
                     Note: Running water and other expected amenities are magical or natural, rather than technological.
                     Description: |
                       These are assumed in the cost of the building, according to its design. These rooms cost nothing, and no package exists other than what the heroes decide to stuff into the closets.
-                - Trophy Room Package:
+                Trophy Room Package:
                     Cost:
                       Value: *Amazing
                       Base: *Remarkable
@@ -897,7 +899,7 @@ Hero:
                     Note: Multiple.
                     Description: |
                       Excellent. Occupies one room. Contains showcase, lighting, frames to display mementos, and may be used as a reception half or gallery. At Remarkable Cost, contains capability to handle potentially dangerous exhibits at the Incredible level.
-                - Imprisonment Package:
+                Imprisonment Package:
                     Cost:
                       Value: *Monstrous
                       Base: *Incredible
@@ -908,7 +910,7 @@ Hero:
               Note: About 20+ areas over about 3+ levels.
               Description: |
                 A small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams. Not strictly a structure or building, though there are areas that appear to be "inside," "outside," and "underground." As Ashtaret satisfies her needs with Powers and Spells, the lair has few amenities although everything there is of opulent quality. It primarily comprises places for Ashtaret to keep her Grimoires and other Mystic Texts, along with any treasures, prisoners, or other possessions, as well as a place for her to sit and hold court. The temperature, atmosphere, and other conditions are survivable, even livable, if not pleasant or comfortable, for humans, animals, and humanlike beings. There is no modern technology, with amenities such as cooking, hot water, and lighting provided by hellfire, running water from "natural" springs, and plumbing, drainage, and waste disposal by the void itself. Though indeed opulent in construction and ornamentation, it is also somewhat spare and spartan, empty and uninhabited save her herself and any conjured Servants; she finds it stifling, as well as boring to spend too much time there.
-          - Example Manhattan Apartment:
+          Example Manhattan Apartment:
               Type:
                 - 1BR Apartment
                 - 2BR Apartment
@@ -930,68 +932,68 @@ Hero:
               Size: Small
               Material Strength: *Good
               Room Packages:
-                - Living Room Package:
+                Living Room Package:
                     Cost:
                       Low: *Good
                       Mid: *Excellent
                       High: *Remarkable
                     Description: |
                       Occupies one room. Consists of sofa, two easy chairs, two end tables, coffee tables, two lamps (ceiling table or floor). At Excellent Cost add television, stereo set-up, or piano. At Remarkable Cost add all three.
-                - Dining Room Package:
+                Dining Room Package:
                     Cost:
                       Low: *Good
                       Mid: *Excellent
                       High: *Remarkable
                     Description: |
                       Occupies one room. Consists of table, four chairs, ceiling lamp. At Excellent Cost add large table, bureau and four more chairs. At Remarkable Cost add china cabinet, set of good china and sterling tableware.
-                - Kitchen Package:
+                Kitchen Package:
                     Cost:
                       Low: *Good
                       Mid: *Excellent
                       High: *Remarkable
                     Description: |
                       Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing. At Excellent Cost add refrigerator, dishwasher, or microwave, plus a fire extinguisher. At Remarkable Cost add all three and freezer.
-                - Storage, bathrooms, and closets:
+                Storage, bathrooms, and closets:
                     Cost: *Unranked
                     Description: |
                       These are assumed in the cost of the building, according to its design. 
-                - Security Package:
+                Security Package:
                     Cost:
                       Low: *Good
                       High: *Excellent
                     Description: |
                       One Security package to a door or window. Occupies no space. Consists of hand-set burglar alarms on windows and doors, coupled with mechanical locks.  At Excellent Cost, automatic burglar alarms with computer-code or card identification system.
-                - Fire Protection Package:
+                Fire Protection Package:
                     Cost: *Excellent
                     Description: |
                       Occupies no space. Sprinkler system that may cover up to 10 rooms, provides Good protection from fire.
-            Note:
-              - Example typical residences for Normal Human Aspect cover identity. Rented furnished. Neighborhood, type, and packages may vary by cover identity.
-              - There are probably several cats coming and going as they please.
-              - Very high-quality room packages may be +1CS or +2CS to Cost, especially in higher-end residences.
+              Note:
+                - Example typical residences for Normal Human Aspect cover identity. Rented furnished. Neighborhood, type, and packages may vary by cover identity.
+                - There are probably several cats coming and going as they please.
+                - Very high-quality room packages may be +1CS or +2CS to Cost, especially in higher-end residences.
         Salaries Sundries and Other Equipment:
-          - Fire Extinguisher:
+          Fire Extinguisher:
               Price: *Typical
               Note: Included in Kitchen Package with Cost Excellent or better, kept at appropriate Headquarters residences.
               Description: |
                 Fire Extinguishers inflict no damage normally, but against fire are of Good Intensity (eliminate fire of Typical Intensity or less in the same area on a green FEAT, of Good Intensity on a yellow, and up to Excellent on a red). Against characters with flaming powers causes a FEAT roll against that Intensity to retain flame.
-          - Respectable Clothing:
+          Respectable Clothing:
               Price: *Typical
               Note: Daily wardrobes of Normal Human cover identities. More basic, casual, off-the-shelf, or mundane than what is created with Artifact Creation, Molecular Creation, and Molding (high fashion, valuable accessories, etc.).  Vintage clothing highly represented.
-          - Original Art: 
+          Original Art: 
               Price: *Good
               Note: Decorations and objets d'art, particularly in higher-end residences.
-          - Mystic Texts:
+          Mystic Texts:
               Price: *Incredible
               Note: Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
               Description: |
                 Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
         Magical Items:
-          - Grimoire:
+          Grimoire:
               Note: Primary and backup Grimoires. Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
               Description: |
                 The book in which a mage records spells or incantations. Some spells, like many Entreaty spells, cannot be memorized, only read aloud from a text. A character can only have two grimoires at any one time, the primary and a back-up copy. Creating takes 10+1d10 full days of work.
-          - Ebon Staff of Ereshkigal:
+          Ebon Staff of Ereshkigal:
               Category: Miscellaneous-Staff
               Item Condition: There are no conditions to the item (it operates as described).
               Melee and Thrown Weapons:
@@ -1014,18 +1016,21 @@ Hero:
                   Transformation:
                     Note: Darkforce Requires access to Dimensional Energies.
                     Type:
-                      - Darkforce: Drain Health points equal to the spell rank by touching or enveloping target.
+                      - Name: Darkforce
+                        Note: Drain Health points equal to the spell rank by touching or enveloping target.
                     Description: |
                       Turn body into another substance, retaining shape.
                 Universal Energies:
                   Eldritch Beams/Bolts:
                       Type:
-                        - Darkforce Bolt: The target loses Health points equal to the caster’s spell rank. The bolt is black.
-                        - Disintegrating Bolt:
-                          - Disintegrates non-living, inanimate objects up to 2 areas away.
-                          - Material rank higher than the spell rank, reduce target’s material strength -1CS.
-                          - Equal to or less than the spell rank, the target is disintegrated. Small objects destroyed automatically. Human-sized objects require Yellow result on spell rank FEAT. Destroying larger objects requires a successful Red result.
-                          - If the target is an object of no importance, the Judge can waive the FEAT roll and rule that the item is automatically destroyed.
+                        - Name: Darkforce Bolt
+                          Note: The target loses Health points equal to the caster’s spell rank. The bolt is black.
+                        - Name: Disintegrating Bolt
+                          Note:
+                            - Disintegrates non-living, inanimate objects up to 2 areas away.
+                            - Material rank higher than the spell rank, reduce target’s material strength -1CS.
+                            - Equal to or less than the spell rank, the target is disintegrated. Small objects destroyed automatically. Human-sized objects require Yellow result on spell rank FEAT. Destroying larger objects requires a successful Red result.
+                            - If the target is an object of no importance, the Judge can waive the FEAT roll and rule that the item is automatically destroyed.
                       Note:
                         - Darkforce Requires access to Dimensional Energies.
                         - Beams/bolts originate from the crystal on the end of the staff.
@@ -1036,17 +1041,18 @@ Hero:
                     Description: |
                       Requires a successful spell rank FEAT roll. Can affect all of the specified type of energy within his area of effect, turning it on or off, making it overload, siphoning it, can channel controlled energy around self so as not to be harmed by it. A Red Result on  spell rank FEAT to use this spell offensively. The attack must be made by touch. The damage caused equals the spell rank number. Yellow or Red spell rank FEAT roll to use this spell defensively.
                     Type: 
-                      - Darkforce: May black out an area so completely that even infravision does not work. Cannot be used as a weapon outside of caster's area, anyone within that area except the caster loses Health points equal to the spell Rank Number each round.
-          - Ruby of Domination:
+                      - Name: Darkforce
+                        Note: May black out an area so completely that even infravision does not work. Cannot be used as a weapon outside of caster's area, anyone within that area except the caster loses Health points equal to the spell Rank Number each round.
+          Ruby of Domination:
               Note: A relatively recent acquisition, Ashtaret's shard of the Ruby of Domination is set into a gold ring that she often wears in any Aspect.
               Description: |
                 This large red, floating ruby (3 feet in diameter) was once used by Xandu in an attempt to make Earth's population mind-slaves. When Doctor Strange shattered it, little rubies were left on Earth from its shards. A character attempting the powers of Emotion Control, Mental Control, Mesmerism, or Mesmermechanism has a +1CS for success when focusing the power through one of these smaller Rubies of Domination.
-          - Serum of the Seraphim:
+          Serum of the Seraphim:
               Note: Unless she's recently used it, Ashtaret tends to have at least one of these stashed somewhere, either on her person, or at most a Conjure Spell away.
               Description: |
                 This is the most powerful medicine known to the occult and can cure anything but death once it occurs. The serum is so potent that only a few ounces are needed, it is usually kept in tiny ornate containers holding just a few ounces.
                 Any character drinking this serum is instantly returned to his full Health points and has all of his wounds healed. Any magical fungus, physical curses (like blindness), or diseases are held in check, then slowly cured over a few days time.
-          - Black Mirror:
+          Black Mirror:
               Note:
                 - The Black Mirror exists in Ashtaret's demiplanar pocket as it does in other dimensions.
                 - The incantation to access Ashtaret's domain through a Black Mirror instance is "NU-šu du₁₁-ga! šeg₉! NU-me-en šu-niĝin-na! Uĝu hul gub-bu-a! In-du₁₁-a! E-li a-ma-ru NU-tag-ga, šu-gin-na šeš-e-ne!" (Sumerian, roughly translated as, "Do not enter! Go away! You are not welcome here! Great danger/evil awaits you here! It has been said/you have been warned! Abandon all hope, you who enter here!") Ashtaret has never shared the Black Mirror incantation to her dimension with anyone but it is possible the knowledge is discoverable.
@@ -1057,64 +1063,63 @@ Hero:
       Contacts:
         Professional:
           Crime:
-            - Mariah Dillard: From Criminology Talent.
+            Mariah Dillard: From Criminology Talent.
           Espionage:
-            - Marc Spector: Contact from Detective/Espionage Talent. Ashtaret already had Heliopolis as a Contact from ancient times, which colors their interactions.
+            Marc Spector: Contact from Detective/Espionage Talent. Ashtaret already had Heliopolis as a Contact from ancient times, which colors their interactions.
         Political:
           Planetary:
-            - Annunaki: Possibly a former member of this pantheon, or related.
-            - Elder Gods: Particularly of Earth Dimension.
-            - Hell Dimension: Inhabits this Dimension.
-            - Dimension of Dreams: Inhabits this Dimension.
-            - Faltine
-            - Heliopolis: The whole pantheon, but particularly Khonshu, because of Marc Spector.
-            - Olympus
-            - Asgard: The whole pantheon, but particularly those listed as Contacts by name.
+            Annunaki: Possibly a former member of this pantheon, or related.
+            Elder Gods: Particularly of Earth Dimension.
+            Hell Dimension: Inhabits this Dimension.
+            Dimension of Dreams: Inhabits this Dimension.
+            Faltine:
+            Heliopolis: The whole pantheon, but particularly Khonshu, because of Marc Spector.
+            Olympus:
+            Asgard: The whole pantheon, but particularly those listed as Contacts by name.
         Mystic:
           Mystic Arts:
-            - Doctor Stephen Strange: Sometimes Ally, Often Babysitter, Occasionally Parole Officer.
-            - Wong: As Strange, but more longsuffering.
-            - Clea: As Strange, but less tolerant.
-            - Satana Hellstrom: Complicated by relationship with Marduk Kurios.
-            - Daimon Hellstrom: Complicated even more by relationship with Marduk Kurios.
-            - Jennifer Kale: Ashtaret has difficulty distinguishing Jennifer from Zhered-Na.
-            - Lilia Calderu: Known since the Middle Ages.
-            - Selene: Their frenemy relationship has been going on for a very, very long time.
-            - Illyana Rasputin
-            - Wanda Maximoff
-            - Eric Simon Payne
-            - Frank Blade
+            Doctor Stephen Strange: Sometimes Ally, Often Babysitter, Occasionally Parole Officer.
+            Wong: As Strange, but more longsuffering.
+            Clea: As Strange, but less tolerant.
+            Satana Hellstrom: Complicated by relationship with Marduk Kurios.
+            Daimon Hellstrom: Complicated even more by relationship with Marduk Kurios.
+            Jennifer Kale: Ashtaret has difficulty distinguishing Jennifer from Zhered-Na.
+            Lilia Calderu: Known since the Middle Ages.
+            Selene: Their frenemy relationship has been going on for a very, very long time.
+            Illyana Rasputin:
+            Wanda Maximoff:
+            Eric Simon Payne:
+            Frank Blade:
           Mythology:
-            - Fellow Annunaki?:
-              - Ereshkigal: Possible sister and thus ultimate rival if so.  Has, or had, a discarded demonic aspect, Allatou, that Ashtaret possibly merged with or absorbed.
-              - Inanna: Other universes' versions of Inanna.
-            - Nightmare: Relationship, both conflict and cooperation, revolves around their mutual inhabitation of the Dimension of Dreams.
-            - Co-Inhabitants of Hell Dimension:
-              - Mephisto
-              - Satannish
-              - Marduk Kurios
-            - The Elder Gods of Earth in Particular:
-              - Chthon
-              - Oshtur: As a possible Inanna, Ashtaret is also possibly a discarded Aspect of Oshtur.
-              - Set
-              - Gaea
-            - Khonshu: In particular among Heliopolis pantheon because of Marc Spector.
-            - Three Asgardian Co-Conspirators and Rivals:
-              - Loki Laufeyson
-              - Amora
-              - Lorelei
-            - Remaining living worshippers: Eventually passively attracts followers, but is forbidden from actively promoting a religion based on herself, including active recruitment.
+            Fellow Annunaki?:
+              Ereshkigal: Possible sister and thus ultimate rival if so.  Has, or had, a discarded demonic aspect, Allatou, that Ashtaret possibly merged with or absorbed.
+              Inanna: Other universes' versions of Inanna.
+            Nightmare: Relationship, both conflict and cooperation, revolves around their mutual inhabitation of the Dimension of Dreams.
+            Co-Inhabitants of Hell Dimension:
+              Mephisto:
+              Satannish:
+              Marduk Kurios:
+            The Elder Gods of Earth in Particular:
+              Chthon:
+              Oshtur: As a possible Inanna, Ashtaret is also possibly a discarded Aspect of Oshtur.
+              Set:
+              Gaea:
+            Khonshu: In particular among Heliopolis pantheon because of Marc Spector.
+            Three Asgardian Co-Conspirators and Rivals:
+              Loki Laufeyson:
+              Amora:
+              Lorelei:
+            Remaining living worshippers: Eventually passively attracts followers, but is forbidden from actively promoting a religion based on herself, including active recruitment.
         Hero Group:
-          - Defenders: Non-member
-          - Hellfire Club: Non-member
-          - Cloak & Dagger: Non-member
+          Defenders: Non-member
+          Hellfire Club: Non-member
+          Cloak & Dagger: Non-member
       Magic:
         Character Type: Magic Wielder
         Magic School: Specific Pantheon (Annunaki)
         Energy Use: All Energies
-        Rank:
-          Name: Master
-          Master: null
+        Rank: Master
+        Master: null
         Note:
           - Descriptions are short summaries of full text. Consult Realms of Magic for full text of Spell description.
           - Normal Human Aspect is still capable of Magic use.
