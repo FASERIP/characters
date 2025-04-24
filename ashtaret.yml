@@ -930,15 +930,15 @@ Hero:
             Cost:
               Rent:
                 1BR Apartment:
-                  Rank: *Poor
+                  Value: *Poor
                   Base: *Feeble
                   Note: +1CS to Cost for Manhattan Location
                 2BR Apartment:
-                  Rank: *Typical
+                  Value: *Typical
                   Base: *Poor
                   Note: +1CS to Cost for Manhattan Location
                 3BR Apartment:
-                  Rank: *Excellent
+                  Value: *Excellent
                   Base: *Good
                   Note: +1CS to Cost for Manhattan Location
             Size: Small
