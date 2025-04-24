@@ -78,7 +78,8 @@ Hero:
   Origin:
     Physical Form:
       Type: Changeling
-      Description: Able to transform between multiple distinct Body Types, each with unique advantages, disadvantages, and at least one exclusive power. Takes 10 turns to change Aspect. No Powers can function and all Abilities -2CS during change.
+      Description: |
+        Able to transform between multiple distinct Body Types, each with unique advantages, disadvantages, and at least one exclusive power. Takes 10 turns to change Aspect. No Powers can function and all Abilities -2CS during change.
       Note:
         - Not all Powers are available in every aspect. An aspect will have a Rank in a Power if it is available.
         - Magic use is not a Power, and still available to Normal Human Aspect and during Aspect Change.
@@ -89,7 +90,8 @@ Hero:
         - Normal Human: The body is completely normal and possesses no detectable abnormalities. Any Powers the hero possesses have left no visible mark on the body.
     Origin of Power:
       Type: Created
-      Description: Born in current form, that of an adult who possesses Power and/or whatever the Body Type is. Inherent to all robots, angels, demons, and deities.
+      Description: |
+        Born in current form, that of an adult who possesses Power and/or whatever the Body Type is. Inherent to all robots, angels, demons, and deities.
   Weakness:
     Demon:
       Stimulus: Psychological
@@ -235,11 +237,13 @@ Hero:
             Note:
               - Minimum Psyche +1CS.
               - Normal Human Aspect has Psyche +1CS resistance from the Resist Domination Talent, as do other Aspects if Power is not functioning.
-            Description: Grants resistance to attacks targeting emotions or Intuition, reducing damage from attacks like Emotion Control and Hallucinations by Power rank number. Attacks below rank are ignored.
+            Description: |
+              Grants resistance to attacks targeting emotions or Intuition, reducing damage from attacks like Emotion Control and Hallucinations by Power rank number. Attacks below rank are ignored.
           Immunity to Emotion Attacks:
             Rank:
               Deity: *Unranked
-            Description: Completely negates emotion-based attacks, including Emotion Control, Hallucinations, and Domination.
+            Description: |
+              Completely negates emotion-based attacks, including Emotion Control, Hallucinations, and Domination.
           Resistance to Energy Attacks:
             Cold:
               Rank:
@@ -256,21 +260,24 @@ Hero:
                 Normal Human: *Feeble
                 Note: The Rank available to Normal Human Aspect is just enough to ignore inclement weather without appropriate clothing.
             Note: All Physical attacks vs Ethereal Aspect have -9CS penalty, equivalent to Unearthly Resistance.
-            Description: Provides resistance against energy forms such as Light, Heat, Flame, Plasma, Radiation, Electricity, Vibration, Sonics, Cold, and Kinetic Bolts, reducing damage by Power rank number.
+            Description: |
+              Provides resistance against energy forms such as Light, Heat, Flame, Plasma, Radiation, Electricity, Vibration, Sonics, Cold, and Kinetic Bolts, reducing damage by Power rank number.
           Immunity to Energy Attacks:
             Fire and Heat:
               Rank:
                 Demon: *Unranked
                 Deity: *Unranked
               Note: Inherent to all Demon Physical Form characters.
-            Description: Grants full immunity against specific energy types like Fire and Heat.
+            Description: |
+              Grants full immunity against specific energy types like Fire and Heat.
           Resistance to Magic Attacks:
             Rank:
               Demon: *Incredible
               Deity: *Monstrous
               Ethereal: *Amazing
               Normal Human: *Excellent
-            Description: Protects against magical attacks of both physical and mental nature, reducing their effectiveness by Power rank number.
+            Description: |
+              Protects against magical attacks of both physical and mental nature, reducing their effectiveness by Power rank number.
           Resistance to Mental Attacks:
             Rank:
               Demon: *Unearthly
@@ -278,11 +285,13 @@ Hero:
             Note:
               - Minimum Psyche +1CS.
               - Normal Human Aspect has Psyche +1CS resistance from the Resist Domination Talent, as do other Aspects if Power is not functioning.
-            Description: Enhances resistance against Psionics and Neural Manipulation, ignoring attacks below rank and reducing others by Power rank number.
+            Description: |
+              Enhances resistance against Psionics and Neural Manipulation, ignoring attacks below rank and reducing others by Power rank number.
           Immunity to Mental Attacks:
             Rank:
               Deity: *Unranked
-            Description: Completely immune to mental and psychic-based attacks including Psionics and Neural Manipulation.
+            Description: |
+              Completely immune to mental and psychic-based attacks including Psionics and Neural Manipulation.
           Resistance to Physical Attacks:
             Toxins:
               Rank:
@@ -297,7 +306,8 @@ Hero:
                 Demon: *Remarkable
                 Deity: *Monstrous
             Note: All Physical attacks vs Ethereal Aspect have -9CS penalty, equivalent to Unearthly Resistance.
-            Description: Reduces damage from brute force, chemical weapons, diseases, corrosives, extreme temperatures, and hostile environments by Power rank number.
+            Description: |
+              Reduces damage from brute force, chemical weapons, diseases, corrosives, extreme temperatures, and hostile environments by Power rank number.
           Immunity to Physical Attacks:
             Fire and Heat:
               Rank:
@@ -315,64 +325,75 @@ Hero:
               Demon: *Monstrous
               Ethereal: *Monstrous
               Normal Human: *Remarkable
-            Description: Grants resistance against direct attacks affecting the character’s powers, reducing their effectiveness by Power rank number.
+            Description: |
+              Grants resistance against direct attacks affecting the character’s powers, reducing their effectiveness by Power rank number.
           Immunity to Power Manipulation:
             Rank:
               Deity: *Unranked
-            Description: Completely immune to attacks that alter or negate the character's powers, such as Power Control and Weakness Creation.
+            Description: |
+              Completely immune to attacks that alter or negate the character's powers, such as Power Control and Weakness Creation.
           Resistance to Vampirism:
             Rank:
               Demon: *Monstrous
               Ethereal: *Monstrous
               Normal Human: *Remarkable
-            Description: Provides resistance against vampiric attacks of all kinds, reducing effectiveness by Power rank number.
+            Description: |
+              Provides resistance against vampiric attacks of all kinds, reducing effectiveness by Power rank number.
           Immunity to Vampirism:
             Rank:
               Deity: *Unranked
-            Description: Fully immune to all forms of vampiric attacks.
+            Description: |
+              Fully immune to all forms of vampiric attacks.
         Detection:
           Environmental Awareness:
             Rank:
               Deity: *Monstrous
               Demon: *Incredible
               Normal Human: *Remarkable
-            Description: Automatically aware of environmental conditions and disturbances such as weather, chemicals, movement, and life within the Power's range. Can gain more detailed information with effort.
+            Description: |
+              Automatically aware of environmental conditions and disturbances such as weather, chemicals, movement, and life within the Power's range. Can gain more detailed information with effort.
           Hypersensitive Touch:
             Rank:
               Demon: *Remarkable
               Deity: *Remarkable
               Normal Human: *Good
-            Description: Enhanced sense of touch allows detailed identification of materials and fine surface details.
+            Description: |
+              Enhanced sense of touch allows detailed identification of materials and fine surface details.
           Life Detection:
             Rank:
               Demon: *Amazing
               Ethereal: *Amazing
               Deity: *Monstrous
               Normal Human: *Remarkable
-            Description: Detects and identifies life forms, can pinpoint specific beings amidst similar ones with effort.
+            Description: |
+              Detects and identifies life forms, can pinpoint specific beings amidst similar ones with effort.
           Magic Detection:
             Rank:
               Demon: *Amazing
               Ethereal: *Amazing
               Deity: *Monstrous
               Normal Human: *Excellent
-            Description: Identifies the presence and effects of magic, recognizes past magic use, spell types, and magic users with successful feats.
+            Description: |
+              Identifies the presence and effects of magic, recognizes past magic use, spell types, and magic users with successful feats.
           Thermal Vision:
             Rank:
               Demon: *Amazing
               Deity: *Monstrous
-            Description: Sees heat and infrared emissions, able to perceive temperature variations and partially see through solid objects by heat patterns.
+            Description: |
+              Sees heat and infrared emissions, able to perceive temperature variations and partially see through solid objects by heat patterns.
           True Sight:
             Rank:
               Deity: *Monstrous
             Note: Automatic success vs. lower-Rank disguise, green FEAT is required at +1CS; yellow FEAT at +2CS; and a red FEAT at +3CS
-            Description: The hero can see the correct image of a target, despite any attempts at concealment or disguise.  
+            Description: |
+              The hero can see the correct image of a target, despite any attempts at concealment or disguise.  
           Weakness Detection:
             Rank:
               Demon: *Amazing
               Deity: *Monstrous
               Ethereal: *Incredible
-            Description: Detects vulnerabilities in targets, including physical, mental, and power-based weaknesses depending on rank.
+            Description: |
+              Detects vulnerabilities in targets, including physical, mental, and power-based weaknesses depending on rank.
         Energy Control:
           Darkforce Manipulation:
             Rank:
@@ -385,46 +406,54 @@ Hero:
               - Flight at -1CS speed.
               - Gateway.
               - Energy Solidification.
-            Description: Controls tangible extradimensional Darkforce energy, creating constructs for physical attacks, darkness areas, flight, gateways, and solidified energy objects.
+            Description: |
+              Controls tangible extradimensional Darkforce energy, creating constructs for physical attacks, darkness areas, flight, gateways, and solidified energy objects.
           Fire Control:
             Rank:
               Demon: *Good
-            Description: Manipulates existing flames, intensifying, diminishing, or reshaping them at will.
+            Description: |
+              Manipulates existing flames, intensifying, diminishing, or reshaping them at will.
           Shadowshaping:
             Rank:
               Demon: *Amazing
               Deity: *Amazing
               Ethereal: *Amazing
-            Description: Shapes existing shadows into tangible forms, constructs, or barriers, manipulating their size, shape, and solidity.
+            Description: |
+              Shapes existing shadows into tangible forms, constructs, or barriers, manipulating their size, shape, and solidity.
         Energy Emission:
           Fire Generation:
             Rank:
               Demon: *Good
             Note: Inherent to all Demon Physical Form Characters.
-            Description: Generates and projects fire directly from the character’s body as offensive energy.
+            Description: |
+              Generates and projects fire directly from the character’s body as offensive energy.
           Kinetic Bolt:
             Rank:
               Ethereal: *Remarkable
-            Description: The hero can strike a target with a surge of force at Power Rank range and damage, as if the target had been struck by a solid object of equal material strength. It can be shaped as desired, such as a wide cylinder, or an incredibly fine needle. 
+            Description: |
+              The hero can strike a target with a surge of force at Power Rank range and damage, as if the target had been struck by a solid object of equal material strength. It can be shaped as desired, such as a wide cylinder, or an incredibly fine needle. 
           Shadowcasting:
             Rank:
               Demon: *Remarkable
               Deity: *Remarkable
               Ethereal: *Remarkable
-            Description: Projects shadows of specified intensity over an area, creating darkness fields to obscure vision.
+            Description: |
+              Projects shadows of specified intensity over an area, creating darkness fields to obscure vision.
         Fighting:
           Natural Weaponry:
             Rank:
               Demon: *Good
             Type: Claws (Edged Attack)
-            Description: Employs natural body features, like claws, as weapons capable of edged attacks.
+            Description: |
+              Employs natural body features, like claws, as weapons capable of edged attacks.
         Illusory:
           Illusion Casting:
             Rank:
               Demon: *Incredible
             Deity: *Incredible
             Ethereal: *Incredible
-            Description: Creates visual, auditory, or tactile illusions, deceiving targets through realistic sensory deception.
+            Description: |
+              Creates visual, auditory, or tactile illusions, deceiving targets through realistic sensory deception.
         Lifeform Control:
           Biophysical Control:
             Rank:
@@ -436,31 +465,37 @@ Hero:
               - Decay: Rapidly accelerates cellular collapse, inflicting Power‑rank damage each turn until the victim crumbles to dust.
               - Disruption: Disrupts normal physiology, causing up to Power‑rank Health losses from nausea and chills to fatal trauma.
               - Aging: Alters a target’s age at your Power‑rank rate—green FEATs speed it up, yellow stop it, red reverse it.
-            Description: By touch (or at –1CS per 10 ft and per extra target), permanently alter a target’s physiology, so long as the Power is maintained.
+            Description: |
+              By touch (or at –1CS per 10 ft and per extra target), permanently alter a target’s physiology, so long as the Power is maintained.
           Exorcism:
             Rank:
               Deity: *Monstrous
               Normal Human: *Remarkable
-            Description: Within 10 feet, sever any external magical, mental, or immortal‐type domination over a subject by matching FEAT intensity against the controlling Power’s rank, and instantly teleport the controller back to its home dimension.
+            Description: |
+              Within 10 feet, sever any external magical, mental, or immortal‐type domination over a subject by matching FEAT intensity against the controlling Power’s rank, and instantly teleport the controller back to its home dimension.
           Forced Reincarnation:
             Rank:
               Deity: *Monstrous
               Normal Human: *Remarkable
-            Description: Capture disembodied spirits and merge them into new bodies.
+            Description: |
+              Capture disembodied spirits and merge them into new bodies.
           Hypnotic Control:
             Rank:
               Demon: *Amazing
               Deity: *Amazing
               Ethereal: *Amazing
             Note: Normal Human Aspect uses the Hypnosis and Mesmerism Talent instead at Reason Rank, as do other Aspects if Power is not functioning.
-            Description: Exerts mental control over targets through hypnotic suggestions, compelling actions or behaviors.
+            Description: |
+              Exerts mental control over targets through hypnotic suggestions, compelling actions or behaviors.
           Mind Control:
             Rank:
               Ethereal: *Incredible
             Form:
               Type: Possession
-              Description: The target mind loses both control and consciousness.
-            Description: The ability to directly control a target's mind through psionic Powers.
+              Description: |
+                The target mind loses both control and consciousness.
+            Description: |
+              The ability to directly control a target's mind through psionic Powers.
           Neural Manipulation:
             Rank:
               Ethereal: *Excellent
@@ -469,102 +504,121 @@ Hero:
               - Paralysis: Freeze the target’s voluntary muscles in total rigidity, impervious to any chemical countermeasures.
               - Seizure: Trigger uncontrollable, painful muscle spasms for the Power’s duration.
               - Exaggeration: Amplify nerve impulses so every attempt at movement becomes wildly overdone and erratic.
-            Description: Within a rank‑determined range, alter a target’s voluntary muscle nerve signals to produce one of the listed effects while leaving senses and autonomic functions intact and reducing duration by –1CS per extra target.
+            Description: |
+              Within a rank‑determined range, alter a target’s voluntary muscle nerve signals to produce one of the listed effects while leaving senses and autonomic functions intact and reducing duration by –1CS per extra target.
           Plant Control:
             Rank:
               Deity: *Incredible
-            Description: Animate and command multiple plants within your rank-based limit—granting them basic awareness, senses, and movement for a duration that decreases if you exceed your plant quota.
+            Description: |
+              Animate and command multiple plants within your rank-based limit—granting them basic awareness, senses, and movement for a duration that decreases if you exceed your plant quota.
           Plant Growth:
             Rank:
               Deity: *Incredible
-            Description: Instantly supercharge the growth and size of existing or carried plants up to your Power rank—even in poor conditions—with FEATs determining success and yielding naturally limited lifespans.
+            Description: |
+              Instantly supercharge the growth and size of existing or carried plants up to your Power rank—even in poor conditions—with FEATs determining success and yielding naturally limited lifespans.
           Sleep-Induced:
             Rank:
               Demon: *Excellent
               Ethereal: *Remarkable
-            Description: Within a Power‑rank–determined range, put all targets into an irresistible, deep sleep for a rank‑based duration, with unconsciousness persisting 1–10 hours after the effect ends.
+            Description: |
+              Within a Power‑rank–determined range, put all targets into an irresistible, deep sleep for a rank‑based duration, with unconsciousness persisting 1–10 hours after the effect ends.
           Summoning:
             Rank:
               Demon: *Amazing
               Deity: *Amazing
               Ethereal: *Amazing
-            Description: Summons creatures or entities from other locations or dimensions, compelling their obedience and aid.
+            Description: |
+              Summons creatures or entities from other locations or dimensions, compelling their obedience and aid.
         Matter Control:
           Crystallization:
             Rank:
               Demon: *Excellent
               Deity: *Amazing
-            Description: Transforms matter into crystalline form, altering its structural integrity and shape.
+            Description: |
+              Transforms matter into crystalline form, altering its structural integrity and shape.
           Geoforce:
             Rank:
               Deity: *Incredible
-            Description: Manipulates geological materials and phenomena, such as rock formations, seismic activity, and earth movements.
+            Description: |
+              Manipulates geological materials and phenomena, such as rock formations, seismic activity, and earth movements.
           Molding:
             Rank:
               Demon: *Excellent
               Deity: *Incredible
-            Description: Alters the shape, density, and form of solid matter, reshaping it according to will.
+            Description: |
+              Alters the shape, density, and form of solid matter, reshaping it according to will.
           Weather Control:
             Rank:
               Deity: *Incredible
-            Description: Manipulates weather patterns and conditions, such as storms, temperature shifts, wind, and precipitation.
+            Description: |
+              Manipulates weather patterns and conditions, such as storms, temperature shifts, wind, and precipitation.
         Matter Conversion:
           Molecular Conversion:
             Rank:
               Demon: *Remarkable
               Deity: *Amazing
-            Description: Transforms matter at a molecular level, changing substances from one molecular composition to another.
+            Description: |
+              Transforms matter at a molecular level, changing substances from one molecular composition to another.
         Matter Creation:
           Artifact Creation:
             Rank:
               Demon: *Incredible
               Deity: *Monstrous
               Normal Human: *Excellent
-            Description: Creates a single-piece object from nothing, detailed replicas require memorized designs. Temporarily drains Health per ounce created. Lifespan depends on FEAT success, from temporary to permanent.
+            Description: |
+              Creates a single-piece object from nothing, detailed replicas require memorized designs. Temporarily drains Health per ounce created. Lifespan depends on FEAT success, from temporary to permanent.
           Lifeform Creation:
             Rank:
               Deity: *Amazing
-            Description: Forms living organisms from imagination or memory, costing Health points per ounce. Lifespan and complexity depend on FEAT success, can create permanent living beings.
+            Description: |
+              Forms living organisms from imagination or memory, costing Health points per ounce. Lifespan and complexity depend on FEAT success, can create permanent living beings.
           Molecular Creation:
             Rank:
               Demon: *Remarkable
               Deity: *Amazing
-            Description: Synthesizes compounds and complex materials from nothing, temporarily sacrificing Health points per ounce. Durability based on FEAT, from temporary to permanent.
+            Description: |
+              Synthesizes compounds and complex materials from nothing, temporarily sacrificing Health points per ounce. Durability based on FEAT, from temporary to permanent.
         Mental Enhancement:
           Cosmic Awareness:
             Rank:
               Deity: *Monstrous
-            Description: Provides extraordinary perception and understanding of cosmic-scale events and universal truths.
+            Description: |
+              Provides extraordinary perception and understanding of cosmic-scale events and universal truths.
           Dreamtravel:
             Rank:
               Demon: *Monstrous
               Deity: *Monstrous
               Ethereal: *Monstrous
-            Description: Enables entering and navigating through dreams or dream-like dimensions.
+            Description: |
+              Enables entering and navigating through dreams or dream-like dimensions.
           Empathy:
             Rank:
               Demon: *Monstrous
               Deity: *Monstrous
               Ethereal: *Monstrous
               Normal Human: *Remarkable
-            Description: Senses and influences emotions of others, understanding their feelings and potentially altering them.
+            Description: |
+              Senses and influences emotions of others, understanding their feelings and potentially altering them.
           Iron Will:
             Rank:
               Normal Human: *Remarkable
-            Description: Strengthens mental fortitude, resisting psychological manipulation and enhancing determination.
+            Description: |
+              Strengthens mental fortitude, resisting psychological manipulation and enhancing determination.
           Linguistics:
             Rank:
               Demon: *Monstrous
               Deity: *Monstrous
               Ethereal: *Monstrous
               Normal Human: *Monstrous
-            Description: Instantly understands and communicates in any language encountered, spoken or written.
+            Description: |
+              Instantly understands and communicates in any language encountered, spoken or written.
           Mental Probe:
             Rank:
               Demon: *Excellent
               Deity: *Incredible
               Ethereal: *Remarkable
-            Description: Accesses thoughts and memories of others through telepathic intrusion.
+            Description: |
+              Accesses thoughts and memories of others through telepathic intrusion.
           Serial Immortality:
             Rank:
               Demon:  *Monstrous
@@ -573,78 +627,92 @@ Hero:
               Normal Human: *Incredible
             Form:
               Type: Spontaneous Creation
-              Description: Psionically fabricate a full-grown duplicate of your previous body from raw matter and energy, with a build time of (100 – Power rank) days. The body reverts to its original materials.
+              Description: |
+                Psionically fabricate a full-grown duplicate of your previous body from raw matter and energy, with a build time of (100 – Power rank) days. The body reverts to its original materials.
             Note: New body will be Demon Aspect, and requires 1d100 Turns of exposure to Energy Source to regain ability to assume Deity Aspect.
-            Description: Upon Death, lifeforce rebounds into a new host while you forfeit all Karma.
+            Description: |
+              Upon Death, lifeforce rebounds into a new host while you forfeit all Karma.
           Telekinesis:
             Rank:
               Demon: *Good
               Deity: *Incredible
               Ethereal: *Incredible
-            Description: Moves and manipulates objects with mental energy, exerting force remotely without physical contact.
+            Description: |
+              Moves and manipulates objects with mental energy, exerting force remotely without physical contact.
           Telelocation:
             Rank:
               Deity: *Monstrous
-            Description: Within a spherical range set by your Power rank, psionically sense and pinpoint a target without any physical or sensory contact—using green FEATs for direct possession of a part, yellow for past contact, or red for reliable second‑hand information.
+            Description: |
+              Within a spherical range set by your Power rank, psionically sense and pinpoint a target without any physical or sensory contact—using green FEATs for direct possession of a part, yellow for past contact, or red for reliable second‑hand information.
           Telepathy:
             Rank:
               Demon: *Remarkable
               Deity: *Amazing
               Ethereal: *Remarkable
-            Description: Mentally communicates with others, sending and receiving thoughts, and establishing mental links.
+            Description: |
+              Mentally communicates with others, sending and receiving thoughts, and establishing mental links.
           Total Memory:
             Rank:
               Demon: *Monstrous
               Deity: *Monstrous
               Ethereal: *Monstrous
               Normal Human: *Monstrous
-            Description: Perfectly recalls any previously experienced event or information without degradation.
+            Description: |
+              Perfectly recalls any previously experienced event or information without degradation.
         Physical Enhancement:
           Body Resistance:
             Rank:
               Demon: *Remarkable
-            Description: Enhances natural resistance against physical damage, absorbing and reducing incoming harm.
+            Description: |
+              Enhances natural resistance against physical damage, absorbing and reducing incoming harm.
           Hypnotic Voice:
             Rank:
               Demon: *Incredible
               Deity: *Incredible
               Ethereal: *Incredible
             Note: Normal Human Aspect uses the Hypnosis and Mesmerism Talent instead at Reason Rank, as do other Aspects if Power is not functioning.
-            Description: Influences or controls others through voice, compelling obedience or specific actions.
+            Description: |
+              Influences or controls others through voice, compelling obedience or specific actions.
           Pheromones:
             Rank:
               Demon: *Amazing
               Deity: *Amazing
             Type: Deliberate
-            Description: Emits biochemical substances that subtly influence behavior or emotional responses of others nearby.
+            Description: |
+              Emits biochemical substances that subtly influence behavior or emotional responses of others nearby.
           Self-Revival:
             Rank:
               Demon: *Monstrous
               Deity: *Monstrous
             Note: Normal Human and Ethereal Aspects use only Serial Immortality instead, as does a destroyed body in other Aspects (less than one quarter of body remaining), or FEAT fails.
-            Description: Functions identically to Regeneration, healing at Power Rank multiple rate (lost limbs and organs requiring a Red FEAT), except also automatically revives after death, restoring life functions after fatal harm.  Color of FEAT required depends on condition of body (Green for intact, Yellow for vitals intact, Red for at least one-quarter body remaining).
+            Description: |
+              Functions identically to Regeneration, healing at Power Rank multiple rate (lost limbs and organs requiring a Red FEAT), except also automatically revives after death, restoring life functions after fatal harm.  Color of FEAT required depends on condition of body (Green for intact, Yellow for vitals intact, Red for at least one-quarter body remaining).
           Self-Sustenance:
             Rank:
               Demon: *Monstrous
               Deity: *Monstrous
             Type: Permanent
-            Description: Operates indefinitely without typical biological needs like air, food, water, or sleep.
+            Description: |
+              Operates indefinitely without typical biological needs like air, food, water, or sleep.
           Stealth:
             Rank:
               Demon: *Remarkable
               Deity: *Remarkable
               Normal Human: *Good
-            Description: Moves silently and unnoticed, significantly reducing chances of detection.
+            Description: |
+              Moves silently and unnoticed, significantly reducing chances of detection.
           True Invulnerability:
             Rank:
               Deity: *Monstrous
-            Description: Provides absolute protection against damage from physical and energy attacks.
+            Description: |
+              Provides absolute protection against damage from physical and energy attacks.
           Vocal Control:
             Rank:
               Demon: *Amazing
               Deity: *Amazing
               Ethereal: *Amazing
-            Description: Manipulates sound and voice to imitate others, alter tone, or create sonic effects.
+            Description: |
+              Manipulates sound and voice to imitate others, alter tone, or create sonic effects.
         Power Control:
           Energy Source:
             Rank:
@@ -654,7 +722,8 @@ Hero:
             - Dimension of Dreams
             - Site of active worship: Cannot benefit from actively self-promoted worship.
             Note: Recharges Deity Aspect. Not relevant to other Aspects.
-            Description: Supplies energy to sustain other Powers or devices continuously without external input.
+            Description: |
+              Supplies energy to sustain other Powers or devices continuously without external input.
           Focus:
             Rank:
               Demon: *Monstrous
@@ -683,51 +752,60 @@ Hero:
                 Spread: 
                 Turns Until Full Recovery: 
             Note: Rankless abilities not included.  Focus itself is.
-            Description: Channels all Abilities and Powers into a single burst, replacing the target Power’s rank with the sum of all other ranks. After use, all Abilities and Powers drop to Feeble. The Focus rank determines how many points can be recovered each turn, divided evenly across all affected traits.
+            Description: |
+              Channels all Abilities and Powers into a single burst, replacing the target Power’s rank with the sum of all other ranks. After use, all Abilities and Powers drop to Feeble. The Focus rank determines how many points can be recovered each turn, divided evenly across all affected traits.
         Self Alteration:
           Imitation-Face Changer:
             Rank:
               Normal Human: *Remarkable
-            Description: The hero can change his superficial appearance but cannot alter his basic form or dimensions, assuming any human appearance, provided the desired shape roughly matches.
+            Description: |
+              The hero can change his superficial appearance but cannot alter his basic form or dimensions, assuming any human appearance, provided the desired shape roughly matches.
           Imitation-Human Changeling:
             Rank:
               Demon: *Monstrous
               Deity: *Monstrous
               Ethereal: *Monstrous
             Note: Base appearance of Normal Human Aspect is last form taken by another Aspect. Normal Human Aspect uses Imitation-Face Changer instead.
-            Description: Physically alters appearance to mimic other humans perfectly, copying their physical traits and features.
+            Description: |
+              Physically alters appearance to mimic other humans perfectly, copying their physical traits and features.
           Invisibility:
             Rank:
               Demon: *Remarkable
               Deity: *Remarkable
             Type: Physics
-            Description: Becomes unseen to normal sight, avoiding visual detection entirely. Physics is actual transparency to visible light, granting immunity to attacks based on it, at Good Rank or higher, includes rest of EM spectrum and may be extended in range.
+            Description: |
+              Becomes unseen to normal sight, avoiding visual detection entirely. Physics is actual transparency to visible light, granting immunity to attacks based on it, at Good Rank or higher, includes rest of EM spectrum and may be extended in range.
         Travel:
           Dimension Travel:
             Rank:
               Demon: *Monstrous
               Deity: *Monstrous
               Ethereal: *Monstrous
-            Description: Opens portals to other dimensions, enabling transit between alternate realities and planes.
+            Description: |
+              Opens portals to other dimensions, enabling transit between alternate realities and planes.
           Gateway:
             Rank:
               Deity: *Monstrous
             Note: Other aspects use Darkforce Manipulation Power Stunt or Dimensional Aperture Spell.
-            Description: Creates stable passageways linking distant locations instantly.
+            Description: |
+              Creates stable passageways linking distant locations instantly.
           Teleport Others:
             Rank:
               Deity: *Monstrous
-            Description: Instantaneously moves others to desired locations without physical travel.
+            Description: |
+              Instantaneously moves others to desired locations without physical travel.
           Teleport Self:
             Rank:
               Deity: *Monstrous
             Note: Other aspects use Teleportation Spell.
-            Description: Instantaneously moves self from one location to another without physically traversing the space in between.
+            Description: |
+              Instantaneously moves self from one location to another without physically traversing the space in between.
           True Flight:
             Rank:
               Deity: *Unearthly
             Note: Other Aspects use Darkforce Manipulation Power Stunts or the Flight Spell (Ethereal form already has 3-dimensional movement).
-            Description: Grants the natural ability to fly freely, allowing complete aerial maneuverability and sustained flight without external assistance.
+            Description: |
+              Grants the natural ability to fly freely, allowing complete aerial maneuverability and sustained flight without external assistance.
       Talents:
         Fighting Skills:
           - Acrobatics: Grants a +1CS bonus when dodging, evading, or escaping attacks due to enhanced agility.
@@ -782,20 +860,23 @@ Hero:
                     Base: *Remarkable
                     Note: +2CS to Cost for very high-quality package.
                   Note: Multiple.
-                  Description: Good. Occupies one room. Consists of table, four chairs, ceiling lamp. Excellent Cost add large table, bureau and four more chairs. Remarkable Cost add china cabinet, set of good china and sterling tableware.
+                  Description: |
+                    Good. Occupies one room. Consists of table, four chairs, ceiling lamp. Excellent Cost add large table, bureau and four more chairs. Remarkable Cost add china cabinet, set of good china and sterling tableware.
                 - Kitchen Package:
                   Cost:
                     Value: *Remarkable
                     Base: *Good
                     Note: +2CS to Cost for very high-quality package.
                   Note:  Stoves, ovens, hearths, hot water, etc. powered by hellfire. Water provided by "natural" springs.
-                  Description: Good. Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing.
+                  Description: |
+                    Good. Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing.
                 - Library Package:
                     Cost:
                       Value: *Incredible
                       Base: *Excellent
                       Note: +2CS to Cost for very high-quality package.
-                    Description: Excellent. Occupies one room. Consists of two easy chairs, table, desk, straight chair, and up to five bookcases on general subjects (texts readily available, and including encyclopedias, world histories, and atlases). Special or rare volumes, such as the Book of the Vishanti, the Necronomicon, or Amazing Fantasy \#15, would have to be obtained separately.
+                    Description: |
+                      Excellent. Occupies one room. Consists of two easy chairs, table, desk, straight chair, and up to five bookcases on general subjects (texts readily available, and including encyclopedias, world histories, and atlases). Special or rare volumes, such as the Book of the Vishanti, the Necronomicon, or Amazing Fantasy \#15, would have to be obtained separately.
                 - Conference Room Package:
                     Cost:
                       Value: *Amazing
@@ -804,27 +885,32 @@ Hero:
                     Note:
                       - Multiple.
                       - At least one in each format, a third, extra large, set up as a throne room; yet another extra large one is set up as an arena or small coliseum.
-                    Description: Remarkable. Occupies one room. Contains material for assembling of heroes, or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs.
+                    Description: |
+                      Remarkable. Occupies one room. Contains material for assembling of heroes, or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs.
                 - Porches, storage, bathrooms, and closets:
                     Cost: *Unranked
                     Note: Running water and other expected amenities are magical or natural, rather than technological.
-                    Description: These are assumed in the cost of the building, according to its design. These rooms cost nothing, and no package exists other than what the heroes decide to stuff into the closets.
+                    Description: |
+                      These are assumed in the cost of the building, according to its design. These rooms cost nothing, and no package exists other than what the heroes decide to stuff into the closets.
                 - Trophy Room Package:
                     Cost:
                       Value: *Amazing
                       Base: *Remarkable
                       Note: +2CS to Cost for very high-quality package.
                     Note: Multiple.
-                    Description: Excellent. Occupies one room. Contains showcase, lighting, frames to display mementos, and may be used as a reception half or gallery. At Remarkable Cost, contains capability to handle potentially dangerous exhibits at the Incredible level.
+                    Description: |
+                      Excellent. Occupies one room. Contains showcase, lighting, frames to display mementos, and may be used as a reception half or gallery. At Remarkable Cost, contains capability to handle potentially dangerous exhibits at the Incredible level.
                 - Imprisonment Package:
                     Cost:
                       Value: *Monstrous
                       Base: *Incredible
                       Note: +2CS to Cost for very high-quality package.
                     Note: Multiple.
-                    Description: Excellent. Occupies one room. Contains standard restraining devices, including bars of Remarkable material strength. At Remarkable Cost, restraining devices made of Incredible Strength. At Incredible Cost, restraining devices at Amazing Strength and Excellent Strength inhibitor restraints.
+                    Description: |
+                      Excellent. Occupies one room. Contains standard restraining devices, including bars of Remarkable material strength. At Remarkable Cost, restraining devices made of Incredible Strength. At Incredible Cost, restraining devices at Amazing Strength and Excellent Strength inhibitor restraints.
               Note: About 20+ areas over about 3+ levels.
-              Description: A small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams. Not strictly a structure or building, though there are areas that appear to be "inside," "outside," and "underground." As Ashtaret satisfies her needs with Powers and Spells, the lair has few amenities although everything there is of opulent quality. It primarily comprises places for Ashtaret to keep her Grimoires and other Mystic Texts, along with any treasures, prisoners, or other possessions, as well as a place for her to sit and hold court. The temperature, atmosphere, and other conditions are survivable, even livable, if not pleasant or comfortable, for humans, animals, and humanlike beings. There is no modern technology, with amenities such as cooking, hot water, and lighting provided by hellfire, running water from "natural" springs, and plumbing, drainage, and waste disposal by the void itself. Though indeed opulent in construction and ornamentation, it is also somewhat spare and spartan, empty and uninhabited save her herself and any conjured Servants; she finds it stifling, as well as boring to spend too much time there.
+              Description: |
+                A small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams. Not strictly a structure or building, though there are areas that appear to be "inside," "outside," and "underground." As Ashtaret satisfies her needs with Powers and Spells, the lair has few amenities although everything there is of opulent quality. It primarily comprises places for Ashtaret to keep her Grimoires and other Mystic Texts, along with any treasures, prisoners, or other possessions, as well as a place for her to sit and hold court. The temperature, atmosphere, and other conditions are survivable, even livable, if not pleasant or comfortable, for humans, animals, and humanlike beings. There is no modern technology, with amenities such as cooking, hot water, and lighting provided by hellfire, running water from "natural" springs, and plumbing, drainage, and waste disposal by the void itself. Though indeed opulent in construction and ornamentation, it is also somewhat spare and spartan, empty and uninhabited save her herself and any conjured Servants; she finds it stifling, as well as boring to spend too much time there.
           - Example Manhattan Apartment:
               Type:
                 - 1BR Apartment
@@ -852,30 +938,36 @@ Hero:
                       Low: *Good
                       Mid: *Excellent
                       High: *Remarkable
-                    Description: Occupies one room. Consists of sofa, two easy chairs, two end tables, coffee tables, two lamps (ceiling table or floor). At Excellent Cost add television, stereo set-up, or piano. At Remarkable Cost add all three.
+                    Description: |
+                      Occupies one room. Consists of sofa, two easy chairs, two end tables, coffee tables, two lamps (ceiling table or floor). At Excellent Cost add television, stereo set-up, or piano. At Remarkable Cost add all three.
                 - Dining Room Package:
                     Cost:
                       Low: *Good
                       Mid: *Excellent
                       High: *Remarkable
-                    Description: Occupies one room. Consists of table, four chairs, ceiling lamp. At Excellent Cost add large table, bureau and four more chairs. At Remarkable Cost add china cabinet, set of good china and sterling tableware.
+                    Description: |
+                      Occupies one room. Consists of table, four chairs, ceiling lamp. At Excellent Cost add large table, bureau and four more chairs. At Remarkable Cost add china cabinet, set of good china and sterling tableware.
                 - Kitchen Package:
                     Cost:
                       Low: *Good
                       Mid: *Excellent
                       High: *Remarkable
-                    Description: Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing. At Excellent Cost add refrigerator, dishwasher, or microwave, plus a fire extinguisher. At Remarkable Cost add all three and freezer.
+                    Description: |
+                      Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing. At Excellent Cost add refrigerator, dishwasher, or microwave, plus a fire extinguisher. At Remarkable Cost add all three and freezer.
                 - Storage, bathrooms, and closets:
                     Cost: *Unranked
-                    Description: These are assumed in the cost of the building, according to its design. 
+                    Description: |
+                      These are assumed in the cost of the building, according to its design. 
                 - Security Package:
                     Cost:
                       Low: *Good
                       High: *Excellent
-                    Description: One Security package to a door or window. Occupies no space. Consists of hand-set burglar alarms on windows and doors, coupled with mechanical locks.  At Excellent Cost, automatic burglar alarms with computer-code or card identification system.
+                    Description: |
+                      One Security package to a door or window. Occupies no space. Consists of hand-set burglar alarms on windows and doors, coupled with mechanical locks.  At Excellent Cost, automatic burglar alarms with computer-code or card identification system.
                 - Fire Protection Package:
                     Cost: *Excellent
-                    Description: Occupies no space. Sprinkler system that may cover up to 10 rooms, provides Good protection from fire.
+                    Description: |
+                      Occupies no space. Sprinkler system that may cover up to 10 rooms, provides Good protection from fire.
             Note:
               - Example typical residences for Normal Human Aspect cover identity. Rented furnished. Neighborhood, type, and packages may vary by cover identity.
               - There are probably several cats coming and going as they please.
@@ -884,7 +976,8 @@ Hero:
           - Fire Extinguisher:
               Price: *Typical
               Note: Included in Kitchen Package with Cost Excellent or better, kept at appropriate Headquarters residences.
-              Description: Fire Extinguishers inflict no damage normally, but against fire are of Good Intensity (eliminate fire of Typical Intensity or less in the same area on a green FEAT, of Good Intensity on a yellow, and up to Excellent on a red). Against characters with flaming powers causes a FEAT roll against that Intensity to retain flame.
+              Description: |
+                Fire Extinguishers inflict no damage normally, but against fire are of Good Intensity (eliminate fire of Typical Intensity or less in the same area on a green FEAT, of Good Intensity on a yellow, and up to Excellent on a red). Against characters with flaming powers causes a FEAT roll against that Intensity to retain flame.
           - Respectable Clothing:
               Price: *Typical
               Note: Daily wardrobes of Normal Human cover identities. More basic, casual, off-the-shelf, or mundane than what is created with Artifact Creation, Molecular Creation, and Molding (high fashion, valuable accessories, etc.).  Vintage clothing highly represented.
@@ -894,11 +987,13 @@ Hero:
           - Mystic Texts:
               Price: *Incredible
               Note: Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
-              Description: Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
+              Description: |
+                Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
         Magical Items:
           - Grimoire:
               Note: Primary and backup Grimoires. Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
-              Description: The book in which a mage records spells or incantations. Some spells, like many Entreaty spells, cannot be memorized, only read aloud from a text. A character can only have two grimoires at any one time, the primary and a back-up copy. Creating takes 10+1d10 full days of work.
+              Description: |
+                The book in which a mage records spells or incantations. Some spells, like many Entreaty spells, cannot be memorized, only read aloud from a text. A character can only have two grimoires at any one time, the primary and a back-up copy. Creating takes 10+1d10 full days of work.
           - Ebon Staff of Ereshkigal:
               Category: Miscellaneous-Staff
               Item Condition: There are no conditions to the item (it operates as described).
@@ -914,7 +1009,8 @@ Hero:
                 - Descriptions are short summaries of full text. Consult Realms of Magic for full text of Spell description.
                 - Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
                 - All Spells cast by the staff are Amazing (50)
-              Description: Abbout six feet long and an inch and a half thick, this staff of solid, lightweight, smooth, black metal is twisted along much of its length. It bears a prism of black crystal at one end, terminating in a tapered, blunted spike at the other.
+              Description: |
+                Abbout six feet long and an inch and a half thick, this staff of solid, lightweight, smooth, black metal is twisted along much of its length. It bears a prism of black crystal at one end, terminating in a tapered, blunted spike at the other.
               Spells:
                 Rank: *Amazing
                 Personal Energies:
@@ -922,7 +1018,8 @@ Hero:
                     Note: Darkforce Requires access to Dimensional Energies.
                     Type:
                       - Darkforce: Drain Health points equal to the spell rank by touching or enveloping target.
-                    Description: Turn body into another substance, retaining shape.
+                    Description: |
+                      Turn body into another substance, retaining shape.
                 Universal Energies:
                   Eldritch Beams/Bolts:
                       Type:
@@ -935,15 +1032,18 @@ Hero:
                       Note:
                         - Darkforce Requires access to Dimensional Energies.
                         - Beams/bolts originate from the crystal on the end of the staff.
-                      Description: Damage equal to spell Rank to one target in area.  
+                      Description: |
+                        Damage equal to spell Rank to one target in area.  
                   Energy Control:
                     Note: Darkforce Requires access to Dimensional Energies.
-                    Description: Requires a successful spell rank FEAT roll. Can affect all of the specified type of energy within his area of effect, turning it on or off, making it overload, siphoning it, can channel controlled energy around self so as not to be harmed by it. A Red Result on  spell rank FEAT to use this spell offensively. The attack must be made by touch. The damage caused equals the spell rank number. Yellow or Red spell rank FEAT roll to use this spell defensively.
+                    Description: |
+                      Requires a successful spell rank FEAT roll. Can affect all of the specified type of energy within his area of effect, turning it on or off, making it overload, siphoning it, can channel controlled energy around self so as not to be harmed by it. A Red Result on  spell rank FEAT to use this spell offensively. The attack must be made by touch. The damage caused equals the spell rank number. Yellow or Red spell rank FEAT roll to use this spell defensively.
                     Type: 
                       - Darkforce: May black out an area so completely that even infravision does not work. Cannot be used as a weapon outside of caster's area, anyone within that area except the caster loses Health points equal to the spell Rank Number each round.
           - Ruby of Domination:
               Note: A relatively recent acquisition, Ashtaret's shard of the Ruby of Domination is set into a gold ring that she often wears in any Aspect.
-              Description: This large red, floating ruby (3 feet in diameter) was once used by Xandu in an attempt to make Earth's population mind-slaves. When Doctor Strange shattered it, little rinoes were left on Earth from its shards. A character attempting the powers of Emotion Control, Mental Control, Mesmerism, or Mesmermechanism has a +1CS for success when focusing the power through one of these smaller Rubies of Domination.
+              Description: |
+                This large red, floating ruby (3 feet in diameter) was once used by Xandu in an attempt to make Earth's population mind-slaves. When Doctor Strange shattered it, little rinoes were left on Earth from its shards. A character attempting the powers of Emotion Control, Mental Control, Mesmerism, or Mesmermechanism has a +1CS for success when focusing the power through one of these smaller Rubies of Domination.
           - Serum of the Seraphim:
               Note: Unelss she's recentlty used it, Ashtaret tends to have at least one of these stashed somewhere, either on her person, or at most a Conjure Spell away.
               Description: |
@@ -954,7 +1054,8 @@ Hero:
                 - The Black Mirror exists in Ashtaret's demiplanar pocket.
                 - The incantation to access Ashtaret's domain through the Black Mirror is "NU-šu du₁₁-ga! šeg₉! NU-me-en šu-niĝin-na! Uĝu hul gub-bu-a! In-du₁₁-a! E-li a-ma-ru NU-tag-ga, šu-gin-na šeš-e-ne!" (Sumerian, roughly translated as, "Do not enter! Go away! You are not welcome here! Great danger/evil awaits you here! It has been said/you have been warned! Abandon all hope, you who enter here!") Ashtaret has never shared the Black Mirror incantation to her dimension with anyone but it is possible the knowledge is discoverable.
                 - There is a custom, dedicated room built around the instance of the Black Mirror in Ashtaret's domain to house it that has the combined features of the Trophy Room Package and Imprisonment Package.
-              Description: This full length ebony oval of glass is surrounded by an ornate frame. While it has been called a mirror, it does not reflect. Instead, it is a legendary gateway to countless dimensions, to an infinite number of alternate Earths. A specific incantation is needed for each dimension. After speaking the incantation, the char- acter speaking can simply pass through the mirror into the desired world. The mirror also exists on each dimension it opens into, so passage back and forth is easy, but only for those who know the right incantation.
+              Description: |
+                This full length ebony oval of glass is surrounded by an ornate frame. While it has been called a mirror, it does not reflect. Instead, it is a legendary gateway to countless dimensions, to an infinite number of alternate Earths. A specific incantation is needed for each dimension. After speaking the incantation, the char- acter speaking can simply pass through the mirror into the desired world. The mirror also exists on each dimension it opens into, so passage back and forth is easy, but only for those who know the right incantation.
         Note: Most equipment is ad hoc via Artifact Creation, Molecular Creation, and Molding.
       Contacts:
         Professional:
@@ -1070,7 +1171,8 @@ Hero:
             Environmental Independence: Survive in any environment regardless of conditions, obviates temperature, pressure, hunger, thirst, breathing, and sleep.
             Dimensional Aperture: Opens portals between dimensions, allowing travel to alternate realities.
             Disguise:
-              Description: Allows various forms of magical disguise.
+              Description: |
+                Allows various forms of magical disguise.
               Group Spell:
                 Alteration-Appearance: Magically changes physical appearance.
                 Chameleonic: Adapts coloration to blend with surroundings.
@@ -1080,7 +1182,8 @@ Hero:
                 Shrinking: Temporarily decreases size.
             Link: Establishes a mystical connection for communication or shared abilities.
             Passing:
-              Description: Spells facilitating movement through barriers or altered states.
+              Description: |
+                Spells facilitating movement through barriers or altered states.
               Group Spell:
                 Admittance: Opens locks and barriers.
                 Alteration-Bone: Flexible bone structure allows passage through narrow spaces.
@@ -1088,7 +1191,8 @@ Hero:
                 Density Control-Self: Alters own density to pass through obstacles.
                 Transformation: Physically transforms to bypass barriers.
             Pishogue:
-              Description: Magical influence causing mental disruption and emotional effects.
+              Description: |
+                Magical influence causing mental disruption and emotional effects.
               Group Spell:
                 Confusion: Causes mental disorientation.
                 Fear: Induces intense terror.
@@ -1096,7 +1200,8 @@ Hero:
                 Mesmerism: Enables hypnotic control.
                 Paralyze: Immobilizes targets.
             Scrying:
-              Description: Gathering information remotely through magical senses.
+              Description: |
+                Gathering information remotely through magical senses.
               Group Spell:
                 Enchanted Eye: Remote viewing.
                 Foretelling: Predicts future events.
@@ -1104,7 +1209,8 @@ Hero:
                 Sensing-Clairaudience: Remote hearing.
                 Sensing-Clairvoyance: Remote sight.
             Sensing:
-              Description: Enhanced magical detection and sensory awareness.
+              Description: |
+                Enhanced magical detection and sensory awareness.
               Group Spell:
                 Sensing-Danger: Detects impending threats.
                 Sensing-Evil: Senses malevolent presence.
@@ -1114,7 +1220,8 @@ Hero:
             Shield-Multiple: As individual shield, but multple stacked, +1 layer per Rank over Good.  Destroyed individually.
             Teleportation: Instantly transports caster or target across space without physically crossing the intervening distance. Requires familiarity or successful FEAT roll if teleporting into unknown locations. Can teleport objects or beings within strength limits.
             Thaumaturgy:
-              Description: Provides various magical offensive and capturing effects.
+              Description: |
+                Provides various magical offensive and capturing effects.
               Group Spell:
                 Bands: Creates mystic bindings to restrain targets.
                 Curse: Imposes negative conditions or misfortune on targets.
@@ -1122,7 +1229,8 @@ Hero:
                 Trap: Causes damage to attacker when mentally attacked while Spell is active.
                 Wave: Releases a wave of mystical energy for offensive or disruptive purposes.
             Witchery:
-              Description: Spells specifically affecting others through alterations and enhancements.
+              Description: |
+                Spells specifically affecting others through alterations and enhancements.
               Group Spell:
                 Density Control-Others: Alters the density of others, making them heavier or lighter.
                 Growing-Others: Temporarily increases the size of targeted beings.
@@ -1134,4 +1242,5 @@ Hero:
   Personality: |
     Vain, capricious, self-serving, whiny, pouty, manipulative, hedonistic, vindictive, and generally chaotic, though not particularly malevolent, Ashtaret is out for herself first, last, and, usually, only. She just wants to have fun.  However, she actively likes children and animals, despite her other, less wholesome traits. Dislikes personally interacting with modern technology, but appreciates when others use it to her benefit.
   Description: |
+    |
     While capable of any humanlike form via the Imitation-Human Changeling Power, Ashtaret's typical form is a tall, long-legged, voluptuous but fit woman of somewhat indeterminate age, with spiraling ringlets of shiny, jet-black hair, burning honey-amber eyes, lustrous dark olive-bronze skin, and regal, decidedly Eastern Mediterranean facial features.  She is typically dressed and accessorized in whatever is considered high-fashion for the time, place, and situation, with a predilection for vintage wear, often via use of Artifact Creation, Molecular Creation, and Molding.
