@@ -1302,6 +1302,20 @@ Hero:
                   Description: Requires a successful spell rank FEAT roll. Can affect all of the specified type of energy within his area of effect, turning it on or off, making it overload, siphoning it, can channel controlled energy around self so as not to be harmed by it. A Red Result on  spell rank FEAT to use this spell offensively. The attack must be made by touch. The damage caused equals the spell rank number. Yellow or Red spell rank FEAT roll to use this spell defensively.
                   Type: 
                     - Darkforce: May black out an area so completely that even infravision does not work. Cannot be used as a weapon outside of caster's area, anyone within that area except the caster loses Health points equal to the spell Rank Number each round.
+        - Ruby of Domination:
+            Note: A relatively recent acquisition, Ashtaret's shard of the Ruby of Domination is set into a gold ring that she often wears in any Aspect.
+            Description: This large red, floating ruby (3 feet in diameter) was once used by Xandu in an attempt to make Earth's population mind-slaves. When Doctor Strange shattered it, little rinoes were left on Earth from its shards. A character attempting the powers of Emotion Control, Mental Control, Mesmerism, or Mesmermechanism has a +1CS for success when focusing the power through one of these smaller Rubies of Domination.
+        - Serum of the Seraphim:
+            Note: Unelss she's recentlty used it, Ashtaret tends to have at least one of these stashed somewhere, either on her person, or at most a Conjure Spell away.
+            Description: |
+              This is the most powerful medicine known to the occult and can cure anything but death once it occurs. The serum is so potent that only a few ounces are needed, it is usually kept in tiny ornale containers holding just a few ounces.
+              Any character drinking this serum isinstantly returned to his full Health points and has all of his wounds healed. Any magical fungus, physical curses (like blindness), or diseases are held in check, then slowly cured over a few days time.
+        - Black Mirror:
+            Note:
+              - The Black Mirror exists in Ashtaret's demiplanar pocket.
+              - The incantation to access Ashtaret's domain is "NU-šu du₁₁-ga! šeg₉! NU-me-en šu-niĝin-na! Uĝu hul gub-bu-a! In-du₁₁-a!" (Sumerian for "Do not enter! Go away! You are not welcome here! Great danger/evil awaits you here! It has been said/you have been warned!") She has never shared this with anyone but it is possible the knowledge is discoverable.
+              - There is a custom room built around it to house it that has the combined features of the Trophy Room Package and Imprisonment Package.
+            Description: This full length ebony oval of glass is surrounded by an ornate frame. While it has been called a mirror, it does not reflect. Instead, it is a legendary gateway to countless dimensions, to an infinite number of alternate Earths. A specific incantation is needed for each dimension. After speaking the incantation, the char- acter speaking can simply pass through the mirror into the desired world. The mirror also exists on each dimension it opens into, so passage back and forth is easy, but only for those who know the right incantation.
       Note: Most equipment is ad hoc via Artifact Creation, Molecular Creation, and Molding.
     Contacts:
       Professional:
