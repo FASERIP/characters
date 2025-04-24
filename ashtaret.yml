@@ -1164,6 +1164,7 @@ Hero:
                   Description: Remarkable. Occupies one room. Contains material for assembling of heroes, or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs.
               - Porches, storage, bathrooms, and closets:
                   Cost: null
+                  Note: Running water and other expected amenities are magical or natural, rather than technological.
                   Description: These are assumed in the cost of the building, according to its design. These rooms cost nothing, and no package exists other than what the heroes decide to stuff into the closets.
               - Trophy Room Package:
                   Cost:
