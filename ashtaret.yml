@@ -5,7 +5,7 @@ Hero:
       Unranked: &Unranked
         Name: null
         Number: .nan
-      Shift-0:
+      Shift-0: &Shift-0
         Name: Shift-0
         Number: 0
       Feeble: &Feeble
