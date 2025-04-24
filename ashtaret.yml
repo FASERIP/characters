@@ -854,207 +854,207 @@ Hero:
           Zoologist of Magic: Expert in magical creatures and mythical beasts across dimensions, providing +1CS when identifying or studying these creatures.
       Equipment:
         Weapons:
-          Shooting Weapons: null
-          Melee and Thrown Weapons: null
-          Other Weapons: null
-        Vehicles: null
+          Shooting Weapons: []
+          Melee and Thrown Weapons: []
+          Other Weapons: []
+        Vehicles: []
         Headquarters:
-          Extradimensional Lair:
-              Type: Special
-              Cost: *Beyond
-              Size: Deluxe
-              Material Strength: *Unearthly
-              Room Packages:
-                Dining Room Package:
-                  Cost:
-                    Value: *Amazing
-                    Base: *Remarkable
-                    Note: +2CS to Cost for very high-quality package.
-                  Note: Multiple.
-                  Description: |
-                    Good. Occupies one room. Consists of table, four chairs, ceiling lamp. Excellent Cost add large table, bureau and four more chairs. Remarkable Cost add china cabinet, set of good china and sterling tableware.
-                Kitchen Package:
-                  Cost:
-                    Value: *Remarkable
-                    Base: *Good
-                    Note: +2CS to Cost for very high-quality package.
-                  Note:  Stoves, ovens, hearths, hot water, etc. powered by hellfire. Water provided by "natural" springs.
-                  Description: |
-                    Good. Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing.
-                Library Package:
-                    Cost:
-                      Value: *Incredible
-                      Base: *Excellent
-                      Note: +2CS to Cost for very high-quality package.
-                    Description: |
-                      Excellent. Occupies one room. Consists of two easy chairs, table, desk, straight chair, and up to five bookcases on general subjects (texts readily available, and including encyclopedias, world histories, and atlases). Special or rare volumes, such as the Book of the Vishanti, the Necronomicon, or Amazing Fantasy \#15, would have to be obtained separately.
-                Conference Room Package:
-                    Cost:
-                      Value: *Amazing
-                      Base: *Remarkable
-                      Note: +2CS to Cost for very high-quality package.
-                    Note:
-                      - Multiple.
-                      - At least one in each format, a third, extra large, set up as a throne room; yet another extra large one is set up as an arena or small coliseum.
-                    Description: |
-                      Remarkable. Occupies one room. Contains material for assembling of heroes, or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs.
-                Porches, storage, bathrooms, and closets:
-                    Cost: *Unranked
-                    Note: Running water and other expected amenities are magical or natural, rather than technological.
-                    Description: |
-                      These are assumed in the cost of the building, according to its design. These rooms cost nothing, and no package exists other than what the heroes decide to stuff into the closets.
-                Trophy Room Package:
-                    Cost:
-                      Value: *Amazing
-                      Base: *Remarkable
-                      Note: +2CS to Cost for very high-quality package.
-                    Note: Multiple.
-                    Description: |
-                      Excellent. Occupies one room. Contains showcase, lighting, frames to display mementos, and may be used as a reception half or gallery. At Remarkable Cost, contains capability to handle potentially dangerous exhibits at the Incredible level.
-                Imprisonment Package:
-                    Cost:
-                      Value: *Monstrous
-                      Base: *Incredible
-                      Note: +2CS to Cost for very high-quality package.
-                    Note: Multiple.
-                    Description: |
-                      Excellent. Occupies one room. Contains standard restraining devices, including bars of Remarkable material strength. At Remarkable Cost, restraining devices made of Incredible Strength. At Incredible Cost, restraining devices at Amazing Strength and Excellent Strength inhibitor restraints.
-              Note: About 20+ areas over about 3+ levels.
-              Description: |
-                A small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams. Not strictly a structure or building, though there are areas that appear to be "inside," "outside," and "underground." As Ashtaret satisfies her needs with Powers and Spells, the lair has few amenities although everything there is of opulent quality. It primarily comprises places for Ashtaret to keep her Grimoires and other Mystic Texts, along with any treasures, prisoners, or other possessions, as well as a place for her to sit and hold court. The temperature, atmosphere, and other conditions are survivable, even livable, if not pleasant or comfortable, for humans, animals, and humanlike beings. There is no modern technology, with amenities such as cooking, hot water, and lighting provided by hellfire, running water from "natural" springs, and plumbing, drainage, and waste disposal by the void itself. Though indeed opulent in construction and ornamentation, it is also somewhat spare and spartan, empty and uninhabited save her herself and any conjured Servants; she finds it stifling, as well as boring to spend too much time there.
-          Example Manhattan Apartment:
-              Type:
-                - 1BR Apartment
-                - 2BR Apartment
-                - 3BR Apartment
-              Cost:
-                Rent:
-                  1BR Apartment:
-                    Rank: *Poor
-                    Base: *Feeble
-                    Note: +1CS to Cost for Manhattan Location
-                  2BR Apartment:
-                    Rank: *Typical
-                    Base: *Poor
-                    Note: +1CS to Cost for Manhattan Location
-                  3BR Apartment:
-                    Rank: *Excellent
-                    Base: *Good
-                    Note: +1CS to Cost for Manhattan Location
-              Size: Small
-              Material Strength: *Good
-              Room Packages:
-                Living Room Package:
-                    Cost:
-                      Low: *Good
-                      Mid: *Excellent
-                      High: *Remarkable
-                    Description: |
-                      Occupies one room. Consists of sofa, two easy chairs, two end tables, coffee tables, two lamps (ceiling table or floor). At Excellent Cost add television, stereo set-up, or piano. At Remarkable Cost add all three.
-                Dining Room Package:
-                    Cost:
-                      Low: *Good
-                      Mid: *Excellent
-                      High: *Remarkable
-                    Description: |
-                      Occupies one room. Consists of table, four chairs, ceiling lamp. At Excellent Cost add large table, bureau and four more chairs. At Remarkable Cost add china cabinet, set of good china and sterling tableware.
-                Kitchen Package:
-                    Cost:
-                      Low: *Good
-                      Mid: *Excellent
-                      High: *Remarkable
-                    Description: |
-                      Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing. At Excellent Cost add refrigerator, dishwasher, or microwave, plus a fire extinguisher. At Remarkable Cost add all three and freezer.
-                Storage, bathrooms, and closets:
-                    Cost: *Unranked
-                    Description: |
-                      These are assumed in the cost of the building, according to its design. 
-                Security Package:
-                    Cost:
-                      Low: *Good
-                      High: *Excellent
-                    Description: |
-                      One Security package to a door or window. Occupies no space. Consists of hand-set burglar alarms on windows and doors, coupled with mechanical locks.  At Excellent Cost, automatic burglar alarms with computer-code or card identification system.
-                Fire Protection Package:
-                    Cost: *Excellent
-                    Description: |
-                      Occupies no space. Sprinkler system that may cover up to 10 rooms, provides Good protection from fire.
-              Note:
-                - Example typical residences for Normal Human Aspect cover identity. Rented furnished. Neighborhood, type, and packages may vary by cover identity.
-                - There are probably several cats coming and going as they please.
-                - Very high-quality room packages may be +1CS or +2CS to Cost, especially in higher-end residences.
+          - Name: Extradimensional Lair
+            Type: Special
+            Cost: *Beyond
+            Size: Deluxe
+            Material Strength: *Unearthly
+            Room Packages:
+              Dining Room Package:
+                Cost:
+                  Value: *Amazing
+                  Base: *Remarkable
+                  Note: +2CS to Cost for very high-quality package.
+                Note: Multiple.
+                Description: |
+                  Good. Occupies one room. Consists of table, four chairs, ceiling lamp. Excellent Cost add large table, bureau and four more chairs. Remarkable Cost add china cabinet, set of good china and sterling tableware.
+              Kitchen Package:
+                Cost:
+                  Value: *Remarkable
+                  Base: *Good
+                  Note: +2CS to Cost for very high-quality package.
+                Note:  Stoves, ovens, hearths, hot water, etc. powered by hellfire. Water provided by "natural" springs.
+                Description: |
+                  Good. Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing.
+              Library Package:
+                Cost:
+                  Value: *Incredible
+                  Base: *Excellent
+                  Note: +2CS to Cost for very high-quality package.
+                Description: |
+                    Excellent. Occupies one room. Consists of two easy chairs, table, desk, straight chair, and up to five bookcases on general subjects (texts readily available, and including encyclopedias, world histories, and atlases). Special or rare volumes, such as the Book of the Vishanti, the Necronomicon, or Amazing Fantasy \#15, would have to be obtained separately.
+              Conference Room Package:
+                Cost:
+                  Value: *Amazing
+                  Base: *Remarkable
+                  Note: +2CS to Cost for very high-quality package.
+                Note:
+                  - Multiple.
+                  - At least one in each format, a third, extra large, set up as a throne room; yet another extra large one is set up as an arena or small coliseum.
+                Description: |
+                  Remarkable. Occupies one room. Contains material for assembling of heroes, or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs.
+              Porches, storage, bathrooms, and closets:
+                Cost: *Unranked
+                Note: Running water and other expected amenities are magical or natural, rather than technological.
+                Description: |
+                  These are assumed in the cost of the building, according to its design. These rooms cost nothing, and no package exists other than what the heroes decide to stuff into the closets.
+              Trophy Room Package:
+                Cost:
+                  Value: *Amazing
+                  Base: *Remarkable
+                  Note: +2CS to Cost for very high-quality package.
+                Note: Multiple.
+                Description: |
+                  Excellent. Occupies one room. Contains showcase, lighting, frames to display mementos, and may be used as a reception half or gallery. At Remarkable Cost, contains capability to handle potentially dangerous exhibits at the Incredible level.
+              Imprisonment Package:
+                Cost:
+                  Value: *Monstrous
+                  Base: *Incredible
+                  Note: +2CS to Cost for very high-quality package.
+                Note: Multiple.
+                Description: |
+                  Excellent. Occupies one room. Contains standard restraining devices, including bars of Remarkable material strength. At Remarkable Cost, restraining devices made of Incredible Strength. At Incredible Cost, restraining devices at Amazing Strength and Excellent Strength inhibitor restraints.
+            Note: About 20+ areas over about 3+ levels.
+            Description: |
+              A small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams. Not strictly a structure or building, though there are areas that appear to be "inside," "outside," and "underground." As Ashtaret satisfies her needs with Powers and Spells, the lair has few amenities although everything there is of opulent quality. It primarily comprises places for Ashtaret to keep her Grimoires and other Mystic Texts, along with any treasures, prisoners, or other possessions, as well as a place for her to sit and hold court. The temperature, atmosphere, and other conditions are survivable, even livable, if not pleasant or comfortable, for humans, animals, and humanlike beings. There is no modern technology, with amenities such as cooking, hot water, and lighting provided by hellfire, running water from "natural" springs, and plumbing, drainage, and waste disposal by the void itself. Though indeed opulent in construction and ornamentation, it is also somewhat spare and spartan, empty and uninhabited save her herself and any conjured Servants; she finds it stifling, as well as boring to spend too much time there.
+          - Name: Example Manhattan Apartment
+            Type:
+              - 1BR Apartment
+              - 2BR Apartment
+              - 3BR Apartment
+            Cost:
+              Rent:
+                1BR Apartment:
+                  Rank: *Poor
+                  Base: *Feeble
+                  Note: +1CS to Cost for Manhattan Location
+                2BR Apartment:
+                  Rank: *Typical
+                  Base: *Poor
+                  Note: +1CS to Cost for Manhattan Location
+                3BR Apartment:
+                  Rank: *Excellent
+                  Base: *Good
+                  Note: +1CS to Cost for Manhattan Location
+            Size: Small
+            Material Strength: *Good
+            Room Packages:
+              Living Room Package:
+                Cost:
+                  Low: *Good
+                  Mid: *Excellent
+                  High: *Remarkable
+                Description: |
+                  Occupies one room. Consists of sofa, two easy chairs, two end tables, coffee tables, two lamps (ceiling table or floor). At Excellent Cost add television, stereo set-up, or piano. At Remarkable Cost add all three.
+              Dining Room Package:
+                Cost:
+                  Low: *Good
+                  Mid: *Excellent
+                  High: *Remarkable
+                Description: |
+                  Occupies one room. Consists of table, four chairs, ceiling lamp. At Excellent Cost add large table, bureau and four more chairs. At Remarkable Cost add china cabinet, set of good china and sterling tableware.
+              Kitchen Package:
+                Cost:
+                  Low: *Good
+                  Mid: *Excellent
+                  High: *Remarkable
+                Description: |
+                  Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing. At Excellent Cost add refrigerator, dishwasher, or microwave, plus a fire extinguisher. At Remarkable Cost add all three and freezer.
+              Storage, bathrooms, and closets:
+                Cost: *Unranked
+                Description: |
+                  These are assumed in the cost of the building, according to its design. 
+              Security Package:
+                Cost:
+                  Low: *Good
+                  High: *Excellent
+                Description: |
+                  One Security package to a door or window. Occupies no space. Consists of hand-set burglar alarms on windows and doors, coupled with mechanical locks.  At Excellent Cost, automatic burglar alarms with computer-code or card identification system.
+              Fire Protection Package:
+                Cost: *Excellent
+                Description: |
+                  Occupies no space. Sprinkler system that may cover up to 10 rooms, provides Good protection from fire.
+            Note:
+              - Example typical residences for Normal Human Aspect cover identity. Rented furnished. Neighborhood, type, and packages may vary by cover identity.
+              - There are probably several cats coming and going as they please.
+              - Very high-quality room packages may be +1CS or +2CS to Cost, especially in higher-end residences.
         Salaries Sundries and Other Equipment:
           Fire Extinguisher:
-              Price: *Typical
-              Note: Included in Kitchen Package with Cost Excellent or better, kept at appropriate Headquarters residences.
-              Description: |
-                Fire Extinguishers inflict no damage normally, but against fire are of Good Intensity (eliminate fire of Typical Intensity or less in the same area on a green FEAT, of Good Intensity on a yellow, and up to Excellent on a red). Against characters with flaming powers causes a FEAT roll against that Intensity to retain flame.
+            Price: *Typical
+            Note: Included in Kitchen Package with Cost Excellent or better, kept at appropriate Headquarters residences.
+            Description: |
+              Fire Extinguishers inflict no damage normally, but against fire are of Good Intensity (eliminate fire of Typical Intensity or less in the same area on a green FEAT, of Good Intensity on a yellow, and up to Excellent on a red). Against characters with flaming powers causes a FEAT roll against that Intensity to retain flame.
           Respectable Clothing:
-              Price: *Typical
-              Note: Daily wardrobes of Normal Human cover identities. More basic, casual, off-the-shelf, or mundane than what is created with Artifact Creation, Molecular Creation, and Molding (high fashion, valuable accessories, etc.).  Vintage clothing highly represented.
+            Price: *Typical
+            Note: Daily wardrobes of Normal Human cover identities. More basic, casual, off-the-shelf, or mundane than what is created with Artifact Creation, Molecular Creation, and Molding (high fashion, valuable accessories, etc.).  Vintage clothing highly represented.
           Original Art: 
-              Price: *Good
-              Note: Decorations and objets d'art, particularly in higher-end residences.
+            Price: *Good
+            Note: Decorations and objets d'art, particularly in higher-end residences.
           Mystic Texts:
-              Price: *Incredible
-              Note: Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
-              Description: |
-                Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
+            Price: *Incredible
+            Note: Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
+            Description: |
+              Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
         Magical Items:
           Grimoire:
               Note: Primary and backup Grimoires. Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
               Description: |
                 The book in which a mage records spells or incantations. Some spells, like many Entreaty spells, cannot be memorized, only read aloud from a text. A character can only have two grimoires at any one time, the primary and a back-up copy. Creating takes 10+1d10 full days of work.
           Ebon Staff of Ereshkigal:
-              Category: Miscellaneous-Staff
-              Item Condition: There are no conditions to the item (it operates as described).
-              Melee and Thrown Weapons:
-                Weapon: Club
-                Damage: 10
-                Type:
-                  - Blunt Attack
-                  - Blunt Throwing
-                Material Strength: *Unearthly
-                Note: Minimum 10 damage, maximum the lesser of wielder's Strength or item's Material Strength, on appropriate column (BA/BT).
-              Note:
-                - Descriptions are short summaries of full text. Consult Realms of Magic for full text of Spell description.
-                - Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
-                - All Spells cast by the staff are Amazing (50)
-              Description: |
-                About six feet long and an inch and a half thick, this staff of solid, lightweight, smooth, black metal is twisted along much of its length. It bears a prism of black crystal at one end, terminating in a tapered, blunted spike at the other.
-              Spells:
-                Rank: *Amazing
-                Personal Energies:
-                  Transformation:
+            Category: Miscellaneous-Staff
+            Item Condition: There are no conditions to the item (it operates as described).
+            Melee and Thrown Weapons:
+              Weapon: Club
+              Damage: 10
+              Type:
+                - Blunt Attack
+                - Blunt Throwing
+              Material Strength: *Unearthly
+              Note: Minimum 10 damage, maximum the lesser of wielder's Strength or item's Material Strength, on appropriate column (BA/BT).
+            Note:
+              - Descriptions are short summaries of full text. Consult Realms of Magic for full text of Spell description.
+              - Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
+              - All Spells cast by the staff are Amazing (50)
+            Description: |
+              About six feet long and an inch and a half thick, this staff of solid, lightweight, smooth, black metal is twisted along much of its length. It bears a prism of black crystal at one end, terminating in a tapered, blunted spike at the other.
+            Spells:
+              Rank: *Amazing
+              Personal Energies:
+                Transformation:
+                  Type:
+                    - Name: Darkforce
+                      Note: Drain Health points equal to the spell rank by touching or enveloping target.
+                  Note: Darkforce Requires access to Dimensional Energies.
+                  Description: |
+                    Turn body into another substance, retaining shape.
+              Universal Energies:
+                Eldritch Beams/Bolts:
                     Type:
-                      - Name: Darkforce
-                        Note: Drain Health points equal to the spell rank by touching or enveloping target.
-                    Note: Darkforce Requires access to Dimensional Energies.
+                      - Name: Darkforce Bolt
+                        Note: The target loses Health points equal to the caster’s spell rank. The bolt is black.
+                      - Name: Disintegrating Bolt
+                        Note:
+                          - Disintegrates non-living, inanimate objects up to 2 areas away.
+                          - Material rank higher than the spell rank, reduce target’s material strength -1CS.
+                          - Equal to or less than the spell rank, the target is disintegrated. Small objects destroyed automatically. Human-sized objects require Yellow result on spell rank FEAT. Destroying larger objects requires a successful Red result.
+                          - If the target is an object of no importance, the Judge can waive the FEAT roll and rule that the item is automatically destroyed.
+                    Note:
+                      - Darkforce Requires access to Dimensional Energies.
+                      - Beams/bolts originate from the crystal on the end of the staff.
                     Description: |
-                      Turn body into another substance, retaining shape.
-                Universal Energies:
-                  Eldritch Beams/Bolts:
-                      Type:
-                        - Name: Darkforce Bolt
-                          Note: The target loses Health points equal to the caster’s spell rank. The bolt is black.
-                        - Name: Disintegrating Bolt
-                          Note:
-                            - Disintegrates non-living, inanimate objects up to 2 areas away.
-                            - Material rank higher than the spell rank, reduce target’s material strength -1CS.
-                            - Equal to or less than the spell rank, the target is disintegrated. Small objects destroyed automatically. Human-sized objects require Yellow result on spell rank FEAT. Destroying larger objects requires a successful Red result.
-                            - If the target is an object of no importance, the Judge can waive the FEAT roll and rule that the item is automatically destroyed.
-                      Note:
-                        - Darkforce Requires access to Dimensional Energies.
-                        - Beams/bolts originate from the crystal on the end of the staff.
-                      Description: |
-                        Damage equal to spell Rank to one target in area.  
-                  Energy Control:
-                    Note: Darkforce Requires access to Dimensional Energies.
-                    Description: |
-                      Requires a successful spell rank FEAT roll. Can affect all of the specified type of energy within his area of effect, turning it on or off, making it overload, siphoning it, can channel controlled energy around self so as not to be harmed by it. A Red Result on  spell rank FEAT to use this spell offensively. The attack must be made by touch. The damage caused equals the spell rank number. Yellow or Red spell rank FEAT roll to use this spell defensively.
-                    Type: 
-                      - Name: Darkforce
-                        Note: May black out an area so completely that even infravision does not work. Cannot be used as a weapon outside of caster's area, anyone within that area except the caster loses Health points equal to the spell Rank Number each round.
+                      Damage equal to spell Rank to one target in area.  
+                Energy Control:
+                  Note: Darkforce Requires access to Dimensional Energies.
+                  Description: |
+                    Requires a successful spell rank FEAT roll. Can affect all of the specified type of energy within his area of effect, turning it on or off, making it overload, siphoning it, can channel controlled energy around self so as not to be harmed by it. A Red Result on  spell rank FEAT to use this spell offensively. The attack must be made by touch. The damage caused equals the spell rank number. Yellow or Red spell rank FEAT roll to use this spell defensively.
+                  Type: 
+                    - Name: Darkforce
+                      Note: May black out an area so completely that even infravision does not work. Cannot be used as a weapon outside of caster's area, anyone within that area except the caster loses Health points equal to the spell Rank Number each round.
           Ruby of Domination:
               Note: A relatively recent acquisition, Ashtaret's shard of the Ruby of Domination is set into a gold ring that she often wears in any Aspect.
               Description: |
@@ -1066,8 +1066,9 @@ Hero:
                 Any character drinking this serum is instantly returned to his full Health points and has all of his wounds healed. Any magical fungus, physical curses (like blindness), or diseases are held in check, then slowly cured over a few days time.
           Black Mirror:
               Note:
-                - The Black Mirror exists in Ashtaret's demiplanar pocket as it does in other dimensions.
+                - An instance of the Black Mirror exists in Ashtaret's demiplanar pocket, as it does in other dimensions.
                 - The incantation to access Ashtaret's domain through a Black Mirror instance is "NU-šu du₁₁-ga! šeg₉! NU-me-en šu-niĝin-na! Uĝu hul gub-bu-a! In-du₁₁-a! E-li a-ma-ru NU-tag-ga, šu-gin-na šeš-e-ne!" (Sumerian, roughly translated as, "Do not enter! Go away! You are not welcome here! Great danger/evil awaits you here! It has been said/you have been warned! Abandon all hope, you who enter here!") Ashtaret has never shared the Black Mirror incantation to her dimension with anyone but it is possible the knowledge is discoverable.
+                - Ashtaret knows the incantations for many other dimensions, or knows how to find them.
                 - There is a custom, dedicated room built around the instance of the Black Mirror in Ashtaret's domain to house it that has the combined features of the Trophy Room Package and Imprisonment Package.
               Description: |
                 This full length ebony oval of glass is surrounded by an ornate frame. While it has been called a mirror, it does not reflect. Instead, it is a legendary gateway to countless dimensions, to an infinite number of alternate Earths. A specific incantation is needed for each dimension. After speaking the incantation, the character speaking can simply pass through the mirror into the desired world. The mirror also exists on each dimension it opens into, so passage back and forth is easy, but only for those who know the right incantation.
