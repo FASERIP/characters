@@ -38,12 +38,12 @@ Hero:
       Unearthly: &Unearthly
         Name: Unearthly
         Number: 100
-#      Shift-X: &Shift-X
-#        Name: Shift-X
-#        Number: 150
-#      Shift-Y: &Shift-Y
-#        Name: Shift-Y
-#        Number: 225
+      Shift-X: &Shift-X
+        Name: Shift-X
+        Number: 150
+      Shift-Y: &Shift-Y
+        Name: Shift-Y
+        Number: 225
       Shift-Z: &Shift-Z
         Name: Shift-Z
         Number: 500
@@ -53,9 +53,9 @@ Hero:
       Class 3000: &Class-3000
         Name: Class 3000
         Number: 3000
-#      Class 5000: &Class-5000
-#        Name: Class 5000
-#        Number: 5000
+      Class 5000: &Class-5000
+        Name: Class 5000
+        Number: 5000
       Beyond: &Beyond
         Name: Beyond
         Number: .inf
