@@ -106,8 +106,9 @@ Hero:
       Conditions: Hallowed Ground
       Note:
         - Powers cease functioning within 20 feet of stimulus, -1CS Abilities per 10 turns of exposure, cannot directly use Powers against Stimulus from outside radius.
-        - Instantly reverses when moved away from Stimulus. Sites consecrated to her do not trigger this Weakness.
+        - Instantly reverses when moved away from Stimulus.
         - Psychological Weaknesses can be temporarily overcome by an Unearthly Intensity Psyche FEAT. They can be permanently overcome by a Shift-Z Intensity Psyche FEAT.
+        - Sites consecrated to her do not trigger this Weakness.
         - Magic use is not considered a Power, but lowered Abilities may impact it.
     Ethereal:
       Stimulus: Psychological
@@ -121,7 +122,10 @@ Hero:
       Stimulus: Energy Depletion
       Effect: Special
       Duration: Permanent
-      Conditions: Forced change back to Demon Aspect after 1d100 turns in Deity Aspect, doubled if a Psyche FEAT has Red result rolled after determining duration, unless in continuous contact with Energy Source while in that Aspect (contact pauses countdown).  Cannot resume Deity form until 1d100 turns exposure to Energy Source to recharge, Red Psyche FEAT to halve time (recharge does not begin until duration of change concludes).
+      Conditions: Assuming Deity Aspect
+      Note:
+        - Forced change back to Demon Aspect after 1d100 turns in Deity Aspect, doubled if a Psyche FEAT has Red result rolled after determining duration, unless in continuous contact with Energy Source while in that Aspect (contact pauses countdown).
+        - Cannot resume Deity form until 1d100 turns exposure to Energy Source to recharge, Red Psyche FEAT to halve time (recharge does not begin until duration of change concludes).
     Normal Human:
       Stimulus:
         Elemental Allergy: Suffers adverse effects if exposed to dangerous chemical elements.
