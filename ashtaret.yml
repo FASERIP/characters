@@ -130,14 +130,19 @@ Hero:
       Effect: Fatal
       Duration: Continuous with Contact
       Conditions: Exposure to dangerous energies or toxic substances causes loss of Health and Endurance.  May heal as normal after exposure ceases.
-      Note: Inherent to all Normal Human Physical Form Characters. This Weakness simply reflects how dangerous substances and energy like poison, fire, radiation, electricity, etc. affect Normal Humans.
+      Note:
+        - Inherent to all Normal Human Physical Form Characters.
+        - This Weakness simply reflects how dangerous substances and energy like poison, fire, radiation, electricity, etc. affect Normal Humans.
     All Aspects:
       Deity Rule:
         Stimulus: Special
         Effect: Special
         Duration: Continuous with Contact
         Conditions: Engaging personally in actively promoting a religion based on herself (may still passively attract followers).
-        Note: Loss of -1CS to all Powers and abilities. Inherent to all Deity Physical Form characters. This condition and effect applies in any Aspect. Independent activity by others where she is not actively involved does not trigger this Weakness, neither does assisting or otherwise taking actions that benefit those who already follow or worship her. Eventual attraction of living followers is passive and does not trigger this Weakness, but actively recruiting or encouraging her existing followers to do so does trigger it.
+        Note:
+          - Loss of -1CS to all Powers and abilities. Inherent to all Deity Physical Form characters. This condition and effect applies in any Aspect.
+          - Independent activity by others where she is not actively involved does not trigger this Weakness, neither does assisting or otherwise taking actions that benefit those who already follow or worship her.
+          - Eventual attraction of living followers as described in Deity entry is passive and does not trigger this Weakness, but actively recruiting or encouraging her existing followers to do so does trigger it.
       Aspect Shifting:
         Stimulus: Special
         Effect: Special
@@ -206,9 +211,10 @@ Hero:
         Ethereal: 140
         Normal Human: 60
       Resources:
-        Demon: *Poor
-        Deity: *Poor
-        Ethereal: null
+        Rank:
+          Demon: *Poor
+          Deity: *Poor
+          Ethereal: null
         Normal Human: *Typical
         Note:
           - Aliens have Poor (4) starting Resources.
@@ -216,12 +222,13 @@ Hero:
           - Molecular Creation (as described under Elemental Creation, of which the former is an improved version including the latter as inherent) can be used to raise Resources by up to +3CS, Molding can be used to raise Resources by up to +4CS.
           - Ashtaret doesn't really interact with mortal economies except in Normal Human Aspect cover identities.
       Popularity:
-        Demon: *Poor
-        Deity:
-          Public: *Remarkable
-          Established Religions: *Shift-0
-        Ethereal: null
-        Normal Human: *Typical
+        Rank:
+          Demon: *Poor
+          Deity:
+            Public: *Remarkable
+            Established Religions: *Shift-0
+          Ethereal: null
+          Normal Human: *Typical
         Note:
           - Base starting Popularity is 10.
           - Public identities have +10 starting Popularity.
