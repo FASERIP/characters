@@ -1014,10 +1014,10 @@ Hero:
                 Rank: *Amazing
                 Personal Energies:
                   Transformation:
-                    Note: Darkforce Requires access to Dimensional Energies.
                     Type:
                       - Name: Darkforce
                         Note: Drain Health points equal to the spell rank by touching or enveloping target.
+                    Note: Darkforce Requires access to Dimensional Energies.
                     Description: |
                       Turn body into another substance, retaining shape.
                 Universal Energies:
