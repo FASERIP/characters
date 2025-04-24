@@ -103,7 +103,7 @@ Hero:
       Duration: Continuous with Contact
       Conditions: Hallowed Ground
       Note:
-        - Powers cease functioning withing 20 feet of stimulus, -1CS Abilities per 10 turns of exposure, cannot directly use Powers against Stimulus from outside radius.
+        - Powers cease functioning within 20 feet of stimulus, -1CS Abilities per 10 turns of exposure, cannot directly use Powers against Stimulus from outside radius.
         - Instantly reverses when moved away from Stimulus. Sites consecrated to her do not trigger this Weakness.
         - Psychological Weaknesses can be temporarily overcome by an Unearthly Intensity Psyche FEAT. They can be permanently overcome by a Shift-Z Intensity Psyche FEAT.
         - Magic use is not considered a Power, but lowered Abilities may impact it.
@@ -134,7 +134,7 @@ Hero:
         Stimulus: Special
         Effect: Special
         Duration: Continuous with Contact
-        Conditions: Engaging personally in actively promoting a religion based on herself (may still passively attract folowers).
+        Conditions: Engaging personally in actively promoting a religion based on herself (may still passively attract followers).
         Note: Loss of -1CS to all Powers and abilities. Inherent to all Deity Physical Form characters. This condition and effect applies in any Aspect. Independent activity by others where she is not actively involved does not trigger this Weakness, neither does assisting or otherwise taking actions that benefit those who already follow or worship her. Eventual attraction of living followers is passive and does not trigger this Weakness, but actively recruiting or encouraging her existing followers to do so does trigger it.
       Aspect Shifting:
         Stimulus: Special
@@ -748,7 +748,7 @@ Hero:
                 Number: 709
                 Spread: 28
                 Turns Until Full Recovery: 24
-            Note: Rankless abilities not included.  Focus itself is.
+            Note: Rank-less abilities not included.  Focus itself is.
             Description: |
               Channels all Abilities and Powers into a single burst, replacing the target Power’s rank with the sum of all other ranks. After use, all Abilities and Powers drop to Feeble. The Focus rank determines how many points can be recovered each turn, divided evenly across all affected traits.
         Self Alteration:
@@ -1040,19 +1040,19 @@ Hero:
           - Ruby of Domination:
               Note: A relatively recent acquisition, Ashtaret's shard of the Ruby of Domination is set into a gold ring that she often wears in any Aspect.
               Description: |
-                This large red, floating ruby (3 feet in diameter) was once used by Xandu in an attempt to make Earth's population mind-slaves. When Doctor Strange shattered it, little rinoes were left on Earth from its shards. A character attempting the powers of Emotion Control, Mental Control, Mesmerism, or Mesmermechanism has a +1CS for success when focusing the power through one of these smaller Rubies of Domination.
+                This large red, floating ruby (3 feet in diameter) was once used by Xandu in an attempt to make Earth's population mind-slaves. When Doctor Strange shattered it, little rubies were left on Earth from its shards. A character attempting the powers of Emotion Control, Mental Control, Mesmerism, or Mesmermechanism has a +1CS for success when focusing the power through one of these smaller Rubies of Domination.
           - Serum of the Seraphim:
-              Note: Unelss she's recentlty used it, Ashtaret tends to have at least one of these stashed somewhere, either on her person, or at most a Conjure Spell away.
+              Note: Unless she's recently used it, Ashtaret tends to have at least one of these stashed somewhere, either on her person, or at most a Conjure Spell away.
               Description: |
-                This is the most powerful medicine known to the occult and can cure anything but death once it occurs. The serum is so potent that only a few ounces are needed, it is usually kept in tiny ornale containers holding just a few ounces.
-                Any character drinking this serum isinstantly returned to his full Health points and has all of his wounds healed. Any magical fungus, physical curses (like blindness), or diseases are held in check, then slowly cured over a few days time.
+                This is the most powerful medicine known to the occult and can cure anything but death once it occurs. The serum is so potent that only a few ounces are needed, it is usually kept in tiny ornate containers holding just a few ounces.
+                Any character drinking this serum is instantly returned to his full Health points and has all of his wounds healed. Any magical fungus, physical curses (like blindness), or diseases are held in check, then slowly cured over a few days time.
           - Black Mirror:
               Note:
                 - The Black Mirror exists in Ashtaret's demiplanar pocket as it does in other dimensions.
                 - The incantation to access Ashtaret's domain through a Black Mirror instance is "NU-šu du₁₁-ga! šeg₉! NU-me-en šu-niĝin-na! Uĝu hul gub-bu-a! In-du₁₁-a! E-li a-ma-ru NU-tag-ga, šu-gin-na šeš-e-ne!" (Sumerian, roughly translated as, "Do not enter! Go away! You are not welcome here! Great danger/evil awaits you here! It has been said/you have been warned! Abandon all hope, you who enter here!") Ashtaret has never shared the Black Mirror incantation to her dimension with anyone but it is possible the knowledge is discoverable.
                 - There is a custom, dedicated room built around the instance of the Black Mirror in Ashtaret's domain to house it that has the combined features of the Trophy Room Package and Imprisonment Package.
               Description: |
-                This full length ebony oval of glass is surrounded by an ornate frame. While it has been called a mirror, it does not reflect. Instead, it is a legendary gateway to countless dimensions, to an infinite number of alternate Earths. A specific incantation is needed for each dimension. After speaking the incantation, the char- acter speaking can simply pass through the mirror into the desired world. The mirror also exists on each dimension it opens into, so passage back and forth is easy, but only for those who know the right incantation.
+                This full length ebony oval of glass is surrounded by an ornate frame. While it has been called a mirror, it does not reflect. Instead, it is a legendary gateway to countless dimensions, to an infinite number of alternate Earths. A specific incantation is needed for each dimension. After speaking the incantation, the character speaking can simply pass through the mirror into the desired world. The mirror also exists on each dimension it opens into, so passage back and forth is easy, but only for those who know the right incantation.
         Note: Most equipment is ad hoc via Artifact Creation, Molecular Creation, and Molding.
       Contacts:
         Professional:
@@ -1214,7 +1214,7 @@ Hero:
                 Sensing-Fields: Detects magical or force fields.
                 Sensing-Identity: Discerns true identities or natures.
                 Sensing-Mystical Detection: Detects magical energies or spells.
-            Shield-Multiple: As individual shield, but multple stacked, +1 layer per Rank over Good.  Destroyed individually.
+            Shield-Multiple: As individual shield, but multiple stacked, +1 layer per Rank over Good.  Destroyed individually.
             Teleportation: Instantly transports caster or target across space without physically crossing the intervening distance. Requires familiarity or successful FEAT roll if teleporting into unknown locations. Can teleport objects or beings within strength limits.
             Thaumaturgy:
               Description: |
@@ -1235,7 +1235,7 @@ Hero:
                 Invisibility-Others: Renders others temporarily invisible.
                 Shrinking-Others: Temporarily reduces the size of targeted beings.
   Biography: |
-    An ancient Demon from terrible realms beyond, formerly a primeval Deity no longer widely worshipped, Ashtaret is long since finished with the machinations of cosmic evil, and mostly so with the idea of regaining her divinity, and pops in to the Earth Dimension from time to time to live her best immortal life in the dual-natured glamour and shadows of 1980's Manhattan. It is possible, even likely, but unconformed that Ashtaret is her universe's version of Inanna. Her extradimensional lair is in a small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams; it is opulent but spare and empty; she considers it stifling and boring, preferring Earth.
+    An ancient Demon from terrible realms beyond, formerly a primeval Deity no longer widely worshipped, Ashtaret is long since finished with the machinations of cosmic evil, and mostly so with the idea of regaining her divinity, and pops in to the Earth Dimension from time to time to live her best immortal life in the dual-natured glamour and shadows of 1980's Manhattan. It is possible, even likely, but unconfirmed that Ashtaret is her universe's version of Inanna. Her extradimensional lair is in a small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams; it is opulent but spare and empty; she considers it stifling and boring, preferring Earth.
   Personality: |
     Vain, capricious, self-serving, whiny, pouty, manipulative, hedonistic, vindictive, and generally chaotic, though not particularly malevolent, Ashtaret is out for herself first, last, and, usually, only. She just wants to have fun.  However, she actively likes children and animals, despite her other, less wholesome traits. Dislikes personally interacting with modern technology, but appreciates when others use it to her benefit.
   Description: |
