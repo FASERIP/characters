@@ -233,7 +233,7 @@ Hero:
         Note:
         - Descriptions are short summaries of full text. Consult Ultimate Powers Book for full text of Power description.
         - Not all Powers available to all Aspects.  There will be a Rank for that Aspect if the power is available.
-        - A Power Rank with no subkeys is available to all Aspects
+        - A Power with a Rank listed with no further qualification is available to all Aspects at the same Power Rank (e.g. Total Memory).
         Defensive:
           Resistance to Emotion Attacks:
             Rank:
