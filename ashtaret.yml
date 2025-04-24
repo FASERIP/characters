@@ -62,10 +62,11 @@ Hero:
   Name: Ashtaret
   Identity: Ashtaret
   Secret:
-    Demon: false
-    Deity: false
-    Ethereal: null
-    Normal Human: true
+    Identity:
+      Demon: false
+      Deity: false
+      Ethereal: false
+      Normal Human: true
     Note: Normal Human Aspects may have appropriate cover identities.
   Base of Operations:
     Extraplanar:
@@ -218,8 +219,8 @@ Hero:
         Rank:
           Demon: *Poor
           Deity: *Poor
-          Ethereal: null
-        Normal Human: *Typical
+          Ethereal: *Poor
+          Normal Human: *Typical
         Note:
           - Aliens have Poor (4) starting Resources.
           - Normal Human Resources represent the average Resources of a Normal Human cover identity. May optionally vary from Poor (4) to Incredible (40) if rolled on Ability Modifier Table for that cover identity.
@@ -231,7 +232,7 @@ Hero:
           Deity:
             Public: *Remarkable
             Established Religions: *Shift-0
-          Ethereal: null
+          Ethereal: *Poor
           Normal Human: *Typical
         Note:
           - Base starting Popularity is 10.
@@ -240,6 +241,7 @@ Hero:
           - Aliens in general have -5 starting Popularity.
           - Demons have a -2CS to initial popularity.
           - Deities have +2CS Popularity with public and 0 Popularity with established religions.
+          - Ethereal Aspect Popularity is linked to Demon Aspect.
           - Normal Human Popularity the average Popularity of a cover identity, and may vary.
     Special Abilities:
       Powers:
