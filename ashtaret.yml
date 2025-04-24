@@ -859,6 +859,9 @@ Hero:
           Other Weapons: []
         Vehicles: []
         Headquarters:
+          Note:
+            - Cost is a reflection of location as well as sire of the structure. The listed prices are for a building in most American cities and their suburban surroundings. If the heroes are apartment hunting in Manhattan or the richer suburbs, the price is +1CS.
+            - Room Package Costs are for a fairly nice selection of material. Very high-quality packages (a Library Package stocked with first editions) may be +1CS or +2CS.
           Extradimensional Lair:
             Type: Special
             Cost: *Beyond
@@ -886,8 +889,18 @@ Hero:
                   Value: *Incredible
                   Base: *Excellent
                   Note: +2CS to Cost for very high-quality package.
+                Note: Multiple.
                 Description: |
                     Excellent. Occupies one room. Consists of two easy chairs, table, desk, straight chair, and up to five bookcases on general subjects (texts readily available, and including encyclopedias, world histories, and atlases). Special or rare volumes, such as the Book of the Vishanti, the Necronomicon, or Amazing Fantasy \#15, would have to be obtained separately.
+              Office Package:
+                Cost:
+                  Value: *Remarkable
+                  Base: *Good
+                  Note: +2CS to Cost for very high-quality package.
+                Note:
+                  - Multiple.
+                Description: |
+                  Good. Occupies one or more rooms. Includes desk, three chairs, two lamps. 
               Conference Room Package:
                 Cost:
                   Value: *Amazing
@@ -895,7 +908,7 @@ Hero:
                   Note: +2CS to Cost for very high-quality package.
                 Note:
                   - Multiple.
-                  - At least one in each format, a third, extra large, set up as a throne room; yet another extra large one is set up as an arena or small coliseum.
+                  - At least one in each format.
                 Description: |
                   Remarkable. Occupies one room. Contains material for assembling of heroes, or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs.
               Porches, storage, bathrooms, and closets:
@@ -919,9 +932,13 @@ Hero:
                 Note: Multiple.
                 Description: |
                   Excellent. Occupies one room. Contains standard restraining devices, including bars of Remarkable material strength. At Remarkable Cost, restraining devices made of Incredible Strength. At Incredible Cost, restraining devices at Amazing Strength and Excellent Strength inhibitor restraints.
-            Note: About 20+ areas over about 3+ levels.
+            Note:
+              - About 20+ areas over about 3+ levels.
+              - Portal Room to secure Black Mirror instance a combination of Trophy Room and Imprisonment Packages' features.
+              - Scrying Room for Satan-Sphere a combination of Trophy Room and Office Packages' features.
+              - Throne Room for holding court a combination of Conference Room and Office Packages' features.
             Description: |
-              A small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams. Not strictly a structure or building, though there are areas that appear to be "inside," "outside," and "underground." As Ashtaret satisfies her needs with Powers and Spells, the lair has few amenities although everything there is of opulent quality. It primarily comprises places for Ashtaret to keep her Grimoires and other Mystic Texts, along with any treasures, prisoners, or other possessions, as well as a place for her to sit and hold court. The temperature, atmosphere, and other conditions are survivable, even livable, if not pleasant or comfortable, for humans, animals, and humanlike beings. There is no modern technology, with amenities such as cooking, hot water, and lighting provided by hellfire, running water from "natural" springs, and plumbing, drainage, and waste disposal by the void itself. Though indeed opulent in construction and ornamentation, it is also somewhat spare and spartan, empty and uninhabited save her herself and any conjured Servants; she finds it stifling, as well as boring to spend too much time there.
+              A small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams. Not strictly a structure or building, though there are areas that appear to be "inside," "outside," and "underground." As Ashtaret satisfies her needs with Powers and Spells, the lair has few amenities although everything there is of opulent quality, the architecture and design reminiscent of ancient Mesopotamian aesthetics. It primarily comprises places for Ashtaret to keep her Grimoires and other Mystic Texts, along with any treasures, prisoners, or other possessions, as well as a place for her to sit and hold court. The temperature, atmosphere, and other conditions are survivable, even livable, if not pleasant or comfortable, for humans, animals, and humanlike beings. There is no modern technology, with amenities such as cooking, hot water, and lighting provided by hellfire, running water from "natural" springs, and plumbing, drainage, and waste disposal by the void itself. Though indeed opulent in construction and ornamentation, it is also somewhat spare and spartan, empty and uninhabited save her herself and any conjured Servants; she finds it stifling, as well as boring to spend too much time there.
           Example Manhattan Apartment:
             Type:
               - 1BR Apartment
@@ -1072,6 +1089,13 @@ Hero:
               - There is a custom, dedicated room built around the instance of the Black Mirror in Ashtaret's domain to house it that has the combined features of the Trophy Room Package and Imprisonment Package.
             Description: |
               This full length ebony oval of glass is surrounded by an ornate frame. While it has been called a mirror, it does not reflect. Instead, it is a legendary gateway to countless dimensions, to an infinite number of alternate Earths. A specific incantation is needed for each dimension. After speaking the incantation, the character speaking can simply pass through the mirror into the desired world. The mirror also exists on each dimension it opens into, so passage back and forth is easy, but only for those who know the right incantation.
+          Satan-Sphere:
+            Note:
+              - Ashtaret acquired this relatively recently among the aftermath and fallout of Doctor Strange's conflict with the Sons of Satannish.
+              - It is kept in a dedicated scrying room in Ashtaret's domain that has the combined features of the Trophy Room Package and Office Package. 
+            Description: |
+              This large (8 feet in diameter) fiery white sphere was last known to be owned by the cult Sons of Satannish. It acts in a manner similar to the Orb of Agamotto, locating that which the user desires to see and hear on Earth. The Satan-Sphere also allows a user who makes a successful Psyche FEAT roll to send spells through it at observed targets (the check must be made for each spell used, a failed roll means that the spell has been wasted). Even if the attack successfully goes through the Satan-Sphere the target can return the attack spell to the user if: a) the target is of a mastery level equal to or greater than the user; and b) the target succeeds in making a Yellow or Red Psyche FEAT roll.
+              The current whereabouts of the Satan-Sphere are unknown.
         Note: Most equipment is ad hoc via Artifact Creation, Molecular Creation, and Molding.
       Contacts:
         Professional:
