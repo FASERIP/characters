@@ -206,7 +206,7 @@ Hero:
       Resources:
         Demon: *Poor
         Deity: *Poor
-        Ethereal: *Poor
+        Ethereal: null
         Normal Human: *Typical
         Note:
           - Aliens have Poor (4) starting Resources.
@@ -218,7 +218,7 @@ Hero:
         Deity:
           - Public: *Remarkable
           - Established Religions: *Shift-0
-        Ethereal: *Unranked
+        Ethereal: null
         Normal Human: *Typical
         Note:
           - Base starting Popularity is 10.
