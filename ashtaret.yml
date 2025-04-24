@@ -216,8 +216,8 @@ Hero:
       Popularity:
         Demon: *Poor
         Deity:
-          Public: *Remarkable
-          Established Religions: *Shift-0
+          - Public: *Remarkable
+          - Established Religions: *Shift-0
         Ethereal: *Unranked
         Normal Human: *Typical
         Note:
