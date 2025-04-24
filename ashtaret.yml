@@ -68,7 +68,7 @@ Hero:
     Normal Human: true
     Note: Normal Human Aspects may have appropriate cover identities.
   Base of Operations:
-    - Ashtaret's Demiplanar Lair:
+    - Ashtaret's Demiplanar Pocket Domain:
       - Hell Dimension
       - Dimension of Dreams
     - Manhattan:
@@ -233,6 +233,7 @@ Hero:
         Note:
         - Descriptions are short summaries of full text. Consult Ultimate Powers Book for full text of Power description.
         - Not all Powers available to all Aspects.  There will be a Rank for that Aspect if the power is available.
+        - A Power Rank with no subkeys is available to all Aspects
         Defensive:
           Resistance to Emotion Attacks:
             Rank:
@@ -351,8 +352,8 @@ Hero:
         Detection:
           Environmental Awareness:
             Rank:
-              Deity: *Monstrous
               Demon: *Incredible
+              Deity: *Monstrous
               Normal Human: *Remarkable
             Description: |
               Automatically aware of environmental conditions and disturbances such as weather, chemicals, movement, and life within the Power's range. Can gain more detailed information with effort.
@@ -609,11 +610,7 @@ Hero:
             Description: |
               Strengthens mental fortitude, resisting psychological manipulation and enhancing determination.
           Linguistics:
-            Rank:
-              Demon: *Monstrous
-              Deity: *Monstrous
-              Ethereal: *Monstrous
-              Normal Human: *Monstrous
+            Rank: *Monstrous
             Description: |
               Instantly understands and communicates in any language encountered, spoken or written.
           Mental Probe:
@@ -656,11 +653,7 @@ Hero:
             Description: |
               Mentally communicates with others, sending and receiving thoughts, and establishing mental links.
           Total Memory:
-            Rank:
-              Demon: *Monstrous
-              Deity: *Monstrous
-              Ethereal: *Monstrous
-              Normal Human: *Monstrous
+            Rank: *Monstrous
             Description: |
               Perfectly recalls any previously experienced event or information without degradation.
         Physical Enhancement:
@@ -719,13 +712,13 @@ Hero:
               Manipulates sound and voice to imitate others, alter tone, or create sonic effects.
         Power Control:
           Energy Source:
-            Rank:
-              Deity: *Unranked
+            Rank: *Unranked
             Type:
-            - Hell Dimension
-            - Dimension of Dreams
-            - Site of active worship: Cannot benefit from actively self-promoted worship.
-            Note: Recharges Deity Aspect. Not relevant to other Aspects.
+              - Hell Dimension
+              - Dimension of Dreams
+              - Ashtaret's Demiplanar Pocket Domain
+              - Site of active worship: Cannot benefit from actively self-promoted worship.
+            Note: Recharges Deity Aspect.
             Description: |
               Supplies energy to sustain other Powers or devices continuously without external input.
           Focus:
@@ -1055,7 +1048,7 @@ Hero:
                 Any character drinking this serum isinstantly returned to his full Health points and has all of his wounds healed. Any magical fungus, physical curses (like blindness), or diseases are held in check, then slowly cured over a few days time.
           - Black Mirror:
               Note:
-                - The Black Mirror exists in Ashtaret's demiplanar pocket.
+                - The Black Mirror exists in Ashtaret's demiplanar pocket as it does in other dimensions.
                 - The incantation to access Ashtaret's domain through a Black Mirror instance is "NU-šu du₁₁-ga! šeg₉! NU-me-en šu-niĝin-na! Uĝu hul gub-bu-a! In-du₁₁-a! E-li a-ma-ru NU-tag-ga, šu-gin-na šeš-e-ne!" (Sumerian, roughly translated as, "Do not enter! Go away! You are not welcome here! Great danger/evil awaits you here! It has been said/you have been warned! Abandon all hope, you who enter here!") Ashtaret has never shared the Black Mirror incantation to her dimension with anyone but it is possible the knowledge is discoverable.
                 - There is a custom, dedicated room built around the instance of the Black Mirror in Ashtaret's domain to house it that has the combined features of the Trophy Room Package and Imprisonment Package.
               Description: |
