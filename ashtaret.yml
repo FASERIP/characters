@@ -906,7 +906,7 @@ Hero:
                   Value: *Unearthly
                   Base: *Amazing
                   Note: +2CS to Cost for very high-quality package.
-                Note: Constructed as thermae-style baths, the pools are supplied by volcanic hot springs, and do Feeble (2) damage per turn to anyone in them who lacks sufficient resistance to or protection from fire and heat, Feeble (2) damage per turn to anyone in them without sufficient resistance to corrosives, and Feeble (2) damage per turn to those without protection from toxins.
+                Note: Constructed as thermae-style baths, the pools are supplied by volcanic hot springs, and do Feeble (2) heat damage per turn to anyone in them who lacks sufficient resistance to or protection from fire and heat, Feeble (2) corrosive damage per turn to anyone in them without sufficient resistance to corrosives, and Feeble (2) poison damage per turn to those without protection from toxins.
                 Description: |
                   Remarkable outdoors, Incredible indoors. Occupies one or more rooms, or outdoor area. Consists of Olympic-size pool, filtered water, small sauna room. At Remarkable Cost adds separate, smaller pool (featuring diving board and chlorine), plus pool cover. At Incredible  Cost includes two Olympic pools, heated water, pool cover. At Amazing Cost, both pools are heated.
               Conference Room Package:
