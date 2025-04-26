@@ -470,8 +470,8 @@
                 Illusion Casting:
                   Rank:
                     Demon: *Incredible
-                  Deity: *Incredible
-                  Ethereal: *Incredible
+                    Deity: *Incredible
+                    Ethereal: *Incredible
                   Description: |
                     Creates visual, auditory, or tactile illusions, deceiving targets through realistic sensory deception.
               Lifeform Control:
@@ -744,23 +744,27 @@
                     Normal Human: *Remarkable
                   Total:
                     Demon:
-                      Rank: *Class-1000
-                      Number: 2615
+                      Rank:
+                        Name: Class-1000
+                        Number: 2615
                       Spread: 57
                       Turns Until Full Recovery: 35
                     Deity:
-                      Rank: *Class-3000
-                      Number: 4190
+                      Rank:
+                        Name: Class-3000
+                        Number: 4190
                       Spread: 61
                       Turns Until Full Recovery: 42
                     Ethereal:
-                      Rank: *Class-1000
-                      Number: 1865
+                      Rank:
+                        Name: Class-1000
+                        Number: 1865
                       Spread: 36
                       Turns Until Full Recovery: 38
                     Normal Human:
-                      Rank: *Shift-Z
-                      Number: 709
+                      Rank:
+                        Name: Shift-Z
+                        Number: 709
                       Spread: 28
                       Turns Until Full Recovery: 24
                   Note: Rank-less abilities not included.  Focus itself is.
@@ -1483,8 +1487,8 @@
                   Health:
                     Demon: 160
                     Ethereal: 160
-                    Normal Human: 60
-                    Animal: 60
+                    Normal Human: 80
+                    Animal: 80
                   Karma:
                     Demon: 90
                     Ethereal: 90
@@ -1519,6 +1523,16 @@
                           Animal: *Excellent
                         Description: |
                           Senses function in their normal manner but their normal range of sensitivity is altered. Hears extremely high and low pitches.
+                      Environmental Detection:
+                        Rank:
+                          Demon: *Excellent
+                          Animal: *Excellent
+                      Magic Detection:
+                        Rank:
+                          Demon: *Remarkable
+                          Ethereal: *Remarkable
+                          Normal Human: *Excellent
+                          Animal: *Excellent
                       Tracking Ability:
                         Rank:
                           Animal: *Excellent
@@ -1553,7 +1567,22 @@
                         Type:
                           - Claws (Edged Attack), Demon Aspect and feline Animal Aspects only.
                           - Bite (Edged Attack), Animal Aspect Only
+                    Illusory:
+                      Illusion Casting:
+                        Rank:
+                          Demon: *Remarkable
+                          Ethereal: *Remarkable
+                    Lifeform Control:
+                      Mind Control:
+                        Rank:
+                          Ethereal: *Remarkable
+                        Form:
+                          Type: Possession
                     Mental Enhancement:
+                      Iron Will:
+                        Rank:
+                          Normal Human: *Remarkable
+                          Animal: *Remarkable
                       Telekinesis:
                         Rank:
                           Demon: *Good
@@ -1570,6 +1599,28 @@
                       Stealth:
                         Rank:
                           Animal: *Excellent
+                    Power Control:
+                      Focus:
+                        Ranks:
+                          Demon: *Excellent
+                          Ethereal: *Excellent
+                          Normal Human: *Good
+                        Totals:
+                          Demon:
+                            Rank: Shift-Z
+                            Number: 575
+                            Spread: 20
+                            Turns to Full Recovery: 29
+                          Ethereal:
+                            Rank: Shift-Z
+                            Number: 470
+                            Spread: 16
+                            Turns to Full Recovery: 24
+                          Normal Human:
+                            Rank: Shift-Y
+                            Number: 270
+                            Spread: 12
+                            Turns to Full Recovery: 27
                     Self Alteration:
                       Imitation-Face Changer:
                         Rank:
