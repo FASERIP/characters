@@ -220,9 +220,9 @@ Hero:
           Ethereal: *Poor
           Normal Human: *Typical
         Note:
-          - Aliens have Poor (4) starting Resources.
+          - Aliens (including Demons, Deities, and the like) have Poor (4) starting Resources.
           - Normal Human Resources represent the average Resources of a Normal Human cover identity. May optionally vary from Poor (4) to Incredible (40) if rolled on Ability Modifier Table for that cover identity.
-          - Molecular Creation (as described under Elemental Creation, of which the former is an improved version including the latter as inherent) can be used to raise Resources by up to +3CS, Molding can be used to raise Resources by up to +4CS.
+          - Molecular Conversion (as described under Elemental Conversion, of which the former is an improved version including the latter as inherent) can be used to raise Resources by up to +3CS, Molding can be used to raise Resources by up to +4CS.
           - Resources apply in Earth Dimension. Ashtaret's effective Resources within her own Domain are functionally Class 1000.
           - Ashtaret doesn't really interact with mortal economies except in Normal Human Aspect cover identities.
       Popularity:
@@ -860,7 +860,7 @@ Hero:
         Vehicles: []
         Headquarters:
           Note:
-            - Cost is a reflection of location as well as sire of the structure. The listed prices are for a building in most American cities and their suburban surroundings. If the heroes are apartment hunting in Manhattan or the richer suburbs, the price is +1CS.
+            - Cost is a reflection of location as well as size of the structure. The listed prices are for a building in most American cities and their suburban surroundings. If the heroes are apartment hunting in Manhattan or the richer suburbs, the price is +1CS.
             - Room Package Costs are for a fairly nice selection of material. Very high-quality packages (a Library Package stocked with first editions) may be +1CS or +2CS.
           Extradimensional Lair:
             Type: Special
@@ -873,7 +873,9 @@ Hero:
                   Value: *Amazing
                   Base: *Remarkable
                   Note: +2CS to Cost for very high-quality package.
-                Note: Multiple.
+                Note:
+                  - Multiple.
+                  - Any "silverware" is actually a dark, lightweight, highly durable, unidentifiable metal rather than sterling, and "china" is basalt or obsidian rather than porcelain.
                 Description: |
                   Good. Occupies one room. Consists of table, four chairs, ceiling lamp. Excellent Cost add large table, bureau and four more chairs. Remarkable Cost add china cabinet, set of good china and sterling tableware.
               Kitchen Package:
@@ -881,7 +883,7 @@ Hero:
                   Value: *Remarkable
                   Base: *Good
                   Note: +2CS to Cost for very high-quality package.
-                Note:  Stoves, ovens, hearths, hot water, etc. powered by hellfire. Water provided by "natural" springs.
+                Note:  Stoves, ovens, hearths, hot water, etc. are powered by hellfire or vulcanism. Running water is provided by "natural" springs.
                 Description: |
                   Good. Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing.
               Library Package:
@@ -942,11 +944,13 @@ Hero:
                   Excellent. Occupies one room. Contains standard restraining devices, including bars of Remarkable material strength. At Remarkable Cost, restraining devices made of Incredible Strength. At Incredible Cost, restraining devices at Amazing Strength and Excellent Strength inhibitor restraints.
             Note:
               - About 20+ areas over about 3+ levels.
-              - Portal Room to secure Black Mirror instance a combination of Trophy Room and Imprisonment Packages' features.
-              - Scrying Room for Satan-Sphere a combination of Trophy Room and Office Packages' features.
-              - Throne Room for holding court a combination of Conference Room and Office Packages' features.
+              - Descriptions are references from the Ultimate Player's Book chapter on Headquarters, and exemplary, rather than canonical, functionally or qualitatively generally equivalent to the contents of the extraplanar domain by comparison to 1980's Manhattan, rather than literal descriptions.
+              - Portal Room to secure Black Mirror instance is a combination of Trophy Room and Imprisonment Package features, designed to keep interlopers somehow emerging from the Black Mirror confined away from the rest of her domain.
+              - Scrying Room for the Satan-Sphere is a combination of Trophy Room and Conference Room features.
+              - Throne Room for holding court is a combination of Conference Room and Office Package features.
             Description: |
-              A small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams, with a readily accesible border with the Astral Plane. It's not strictly a structure or building, though there are areas that appear to be "inside," as well as "outside," and "underground," with the substructure of "walls," "ceilings," "floors," and "the ground" being an ultrahard, basalt-like material, and "weather" of sorts in the "sky" of the "outdoor" portions. As Ashtaret satisfies her needs with Powers and Spells, the lair has few amenities although everything there is of opulent quality, the architecture and design reminiscent of ancient Mesopotamian aesthetics.  The statuary and friezes and other elements, the lighting and temperature, all respond subtly to her emotional state, changing their countenance or content to reflect her moods. It primarily comprises places for Ashtaret to keep her Grimoires and other Mystic Texts, along with any treasures, prisoners, or other possessions, as well as a place for her to sit and hold court. The temperature, atmosphere, and other conditions are survivable, even livable, if not pleasant or comfortable, for humans, animals, and humanlike beings. There is no modern technology present, with amenities such as cooking, hot water, and lighting provided by hellfire and witchlight, running water from "natural" springs, and plumbing, drainage, and waste disposal by the void itself. Though indeed opulent in construction and ornamentation, it is also somewhat spare and spartan, empty and uninhabited save her herself and any conjured Servants; she finds it stifling and boring to spend too much time there.
+              A small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams, with a readily accessible border with the Astral Plane, Ashtaret's domain is not strictly a structure or building, though there are areas that appear to be "inside," as well as "outside," and "underground." The substructure of "walls," "ceilings," "floors," and "the ground" are an ultrahard, impenetrable, basalt-like material.  There is "weather" of sorts in the "sky" of the "outdoor" portions, and flying away from the surface eventually leads to the Astral Plane. However, this is ultimately a one-way trip once the flyer has passed fully into the Astral, requiring a different mechanism to return.
+              As Ashtaret satisfies her needs with Powers and Spells, the lair has few amenities although everything there is of opulent quality, as it primarily comprises places for Ashtaret to keep her Grimoires and other Mystic Texts, along with any treasures, prisoners, or other possessions, as well as a place for her to sit and hold court. The architecture and design are reminiscent of ancient Mesopotamian aesthetics, and the statuary and friezes and other elements, as well as the lighting and temperature, all respond subtly to her emotional state, changing their countenance or content to reflect her moods. The temperature, atmosphere, and other conditions are survivable, even livable, if not pleasant or comfortable, for humans, animals, and humanlike beings. There is no modern technology present, with amenities such as cooking, hot water, and lighting provided by hellfire and witchlight, running water from "natural" springs, and plumbing, drainage, and waste disposal by the void itself. Though indeed opulent in construction and ornamentation, it is also somewhat spare and spartan, empty and uninhabited save her herself and any conjured Servants; she finds it stifling and boring to spend too much time there.
           Example Manhattan Apartment:
             Type:
               - 1BR Apartment
