@@ -871,6 +871,13 @@
                   Size: Deluxe
                   Material Strength: *Unearthly
                   Room Packages:
+                    Living Room Package:
+                      Cost:
+                        Value: *Remarkable
+                        Base: *Good
+                      Note: Waiting areas outside offices and conference rooms; not comfortable or homey. Sofas and chairs are basalt benches and cathedra.
+                      Description: |
+                        Cost: Good Occupies one room. Consists of sofa, two easy chairs, two end tables, coffee tables, two lamps (ceiling table or floor).
                     Dining Room Package:
                       Cost:
                         Value: *Amazing
@@ -880,7 +887,7 @@
                         - Multiple.
                         - Any "silverware" is actually a dark, lightweight, highly durable, unidentifiable metal rather than sterling, and "china" is basalt or obsidian rather than porcelain.
                       Description: |
-                        Good. Occupies one room. Consists of table, four chairs, ceiling lamp. Excellent Cost add large table, bureau and four more chairs. Remarkable Cost add china cabinet, set of good china and sterling tableware.
+                        Cost: Good Occupies one room. Consists of table, four chairs, ceiling lamp. Excellent Cost add large table, bureau and four more chairs. Remarkable Cost add china cabinet, set of good china and sterling tableware.
                     Kitchen Package:
                       Cost:
                         Value: *Remarkable
@@ -888,7 +895,7 @@
                         Note: +2CS to Cost for very high-quality package.
                       Note:  Stoves, ovens, hearths, hot water, etc. are powered by hellfire or vulcanism. Running water is provided by "natural" springs.
                       Description: |
-                        Good. Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing.
+                        Cost: Good Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing.
                     Library Package:
                       Cost:
                         Value: *Incredible
@@ -896,7 +903,7 @@
                         Note: +2CS to Cost for very high-quality package.
                       Note: Multiple.
                       Description: |
-                          Excellent. Occupies one room. Consists of two easy chairs, table, desk, straight chair, and up to five bookcases on general subjects (texts readily available, and including encyclopedias, world histories, and atlases). Special or rare volumes, such as the Book of the Vishanti, the Necronomicon, or Amazing Fantasy \#15, would have to be obtained separately.
+                          Cost: Excellent Occupies one room. Consists of two easy chairs, table, desk, straight chair, and up to five bookcases on general subjects (texts readily available, and including encyclopedias, world histories, and atlases). Special or rare volumes, such as the Book of the Vishanti, the Necronomicon, or Amazing Fantasy \#15, would have to be obtained separately.
                     Office Package:
                       Cost:
                         Value: *Remarkable
@@ -905,15 +912,15 @@
                       Note:
                         - Multiple.
                       Description: |
-                        Good. Occupies one or more rooms. Includes desk, three chairs, two lamps.
+                        Cost Good Occupies one or more rooms. Includes desk, three chairs, two lamps.
                     Pool Package:
                       Cost:
                         Value: *Unearthly
                         Base: *Amazing
                         Note: +2CS to Cost for very high-quality package.
-                      Note: Constructed as thermae-style baths, the pools are supplied by volcanic hot springs, and do Feeble (2) heat damage per turn to anyone in them who lacks sufficient resistance to or protection from fire and heat, Feeble (2) corrosive damage per turn to anyone in them without sufficient resistance to corrosives, and Feeble (2) poison damage per turn to those without protection from toxins.
+                      Note: Constructed as thermae-style baths, the pools are supplied by volcanic hot springs, and do Feeble (2) heat damage per turn to anyone in them who lacks sufficient resistance to or protection from fire and heat, Feeble (2) corrosive damage per turn to anyone in them without sufficient resistance to corrosives, and Feeble (2) poison damage per turn to those without protection from toxins. Considered "indoor" for purposes of Cost.
                       Description: |
-                        Remarkable outdoors, Incredible indoors. Occupies one or more rooms, or outdoor area. Consists of Olympic-size pool, filtered water, small sauna room. At Remarkable Cost adds separate, smaller pool (featuring diving board and chlorine), plus pool cover. At Incredible  Cost includes two Olympic pools, heated water, pool cover. At Amazing Cost, both pools are heated.
+                        Cost: Remarkable outdoors, Incredible indoors. Occupies one or more rooms, or outdoor area. Consists of Olympic-size pool, filtered water, small sauna room. At Remarkable Cost adds separate, smaller pool (featuring diving board and chlorine), plus pool cover. At Incredible  Cost includes two Olympic pools, heated water, pool cover. At Amazing Cost, both pools are heated.
                     Conference Room Package:
                       Cost:
                         Value: *Amazing
@@ -923,10 +930,48 @@
                         - Multiple.
                         - At least one in each format.
                       Description: |
-                        Remarkable. Occupies one room. Contains material for assembling of heroes, or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs.
+                        Cost: Remarkable Occupies one room. Contains material for assembling of heroes, or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs.
+                    Security Packages:
+                      Cost:
+                        Value: *Monstrous
+                        Base: *Incredible
+                        Note: +2CS to Cost for very high-quality package.
+                      Note:
+                        - Multiple for ubiquity.
+                        - Security systems are magical in nature, rather than technological. Comprises wards, scrying sensors, arcane locks, etc..
+                      Description: |
+                        Cost: Good — one Security package to a door or window. Occupies no space. Consists of hand-set burglar alarms on windows and doors, coupled with mechanical locks. At Excellent Cost: Automatic burglar alarms with computer-code or card identification system. At Remarkable Cost: Automatic burglar alarms with palm-print scan, can activate defense systems. At Incredible Cost: Full body scan with benign identification program as to hostility. Can activate defense systems.
+                    Defense Packages:
+                      Cost:
+                        Value: *Monstrous
+                        Base: *Incredible
+                      Note:
+                        - Multiple for effects.
+                        - Defensive systems are magical in nature, rather than technological. Defenses originate from gems over doorframes or archways, statue mouths and eyes, floating orbs, etc.
+                        - Defensive Weapons:
+                          Agility: *Amazing
+                          Material Strength: *Amazing
+                          Range: 20
+                          Rate: 1
+                          Note:
+                            - Emitters may fire one of 3 types of beams per turn, a single target or a Burst.
+                            - Bursts may affect up to 3 adjacent targets with a single roll.
+                            - Sunning requires Enduance FEAT vs Intensity or pass out for 1-10 turns
+                          Types:
+                            Stun Beam:
+                              Intensity: *Amazing
+                              Type: Stunning
+                            Concussion Beam:
+                              Damage: 50
+                              Type: Force
+                            Laser Beam:
+                              Damage: 50
+                              Type: Energy
+                      Description: |
+                        Cost: Excellent Will protect one or more areas. Pre-set defenses consisting of entangling tentacles or nets or lasers or stun rifles, or concussive rifles or pit traps, with the maximum of Remarkable Strength or Intensity. Remarkable Cost: Defenses activated by Security package, consists of one type as above of Incredible Strength. Incredible Cost: As above, intensities are of Amazing Strength. Multiple defense mechanisms may protect the same establishment (example, the WCA compound consists of net-filled pits, stun rifles disguised as trees, and a passive alarm system in the Security Package). Specialized defense packages may be designed.
                     Porches, storage, bathrooms, and closets:
                       Cost: *Unranked
-                      Note: Running water and other expected amenities are magical or natural, rather than technological.
+                      Note: Running water and other expected amenities are magical or natural, rather than technological. Porches are colonnaded peristyles and loggia around courtyards, as there are no outside entrances.
                       Description: |
                         These are assumed in the cost of the building, according to its design. These rooms cost nothing, and no package exists other than what the heroes decide to stuff into the closets.
                     Trophy Room Package:
