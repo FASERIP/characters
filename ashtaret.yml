@@ -5,8 +5,8 @@
           Unranked: &Unranked
             Name: null
             Number: .nan
-          Shift-0: &Shift-0
-            Name: Shift-0
+          Shift 0: &Shift_0
+            Name: Shift 0
             Number: 0
           Feeble: &Feeble
             Name: Feeble
@@ -84,22 +84,22 @@
               Able to transform between multiple distinct Body Types, each with unique advantages, disadvantages, and at least one exclusive power. Takes 10 turns to change Aspect. No Powers can function and all Abilities -2CS during change.
             Note:
               - Not all Powers are available in every aspect. An aspect will have a Rank in a Power if it is available.
-              - Magic use is not a Power, and still available to Normal Human Aspect and during Aspect Change.
+              - Magic use is not a Power, and still available during Aspect Change.
             Aspects:
-              Demon: |
-                  Supernatural, corporeal being from another dimension, inherently malevolent by nature. Demons possess increased physical abilities, fire generation, invulnerability to heat and fire, and reduced popularity.
+              Demon: &Aspect_Demon|
+                Supernatural, corporeal being from another dimension, inherently malevolent by nature. Demons possess increased physical abilities, fire generation, invulnerability to heat and fire, and reduced popularity.
               Deity: |
-                  A former powerful entity worshiped as a god, now diminished and bound to a mortal form on Earth. Deities have significantly enhanced abilities, additional powers, automatic access to at least one travel power, and increased popularity with the general public, though limited influence among modern religious groups. Eventually attract any remaining living worshippers they still have as Contacts.
-              Ethereal: |
-                  An intangible, disembodied spirit in the Earth Dimension, solid in other Dimensions. Can drift about in any direction, can pass through solid matter. May be invisible, transparent, translucent, or opaque. Immune to most physical attacks with Intensities less than Unearthly (-9CS).
-              Normal Human: |
-                  The body is completely normal and possesses no detectable abnormalities. Any Powers the hero possesses have left no visible mark on the body.
+                A former powerful entity worshiped as a god, now diminished and bound to a mortal form on Earth. Deities have significantly enhanced abilities, additional powers, automatic access to at least one travel power, and increased popularity with the general public, though limited influence among modern religious groups. Eventually attract any remaining living worshippers they still have as Contacts.
+              Ethereal: &Aspect_Ethereal |
+                An intangible, disembodied spirit in the Earth Dimension, solid in other Dimensions. Can drift about in any direction, can pass through solid matter. May be invisible, transparent, translucent, or opaque. Immune to most physical attacks with Intensities less than Unearthly (-9CS).
+              Normal Human: &Aspect_Normal_Human |
+                The body is completely normal and possesses no detectable abnormalities. Any Powers the hero possesses have left no visible mark on the body.
           Origin of Power:
             Type: Created
             Description: |
               Born in current form, that of an adult who possesses Power and/or whatever the Body Type is. Inherent to all robots, angels, demons, and deities.
         Weakness:
-          Demon:
+          Demon: &Weakness_Demon
             Stimulus: Psychological
             Effect: Power Negation
             Duration: Continuous with Contact
@@ -108,9 +108,9 @@
               - Powers cease functioning within 20 feet of stimulus, -1CS Abilities per 10 turns of exposure, cannot directly use Powers against Stimulus from outside radius.
               - Instantly reverses when moved away from Stimulus.
               - Psychological Weaknesses can be temporarily overcome by an Unearthly Intensity Psyche FEAT. They can be permanently overcome by a Shift-Z Intensity Psyche FEAT.
-              - Sites consecrated to her or the Annunaki do not trigger this Weakness.
+              - Sites consecrated to the Annunaki (including Ashtaret) do not trigger this Weakness.
               - Magic use is not considered a Power, but lowered Abilities may impact it if Ability FEATs are required for a particular Spell.
-          Ethereal:
+          Ethereal: &Weakess_Ethereal
             Stimulus: Psychological
             Effect: Special
             Duration: Continuous with Contact
@@ -126,7 +126,7 @@
             Note:
               - Forced change back to Demon Aspect after 1d100 turns in Deity Aspect, doubled if a Psyche FEAT has Red result rolled after determining duration, unless in continuous contact with Energy Source while in that Aspect (contact pauses countdown).
               - Cannot resume Deity form until 1d100 turns exposure to Energy Source to recharge, Red Psyche FEAT to halve time (recharge does not begin until duration of change concludes).
-          Normal Human:
+          Normal Human: &Weakness_Normal_Human
             Stimulus:
               Elemental Allergy: Suffers adverse effects if exposed to dangerous chemical elements.
               Molecular Allergy: Dangerous chemical compounds cause the Effect.
@@ -166,7 +166,7 @@
                 Deity: *Incredible 
                 Ethereal: *Excellent 
                 Normal Human: *Excellent 
-              Note: Ethereal has Shift-0 Fighting in Earth Dimension unless fighting another Ethereal.
+              Note: Ethereal has Shift 0 Fighting in Earth Dimension unless fighting another Ethereal.
             Agility:
               Rank:
                 Demon: *Amazing 
@@ -231,7 +231,7 @@
                 Demon: *Poor
                 Deity:
                   Public: *Remarkable
-                  Established Religions: *Shift-0
+                  Established Religions: *Shift_0
                 Ethereal: *Poor
                 Normal Human: *Typical
               Note:
@@ -755,9 +755,9 @@
                       Turns Until Full Recovery: 42
                     Ethereal:
                       Rank: *Class-1000
-                      Number: 1940
-                      Spread: 37
-                      Turns Until Full Recovery: 39
+                      Number: 1865
+                      Spread: 36
+                      Turns Until Full Recovery: 38
                     Normal Human:
                       Rank: *Shift-Z
                       Number: 709
@@ -776,8 +776,7 @@
                   Rank:
                     Demon: *Monstrous
                     Deity: *Monstrous
-                    Ethereal: *Monstrous
-                  Note: Base appearance of Normal Human Aspect is last form taken by another Aspect. Normal Human Aspect uses Imitation-Face Changer instead.
+                  Note: Base appearance of both Normal Human and Ethereal Aspects is prior form taken before assuming that aspect.
                   Description: |
                     Physically alters appearance to mimic other humans perfectly, copying their physical traits and features.
                 Invisibility:
@@ -1023,7 +1022,7 @@
                     - Scrying Room for the Satan-Sphere is a combination of Trophy Room and Conference Room features.
                     - Throne Room for holding court is a combination of Conference Room and Office Package features. It features an enormous, ornate throne of basalt, obsidian, and iron.
                     - Bedrooms, of which there are many, feature subtle implementations of the Imprisonment Package as described, an Amazing Intensity feat to notice when they are inactive.
-                    - Servants:
+                    - Servants: &Servants
                         Note: These are elemental or demonic spirits, or magical automatons created by the Servant Spell, rather than technological robots, but have the same general roles, Abilities, and other features.
                         Types:
                           - Name: Robot, Standard
@@ -1291,7 +1290,11 @@
                   Manipulation: Invisible magic tendrils that can manipulate materials.
                   Mental Barrier: Constructs a psychic shield, protecting the caster from mental intrusions and attacks.
                   Servant:
-                    Note: *Allatou
+                    Note:
+                      - Also used to summon her Familiar, Allatou.
+                      - Reference:
+                        - *Allatou
+                        - *Servants
                     Description: |
                       Creates or summons a loyal, obedient creature or entity to perform tasks or assist the caster.
                   Shield-Great: Protects an area up to 1 area wide and 3 stories tall with spell Rank +2CS. Only one at a time.
@@ -1392,61 +1395,199 @@
           Vain, capricious, self-serving, whiny, pouty, manipulative, hedonistic, vindictive, and generally chaotic, though not particularly malevolent, Ashtaret is out for herself first, last, and, usually, only. She just wants to have fun.  However, she actively likes children and animals, despite her other, less wholesome traits. Dislikes personally interacting with modern technology, but appreciates when others use it to her benefit.
         Description: |
           While capable of any humanlike form via the Imitation-Human Changeling Power, Ashtaret's typical form is a tall, long-legged, voluptuous but fit woman of somewhat indeterminate age, with spiraling ringlets of shiny, jet-black hair, burning honey-amber eyes, lustrous dark olive-bronze skin, and regal, decidedly Eastern Mediterranean facial features.  She is typically dressed and accessorized in whatever is considered high-fashion for the time, place, and situation, with a predilection for vintage wear, often via use of Artifact Creation, Molecular Creation, and Molding.
-        Servant: &Allatou
+        Familiar: &Allatou
           Name: Allatou
           Identity: Allatou
-          Secret: false
+          Secret:
+            Identity:
+              Demon: false
+              Ethereal: false
+              Normal Human: true
+              Animal: false
           Base of Operations: Manhattan
           Group Affiliation: None
           Age: Timeless
           Origin:
-            Physical Form: Demon
+            Physical Form:
+              Type: Changeling
+              Aspects:
+                Demon: *Aspect_Demon
+                Ethereal: *Aspect_Ethereal
+                Normal Human: *Aspect_Normal_Human
+                Animal:
+                  Note: Small to midsize felines or canines.
+                  Description: |
+                    A typical example of Earth's fauna, or alien equivalents.
             Origin of Power: Created
           Weakness:
-              Demon:
-                Stimulus: Psychological
-                Effect: Power Negation
-                Duration: Continuous with Contact
-                Conditions: Hallowed Ground
-                Note:
-                  - Powers cease functioning within 20 feet of stimulus, -1CS Abilities per 10 turns of exposure, cannot directly use Powers against Stimulus from outside radius.
-                  - Instantly reverses when moved away from Stimulus.
-                  - Psychological Weaknesses can be temporarily overcome by an Unearthly Intensity Psyche FEAT. They can be permanently overcome by a Shift-Z Intensity Psyche FEAT.
-                  - Sites consecrated to the Annunaki (including Ashtaret) do not trigger this Weakness.
-                  - Magic use is not considered a Power, but lowered Abilities may impact it if Ability FEATs are required for a particular Spell.
+              Demon: *Weakness_Demon      
+              Ethereal: *Weakness_Ethereal
+              Normal Human: *Weakness_Normal_Human
+              Animal: *Weakness_Normal_Human
+              All Aspects:
+                Aspect Shifting:
+                  Stimulus: Special
+                  Effect: Special
+                  Duration: Special
+                  Conditions: Attempting to change Aspects.
+                  Note:
+                    - Assuming Demon or Ethereal Aspect is impossible if Aspect would be subject to Hallowed Ground Weakness.
+                    - Assuming Normal Human Aspect requires a Yellow result on a Psyche FEAT from Demon Aspect if subject to Hallowed Ground Weakness.
+                    - Failed FEAT to assume an Aspect requires 1d10 turns until retrying is possible.
           Abilities:
                 Primary Abilities:
-                  Fighting: *Remarkable
-                  Agility: *Amazing
-                  Strength: *Remarkable
-                  Endurance: *Amazing
-                  Reason: *Remarkable
-                  Intuition: *Remarkable
-                  Psyche: *Remarkable
+                  Fighting:
+                    Rank:
+                      Demon: *Remarkable
+                      Ethereal: *Remarkable
+                      Normal Human: *Excellent
+                      Animal: *Excellent
+                    Note: Ethereal Fighting is Shift 0 in Earth Dimension unless fighting other Ethereals.
+                  Agility:
+                    Rank:
+                      Demon: *Amazing
+                      Ethereal: *Amazing
+                      Normal Human: *Excellent
+                      Animal: *Excellent
+                  Strength:
+                    Rank:
+                      Demon: *Remarkable
+                      Ethereal: *Remarkable
+                      Normal Human: *Excellent
+                      Animal: *Excellent
+                  Endurance:
+                    Rank:
+                      Demon: *Amazing
+                      Ethereal: *Amazing
+                      Normal Human: *Excellent
+                      Animal: *Excellent
+                  Reason:
+                    Rank:
+                      Demon: *Remarkable
+                      Ethereal: *Remarkable
+                      Normal Human: *Excellent
+                      Animal: *Excellent
+                  Intuition:
+                    Rank:
+                      Demon: *Remarkable
+                      Ethereal: *Remarkable
+                      Normal Human: *Excellent
+                      Animal: *Excellent
+                  Psyche:
+                    Rank:
+                      Demon: *Remarkable
+                      Ethereal: *Remarkable
+                      Normal Human: *Excellent
+                      Animal: *Excellent
                 Secondary Abilities:
-                  Health: 160
-                  Karma: 90
-                  Popularity: *Poor
-                  Resources: *Poor
+                  Health:
+                    Demon: 160
+                    Ethereal: 160
+                    Normal Human: 60
+                    Animal: 60
+                  Karma:
+                    Demon: 90
+                    Ethereal: 90
+                    Normal Human: 60
+                    Animal: 60
+                  Popularity:
+                    Rank:
+                      Demon: *Poor
+                      Ethereal: *Poor
+                      Normal Human: *Typical
+                      Animal: *Excellent
+                  Resources:
+                    Rank:
+                      Demon: *Poor
+                      Ethereal: *Poor
+                      Normal Human: *Typical
+                      Animal: *Shift_0
                 Special Abilities:
                   Powers:
                     Defensive:
                       Immunity to Energy Attacks:
-                          Fire and Heat: *Unranked
+                          Fire and Heat: 
+                            Rank:
+                              Demon: *Unranked
                       Immunity to Physical Attacks:
-                          Fire and Heat: *Unranked
+                          Fire and Heat:
+                            Rank:
+                              Demon: *Unranked
+                    Detection:
+                      Abnormal Sensitivity:
+                        Rank:
+                          Animal: *Excellent
+                        Description: |
+                          Senses function in their normal manner but their normal range of sensitivity is altered. Hears extremely high and low pitches.
+                      Tracking Ability:
+                        Rank:
+                          Animal: *Excellent
+                        Description: |
+                          Detect and follow the tracks, and also environmental and spatial disturbances left by a specific target.
+                    Energy Control:
+                      Darkforce Manipulation:
+                        Rank:
+                          Demon: *Remarkable
+                          Ethereal: *Remarkable
+                        Power Stunts:
+                          - Blunt attack damage at Power rank.
+                          - Shadowcasting of Power rank Intensity darkness over a maximum of three areas.
+                          - Flight at -1CS speed.
+                          - Gateway.
+                          - Energy Solidification.
+                        Fire Cotrol:
+                          Rank:
+                            Demon: *Good
                     Energy Emission:
-                        Fire Generation: *Good
+                        Fire Generation:
+                          Rank:
+                            Demon: *Good
+                        Kinetic Bolt:
+                          Rank:
+                            Ethereal: *Remarkable
+                    Fighting:
+                      Natural Weaponry:
+                        Rank:
+                          Demon: *Good
+                          Animal: *Good
+                        Type:
+                          - Claws (Edged Attack), Demon Aspect and feline Animal Aspects only.
+                          - Bite (Edged Attack), Animal Aspect Only
+                    Mental Enhancement:
+                      Telekinesis:
+                        Rank:
+                          Demon: *Good
+                          Ethereal: *Remarkable
+                      Telepathy:
+                        Rank:
+                          Demon: *Remarkable
+                          Ethereal: *Remarkable
+                    Physical Enhancement:
+                      Self-Sustenance:
+                        Rank:
+                          Demon: *Monstrous
+                        Type: Permanent
+                      Stealth:
+                        Rank:
+                          Animal: *Excellent
+                    Self Alteration:
+                      Imitation-Face Changer:
+                        Rank:
+                          Normal Human: *Excellent
                     Special:
                       Eldritch Bolts:
-                        Value: *Remarkable
+                        Rank:
+                          Demon: *Remarkable
+                          Normal Human: *Excellent
                         Description: |
                           Eldritch Bolt is a bolt of magical power, and includes all manner of spells such as Doctor Strange's Bolt of Bedevilment. The range is as determined in the spell range table, and damage is equal to the Power rank, with the following difference:: the bolt may reduce Health or Karma values (in the latter case, the target's effectively out of luck). If the bolt attacks Health, treat it as a Force attack.
                       Eldritch Shield:
-                        Value: *Remarkable
+                        Rank:
+                          Demon: *Remarkable
+                          Normal Human: *Excellent
                         Description: |
                           The Eldritch Shield is a shield of mystical energy that provides the caster with mystical Body Armor equal to the caster's rank number. This is also proof against magical attacks or those attacks which arise from magic.
-                          If an attacker directs his attacks against the shield Itself, treat the attack as an attempt to break the material, with the attacker's bolt supplying the strength end the defender's shield the object that may be broken. The mage whose shield Is broken that round takes no damage, but has no shield until he raises it the next round. An Eldritch Shield will protect Its caster from all forms of magic of up to the Psyche of the caster.
+                          If an attacker directs his attacks against the shield Itself, treat the attack as an attempt to break the material, with the attacker's bolt supplying the strength and the defender's shield the object that may be broken. The mage whose shield is broken that round takes no damage, but has no shield until he raises it the next round. An Eldritch Shield will protect its caster from all forms of magic of up to the Psyche of the caster.
                       Immortality:
                         Value: *Unranked
                         Description: |
@@ -1494,7 +1635,8 @@
                         - Ashtaret's Domain
                         - Ashtaret's Manhattan Residences
                         - Dimensional Aperture pocket dimension
-                      Magical Items: []
+                      Magical Items:
+                        - Grimoire
                   Contacts:
                     Political:
                       Planetary:
@@ -1531,8 +1673,9 @@
                         Conjure: *Amazing
                       Dimensional Energies:
                         Dimensional Aperture: *Amazing
+          Note: May be summoned by Ashtaret via the Servant Spell.
           Biography: |
-            The discarded demonic aspect of Ereshkigal, Allatou was absorbed by Ashtaret and focused into a summoned Servant.
+            The discarded demonic aspect of Ereshkigal, Allatou was absorbed by Ashtaret and focused into a Familiar.
           Personality: |
             Somewhat paradoxically harsh, stern, and serious on one hand, but flirtatious, performative, and almost comically macabre on the other.  Absolutely devoted and loyal to Ashtaret.
           Description: |
