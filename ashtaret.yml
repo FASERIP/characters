@@ -1201,7 +1201,7 @@
                   Manipulation: Invisible magic tendrils that can manipulate materials.
                   Mental Barrier: Constructs a psychic shield, protecting the caster from mental intrusions and attacks.
                   Servant:
-                    Note: See "Allatou"
+                    Note: *Allatou
                     Description: |
                       Creates or summons a loyal, obedient creature or entity to perform tasks or assist the caster.
                   Shield-Great: Protects an area up to 1 area wide and 3 stories tall with spell Rank +2CS. Only one at a time.
@@ -1302,7 +1302,7 @@
           Vain, capricious, self-serving, whiny, pouty, manipulative, hedonistic, vindictive, and generally chaotic, though not particularly malevolent, Ashtaret is out for herself first, last, and, usually, only. She just wants to have fun.  However, she actively likes children and animals, despite her other, less wholesome traits. Dislikes personally interacting with modern technology, but appreciates when others use it to her benefit.
         Description: |
           While capable of any humanlike form via the Imitation-Human Changeling Power, Ashtaret's typical form is a tall, long-legged, voluptuous but fit woman of somewhat indeterminate age, with spiraling ringlets of shiny, jet-black hair, burning honey-amber eyes, lustrous dark olive-bronze skin, and regal, decidedly Eastern Mediterranean facial features.  She is typically dressed and accessorized in whatever is considered high-fashion for the time, place, and situation, with a predilection for vintage wear, often via use of Artifact Creation, Molecular Creation, and Molding.
-        Servant:
+        Servant: &Allatou
           Name: Allatou
           Identity: Allatou
           Secret: false
