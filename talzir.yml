@@ -256,7 +256,7 @@
               Pheromones: *Monstrous
               Regeneration: *Monstrous
               Self Revival: *Monstrous
-              Self-sustenance:
+              Self-Sustenance:
                 Value: *Monstrous
                 Form: Permanent
               Vocal Control: *Monstrous
@@ -266,9 +266,9 @@
                 Value: *Monstrous
                 Total:
                   Rank: Class 5000
-                  Number: 19465
-                  Spread: 233
-                  Rounds Until Full Recovery: 254
+                  Number: 8875
+                  Spread: 108
+                  Rounds Until Full Recovery: 119
             Self-Alteration:
               Age-Shifting: *Monstrous
               Alter Ego:
@@ -315,17 +315,10 @@
                 Power Stunts:
                   - Enter Timestream
               True Flight: *Monstrous
-            Body Alterations—Defensive:
-              Immortality:
-                Rank: N/A
-                Number: .nan
-            Spells:
-              Eldritch Bolt:
-                Rank: Shift-X
-                Number: 150
-              Eldritch Shield:
-                Rank: Shift-X
-                Number: 150
+            Special:
+              Immortality: *Unranked
+              Eldritch Bolts: *Shift-X
+              Eldritch Shield: *Shift-X
           Talents:
             Weapon Skills:
               - Thrown Weapons
