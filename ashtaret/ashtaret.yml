@@ -70,10 +70,7 @@
             Normal Human: true
           Note: Normal Human Aspects may have appropriate cover identities.
         Base of Operations:
-          Extraplanar:
-            - Ashtaret's Demiplanar Pocket Domain
-            - Hell Dimension
-            - Dimension of Dreams
+          Extraplanar: Ashtaret's Demiplanar Pocket Domain
           Manhattan: Various, rotating apartments depending on cover identity.
         Group Affiliation: null
         Age: Timeless
@@ -1086,6 +1083,12 @@
                         Low: *Good
                         Mid: *Excellent
                         High: *Remarkable
+                      Note:
+                      Fire Extinguisher:
+                        Price: *Typical
+                        Note: Included in Kitchen Package with Cost Excellent or better, kept at appropriate Headquarters residences.
+                        Description: |
+                          Fire Extinguishers inflict no damage normally, but against fire are of Good Intensity (eliminate fire of Typical Intensity or less in the same area on a green FEAT, of Good Intensity on a yellow, and up to Excellent on a red). Against characters with flaming powers causes a FEAT roll against that Intensity to retain flame.
                       Description: |
                         Cost: Good Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing. At Excellent Cost add refrigerator, dishwasher, or microwave, plus a fire extinguisher. At Remarkable Cost add all three and freezer.
                     Storage, bathrooms, and closets:
@@ -1107,11 +1110,6 @@
                     - There are probably several cats coming and going as they please.
                     - Very high-quality room packages may be +1CS or +2CS to Cost, especially in higher-end residences.
               Salaries Sundries and Other Equipment:
-                Fire Extinguisher:
-                  Price: *Typical
-                  Note: Included in Kitchen Package with Cost Excellent or better, kept at appropriate Headquarters residences.
-                  Description: |
-                    Fire Extinguishers inflict no damage normally, but against fire are of Good Intensity (eliminate fire of Typical Intensity or less in the same area on a green FEAT, of Good Intensity on a yellow, and up to Excellent on a red). Against characters with flaming powers causes a FEAT roll against that Intensity to retain flame.
                 Respectable Clothing:
                   Price: *Typical
                   Note: Daily wardrobes of Normal Human cover identities. More basic, casual, off-the-shelf, or mundane than what is created with Artifact Creation, Molecular Creation, and Molding (high fashion, valuable accessories, etc.).  Vintage clothing highly represented.
