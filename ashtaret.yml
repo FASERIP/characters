@@ -75,7 +75,7 @@
             - Hell Dimension
             - Dimension of Dreams
           Manhattan: Various, rotating apartments depending on cover identity.
-        Group Affiliation: None
+        Group Affiliation: null
         Age: Timeless
         Origin:
           Physical Form:
@@ -1415,7 +1415,7 @@
               Normal Human: true
               Animal: false
           Base of Operations: Manhattan
-          Group Affiliation: None
+          Group Affiliation: null
           Age: Timeless
           Origin:
             Physical Form:

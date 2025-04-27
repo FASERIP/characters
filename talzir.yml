@@ -62,10 +62,9 @@
     Hero:
       Name: Tal'Zir
       Identity: Tal'Zir The Eldritch Machine God
-      Secret: False
-      Base of Operations: Manhattan
-      Group Affiliation: None
-      Home Dimension: The Eldritch Network
+      Secret: false
+      Base of Operations: The Eldritch Network
+      Group Affiliation: null
       Age: .inf
       Origin:
         Physical Form: 
@@ -362,8 +361,9 @@
               - Zoologist of Magic
               - Chronicler of Magic
           Equipment:
-            Note: All avatars' personal equipment created with Powers such as Body Armor, Crystallization, Illusion Casting, Artifact Creation, Missile Creation, Spray, Weapons Creation, Webcasting, Natural Weapons.
-            Terminals: Terminal interfaces to Tal'Zir can look like anything appropriate to the technology of the culture in question, with a preference for "vintage" technology.  They may spontaneously spawn, be accidentally invented by an eccentric, or existing technology could become haunted or possessed.
+            Note:
+              - All avatars' personal equipment created with Powers such as Body Armor, Crystallization, Illusion Casting, Artifact Creation, Missile Creation, Spray, Weapons Creation, Webcasting, Natural Weapons.
+              - Terminal interfaces to Tal'Zir can look like anything appropriate to the technology of the culture in question, with a preference for "vintage" technology.  They may spontaneously spawn, be accidentally invented by an eccentric, or existing technology could become haunted or possessed.
           Contacts:
             Political:
               Planetary:
