@@ -92,8 +92,8 @@
               Note: 
                 - Moves 2 areas/turn
                 - Attack on Edged attack column.
-                - Small felines can't score Kill result on human targets.
-                - Aspect can take the form of any small to midsize feline.
+                - Small felines can't score Kill result on human targets, larger forms can.
+                - Aspect can take the form of any small to midsize-large-ish feline.
               Description: |
                 A typical example of Earth's fauna, or alien equivalents.
         Origin of Power:
@@ -180,9 +180,7 @@
                   Demon: *Remarkable
                   Ethereal: *Remarkable
                   Normal Human: *Excellent
-                  Animal:
-                    Min: *Good
-                    Max: *Excellent
+                  Animal: *Excellent
               Intuition:
                 Rank:
                   Demon: *Remarkable
