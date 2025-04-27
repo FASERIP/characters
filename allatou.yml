@@ -492,9 +492,16 @@
                   - Magic use is not considered a Power.
                   - All Spells Ashtaret knows are Amazing (50) in Rank.
                 Spells:
-                  Personal Energies: []
+                  Personal Energies:
+                    Heal: Self-healing through magical means, rapidly restoring health.
+                    Tongues: Grants instant understanding and fluency in spoken or written languages.
+                    Trance: Mystically slow down or speed up metabolism.
                   Universal Energies:
                     Conjure: Instantly summons items, creatures, or allies from distant locations.
+                    Curse: Places a negative magical effect on a target, reducing their effectiveness or luck.
+                    Fear: Magically induces intense fear in targets, disrupting their actions or causing them to flee.
+                    Healing-Others: Magically heals injuries and illnesses in other beings.
+                    Illusion: Creates detailed sensory illusions to deceive and mislead targets.
                   Dimensional Energies:
                     Dimensional Aperture: Opens portals between dimensions, allowing travel to alternate realities.
       Note: May be summoned by Ashtaret via the Servant Spell.
