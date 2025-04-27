@@ -86,20 +86,20 @@
               - Not all Powers are available in every aspect. An aspect will have a Rank in a Power if it is available.
               - Magic use is not a Power, and still available during Aspect Change.
             Aspects:
-              Demon: &Aspect_Demon|
+              Demon: |
                 Supernatural, corporeal being from another dimension, inherently malevolent by nature. Demons possess increased physical abilities, fire generation, invulnerability to heat and fire, and reduced popularity.
               Deity: |
                 A former powerful entity worshiped as a god, now diminished and bound to a mortal form on Earth. Deities have significantly enhanced abilities, additional powers, automatic access to at least one travel power, and increased popularity with the general public, though limited influence among modern religious groups. Eventually attract any remaining living worshippers they still have as Contacts.
-              Ethereal: &Aspect_Ethereal |
+              Ethereal: |
                 An intangible, disembodied spirit in the Earth Dimension, solid in other Dimensions. Can drift about in any direction, can pass through solid matter. May be invisible, transparent, translucent, or opaque. Immune to most physical attacks with Intensities less than Unearthly (-9CS).
-              Normal Human: &Aspect_Normal_Human |
+              Normal Human: |
                 The body is completely normal and possesses no detectable abnormalities. Any Powers the hero possesses have left no visible mark on the body.
           Origin of Power:
             Type: Created
             Description: |
               Born in current form, that of an adult who possesses Power and/or whatever the Body Type is. Inherent to all robots, angels, demons, and deities.
         Weakness:
-          Demon: &Weakness_Demon
+          Demon:
             Stimulus: Psychological
             Effect: Power Negation
             Duration: Continuous with Contact
@@ -108,9 +108,9 @@
               - Powers cease functioning within 20 feet of stimulus, -1CS Abilities per 10 turns of exposure, cannot directly use Powers against Stimulus from outside radius.
               - Instantly reverses when moved away from Stimulus.
               - Psychological Weaknesses can be temporarily overcome by an Unearthly Intensity Psyche FEAT. They can be permanently overcome by a Shift-Z Intensity Psyche FEAT.
-              - Sites consecrated to the Annunaki (including Ashtaret) do not trigger this Weakness.
+              - Sites consecrated to the Annunaki (including Ashtaret and Allatou) do not trigger this Weakness.
               - Magic use is not considered a Power, but lowered Abilities may impact it if Ability FEATs are required for a particular Spell.
-          Ethereal: &Weakess_Ethereal
+          Ethereal:
             Stimulus: Psychological
             Effect: Special
             Duration: Continuous with Contact
@@ -126,7 +126,7 @@
             Note:
               - Forced change back to Demon Aspect after 1d100 turns in Deity Aspect, doubled if a Psyche FEAT has Red result rolled after determining duration, unless in continuous contact with Energy Source while in that Aspect (contact pauses countdown).
               - Cannot resume Deity form until 1d100 turns exposure to Energy Source to recharge, Red Psyche FEAT to halve time (recharge does not begin until duration of change concludes).
-          Normal Human: &Weakness_Normal_Human
+          Normal Human:
             Stimulus:
               Elemental Allergy: Suffers adverse effects if exposed to dangerous chemical elements.
               Molecular Allergy: Dangerous chemical compounds cause the Effect.
@@ -1300,11 +1300,7 @@
                   Manipulation: Invisible magic tendrils that can manipulate materials.
                   Mental Barrier: Constructs a psychic shield, protecting the caster from mental intrusions and attacks.
                   Servant:
-                    Note:
-                      - Also used to summon her Familiar, Allatou.
-                      - Reference:
-                        - *Allatou
-                        - *Servants
+                    Note: Also used to summon her Familiar, Allatou.
                     Description: |
                       Creates or summons a loyal, obedient creature or entity to perform tasks or assist the caster.
                   Shield-Great: Protects an area up to 1 area wide and 3 stories tall with spell Rank +2CS. Only one at a time.
@@ -1405,346 +1401,3 @@
           Vain, capricious, self-serving, whiny, pouty, manipulative, hedonistic, vindictive, and generally chaotic, though not particularly malevolent, Ashtaret is out for herself first, last, and, usually, only. She just wants to have fun.  However, she actively likes children and animals, despite her other, less wholesome traits. Dislikes personally interacting with modern technology, but appreciates when others use it to her benefit.
         Description: |
           While capable of any humanlike form via the Imitation-Human Changeling Power, Ashtaret's typical form is a tall, long-legged, voluptuous but fit woman of somewhat indeterminate age, with spiraling ringlets of shiny, jet-black hair, burning honey-amber eyes, lustrous dark olive-bronze skin, and regal, decidedly Eastern Mediterranean facial features.  She is typically dressed and accessorized in whatever is considered high-fashion for the time, place, and situation, with a predilection for vintage wear, often via use of Artifact Creation, Molecular Creation, and Molding.
-        Familiar: &Allatou
-          Name: Allatou
-          Identity: Allatou
-          Secret:
-            Identity:
-              Demon: false
-              Ethereal: false
-              Normal Human: true
-              Animal: false
-          Base of Operations: Manhattan
-          Group Affiliation: null
-          Age: Timeless
-          Origin:
-            Physical Form:
-              Type: Changeling
-              Aspects:
-                Demon: *Aspect_Demon
-                Ethereal: *Aspect_Ethereal
-                Normal Human: *Aspect_Normal_Human
-                Animal:
-                  Note: Small to midsize felines or canines.
-                  Description: |
-                    A typical example of Earth's fauna, or alien equivalents.
-            Origin of Power: Created
-          Weakness:
-              Demon: *Weakness_Demon      
-              Ethereal: *Weakness_Ethereal
-              Normal Human: *Weakness_Normal_Human
-              Animal: *Weakness_Normal_Human
-              All Aspects:
-                Aspect Shifting:
-                  Stimulus: Special
-                  Effect: Special
-                  Duration: Special
-                  Conditions: Attempting to change Aspects.
-                  Note:
-                    - Assuming Demon or Ethereal Aspect is impossible if Aspect would be subject to Hallowed Ground Weakness.
-                    - Assuming Normal Human Aspect requires a Yellow result on a Psyche FEAT from Demon Aspect if subject to Hallowed Ground Weakness.
-                    - Failed FEAT to assume an Aspect requires 1d10 turns until retrying is possible.
-          Abilities:
-                Primary Abilities:
-                  Fighting:
-                    Rank:
-                      Demon: *Remarkable
-                      Ethereal: *Remarkable
-                      Normal Human: *Excellent
-                      Animal: *Remarkable
-                    Note: Ethereal Fighting is Shift 0 in Earth Dimension unless fighting other Ethereals.
-                  Agility:
-                    Rank:
-                      Demon: *Amazing
-                      Ethereal: *Amazing
-                      Normal Human: *Excellent
-                      Animal: *Incredible
-                  Strength:
-                    Rank:
-                      Demon: *Remarkable
-                      Ethereal: *Remarkable
-                      Normal Human: *Excellent
-                      Animal: *Good
-                  Endurance:
-                    Rank:
-                      Demon: *Amazing
-                      Ethereal: *Amazing
-                      Normal Human: *Excellent
-                      Animal: *Incredible
-                  Reason:
-                    Rank:
-                      Demon: *Remarkable
-                      Ethereal: *Remarkable
-                      Normal Human: *Excellent
-                      Animal: *Excellent
-                  Intuition:
-                    Rank:
-                      Demon: *Remarkable
-                      Ethereal: *Remarkable
-                      Normal Human: *Excellent
-                      Animal: *Remarkable
-                  Psyche:
-                    Rank:
-                      Demon: *Remarkable
-                      Ethereal: *Remarkable
-                      Normal Human: *Excellent
-                      Animal: *Excellent
-                Secondary Abilities:
-                  Health:
-                    Demon: 160
-                    Ethereal: 160
-                    Normal Human: 80
-                    Animal: 120
-                  Karma:
-                    Demon: 90
-                    Ethereal: 90
-                    Normal Human: 60
-                    Animal: 70
-                  Popularity:
-                    Rank:
-                      Demon: *Poor
-                      Ethereal: *Poor
-                      Normal Human: *Typical
-                      Animal: *Excellent
-                  Resources:
-                    Rank:
-                      Demon: *Poor
-                      Ethereal: *Poor
-                      Normal Human: *Typical
-                      Animal: *Shift_0
-                Special Abilities:
-                  Powers:
-                    Defensive:
-                      Immunity to Energy Attacks:
-                          Fire and Heat: 
-                            Rank:
-                              Demon: *Unranked
-                      Immunity to Physical Attacks:
-                          Fire and Heat:
-                            Rank:
-                              Demon: *Unranked
-                    Detection:
-                      Environmental Detection:
-                        Rank:
-                          Demon: *Excellent
-                          Animal: *Excellent
-                      Hypersensitive Hearing:
-                        Rank:
-                          Animal: *Remarkable
-                        Description: |
-                          Detect extremely faint sounds and unusual frequencies, identify objects by the sounds they emit. More vulnerable to sonic attacks (which receive a +1CS against him).
-                      Hypersensitive Olfactory:
-                        Rank:
-                          Animal: *Remarkable
-                        Description: |
-                          Can detect the presence of minute traces of substances and accurately identify them.
-                      Magic Detection:
-                        Rank:
-                          Demon: *Remarkable
-                          Ethereal: *Remarkable
-                          Normal Human: *Excellent
-                          Animal: *Excellent
-                      Tracking Ability:
-                        Rank:
-                          Animal: *Remarkable
-                        Description: |
-                          Detect and follow the tracks, and also environmental and spatial disturbances left by a specific target.
-                    Energy Control:
-                      Darkforce Manipulation:
-                        Rank:
-                          Demon: *Remarkable
-                          Ethereal: *Remarkable
-                        Power Stunts:
-                          - Blunt attack damage at Power rank.
-                          - Shadowcasting of Power rank Intensity darkness over a maximum of three areas.
-                          - Flight at -1CS speed.
-                          - Gateway.
-                          - Energy Solidification.
-                        Fire Control:
-                          Rank:
-                            Demon: *Good
-                    Energy Emission:
-                        Fire Generation:
-                          Rank:
-                            Demon: *Good
-                        Kinetic Bolt:
-                          Rank:
-                            Ethereal: *Remarkable
-                    Fighting:
-                      Natural Weaponry:
-                        Rank:
-                          Demon: *Good
-                          Animal: *Good
-                        Type:
-                          - Claws (Edged Attack), Demon Aspect and feline Animal Aspects only.
-                          - Bite (Edged Attack), Animal Aspect Only
-                    Illusory:
-                      Illusion Casting:
-                        Rank:
-                          Demon: *Remarkable
-                          Ethereal: *Remarkable
-                    Lifeform Control:
-                      Mind Control:
-                        Rank:
-                          Ethereal: *Remarkable
-                        Form:
-                          Type: Possession
-                    Mental Enhancement:
-                      Iron Will:
-                        Rank:
-                          Normal Human: *Remarkable
-                          Animal: *Remarkable
-                      Telekinesis:
-                        Rank:
-                          Demon: *Good
-                          Ethereal: *Remarkable
-                      Telepathy:
-                        Rank:
-                          Demon: *Remarkable
-                          Ethereal: *Remarkable
-                    Physical Enhancement:
-                      Self-Sustenance:
-                        Rank:
-                          Demon: *Monstrous
-                        Type: Permanent
-                      Stealth:
-                        Rank:
-                          Animal: *Excellent
-                    Power Control:
-                      Focus:
-                        Ranks:
-                          Demon: *Excellent
-                          Ethereal: *Excellent
-                          Normal Human: *Good
-                        Totals:
-                          Demon:
-                            Rank: Shift-Z
-                            Number: 575
-                            Spread: 20
-                            Turns to Full Recovery: 29
-                          Ethereal:
-                            Rank: Shift-Z
-                            Number: 470
-                            Spread: 16
-                            Turns to Full Recovery: 24
-                          Normal Human:
-                            Rank: Shift-Y
-                            Number: 270
-                            Spread: 12
-                            Turns to Full Recovery: 27
-                    Self Alteration:
-                      Imitation-Face Changer:
-                        Rank:
-                          Normal Human: *Excellent
-                    Special:
-                      Eldritch Bolts:
-                        Rank:
-                          Demon: *Remarkable
-                          Normal Human: *Excellent
-                        Description: |
-                          Eldritch Bolt is a bolt of magical power, and includes all manner of spells such as Doctor Strange's Bolt of Bedevilment. The range is as determined in the spell range table, and damage is equal to the Power rank, with the following difference:: the bolt may reduce Health or Karma values (in the latter case, the target's effectively out of luck). If the bolt attacks Health, treat it as a Force attack.
-                      Eldritch Shield:
-                        Rank:
-                          Demon: *Remarkable
-                          Normal Human: *Excellent
-                        Description: |
-                          The Eldritch Shield is a shield of mystical energy that provides the caster with mystical Body Armor equal to the caster's rank number. This is also proof against magical attacks or those attacks which arise from magic.
-                          If an attacker directs his attacks against the shield Itself, treat the attack as an attempt to break the material, with the attacker's bolt supplying the strength and the defender's shield the object that may be broken. The mage whose shield is broken that round takes no damage, but has no shield until he raises it the next round. An Eldritch Shield will protect its caster from all forms of magic of up to the Psyche of the caster.
-                      Immortality:
-                        Value: *Unranked
-                        Description: |
-                          The character with this Power does not age or die in a normal fashion. Now, before you all run out and grab this Power for your young hero, note the fine print. The hero can still suffer loss of Endurance ranks as the result of wounds, poisons, and damages, but if the results call for perishing. then the character is left at Shift 0 Endurance but does not die. The character cannot move or act until Endurance reaches Feeble, however. so throwing an Immortal character into an active volcano will keep him out of the way for a while. (He cannot heal while taking damage.)
-                          If Endurance reaches Shift 0, or the character otherwise dies, the immortal character loses all Karma, including that set aside for advancement. The character may be out of luck, but at least he has his Health. If an immortal character is part of a Karma pool, then an amount of Karma is subtracted as if the character had left the group. This is done each time the immortal character becomes "dead."
-                          This Power does not have a Power rank. It counts as two Powers for any hero who takes it, unless the character is alien in origin, in which case the cost is normal (this reflects that a large number of extradimensional aliens are effectively immortal).
-                          An immortal character's body will slowly regenerate lost parts and heal. so that short of atomizing the remains and spreading that collection of atoms through a large portion of space, the immortal character will return at some point in the future.
-                          Immortality is applicable to the Earth Dimension only (including all planets of this dimension). An immortal character in another dimension—such as Asgard or Olympus, but excluding variant or divergent earths-does not age, but may be killed normally while in that dimension.
-                  Talents:
-                    Weapon Skills: []
-                    Fighting Skills:
-                      - Acrobatics
-                      - Tumbling
-                    Professional Skills:
-                      - Law: +1CS to all FEAT rolls involving the law, including correct legal procedure.
-                      - Business/Finance: Initial resources are a minimum of Good. +1CS for FEAT rolls dealing with money. A Contact in the Professional category.
-                      - Psychiatry
-                    Scientific Skills:
-                      - Archaeology
-                      - Computers: A +1CS on matters involving computers, computer-controlled equipment, and artificial intelligences.
-                    Mystic and Mental Skills:
-                      - Trance
-                      - Mesmerism and Hypnosis
-                      - Sleight of Hand
-                      - Resist Domination
-                      - Occult Lore
-                      - Mystic Background
-                    Other Talents:
-                      - Artist
-                      - Languages
-                      - Trivia:
-                        - History
-                        - Art
-                        - Religion
-                      - Performer
-                    Magic Wielder Talents:
-                      - Bibliophile
-                      - Demonologist
-                      - Occultist
-                      - Theoginist
-                  Equipment:
-                      Weapons:
-                        Shooting Weapons: []
-                        Melee and Thrown Weapons: []
-                        Other Weapons: []
-                      Vehicles: []
-                      Headquarters:
-                        - Ashtaret's Domain
-                        - Ashtaret's Manhattan Residences
-                        - Dimensional Aperture pocket dimension
-                      Magical Items:
-                        - Grimoire
-                  Contacts:
-                    Professional: 
-                      Law:
-                        Jennifer Walters, Esq.
-                    Political:
-                      Planetary:
-                        Annunaki: ~
-                        Asgard: ~
-                        Elder Gods: ~
-                        Dimension of Dreams: ~
-                        Heliopolis: ~
-                        Hell Dimension: ~
-                        Olympus: ~
-                    Mystic:
-                      Mystic Arts:
-                        Doctor Stephen Strange:
-                        Wong:
-                      Mythology:
-                        Annunaki:
-                          Allatou: Other universes' versions of Allatou
-                          Ereshkigal: Allatou is the discarded demonic aspect of Ereshkigal
-                          Inanna: Other universes' versions of Inanna, as well as Ashtaret
-                          Nergal: ~
-                        Hell Dimension Inhabitants:
-                          Mephisto: ~
-                          Satannish: ~
-                          Marduk Kurios: ~
-                  Magic:
-                    Character Type: Magic Wielder
-                    Magic School: Specific Pantheon (Annunaki)
-                    Energy Use: All Energies
-                    Rank: Disciple
-                    Master: Ashtaret
-                    Spells:
-                      Personal Energies: []
-                      Universal Energies:
-                        Conjure: *Amazing
-                      Dimensional Energies:
-                        Dimensional Aperture: *Amazing
-          Note: May be summoned by Ashtaret via the Servant Spell.
-          Biography: |
-            The discarded demonic aspect of Ereshkigal, Allatou was absorbed by Ashtaret and focused into a Familiar.
-          Personality: |
-            Somewhat paradoxically harsh, stern, and serious on one hand, but flirtatious, performative, and almost comically macabre on the other.   Highly competent. Absolutely devoted and loyal to Ashtaret. Comfortable with modern technology. Generally professional but has outbursts. "Work Hard, Play Hard—Uptight then Let Loose"
-          Description: |
-            A tall, slender woman with a decidedly devilish mien, with dark bronze-olive skin, long, spiraling black curls, and deep amber eyes.
