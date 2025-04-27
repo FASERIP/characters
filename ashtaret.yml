@@ -1451,26 +1451,26 @@
                       Demon: *Remarkable
                       Ethereal: *Remarkable
                       Normal Human: *Excellent
-                      Animal: *Excellent
+                      Animal: *Remarkable
                     Note: Ethereal Fighting is Shift 0 in Earth Dimension unless fighting other Ethereals.
                   Agility:
                     Rank:
                       Demon: *Amazing
                       Ethereal: *Amazing
                       Normal Human: *Excellent
-                      Animal: *Excellent
+                      Animal: *Incredible
                   Strength:
                     Rank:
                       Demon: *Remarkable
                       Ethereal: *Remarkable
                       Normal Human: *Excellent
-                      Animal: *Excellent
+                      Animal: *Good
                   Endurance:
                     Rank:
                       Demon: *Amazing
                       Ethereal: *Amazing
                       Normal Human: *Excellent
-                      Animal: *Excellent
+                      Animal: *Incredible
                   Reason:
                     Rank:
                       Demon: *Remarkable
@@ -1482,7 +1482,7 @@
                       Demon: *Remarkable
                       Ethereal: *Remarkable
                       Normal Human: *Excellent
-                      Animal: *Excellent
+                      Animal: *Remarkable
                   Psyche:
                     Rank:
                       Demon: *Remarkable
@@ -1494,12 +1494,12 @@
                     Demon: 160
                     Ethereal: 160
                     Normal Human: 80
-                    Animal: 80
+                    Animal: 120
                   Karma:
                     Demon: 90
                     Ethereal: 90
                     Normal Human: 60
-                    Animal: 60
+                    Animal: 70
                   Popularity:
                     Rank:
                       Demon: *Poor
@@ -1524,15 +1524,20 @@
                             Rank:
                               Demon: *Unranked
                     Detection:
-                      Abnormal Sensitivity:
-                        Rank:
-                          Animal: *Excellent
-                        Description: |
-                          Senses function in their normal manner but their normal range of sensitivity is altered. Hears extremely high and low pitches.
                       Environmental Detection:
                         Rank:
                           Demon: *Excellent
                           Animal: *Excellent
+                      Hypersensitive Hearing:
+                        Rank:
+                          Animal: *Remarkable
+                        Description: |
+                          Detect extremely faint sounds and unusual frequencies, identify objects by the sounds they emit. More vulnerable to sonic attacks (which receive a +1CS against him).
+                      Hypersensitive Olfactory:
+                        Rank:
+                          Animal: *Remarkable
+                        Description: |
+                          Can detect the presence of minute traces of substances and accurately identify them.
                       Magic Detection:
                         Rank:
                           Demon: *Remarkable
@@ -1541,7 +1546,7 @@
                           Animal: *Excellent
                       Tracking Ability:
                         Rank:
-                          Animal: *Excellent
+                          Animal: *Remarkable
                         Description: |
                           Detect and follow the tracks, and also environmental and spatial disturbances left by a specific target.
                     Energy Control:
@@ -1555,7 +1560,7 @@
                           - Flight at -1CS speed.
                           - Gateway.
                           - Energy Solidification.
-                        Fire Cotrol:
+                        Fire Control:
                           Rank:
                             Demon: *Good
                     Energy Emission:
@@ -1659,9 +1664,12 @@
                       - Acrobatics
                       - Tumbling
                     Professional Skills:
+                      - Law: +1CS to all FEAT rolls involving the law, including correct legal procedure.
+                      - Business/Finance: Initial resources are a minimum of Good. +1CS for FEAT rolls dealing with money. A Contact in the Professional category.
                       - Psychiatry
                     Scientific Skills:
                       - Archaeology
+                      - Computers: A +1CS on matters involving computers, computer-controlled equipment, and artificial intelligences.
                     Mystic and Mental Skills:
                       - Trance
                       - Mesmerism and Hypnosis
@@ -1695,6 +1703,9 @@
                       Magical Items:
                         - Grimoire
                   Contacts:
+                    Professional: 
+                      Law:
+                        Jennifer Walters, Esq.
                     Political:
                       Planetary:
                         Annunaki: ~
@@ -1734,6 +1745,6 @@
           Biography: |
             The discarded demonic aspect of Ereshkigal, Allatou was absorbed by Ashtaret and focused into a Familiar.
           Personality: |
-            Somewhat paradoxically harsh, stern, and serious on one hand, but flirtatious, performative, and almost comically macabre on the other.  Absolutely devoted and loyal to Ashtaret.
+            Somewhat paradoxically harsh, stern, and serious on one hand, but flirtatious, performative, and almost comically macabre on the other.   Highly competent. Absolutely devoted and loyal to Ashtaret. Comfortable with modern technology. Generally professional but has outbursts. "Work Hard, Play Hard—Uptight then Let Loose"
           Description: |
             A tall, slender woman with a decidedly devilish mien, with dark bronze-olive skin, long, spiraling black curls, and deep amber eyes.
