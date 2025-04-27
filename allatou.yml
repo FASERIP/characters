@@ -93,7 +93,7 @@
                 - Moves 2 areas/turn
                 - Attack on Edged attack column.
                 - Small felines can't score Kill result on human targets, larger forms can.
-                - Aspect can take the form of any small to midsize-large-ish feline.
+                - Aspect can take the form of any small to midsize-to-somewhat-large-ish feline.
               Description: |
                 A typical example of Earth's fauna, or alien equivalents.
         Origin of Power:
@@ -454,6 +454,15 @@
                     - Ashtaret's Domain
                     - Ashtaret's Manhattan Residences
                     - Dimensional Aperture pocket dimension
+                  Salaries Sundries and Other Equipment:
+                    Respectable Clothing:
+                      Price: *Typical
+                      Note: Daily wardrobes of Normal Human cover identities.  Vintage clothing highly represented.
+                    Mystic Texts:
+                      Price: *Incredible
+                      Note: Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
+                      Description: |
+                        Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
                   Magical Items:
                     Grimoire:
                       Note: Primary and backup Grimoires. Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
