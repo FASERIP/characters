@@ -887,7 +887,7 @@ Character Sheet:
               Note: Primary and backup Grimoires. Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
               Description: |
                 The book in which a mage records spells or incantations. Some spells, like many Entreaty spells, cannot be memorized, only read aloud from a text. A character can only have two grimoires at any one time, the primary and a back-up copy. Creating takes 10+1d10 full days of work.
-            Familiar: &Allatou
+            Familiar:
               Note:
                 - Allatou, a discarded demonic Aspect of Ereshkigal, that Ashtaret absorbed and channeled into a Familiar.
                 - Summoned via the Servant Spell
@@ -973,7 +973,7 @@ Character Sheet:
                 The current whereabouts of the Satan-Sphere are unknown.
             Interdimensional Scanner:
               Note:
-                - This is a room-sized magical device that functions the same as the Interdimensional Scanner described in Realms of Magic. 
+                - This is a room-sized magical device that functions the same as Bochs's Interdimensional Scanner described in Realms of Magic. 
                 - It is occupies much of the scrying room in Ashtaret's domain.
               Description: |
                 While this is not a mystical item, it is used to monitor dimensional nexus and scan dimensions that are near Earth. This room-sized piece of high-tech equipment was designed by Roger Bochs, who first created Box of Alpha Flight fame. He was assisted in its creation by Shaman. Imaging of these dimensions is often hazy, showing only the outlines of larger creatures, structures, and so forth. It is with this device that the Alpha Flight team unwittingly brought the Incredible Hulk back to the Earth dimension from another dimension where Doctor Strange had banished him for the good of mankind, and the Hulk’s own sake. Any use of this device to scan and observe another dimension requires a successful Reason FEAT roll.
@@ -1066,11 +1066,7 @@ Character Sheet:
               Manipulation: Invisible magic tendrils that can manipulate materials.
               Mental Barrier: Constructs a psychic shield, protecting the caster from mental intrusions and attacks.
               Servant:
-                Note:
-                  - Also used to summon her Familiar, Allatou.
-                  - Reference:
-                    - *Allatou
-                    - *Servants
+                Note: Also used to summon her Familiar, Allatou.
                 Description: |
                   Creates or summons a loyal, obedient creature or entity to perform tasks or assist the caster.
               Shield-Great: Protects an area up to 1 area wide and 3 stories tall with spell Rank +2CS. Only one at a time.
