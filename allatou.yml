@@ -329,6 +329,10 @@
                       Animal: *Remarkable
                     Description: |
                       Strengthens mental fortitude, resisting psychological manipulation and enhancing determination.
+                  Linguistics:
+                    Rank: *Remarkable
+                    Description: |
+                      Instantly understands and communicates in any language encountered, spoken or written.
                   Telekinesis:
                     Rank:
                       Demon: *Good
@@ -341,6 +345,10 @@
                       Ethereal: *Remarkable
                     Description: |
                       Mentally communicates with others, sending and receiving thoughts, and establishing mental links.
+                  Total Memory:
+                    Rank: *Remarkable
+                    Description: |
+                      Perfectly recalls any previously experienced event or information without degradation.
                 Physical Enhancement:
                   Self-Sustenance:
                     Rank:
@@ -362,19 +370,19 @@
                     Totals:
                       Demon:
                         Rank: Shift-Z
-                        Number: 575
-                        Spread: 20
-                        Turns to Full Recovery: 29
+                        Number: 605
+                        Spread: 22
+                        Turns to Full Recovery: 31
                       Ethereal:
                         Rank: Shift-Z
-                        Number: 470
-                        Spread: 16
-                        Turns to Full Recovery: 24
+                        Number: 500
+                        Spread: 18
+                        Turns to Full Recovery: 25
                       Normal Human:
                         Rank: Shift-Y
-                        Number: 270
-                        Spread: 12
-                        Turns to Full Recovery: 27
+                        Number: 300
+                        Spread: 14
+                        Turns to Full Recovery: 30
                     Note: Rank-less abilities not included.  Focus itself is.
                     Description: |
                       Channels all Abilities and Powers into a single burst, replacing the target Power’s rank with the sum of all other ranks. After use, all Abilities and Powers drop to Feeble. The Focus rank determines how many points can be recovered each turn, divided evenly across all affected traits.
@@ -484,7 +492,7 @@
                 Character Type: Magic Wielder
                 Magic School: Specific Pantheon (Annunaki)
                 Energy Use: All Energies
-                Rank: Disciple
+                Rank: Adept
                 Master: Ashtaret
                 Note:
                   - Descriptions are short summaries of full text. Consult Realms of Magic for full text of Spell description.
@@ -494,7 +502,6 @@
                 Spells:
                   Personal Energies:
                     Heal: Self-healing through magical means, rapidly restoring health.
-                    Tongues: Grants instant understanding and fluency in spoken or written languages.
                     Trance: Mystically slow down or speed up metabolism.
                   Universal Energies:
                     Conjure: Instantly summons items, creatures, or allies from distant locations.
