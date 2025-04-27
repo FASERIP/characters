@@ -69,12 +69,11 @@
       Age: .inf
       Origin:
         Physical Form: 
-          Type: Compound
+          Type: Compound Form
           Forms:
             - Deity
-            - Pure Robot:
-                Subtype: Computer
-        Origin of Power: Natal
+            - Pure Robot: Computer
+        Origin of Power: Created
       Abilities:
         Primary Abilities:
           Fighting: *Shift-X
@@ -95,7 +94,7 @@
           Karma: 950
           Resources: *Amazing
           Popularity:
-            Public: *Incredible
+            Public: *Remarkable
             Established Religions: *Shift-0
         Special Abilities:
           Powers:
@@ -373,6 +372,13 @@
             Note: All avatars' personal equipment created with Powers such as Body Armor, Crystallization, Illusion Casting, Artifact Creation, Missile Creation, Spray, Weapons Creation, Webcasting, Natural Weapons.
             Terminals: Terminal interfaces to Tal'Zir can look like anything appropriate to the technology of the culture in question, with a preference for "vintage" technology.  They may spontaneously spawn, be accidentally invented by an eccentric, or existing technology could become haunted or possessed.
           Contacts:
+            Political:
+              Planetary:
+                - The Dark Dimension
+                - Asgard
+                - Olympus
+                - Heliopolis
+                - The Faltine
             Mystic:
               Mystic Arts:
                 - Stephen Strange
@@ -403,20 +409,188 @@
                 - Gaea
                 - Shuma-Gorath
                 - Khonshu
-            Political:
-              Planetary:
-                - The Dark Dimension
-                - Asgard
-                - Olympus
-                - Heliopolis
-                - The Faltine
           Magic:
             Character Type: Magic Wielder
-            Magic School: Specific Realm/Pantheon
+            Magic School: Specific Realm/Pantheon (Eldritch Network)
             Energy Use: All Energies
             Rank: Sorcerer Supreme
             Master: None
-            Spells: Tal'Zir possesses all spells listed in Realms of Magic at an Amazing (50) Rank.
+            Spells:
+              Note:
+                - All spells are Amazing (50) Rank.
+                - Spells that require a physical location of origin must be cast through Avatars, others may be cast directly.
+              Personal Energies:
+                - Absorption
+                - Admittance
+                - Alteration-Appearance
+                - Alteration-Body Weapons
+                - Alteration-Bone
+                - Armor
+                - Apparition
+                - Astral Projection
+                - Chameleonic Coloring
+                - Damage Absorption
+                - Damage Conversion
+                - Density Control-Self
+                - Dual Persona
+                - Empathy
+                - Enchanted Eye
+                - Flaw
+                - Flight
+                - Foretelling
+                - Gramarye
+                - Growing
+                - Heal
+                - Image Projection
+                - Immovability
+                - Invisibility
+                - Learning
+                - Levitation
+                - Luck
+                - Manipulation
+                - Mental Barrier
+                - Post-Cognition
+                - Protected Senses
+                - Reflective Aura
+                - Resistance Aura
+                - Sensing-Clairaudience
+                - Sensing-Clairvoyance
+                - Sensing Danger
+                - Servant
+                - Shape-Shifting, Limited
+                - Sape-Shifting, Unlimited
+                - Shield-Great
+                - Shield-Individual
+                - Shrinking
+                - Telekinesis
+                - Telepathy
+                - Tongues
+                - Trance
+                - Transformation:
+                    Forms:
+                      - Darkforce
+                      - Energy
+                      - Fire and/or Heat
+                      - Gas
+                      - Ice
+                      - Metal or Mineral
+                      - Sound
+                      - Water
+                - Vapors-Enhancement
+              Universal Energies:
+                - Animation
+                - Bands
+                - Charm
+                - Confusion
+                - Conjure
+                - Curse
+                - Density Control-Others
+                - Eldritch Beams/Bolts:
+                    Origin: Hands
+                    Forms:
+                      - Cold
+                      - Darkforce
+                      - Disintegrating
+                      - Energy
+                      - Fire
+                      - Impact
+                      - Light
+                      - Sonic
+                - Eldritch Blast:
+                    Forms:
+                      - Cold
+                      - Darkforce
+                      - Disintegrating
+                      - Energy
+                      - Fire
+                      - Impact
+                      - Light
+                      - Sonic
+                - Eldritch Breath:
+                    Forms:
+                      - Cold
+                      - Darkforce
+                      - Disintegrating
+                      - Energy
+                      - Fire
+                      - Impact
+                      - Light
+                      - Sonic
+                - Eldritch Crystals
+                - Eldritch Flames
+                - Emotion Control
+                - Energy Control:
+                    Forms:
+                      - Darkforce
+                      - Electrical
+                      - Gravity
+                      - Magnetism
+                      - Solar
+                      - Sonic
+                - Fear
+                - Forgetfulness
+                - Glamor
+                - Growing-Others
+                - Healing-Others
+                - Illusion
+                - Invisibility-Others
+                - Matter Rearrangement
+                - Mental Control
+                - Mental Probe
+                - Mesmerism
+                - Mesmermechanism
+                - Nature Control:
+                    Forms:
+                      - Air
+                      - Earth
+                      - Fire
+                      - Water
+                      - Weather
+                - Net
+                - Paralyze
+                - Plant Control
+                - Power Block
+                - Revival
+                - Shield-Aura
+                - Shrinking-Others
+                - Static Field
+                - Teleportation
+                - Trap
+                - Vapors-Obscurity
+                - Vapors-Sleep
+                - Vapors-Resist Death
+                - Wave
+              Dimensional Energies:
+                - Absorption
+                - Cyttorak
+                - Damage Absorption
+                - Damage Conversion
+                - Denak
+                - Dimensional Aperture
+                - Disguise
+                - Eldritch Attacks
+                - Environmental Independence
+                - Faltine
+                - Hoggoth
+                - Ikonn
+                - Link
+                - Munnopor
+                - Oshtur
+                - Passing
+                - Pishogue
+                - Power Block
+                - Power Duplication
+                - Raggadorr
+                - Scrying
+                - Sensing
+                - Seraphim
+                - Shape Shifting—Unlimited
+                - Shield-Multiple
+                - Teleportation
+                - Thaumaturgy
+                - Valtorr
+                - Vishanti
+                - Witchery
       Quotes:
         - "You only fear me because you are incapable of comprehending the horror that would ensue from my nonexistence."
       Personality: Inscrutable, opaque, alien, detached, transcendent
