@@ -1023,7 +1023,7 @@
                     - About 20+ areas over about 3+ levels.
                     - Descriptions are references from the Ultimate Player's Book chapter on Headquarters, and exemplary, rather than canonical, functionally or qualitatively generally equivalent to the contents of the extraplanar domain by comparison to 1980's Manhattan, rather than literal descriptions.
                     - Portal Room to secure Black Mirror instance is a combination of Trophy Room and Imprisonment Package features, designed to keep interlopers somehow emerging from the Black Mirror confined away from access to the rest of her domain.
-                    - Scrying Room for the Satan-Sphere is a combination of Trophy Room and Conference Room features.
+                    - Scrying Room for the Satan-Sphere and Interdimensional Scanner is a combination of Trophy Room and Conference Room features.
                     - Throne Room for holding court is a combination of Conference Room and Office Package features. It features an enormous, ornate throne of basalt, obsidian, and iron.
                     - Bedrooms, of which there are many, feature subtle implementations of the Imprisonment Package as described, an Amazing Intensity feat to notice when they are inactive.
                     - Servants: &Servants
@@ -1205,6 +1205,12 @@
                   Description: |
                     This large (8 feet in diameter) fiery white sphere was last known to be owned by the cult Sons of Satannish. It acts in a manner similar to the Orb of Agamotto, locating that which the user desires to see and hear on Earth. The Satan-Sphere also allows a user who makes a successful Psyche FEAT roll to send spells through it at observed targets (the check must be made for each spell used, a failed roll means that the spell has been wasted). Even if the attack successfully goes through the Satan-Sphere the target can return the attack spell to the user if: a) the target is of a mastery level equal to or greater than the user; and b) the target succeeds in making a Yellow or Red Psyche FEAT roll.
                     The current whereabouts of the Satan-Sphere are unknown.
+                Interdimensional Scanner:
+                  Note:
+                    - This is a room-sized magical device that functions the same as the Interdimensional Scanner described in Realms of Magic. 
+                    - It is occupies much of the scrying room in Ashtaret's domain.
+                  Description: |
+                    While this is not a mystical item, it is used to monitor dimensional nexus and scan dimensions that are near Earth. This room-sized piece of high-tech equipment was designed by Roger Bochs, who first created Box of Alpha Flight fame. He was assisted in its creation by Shaman. Imaging of these dimensions is often hazy, showing only the outlines of larger creatures, structures, and so forth. It is with this device that the Alpha Flight team unwittingly brought the Incredible Hulk back to the Earth dimension from another dimension where Doctor Strange had banished him for the good of mankind, and the Hulk’s own sake. Any use of this device to scan and observe another dimension requires a successful Reason FEAT roll.
               Note: Most equipment is ad hoc via Artifact Creation, Molecular Creation, and Molding.
             Contacts:
               Professional:
