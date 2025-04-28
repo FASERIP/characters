@@ -279,6 +279,8 @@ Character Sheet:
               Contacts: *Contacts
               Magic: *Magic              
           Reference: *Standard_Robot
+          Description: |
+            Generally minor imps.
         Sentry Servant:
           Origin: *Demon
           Weakness: *Weakness
@@ -318,6 +320,8 @@ Character Sheet:
             - Good Laser from Sentry Robot is a magical Quasi-Power, originates from outstretched hand or held weapon's blade, stats as Laser Pistol, without Shots or Power Pack
             - Melee and Thrown Weapons are Silver
             - Excellent Body Armor from Chest Plate (covers the wearer’s torso and back only), Helmet (Covers the wearer’s head only), and Shield (Protects against frontal attack only. If a shield is used in combination with a chest plate or any type of full armor, the shield raises the protection of the other armor by one rank. If used alone or with a helmet only, use the shield’s armor rank). Remarkable with Shield vs frontal attacks.
+          Description: |
+            Generally greater imps.
         Talent Servant:
           Origin: *Demon
           Weakness: *Weakness
@@ -351,6 +355,8 @@ Character Sheet:
               Contacts: *Contacts
               Magic: *Magic              
           Reference: *Talent_Robot
+          Description: |
+            Generally minor demons such as succubi, incubi, and other lesser devils
           Examples:
             Archivist:
               Abilities:
@@ -375,23 +381,8 @@ Character Sheet:
               Note:
                 - Enhanced Primary Attribute is Reason
                 - Librarian and sage that works in the Libraries and Trophy Rooms, cataloguing, organizing, researching, and preserving books and scrolls, including Mystic Texts and Grimoires, Magical Items, and other treasures.
-            Laboratory Assistant:
+            Magitechnician:
               Enhanced Attribute: Reason
-              Abilities:
-                Primary Abilities:
-                  Reason: *Remarkable
-                Special Abilities:
-                  Talents:
-                    Scientific Skills:
-                      Chemistry: *Chemistry
-                      Biology: *Biology
-                      Geology: *Geology
-                    Magic Wielder Talents:
-                      Zoologist of Magic: *Zoologist_of_Magic
-              Note:
-                - Enhanced Primary Attribute is Reason
-                - Alchemist and apothecary that works in the Laboratories, assisting with experiments, research, and compounding substances.
-            Workshop Assistant:
               Abilities:
                 Primary Abilities:
                   Reason: *Remarkable
@@ -399,14 +390,22 @@ Character Sheet:
                   Talents:
                     Professional Skills:
                       Engineering: *Engineering
+                    Scientific Skills:
+                      Chemistry: *Chemistry
+                      Biology: *Biology
+                      Geology: *Geology
+                    Mystic and Mental Skills:
+                      Occult Lore: *Occult_Lore
                     Other Talents:
                       Artist: *Artist
                       Repair/Tinkering: *Repair-Tinkering
                     Magic Wielder Talents:
                       Runesmith: *Runesmith
+                      Scholar of Antiquities: *Scholar_of_Antiquities
+                      Zoologist of Magic: *Zoologist_of_Magic
               Note:
                 - Enhanced Primary Attribute is Reason
-                - Artificer and technician that works in the Workshops, assisting with experiments, repair, and construction of items.
+                - Alchemist and artificer that works in the Laboratories and Workshops, assisting with experiments, research, compounding, construction, and repairs.
             Sentry Captain:
               Abilities:
                 Primary Abilities:
@@ -428,6 +427,7 @@ Character Sheet:
                       Leadership: *Leadership
                     Mystic and Mental Skills:
                       Resist Domination: *Resist_Domination
+                      Occult Lore: *Occult_Lore
                     Magic Wielder Talents:
                       Demonologist: *Demonologist
                       Zoologist of Magic: *Zoologist_of_Magic
