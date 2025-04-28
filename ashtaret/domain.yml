@@ -246,21 +246,9 @@ Character Sheet:
         - Throne Room for holding court is a combination of Conference Room and Office Package features. It features an enormous, ornate throne of basalt, obsidian, and iron.
         - Bedrooms, of which there are many, feature subtle implementations of the Imprisonment Package as described. An Amazing Intensity feat is required to notice them when they are inactive. Bedchambers are opulent but austere, matching the rest of the domain.
         - Servants:
-            Note: These are created or summoned by the Servant spell, and are elemental or demonic spirits, or magical automatons, rather than technological robots, but have the same general roles, Abilities, and other features.
-            Types:
-              - Name: Robot, Standard
-                Cost: *Incredible
-                Description: |
-                  The Standard Robot is only capable of simple tasks and has no special abilities other than to record what transpires before its recorders and perform simple tasks. The H.E.R.B.I.E. series was a modified form of the standard robot. All Standard robot abilities are Typical.
-              - Name: Robot, Sentry
-                Cost: *Incredible
-                Description: |
-                  The Sentry Robot has a bit more programming and firepower. It is programmed to identify hostile threats (that is — anything not in its bank) and open fire. Sentry robots come equipped with Good Strength lasers, though some may be additionally armed. All sentry robot abilities are Good.
-              - Name: Robot, Talent
-                Cost: *Amazing
-                Note: Exceptional Attribute and Talents possessed depend on role.
-                Description: |
-                  The Talent Robot is a robot specifically designed for a certain purpose, and its programming reflects that purpose. The Avengers' fire-fighting robots or the robotic opponent the Black Knight uses are examples of talent robots. Such robots may have one ability at Remarkable level. All others are Excellent.
+            Note:
+              - These are created or summoned by the Servant spell, and are elemental or demonic spirits, or magical automatons, rather than technological robots, but have the same general roles, Abilities, and other features.
+              - See servants.yml
       Description: |
         A small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams, with a readily accessible border with the Astral Plane, Ashtaret's domain is not strictly a structure or building, though there are areas that appear to be "inside," as well as "outside," and "underground." The substructure of "walls," "ceilings," "floors," and "the ground" are an ultrahard, impenetrable, basalt-like material.  There is "weather" of sorts in the "sky" of the "outdoor" portions, and flying away from the surface eventually leads to the Astral Plane. However, this is ultimately a one-way trip once the flyer has passed fully into the Astral, requiring a different mechanism to return.
         As Ashtaret satisfies her needs with Powers and Spells, the lair has few amenities although everything there is of opulent quality, as it primarily comprises places for Ashtaret to keep her Grimoires and other Mystic Texts, along with any treasures, prisoners, or other possessions, as well as a place for her to sit and hold court. The architecture and design are reminiscent of ancient Mesopotamian aesthetics, and the statuary and friezes and other elements, as well as the lighting and temperature, all respond subtly to her emotional state, changing their countenance or content to reflect her moods. The temperature, atmosphere, and other conditions are survivable, even livable, if not pleasant or comfortable, for humans, animals, and humanlike beings. There is no modern technology present, with amenities such as cooking, hot water, and lighting provided by hellfire and witchlight, running water from "natural" springs, and plumbing, drainage, and waste disposal by the void itself. Though indeed opulent in construction and ornamentation, it is also somewhat spare and spartan, empty and uninhabited save her herself and her Servants, robotic except for Allatou; she finds it stifling and boring to spend too much time there.
