@@ -67,24 +67,6 @@ Character Sheet:
             The caster can summon forth his own, personal servant to do his bidding. This servant will require quite a bit of Judge’s discretion as to its nature, abilities, spell, etc.
             The servant’s abilities are generated as for any other character. The Judge then gives it two spells, and gives it an origin appropriate to the character it serves. Various types of magical servants exist, including jinn, demons, familiars, ghosts, and the like. The servant is obedient, helpful, and useful. The caster can automatically talk to or otherwise communicate with the servant.
             This spell cannot use human beings as servants.
-        Shield-Individual: &Shield-Individual
-          Description: |
-            The caster create a sorcerous shield to protect himself. The shield has an armor rank equal to the spell rank. This shield is usually invisible to all but magic wielders and can be projected out away from the caster’s outstretched hand a few feet. The caster moves the shield to block attacks. If the caster is attacked from a number of sources at once the shield will only protect him from one attack. If the caster is surprised, or if the attacking character succeeds in targeting a magical beam or bolt as a bull’s-eye, it means the caster could not move his shield fast enough to deflect the attack. If the shield is hit by an attack with a higher spell rank it shatters, though no damage penetrates it to harm the caster during that round.
-        Eldritch Beams/Bolts: &Eldritch_Beams-Bolts 
-          Description: |
-              This spell unleashes a magical beam or bolt causing damage equal to the spell rank (a beam is a continuous line of energy, a bolt is an interrupted line of energy). A beam or bolt (hereafter referred to as bolt) affects only one target in the target area. When this spell is obtained, the player should roll a die to see where the bolts originate. The bolts will issue forth from the character’s: 1-4 = Hands; 5-8 = Eyes; 9 = Chest; 10 = Forehead. The type of bolt the character uses will be one of the following, which the player chooses with the approval of the Judge.
-                Cold Bolt: This bolt causes freezing damage and is blue.
-                Darkforce Bolt:This bolt uses the Darkforce, a form of energy from another dimension. The target loses Health points equal to the caster’s spell rank. The bolt is black. (This bolt requires dimensional energy; it is not available to characters unable to use dimensional energy.)
-                Disintegrating Bolt: This bolt disintegrates non-living, inanimate objects up to 2 areas away from the caster. The limit of what it can disintegrate is determined by the spell rank. Compare the spell rank to the material rank of the object to be disintegrated.
-                  If the material rank is higher than the spell rank, the target’s material strength is reduced one rank.
-                  If the material rank is equal to or less than the spell rank, the target is disintegrated. Small objects (fist-sized, for example) can be destroyed automatically. Destroying man-sized objects requires a successful yellow spell rank FEAT roll. Destroying larger objects (like a vehicle) requires a successful red FEAT roll. If the target is an object of no importance, the Judge can waive the FEAT roll and rule that the item is automatically destroyed.
-                Energy Bolt: (Also commonly called Bolt of Bedevilment.) This bolt uses pure universal or dimensional energy This is the most common form of eldritch bolt.
-                Fire Bolt: This bolt causes fire and heat damage and is a reddish line of flame.
-                Impact Bolt: This bolt causes impact damage through reverse gravity, magnetism, etc. The bolt is invisible.
-                Light Bolt: This bolt causes damage through intense light. The bolt is golden.
-                Sonic Bolt: This bolt causes damage through sonic disruption, nerve damage, etc.
-              The caster can also use this spell to encircle himself with four weaker shields (armor rank equalling the spell rank -1CS).
-              If any of the shields are broken, the remainder are unaffected. The caster cannot leave the circle of shields until they dissipate or are destroyed.`
       Origin: &Demon
         Physical Form:
           Demon:
@@ -125,8 +107,8 @@ Character Sheet:
                     The hero can project fire with Power rank damage and range. These flames have no apparent fuel source and spring from the hero as if he were a living fuel tank. Although the flames' fuel comes out of the proverbial nowhere, free oxygen must be present for the Power to function. If not, the hero can cause a single flame that lasts' only one turn, then fizzles out. At Shift X rank, the hero gains the ability to generate oxygen as well, permitting this Power to function under any conditions. When creating the hero, the player can choose the Powers of Flame Control, Energy Sheath, and Energy Body to fill any slots still open. For example, under the Ultimate system, the Human Torch possesses three powers: Fire Generation, Fire Control, and Energy Sheath.
                     This has to be the most dangerous Power around. Heroes have to watch out for accidental firestorms. They also tend to consume all the oxygen in their location, making everyone pass out. Then there is the question of smoke and gases created by the hero's Flame Power. It makes me wonder what kind of ventilation system the Baxter Building has…
                     Fire Generation is the opposing Power to Cold Emission, Coldshaping, and Powers that use water. This Power gains +1CS when fighting these Powers. It also loses -1CS when being attacked by those Powers
-            Armor: &Powers-Armor
-              Defensive:
+            Armor:
+              Defensive: &Powers-Armor
                 Body Armor:
                   Value: *Excellent
                   Note: Excellent Body Armor from Chest Plate (covers the wearer’s torso and back only), Helmet (Covers the wearer’s head only), and Shield (Protects against frontal attack only. If a shield is used in combination with a chest plate or any type of full armor, the shield raises the protection of the other armor by one rank. If used alone or with a helmet only, use the shield’s armor rank). Remarkable with Shield vs frontal attacks. Items have Remarkable Material Strength.
@@ -401,7 +383,16 @@ Character Sheet:
                 Primary Abilities:
                   Intuition: *Remarkable
                 Special Abilities:
-                  Powers: *Powers-Armor
+                  Powers:
+                    Defensive: *Powers-Armor
+                    Special:
+                      Eldritch Bolts:
+                        Description: |
+                          Eldritch Bolt is a bolt of magical power, and includes all manner of spells such as Doctor Strange's Bolt of Bedevilment. The range is as determined in the spell range table, and damage is equal to the Power rank, with the following difference:: the bolt may reduce Health or Karma values (in the latter case, the target's effectively out of luck). If the bolt attacks Health, treat it as a Force attack.
+                      Eldritch Shield:
+                        Description: |
+                          The Eldritch Shield is a shield of mystical energy that provides the caster with mystical Body Armor equal to the caster's rank number. This is also proof against magical attacks or those attacks which arise from magic.
+                          If an attacker directs his attacks against the shield Itself, treat the attack as an attempt to break the material, with the attacker's bolt supplying the strength and the defender's shield the object that may be broken. The mage whose shield is broken that round takes no damage, but has no shield until he raises it the next round. An Eldritch Shield will protect its caster from all forms of magic of up to the Psyche of the caster.
                   Talents:
                     Weapon Skills:
                       Sharp Weapons: *Sharp_Weapons
@@ -433,12 +424,6 @@ Character Sheet:
                         Description: *Silver
                   Contacts:
                     Professional: One Contact in the Military category and one Contact in the Crime, Law Enforcement, Law, or Espionage categories.
-                  Magic:
-                    Spells:
-                      Personal Energies:
-                        Shield-Individual: *Shield-Individual
-                      Universal Energies:
-                        Eldritch Beams/Bolts: *Eldritch_Beams-Bolts
               Note:
                 - Enhanced Primary Attribute is Intuition
                 - Leads Sentry Servants and responds to intruders and threats, escorts guests.
