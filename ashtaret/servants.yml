@@ -302,7 +302,7 @@ Character Sheet:
                 Weapons:
                   Shooting Weapons:
                     Laser:
-                      Note: Good Laser from Sentry Robot is a magical Quasi-Power, originates from outstretched hand or held weapon's blade, stats as Laser Pistol, without Shots or Power Pack
+                      Note: Good Laser from Sentry Robot stat block is a magical Quasi-Power, originates from outstretched hand or held weapon's blade, stats as Laser Pistol, without Shots or Power Pack, reflecting its "built-in" nature.
                       Reference: *Laser
                   Melee and Thrown Weapons:
                     Note:
@@ -428,7 +428,9 @@ Character Sheet:
                         Knife: *Knife
                         Sword: *Sword
                     Magical Items:
-                      Silver: *Silver
+                      Silver:
+                        Note: Melee and Thrown Weapons are Silver
+                        Description: *Silver
                   Contacts:
                     Professional: One Contact in the Military category and one Contact in the Crime, Law Enforcement, Law, or Espionage categories.
                   Magic:
@@ -440,7 +442,6 @@ Character Sheet:
               Note:
                 - Enhanced Primary Attribute is Intuition
                 - Leads Sentry Servants and responds to intruders and threats, escorts guests.
-                - Melee and Thrown Weapons are Silver
                 - Wears Body Armor (Excellent Chest Plate and Helmet) like Sentry Servants but generally doesn't carry a shield.
             Personal Staff:
               Abilities:
