@@ -453,11 +453,11 @@ Character Sheet:
             Vehicles: []
             Headquarters:
               Ashtaret's Domain:
-                Reference: domain.yml
+                href: domain.yml
                 Description: |
                   A demiplanar pocket dimension that straddles Hell Dimension and the Dimension of Dreams.  Boring, empty, stifling.
               Ashtaret's Manhattan Apartment:
-                Reference: apartment.yml
+                href: apartment.yml
                 Description: |
                   Various rotating apartments rented by Ashtaret's human identities.
                 Salaries Sundries and Other Equipment:
