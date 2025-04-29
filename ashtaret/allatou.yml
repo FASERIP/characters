@@ -78,8 +78,8 @@ Character Sheet:
           Description: |
             Able to transform between multiple distinct Body Types, each with unique advantages, disadvantages, and at least one exclusive power. Takes 10 turns to change Aspect. No Powers can function and all Abilities -2CS during change.
           Note:
-            - Not all Powers are available in every aspect. An aspect will have a Rank in a Power if it is available.
-            - Magic use is not a Power, and still available during Aspect Change.
+            - Not all Powers are available in every aspect. An aspect will have a Rank in a Power if it is available. A Rank given with no Aspects is available to all Aspects.
+            - Everything nonliving Allatou is wearing or carrying becomes Ethereal along with her when she changes into that Aspect.
           Aspects:
             Demon: |
               Supernatural, corporeal being from another dimension, inherently malevolent by nature. Demons possess increased physical abilities, fire generation, invulnerability to heat and fire, and reduced popularity.
@@ -112,7 +112,6 @@ Character Sheet:
             - Instantly reverses when moved away from Stimulus.
             - Psychological Weaknesses can be temporarily overcome by an Unearthly Intensity Psyche FEAT. They can be permanently overcome by a Shift-Z Intensity Psyche FEAT.
             - Sites consecrated to the Annunaki (including Ashtaret and Allatou) do not trigger this Weakness.
-            - Magic use is not considered a Power, but lowered Abilities may impact it if Ability FEATs are required for a particular Spell.
         Ethereal:
           Stimulus: Psychological
           Effect: Special
@@ -213,6 +212,14 @@ Character Sheet:
               Ethereal: *Poor
               Normal Human: *Typical
               Animal: *Excellent
+              Note:
+              - Base starting Popularity is 10.
+              - Public identities have +10 starting Popularity.
+              - Secret identities have -5 starting Popularity.
+              - Aliens in general have -5 starting Popularity.
+              - Demons have a -2CS to initial popularity.
+              - Ethereal Aspect Popularity is linked to Demon Aspect.
+              - Normal Human Popularity the average Popularity of a cover identity, and may vary.
           Resources:
             Rank:
               Demon: *Poor
@@ -221,7 +228,7 @@ Character Sheet:
               Animal: *Shift_0
             Note:
               - Aliens (including Demons, Deities, and the like) have Poor (4) starting Resources.
-              - Animals have Shift 0 Resources
+              - Animals have Shift 0 Resources unless attached to an owner's Resources.
               - Business/Finance Talent grants minimum Resources of Good. Only relevant in Normal Human cover identity.
               - Normal Human Resources represent the average Resources of a Normal Human cover identity. May optionally vary from Good (10) to Incredible (40) if rolled on Ability Modifier Table for that cover identity.
         Special Abilities:
@@ -508,9 +515,7 @@ Character Sheet:
             Master: Ashtaret
             Note:
               - Descriptions are short summaries of full text. Consult Realms of Magic for full text of Spell description.
-              - Normal Human Aspect is still capable of Magic use.
-              - Magic use is not considered a Power.
-              - All Spells Ashtaret knows are Amazing (50) in Rank.
+              - All Spells Allatou knows are Amazing (50) in Rank.
             Spells:
               Personal Energies:
                 Heal: Self-healing through magical means, rapidly restoring health.

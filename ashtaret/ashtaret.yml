@@ -81,9 +81,9 @@ Character Sheet:
           Description: |
             Able to transform between multiple distinct Body Types, each with unique advantages, disadvantages, and at least one exclusive power. Takes 10 turns to change Aspect. No Powers can function and all Abilities -2CS during change.
           Note:
-            - Not all Powers are available in every aspect. An aspect will have a Rank in a Power if it is available.
-            - Magic use is not a Power, and still available during Aspect Change.
+            - Not all Powers are available in every aspect. An aspect will have a Rank in a Power if it is available. A Rank given with no Aspects is available to all Aspects.
             - Continuously in Deity Aspect while in Ashtaret's Domain.  May choose to appear in another Aspect when leaving that dimension, without triggering either the Changeling penalty timer or requiring an Energy Depletion recharge.
+            - Everything nonliving Ashtaret is wearing or carrying becomes Ethereal along with her when she changes into that Aspect.
           Aspects:
             Demon: |
               Supernatural, corporeal being from another dimension, inherently malevolent by nature. Demons possess increased physical abilities, fire generation, invulnerability to heat and fire, and reduced popularity.
@@ -108,7 +108,6 @@ Character Sheet:
             - Instantly reverses when moved away from Stimulus.
             - Psychological Weaknesses can be temporarily overcome by an Unearthly Intensity Psyche FEAT. They can be permanently overcome by a Shift-Z Intensity Psyche FEAT.
             - Sites consecrated to the Annunaki (including Ashtaret and Allatou) do not trigger this Weakness.
-            - Magic use is not considered a Power, but lowered Abilities may impact it if Ability FEATs are required for a particular Spell.
         Ethereal:
           Stimulus: Psychological
           Effect: Special
@@ -898,7 +897,7 @@ Character Sheet:
                 Description: |
                   Familiar indicates a being that is very powerful magically and actively assists the hero. Two powers should be rolled randomly or selected by the Judge from the personal and universal energy lists for this familiar. In addition, the familiar is intelligent (Reason and Psyche at least Typical) and can communicate with its owner (the kind of communication is left to the Judge’s discretion). The form of the familiar can either be that of a normal animal (usually a cat) or an unusual type, such as a small dragon or other mythical creature. The familiar’s form is at the player’s discretion.
               Ebon Staff of Ereshkigal:
-                Category: Miscellaneous-Staff
+                Category: Miscellaneous/Staff
                 Item Condition: There are no conditions to the item (it operates as described).
                 Melee and Thrown Weapons:
                   Weapon: Club
@@ -947,12 +946,15 @@ Character Sheet:
                       Type: 
                         - Name: Darkforce
                           Note: May black out an area so completely that even infravision does not work. Cannot be used as a weapon outside of caster's area, anyone within that area except the caster loses Health points equal to the spell Rank Number each round.
-              Ruby of Domination:
-                Note:
-                  - A relatively recent acquisition after Doctor Strange shattered the Ruby into shards.
-                  - Ashtaret's shard of the Ruby of Domination is set into a gold ring that she often wears in any Aspect.
+              Ruby Ring of Regency: 
+                Category: Jewelry/Ring
+                Item Condition: There are no conditions to the item (it operates as described).
+                Note: +1CS to Emotion Control, Mental Control, Mesmerism, or Mesmermechanism when used as a focus.
                 Description: |
-                  This large red, floating ruby (3 feet in diameter) was once used by Xandu in an attempt to make Earth's population mind-slaves. When Doctor Strange shattered it, little rubies were left on Earth from its shards. A character attempting the powers of Emotion Control, Mental Control, Mesmerism, or Mesmermechanism has a +1CS for success when focusing the power through one of these smaller Rubies of Domination.
+                  A relatively recent acquisition after Doctor Strange shattered the Ruby into shards, Ashtaret's shard of the Ruby of Domination is set into a gold ring that she often wears in any Aspect.
+                Ruby of Domination:
+                  Description: |
+                    This large red, floating ruby (3 feet in diameter) was once used by Xandu in an attempt to make Earth's population mind-slaves. When Doctor Strange shattered it, little rubies were left on Earth from its shards. A character attempting the powers of Emotion Control, Mental Control, Mesmerism, or Mesmermechanism has a +1CS for success when focusing the power through one of these smaller Rubies of Domination.
               Serum of the Seraphim:
                 Note: Unless she's recently used it, Ashtaret tends to have at least one of these stashed somewhere, either on her person, or at most a Conjure Spell away.
                 Description: |
@@ -1023,7 +1025,6 @@ Character Sheet:
             Note:
               - Descriptions are short summaries of full text. Consult Realms of Magic for full text of Spell description.
               - Normal Human Aspect is still capable of Magic use.
-              - Magic use is not considered a Power.
               - Ashtaret does not possess any Entreaty Spells.
               - It may be possible for others to Entreat Ashtaret.
               - All Spells Ashtaret knows are Amazing (50) in Rank.
