@@ -200,20 +200,7 @@ Character Sheet:
                 Material Strength: *Good
                 Description: |
                   A Spear is considered as any thrusting blade with a handle over one foot long. It is normally thrown or wielded with two hands.
-              Whip, Leather: &Leather_Whip
-                Price: *Poor
-                Damage: 0
-                Type:
-                  - Grappling
-                  - Grabbing
-                Material Strength: *Typical
-                Description: |
-                  A Spear is considered as any thrusting blade with a handle over one foot long. It is normally thrown or wielded with two hands.
             Salaries Sundries and Other Equipment:
-              Mystic Texts: &Mystic_Texts
-                Cost: *Incredible
-                Description: |
-                  Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
               Robot, Standard: &Standard_Robot
                 Cost: *Incredible
                 Description: |
@@ -228,10 +215,6 @@ Character Sheet:
                 Description: |
                   The Talent Robot is a robot specifically designed for a certain purpose, and its programming reflects that purpose. The Avengers' fire-fighting robots or the robotic opponent the Black Knight uses are examples of talent robots. Such robots may have one ability at Remarkable level. All others are Excellent.
             Magical Items:
-              Grimoire:
-                Description: |
-                  This is the proper name for the book in which a mage records his spells or incantations. Some spells, like many of those listed under the Entreaty section of this booklet, are so long and involved, or are of such a peculiar mystic nature, that they cannot be memorized, only read aloud from a text. These spells must be found and copied from another grimoire, runes carved in a temple, and soon. Then, if the language is foreign, the character must spend the appropriate time researching the proper pronunciation of the spell. Usually by reading the spell to himself and not aloud, a magic wielder may understand most of the spell’s purpose. Some spells can be read by anybody, not just a magic wielder. In all of these matters, the details concerning availability, requirements, and abilities of the spells are left to the Judge.
-                  A character can only have two grimoires at any one time, the one he uses and his back-up copy. Since the spells in a grimoire must be carefully handwritten by the user, the Judge should also determine how long the magic wielder must spend at this task and forsake all other actions (10 + 1-10 days). Some grimores, such as the Book of the Vishanti, are collective grimoires that contain all the spells of a race or order. This type of grimoire is passed down from sorcerer to sorcerer, who adds any new spells of his own within. Collective grimoires are highly prized.
               Silver: &Silver
                 Description: |
                   In game terms, all silver weapons cause double their normal damage to those characters and creatures classified as demons. If a silver weapon strikes a character who is possessed by a demon, only the demon will suffer damage, not the host body, Damage is caused not by the edge or type of weapon as much as simply touching silver to these creatures.
@@ -307,7 +290,7 @@ Character Sheet:
               Equipment:
                 Weapons:
                   Shooting Weapons:
-                    Laser: &Laser
+                    Laser: *Laser
                   Melee and Thrown Weapons:
                     - *Knife
                     - *Sword

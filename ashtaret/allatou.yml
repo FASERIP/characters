@@ -455,7 +455,16 @@ Character Sheet:
           Equipment:
             Weapons:
               Shooting Weapons: []
-              Melee and Thrown Weapons: []
+              Melee and Thrown Weapons:
+                Whip, Leather:
+                  Price: *Poor
+                  Damage: 0
+                  Type:
+                    - Grappling
+                    - Grabbing
+                  Material Strength: *Typical
+                  Description: |
+                    Whips can make Grappling or Grabbing attacks from a distance, as if the whip had a Strength equal to its material strength. Example: a villain using a leather whip tries to entangle a charging hero. The villain rolls a Grappling attack on the Typical column. The result would then be a Miss, Partial hold, or Full hold.
               Other Weapons: []
             Vehicles: []
             Headquarters:
