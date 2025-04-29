@@ -863,14 +863,9 @@ Character Sheet:
               Other Weapons: []
             Vehicles: []
             Headquarters:
-              Extradimensional Lair:
-                href: domain.yml
-                Description: |
-                  A demiplanar pocket dimension that straddles Hell Dimension and the Dimension of Dreams.  Boring, empty, stifling.
-              Example Manhattan Apartment:
-                href: apartment.yml
-                Description: |
-                  Various rotating apartments rented by Ashtaret's human identities.
+              href: headquarters.yml
+              Extradimensional Lair: A demiplanar pocket dimension that straddles Hell Dimension and the Dimension of Dreams.  Boring, empty, stifling.
+              Example Manhattan Apartment: Various rotating apartments rented by Ashtaret's human identities.
             Salaries Sundries and Other Equipment:
               Respectable Clothing:
                 Price: *Typical
@@ -893,7 +888,7 @@ Character Sheet:
                   - Allatou, a discarded demonic Aspect of Ereshkigal, that Ashtaret absorbed and channeled into a Familiar.
                   - Summoned via the Servant Spell
                   - See Allatou's character sheet.
-                  - href: allatou.yml
+                href: allatou.yml
                 Description: |
                   Familiar indicates a being that is very powerful magically and actively assists the hero. Two powers should be rolled randomly or selected by the Judge from the personal and universal energy lists for this familiar. In addition, the familiar is intelligent (Reason and Psyche at least Typical) and can communicate with its owner (the kind of communication is left to the Judge’s discretion). The form of the familiar can either be that of a normal animal (usually a cat) or an unusual type, such as a small dragon or other mythical creature. The familiar’s form is at the player’s discretion.
               Ebon Staff of Ereshkigal:
