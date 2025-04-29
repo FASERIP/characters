@@ -1,3 +1,4 @@
+---
 Character Sheet:
   Game System:
     Name: TSR Marvel Super Heroes RPG Advanced
@@ -65,10 +66,10 @@ Character Sheet:
       Identity: Allatou
       Secret:
         Identity:
-          Demon: false
-          Ethereal: false
-          Normal Human: true
-          Animal: false
+          Demon: n
+          Ethereal: n
+          Normal Human: y
+          Animal: n
       Base of Operations: Manhattan
       Group Affiliation: ~
       Age: Timeless

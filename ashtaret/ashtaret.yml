@@ -1,3 +1,4 @@
+---
 Character Sheet:
   Game System:
       Name: TSR Marvel Super Heroes RPG Advanced
@@ -65,10 +66,10 @@ Character Sheet:
       Identity: Ashtaret
       Secret:
         Identity:
-          Demon: false
-          Deity: false
-          Ethereal: false
-          Normal Human: true
+          Demon: n
+          Deity: n
+          Ethereal: n
+          Normal Human: y
         Note: Normal Human Aspects may have appropriate cover identities.
       Base of Operations:
         Extraplanar: Ashtaret's Demiplanar Pocket Domain
