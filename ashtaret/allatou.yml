@@ -483,7 +483,8 @@ Character Sheet:
                   The book in which a mage records spells or incantations. Some spells, like many Entreaty spells, cannot be memorized, only read aloud from a text. A character can only have two grimoires at any one time, the primary and a back-up copy. Creating takes 10+1d10 full days of work.
           Contacts:
             Professional:
-              Law: Jennifer Walters, Esq.
+              Law:
+                - Jennifer Walters, Esq.
             Political:
               Planetary:
                 Annunaki: ~
