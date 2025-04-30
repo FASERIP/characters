@@ -1085,6 +1085,9 @@ Character Sheet:
                 Description: |
                   Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
             Magical Items:
+              Black Mirror:
+                Description: &Black_Mirror |
+                  This full length ebony oval of glass is surrounded by an ornate frame. While it has been called a mirror, it does not reflect. Instead, it is a legendary gateway to countless dimensions, to an infinite number of alternate Earths. A specific incantation is needed for each dimension. After speaking the incantation, the character speaking can simply pass through the mirror into the desired world. The mirror also exists on each dimension it opens into, so passage back and forth is easy, but only for those who know the right incantation.
               Familiar:
                 Description: &Familiar |
                   Familiar indicates a being that is very powerful magically and actively assists the hero. Two powers should be rolled randomly or selected by the Judge from the personal and universal energy lists for this familiar. In addition, the familiar is intelligent (Reason and Psyche at least Typical) and can communicate with its owner (the kind of communication is left to the Judge’s discretion). The form of the familiar can either be that of a normal animal (usually a cat) or an unusual type, such as a small dragon or other mythical creature. The familiar’s form is at the player’s discretion.
@@ -2245,8 +2248,7 @@ Character Sheet:
                           - Ashtaret has never shared the Black Mirror incantation to her dimension with anyone but it is possible the knowledge is discoverable.
                           - Ashtaret knows the incantations for many other dimensions, or knows how to find them.
                           - There is a custom, dedicated room built around the instance of the Black Mirror in Ashtaret's domain to house it that has the combined features of the Trophy Room Package and Imprisonment Package.
-                        Description: |
-                          This full length ebony oval of glass is surrounded by an ornate frame. While it has been called a mirror, it does not reflect. Instead, it is a legendary gateway to countless dimensions, to an infinite number of alternate Earths. A specific incantation is needed for each dimension. After speaking the incantation, the character speaking can simply pass through the mirror into the desired world. The mirror also exists on each dimension it opens into, so passage back and forth is easy, but only for those who know the right incantation.
+                        Description: *Black_Mirror
                   - Scrying Room:
                       Note: For the Satan-Sphere and Interdimensional Scanner is a combination of Trophy Room and Conference Room features.
                       Satan-Sphere:
