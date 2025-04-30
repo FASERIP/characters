@@ -2145,7 +2145,9 @@ Character Sheet:
                       Value: *Remarkable
                       Base: *Good
                       Note: +2CS to Cost for very high-quality package.
-                    Note: Multiple.
+                    Note:
+                      - Multiple.
+                      - Ashtaret, Allatou, and the Retinue have personal offices, the Security Captains share one among whoever is currently on duty.
                     Description: *Office_Package
                   Pool Package:
                     Cost:
@@ -2261,7 +2263,9 @@ Character Sheet:
                         Description: |
                           While this is not a mystical item, it is used to monitor dimensional nexus and scan dimensions that are near Earth. This room-sized piece of high-tech equipment was designed by Roger Bochs, who first created Box of Alpha Flight fame. He was assisted in its creation by Shaman. Imaging of these dimensions is often hazy, showing only the outlines of larger creatures, structures, and so forth. It is with this device that the Alpha Flight team unwittingly brought the Incredible Hulk back to the Earth dimension from another dimension where Doctor Strange had banished him for the good of mankind, and the Hulk’s own sake. Any use of this device to scan and observe another dimension requires a successful Reason FEAT roll.
                   - Throne Room for holding court is a combination of Conference Room and Office Package features. It features an enormous, ornate throne of basalt, obsidian, and iron.
-                  - Bedrooms, of which there are many, feature subtle implementations of the Imprisonment Package as described. An Amazing Intensity feat is required to notice them when they are inactive. Bedchambers are opulent but austere, matching the rest of the domain.
+                  - Guest Bedrooms, of which there are many, feature subtle implementations of the Imprisonment Package as described. An Amazing Intensity feat is required to notice them when they are inactive. Bedchambers are opulent but austere, matching the rest of the domain.
+                  - Some Bedrooms are barracks and dormitories for Servants.
+                  - Ashtaret and Allatou have private bedchambers, and their offices are antechambers.
                   - Servants:
                       Note:
                         - These are created or summoned by the Servant Spell, demonic spirits incarnated by the Spell, rather than technological robots, but have the same general roles, Abilities, and other features.
