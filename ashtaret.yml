@@ -6,60 +6,79 @@ Character Sheet:
         Unranked: &Unranked
           Name: null
           Number: .nan
+          Abbreviation: 
         Shift 0: &Shift_0
           Name: Shift 0
           Number: 0
+          Abbreviation: Sh0
         Feeble: &Feeble
           Name: Feeble
           Number: 2
+          Abbreviation: Fe
         Poor: &Poor
           Name: Poor
           Number: 4
+          Abbreviation: Pr
         Typical: &Typical
           Name: Typical
           Number: 6
+          Abbreviation: Ty
         Good: &Good
           Name: Good
           Number: 10
+          Abbreviation: Gd
         Excellent: &Excellent
           Name: Excellent
           Number: 20
+          Abbreviation: Ex
         Remarkable: &Remarkable
           Name: Remarkable
           Number: 30
+          Abbreviation: Rm
         Incredible: &Incredible
           Name: Incredible
           Number: 40
+          Abbreviation: In
         Amazing: &Amazing
           Name: Amazing
           Number: 50
+          Abbreviation: Am
         Monstrous: &Monstrous
           Name: Monstrous
           Number: 75
+          Abbreviation: Mn
         Unearthly: &Unearthly
           Name: Unearthly
           Number: 100
+          Abbreviation: Un
         Shift-X: &Shift-X
           Name: Shift-X
           Number: 150
+          Abbreviation: ShX
         Shift-Y: &Shift-Y
           Name: Shift-Y
           Number: 225
+          Abbreviation: ShY
         Shift-Z: &Shift-Z
           Name: Shift-Z
           Number: 500
+          Abbreviation: ShZ
         Class 1000: &Class-1000
           Name: Class 1000
           Number: 1000
+          Abbreviation: CL1000
         Class 3000: &Class-3000
           Name: Class 3000
           Number: 3000
+          Abbreviation: CL3000
         Class 5000: &Class-5000
           Name: Class 5000
           Number: 5000
+          Abbreviation: CL5000
         Beyond: &Beyond
           Name: Beyond
           Number: .inf
+          Abbreviation: B
     Reference:
       Origin: 
         Physical Form:
