@@ -2592,6 +2592,67 @@ Character Sheet:
               Grimoire:
                 Note: Primary and backup Grimoires. Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
                 Description: *Grimoire
+              Ebon Staff of Ereshkigal:
+                Category: Miscellaneous/Staff
+                Item Condition: There are no conditions to the item (it operates as described).
+                Melee and Thrown Weapons:
+                  Weapon: Club
+                  Damage: 10
+                  Type:
+                    - Blunt Attack
+                    - Blunt Throwing
+                  Material Strength: *Unearthly
+                  Note: Minimum 10 damage, maximum the lesser of wielder's Strength or item's Material Strength, on appropriate column (BA/BT).
+                Note:
+                  - Descriptions are short summaries of full text. Consult Realms of Magic for full text of Spell description.
+                  - Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
+                  - All Spells cast by the staff are Amazing (50)
+                Description: |
+                  About six feet long and an inch and a half thick, this staff of solid, lightweight, smooth, black metal is twisted along much of its length. It bears a prism of black crystal at one end, terminating in a tapered, blunted spike at the other. It bears an inscription, spiraling around its shaft: 𒋼𒀭𒅗𒆠𒊮𒀀𒍣𒆗𒂗𒂠𒁉𒇻𒋼𒍑𒅗𒇷𒅋𒍣𒆗𒂗𒂠𒅗𒆰𒈠𒀀𒆠𒍣𒆗𒂗𒂠𒁉𒀭𒅗𒋻𒅎𒁍𒀭𒂗𒈾𒈠𒂵𒉌 - "šu d.erkalla-ke₄ za-lam-e-ne bi-lu šu ul-ba-ke₄ za-lam-e-ne kalam-ma-ke₄ za-lam-e-ne-bi-in ka-ta in-du₁₁ d.en na-ma-gin₃" (Sumerian, roughly "This, the hand of Irkalla, shall touch all the living in their entirety, the living of the world, it shall seize them all. Thus it has been spoken. As the Lord decreed, so it shall be.")
+                Spells:
+                  Rank: *Amazing
+                  Personal Energies:
+                    Transformation:
+                      Type:
+                        - Name: Darkforce
+                          Note: Drain Health points equal to the spell rank by touching or enveloping target.
+                      Note: Darkforce Requires access to Dimensional Energies.
+                      Description: |
+                        Turn body into another substance, retaining shape.
+                  Universal Energies:
+                    Eldritch Beams/Bolts:
+                        Type:
+                          - Name: Darkforce Bolt
+                            Note: The target loses Health points equal to the caster’s spell rank. The bolt is black.
+                          - Name: Disintegrating Bolt
+                            Note:
+                              - Disintegrates non-living, inanimate objects up to 2 areas away.
+                              - Material rank higher than the spell rank, reduce target’s material strength -1CS.
+                              - Equal to or less than the spell rank, the target is disintegrated. Small objects destroyed automatically. Human-sized objects require Yellow result on spell rank FEAT. Destroying larger objects requires a successful Red result.
+                              - If the target is an object of no importance, the Judge can waive the FEAT roll and rule that the item is automatically destroyed.
+                        Note:
+                          - Darkforce Requires access to Dimensional Energies.
+                          - Beams/bolts originate from the crystal on the end of the staff.
+                        Description: |
+                          Damage equal to spell Rank to one target in area.  
+                    Energy Control:
+                      Note: Darkforce Requires access to Dimensional Energies.
+                      Description: |
+                        Requires a successful spell rank FEAT roll. Can affect all of the specified type of energy within his area of effect, turning it on or off, making it overload, siphoning it, can channel controlled energy around self so as not to be harmed by it. A Red Result on  spell rank FEAT to use this spell offensively. The attack must be made by touch. The damage caused equals the spell rank number. Yellow or Red spell rank FEAT roll to use this spell defensively.
+                      Type: 
+                        - Name: Darkforce
+                          Note: May black out an area so completely that even infravision does not work. Cannot be used as a weapon outside of caster's area, anyone within that area except the caster loses Health points equal to the spell Rank Number each round.
+              Ruby Ring of Regency: 
+                Category: Jewelry/Ring
+                Item Condition: There are no conditions to the item (it operates as described).
+                Note: +1CS to Emotion Control, Mental Control, Mesmerism, or Mesmermechanism when used as a focus.
+                Description: |
+                  A relatively recent acquisition after Doctor Strange shattered the Ruby into shards, Ashtaret's shard of the Ruby of Domination is set into a gold ring that she often wears in any Aspect.
+                Ruby of Domination:
+                  Description: *Ruby_of_Domination
+              Serum of the Seraphim:
+                Note: Unless she's recently used it, Ashtaret tends to have at least one of these stashed somewhere, either on her person, or at most a Conjure Spell away.
+                Description: *Serum_of_the_Seraphim
               Familiar:
                 Description: *Familiar
                 Allatou:
@@ -2961,67 +3022,6 @@ Character Sheet:
                     Somewhat paradoxically harsh, stern, and serious on one hand, but flirtatious, flamboyant, and almost comically macabre on the other.   Highly competent. Absolutely devoted and loyal to Ashtaret. Comfortable with modern technology. Generally professional but has outbursts. "Work Hard, Play Hard—Uptight then Let Loose"
                   Description: |
                     A tall, slender woman with a decidedly devilish mien, with dark bronze-olive skin, long, spiraling black curls, and deep amber eyes.  Her typical appearance in human form is much the same, less the devilishness.
-              Ebon Staff of Ereshkigal:
-                Category: Miscellaneous/Staff
-                Item Condition: There are no conditions to the item (it operates as described).
-                Melee and Thrown Weapons:
-                  Weapon: Club
-                  Damage: 10
-                  Type:
-                    - Blunt Attack
-                    - Blunt Throwing
-                  Material Strength: *Unearthly
-                  Note: Minimum 10 damage, maximum the lesser of wielder's Strength or item's Material Strength, on appropriate column (BA/BT).
-                Note:
-                  - Descriptions are short summaries of full text. Consult Realms of Magic for full text of Spell description.
-                  - Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
-                  - All Spells cast by the staff are Amazing (50)
-                Description: |
-                  About six feet long and an inch and a half thick, this staff of solid, lightweight, smooth, black metal is twisted along much of its length. It bears a prism of black crystal at one end, terminating in a tapered, blunted spike at the other. It bears an inscription, spiraling around its shaft: 𒋼𒀭𒅗𒆠𒊮𒀀𒍣𒆗𒂗𒂠𒁉𒇻𒋼𒍑𒅗𒇷𒅋𒍣𒆗𒂗𒂠𒅗𒆰𒈠𒀀𒆠𒍣𒆗𒂗𒂠𒁉𒀭𒅗𒋻𒅎𒁍𒀭𒂗𒈾𒈠𒂵𒉌 - "šu d.erkalla-ke₄ za-lam-e-ne bi-lu šu ul-ba-ke₄ za-lam-e-ne kalam-ma-ke₄ za-lam-e-ne-bi-in ka-ta in-du₁₁ d.en na-ma-gin₃" (Sumerian, roughly "This, the hand of Irkalla, shall touch all the living in their entirety, the living of the world, it shall seize them all. Thus it has been spoken. As the Lord decreed, so it shall be.")
-                Spells:
-                  Rank: *Amazing
-                  Personal Energies:
-                    Transformation:
-                      Type:
-                        - Name: Darkforce
-                          Note: Drain Health points equal to the spell rank by touching or enveloping target.
-                      Note: Darkforce Requires access to Dimensional Energies.
-                      Description: |
-                        Turn body into another substance, retaining shape.
-                  Universal Energies:
-                    Eldritch Beams/Bolts:
-                        Type:
-                          - Name: Darkforce Bolt
-                            Note: The target loses Health points equal to the caster’s spell rank. The bolt is black.
-                          - Name: Disintegrating Bolt
-                            Note:
-                              - Disintegrates non-living, inanimate objects up to 2 areas away.
-                              - Material rank higher than the spell rank, reduce target’s material strength -1CS.
-                              - Equal to or less than the spell rank, the target is disintegrated. Small objects destroyed automatically. Human-sized objects require Yellow result on spell rank FEAT. Destroying larger objects requires a successful Red result.
-                              - If the target is an object of no importance, the Judge can waive the FEAT roll and rule that the item is automatically destroyed.
-                        Note:
-                          - Darkforce Requires access to Dimensional Energies.
-                          - Beams/bolts originate from the crystal on the end of the staff.
-                        Description: |
-                          Damage equal to spell Rank to one target in area.  
-                    Energy Control:
-                      Note: Darkforce Requires access to Dimensional Energies.
-                      Description: |
-                        Requires a successful spell rank FEAT roll. Can affect all of the specified type of energy within his area of effect, turning it on or off, making it overload, siphoning it, can channel controlled energy around self so as not to be harmed by it. A Red Result on  spell rank FEAT to use this spell offensively. The attack must be made by touch. The damage caused equals the spell rank number. Yellow or Red spell rank FEAT roll to use this spell defensively.
-                      Type: 
-                        - Name: Darkforce
-                          Note: May black out an area so completely that even infravision does not work. Cannot be used as a weapon outside of caster's area, anyone within that area except the caster loses Health points equal to the spell Rank Number each round.
-              Ruby Ring of Regency: 
-                Category: Jewelry/Ring
-                Item Condition: There are no conditions to the item (it operates as described).
-                Note: +1CS to Emotion Control, Mental Control, Mesmerism, or Mesmermechanism when used as a focus.
-                Description: |
-                  A relatively recent acquisition after Doctor Strange shattered the Ruby into shards, Ashtaret's shard of the Ruby of Domination is set into a gold ring that she often wears in any Aspect.
-                Ruby of Domination:
-                  Description: *Ruby_of_Domination
-              Serum of the Seraphim:
-                Note: Unless she's recently used it, Ashtaret tends to have at least one of these stashed somewhere, either on her person, or at most a Conjure Spell away.
-                Description: *Serum_of_the_Seraphim
             Professional:
               Crime:
                 Mariah Dillard: From Criminology Talent.
