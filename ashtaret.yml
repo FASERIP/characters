@@ -1553,7 +1553,7 @@ Character Sheet:
               Normal Human: *Excellent 
           Reason:
             Rank:
-              Demon: *Incredible 
+              Demon: *Remarkable 
               Deity: *Monstrous 
               Ethereal: *Incredible 
               Normal Human: *Excellent 
@@ -1827,8 +1827,7 @@ Character Sheet:
               Mind Control:
                 Rank:
                   Ethereal: *Incredible
-                Form:
-                  Type: Possession
+                Form: Possession
                 Description: *Mind_Control
               Sleep-Induced:
                 Rank:
@@ -1991,21 +1990,21 @@ Character Sheet:
                   Demon:
                     Rank:
                       Name: Class-1000
-                      Number: 2615
-                    Spread: 57
-                    Turns Until Full Recovery: 5
+                      Number: 2605
+                    Spread: 56
+                    Turns Until Full Recovery: 35
                   Deity:
                     Rank:
                       Name: Class-3000
-                      Number: 3930
-                    Spread: 56
-                    Turns Until Full Recovery: 40
+                      Number: 4090
+                    Spread: 61
+                    Turns Until Full Recovery: 41
                   Normal Human:
                     Rank:
                       Name: Shift-Z
-                      Number: 699
-                    Spread: 28
-                    Turns Until Full Recovery: 35
+                      Number: 884
+                    Spread: 29
+                    Turns Until Full Recovery: 45
                 Note: Rank-less abilities not included.  Focus itself is, but recovery is at full Rank.
                 Description: *Focus
             Self Alteration:
@@ -2150,7 +2149,8 @@ Character Sheet:
                       Note: +2CS to Cost for very high-quality package.
                     Note:
                       - Multiple.
-                      - Ashtaret, Allatou, and the Retinue have personal offices, the Security Captains share one among whoever is currently on duty.
+                      - Ashtaret, Allatou, and each Retainer have personal offices, the Captains share one among whoever is currently on duty.
+                      - Ashtaret and Allatou's personal Retinue and Captains have offices that are part of the antechambers to their own offices.
                     Description: *Office_Package
                   Pool Package:
                     Cost:
@@ -2179,7 +2179,7 @@ Character Sheet:
                     Note:
                       - Multiple for ubiquity.
                       - Security systems are magical in nature, rather than technological. Comprises wards, scrying sensors, arcane locks, etc.
-                      - Alarms telepathically alert Ashtaret and Allatou, irrespective of distance or dimension, as well as Security Captains and the Retinue.  Any other Servants in the alarmed room or area, and up to 2 areas away, are likewise alerted, with Sentries alerted up to 4 areas distant.
+                      - Alarms telepathically alert Ashtaret and Allatou, irrespective of distance or dimension, as well as Captains and the Retinue.  Any other Servants in the alarmed room or area, and up to 2 areas away, are likewise alerted, with Sentries alerted up to 4 areas distant.
                       - Ashtaret and Allatou may telepathically activate and deactivate alarms, and lock and unlock locks, irrespective of distance or dimesion.
                     Description: *Security_Packages
                   Fire Protection Package:
@@ -2302,7 +2302,7 @@ Character Sheet:
                                   Master: Ashtaret
                                   Spells: Knows two spells relevant to role, at Psyche rank.  
                       Types:
-                        Standard Servant:
+                        Minion:
                           Abilities:
                             Primary Abilities:
                               Fighting: *Good
@@ -2320,9 +2320,10 @@ Character Sheet:
                             Special Abilities:
                               Equipment: May have incidental items related to role and purpose.      
                           Reference: *Standard_Robot
+                          Encounter: Always work in pairs or teams of four for larger tasks, though there may work details of 6-12, or even up to 20 for major undertakings. There are 2-6 in each workplace room of the Archivists and Magitechnicians, one for each Captain, two for each Retainer, four for Allatou, including her entourage, for 7-9, and six for Ashtaret, making sixteen with her entourage included, 23-25 if Allatou and hers are present. They may move around the domain alone when off-duty.
                           Description: |
-                            Made from the lowliest demonic spirits, such as lesser imps.  
-                        Sentry Servant:
+                            Made from the lowlies demonic spirits, imps, these Servants are the backbone of the workforce. They provide all of the menial and unskilled labor, running of errands, cleaning, and holding things under general supervision, and perform semi-skilled tasks under close supervision after proper instruction.
+                        Sentry:
                           Origin: *Demon
                           Weakness: *Weakness
                           Abilities:
@@ -2361,8 +2362,9 @@ Character Sheet:
                                     Note: Melee and Thrown Weapons are Silver
                                     Description: *Silver        
                           Reference: *Sentry_Robot
+                          Encounter: Always in pairs, they are posted outside the the entrances of important or secure rooms, and inside the entrances of the most important and secure.   Two accompany each Captain and Retainer, and four accompany Allatou.  Ashtaret has a personal squad of thirteen, who are posted in a circle around the inner perimeter of in the Throne Room when she is there, in addition to the two inside and two outside each entrance, and those of each of Ashtaret's four Retinue and two Captains, for at least seventeen, 25-27 if Allatou is present, to account for her entire entourage.
                           Description: |
-                            Generally greater imps.
+                            Generally made from greater imps, or sometimes least devils, Sentries are the bulk of the Domain's armed forces. They guard areas and inhabitants, patrol the domain, and respond to intruders and threats.
                         Talent Servant:
                           Origin: *Demon
                           Weakness: *Weakness
@@ -2416,6 +2418,8 @@ Character Sheet:
                                       - Theoginist
                               Note:
                                 - Enhanced Primary Attribute is Reason
+                                - Generally overseen by Allatou and the Retinue
+                              Encounter: In their workplaces, there are generally 2-6 per room, though they often move alone about the domain. A pair of Sentries are generally posted outside each of their workplace entrances. Each workplace room has 2-4 Minions as runners, menial labor, and unskilled general assistance.
                               Description: |
                                 Librarian and sage that works in the Libraries and Trophy Rooms, cataloguing, organizing, researching, and preserving books and scrolls, including Mystic Texts and Grimoires, Magical Items, and other treasures.
                             Magitechnician:
@@ -2442,7 +2446,8 @@ Character Sheet:
                                       - Zoologist of Magic
                               Note:
                                 - Enhanced Primary Attribute is Reason
-                                - Overseen by Allatou and the Retinue
+                                - Genrally overseen by Allatou and the Retinue, with Captains overseeing weapons, armor, and security work.
+                              Encounter: In their workplaces, there are generally 2-6 per room, though they often move alone about the domain. A pair of Sentries are generally posted outside each of their workplace entrances. Each workplace room has 2-4 Minions as runners, menial labor, and unskilled general assistance.
                               Description: |
                                 Alchemist and artificer that works in the Laboratories and Workshops, assisting with experiments, research, compounding, construction, and repairs.
                             Sentry Captain:
@@ -2454,7 +2459,7 @@ Character Sheet:
                                     Defensive:
                                       Body Armor:
                                         Value: *Excellent
-                                        Note: As Sentry Servants, but generally doesn't have a shield.
+                                        Note: As Sentries, but generally doesn't have a shield.
                                     Special:
                                       - Eldritch Bolts
                                       - Eldritch Shield
@@ -2488,11 +2493,11 @@ Character Sheet:
                                         Note: Melee and Thrown Weapons are Silver
                                   Contacts:
                                     Professional: One Contact in the Military category and one Contact in the Crime, Law Enforcement, Law, or Espionage categories.
-                              Note:
-                                - Enhanced Primary Attribute is Intuition
+                              Note: Enhanced Primary Attribute is Intuition
+                              Encounter: They are generally accompanied by a pair of Sentries.  One is always in the Security Office, unless responding elsewhere, and one generally accompanies Allatou, Ashtaret two. Each has a Minion on call, as well.
                               Description: |
-                                Leads Sentry Servants and responds to intruders and threats, escorts guests.
-                            Retinue:
+                                Generally overseen by Allatou they directly oversee Sentries and coordinate with the Retinue. They respond to intruders and threats, and escort guests.
+                            Retainer:
                               Abilities:
                                 Primary Abilities:
                                   Psyche: *Remarkable
@@ -2518,8 +2523,9 @@ Character Sheet:
                                     Professional: One Contact in the Professional category.
                               Note:
                                 - Enhanced Primary Attribute is Psyche
+                              Encounter: Generally have a pair of Sentries as an escort, along with them or posted outside the door. Each also has a pair of Minions.
                               Description: |
-                                Personal assistants and lieutenants who work with Allatou to ensure the smooth operation of Ashtaret's Domain, and generally assist Ashtaret and Allatou. Directly supervise the Standard Servants, coordinate the Sentry Captains in Allatou's absence, and manage specialists' (e.g. Archivists, Magitechnicians) projects.                      
+                                The Retinue are assistants and lieutenants who work with Allatou to ensure the smooth operation of Ashtaret's Domain, and generally assist Ashtaret and Allatou. They supervise the Minions, and coordinate with the Sentry Captains. In addition, they manage the Archivists' and Magitechnicians' projects on Allatou's behalf.
                 Description: |
                   A small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams, with a readily accessible border with the Astral Plane, Ashtaret's domain is not strictly a structure or building, though there are areas that appear to be "inside," as well as "outside," and "underground." The substructure of "walls," "ceilings," "floors," and "the ground" are an ultrahard, impenetrable, basalt-like material.  There is "weather" of sorts in the "sky" of the "outdoor" portions, and flying into it, away from the surface eventually leads to the Astral Plane. However, this is ultimately a one-way trip once the flyer has passed fully into the Astral, requiring a different mechanism to return. Strange and alien flora populate the courtyard gardens, infernal analogues of their counterparts on Earth, if any, but there is no fauna, the sky has neither birds nor otherwise, and there aren't even creatures to buzz and flit through the gardens like insects.
 
@@ -3023,11 +3029,13 @@ Character Sheet:
                             - Vapors-Sleep
                           Dimensional Energies:
                             - Dimensional Aperture
-                  Note: May be summoned by Ashtaret via the Servant Spell.
+                  Note:
+                    - May be summoned by Ashtaret via the Servant Spell.
+                  Encounter: In the Domain, generally accompanied by a Retainer or two, a Captain, and four Sentries, in addition to the pair of Sentries that accompany each Retainer and the Captain, for 8-10 Sentries accompanying them in total. At least two Sentries will be at each entrance to the room.  For rooms that have their own Sentries at the entrances, these will be extra Sentries, two per entrance. Allatou will also have four Minions serving her, in addition to the two per Retainer and one per Captain, for a total of 7-9 Minions in tow.
                   Biography: |
                     The discarded demonic aspect of Ereshkigal, Allatou was absorbed by Ashtaret and focused into a Familiar.  She serves as Ashtaret's majordomo, executor, and consigliere, and her word is Ashtaret's.
                   Personality: |
-                    Somewhat paradoxically harsh, stern, and serious on one hand, but flirtatious, flamboyant, and almost comically macabre on the other.   Highly competent. Absolutely devoted and loyal to Ashtaret. Comfortable with modern technology. Generally professional but has outbursts. "Work Hard, Play Hard—Uptight then Let Loose"
+                    Somewhat paradoxically harsh, stern, and serious on one hand, but flirtatious, flamboyant, and almost comically macabre on the other.   Highly competent. Absolutely devoted and loyal to Ashtaret. Comfortable with modern technology. Generally professional but has outbursts. "Work Hard, Play Hard—Uptight then Let Loose."
                   Description: |
                     A tall, slender woman with a decidedly devilish mien, with dark bronze-olive skin, long, spiraling black curls, and deep amber eyes.  Her typical appearance in human form is much the same, less the devilishness.
             Professional:
@@ -3151,6 +3159,7 @@ Character Sheet:
                     Sensing-Mystical Detection: *Sensing-Mystical_Detection
                 Shield-Multiple: *Shield-Multiple
                 Teleportation: *Teleportation
+      Encounter: 
       Biography: |
         An ancient Demon from terrible realms beyond, formerly a primeval Deity no longer widely worshipped, Ashtaret is long since finished with the machinations of cosmic evil, and mostly so with the idea of regaining her divinity, and pops in to the Earth Dimension from time to time to live her best immortal life in the dual-natured glamour and shadows of 1980's Manhattan. It is possible, even likely, but unconfirmed that Ashtaret is her universe's version of Inanna. Her extradimensional lair is in a small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams; it is opulent but spare and empty; she considers it stifling and boring, preferring Earth.
       Personality: |
