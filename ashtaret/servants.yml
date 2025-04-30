@@ -60,7 +60,7 @@ Character Sheet:
       Beyond: &Beyond
         Name: Beyond
         Number: .inf
-    References:
+    Reference:
       Spells:
         Servant: &Servant
           Description: |
@@ -82,7 +82,9 @@ Character Sheet:
               - Demons lose -2CS Popularity.
               - Demons automatically possess Good Fire Generation and Specific Invulnerability to Heat and Fire.
         Origin of Power: 
-          Creation: The hero was born in the form he now has, that of an adult who possesses Power and/or whatever the Body Type is. Most of the Artificial Body Types belong in this class. Examples include the android Human Torch, all robots, angels, demons, and deities.
+          Creation:
+            Description: |
+              The hero was born in the form he now has, that of an adult who possesses Power and/or whatever the Body Type is. Most of the Artificial Body Types belong in this class. Examples include the android Human Torch, all robots, angels, demons, and deities.
       Weakness: &Weakness
         Stimulus: Psychological
         Effect: Power Negation
@@ -93,7 +95,6 @@ Character Sheet:
           - Instantly reverses when moved away from Stimulus.
           - Psychological Weaknesses can be temporarily overcome by an Unearthly Intensity Psyche FEAT. They can be permanently overcome by a Shift-Z Intensity Psyche FEAT.
           - Sites consecrated to the Annunaki (including Ashtaret and Allatou) do not trigger this Weakness.
-          - Magic use is not considered a Power, but lowered Abilities may impact it if Ability FEATs are required for a particular Spell.
       Abilities:
         Special Abilities:
           Powers:
@@ -215,18 +216,7 @@ Character Sheet:
               Silver: &Silver
                 Description: |
                   In game terms, all silver weapons cause double their normal damage to those characters and creatures classified as demons. If a silver weapon strikes a character who is possessed by a demon, only the demon will suffer damage, not the host body, Damage is caused not by the edge or type of weapon as much as simply touching silver to these creatures.
-          Contacts: &Contacts
-            Mystic:
-              Mythology:
-                - Ashtaret
-                - Allatou
-          Magic: &Magic
-            Character Type: Magic Wielder
-            Magic School: Specific Pantheon (Annunaki)
-            Energy Use: All Energies
-            Rank: Novice
-            Master: Ashtaret
-            Spells: Knows two spells relevant to role, at Psyche rank.  
+
   Supporting Cast:
     Servants:
       Note:
@@ -242,8 +232,18 @@ Character Sheet:
               Talents:
                 Mystic and Mental Skills:
                   Mystic Background: *Mystic_Background
-              Contacts: *Contacts
-              Magic: *Magic 
+                Contacts: &Contacts
+                  Mystic:
+                    Mythology:
+                      - Ashtaret
+                      - Allatou
+                Magic: &Magic
+                  Character Type: Magic Wielder
+                  Magic School: Specific Pantheon (Annunaki)
+                  Energy Use: All Energies
+                  Rank: Novice
+                  Master: Ashtaret
+                  Spells: Knows two spells relevant to role, at Psyche rank.  
       Types:
         Standard Servant:
           Abilities:

@@ -66,46 +66,46 @@ Character Sheet:
           Room Packages:
           Living Room Package:
             Description: &Living_Room_Package |
-              Cost: Good Occupies one room. Consists of sofa, two easy chairs, two end tables, coffee tables, two lamps (ceiling table or floor).
+              *Cost: Good* - Occupies one room. Consists of sofa, two easy chairs, two end tables, coffee tables, two lamps (ceiling table or floor).
           Dining Room Package:
             Description: &Dining_Room_Package |
-              Cost: Good Occupies one room. Consists of table, four chairs, ceiling lamp. Excellent Cost add large table, bureau and four more chairs. Remarkable Cost add china cabinet, set of good china and sterling tableware.
+              *Cost: Good* - Occupies one room. Consists of table, four chairs, ceiling lamp. *Excellent Cost* add large table, bureau and four more chairs. *Remarkable Cost* add china cabinet, set of good china and sterling tableware.
           Kitchen Package:
-            Description: &Kitchen_Package  |
-              Cost: Good Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing.
+            Description: &Kitchen_Package |
+              *Cost: Good* - Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing.
           Library Package:
-            Description: &Library_Package  |
-              Cost: Excellent Occupies one room. Consists of two easy chairs, table, desk, straight chair, and up to five bookcases on general subjects (texts readily available, and including encyclopedias, world histories, and atlases). Special or rare volumes, such as the Book of the Vishanti, the Necronomicon, or Amazing Fantasy \#15, would have to be obtained separately.
+            Description: &Library_Package |
+              *Cost: Excellent* - Occupies one room. Consists of two easy chairs, table, desk, straight chair, and up to five bookcases on general subjects (texts readily available, and including encyclopedias, world histories, and atlases). Special or rare volumes, such as the Book of the Vishanti, the Necronomicon, or Amazing Fantasy \#15, would have to be obtained separately.
           Workshop Package:
             Description: &Workshop_Package |
-              Cost: Remarkable Occupies one or more rooms. Basic equipment for metal and woodworking: lathes, drills, saws and fire extinguisher.
+              *Cost: Remarkable* - Occupies one or more rooms. Basic equipment for metal and woodworking: lathes, drills, saws and fire extinguisher.
           Laboratory Package:
             Description: &Laboratory_Package |
-              Cost: Remarkable Occupies one or more rooms. Basic lab equipment: scales, sinks, common chemicals, microscope.
+              *Cost: Remarkable* - Occupies one or more rooms. Basic lab equipment: scales, sinks, common chemicals, microscope.
           Office Package:
-            Description&Office Package : |
-              Cost Good Occupies one or more rooms. Includes desk, three chairs, two lamps.
+            Description: &Office_Package |
+              *Cost: Good* - Occupies one or more rooms. Includes desk, three chairs, two lamps.
           Pool Package:
-            Descripti&Pool Package on: |
-              Cost: Remarkable outdoors, Incredible indoors. Occupies one or more rooms, or outdoor area. Consists of Olympic-size pool, filtered water, small sauna room. At Remarkable Cost adds separate, smaller pool (featuring diving board and chlorine), plus pool cover. At Incredible  Cost includes two Olympic pools, heated water, pool cover. At Amazing Cost, both pools are heated.
+            Description: &Pool_Package |
+              *Cost: Remarkable outdoors, Incredible indoors* - Occupies one or more rooms, or outdoor area. Consists of Olympic-size pool, filtered water, small sauna room. At *Remarkable Cost* adds separate, smaller pool (featuring diving board and chlorine), plus pool cover. At *Incredible Cost* includes two Olympic pools, heated water, pool cover. At Amazing Cost, both pools are heated.
           Conference Room Package:
             Description: &Conference_Room_Package |
-              Cost: Remarkable Occupies one room. Contains material for assembling of heroes, or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs.
+              *Cost: Remarkable* - Occupies one room. Contains material for assembling of heroes, or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs.
           Security Packages:
             Description: &Security_Packages |
-              Cost: Good — one Security package to a door or window. Occupies no space. Consists of hand-set burglar alarms on windows and doors, coupled with mechanical locks. At Excellent Cost: Automatic burglar alarms with computer-code or card identification system. At Remarkable Cost: Automatic burglar alarms with palm-print scan, can activate defense systems. At Incredible Cost: Full body scan with benign identification program as to hostility. Can activate defense systems.
+              *Cost: Good* — one Security package to a door or window. Occupies no space. Consists of hand-set burglar alarms on windows and doors, coupled with mechanical locks. At *Excellent Cost:* Automatic burglar alarms with computer-code or card identification system. At *Remarkable Cost:* Automatic burglar alarms with palm-print scan, can activate defense systems. At *Incredible Cost:* Full body scan with benign identification program as to hostility. Can activate defense systems.
           Defense Package:
-            Description: &Defense_Package  |
-              Cost: Excellent Will protect one or more areas. Pre-set defenses consisting of entangling tentacles or nets or lasers or stun rifles, or concussive rifles or pit traps, with the maximum of Remarkable Strength or Intensity. Remarkable Cost: Defenses activated by Security package, consists of one type as above of Incredible Strength. Incredible Cost: As above, intensities are of Amazing Strength. Multiple defense mechanisms may protect the same establishment (example, the WCA compound consists of net-filled pits, stun rifles disguised as trees, and a passive alarm system in the Security Package). Specialized defense packages may be designed.
+            Description: &Defense_Package |
+              *Cost: Excellent* - Will protect one or more areas. Pre-set defenses consisting of entangling tentacles or nets or lasers or stun rifles, or concussive rifles or pit traps, with the maximum of Remarkable Strength or Intensity. *Remarkable Cost:* Defenses activated by Security package, consists of one type as above of Incredible Strength. *Incredible Cost:* As above, intensities are of Amazing Strength. Multiple defense mechanisms may protect the same establishment (example, the WCA compound consists of net-filled pits, stun rifles disguised as trees, and a passive alarm system in the Security Package). Specialized defense packages may be designed.
           Porches, storage, bathrooms, and closets:
             Description: &PSBC |
               These are assumed in the cost of the building, according to its design. These rooms cost nothing, and no package exists other than what the heroes decide to stuff into the closets.
           Trophy Room Package:
             Description: &Trophy_Room_Package |
-              Excellent. Occupies one room. Contains showcase, lighting, frames to display mementos, and may be used as a reception half or gallery. At Remarkable Cost, contains capability to handle potentially dangerous exhibits at the Incredible level.
+              *Cost: Excellent* - Occupies one room. Contains showcase, lighting, frames to display mementos, and may be used as a reception half or gallery. At *Remarkable Cost*, contains capability to handle potentially dangerous exhibits at the Incredible level.
           Imprisonment Package:
             Description: &Imprisonment_Package |
-              Excellent. Occupies one room. Contains standard restraining devices, including bars of Remarkable material strength. At Remarkable Cost, restraining devices made of Incredible Strength. At Incredible Cost, restraining devices at Amazing Strength and Excellent Strength inhibitor restraints.
+              *Cost: Excellent* - Occupies one room. Contains standard restraining devices, including bars of Remarkable material strength. At *Remarkable Cost*, restraining devices made of Incredible Strength. At *Incredible Cost*, restraining devices at Amazing Strength and Excellent Strength inhibitor restraints.
   Equipment:
     Headquarters:
       Note:
@@ -187,6 +187,7 @@ Character Sheet:
             Note:
               - Multiple.
               - At least one in each format.
+              - One is set up as a chapel of sorts.
             Description: *Conference_Room_Package
           Security Packages:
             Cost:
@@ -201,7 +202,7 @@ Character Sheet:
             Description: *Security_Packages
           Fire Protection Package:
             Description: &Fire_Protection_Package |
-              Cost: Excellent Occupies no space. Sprinkler system that may cover up to 10 rooms, provides Good protection from fire.
+              *Cost: Excellent* Occupies no space. Sprinkler system that may cover up to 10 rooms, provides Good protection from fire.
           Defense Package:
             Cost:
               Value: *Monstrous
@@ -275,6 +276,7 @@ Character Sheet:
                   - It is kept in a dedicated scrying room in Ashtaret's domain that has the combined features of the Trophy Room Package and Office Package. 
                 Description: |
                   This large (8 feet in diameter) fiery white sphere was last known to be owned by the cult Sons of Satannish. It acts in a manner similar to the Orb of Agamotto, locating that which the user desires to see and hear on Earth. The Satan-Sphere also allows a user who makes a successful Psyche FEAT roll to send spells through it at observed targets (the check must be made for each spell used, a failed roll means that the spell has been wasted). Even if the attack successfully goes through the Satan-Sphere the target can return the attack spell to the user if: a) the target is of a mastery level equal to or greater than the user; and b) the target succeeds in making a Yellow or Red Psyche FEAT roll.
+
                   The current whereabouts of the Satan-Sphere are unknown.
               Interdimensional Scanner:
                 Note:
@@ -289,7 +291,8 @@ Character Sheet:
                 - These are created or summoned by the Servant spell, and are elemental or demonic spirits, or magical automatons, rather than technological robots, but have the same general roles, Abilities, and other features.
               href: servants.yml
         Description: |
-          A small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams, with a readily accessible border with the Astral Plane, Ashtaret's domain is not strictly a structure or building, though there are areas that appear to be "inside," as well as "outside," and "underground." The substructure of "walls," "ceilings," "floors," and "the ground" are an ultrahard, impenetrable, basalt-like material.  There is "weather" of sorts in the "sky" of the "outdoor" portions, and flying away from the surface eventually leads to the Astral Plane. However, this is ultimately a one-way trip once the flyer has passed fully into the Astral, requiring a different mechanism to return.
+          A small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams, with a readily accessible border with the Astral Plane, Ashtaret's domain is not strictly a structure or building, though there are areas that appear to be "inside," as well as "outside," and "underground." The substructure of "walls," "ceilings," "floors," and "the ground" are an ultrahard, impenetrable, basalt-like material.  There is "weather" of sorts in the "sky" of the "outdoor" portions, and flying into it, away from the surface eventually leads to the Astral Plane. However, this is ultimately a one-way trip once the flyer has passed fully into the Astral, requiring a different mechanism to return. Strange and alien flora populate the courtyard gardens, infernal analogues of their counterparts on Earth, if any, but there is no fauna, the sky has neither birds nor otherwise, and there aren't even creatures to buzz and flit through the gardens like insects.
+
           As Ashtaret satisfies her needs with Powers and Spells, the lair has few amenities although everything there is of opulent quality, as it primarily comprises places for Ashtaret to keep her Grimoires and other Mystic Texts, along with any treasures, prisoners, or other possessions, as well as a place for her to sit and hold court. The architecture and design are reminiscent of ancient Mesopotamian aesthetics, and the statuary and friezes and other elements, as well as the lighting and temperature, all respond subtly to her emotional state, changing their countenance or content to reflect her moods. The temperature, atmosphere, and other conditions are survivable, even livable, if not pleasant or comfortable, for humans, animals, and humanlike beings. There is no modern technology present, with amenities such as cooking, hot water, and lighting provided by hellfire and witchlight, running water from "natural" springs, and plumbing, drainage, and waste disposal by the void itself. Though indeed opulent in construction and ornamentation, it is also somewhat spare and spartan, empty and uninhabited save her herself and her Servants, robotic except for Allatou; she finds it stifling and boring to spend too much time there.
       Example Manhattan Apartment:
         Type:

@@ -235,23 +235,28 @@ Character Sheet:
         Special Abilities:
           Powers:
             Defensive:
-              Immunity to Energy Attacks:
+              Invulnerability to Energy Attacks:
                 Fire and Heat:
                   Rank:
                     Demon: *Unranked
                 Note: Inherent to all Demon Physical Form characters.
-              Immunity to Physical Attacks:
+              Invulnerability to Physical Attacks:
                 Fire and Heat:
                   Rank:
                     Demon: *Unranked
                 Note: Inherent to all Demon Physical Form characters.
             Detection:
-              Environmental Detection:
+              Environmental Awareness:
                 Rank:
                   Demon: *Excellent
                   Animal: *Excellent
                 Description: |
                   Automatically aware of environmental conditions and disturbances such as weather, chemicals, movement, and life within the Power's range. Can gain more detailed information with effort.
+              Extradimensional Detection:
+                Rank:
+                  Ethereal: *Excellent
+                Description: |
+                  Sense across the dimensional barrier and see things existing in other dimensions.
               Hypersensitive Hearing:
                 Rank:
                   Animal: *Remarkable
@@ -312,8 +317,8 @@ Character Sheet:
                 Note: Animal Aspects attack on Edged Attack column naturally, without a Power.
                 Description: |
                   Employs natural body features, like claws, as weapons capable of edged attacks.
-            Illusory:
-              Illusion Casting:
+            Illusionary:
+              Illusion-Casting:
                 Rank:
                   Demon: *Remarkable
                   Ethereal: *Remarkable
@@ -372,7 +377,6 @@ Character Sheet:
               Focus:
                 Ranks:
                   Demon: *Excellent
-                  Ethereal: *Excellent
                   Normal Human: *Good
                 Totals:
                   Demon:
@@ -380,17 +384,12 @@ Character Sheet:
                     Number: 605
                     Spread: 22
                     Turns to Full Recovery: 31
-                  Ethereal:
-                    Rank: Shift-Z
-                    Number: 500
-                    Spread: 18
-                    Turns to Full Recovery: 25
                   Normal Human:
                     Rank: Shift-Y
                     Number: 300
                     Spread: 14
                     Turns to Full Recovery: 30
-                Note: Rank-less abilities not included.  Focus itself is.
+                Note: Rank-less abilities not included.  Focus itself is, but recovery is at full Rank.
                 Description: |
                   Channels all Abilities and Powers into a single burst, replacing the target Power’s rank with the sum of all other ranks. After use, all Abilities and Powers drop to Feeble. The Focus rank determines how many points can be recovered each turn, divided evenly across all affected traits.
             Self Alteration:
@@ -412,11 +411,13 @@ Character Sheet:
                   Normal Human: *Excellent
                 Description: |
                   The Eldritch Shield is a shield of mystical energy that provides the caster with mystical Body Armor equal to the caster's rank number. This is also proof against magical attacks or those attacks which arise from magic.
+                  
                   If an attacker directs his attacks against the shield Itself, treat the attack as an attempt to break the material, with the attacker's bolt supplying the strength and the defender's shield the object that may be broken. The mage whose shield is broken that round takes no damage, but has no shield until he raises it the next round. An Eldritch Shield will protect its caster from all forms of magic of up to the Psyche of the caster.
               Immortality:
                 Value: *Unranked
                 Description: |
                   The character with this Power does not age or die in a normal fashion. Now, before you all run out and grab this Power for your young hero, note the fine print. The hero can still suffer loss of Endurance ranks as the result of wounds, poisons, and damages, but if the results call for perishing. then the character is left at Shift 0 Endurance but does not die. The character cannot move or act until Endurance reaches Feeble, however. so throwing an Immortal character into an active volcano will keep him out of the way for a while. (He cannot heal while taking damage.)
+
                   If Endurance reaches Shift 0, or the character otherwise dies, the immortal character loses all Karma, including that set aside for advancement. The character may be out of luck, but at least he has his Health. If an immortal character is part of a Karma pool, then an amount of Karma is subtracted as if the character had left the group. This is done each time the immortal character becomes "dead."
                   This Power does not have a Power rank. It counts as two Powers for any hero who takes it, unless the character is alien in origin, in which case the cost is normal (this reflects that a large number of extradimensional aliens are effectively immortal).
                   An immortal character's body will slowly regenerate lost parts and heal. so that short of atomizing the remains and spreading that collection of atoms through a large portion of space, the immortal character will return at some point in the future.

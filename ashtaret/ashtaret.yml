@@ -258,7 +258,7 @@ Character Sheet:
                   - Normal Human Aspect has Psyche +1CS resistance from the Resist Domination Talent, as do other Aspects if Power is not functioning.
                 Description: |
                   Grants resistance to attacks targeting emotions or Intuition, reducing damage from attacks like Emotion Control and Hallucinations by Power rank number. Attacks below rank are ignored.
-              Immunity to Emotion Attacks:
+              Invulnerability to Emotion Attacks:
                 Rank:
                   Deity: *Unranked
                 Description: |
@@ -281,7 +281,7 @@ Character Sheet:
                 Note: All Physical attacks vs Ethereal Aspect have -9CS penalty, equivalent to Unearthly Resistance.
                 Description: |
                   Provides resistance against energy forms such as Light, Heat, Flame, Plasma, Radiation, Electricity, Vibration, Sonics, Cold, and Kinetic Bolts, reducing damage by Power rank number.
-              Immunity to Energy Attacks:
+              Invulnerability to Energy Attacks:
                 Fire and Heat:
                   Rank:
                     Demon: *Unranked
@@ -306,7 +306,7 @@ Character Sheet:
                   - Normal Human Aspect has Psyche +1CS resistance from the Resist Domination Talent, as do other Aspects if Power is not functioning.
                 Description: |
                   Enhances resistance against Psionics and Neural Manipulation, ignoring attacks below rank and reducing others by Power rank number.
-              Immunity to Mental Attacks:
+              Invulnerability to Mental Attacks:
                 Rank:
                   Deity: *Unranked
                 Description: |
@@ -327,7 +327,7 @@ Character Sheet:
                 Note: All Physical attacks vs Ethereal Aspect have -9CS penalty, equivalent to Unearthly Resistance.
                 Description: |
                   Reduces damage from brute force, chemical weapons, diseases, corrosives, extreme temperatures, and hostile environments by Power rank number.
-              Immunity to Physical Attacks:
+              Invulnerability to Physical Attacks:
                 Fire and Heat:
                   Rank:
                     Demon: *Unranked
@@ -346,7 +346,7 @@ Character Sheet:
                   Normal Human: *Remarkable
                 Description: |
                   Grants resistance against direct attacks affecting the character’s powers, reducing their effectiveness by Power rank number.
-              Immunity to Power Manipulation:
+              Invulnerability to Power Manipulation:
                 Rank:
                   Deity: *Unranked
                 Description: |
@@ -358,7 +358,7 @@ Character Sheet:
                   Normal Human: *Remarkable
                 Description: |
                   Provides resistance against vampiric attacks of all kinds, reducing effectiveness by Power rank number.
-              Immunity to Vampirism:
+              Invulnerability to Vampirism:
                 Rank:
                   Deity: *Unranked
                 Description: |
@@ -371,6 +371,13 @@ Character Sheet:
                   Normal Human: *Remarkable
                 Description: |
                   Automatically aware of environmental conditions and disturbances such as weather, chemicals, movement, and life within the Power's range. Can gain more detailed information with effort.
+              Extradimensional Detection:
+                Rank:
+                  Demon: *Excellent
+                  Deity: *Monstrous
+                  Ethereal: *Remarkable
+                Description: |
+                  Sense across the dimensional barrier and see things existing in other dimensions.
               Hypersensitive Touch:
                 Rank:
                   Demon: *Remarkable
@@ -465,8 +472,8 @@ Character Sheet:
                 Type: Claws (Edged Attack)
                 Description: |
                   Employs natural body features, like claws, as weapons capable of edged attacks.
-            Illusory:
-              Illusion Casting:
+            Illusionary:
+              Illusion-Casting:
                 Rank:
                   Demon: *Incredible
                   Deity: *Incredible
@@ -545,7 +552,8 @@ Character Sheet:
                 Rank:
                   Demon: *Amazing
                   Deity: *Amazing
-                  Ethereal: *Amazing
+                  Ethereal: *Incredible
+                  Normal Human: *Remarkable
                 Description: |
                   Summons creatures or entities from other locations or dimensions, compelling their obedience and aid.
             Matter Control:
@@ -739,34 +747,27 @@ Character Sheet:
                 Rank:
                   Demon: *Monstrous
                   Deity: *Unearthly
-                  Ethereal: *Amazing
-                  Normal Human: *Remarkable
+                  Normal Human: *Excellent
                 Total:
                   Demon:
                     Rank:
                       Name: Class-1000
-                      Number: 2615
-                    Spread: 57
-                    Turns Until Full Recovery: 35
+                      Number: 2635
+                    Spread: 58
+                    Turns Until Full Recovery: 36
                   Deity:
                     Rank:
                       Name: Class-3000
-                      Number: 4190
-                    Spread: 61
-                    Turns Until Full Recovery: 42
-                  Ethereal:
-                    Rank:
-                      Name: Class-1000
-                      Number: 1865
-                    Spread: 36
-                    Turns Until Full Recovery: 38
+                      Number: 4265
+                    Spread: 62
+                    Turns Until Full Recovery: 43
                   Normal Human:
                     Rank:
                       Name: Shift-Z
-                      Number: 709
-                    Spread: 28
-                    Turns Until Full Recovery: 24
-                Note: Rank-less abilities not included.  Focus itself is.
+                      Number: 729
+                    Spread: 29
+                    Turns Until Full Recovery: 37
+                Note: Rank-less abilities not included.  Focus itself is, but recovery is at full Rank.
                 Description: |
                   Channels all Abilities and Powers into a single burst, replacing the target Power’s rank with the sum of all other ranks. After use, all Abilities and Powers drop to Feeble. The Focus rank determines how many points can be recovered each turn, divided evenly across all affected traits.
             Self Alteration:
