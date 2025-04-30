@@ -2320,7 +2320,7 @@ Character Sheet:
                           Reference: *Standard_Robot
                           Encounter: Always work in pairs or teams of four for larger tasks, though there may work details of 6-12, or even up to 20 for major undertakings. There are 2-6 in each workplace room of the Archivists and Magitechnicians, one for each Captain, two for each Retainer, four for Allatou, including her entourage, for 7-9, and six for Ashtaret, making sixteen with her entourage included, 23-25 if Allatou and hers are present. They may move around the domain alone when off-duty.
                           Description: |
-                            Made from the lowlies demonic spirits, imps, these Servants are the backbone of the workforce. They provide all of the menial and unskilled labor, running of errands, cleaning, and holding things under general supervision, and perform semi-skilled tasks under close supervision after proper instruction.
+                            Made from the lowliest demonic spirits, imps, these Servants are the backbone of the workforce. They provide all of the menial and unskilled labor, running of errands, cleaning, and holding things under general supervision, and perform semi-skilled tasks under close supervision after proper instruction.
                         Sentry:
                           Origin: *Demon
                           Weakness: *Weakness
@@ -2392,7 +2392,7 @@ Character Sheet:
                               Equipment: Has Equipment specific to role and purpose.            
                           Reference: *Talent_Robot
                           Description: |
-                            Generally minor demons such as succubi, incubi, and other lesser devils
+                            Generally minor demons such as succubi, incubi, and lesser devils
                           Types:
                             Archivist:
                               Abilities:
