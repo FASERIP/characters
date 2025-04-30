@@ -2691,11 +2691,9 @@ Character Sheet:
                           Description: *Ethereal
                         Normal Human: *Normal_Human
                         Animal:
-                          Note:
-                            - Moves 2 areas/turn
-                            - Attack on Edged attack column.
-                            - Small felines can't score Kill result on human targets, larger forms can.
-                            - Aspect can take the form of any small to midsize-to-somewhat-large-ish feline.
+                          Forms:
+                            Cat: Cats include most ordinary house cats and small wild cats. They inflict Edged attack damage with their claws but cannot score a Kill result against human targets. They move 2 areas/turn.
+                            Lion: Lions include all the "big cats" — tigers, pumas, and leopards. They are, in their natural state, predators which avoid man, though there are "man-killing" versions of each. The big cats may be trained to hunt, attack and protect by someone with appropriate skills, such as Kraven the Hunter. Lions and their kin attack on the Edged attack column and move 2 areas/round.
                           Description: *Animal
                     Origin of Power:
                       Type: Creation
@@ -2723,8 +2721,8 @@ Character Sheet:
                           Ethereal: *Remarkable
                           Normal Human: *Excellent
                           Animal:
-                            Min: *Feeble
-                            Max: *Excellent
+                            Cat: *Feeble
+                            Lion: *Excellent
                         Note: Ethereal Fighting is Shift 0 in Earth Dimension unless fighting other Ethereals.
                       Agility:
                         Rank:
@@ -2738,16 +2736,16 @@ Character Sheet:
                           Ethereal: *Remarkable
                           Normal Human: *Excellent
                           Animal:
-                            Min: *Feeble
-                            Max: *Good
+                            Cat: *Feeble
+                            Lion: *Good
                       Endurance:
                         Rank:
                           Demon: *Amazing
                           Ethereal: *Amazing
                           Normal Human: *Excellent
                           Animal:
-                            Min: *Good
-                            Max: *Excellent
+                            Cat: *Good
+                            Lion: *Excellent
                       Reason:
                         Rank:
                           Demon: *Remarkable
@@ -2772,8 +2770,8 @@ Character Sheet:
                         Ethereal: 160
                         Normal Human: 80
                         Animal:
-                          Min: 24
-                          Max: 60
+                          Cat: 24
+                          Lion: 60
                       Karma:
                         Demon: 90
                         Ethereal: 90
