@@ -1619,7 +1619,7 @@ Character Sheet:
               Resistance to Emotion Attacks:
                 Rank:
                   Demon: *Unearthly
-                  Deity: *Unranked
+                  Deity: *Shift-X
                   Ethereal: *Monstrous
                 Note:
                   - Minimum Psyche +1CS.
@@ -1638,8 +1638,8 @@ Character Sheet:
                     Deity: *Monstrous
                 Fire and Heat:
                   Rank:
-                    Demon: *Unranked
-                    Deity: *Unranked
+                    Demon: *Class-1000
+                    Deity: *Class-1000
                     Normal Human: *Feeble
                     Note: The Rank available to Normal Human Aspect is just enough to ignore inclement weather without appropriate clothing.
                 Note:
@@ -1656,26 +1656,22 @@ Character Sheet:
               Resistance to Mental Attacks:
                 Rank:
                   Demon: *Unearthly
-                  Deity: *Unranked
+                  Deity: *Shift-X
                   Ethereal: *Monstrous
                 Note:
                   - Minimum Psyche +1CS.
                   - Normal Human Aspect has Psyche +1CS resistance from the Resist Domination Talent, as do other Aspects if Power is not functioning.
                 Description: *Resistance_to_Mental_Attacks
               Resistance to Physical Attacks:
-                Fire and Heat:
-                  Rank:
-                    Demon: *Unranked
-                    Deity: *Unranked
                 Toxins:
                   Rank:
                     Demon: *Monstrous
-                    Deity: *Unranked
+                    Deity: *Unearthly
                     Normal Human: *Good
                 Disease:
                   Rank:
                     Demon: *Monstrous
-                    Deity: *Unranked
+                    Deity: *Unearthly
                     Normal Human: *Remarkable
                 Corrosives:
                   Rank:
@@ -1688,14 +1684,14 @@ Character Sheet:
               Resistance to Power Manipulation:
                 Rank:
                   Demon: *Monstrous
-                  Deity: *Unranked
+                  Deity: *Unearthly
                   Ethereal: *Monstrous
                   Normal Human: *Remarkable
                 Description: *Resistance_to_Power_Manipulation
               Resistance to Vampirism:
                 Rank:
                   Demon: *Monstrous
-                  Deity: *Unranked
+                  Deity: *Unearthly
                   Ethereal: *Monstrous
                   Normal Human: *Remarkable
                 Description: *Resistance_to_Vampirism
@@ -1989,16 +1985,16 @@ Character Sheet:
                 Total:
                   Demon:
                     Rank:
-                      Name: Class-1000
-                      Number: 2605
-                    Spread: 56
-                    Turns Until Full Recovery: 35
+                      Name: Class-3000
+                      Number: 3605
+                    Spread: 57
+                    Turns Until Full Recovery: 49
                   Deity:
                     Rank:
-                      Name: Class-3000
-                      Number: 4090
-                    Spread: 61
-                    Turns Until Full Recovery: 41
+                      Name: Class-5000
+                      Number: 5090
+                    Spread: 62
+                    Turns Until Full Recovery: 51
                   Normal Human:
                     Rank:
                       Name: Shift-Z
@@ -2574,10 +2570,7 @@ Character Sheet:
                     Note:
                     Fire Extinguisher: *Fire_Extinguisher
                     Description: *Kitchen_Package
-                  Storage, bathrooms, and closets:
-                    Cost: *Unranked
-                    Description: |
-                      These are assumed in the cost of the building, according to its design.
+                  Storage, bathrooms, and closets: ~
                   Security Packages:
                     Cost:
                       Low: *Good
@@ -2813,18 +2806,15 @@ Character Sheet:
                                 Animal: *Good
                             Fire and Heat:
                               Rank:
-                                Demon: *Unranked
+                                Demon: *Class-1000
                                 Normal Human: *Feeble
+                                Animal: *Typical
                           Resistance to Physical Attacks:
                             Disease:
                               Rank:
                                 Demon: *Amazing
                                 Normal Human: *Excellent
                                 Animal: *Excellent
-                            Fire and Heat:
-                              Rank:
-                                Demon: *Unranked
-                                Normal Human: *Feeble
                             Toxins:
                               Rank:
                                 Demon: *Amazing
@@ -2925,14 +2915,14 @@ Character Sheet:
                         Power Control:
                           Focus:
                             Ranks:
-                              Demon: *Excellent
+                              Demon: *Amazing
                               Normal Human: *Good
                             Totals:
                               Demon:
                                 Rank: Shift-Z
-                                Number: 725
+                                Number: 1755
                                 Spread: 24
-                                Turns to Full Recovery: 37
+                                Turns to Full Recovery: 35
                               Normal Human:
                                 Rank: Shift-Y
                                 Number: 304
