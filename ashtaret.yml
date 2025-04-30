@@ -6,7 +6,7 @@ Character Sheet:
         Unranked: &Unranked
           Name: null
           Number: .nan
-          Abbreviation: 
+          Abbreviation:
         Shift 0: &Shift_0
           Name: Shift 0
           Number: 0
@@ -80,12 +80,12 @@ Character Sheet:
           Number: .inf
           Abbreviation: B
     Reference:
-      Origin: 
+      Origin:
         Physical Form:
           Normal Human:
             Description: &Normal_Human |
               The body is completely normal and possesses no detectable abnormalities. Any Powers the hero possesses have left no visible mark on the body.
-              
+
               - Random ranks are rolled on Column 2 of the Random Ranks Table.
               - Resources are increased +1CS.
           Demon:
@@ -225,7 +225,7 @@ Character Sheet:
               Energy Allergy: *Energy_Allergy
             Effect: *Fatal
             Duration: *Continuous_with_Contact
-            Conditions: Exposure to dangerous energies or toxic substances causes loss of Health and Endurance.  May heal as normal after exposure ceases.
+            Conditions: Exposure to dangerous energies or toxic substances causes loss of Health and Endurance. May heal as normal after exposure ceases.
             Note: This Weakness simply reflects how dangerous substances and energy like poison, fire, radiation, electricity, etc. affect Normal Humans.
       Abilities:
         Special Abilities:
@@ -1031,7 +1031,7 @@ Character Sheet:
               Knife: &Knife
                 Price: *Feeble
                 Damage: 10
-                Type: 
+                Type:
                   - Edged Attack
                   - Edged Throwing
                 Material Strength: *Excellent
@@ -1104,6 +1104,11 @@ Character Sheet:
               Silver:
                 Description: &Silver |
                   In game terms, all silver weapons cause double their normal damage to those characters and creatures classified as demons. If a silver weapon strikes a character who is possessed by a demon, only the demon will suffer damage, not the host body, Damage is caused not by the edge or type of weapon as much as simply touching silver to these creatures.
+              Staff of Polar Power:
+                Description: &Staff_of_Polar_Power |
+                  This is actually a class of staves. They can come in any shape or material and range in size from 4 to 8 feet long. A Staff of Polar Power polarizes the holder with the power of the master who created it. Therefore different powers and different levels of mastery are engrained into each staff and no two are alike. All Staves of Power allow the character to become pure energy for the purpose of floating through dimensions. In such form a character can move through dimensions at a rate of 5 dimensions per round and ignore all physical attacks. Another quality of most Staves of Power is their ability to absorb attack spells cast at them (see Magic Effects Table, Agility & Targeting). An Agility FEAT roll of a bull’s-eye indicates the character has intercepted the spell with his staff).
+
+                  This item offers the Judge a great opportunity to be creative and is a good item to improve a freshly generated character who is weak.
             Headquarters:
               Note:
                  - Size is a general statement.
@@ -1171,26 +1176,26 @@ Character Sheet:
                 Apparition:
                   Description: &Apparition |
                     The caster can mystically make his body non-corporeal and become an apparition. (This should not be confused with Astral Projection, as that power takes the caster to another dimension and he is invisible to most characters in this dimension.) Once the spell is cast, the caster need not concentrate upon his state to remain an apparition. As an apparition, the caster can still move, speak, cast spells, and perform most other normal actions. His movement rate is the same as if he were corporeal, but he can walk on air, sink through floors, climb up elevations as if he were climbing stairs, etc.
-                    
+
                     When a caster becomes an apparition his body loses its density, allowing him to pass through solid object and letting solid objects pass through him. The caster can be seen, but is obviously not completely solid. This power grants the caster body armor equal to the spell rank against any physical, energy, or mental attacks. If the apparition/caster physically attacks another character, that character must also be treated as though he has body armor equal to this spell rank. Magical, mental, or energy attacks against the target are treated as normal.
-                    
+
                     To pass through a solid object, or have a solid object pass through him, the object’s material rank must be equal to or less than the spell rank. In addition, the caster can lower the density of an object he touches by making a spell rank FEAT roll and, if succeeding, keeping it in his possession.
-                    
+
                     Judge’s Note:If the player wishes to make a concentrated effort at creating a character who appears like a ghost, striking fear and terror into criminal hearts, then the Judge should keep this effect in mind when the caster walks through a wall, drops through a ceiling, etc. and faces anyone. A character encountering this apparition, especially for the first time, must make a Psyche FEAT roll (see Magic Effects Table) or react as described in the Fear power. There is a price the caster has to pay for this extra “power”, however. This frightening effect on people only works if the caster is not famous, thus cutting off his Popularity and some sources of Karma gain. He must remain relatively reclusive and unknown so the criminal element does not recognize him.
                 Astral Projection:
                   Description: &Astral_Projection |
                     The caster can separate his astral self-the sheath of his life essence-from his physical self and travel through space unbound by physical laws while retaining human consciousness. The astral form (also sometimes called the ethereal form or the ectoplasmic form) is invisible, intangible, and incapable of being harmed except by the most powerful magic or by opponents who are themselves in astral form. If the caster wishes to project his astral self while under duress, during a combat or while he is being mentally attacked, he must make his spell rank FEAT roll.
-                    
+
                     The duration of effect determines how long the caster can remain in this form without physical deterioration occurring to his physical form. If the astral form does not return to its physical body before the duration of effect has elapsed, the caster’s body dies; and the astral form can only enter it as it would any other corpse or dummy, creating a blind, zombie-like creature. If the caster’s body is destroyed while the astral form is projecting, the caster is stranded in his astral form.
-                    
+
                     If a character is stranded in his astral form due to the death of his physical body, the astral form itself will dissolve after an amount of time equal to the normal spell duration associated with the character’s Psyche rank. (For example, the astral form of a character with Incredible Psyche would endure for one day; the astral form of someone with an Unearthly Psyche would last indefinitely.)
-                    
+
                     The caster can transport other willing subjects to the astral plane along with himself. When attempting to do so, he must make a Psyche FEAT roll: a white or green result means that the caster traveled and the other(s) did not, a yellow or red result means that the multiple astral travel worked perfectly. Astral projection cannot affect someone against his will.
-                    
+
                     Characters who are in their astral forms can see and communicate with each other, if both parties desire. If one or both parties do not desire to be seen, they may have to hide behind solid items, just as if they were in their physical form. If the astral character who is seeking has a lower power rank than the astral character who is attempting to avoid being seen, he must make a Psyche FEAT roll, even if that character is in plain, astral view. If seen, they can have magical combat in that form.
-                    
+
                     Magical items, though left behind on the physical plane, also have a counterpart that can be taken into the astral plane. It acts in the same manner as its physical counterpart, but its powers are lessened by one rank on the astral plane. Any magic item that the character possesses on the physical plane can be controlled by the owner’s astral self. (For example, Doctor Strange has escaped innumerable traps by controlling his Cloak of Levitation and the Eye of Agamotto within his amulet, while he was in his astral form.).
-                    
+
                     Time alteration spells cast from the astral plane work within the physical plane, but do not affect the astral plane.
                 Empathy:
                   Description: &Empathy |
@@ -1198,7 +1203,7 @@ Character Sheet:
                 Enchanted Eye:
                   Description: &Enchanted_Eye |
                     The caster creates an enchanted eye when he wishes. The caster can automatically summon the enchanted eye for one round only. A successful spell rank FEAT roll brings the eye forth for the full duration of the spell. It can only see as far as sight normally would, but can penetrate darkness (real or magical), show the caster mystical existences (such as astral projections, invisible magical objects, mystical shields, and so on), and see through illusions. The caster is mentally linked with the eye and sees everything it sees.
-                    
+
                     The enchanted eye is a separate magical creation capable of flight. Its movement rate is the same as that of the caster. The maximum distance it can be be separate from the caster is based on the spell rank (for example, 12 areas for Amazing rank.) The eye can be attacked physically or magically; the eye has Health points equal to the caster’s Psyche and any FEAT roll the eye is required to make use the caster’s appropriate ability rank. The caster is not affected by any damage suffered by the enchanted eye.
                 Flaw:
                   Description: &Flaw |
@@ -1206,7 +1211,7 @@ Character Sheet:
                 Flight:
                   Description: &Flight |
                     With this spell, the caster can magically fly. The spell rank and Psyche of the caster determines how fast he can fly. Consult theMagical Flight Speed     Table, below to determine the movement rate. The normal rate is the speed the character usually flies. If he wishes to achieve top rate flight he must make a Psyche FEAT roll every 5 rounds. A failed roll simply drops the caster’s speed back to normal.
-                    
+
                     The caster must make a successful spell rank FEAT roll to perform intricate flight maneuvers, fight while aloft, or perform other magic while aloft. The form of flight that the individual player character has (wings that magically appear, magic control of wind, or simply mystical flight) is up to the player.
                 Foretelling:
                   Description: &Foretelling |
@@ -1214,11 +1219,11 @@ Character Sheet:
                 Gramarye:
                   Description: &Gramarye |
                     The caster has the ability to magically learn information from an item, The caster must make a successful spell rank FEAT roll to learn anything from the item (if the item is of an unfamiliar alien design, the Judge can apply a -1CS to the spell rank).
-                    
+
                     The first information that can be gleaned by a successful spell rank FEAT roll is what the item’s purpose is and how to use it. If the caster has no talent in an area that the item might be used for, then he only has a rank of Typical when using it.
-                    
+
                     Once an artifact’s purpose is identified another spell rank FEAT roll is allowed. If successful, it allows the caster to “read” the psychic impressions left on it by the last person who used it. Information that can be gained includes what the user looked like, what he thought of while using it, what he was doing for the last few hours before the item was lost, stolen, or otherwise left his possession, etc. The longer the item has been untouched, the dimmer the impression.
-                    
+
                     This spell is increased or diminished if the item is magical. If the magic is of the same school as the caster, he receives a +2CS. If the magic is not of the same school as the caster, he receives a -1CS. If the magic is of a school hostile to the caster, he suffers an additional -1CS.
                 Healing:
                   Description: &Healing |
@@ -1231,28 +1236,28 @@ Character Sheet:
                 Image Projection:
                   Description: &Image_Projection |
                     The caster can direct his magical energy to form an identical image of himself. For every round he makes a successful spell rank FEAT roll, the image will perform as he desires, thoroughly convincing most characters that the image is the caster. This belief is somewhat like the Illusion spell and should be treated as an illusion for the purposes of combat or touching the image.
-                    
+
                     The caster can either use this spell while he is visible to create a “double” and confuse his opponents, or he can hide or turn invisible (if he has that spell) and have the image replace him.
-                    
+
                     The creation of more than one image is possible, but it requires a successful Psyche FEAT roll by the caster for every image made and each image requires a successful spell rank FEAT roll by the caster for each round he is commanding them. The maximum number of images a caster can create during the use of this spell is the spell rank divided by 10 (round fractions up).
                 Invisibility:
                   Description: &Invisibility |
                     This spell makes the caster invisible to others. Any item on the caster’s person and anyone holding hands with him (and willing to be affected) also becomes invisible as long as they remain in contact with him. This spell cannot turn an unwilling creature invisible.
-                    
+
                     Being invisible causes no special problems for the caster, but anyone else affected who is not used to being invisible will have a real problem moving about (movement halved), performing the simplest of actions (-2CS), and fighting in any fashion (-3CS for any combat). It requires at least 10 rounds of being invisible before becoming used to it.
-                    
+
                     Note: an invisible person can be located by persons with superhuman hearing or sense of smell, or by detection powers and devices that do not depend on sight.
                 Learning:
                   Description: &Learning |
                     This spell is used to give the caster an advantage in combat. It enables him to quickly learn from his mistakes. After this spell is cast the caster must fight his opponent for three consecutive rounds (normal combat, magical combat, astral combat, etc.). When the three rounds have passed the caster suddenly has insight into his opponent’s methods of combat and receives a +1CS when fighting that opponent during this encounter only. The duration and area of effect listed on the Magical Limits Table do not apply for this spell.
-                    
+
                     If combat is interrupted but later resumed and the Judge is not sure whether to consider it one continual encounter or two separate encounters, the spell still applies if the caster makes a successful spell rank FEAT roll.
                 Levitation:
                   Description: &Levitation |
                     This spell enables the caster to mystically rise into the air. A successful spell rank FEAT roll is required. No further FEAT rolls are needed unless the caster descends to the ground, and then want to levitate again during the duration of the spell. The maximum altitude a levitating character can reach is 1 area at Good rank, with an additional 2 areas for every spell rank above Good (thus, a caster with a Remarkable Levitation spell can reach an altitude of 5 areas). The movement speed (rising or descending) per round is 1 area for a character with Good Psyche with an additional area for each Psyche rank above Good. The character cannot use this spell to lift any weight greater than his normal clothing and equipment. This spell affects the caster only.
-                    
+
                     The character can perform other actions while airborne, including combat, but is limited to one spell per round regardless of the type of energy (personal, universal, or dimensional). If knocked unconscious while levitated, a character will immediately fall to the ground.
-                    
+
                     This spell should not be mistaken for the ability to fly (see the Flight spell). Levitation only allows vertical movement. Sideways movement is only achievable by the levitating character pulling himself along an object. A levitating character cannot create forward momentum to affect the direction of his ascent. It is always straight up. While wind has no affect on a floating caster’s ascent direction, it can slow him down if the Judge feels it is strong enough.
                 Luck:
                   Description: &Luck |
@@ -1263,18 +1268,25 @@ Character Sheet:
                 Mental Barrier:
                   Description: &Mental_Barrier |
                     This spell creates a magical invisible headgear which does not hinder the caster’s normal senses. It allows the caster to know when someone is trying to intrude on his thoughts, magically attack his mind through mesmerism, illusion, etc. It does not indicate who is doing the attacking or intruding, nor does it reveal what spell is being used.
-                    
+
                     In the round following the one in which the hostile spell is detected, the caster can, secure the barrier, preventing illusions, telepathy, empathy, etc., from affecting the caster. It also protects him from magical attacks on the mind (Emotion Control, Confusion, Fear, Mental Control, etc.) by giving him a +3CS for any Psyche FEAT roll to resist the attack. While the barrier is up the caster can perform no spells that require/a great deal of concentration.
-                    
+
                     Treat the spell rank as body armor for the sake of defense against attempted mental penetration by non-magical powers.
-                    
+
                     The Judge should make sure this spell is not abused. A character who constantly has the barrier up will become easily exhausted and can even suffer Psyche loss due to the mind damaging effects of trying to always be mentally protected. The maximum safe duration rank is Excellent.
+                Resistance Aura:
+                  Description: &Resistance_Aura |
+                    The caster surrounds himself with an invisible magical aura that protects him against a specific type of hostile environment or condition. The spell rank is treated as body armor against the hostile effect.
+
+                    The following are the most common kind of resistances.
+
+                    - **Solar:** Resistance to sun stroke, sunburn, light attacks, and solar radiation.
                 Servant:
                   Description: &Servant |
                     The caster can summon forth his own, personal servant to do his bidding. This servant will require quite a bit of Judge’s discretion as to its nature, abilities, spell, etc.
-                    
+
                     The servant’s abilities are generated as for any other character. The Judge then gives it two spells, and gives it an origin appropriate to the character it serves. Various types of magical servants exist, including jinn, demons, familiars, ghosts, and the like. The servant is obedient, helpful, and useful. The caster can automatically talk to or otherwise communicate with the servant.
-                    
+
                     This spell cannot use human beings as servants.
                 Sensing-Danger:
                   Description: &Sensing-Danger |
@@ -1300,14 +1312,14 @@ Character Sheet:
                 Shield-Great:
                   Description: &Shield-Great |
                     This shield protects an area. Unlike the other shields, the great shield is immobile and the caster assigns it to a fixed position when he casts it. The size of the great shield can be anywhere from the size of an individual shield up to a plane that is 1 area wide and 3 stories tall. It can be located anywhere within the area of effect, but the caster must see the location to place it. The great shield has an armor rank equal to the spell rank +2CS. It is usually transparent, but strange runes can be seen scrawled around the edge. If it is struck by an attack with a higher power rank it is shattered and disappears, though no damage penetrates it to harm the caster during that round.
-                    
+
                     A caster can have only one great shield in effect at any time.
                 Shield-Individual:
                   Description: &Shield-Individual |
                     The caster create a sorcerous shield to protect himself. The shield has an armor rank equal to the spell rank. This shield is usually invisible to all but magic wielders and can be projected out away from the caster’s outstretched hand a few feet. The caster moves the shield to block attacks. If the caster is attacked from a number of sources at once the shield will only protect him from one attack. If the caster is surprised, or if the attacking character succeeds in targeting a magical beam or bolt as a bull’s-eye, it means the caster could not move his shield fast enough to deflect the attack. If the shield is hit by an attack with a higher spell rank it shatters, though no damage penetrates it to harm the caster during that round.
-                    
+
                     The caster can also use this spell to encircle himself with four weaker shields (armor rank equalling the spell rank -1CS).
-                    
+
                     If any of the shields are broken, the remainder are unaffected. The caster cannot leave the circle of shields until they dissipate or are destroyed.
                 Tongues:
                   Description: &Tongues |
@@ -1315,19 +1327,23 @@ Character Sheet:
                 Trance:
                   Description: &Trance |
                     The caster has two options with this spell, he can mystically slow down or speed up his metabolism.
-                    
+
                     The slowed metabolism reduces the potency of any poison in his body (-3CS). The character can almost hibernate, thus lasting longer on fewer supplies in harsh climates, The character can feign death and has a chance to fool even the best doctors into believing he has died; feigning death requires a successful spell rank FEAT roll. While the caster’s body metabolism is slowed down, healing is also slower (one-half his Endurance rank number per day).
-                    
+
                     The accelerated metabolism speeds up medicinal drugs injected into the caster’s system, thus doubling the effects of healing. He can feign a fever, heart attack, and other maladies.
-                    
+
                     Once the character has started his mystical trance he cannot move or do any action except concentrate. He can come out of the trance whenever he desires, but it takes 2 rounds for his body to return to full consciousness.
+                Transformation:
+                  Description: &Transformation |
+                    The caster can, upon a successful spell rank FEAT roll, magically turn his body into another substance, retaining his own shape. There is a 15% chance that this spell is the type that can transform the caster into any substance he wishes. Otherwise the caster must pick one of the transformations listed below. In his altered form, the caster may assume the properties of that material: water flows, energy travels at the speed of light, fire ignites flammable materials, and so on. If the form is solid or sonic, the caster can use its material rank as body armor.
+                    - Darkforce. A caster who transforms himself into the Darkforce can drain Health points equal to the spell rank by touching or enveloping the victim. This requires the use of dimensional energy.
               Universal Energies:
                 Charm:
                   Description: &Charm |
                     The caster creates a pleasant aura about himself, charming opponents in the area of effect. Every opponent in the area is allowed a Psyche FEAT roll (see Magic Effects Table). If the target is affected, he will quickly change his mind about attacking the caster because “there is just something about him he likes”; if the Psyche FEAT result is “No Effect”, the target is not even aware that the caster tried to charm him. A charmed target will not attack the caster, but will attack another opponent, if one is available. The caster cannot give orders of any kind to a charmed character; the spell is not a form of mental control.
-                    
+
                     A charmed target is allowed to make a Psyche FEAT roll each round to attempt to break the charm. Each charmed opponent must break the charm on his own; he cannot be persuaded that he is charmed by friends, although a counterspell cast by a friend might break the charm. Unless the charm is broken, it will remain in effect for the duration of the spell, even if the caster leaves. A charmed character will not remember that he has been charmed once the spell expires.
-                    
+
                     If the caster attacks an opponent charmed by his spell, the spell is automatically broken, and the target retains full memories of being charmed and remembers who is responsible.
                 Confusion:
                   Description: &Confusion |
@@ -1335,58 +1351,89 @@ Character Sheet:
                 Conjure:
                   Description: &Conjure |
                     This spell is used to teleport an item, plant, creature or character from its current location to the caster’s location. This spell can even restore a broken or decayed item to its original form while in the act of teleporting.
-                    
+
                     If conjuring a trivial item, plant, or harmless animal, the caster need make no FEAT roll, it simply appears.
-                    
+
                     If conjuring a complex or dangerous item, plant, or dangerous creature, or attempting to conjure a broken or decayed item, the caster must make a successful spell rank FEAT roll before it appears.
-                    
+
                     If conjuring forth a willing character (teammate, friend, etc.) the caster must make both a successful spell rank FEAT roll and a successful Psyche FEAT roll before the character appears.
-                    
+
                     If conjuring forth an unwilling character, the caster must make a successful spell rank FEAT roll. The subject is allowed a Psyche FEAT roll to resist being brought forth; if the resistance FEAT is successful, the conjuration fails.
-                    
+
                     The conjuration of the body of a dead character is far beyond the abilities of any caster who does not have an Unearthly spell rank in this spell. The conjure spell only summons or recreates the physical body; however, if the dead character’s astral form survives (see the Astral Projection spell), it can reanimate the body, restoring it to true life.
                 Curse:
                   Description: &Curse |
                     With this spell, the caster can weave an enchanted curse around an opponent. If the spell rank FEAT roll is successful, the curse will remain with the opponent for the duration of effect. The duration of this spell is unusual; a curse cannot exceed Amazing duration (one month), even if the caster’s spell rank exceeds Amazing.
-                    
+
                     When a curse is attempted, the target can avoid it by making a successful Psyche FEAT roll. If the curse takes effect, the victim can make one Psyche FEAT roll per day to attempt to break it; a successful FEAT roll means the curse is broken. The target will not know who attacked him, regardless of whether or not the curse is successfully cast.
-                    
+
                     A curse negatively modifies all of the opponent’s actions and spells by a 1 Column Shift (plus or minus, as long as it works against the opponent). No more than one curse can normally be placed on a character. The exception is the use of the Link spell, whereby up to two curses can be placed on one opponent, but they cannot, totally, exceed the effect of a -2 Column Shift modifier lasting one month.
-                    
+
                     The Judge can decide to allow curses that have different effects instead of column shifts, such as: temporary aging; warts and boils; etc., but no curse can cause the death of a character.
+                Eldritch Beams/Bolts:
+                  Description: &Eldritch_Beams-Bolts |
+                    This spell unleashes a magical beam or bolt causing damage equal to the spell rank (a beam is a continuous line of energy, a bolt is an interrupted line of energy). A beam or bolt (hereafter referred to as bolt) affects only one target in the target area. When this spell is obtained, the player should roll a die to see where the bolts originate. The bolts will issue forth from the character’s: 1-4 = Hands; 5-8 = Eyes; 9 = Chest; 10 = Forehead. The type of bolt the character uses will be one of the following, which the player chooses with the approval of the Judge.
+
+                    - **Darkforce Bolt:** This bolt uses the Darkforce, a form of energy from another dimension. The target loses Health points equal to the caster’s spell rank. The bolt is black. (This bolt requires dimensional energy; it is not available to characters unable to use dimensional energy.)
+                    - **Disintegrating Bolt:** This bolt disintegrates non-living, inanimate objects up to 2 areas away from the caster. The limit of what it can disintegrate is determined by the spell rank. Compare the spell rank to the material rank of the object to be disintegrated.
+
+                      If the material rank is higher than the spell rank, the target’s material strength is reduced one rank.
+
+                      If the material rank is equal to or less than the spell rank, the target is disintegrated. Small objects (fist-sized, for example) can be destroyed automatically. Destroying man-sized objects requires a successful yellow spell rank FEAT roll. Destroying larger objects (like a vehicle) requires a successful red FEAT roll. If the target is an object of no importance, the Judge can waive the FEAT roll and rule that the item is automatically destroyed.
+                Eldritch Blast:
+                  Description: &Eldritch_Blast |
+                    This spell unleashes a magical blast, causing damage equal to the spell rank to everything in the target area. In addition, the blast has a chance to slam or stun anyone within the target area (see the Magic Effects Table under Power Rank-Blasting). The caster’s Psyche is reduced to Typical for an hour afterwards and he will pass out for 1-10 rounds unless he makes a successful Endurance FEAT roll. The type of blast used by the character is decided by the Judge and player when the character obtains the spell (see Eldritch Beams/Bolts for possible types).
+
+                    The spell rank determines the amount of damage done by the blast, but the area of effect when the spell is obtained has a maximum rank of Excellent (one area), even if the caster’s actual spell rank is higher. The area of effect can be increased through experience, but can never exceed the spell rank. Furthermore, this spell has a maximum limit of Amazing rank for its area of effect.
+                Eldritch Flames:
+                  Description: &Eldritch_Flames |
+                    The caster summons forth sorcerous flames that cause damage equal to their spell rank every round a character passes through them. A spell rank FEAT roll is required to bring them forth. The flames are summoned forth in a fixed location, designated by the caster, and cannot be moved. The flames are used as a fiery wall to block movement into or out of the target area. They extend along one side of the target area chosen by the caster and can be any height chosen by the caster, from a few feet to three stories. The wall of flames can be slightly bent by the caster to accommodate structures and obstacles. No more than three walls can ever be maintained by the caster at any one time.
+                Energy Control:
+                  Description: &Energy_Control |
+                    The caster can use his personal, universal, or dimensional energy to control another type of nonmagical energy (not personal, universal, or dimensional). This energy manipulation requires a successful spell rank FEAT roll. Only one type of energy can be chosen by a beginning caster, but with advancement he may learn to control other forms of energy.
+
+                    The caster can affect all of the individual type of energy within his area of effect with ease: turning it on or off, making it overload, siphoning it where he chooses, etc. He can channel controlled energy around himself so as not to be harmed by it.
+
+                    The caster must make a successful red spell rank FEAT roll to use this spell offensively. The attack must be made by touch, no matter what the spell rank. The damage caused equals the spell rank number.
+
+                    The caster must make a successful yellow or red spell rank FEAT roll to use this spell defensively.
+
+                    The following energies the ones most often affected by this spell. (The Judge can add others as desired.)
+
+                    - **Darkforce:** The Darkforce is a semisentient force from another dimension. It can be used to black out an area so completely that even infravision does not work. It cannot be used as a weapon outside of the area the character is occupying, but within that area anyone enveloped by the Darkforce (except the caster) loses Health points equal to the caster’s spell rank number each round. Controlling the Darkforce requires that the caster use dimensional energy; this form of control is not available to casters who cannot use dimensional energy.
                 Fear:
                   Description: &Fear |
                     This spell affects all targets in the area of effect. The spell releases an unreasoning fear from the target’s mind. All targets are allowed a Psyche FEAT roll to resist the effect (see the Magic Effects Table). If the target misses the roll, the frightened character wants nothing more than to run away and hide (all his actions while afraid are at -2CS). The victim will try to avoid, or if necessary attack, anyone attempting to stop or restrain him. The character can only perform actions (including spellcasting) that will help him to escape. The victim always flees away from the attacker, even if he cannot see the caster. After the first three rounds of being afraid, and every other round after that, if need be, the frightened character is allowed a Psyche FEAT roll to regain his composure. Once made, it will still take him a full round to get complete control of himself.
-                    
+
                     Though the caster must maintain a high degree of concentration on this spell to keep the target afraid (no attacks or other spellcasting allowed), he does not know when the character breaks the spell. Only when the target attacks the caster or otherwise acts contrary to a state of fear does the caster realize he no longer influences the target.
                 Forgetfulness:
                   Description: &Forgetfulness |
                     The caster can magically effect other characters’ minds and cause them to forget events. This is usually used by heroic magic wielders to protect innocent bystanders from the awesome psychic shock caused by some of the sights to be seen during magical combat, etc. It is also used by most magic wielding characters to protect their secret identities. Evil magicians may also use this spell to cover up their trail or their crimes. The duration of the spell is permanent (unless another sorcerer uses a Revival spell of at least equal spell rank to break the spell of Forgetfulness). The number of people that can be ensorcelled by the spell depends on the spell rank: Good = 1 person; Excellent = up to 5 people; Remarkable = everyone in I area; Incredible = everyone in a square mile; Amazing = everyone in 100 square miles; Monstrous = everyone on the planet; Unearthly everyone in one dimension; Class 1000 everyone in all dimensions.
-                    
+
                     Any character with a Psyche equal to or greater than the caster’s may make a Psyche FEAT roll to reduce the effects of the spell. Magic wielding characters have a +2CS for this FEAT roll. A green result means that vague recollections of the event sometimes surface in the character’s memory. A yellow result means that the character knows most of the highlights of the event, but cannot remember who cast the spell of forgetfulness. A red result means that the character can remember everything.
                 Glamor:
                   Description: &Glamor |
                     The caster can conjure up flashing lights and swirling colors, which distract and confuse opponents. The caster can cause them to appear anywhere within sight in the area of effect. Any characters in that area must make a Psyche FEAT roll; if the FEAT is successful, the target is unaffected. If the roll fails, the target suffers an unfavorable 1 CS on all his actions (plus or minus 1 CS depending on whatever is unfavorable to the target).
-                    
+
                     If the caster desires, he can try and target the glamor on a specific character; this requires a successful targeting Agility bull’s-eye FEAT roll. If successful, the target suffers an unfavorable 2 CS, but the spell effects that target only
-                    
+
                     Once established the glamor cannot be moved out of the area or exact location it was cast upon. Glamor has no effect on the caster.
                 Healing-Others:
                 Illusion:
                   Description: &Illusion |
                     This spell creates an illusion in the mind of creatures within the area of effect. The player whose character is using this spell must describe it to the Judge. The illusion looks, sounds, and smells the way it would if it were real, but cannot cause damage. Since the illusion exists only in the mind of the targets, no one outside the area of effect can see it. All characters in the area of effect see the same illusion. The caster must concentrate on the illusion for the entire duration of its existence to be believable.
-                    
+
                     Each character seeing the illusion may make a Psyche FEAT roll to disbelieve it at the beginning of the illusion and every other round after that. If the FEAT roll is successful, the illusion fades from his mind. Other characters with illusion creating powers, whether magical, mutant, or whatever, receive a +2 Column Shift to their attempts to disbelieve. An unaffected character cannot persuade an affected character of the illusion’s true nature.
-                    
+
                     Characters who are affected will act as they normally would if the illusion were real. If characters attack an illusion, attacks will not affect it (although the caster could make it seem otherwise); the Judge will have to keep track of the attacks because of the possibility of injury to bystanders or property. Items passing through an illusion may look like they are absorbed by it, like he side-stepped it, or whatever else the caster desires.
-                    
+
                     If the illusion is of something silly, confusing, or extremely contradictory, then the Judge should secretly roll an Intuition check for those affected to disbelieve it.
                 Mesmerism:
                   Description: &Mesmerism |
                     This is a basic magical form of hypnotism that permits the caster to communicate with and command specific creatures of less than human intelligence. To communicate with a creature requires a successful Psyche FEAT roll. Commanding a creature is possible only if the caster’s spell rank is greater than the creature’s Endurance rank, and also requires a successful spell rank FEAT roll.
-                    
+
                     The target must be able to see the caster to be affected by this spell. If the caster is affected by an attack in the round he casts this spell, the mesmerism is automatically broken.
-                    
+
                     When this spell is obtained, the caster will be able to mesmerize only one specific type of animal: mammals, birds, reptiles, amphibians, fish, insects, etc. As he becomes experienced he can learn how to mesmerize other types (Judge’s discretion).
                 Paralyze:
                   Description: &Paralyze |
@@ -1394,9 +1441,9 @@ Character Sheet:
                 Revival:
                   Description: &Revival |
                     The spell counters the effects of other spells that preventing a character from acting or thinking with complete control. Spells that can be countered by a Revival spell include Mesmerism, Emotion Control, Confusion, Fear, Illusion, Charm, Mental Control, Paralyze, Forgetfulness, and the like.
-                    
+
                     If the spell rank of the Revival spell is stronger than the spell rank of the controlling spell, then the controlling spell is automatically broken. If the spell ranks are equal, a successful spell rank FEAT roll is needed to break the spell. If the holding spell is a higher spell rank than the Revival spell, then the caster must make a successful spell rank FEAT roll to break the spell subtracting as many ranks from his spell’s normal spell rank as the holding spell exceeds it.
-                    
+
                     A Revival spell can only be used against a specific spell enthralling a specific character once a day.
                 Shield-Aura:
                   Description: &Shield-Aura |
@@ -1404,9 +1451,9 @@ Character Sheet:
                 Teleportation:
                   Description: &Teleportation |
                     The caster can channel his Universal or Dimensional energy into a special type of movement that allows him to travel instantaneously from one spot to another without physically crossing any of the space between. The caster can teleport as far as his area of effect allows. If the caster is familiar with the location he is teleporting to, or is able to see it, then he need make no FEAT roll. If he is attempting to teleport into an unknown location he must make a spell rank FEAT roll. A failed roll means he could not complete the movement and was “bumped” back to his original point of departure.
-                    
+
                     If a caster tries teleporting into a solid object (because he is unaware of its presence) he must make an Endurance FEAT roll; if this roll fails, he materializes outside the object but suffers damage equal to the material rank of the object. The character is automatically slammed (1 area) and may be stunned (make a FEAT roll for exact result).
-                    
+
                     The visual effects that accompany teleporting (vapors rising, flash of light, slow fade out, etc.) are up to the player.
                 Trap:
                   Description: &Trap |
@@ -1414,46 +1461,55 @@ Character Sheet:
                 Vapors-Obscurity:
                   Description: &Vapors-Obscurity |
                     The caster can conjure forth magical vapors, which pour out from around his feet, hands, or just suddenly begin to swirl in the air (caster’s discretion). The vapors resemble dense smoke of a color specified by the caster. They fill the area he is occupying in one round. The caster can continue to fill areas at a rate of one per round until some or all of his area of effect is full. These vapors prevent anyone from seeing the caster, and even radar, sonar, and infrared devices cannot penetrate them. The caster, on the other hand, can see through the vapors perfectly.
-                    
+
                     The effect that the vapors have on combat is to provide the caster with a +1CS when striking an opponent who is in the vapors and to penalize the opponent with a -2CS Shift for striking at the caster, while the opponent is in the vapors.
+                Vapors-Resist Death:
+                  Description: &Vapors-Resist_Death |
+                    The caster can conjure forth magical vapors, which pour out from around his feet, hands, or just suddenly begin to swirl in the air (caster’s discretion). These vapors will only cover one individual the caster chooses within the area of spell. This character must be dying or dead for no more than 2 rounds when the spell is cast. These extremely powerful vapors will bring the character up to 0 Health points and keep him there (if he has died) or will freeze him at the level of his current Health and Endurance. This “freezing” of the character will last for the duration of effect and allows for time to treat his wounds or the condition which is killing him (taking him to a hospital, applying spells that heal, etc.)
+
+                    Once applied, these vapors wrap the target in a black, swirling shroud. The target remains unconscious while in the vapors.
+
+                    The caster can dissipate the vapors at will. Once gone, by the caster’s will or at the end of the duration of spell, the character starts dying and must follow the procedure on page 11 of the MARVEL SUPER HEROES Game Battle Book.
+
+                    If the character the caster is trying to save has been dead for over 2 rounds, but less than 3 hours, the caster can try to create a special, potent vapor which will have the same effect as described above. To create this special vapor requires the caster to make a spell rank FEAT roll and deduct one rank from his Psyche (for a week) whether he succeeds in the spell or not. The caster can keep attempting this spell, but must deduct the Psyche rank each time he tries. If his Psyche rank drops to Feeble or below, due to the exercising of this spell, he permanently loses a Psyche rank.
                 Vapors-Sleep:
                   Description: &Vapors-Sleep |
                     The caster can conjure forth magical vapors, which pour out from around his feet, hands, or just suddenly begin to swirl in the air (caster’s discretion). These vapors resemble soft, billowy, white clouds and will only cover the caster’s immediate area (if the spell rank is Good or less) or the caster’s area and one adjacent area of his choice (if the spell rank is Excellent of better). The vapors are not of sufficient density to affect anyone’s vision.
-                    
+
                     Everyone but the caster who is in the vaporous area(s) must make an Endurance FEAT roll or fall asleep for 1-10 rounds plus an additional 2 rounds. Loud noises, being nudged, and other “awakening” conditions will arouse the characters affected. These vapors only last for one round, then dissipate.
               Dimensional Energies:
                 Environmental Independence:
                   Description: &Environmental_Independence |
                     The caster can surround himself with an aura of magic that maintains a livable environment for him. He does not need to sleep, eat, drink, or breathe, but can if he wants to. He feels no non-magical cold or heat and can survive in outer space, under water, within the earth, in hostile atmospheres, etc. This spell does not provide protection from or immunity to attack, but it does allow the caster to survive in conditions where survival would normally be impossible. The area of spell is usually just around the caster himself, though the aura can contain an additional character for every rank of the caster’s Psyche above Remarkable.
-                    
+
                     This is a particularly long-lived spell, often used by magic wielders stranded in hostile circumstances or alien dimensions. The duration of this spell is left to the Judge, as different conditions and circumstances (time passage in other dimensions for example) can affect the duration. It is suggested that the caster receive a +3CS on the duration of the spell. (For example, the spell would have a Unearthly duration for a caster with an Incredible spell rank.) An Unearthly duration means that the spell lasts indefinitely, usually until the caster escapes from the hostile conditions that caused him to cast the spell.
                 Dimensional Aperture:
                   Description: &Dimensional_Aperture |
                     This spell causes a temporary opening in the dimension’s fabric, allowing the caster to cross from one dimension to another. Look for the section on Dimensions in the Miscellany of Mysticism for more detail. The caster can automatically open a portal to a dimension with which he is familiar, but opening a portal to an unfamiliar dimension requires a successful spell rank FEAT roll. If a FEAT roll is required, failure indicates that the caster cannot enter the desired dimension that day A beginning caster who does not really know one dimension from another can stumble into any one of them at random.
-                    
+
                     A spellcaster who is in a familiar foreign dimension can automatically return to his home dimension. However, if the caster is in an unfamiliar dimension or if his mind has been affected by traveling in a sanity-bending or sanity-threatening dimension, the caster must make a successful spell rank FEAT roll to locate the dimensional position of his home dimension. This roll to return is only allowed once per week. However, the caster can enter another random dimension and try to go home from there.
-                    
+
                     If the caster tries to take anyone else with him into a dimension, whether they are willing or unwilling, then a Psyche FEAT roll is required of each character passing through into the dimension, every time they enter a new dimension. Anyone who fails the FEAT roll cannot pass through that particular dimensional aperture at this time. Characters who are left behind can try again a day later, if the aperture is still in effect.
-                    
+
                     This spell also grants the caster knowledge of a tiny “personal dimension” where he can go with perfect accuracy and safety. This pocket dimension is only accessible from the caster’s home dimension and contains no dangerous creatures. There the caster can go for peace, solitude, and can even make it a home away from home. The caster can enter or leave his own little dimension once per day.
                 Link:
                   Description: &Link |
                     The caster can link his mind with other, willing magic wielders, thus giving him additional power. Up to four magic wielders can be linked in this manner. For every magic wielder linked to his mind, the caster gains a +1CS to the spell rank of any spell he casts, up to a maximum of Shift X rank. (Exception: this spell cannot increase the rank or effects of Link spells.) If the spell involves a range factor, the range is increased to that of the shifted spell rank. If the spell inflicts damage, the area of effect and the spell rank is shifted, for purposes of FEAT rolls, but damage is increased by 10 points (not 1 rank) for each additional mind linked. (For example, if three magic wielders are linked to a caster with an Incredible rank in Eldritch Crystals, he would receive a +3CS for the area of effect and chance of a successful spell rank FEAT roll, but any damage caused would be 70 points, not 100.
-                    
+
                     Only the caster who initiates the Link spell can perform any actions. All other magic wielders who are linked must remain in place and concentrate. If the caster they are linked to sustains damage, they absorb one-tenth of that damage too, rounded down. The link also increases the caster’s Psyche for resistance to mental attack. For every additional mind linked, apply a +1CS to the caster’s Psyche when defending against mental attack.
-                    
+
                     The link is automatically broken if the caster is rendered unconscious or if he loses control of his own mind (due to Confusion spells, Fear spells, Mental Control spells, etc.)
                 Shield-Multiple:
                   Description: &Shield-Multiple |
                     This spell uses extradimensional energies to create a Multiple Shield. It is identical to an Individual Shield, except that there are actually multiple shields behind the one that appears. For every spell rank above Good, the caster has another Shield that immediately appears when the previous shield has been shattered. For example, a caster with a Remarkable spell rank has three Individual Shields, one right behind the other to protect him.
-                    
+
                     If the outermost shield is struck by an attack that is at least two ranks higher than the shield rank, one or more inner shields are also broken; if the attack is 2 ranks higher, a second shield is broken, at 3 ranks higher, a third shield, and so on. No damage will reach the caster in the round the last shield is broken.
                 Teleportation:
                   Description: &Teleportation |
                     The caster can channel his Universal or Dimensional energy into a special type of movement that allows him to travel instantaneously from one spot to another without physically crossing any of the space between. The caster can teleport as far as his area of effect allows. If the caster is familiar with the location he is teleporting to, or is able to see it, then he need make no FEAT roll. If he is attempting to teleport into an unknown location he must make a spell rank FEAT roll. A failed roll means he could not complete the movement and was “bumped” back to his original point of departure.
-                    
+
                     If a caster tries teleporting into a solid object (because he is unaware of its presence) he must make an Endurance FEAT roll; if this roll fails, he materializes outside the object but suffers damage equal to the material rank of the object. The character is automatically slammed (1 area) and may be stunned (make a FEAT roll for exact result).
-                    
+
                     The visual effects that accompany teleporting (vapors rising, flash of light, slow fade out, etc.) are up to the player.
   Hero:
     Ashtaret:
@@ -1477,7 +1533,7 @@ Character Sheet:
           Description: *Changeling
           Note:
             - Not all Powers are available in every aspect. An aspect will have a Rank in a Power if it is available. A Rank given with no Aspects is available to all Aspects.
-            - Continuously in Deity Aspect while in Ashtaret's Domain.  May choose to appear in another Aspect when leaving that dimension, without triggering either the Changeling penalty timer or requiring an Energy Depletion recharge.
+            - Continuously in Deity Aspect while in Ashtaret's Domain. May choose to appear in another Aspect when leaving that dimension, without triggering either the Changeling penalty timer or requiring an Energy Depletion recharge.
             - Everything nonliving Ashtaret is wearing or carrying becomes Ethereal along with her when she changes into that Aspect.
           Aspects:
             Demon: *Demon
@@ -1529,46 +1585,46 @@ Character Sheet:
           Fighting:
             Rank:
               Demon: *Remarkable
-              Deity: *Incredible 
-              Ethereal: *Excellent 
-              Normal Human: *Excellent 
+              Deity: *Incredible
+              Ethereal: *Excellent
+              Normal Human: *Excellent
             Note: Ethereal has Shift 0 Fighting in Earth Dimension unless fighting another Ethereal.
           Agility:
             Rank:
-              Demon: *Amazing 
-              Deity: *Monstrous 
-              Ethereal: *Amazing 
-              Normal Human: *Excellent 
+              Demon: *Amazing
+              Deity: *Monstrous
+              Ethereal: *Amazing
+              Normal Human: *Excellent
           Strength:
             Rank:
-              Demon: *Remarkable 
-              Deity: *Incredible 
-              Ethereal: *Excellent 
-              Normal Human: *Excellent 
+              Demon: *Remarkable
+              Deity: *Incredible
+              Ethereal: *Excellent
+              Normal Human: *Excellent
           Endurance:
             Rank:
-              Demon: *Monstrous 
-              Deity: *Unearthly 
-              Ethereal: *Amazing 
-              Normal Human: *Excellent 
+              Demon: *Monstrous
+              Deity: *Unearthly
+              Ethereal: *Amazing
+              Normal Human: *Excellent
           Reason:
             Rank:
-              Demon: *Remarkable 
-              Deity: *Monstrous 
-              Ethereal: *Incredible 
-              Normal Human: *Excellent 
+              Demon: *Remarkable
+              Deity: *Monstrous
+              Ethereal: *Incredible
+              Normal Human: *Excellent
           Intuition:
             Rank:
               Demon: *Monstrous
               Deity: *Unearthly
-              Ethereal: *Amazing 
-              Normal Human: *Excellent 
+              Ethereal: *Amazing
+              Normal Human: *Excellent
           Psyche:
             Rank:
-              Demon: *Monstrous 
-              Deity: *Unearthly 
-              Ethereal: *Amazing 
-              Normal Human: *Excellent 
+              Demon: *Monstrous
+              Deity: *Unearthly
+              Ethereal: *Amazing
+              Normal Human: *Excellent
         Secondary Abilities:
           Health:
             Demon: 185
@@ -1612,8 +1668,7 @@ Character Sheet:
         Special Abilities:
           Powers:
             Note:
-              - Descriptions are short summaries of full text. Consult Ultimate Powers Book for full text of Power description.
-              - Not all Powers available to all Aspects.  There will be a Rank for that Aspect if the power is available.
+              - Not all Powers available to all Aspects. There will be a Rank for that Aspect if the power is available.
               - A Power with a Rank listed with no further qualification is available to all Aspects at the same Power Rank (e.g. Total Memory).
             Defensive:
               Resistance to Emotion Attacks:
@@ -1737,7 +1792,7 @@ Character Sheet:
               True Sight:
                 Rank:
                   Deity: *Monstrous
-                Description: *True_Sight  
+                Description: *True_Sight
               Weakness Detection:
                 Rank:
                   Demon: *Amazing
@@ -1776,7 +1831,7 @@ Character Sheet:
               Kinetic Bolt:
                 Rank:
                   Ethereal: *Remarkable
-                Description: *Kinetic_Bolt 
+                Description: *Kinetic_Bolt
               Shadowcasting:
                 Rank:
                   Demon: *Remarkable
@@ -2002,7 +2057,7 @@ Character Sheet:
                     Spread: 29
                     Turns Until Full Recovery: 45
                 Note:
-                  - Rank-less abilities not included.  Focus itself is, but recovery is at full Rank.
+                  - Rank-less abilities not included. Focus itself is, but recovery is at full Rank.
                   - Resistance to Fire and Heat is considered the same Power in both Resistance to Physical Attacs and Resistance to Energy Attacks
                 Description: *Focus
             Self Alteration:
@@ -2177,7 +2232,7 @@ Character Sheet:
                     Note:
                       - Multiple for ubiquity.
                       - Security systems are magical in nature, rather than technological. Comprises wards, scrying sensors, arcane locks, etc.
-                      - Alarms telepathically alert Ashtaret and Allatou, irrespective of distance or dimension, as well as Captains and the Retinue.  Any other Servants in the alarmed room or area, and up to 2 areas away, are likewise alerted, with Sentries alerted up to 4 areas distant.
+                      - Alarms telepathically alert Ashtaret and Allatou, irrespective of distance or dimension, as well as Captains and the Retinue. Any other Servants in the alarmed room or area, and up to 2 areas away, are likewise alerted, with Sentries alerted up to 4 areas distant.
                       - Ashtaret and Allatou may telepathically activate and deactivate alarms, and lock and unlock locks, irrespective of distance or dimesion.
                     Description: *Security_Packages
                   Fire Protection Package:
@@ -2202,7 +2257,7 @@ Character Sheet:
                           - Material Strength is the effective Endurance for any FEATs.
                           - Stunning requires Enduance FEAT vs Intensity or pass out for 1-10 turns
                           - Concussion Beams, Lasers
-                          - There are enough of everything to fully cover any room or area.  Assume at least 3 defensive systems can reach any given spot.
+                          - There are enough of everything to fully cover any room or area. Assume at least 3 defensive systems can reach any given spot.
                         Types:
                           Stun Beam: Stunning
                           Concussion Beam: Force
@@ -2234,8 +2289,8 @@ Character Sheet:
                 Note:
                   - About 20+ areas over about 3+ levels.
                   - Descriptions are references from the Ultimate Player's Book chapter on Headquarters, and exemplary, rather than canonical, functionally or qualitatively generally equivalent to the contents of the extraplanar domain by comparison to 1980's Manhattan, rather than literal descriptions.
-                  - There are no Fire Protection Packages, as everything native to the domain is invulnerable to fire.  Books are otherwise protected.
-                  - Ashtaret is continuously in Deity Aspect while in this dimension.  May choose to appear in another Aspect when leaving her domain, without triggering either the Changeling penalty timer or requiring an Energy Depletion recharge.
+                  - There are no Fire Protection Packages, as everything native to the domain is invulnerable to fire. Books are otherwise protected.
+                  - Ashtaret is continuously in Deity Aspect while in this dimension. May choose to appear in another Aspect when leaving her domain, without triggering either the Changeling penalty timer or requiring an Energy Depletion recharge.
                   - Considered Ashtaret's personal pocket dimension per Dimensional Aperture Spell.
                   - Portal Room:
                       Note: To secure Black Mirror instance is a combination of Trophy Room and Imprisonment Package features, designed to keep interlopers somehow emerging from the Black Mirror confined away from access to the rest of her domain.
@@ -2252,14 +2307,14 @@ Character Sheet:
                       Satan-Sphere:
                         Note:
                           - Ashtaret acquired this relatively recently among the aftermath and fallout of Doctor Strange's conflict with the Sons of Satannish.
-                          - It is kept in a dedicated scrying room in Ashtaret's domain that has the combined features of the Trophy Room Package and Office Package. 
+                          - It is kept in a dedicated scrying room in Ashtaret's domain that has the combined features of the Trophy Room Package and Office Package.
                         Description: |
                           This large (8 feet in diameter) fiery white sphere was last known to be owned by the cult Sons of Satannish. It acts in a manner similar to the Orb of Agamotto, locating that which the user desires to see and hear on Earth. The Satan-Sphere also allows a user who makes a successful Psyche FEAT roll to send spells through it at observed targets (the check must be made for each spell used, a failed roll means that the spell has been wasted). Even if the attack successfully goes through the Satan-Sphere the target can return the attack spell to the user if: a) the target is of a mastery level equal to or greater than the user; and b) the target succeeds in making a Yellow or Red Psyche FEAT roll.
 
                           The current whereabouts of the Satan-Sphere are unknown.
                       Interdimensional Scanner:
                         Note:
-                          - This is a room-sized magical scrying device that functions the same as Bochs's technologucal Interdimensional Scanner described in Realms of Magic. 
+                          - This is a room-sized magical scrying device that functions the same as Bochs's technologucal Interdimensional Scanner described in Realms of Magic.
                           - It is occupies much of the scrying room in Ashtaret's domain.
                         Description: |
                           While this is not a mystical item, it is used to monitor dimensional nexus and scan dimensions that are near Earth. This room-sized piece of high-tech equipment was designed by Roger Bochs, who first created Box of Alpha Flight fame. He was assisted in its creation by Shaman. Imaging of these dimensions is often hazy, showing only the outlines of larger creatures, structures, and so forth. It is with this device that the Alpha Flight team unwittingly brought the Incredible Hulk back to the Earth dimension from another dimension where Doctor Strange had banished him for the good of mankind, and the Hulk’s own sake. Any use of this device to scan and observe another dimension requires a successful Reason FEAT roll.
@@ -2279,11 +2334,11 @@ Character Sheet:
                               Powers:
                                 Defensive:
                                   Resistance to Energy Attacks:
-                                    Fire and Heat: *Good
+                                    Fire and Heat: *Class-1000
                                 Energy Emission:
                                   Fire Generation: *Good
                               Special:
-                                - Immortality
+                                Immortality: ~
                               Talents:
                                 Mystic and Mental Skills:
                                   Mystic Background: *Mystic_Background
@@ -2298,7 +2353,7 @@ Character Sheet:
                                   Energy Use: All Energies
                                   Rank: Novice
                                   Master: Ashtaret
-                                  Spells: Knows two spells relevant to role, at Psyche rank.  
+                                  Spells: Knows two spells relevant to role, at Psyche rank.
                       Types:
                         Minion:
                           Abilities:
@@ -2316,7 +2371,7 @@ Character Sheet:
                               Resources: *Poor
                               Popularity: *Poor
                             Special Abilities:
-                              Equipment: May have incidental items related to role and purpose.      
+                              Equipment: May have incidental items related to role and purpose.
                           Reference: *Standard_Robot
                           Encounter: Always work in pairs or teams of four for larger tasks, though there may work details of 6-12, or even up to 20 for major undertakings. There are 2-6 in each workplace room of the Archivists and Magitechnicians, one for each Captain, two for each Retainer, four for Allatou, including her entourage, for 7-9, and six for Ashtaret, making sixteen with her entourage included, 23-25 if Allatou and hers are present. They may move around the domain alone when off-duty.
                           Description: |
@@ -2344,7 +2399,7 @@ Character Sheet:
                                   Body Armor:
                                     Value: *Excellent
                                     Note: Excellent Body Armor from Chest Plate (covers the wearer’s torso and back only), Helmet (Covers the wearer’s head only), and Shield (Protects against frontal attack only. If a shield is used in combination with a chest plate or any type of full armor, the shield raises the protection of the other armor by one rank. If used alone or with a helmet only, use the shield’s armor rank). Remarkable with Shield vs frontal attacks. Items have Remarkable Material Strength.
-                                    Description: *Body_Armor 
+                                    Description: *Body_Armor
                               Equipment:
                                 Weapons:
                                   Shooting Weapons:
@@ -2358,9 +2413,9 @@ Character Sheet:
                                 Magical Items:
                                   Silver Weapons:
                                     Note: Melee and Thrown Weapons are Silver
-                                    Description: *Silver        
+                                    Description: *Silver
                           Reference: *Sentry_Robot
-                          Encounter: Always in pairs, they are posted outside the the entrances of important or secure rooms, and inside the entrances of the most important and secure.   Two accompany each Captain and Retainer, and four accompany Allatou.  Ashtaret has a personal squad of thirteen, who are posted in a circle around the inner perimeter of in the Throne Room when she is there, in addition to the two inside and two outside each entrance, and those of each of Ashtaret's four Retinue and two Captains, for at least seventeen, 25-27 if Allatou is present, to account for her entire entourage.
+                          Encounter: Always in pairs, they are posted outside the the entrances of important or secure rooms, and inside the entrances of the most important and secure. Two accompany each Captain and Retainer, and four accompany Allatou. Ashtaret has a personal squad of thirteen, who are posted in a circle around the inner perimeter of in the Throne Room when she is there, in addition to the two inside and two outside each entrance, and those of each of Ashtaret's four Retinue and two Captains, for at least seventeen, 25-27 if Allatou is present, to account for her entire entourage.
                           Description: |
                             Generally made from greater imps, or sometimes least devils, Sentries are the bulk of the Domain's armed forces. They guard areas and inhabitants, patrol the domain, and respond to intruders and threats.
                         Talent Servant:
@@ -2389,7 +2444,7 @@ Character Sheet:
                             Special Abilities:
                               Talents:
                                 Note: Has one or more Talents relating to role and purpose.
-                              Equipment: Has Equipment specific to role and purpose.            
+                              Equipment: Has Equipment specific to role and purpose.
                           Reference: *Talent_Robot
                           Description: |
                             Generally minor demons such as succubi, incubi, and lesser devils
@@ -2458,9 +2513,6 @@ Character Sheet:
                                       Body Armor:
                                         Value: *Excellent
                                         Note: As Sentries, but generally doesn't have a shield.
-                                    Special:
-                                      - Eldritch Bolts
-                                      - Eldritch Shield
                                   Talents:
                                     Weapon Skills:
                                       - Sharp Weapons: *Sharp_Weapons
@@ -2481,7 +2533,7 @@ Character Sheet:
                                     Magic Wielder Talents:
                                       - Demonologist
                                       - Zoologist of Magic
-                                  Equipment: 
+                                  Equipment:
                                     Weapons:
                                       Melee and Thrown Weapons:
                                         - Knife
@@ -2492,7 +2544,7 @@ Character Sheet:
                                   Contacts:
                                     Professional: One Contact in the Military category and one Contact in the Crime, Law Enforcement, Law, or Espionage categories.
                               Note: Enhanced Primary Attribute is Intuition
-                              Encounter: They are generally accompanied by a pair of Sentries.  One is always in the Security Office, unless responding elsewhere, and one generally accompanies Allatou, Ashtaret two. Each has a Minion on call, as well.
+                              Encounter: They are generally accompanied by a pair of Sentries. One is always in the Security Office, unless responding elsewhere, and one generally accompanies Allatou, Ashtaret two. Each has a Minion on call, as well.
                               Description: |
                                 Generally overseen by Allatou they directly oversee Sentries and coordinate with the Retinue. They respond to intruders and threats, and escort guests.
                             Retainer:
@@ -2517,7 +2569,7 @@ Character Sheet:
                                       - Demonologist
                                       - Occultist
                                       - Theoginist
-                                  Contacts: 
+                                  Contacts:
                                     Professional: One Contact in the Professional category.
                               Note:
                                 - Enhanced Primary Attribute is Psyche
@@ -2525,7 +2577,7 @@ Character Sheet:
                               Description: |
                                 The Retinue are assistants and lieutenants who work with Allatou to ensure the smooth operation of Ashtaret's Domain, and generally assist Ashtaret and Allatou. They supervise the Minions, and coordinate with the Sentry Captains. In addition, they manage the Archivists' and Magitechnicians' projects on Allatou's behalf.
                 Description: |
-                  A small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams, with a readily accessible border with the Astral Plane, Ashtaret's domain is not strictly a structure or building, though there are areas that appear to be "inside," as well as "outside," and "underground." The substructure of "walls," "ceilings," "floors," and "the ground" are an ultrahard, impenetrable, basalt-like material.  There is "weather" of sorts in the "sky" of the "outdoor" portions, and flying into it, away from the surface eventually leads to the Astral Plane. However, this is ultimately a one-way trip once the flyer has passed fully into the Astral, requiring a different mechanism to return. Strange and alien flora populate the courtyard gardens, infernal analogues of their counterparts on Earth, if any, but there is no fauna, the sky has neither birds nor otherwise, and there aren't even creatures to buzz and flit through the gardens like insects.
+                  A small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams, with a readily accessible border with the Astral Plane, Ashtaret's domain is not strictly a structure or building, though there are areas that appear to be "inside," as well as "outside," and "underground." The substructure of "walls," "ceilings," "floors," and "the ground" are an ultrahard, impenetrable, basalt-like material. There is "weather" of sorts in the "sky" of the "outdoor" portions, and flying into it, away from the surface eventually leads to the Astral Plane. However, this is ultimately a one-way trip once the flyer has passed fully into the Astral, requiring a different mechanism to return. Strange and alien flora populate the courtyard gardens, infernal analogues of their counterparts on Earth, if any, but there is no fauna, the sky has neither birds nor otherwise, and there aren't even creatures to buzz and flit through the gardens like insects.
 
                   As Ashtaret satisfies her needs with Powers and Spells, the lair has few amenities although everything there is of opulent quality, as it primarily comprises places for Ashtaret to keep her Grimoires and other Mystic Texts, along with any treasures, prisoners, or other possessions, as well as a place for her to sit and hold court. The architecture and design are reminiscent of ancient Mesopotamian aesthetics, and the statuary and friezes and other elements, as well as the lighting and temperature, all respond subtly to her emotional state, changing their countenance or content to reflect her moods. The temperature, atmosphere, and other conditions are survivable, even livable, if not pleasant or comfortable, for humans, animals, and humanlike beings. There is no modern technology present, with amenities such as cooking, hot water, and lighting provided by hellfire and witchlight, running water from "natural" springs, and plumbing, drainage, and waste disposal by the void itself. Though indeed opulent in construction and ornamentation, it is also somewhat spare and spartan, empty and uninhabited save her herself and her Servants, robotic except for Allatou; she finds it stifling and boring to spend too much time there.
               Example Manhattan Apartment:
@@ -2588,76 +2640,88 @@ Character Sheet:
             Salaries Sundries and Other Equipment:
               Respectable Clothing:
                 Price: *Typical
-                Note: Daily wardrobes of Normal Human cover identities. More basic, casual, off-the-shelf, or mundane than what is created with Artifact Creation, Molecular Creation, and Molding (high fashion, valuable accessories, etc.).  Vintage clothing highly represented.
-              Original Art: 
+                Note: Daily wardrobes of Normal Human cover identities. More basic, casual, off-the-shelf, or mundane than what is created with Artifact Creation, Molecular Creation, and Molding (high fashion, valuable accessories, etc.). Vintage clothing highly represented.
+              Original Art:
                 Price: *Good
                 Note: Decorations and objets d'art, particularly in higher-end residences.
               Mystic Texts:
                 Price: *Incredible
-                Note: Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
+                Note: Generally kept in Libraries in Domain, but may have one or more on Earth.
                 Description: *Mystic_Texts
             Magical Items:
               Grimoire:
                 Note: Primary and backup Grimoires. Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
                 Description: *Grimoire
               Ebon Staff of Ereshkigal:
-                Category: Miscellaneous/Staff
-                Item Condition: There are no conditions to the item (it operates as described).
                 Melee and Thrown Weapons:
-                  Weapon: Club
-                  Damage: 10
+                  Damage: 15
                   Type:
                     - Blunt Attack
                     - Blunt Throwing
                   Material Strength: *Unearthly
-                  Note: Minimum 10 damage, maximum the lesser of wielder's Strength or item's Material Strength, on appropriate column (BA/BT).
-                Note:
-                  - Descriptions are short summaries of full text. Consult Realms of Magic for full text of Spell description.
-                  - Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
-                  - All Spells cast by the staff are Amazing (50)
+                  Note: Minimum 15 damage, maximum the lesser of wielder's Strength or item's Material Strength, on appropriate column (BA/BT).
+                Staff of Polar Power:
+                  Magic:
+                    Magic Wielder: Umma Ušumgal
+                    School: Specific Pantheon (Annunaki)
+                    Energy Use: All Energies
+                    Rank: Master
+                    Master: Ereshkigal
+                    Spells:
+                      Personal Energies:
+                        Astral Projection:
+                          Rank: *Amazing
+                          Description: *Astral_Projection
+                        Resistance Aura:
+                          Rank: *Amazing
+                          Type: Solar
+                          Description: *Resistance_Aura
+                        Trance:
+                          Rank: *Amazing
+                          Description: *Trance
+                        Transformation:
+                          Rank: *Amazing
+                          Type: Darkforce
+                          Description: *Transformation
+                      Universal Energies:
+                        Eldritch Beams/Bolts:
+                          Rank: *Amazing
+                          Type:
+                            - Darkforce Bolt
+                            - Disintegrating Bolt
+                          Note: Beams/bolts originate from the crystal on the end of the staff.
+                          Description: *Eldritch_Beams-Bolts
+                        Eldritch Blast:
+                          Rank: *Amazing
+                          Type: Darkforce
+                          Description: *Eldritch_Blast
+                        Eldritch Flames:
+                          Rank: *Amazing
+                          Description: *Eldritch_Flames
+                        Energy Control:
+                          Rank: *Amazing
+                          Type: Darkforce
+                          Description: *Energy_Control
+                        Fear:
+                          Rank: *Amazing
+                          Description: *Fear
+                        Revival:
+                          Rank: *Amazing
+                          Description: *Revival
+                        Shield-Aura:
+                          Rank: *Amazing
+                          Description: *Shield-Aura
+                        Vapors-Resist Death:
+                          Rank: *Amazing
+                          Description: *Vapors-Resist_Death
+                  Description: *Staff_of_Polar_Power
+                Note: Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
                 Description: |
                   About six feet long and an inch and a half thick, this staff of solid, lightweight, smooth, black metal is twisted along much of its length. It bears a prism of black crystal at one end, terminating in a tapered, blunted spike at the other. It bears an inscription, spiraling around its shaft: 𒋼𒀭𒅗𒆠𒊮𒀀𒍣𒆗𒂗𒂠𒁉𒇻𒋼𒍑𒅗𒇷𒅋𒍣𒆗𒂗𒂠𒅗𒆰𒈠𒀀𒆠𒍣𒆗𒂗𒂠𒁉𒀭𒅗𒋻𒅎𒁍𒀭𒂗𒈾𒈠𒂵𒉌 - "šu d.erkalla-ke₄ za-lam-e-ne bi-lu šu ul-ba-ke₄ za-lam-e-ne kalam-ma-ke₄ za-lam-e-ne-bi-in ka-ta in-du₁₁ d.en na-ma-gin₃" (Sumerian, roughly "This, the hand of Irkalla, shall touch all the living in their entirety, the living of the world, it shall seize them all. Thus it has been spoken. As the Lord decreed, so it shall be.")
-                Spells:
-                  Rank: *Amazing
-                  Personal Energies:
-                    Transformation:
-                      Type:
-                        - Name: Darkforce
-                          Note: Drain Health points equal to the spell rank by touching or enveloping target.
-                      Note: Darkforce Requires access to Dimensional Energies.
-                      Description: |
-                        Turn body into another substance, retaining shape.
-                  Universal Energies:
-                    Eldritch Beams/Bolts:
-                        Type:
-                          - Name: Darkforce Bolt
-                            Note: The target loses Health points equal to the caster’s spell rank. The bolt is black.
-                          - Name: Disintegrating Bolt
-                            Note:
-                              - Disintegrates non-living, inanimate objects up to 2 areas away.
-                              - Material rank higher than the spell rank, reduce target’s material strength -1CS.
-                              - Equal to or less than the spell rank, the target is disintegrated. Small objects destroyed automatically. Human-sized objects require Yellow result on spell rank FEAT. Destroying larger objects requires a successful Red result.
-                              - If the target is an object of no importance, the Judge can waive the FEAT roll and rule that the item is automatically destroyed.
-                        Note:
-                          - Darkforce Requires access to Dimensional Energies.
-                          - Beams/bolts originate from the crystal on the end of the staff.
-                        Description: |
-                          Damage equal to spell Rank to one target in area.  
-                    Energy Control:
-                      Note: Darkforce Requires access to Dimensional Energies.
-                      Description: |
-                        Requires a successful spell rank FEAT roll. Can affect all of the specified type of energy within his area of effect, turning it on or off, making it overload, siphoning it, can channel controlled energy around self so as not to be harmed by it. A Red Result on  spell rank FEAT to use this spell offensively. The attack must be made by touch. The damage caused equals the spell rank number. Yellow or Red spell rank FEAT roll to use this spell defensively.
-                      Type: 
-                        - Name: Darkforce
-                          Note: May black out an area so completely that even infravision does not work. Cannot be used as a weapon outside of caster's area, anyone within that area except the caster loses Health points equal to the spell Rank Number each round.
-              Ruby Ring of Regency: 
-                Category: Jewelry/Ring
-                Item Condition: There are no conditions to the item (it operates as described).
-                Note: +1CS to Emotion Control, Mental Control, Mesmerism, or Mesmermechanism when used as a focus.
+              Ruby Ring of Regency:
+                Ruby of Domination: *Ruby_of_Domination
                 Description: |
-                  A relatively recent acquisition after Doctor Strange shattered the Ruby into shards, Ashtaret's shard of the Ruby of Domination is set into a gold ring that she often wears in any Aspect.
-                Ruby of Domination:
-                  Description: *Ruby_of_Domination
+                  A relatively recent acquisition after Doctor Strange shattered the Ruby into shards, Ashtaret found a shard of the Ruby of Domination and had it set into a gold ring.
               Serum of the Seraphim:
                 Note: Unless she's recently used it, Ashtaret tends to have at least one of these stashed somewhere, either on her person, or at most a Conjure Spell away.
                 Description: *Serum_of_the_Seraphim
@@ -2985,7 +3049,7 @@ Character Sheet:
                           Note: Allatou has access to a personal pocket dimension via the Dimensional Aperture Spell but it is undeveloped and generally unused in favor of Ashtaret's Domain, as she shares Headquarters with Ashtaret.
                         Salaries Sundries and Other Equipment:
                           - Respectable Clothing
-                          - Mystic Texts: *Mystic_Texts
+                          - Mystic Texts
                         Magical Items:
                           - Grimoire
                       Contacts:
@@ -3003,8 +3067,8 @@ Character Sheet:
                             Olympus: ~
                         Mystic:
                           Mystic Arts:
-                            Doctor Stephen Strange:
-                            Wong:
+                            Doctor Stephen Strange: ~
+                            Wong: ~
                           Mythology:
                             Annunaki:
                               Allatou: Other universes' versions of Allatou
@@ -3021,32 +3085,32 @@ Character Sheet:
                         Energy Use: All Energies
                         Rank: Adept
                         Master: Ashtaret
-                        Note:
-                          - Descriptions are short summaries of full text. Consult Realms of Magic for full text of Spell description.
-                          - All Spells Allatou knows are Amazing (50) in Rank.
                         Spells:
                           Personal Energies:
-                            - Heal
-                            - Trance
+                            Heal: *Amazing
+                            Trance: *Amazing
                           Universal Energies:
-                            - Conjure
-                            - Curse
-                            - Fear
-                            - Healing-Others
-                            - Illusion
-                            - Vapors-Obscurity
-                            - Vapors-Sleep
+                            Conjure: *Amazing
+                            Curse: *Amazing
+                            Fear: *Amazing
+                            Healing-Others: *Amazing
+                            Illusion: *Amazing
+                            Vapors-Obscurity: *Amazing
+                            Vapors-Sleep: *Amazing
                           Dimensional Energies:
-                            - Dimensional Aperture
+                            Dimensional Aperture: *Amazing
                   Note:
                     - May be summoned by Ashtaret via the Servant Spell.
-                  Encounter: In the Domain, generally accompanied by a Retainer or two, a Captain, and four Sentries, in addition to the pair of Sentries that accompany each Retainer and the Captain, for 8-10 Sentries accompanying them in total. At least two Sentries will be at each entrance to the room.  For rooms that have their own Sentries at the entrances, these will be extra Sentries, two per entrance. Allatou will also have four Minions serving her, in addition to the two per Retainer and one per Captain, for a total of 7-9 Minions in tow.
+                  Encounter:  |
+                    In the Domain, generally accompanied by a Retainer or two, a Captain, and four Sentries, in addition to the pair of Sentries that accompany each Retainer and the Captain, for 8-10 Sentries accompanying them in total. At least two Sentries will be at each entrance to the room. For rooms that have their own Sentries at the entrances, these will be extra Sentries, two per entrance. Allatou will also have four Minions serving her, in addition to the two per Retainer and one per Captain, for a total of 7-9 Minions in tow.
+
+                    In Earth Dimension, Allatou is alone or with only Ashtaret.
                   Biography: |
-                    The discarded demonic aspect of Ereshkigal, Allatou was absorbed by Ashtaret and focused into a Familiar.  She serves as Ashtaret's majordomo, executor, and consigliere, and her word is Ashtaret's.
+                    The discarded demonic aspect of Ereshkigal, Allatou was absorbed by Ashtaret and focused into a Familiar. She serves as Ashtaret's majordomo, executor, and consigliere, and her word is Ashtaret's.
                   Personality: |
-                    Somewhat paradoxically harsh, stern, and serious on one hand, but flirtatious, flamboyant, and almost comically macabre on the other.   Highly competent. Absolutely devoted and loyal to Ashtaret. Comfortable with modern technology. Generally professional but has outbursts. "Work Hard, Play Hard—Uptight then Let Loose."
+                    Somewhat paradoxically harsh, stern, and serious on one hand, but flirtatious, flamboyant, and almost comically macabre on the other. Highly competent. Absolutely devoted and loyal to Ashtaret. Comfortable with modern technology. Generally professional but has outbursts. "Work Hard, Play Hard—Uptight then Let Loose."
                   Description: |
-                    A tall, slender woman with a decidedly devilish mien, with dark bronze-olive skin, long, spiraling black curls, and deep amber eyes.  Her typical appearance in human form is much the same, less the devilishness.
+                    A tall, slender woman with a decidedly devilish mien, with dark bronze-olive skin, long, spiraling black curls, and deep amber eyes. Her typical appearance in human form is much the same, less the devilishness.
           Contacts:
             Professional:
               Crime:
@@ -3108,71 +3172,158 @@ Character Sheet:
             Energy Use: All Energies
             Rank: Master
             Master: ~
-            Note:
-              - Descriptions are short summaries of full text. Consult Realms of Magic for full text of Spell description.
-              - Normal Human Aspect is still capable of Magic use.
-              - Ashtaret does not possess any Entreaty Spells.
-              - It may be possible for others to Entreat Ashtaret.
-              - All Spells Ashtaret knows are Amazing (50) in Rank.
             Spells:
-              Rank: *Amazing     
               Personal Energies:
-                Admittance: *Admittance
-                Apparition: *Apparition
-                Empathy: *Empathy
-                Enchanted Eye: *Enchanted_Eye
-                Flaw: *Flaw
-                Flight: *Flight
-                Foretelling: *Foretelling
-                Gramarye: *Gramarye
-                Heal: *Heal
-                Image Projection: *Image_Projection
-                Invisibility: *Invisibility
-                Learning: *Learning
-                Levitation: *Levitation
-                Luck: *Luck
-                Manipulation: *Manipulation
-                Mental Barrier: *Mental_Barrier
+                Admittance:
+                  Rank: *Amazing
+                  Description: *Admittance
+                Apparition:
+                  Rank: *Amazing
+                  Description: *Apparition
+                Empathy:
+                  Rank: *Amazing
+                  Description: *Empathy
+                Enchanted Eye:
+                  Rank: *Amazing
+                  Description: *Enchanted_Eye
+                Flaw:
+                  Rank: *Amazing
+                  Description: *Flaw
+                Flight:
+                  Rank: *Amazing
+                  Description: *Flight
+                Foretelling:
+                  Rank: *Amazing
+                  Description: *Foretelling
+                Gramarye:
+                  Rank: *Amazing
+                  Description: *Gramarye
+                Heal:
+                  Rank: *Amazing
+                  Description: *Heal
+                Image Projection:
+                  Rank: *Amazing
+                  Description: *Image_Projection
+                Invisibility:
+                  Rank: *Amazing
+                  Description: *Invisibility
+                Learning:
+                  Rank: *Amazing
+                  Description: *Learning
+                Levitation:
+                  Rank: *Amazing
+                  Description: *Levitation
+                Luck:
+                  Rank: *Amazing
+                  Description: *Luck
+                Manipulation:
+                  Rank: *Amazing
+                  Description: *Manipulation
+                Mental Barrier:
+                  Rank: *Amazing
+                  Description: *Mental_Barrier
+                Sensing-Danger:
+                  Rank: *Amazing
+                  Description: *Sensing-Danger
+                Sensing-Evil:
+                  Rank: *Amazing
+                  Description: *Sensing-Evil
+                Sensing-Fields:
+                  Rank: *Amazing
+                  Description: *Sensing-Fields
+                Sensing-Identity:
+                  Rank: *Amazing
+                  Description: *Sensing-Identity
+                Sensing-Mystical Detection:
+                  Rank: *Amazing
+                  Description: *Sensing-Mystical_Detection
+                Shield-Multiple:
+                  Rank: *Amazing
+                  Description: *Shield-Multiple
                 Servant:
-                Shield-Great: *Shield-Great
-                Shield-Individual: *Shield-Individual
-                Tongues: *Tongues
-                Trance: *Trance
+                  Rank: *Amazing
+                  Description: *Servant
+                Shield-Great:
+                  Rank: *Amazing
+                  Description: *Shield-Great
+                Shield-Individual:
+                  Rank: *Amazing
+                  Description: *Shield-Individual
+                Tongues:
+                  Rank: *Amazing
+                  Description: *Tongues
+                Trance:
+                  Rank: *Amazing
+                  Description: *Trance
               Universal Energies:
-                Charm: *Charm
-                Confusion: *Confusion
-                Conjure: *Conjure
-                Curse: *Curse
-                Fear: *Fear
-                Forgetfulness: *Forgetfulness
-                Glamor: *Glamor
-                Healing-Others: *Healing-Others
-                Illusion: *Illusion
-                Mesmerism: *Mesmerism
-                Paralyze: *Paralyze
-                Revival: *Revival
-                Shield-Aura: *Shield-Aura
-                Teleportation: *Teleportation
-                Trap: *Trap
-                Vapors-Obscurity: *Vapors-Obscurity
-                Vapors-Sleep: *Vapors-Sleep
+                Charm:
+                  Rank: *Amazing
+                  Description: *Charm
+                Confusion:
+                  Rank: *Amazing
+                  Description: *Confusion
+                Conjure:
+                  Rank: *Amazing
+                  Description: *Conjure
+                Curse:
+                  Rank: *Amazing
+                  Description: *Curse
+                Fear:
+                  Rank: *Amazing
+                  Description: *Fear
+                Forgetfulness:
+                  Rank: *Amazing
+                  Description: *Forgetfulness
+                Glamor:
+                  Rank: *Amazing
+                  Description: *Glamor
+                Healing-Others:
+                  Rank: *Amazing
+                  Description: *Healing-Others
+                Illusion:
+                  Rank: *Amazing
+                  Description: *Illusion
+                Mesmerism:
+                  Rank: *Amazing
+                  Description: *Mesmerism
+                Paralyze:
+                  Rank: *Amazing
+                  Description: *Paralyze
+                Revival:
+                  Rank: *Amazing
+                  Description: *Revival
+                Teleportation:
+                  Rank: *Amazing
+                  Description: *Teleportation
+                Trap:
+                  Rank: *Amazing
+                  Description: *Trap
+                Vapors-Obscurity:
+                  Rank: *Amazing
+                  Description: *Vapors-Obscurity
+                Vapors-Sleep:
+                  Rank: *Amazing
+                  Description: *Vapors-Sleep
               Dimensional Energies:
-                Environmental Independence: *Environmental_Independence
-                Dimensional Aperture: *Dimensional_Aperture
-                Link: *Link
-                Sensing:
-                  Group Spell:
-                    Sensing-Danger: *Sensing-Danger
-                    Sensing-Evil: *Sensing-Evil
-                    Sensing-Fields: *Sensing-Fields
-                    Sensing-Identity: *Sensing-Identity
-                    Sensing-Mystical Detection: *Sensing-Mystical_Detection
-                Shield-Multiple: *Shield-Multiple
-                Teleportation: *Teleportation
-      Encounter: 
+                Environmental Independence:
+                  Rank: *Amazing
+                  Description: *Environmental_Independence
+                Dimensional Aperture:
+                  Rank: *Amazing
+                  Description: *Dimensional_Aperture
+                Link:
+                  Rank: *Amazing
+                  Description: *Link
+                Teleportation:
+                  Rank: *Amazing
+                  Description: *Teleportation
+      Encounter: |
+        In her domain,
+
+        In Earth Dimension, she is alone or with only Allatou.
       Biography: |
         An ancient Demon from terrible realms beyond, formerly a primeval Deity no longer widely worshipped, Ashtaret is long since finished with the machinations of cosmic evil, and mostly so with the idea of regaining her divinity, and pops in to the Earth Dimension from time to time to live her best immortal life in the dual-natured glamour and shadows of 1980's Manhattan. It is possible, even likely, but unconfirmed that Ashtaret is her universe's version of Inanna. Her extradimensional lair is in a small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams; it is opulent but spare and empty; she considers it stifling and boring, preferring Earth.
       Personality: |
-        Vain, capricious, self-serving, whiny, pouty, manipulative, hedonistic, vindictive, and generally chaotic, though not particularly malevolent, Ashtaret is out for herself first, last, and, usually, only. She just wants to have fun.  However, she actively likes children and animals, despite her other, less wholesome traits. Dislikes personally interacting with modern technology, but appreciates when others use it to her benefit.
+        Vain, capricious, self-serving, whiny, pouty, manipulative, hedonistic, vindictive, and generally chaotic, though not particularly malevolent, Ashtaret is out for herself first, last, and, usually, only. She just wants to have fun. However, she actively likes children and animals, despite her other, less wholesome traits. Dislikes personally interacting with modern technology, but appreciates when others use it to her benefit.
       Description: |
-        While capable of any humanlike form via the Imitation-Human Changeling Power, Ashtaret's typical form is a tall, long-legged, voluptuous but fit woman of somewhat indeterminate age, with spiraling ringlets of shiny, jet-black hair, burning honey-amber eyes, lustrous dark olive-bronze skin, and regal, decidedly Eastern Mediterranean facial features.  She is typically dressed and accessorized in whatever is considered high-fashion for the time, place, and situation, with a predilection for vintage wear, often via use of Artifact Creation, Molecular Creation, and Molding.
+        While capable of any humanlike form via the Imitation-Human Changeling Power, Ashtaret's typical form is a tall, long-legged, voluptuous but fit woman of somewhat indeterminate age, with spiraling ringlets of shiny, jet-black hair, burning honey-amber eyes, lustrous dark olive-bronze skin, and regal, decidedly Eastern Mediterranean facial features. She is typically dressed and accessorized in whatever is considered high-fashion for the time, place, and situation, with a predilection for vintage wear, often via use of Artifact Creation, Molecular Creation, and Molding.
