@@ -1102,6 +1102,17 @@ Character Sheet:
                 Description: &Silver |
                   In game terms, all silver weapons cause double their normal damage to those characters and creatures classified as demons. If a silver weapon strikes a character who is possessed by a demon, only the demon will suffer damage, not the host body, Damage is caused not by the edge or type of weapon as much as simply touching silver to these creatures.
             Headquarters:
+              Note:
+                 - Size is a general statement.
+                  - Small quarters are suitable for 1 or 2 heroes with a small amount of equipment, and has 2, maybe 3 areas or rooms.
+                  - Mid-sized housing is suitable for 2 or 3 heroes, any support crowd (offices would fit into this area), and runs no more than 5 areas or rooms.
+                  - Large is suitable for a number of heroes and equipment, and has 10 or more areas spread over 2 floors.
+                  - Deluxe is the largest size, and is for heroes with several vehicle types, trophy rooms, and living quarters. It has 20 + areas spread through 3 or more floors.
+
+                    Spider-Man's lodgings are an example of Small dwelling. The Heroes for Hire offices were Mid-sized, the Angel's place used by the Defenders in Colorado Large, and the Avengers' mansion, Baxter Building, and Doctor Strange's sanctum sanctorum are Deluxe. (The last measures interior size, not exterior.)
+                  - Cost is a reflection of location as well as sire of the structure. The listed prices are for a building in most American cities and their suburban surroundings. If the heroes are apartment hunting in Manhattan or the richer suburbs, the price is +1CS. If the heroes settle down in a relatively secluded spot, like Colorado, Tamarind Island, or Lake Geneva, the price is -1CS. Cost is presented in 2 values. The first is the cost if the character is renting, payable by the month. The second is if the character is buying or building (in the case of apartments, this is dealing in condos).
+                  - Costs are for a fairly nice selection of material. The heroes may acquire something less expensive and/or reliable (in the case of a living room, the furniture doesn't match— in the case of a second-hand danger room, it goes berserk more often than usual), at -1CS of price. Very high-quality packages (a Library Package stocked with first editions) may be +1CS or +2CS. Equipment may also be picked up by pieces, and for certain types of equipment, this is the only way of acquiring it.
+                  - Rented, furnished places often have their own packages installed. This is included in the rent, though the hero is responsible for their replacement in case of damage or theft. ("Let me get this straight, Mr. Grimm. You threw a what through the where to hit who?")
               Room Packages:
                 Living Room Package:
                   Description: &Living_Room_Package |
@@ -2076,18 +2087,7 @@ Character Sheet:
               Zoologist of Magic: *Zoologist_of_Magic
           Equipment:
             Headquarters:
-              Note:
-                - Size is a general statement.
-                  - Small quarters are suitable for 1 or 2 heroes with a small amount of equipment, and has 2, maybe 3 areas or rooms.
-                  - Mid-sized housing is suitable for 2 or 3 heroes, any support crowd (offices would fit into this area), and runs no more than 5 areas or rooms.
-                  - Large is suitable for a number of heroes and equipment, and has 10 or more areas spread over 2 floors.
-                  - Deluxe is the largest size, and is for heroes with several vehicle types, trophy rooms, and living quarters. It has 20 + areas spread through 3 or more floors.
-
-                    Spider-Man's lodgings are an example of Small dwelling. The Heroes for Hire offices were Mid-sized, the Angel's place used by the Defenders in Colorado Large, and the Avengers' mansion, Baxter Building, and Doctor Strange's sanctum sanctorum are Deluxe. (The last measures interior size, not exterior.)
-                  - Cost is a reflection of location as well as sire of the structure. The listed prices are for a building in most American cities and their suburban surroundings. If the heroes are apartment hunting in Manhattan or the richer suburbs, the price is +1CS. If the heroes settle down in a relatively secluded spot, like Colorado, Tamarind Island, or Lake Geneva, the price is -1CS. Cost is presented in 2 values. The first is the cost if the character is renting, payable by the month. The second is if the character is buying or building (in the case of apartments, this is dealing in condos).
-                - Costs are for a fairly nice selection of material. The heroes may acquire something less expensive and/or reliable (in the case of a living room, the furniture doesn't match— in the case of a second-hand danger room, it goes berserk more often than usual), at -1CS of price. Very high-quality packages (a Library Package stocked with first editions) may be +1CS or +2CS. Equipment may also be picked up by pieces, and for certain types of equipment, this is the only way of acquiring it.
-                - Rented, furnished places often have their own packages installed. This is included in the rent, though the hero is responsible for their replacement in case of damage or theft. ("Let me get this straight, Mr. Grimm. You threw a what through the where to hit who?")
-                - Base Cost is the version selected, Value is based on quality CS shifts, not different versions.
+              Note: Base Cost is the version selected, Value is based on quality CS shifts, not different versions.
               Ashtaret's Domain:
                 Type: Special
                 Cost: *Beyond
