@@ -1073,44 +1073,7 @@ Character Sheet:
               Dimensional Energies:
                 Environmental Independence: Survive in any environment regardless of conditions, obviates temperature, pressure, hunger, thirst, breathing, and sleep.
                 Dimensional Aperture: Opens portals between dimensions, allowing travel to alternate realities.
-                Disguise:
-                  Description: |
-                    Allows various forms of magical disguise.
-                  Group Spell:
-                    Alteration-Appearance: Magically changes physical appearance.
-                    Chameleonic: Adapts coloration to blend with surroundings.
-                    Coloring: Alters object or creature colors.
-                    Glamor: Creates perceptual illusions of beauty or disguise.
-                    Growing: Temporarily increases size.
-                    Shrinking: Temporarily decreases size.
                 Link: Establishes a mystical connection for communication or shared abilities.
-                Passing:
-                  Description: |
-                    Spells facilitating movement through barriers or altered states.
-                  Group Spell:
-                    Admittance: Opens locks and barriers.
-                    Alteration-Bone: Flexible bone structure allows passage through narrow spaces.
-                    Astral Projection: Projects consciousness through barriers.
-                    Density Control-Self: Alters own density to pass through obstacles.
-                    Transformation: Physically transforms to bypass barriers.
-                Pishogue:
-                  Description: |
-                    Magical influence causing mental disruption and emotional effects.
-                  Group Spell:
-                    Confusion: Causes mental disorientation.
-                    Fear: Induces intense terror.
-                    Forgetfulness: Causes temporary memory loss.
-                    Mesmerism: Enables hypnotic control.
-                    Paralyze: Immobilizes targets.
-                Scrying:
-                  Description: |
-                    Gathering information remotely through magical senses.
-                  Group Spell:
-                    Enchanted Eye: Remote viewing.
-                    Foretelling: Predicts future events.
-                    Post-Cognition: Views past events.
-                    Sensing-Clairaudience: Remote hearing.
-                    Sensing-Clairvoyance: Remote sight.
                 Sensing:
                   Description: |
                     Enhanced magical detection and sensory awareness.
@@ -1122,24 +1085,6 @@ Character Sheet:
                     Sensing-Mystical Detection: Detects magical energies or spells.
                 Shield-Multiple: As individual shield, but multiple stacked, +1 layer per Rank over Good.  Destroyed individually.
                 Teleportation: Instantly transports caster or target across space without physically crossing the intervening distance. Requires familiarity or successful FEAT roll if teleporting into unknown locations. Can teleport objects or beings within strength limits.
-                Thaumaturgy:
-                  Description: |
-                    Provides various magical offensive and capturing effects.
-                  Group Spell:
-                    Bands: Creates mystic bindings to restrain targets.
-                    Curse: Imposes negative conditions or misfortune on targets.
-                    Net: Generates magical nets to entangle or immobilize.
-                    Trap: Causes damage to attacker when mentally attacked while Spell is active.
-                    Wave: Releases a wave of mystical energy for offensive or disruptive purposes.
-                Witchery:
-                  Description: |
-                    Spells specifically affecting others through alterations and enhancements.
-                  Group Spell:
-                    Density Control-Others: Alters the density of others, making them heavier or lighter.
-                    Growing-Others: Temporarily increases the size of targeted beings.
-                    Healing-Others: Magically heals wounds and ailments in others.
-                    Invisibility-Others: Renders others temporarily invisible.
-                    Shrinking-Others: Temporarily reduces the size of targeted beings.
       Biography: |
         An ancient Demon from terrible realms beyond, formerly a primeval Deity no longer widely worshipped, Ashtaret is long since finished with the machinations of cosmic evil, and mostly so with the idea of regaining her divinity, and pops in to the Earth Dimension from time to time to live her best immortal life in the dual-natured glamour and shadows of 1980's Manhattan. It is possible, even likely, but unconfirmed that Ashtaret is her universe's version of Inanna. Her extradimensional lair is in a small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams; it is opulent but spare and empty; she considers it stifling and boring, preferring Earth.
       Personality: |

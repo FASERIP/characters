@@ -3,22 +3,42 @@ Character Sheet:
   Game System:
     Name: TSR Marvel Super Heroes RPG Advanced
     Reference:
-      Origin: &Demon
+      Origin: 
         Physical Form:
           Demon:
-            Description: |
+            Description: &Demon |
               These are magical beings from other planes of existence. They are both supernatural and corporeal in nature. The main difference between these types is their inherent personality. "Angels" are benevolent; "demons" are malevolent. Other than that, there isn't much difference.
 
               These beings resemble characters from various mythologies. This affects their Popularity. Angels gain +2CS while demons lose -2CS on their initial Popularity. These beings do not necessarily follow the popular traditional behavior patterns. A heroic demon might be fighting a personal war against other, even more evil beings. A crazed angel might be a villain, seeking to purify the Earth at any cost.
+
               - Demons roll on Column 5.
               - Demons have no initial Contacts but will soon be sought out by groups who see them as symbols or tools.
               - All Physical Abilities are raised +1CS.
               - Such beings possess a Psychological Weakness that Negates their Power.
               - Demons lose -2CS Popularity.
               - Demons automatically possess Good Fire Generation and Specific Invulnerability to Heat and Fire.
+          Ethereal:
+            Description: &Ethereal |
+              The hero is an intangible, disembodied spirit. He can be a ghost who once possesses a mortal shell, or belong to a race that always exists in this form. An Ethereal can drift about in any direction he chooses, and can pass through solid matter without any effort. The visibility of an Ethereal varies according to his whim; he can be invisible, transparent, translucent, or opaque.
+
+              If the Ethereal is a ghost, his form resembles an idealized version of his old body. The ghost's appearance is actually based on his self-image and thus reflects the ghost's attitude toward himself. This is why ghosts are usually either very beautiful (or handsome) or quite pathetic.
+
+              Ghosts are immune to most physical attacks with Intensities less than Unearthly. They are vulnerable to Mental and Magical attacks, especially by Powers that affect the spirit. Either Psi or Spirit Vampirism can destroy an Ethereal.
+
+              While Ethereals are intangible on the Earth Dimension, they regain solidity in other Dimensions. In such realms Ethereals are vulnerable to all Powers except those that specifically affect Ethereals and other disembodied beings; these Powers are Spirit Summoning and Storage, Reincarnation, and Exorcism.
+
+              If the Ethereal once had a solid body, he might not necessarily have died to reach his current state. He might have become an Ethereal by being directly transformed from solidity to ethereality. Such transformations can be magical, scientific, Power-based, accidental, or deliberate. The Red Ghost is an example of a Normal Human directly transformed into an Ethereal as a result of a scientific mishap.
+
+              If the Ethereal possesses Alter Ego or Lifeform Creation, he can create a living body for himself. If he possesses Mental Domination, he can possess a human host.
+
+              - Ethereals roll on column 1. (They're about as altered as a human can be).
+              - Fighting rank is zero in the Earth Dimension, unless the Ethereal is fighting another Ethereal.
+              - Physical attacks have a decreased effect on Ethereals (-9CS).
+              - Spirit Vampirism completely destroys Ethereals. Psi-Vampirism destroys the self-image and reduces the Ethereal to a mindless Poltergeist.
+              - At least one Contact can be a Spiritual Medium.
         Origin of Power: 
           Creation:
-            Description: |
+            Description: &Creation |
               The hero was born in the form he now has, that of an adult who possesses Power and/or whatever the Body Type is. Most of the Artificial Body Types belong in this class. Examples include the android Human Torch, all robots, angels, demons, and deities.
       Weakness: 
         Demon: &Weakness_Demon
@@ -100,7 +120,7 @@ Character Sheet:
                 Description: &Environmental_Awareness |
                   Range column B. The hero has increased sensitivity to conditions in, disturbances in, and influences on the environment. The hero automatically maintains full knowledge of current conditions in his surroundings. This awareness extends to such factors as weather, chemicals, movement, and life.
 
-                  The rank determines the range to which the awareness extends: exceeding it requires a FEAT (+1CS, green:+2CS, yellow:+3CS, red). The hero can gain +1CS by linking his Health to the environment. In this symbiosis, harm to the environment is reflected in the hero's physical welfare.
+                  The rank determines the range to which the awareness extends: exceeding it requires a FEAT (+1CS, green; +2CS, yellow; +3CS, red). The hero can gain +1CS by linking his Health to the environment. In this symbiosis, harm to the environment is reflected in the hero's physical welfare.
               Extradimensional Detection:
                 Description: &Extradimensional_Detection |
                   The hero can sense across the dimensional barrier and see things existing in other dimensions.
@@ -240,43 +260,25 @@ Character Sheet:
 
                   Powers that are a part of or can be simulated by Illusion-Casting include:
 
-                  D4/Force Field vs. Energy
-
-                  D12/Resistance to Energy
-
-                  DT3/Energy Detection (Light)
-
-                  EC14/Light Control
-
-                  EC18/Shadowshaping
-
-                  EE5/Hard Radiation Emission (UV Light)
-
-                  EE6/Heat (infrared Light)
-
-                  EE8/Light Emission
-
-                  EE12/Shadowcasting
-
-                  I1/Animate Image
-
-                  I3/Illusory Invisibility
-
-                  I4/Illusory Duplication
-
-                  L9/Hypnotic Control
-
-                  MCo1/Coloration
-
-                  M13/Hallucinations
-
-                  S6/Blending
-
-                  S12/Energy Sheath (Light)
-
-                  S20/Self-Vegetation
-
-                  S21/Shapeshifting
+                  - D4/Force Field vs. Energy
+                  - D12/Resistance to Energy
+                  - DT3/Energy Detection (Light)
+                  - EC14/Light Control
+                  - EC18/Shadowshaping
+                  - EE5/Hard Radiation Emission (UV Light)
+                  - EE6/Heat (infrared Light)
+                  - EE8/Light Emission
+                  - EE12/Shadowcasting
+                  - I1/Animate Image
+                  - I3/Illusory Invisibility
+                  - I4/Illusory Duplication
+                  - L9/Hypnotic Control
+                  - MCo1/Coloration
+                  - M13/Hallucinations
+                  - S6/Blending
+                  - S12/Energy Sheath (Light)
+                  - S20/Self-Vegetation
+                  - S21/Shapeshifting
 
                   A drawback in characters who have this Power is that they tend to become philosophical about the relationship between Reality and Illusion. Companions find themselves drawn into interminable arguments about what is real and what is not. Illusion-Casters may even begin to feel that they themselves are an Illusion being cast by some unknown being.
 
@@ -1064,3 +1066,297 @@ Character Sheet:
                 Imprisonment Package:
                   Description: &Imprisonment_Package |
                     *Cost: Excellent* - Occupies one room. Contains standard restraining devices, including bars of Remarkable material strength. At *Remarkable Cost*, restraining devices made of Incredible Strength. At *Incredible Cost*, restraining devices at Amazing Strength and Excellent Strength inhibitor restraints.
+          Magic:
+            Spells:
+              Personal Energies:
+                Admittance:
+                  Description: &Admittance |
+                    The caster can direct enchanted energy at any locked door or container and it will easily open for him, no matter how many locks it has or how big or intricate they are, if his spell rank FEAT roll is successful.
+                Apparition:
+                  Description: &Apparition |
+                    The caster can mystically make his body non-corporeal and become an apparition. (This should not be confused with Astral Projection, as that power takes the caster to another dimension and he is invisible to most characters in this dimension.) Once the spell is cast, the caster need not concentrate upon his state to remain an apparition. As an apparition, the caster can still move, speak, cast spells, and perform most other normal actions. His movement rate is the same as if he were corporeal, but he can walk on air, sink through floors, climb up elevations as if he were climbing stairs, etc.
+                    
+                    When a caster becomes an apparition his body loses its density, allowing him to pass through solid object and letting solid objects pass through him. The caster can be seen, but is obviously not completely solid. This power grants the caster body armor equal to the spell rank against any physical, energy, or mental attacks. If the apparition/caster physically attacks another character, that character must also be treated as though he has body armor equal to this spell rank. Magical, mental, or energy attacks against the target are treated as normal.
+                    
+                    To pass through a solid object, or have a solid object pass through him, the object’s material rank must be equal to or less than the spell rank. In addition, the caster can lower the density of an object he touches by making a spell rank FEAT roll and, if succeeding, keeping it in his possession.
+                    
+                    Judge’s Note:If the player wishes to make a concentrated effort at creating a character who appears like a ghost, striking fear and terror into criminal hearts, then the Judge should keep this effect in mind when the caster walks through a wall, drops through a ceiling, etc. and faces anyone. A character encountering this apparition, especially for the first time, must make a Psyche FEAT roll (see Magic Effects Table) or react as described in the Fear power. There is a price the caster has to pay for this extra “power”, however. This frightening effect on people only works if the caster is not famous, thus cutting off his Popularity and some sources of Karma gain. He must remain relatively reclusive and unknown so the criminal element does not recognize him.
+                Astral Projection:
+                  Description: &Astral_Projection |
+                    The caster can separate his astral self-the sheath of his life essence-from his physical self and travel through space unbound by physical laws while retaining human consciousness. The astral form (also sometimes called the ethereal form or the ectoplasmic form) is invisible, intangible, and incapable of being harmed except by the most powerful magic or by opponents who are themselves in astral form. If the caster wishes to project his astral self while under duress, during a combat or while he is being mentally attacked, he must make his spell rank FEAT roll.
+                    
+                    The duration of effect determines how long the caster can remain in this form without physical deterioration occurring to his physical form. If the astral form does not return to its physical body before the duration of effect has elapsed, the caster’s body dies; and the astral form can only enter it as it would any other corpse or dummy, creating a blind, zombie-like creature. If the caster’s body is destroyed while the astral form is projecting, the caster is stranded in his astral form.
+                    
+                    If a character is stranded in his astral form due to the death of his physical body, the astral form itself will dissolve after an amount of time equal to the normal spell duration associated with the character’s Psyche rank. (For example, the astral form of a character with Incredible Psyche would endure for one day; the astral form of someone with an Unearthly Psyche would last indefinitely.)
+                    
+                    The caster can transport other willing subjects to the astral plane along with himself. When attempting to do so, he must make a Psyche FEAT roll: a white or green result means that the caster traveled and the other(s) did not, a yellow or red result means that the multiple astral travel worked perfectly. Astral projection cannot affect someone against his will.
+                    
+                    Characters who are in their astral forms can see and communicate with each other, if both parties desire. If one or both parties do not desire to be seen, they may have to hide behind solid items, just as if they were in their physical form. If the astral character who is seeking has a lower power rank than the astral character who is attempting to avoid being seen, he must make a Psyche FEAT roll, even if that character is in plain, astral view. If seen, they can have magical combat in that form.
+                    
+                    Magical items, though left behind on the physical plane, also have a counterpart that can be taken into the astral plane. It acts in the same manner as its physical counterpart, but its powers are lessened by one rank on the astral plane. Any magic item that the character possesses on the physical plane can be controlled by the owner’s astral self. (For example, Doctor Strange has escaped innumerable traps by controlling his Cloak of Levitation and the Eye of Agamotto within his amulet, while he was in his astral form.).
+                    
+                    Time alteration spells cast from the astral plane work within the physical plane, but do not affect the astral plane.
+                Empathy:
+                  Description: &Empathy |
+                    The caster can magically sense another character or group’s strong emotions (not thoughts). This spell not only allows the character to gain a general impression of the mood and intentions of individuals or groups, it also allows him to broadcast his emotions to an individual or group. Broadcasting emotional attitudes like friendship, love, caution, helpfulness, and so forth can sometimes prove invaluable in clearing up a misunderstanding. The character cannot broadcast these emotions unless he truly feels them. These feelings should help dictate his actions. Only one attempt at it can be made per encounter. By using this spell, especially on animals, the caster can sense whether the target is deathly afraid, slightly afraid, in love, full of hate, etc. and the object of their hate, love, fear, and so on.
+                Enchanted Eye:
+                  Description: &Enchanted_Eye |
+                    The caster creates an enchanted eye when he wishes. The caster can automatically summon the enchanted eye for one round only. A successful spell rank FEAT roll brings the eye forth for the full duration of the spell. It can only see as far as sight normally would, but can penetrate darkness (real or magical), show the caster mystical existences (such as astral projections, invisible magical objects, mystical shields, and so on), and see through illusions. The caster is mentally linked with the eye and sees everything it sees.
+                    
+                    The enchanted eye is a separate magical creation capable of flight. Its movement rate is the same as that of the caster. The maximum distance it can be be separate from the caster is based on the spell rank (for example, 12 areas for Amazing rank.) The eye can be attacked physically or magically; the eye has Health points equal to the caster’s Psyche and any FEAT roll the eye is required to make use the caster’s appropriate ability rank. The caster is not affected by any damage suffered by the enchanted eye.
+                Flaw:
+                  Description: &Flaw |
+                    The caster weaves a mystical tendril around an object and sees the stress points, fracture planes, or weaknesses inherent in the item. The object must be natural, not magical. If this spell is used successfully, the caster can use a magical energy attack (bolt, blast, etc.), and shatter the object if he gets a Bull’s-Eye result using a Targeting attack (see the Magic Effects Table), even if the object’s material rank is up to three ranks higher than the spell rank. Note; This spell cannot be used to shatter Class 1000 materials unless the caster’s spell rank is also Class 1000.)
+                Flight:
+                  Description: &Flight |
+                    With this spell, the caster can magically fly. The spell rank and Psyche of the caster determines how fast he can fly. Consult theMagical Flight Speed     Table, below to determine the movement rate. The normal rate is the speed the character usually flies. If he wishes to achieve top rate flight he must make a Psyche FEAT roll every 5 rounds. A failed roll simply drops the caster’s speed back to normal.
+                    
+                    The caster must make a successful spell rank FEAT roll to perform intricate flight maneuvers, fight while aloft, or perform other magic while aloft. The form of flight that the individual player character has (wings that magically appear, magic control of wind, or simply mystical flight) is up to the player.
+                Foretelling:
+                  Description: &Foretelling |
+                    The caster can mystically predict the actions of anyone he has studied (defined as observed for at least 10 rounds). This foretelling is short-term only. If he makes a successful spell rank FEAT roll the caster does not have to decide what to do in that round until after the opponent(s) have declared their actions, no matter who has the initiative.
+                Gramarye:
+                  Description: &Gramarye |
+                    The caster has the ability to magically learn information from an item, The caster must make a successful spell rank FEAT roll to learn anything from the item (if the item is of an unfamiliar alien design, the Judge can apply a -1CS to the spell rank).
+                    
+                    The first information that can be gleaned by a successful spell rank FEAT roll is what the item’s purpose is and how to use it. If the caster has no talent in an area that the item might be used for, then he only has a rank of Typical when using it.
+                    
+                    Once an artifact’s purpose is identified another spell rank FEAT roll is allowed. If successful, it allows the caster to “read” the psychic impressions left on it by the last person who used it. Information that can be gained includes what the user looked like, what he thought of while using it, what he was doing for the last few hours before the item was lost, stolen, or otherwise left his possession, etc. The longer the item has been untouched, the dimmer the impression.
+                    
+                    This spell is increased or diminished if the item is magical. If the magic is of the same school as the caster, he receives a +2CS. If the magic is not of the same school as the caster, he receives a -1CS. If the magic is of a school hostile to the caster, he suffers an additional -1CS.
+                Healing:
+                  Description: &Healing |
+                    This spell gives the caster such complete control over his bodily functions that he can heal himself by use of personal or dimensional energy. Use the spell rank number instead of his Endurance rank number to determine the maximum amount of damage healed. The caster can only perform this once per day, in addition to his normal healing rate.
+                Healing-Others:
+                  Description: &Healing-Others |
+                    The caster can magically heal other characters by using universal or dimensional energy. The caster must touch the character for two consecutive rounds after casting the spell. A successful spell rank FEAT roll is required. The, maximum amount of damage that can be healed per person is the spell rank number. Any individual character can only be healed once per day by a specific caster. The number of different characters the caster can heal per day is equal to the spell rank number divided by 10 (round fractions up). If the player so desires, this spell could be used to heal a creature instead of a character.
+
+                    The healing is complete, including the mending of broken bones and torn cartilage. The spell is also effective against disease.
+                Image Projection:
+                  Description: &Image_Projection |
+                    The caster can direct his magical energy to form an identical image of himself. For every round he makes a successful spell rank FEAT roll, the image will perform as he desires, thoroughly convincing most characters that the image is the caster. This belief is somewhat like the Illusion spell and should be treated as an illusion for the purposes of combat or touching the image.
+                    
+                    The caster can either use this spell while he is visible to create a “double” and confuse his opponents, or he can hide or turn invisible (if he has that spell) and have the image replace him.
+                    
+                    The creation of more than one image is possible, but it requires a successful Psyche FEAT roll by the caster for every image made and each image requires a successful spell rank FEAT roll by the caster for each round he is commanding them. The maximum number of images a caster can create during the use of this spell is the spell rank divided by 10 (round fractions up).
+                Invisibility:
+                  Description: &Invisibility |
+                    This spell makes the caster invisible to others. Any item on the caster’s person and anyone holding hands with him (and willing to be affected) also becomes invisible as long as they remain in contact with him. This spell cannot turn an unwilling creature invisible.
+                    
+                    Being invisible causes no special problems for the caster, but anyone else affected who is not used to being invisible will have a real problem moving about (movement halved), performing the simplest of actions (-2CS), and fighting in any fashion (-3CS for any combat). It requires at least 10 rounds of being invisible before becoming used to it.
+                    
+                    Note: an invisible person can be located by persons with superhuman hearing or sense of smell, or by detection powers and devices that do not depend on sight.
+                Learning:
+                  Description: &Learning |
+                    This spell is used to give the caster an advantage in combat. It enables him to quickly learn from his mistakes. After this spell is cast the caster must fight his opponent for three consecutive rounds (normal combat, magical combat, astral combat, etc.). When the three rounds have passed the caster suddenly has insight into his opponent’s methods of combat and receives a +1CS when fighting that opponent during this encounter only. The duration and area of effect listed on the Magical Limits Table do not apply for this spell.
+                    
+                    If combat is interrupted but later resumed and the Judge is not sure whether to consider it one continual encounter or two separate encounters, the spell still applies if the caster makes a successful spell rank FEAT roll.
+                Levitation:
+                  Description: &Levitation |
+                    This spell enables the caster to mystically rise into the air. A successful spell rank FEAT roll is required. No further FEAT rolls are needed unless the caster descends to the ground, and then want to levitate again during the duration of the spell. The maximum altitude a levitating character can reach is 1 area at Good rank, with an additional 2 areas for every spell rank above Good (thus, a caster with a Remarkable Levitation spell can reach an altitude of 5 areas). The movement speed (rising or descending) per round is 1 area for a character with Good Psyche with an additional area for each Psyche rank above Good. The character cannot use this spell to lift any weight greater than his normal clothing and equipment. This spell affects the caster only.
+                    
+                    The character can perform other actions while airborne, including combat, but is limited to one spell per round regardless of the type of energy (personal, universal, or dimensional). If knocked unconscious while levitated, a character will immediately fall to the ground.
+                    
+                    This spell should not be mistaken for the ability to fly (see the Flight spell). Levitation only allows vertical movement. Sideways movement is only achievable by the levitating character pulling himself along an object. A levitating character cannot create forward momentum to affect the direction of his ascent. It is always straight up. While wind has no affect on a floating caster’s ascent direction, it can slow him down if the Judge feels it is strong enough.
+                Luck:
+                  Description: &Luck |
+                    The caster can disrupt probability fields so that very unlikely events can occur, somewhat like creating his own luck. For example, he could cause a table to collapse or a machine to tip over. He can not cause something to happen if that event is impossible; tables can not be created from nothing, and machines just can’t cease to exist. When the caster uses his spell, the player describes exactly what effect is wanted, and the Judge decides whether or not that effect is within the spell’s power and assigns an appropriate FEAT color. To use the spell the caster must make a successful spell rank FEAT roll. If the caster is trying to alter probabilities around magic materials or energies, such as magical artifacts or temples, apply a -2CS to the spell rank when making the FEAT roll.
+                Manipulation:
+                  Description: &Manipulation |
+                    This spell creates invisible magic tendrils that can manipulate materials. “Soft” materials, like organic tissue and fabric are easily manipulated while “hard” inorganic materials require a successful spell rank FEAT roll. No material can be manipulated if its Material Strength rank is greater than the spell rank. The caster can easily manipulate the hair or clothing of another character, causing them to constrict or bind the target (Strength for grappling would equal the spell rank). If the caster is attempting to affect organic tissues or muscles in another creature, the caster must make a successful Psyche FEAT roll. If successful, the victim must make an Endurance FEAT roll or suffer damage equal to this spell rank. The spell can only be used on one target at a time.
+                Mental Barrier:
+                  Description: &Mental_Barrier |
+                    This spell creates a magical invisible headgear which does not hinder the caster’s normal senses. It allows the caster to know when someone is trying to intrude on his thoughts, magically attack his mind through mesmerism, illusion, etc. It does not indicate who is doing the attacking or intruding, nor does it reveal what spell is being used.
+                    
+                    In the round following the one in which the hostile spell is detected, the caster can, secure the barrier, preventing illusions, telepathy, empathy, etc., from affecting the caster. It also protects him from magical attacks on the mind (Emotion Control, Confusion, Fear, Mental Control, etc.) by giving him a +3CS for any Psyche FEAT roll to resist the attack. While the barrier is up the caster can perform no spells that require/a great deal of concentration.
+                    
+                    Treat the spell rank as body armor for the sake of defense against attempted mental penetration by non-magical powers.
+                    
+                    The Judge should make sure this spell is not abused. A character who constantly has the barrier up will become easily exhausted and can even suffer Psyche loss due to the mind damaging effects of trying to always be mentally protected. The maximum safe duration rank is Excellent.
+                Servant:
+                  Description: &Servant |
+                    The caster can summon forth his own, personal servant to do his bidding. This servant will require quite a bit of Judge’s discretion as to its nature, abilities, spell, etc.
+                    
+                    The servant’s abilities are generated as for any other character. The Judge then gives it two spells, and gives it an origin appropriate to the character it serves. Various types of magical servants exist, including jinn, demons, familiars, ghosts, and the like. The servant is obedient, helpful, and useful. The caster can automatically talk to or otherwise communicate with the servant.
+                    
+                    This spell cannot use human beings as servants.
+                Sensing-Danger:
+                  Description: &Sensing-Danger |
+                    The caster can scan the area of spell using mystic waves that will warn him of danger. If this spell rank is higher than the caster’s Intuition rank, use this spell rank when the caster makes Intuition FEAT rolls. If the spell rank is lower than the caster’s Intuition, increase his Intuition by one level when making Intuition FEAT checks.
+                Sensing-Evil:
+                  Description: &Sensing-Evil |
+                    The caster can mystically sense the presence of great evil in his area of spell. This includes the presence of evil creatures (demons, evil magic wielders, super villains bent on destruction, etc.), artifacts of evil design or exceptionally evil deeds. This spell is automatic (FEAT rolls are not needed). As the caster gets closer to the source of the evil emanations, his sensing gets stronger. Thus, he can usually root out the evil if he goes looking for it.
+
+                    If the spell duration is permanent, the spell functions constantly, even when the caster is asleep.
+                Sensing-Fields:
+                  Description: &Sensing-Fields |
+                    The caster can magically detect the presence of force fields, magical or otherwise in the area of effect. The caster must make a successful yellow FEAT to detect fields smaller than man-sized at ranges greater than five areas. At ranges of a mile or more, the caster must make a successful red FEAT to detect fields smaller than building-sized.
+
+                    Unlike some of the other sensing spells, this spell does not require a great deal of concentration.
+                Sensing-Identity:
+                  Description: &Sensing-Identity |
+                    The caster can mystically scan the mind of anybody he can see within his area of spell and determine that person’s true identity. If the target is another magic wielder or a character with mental powers of any kind, he is allowed a Psyche FEAT roll to resist the probe. If the resistance FEAT roll is successful, he is unaffected.
+                Sensing-Mystical Detection:
+                  Description: &Sensing-Mystical_Detection |
+                    The caster is sensitive to the use of magic. He can detect magic use and its specific source within the area of effect. Among the specific things he can detect are: magicians casting spells, magical items that are being used or that have a protective spell cast on them, magical portals, and magical creatures.
+
+                    Unlike some sensing spells, this spell does not require a great deal of concentration.
+                Shield-Great:
+                  Description: &Shield-Great |
+                    This shield protects an area. Unlike the other shields, the great shield is immobile and the caster assigns it to a fixed position when he casts it. The size of the great shield can be anywhere from the size of an individual shield up to a plane that is 1 area wide and 3 stories tall. It can be located anywhere within the area of effect, but the caster must see the location to place it. The great shield has an armor rank equal to the spell rank +2CS. It is usually transparent, but strange runes can be seen scrawled around the edge. If it is struck by an attack with a higher power rank it is shattered and disappears, though no damage penetrates it to harm the caster during that round.
+                    
+                    A caster can have only one great shield in effect at any time.
+                Shield-Individual:
+                  Description: &Shield-Individual |
+                    The caster create a sorcerous shield to protect himself. The shield has an armor rank equal to the spell rank. This shield is usually invisible to all but magic wielders and can be projected out away from the caster’s outstretched hand a few feet. The caster moves the shield to block attacks. If the caster is attacked from a number of sources at once the shield will only protect him from one attack. If the caster is surprised, or if the attacking character succeeds in targeting a magical beam or bolt as a bull’s-eye, it means the caster could not move his shield fast enough to deflect the attack. If the shield is hit by an attack with a higher spell rank it shatters, though no damage penetrates it to harm the caster during that round.
+                    
+                    The caster can also use this spell to encircle himself with four weaker shields (armor rank equalling the spell rank -1CS).
+                    
+                    If any of the shields are broken, the remainder are unaffected. The caster cannot leave the circle of shields until they dissipate or are destroyed.
+                Tongues:
+                  Description: &Tongues |
+                    The caster mystically alters his senses so he can read, write, speak, and hear unknown language spoken or written in his presence. The area of effect has no significance with this spell. If the language is native to his world, no FEAT roll is needed. If the language is an alien one, he must make a successful spell rank FEAT roll to be able to comprehend it.
+                Trance:
+                  Description: &Trance |
+                    The caster has two options with this spell, he can mystically slow down or speed up his metabolism.
+                    
+                    The slowed metabolism reduces the potency of any poison in his body (-3CS). The character can almost hibernate, thus lasting longer on fewer supplies in harsh climates, The character can feign death and has a chance to fool even the best doctors into believing he has died; feigning death requires a successful spell rank FEAT roll. While the caster’s body metabolism is slowed down, healing is also slower (one-half his Endurance rank number per day).
+                    
+                    The accelerated metabolism speeds up medicinal drugs injected into the caster’s system, thus doubling the effects of healing. He can feign a fever, heart attack, and other maladies.
+                    
+                    Once the character has started his mystical trance he cannot move or do any action except concentrate. He can come out of the trance whenever he desires, but it takes 2 rounds for his body to return to full consciousness.
+              Universal Energies:
+                Charm:
+                  Description: &Charm |
+                    The caster creates a pleasant aura about himself, charming opponents in the area of effect. Every opponent in the area is allowed a Psyche FEAT roll (see Magic Effects Table). If the target is affected, he will quickly change his mind about attacking the caster because “there is just something about him he likes”; if the Psyche FEAT result is “No Effect”, the target is not even aware that the caster tried to charm him. A charmed target will not attack the caster, but will attack another opponent, if one is available. The caster cannot give orders of any kind to a charmed character; the spell is not a form of mental control.
+                    
+                    A charmed target is allowed to make a Psyche FEAT roll each round to attempt to break the charm. Each charmed opponent must break the charm on his own; he cannot be persuaded that he is charmed by friends, although a counterspell cast by a friend might break the charm. Unless the charm is broken, it will remain in effect for the duration of the spell, even if the caster leaves. A charmed character will not remember that he has been charmed once the spell expires.
+                    
+                    If the caster attacks an opponent charmed by his spell, the spell is automatically broken, and the target retains full memories of being charmed and remembers who is responsible.
+                Confusion:
+                  Description: &Confusion |
+                    The effects of this spell are unpredictable, but can be devastating. When it is cast, all targets within the area of effect receive a Psyche FEAT roll to avoid the effect. If a target fails the roll, he is affected by the confusion. The Judge rolls a die for each affected target and checksConfusion Results, to see how each is affected. The duration is 1-10 rounds, rather than the normal duration associated with the spell rank.
+                Conjure:
+                  Description: &Conjure |
+                    This spell is used to teleport an item, plant, creature or character from its current location to the caster’s location. This spell can even restore a broken or decayed item to its original form while in the act of teleporting.
+                    
+                    If conjuring a trivial item, plant, or harmless animal, the caster need make no FEAT roll, it simply appears.
+                    
+                    If conjuring a complex or dangerous item, plant, or dangerous creature, or attempting to conjure a broken or decayed item, the caster must make a successful spell rank FEAT roll before it appears.
+                    
+                    If conjuring forth a willing character (teammate, friend, etc.) the caster must make both a successful spell rank FEAT roll and a successful Psyche FEAT roll before the character appears.
+                    
+                    If conjuring forth an unwilling character, the caster must make a successful spell rank FEAT roll. The subject is allowed a Psyche FEAT roll to resist being brought forth; if the resistance FEAT is successful, the conjuration fails.
+                    
+                    The conjuration of the body of a dead character is far beyond the abilities of any caster who does not have an Unearthly spell rank in this spell. The conjure spell only summons or recreates the physical body; however, if the dead character’s astral form survives (see the Astral Projection spell), it can reanimate the body, restoring it to true life.
+                Curse:
+                  Description: &Curse |
+                    With this spell, the caster can weave an enchanted curse around an opponent. If the spell rank FEAT roll is successful, the curse will remain with the opponent for the duration of effect. The duration of this spell is unusual; a curse cannot exceed Amazing duration (one month), even if the caster’s spell rank exceeds Amazing.
+                    
+                    When a curse is attempted, the target can avoid it by making a successful Psyche FEAT roll. If the curse takes effect, the victim can make one Psyche FEAT roll per day to attempt to break it; a successful FEAT roll means the curse is broken. The target will not know who attacked him, regardless of whether or not the curse is successfully cast.
+                    
+                    A curse negatively modifies all of the opponent’s actions and spells by a 1 Column Shift (plus or minus, as long as it works against the opponent). No more than one curse can normally be placed on a character. The exception is the use of the Link spell, whereby up to two curses can be placed on one opponent, but they cannot, totally, exceed the effect of a -2 Column Shift modifier lasting one month.
+                    
+                    The Judge can decide to allow curses that have different effects instead of column shifts, such as: temporary aging; warts and boils; etc., but no curse can cause the death of a character.
+                Fear:
+                  Description: &Fear |
+                    This spell affects all targets in the area of effect. The spell releases an unreasoning fear from the target’s mind. All targets are allowed a Psyche FEAT roll to resist the effect (see the Magic Effects Table). If the target misses the roll, the frightened character wants nothing more than to run away and hide (all his actions while afraid are at -2CS). The victim will try to avoid, or if necessary attack, anyone attempting to stop or restrain him. The character can only perform actions (including spellcasting) that will help him to escape. The victim always flees away from the attacker, even if he cannot see the caster. After the first three rounds of being afraid, and every other round after that, if need be, the frightened character is allowed a Psyche FEAT roll to regain his composure. Once made, it will still take him a full round to get complete control of himself.
+                    
+                    Though the caster must maintain a high degree of concentration on this spell to keep the target afraid (no attacks or other spellcasting allowed), he does not know when the character breaks the spell. Only when the target attacks the caster or otherwise acts contrary to a state of fear does the caster realize he no longer influences the target.
+                Forgetfulness:
+                  Description: &Forgetfulness |
+                    The caster can magically effect other characters’ minds and cause them to forget events. This is usually used by heroic magic wielders to protect innocent bystanders from the awesome psychic shock caused by some of the sights to be seen during magical combat, etc. It is also used by most magic wielding characters to protect their secret identities. Evil magicians may also use this spell to cover up their trail or their crimes. The duration of the spell is permanent (unless another sorcerer uses a Revival spell of at least equal spell rank to break the spell of Forgetfulness). The number of people that can be ensorcelled by the spell depends on the spell rank: Good = 1 person; Excellent = up to 5 people; Remarkable = everyone in I area; Incredible = everyone in a square mile; Amazing = everyone in 100 square miles; Monstrous = everyone on the planet; Unearthly everyone in one dimension; Class 1000 everyone in all dimensions.
+                    
+                    Any character with a Psyche equal to or greater than the caster’s may make a Psyche FEAT roll to reduce the effects of the spell. Magic wielding characters have a +2CS for this FEAT roll. A green result means that vague recollections of the event sometimes surface in the character’s memory. A yellow result means that the character knows most of the highlights of the event, but cannot remember who cast the spell of forgetfulness. A red result means that the character can remember everything.
+                Glamor:
+                  Description: &Glamor |
+                    The caster can conjure up flashing lights and swirling colors, which distract and confuse opponents. The caster can cause them to appear anywhere within sight in the area of effect. Any characters in that area must make a Psyche FEAT roll; if the FEAT is successful, the target is unaffected. If the roll fails, the target suffers an unfavorable 1 CS on all his actions (plus or minus 1 CS depending on whatever is unfavorable to the target).
+                    
+                    If the caster desires, he can try and target the glamor on a specific character; this requires a successful targeting Agility bull’s-eye FEAT roll. If successful, the target suffers an unfavorable 2 CS, but the spell effects that target only
+                    
+                    Once established the glamor cannot be moved out of the area or exact location it was cast upon. Glamor has no effect on the caster.
+                Healing-Others:
+                Illusion:
+                  Description: &Illusion |
+                    This spell creates an illusion in the mind of creatures within the area of effect. The player whose character is using this spell must describe it to the Judge. The illusion looks, sounds, and smells the way it would if it were real, but cannot cause damage. Since the illusion exists only in the mind of the targets, no one outside the area of effect can see it. All characters in the area of effect see the same illusion. The caster must concentrate on the illusion for the entire duration of its existence to be believable.
+                    
+                    Each character seeing the illusion may make a Psyche FEAT roll to disbelieve it at the beginning of the illusion and every other round after that. If the FEAT roll is successful, the illusion fades from his mind. Other characters with illusion creating powers, whether magical, mutant, or whatever, receive a +2 Column Shift to their attempts to disbelieve. An unaffected character cannot persuade an affected character of the illusion’s true nature.
+                    
+                    Characters who are affected will act as they normally would if the illusion were real. If characters attack an illusion, attacks will not affect it (although the caster could make it seem otherwise); the Judge will have to keep track of the attacks because of the possibility of injury to bystanders or property. Items passing through an illusion may look like they are absorbed by it, like he side-stepped it, or whatever else the caster desires.
+                    
+                    If the illusion is of something silly, confusing, or extremely contradictory, then the Judge should secretly roll an Intuition check for those affected to disbelieve it.
+                Mesmerism:
+                  Description: &Mesmerism |
+                    This is a basic magical form of hypnotism that permits the caster to communicate with and command specific creatures of less than human intelligence. To communicate with a creature requires a successful Psyche FEAT roll. Commanding a creature is possible only if the caster’s spell rank is greater than the creature’s Endurance rank, and also requires a successful spell rank FEAT roll.
+                    
+                    The target must be able to see the caster to be affected by this spell. If the caster is affected by an attack in the round he casts this spell, the mesmerism is automatically broken.
+                    
+                    When this spell is obtained, the caster will be able to mesmerize only one specific type of animal: mammals, birds, reptiles, amphibians, fish, insects, etc. As he becomes experienced he can learn how to mesmerize other types (Judge’s discretion).
+                Paralyze:
+                  Description: &Paralyze |
+                    This spell creates a magical tendril that attacks the target’s mind, making him unable to move. If the caster’s spell rank FEAT roll is unsuccessful, the target will not even suspect he has been attacked. It the caster’s spell rank FEAT roll is successful, the target is allowed a Psyche FEAT roll to resist. If the target’s resistance roll is successful, he is unaffected but knows that he has been attacked. If the target’s resistance roll is unsuccessful, he becomes completely paralyzed for a number of rounds equal to the roll of one die, plus 2 additional rounds. A paralyzed character cannot move or speak, but he can see, hear, smell, and use mental spells (it he has any). Only a creature with a brain (including cyborgs) can be paralyzed. Medical treatment cannot cure magical paralysis.
+                Revival:
+                  Description: &Revival |
+                    The spell counters the effects of other spells that preventing a character from acting or thinking with complete control. Spells that can be countered by a Revival spell include Mesmerism, Emotion Control, Confusion, Fear, Illusion, Charm, Mental Control, Paralyze, Forgetfulness, and the like.
+                    
+                    If the spell rank of the Revival spell is stronger than the spell rank of the controlling spell, then the controlling spell is automatically broken. If the spell ranks are equal, a successful spell rank FEAT roll is needed to break the spell. If the holding spell is a higher spell rank than the Revival spell, then the caster must make a successful spell rank FEAT roll to break the spell subtracting as many ranks from his spell’s normal spell rank as the holding spell exceeds it.
+                    
+                    A Revival spell can only be used against a specific spell enthralling a specific character once a day.
+                Shield-Aura:
+                  Description: &Shield-Aura |
+                    The caster surrounds himself or another character with a shining aura that acts as body armor against all forms of attack. It does not hinder the caster in any way. An aura shield has an armor rank equal to the spell rank -1CS. If it is hit by an attack with a higher power rank it is shattered and disappears, though no damage reaches the caster during that round. Only one aura shield can surround a character at any given time.
+                Teleportation:
+                  Description: &Teleportation |
+                    The caster can channel his Universal or Dimensional energy into a special type of movement that allows him to travel instantaneously from one spot to another without physically crossing any of the space between. The caster can teleport as far as his area of effect allows. If the caster is familiar with the location he is teleporting to, or is able to see it, then he need make no FEAT roll. If he is attempting to teleport into an unknown location he must make a spell rank FEAT roll. A failed roll means he could not complete the movement and was “bumped” back to his original point of departure.
+                    
+                    If a caster tries teleporting into a solid object (because he is unaware of its presence) he must make an Endurance FEAT roll; if this roll fails, he materializes outside the object but suffers damage equal to the material rank of the object. The character is automatically slammed (1 area) and may be stunned (make a FEAT roll for exact result).
+                    
+                    The visual effects that accompany teleporting (vapors rising, flash of light, slow fade out, etc.) are up to the player.
+                Trap:
+                  Description: &Trap |
+                    The caster uses this spell it he expects to be mentally attacked (magical or otherwise). Once set, the trap will last for 5 rounds (ignore the normal duration of spell) or until the character is successfully struck by a magical mental attack or other form of mental probe. When this happens, the caster must make a spell rank FEAT roll. If he succeeds, the caster’s stored magical Universal or Dimensional energy lashes out, causing damage to the attacker’s mind that is equal to the trap’s spell rank. If he fails, the attack against the caster will be successful, but apply a -2CS to the spell rank of the hostile spell.
+                Vapors-Obscurity:
+                  Description: &Vapors-Obscurity |
+                    The caster can conjure forth magical vapors, which pour out from around his feet, hands, or just suddenly begin to swirl in the air (caster’s discretion). The vapors resemble dense smoke of a color specified by the caster. They fill the area he is occupying in one round. The caster can continue to fill areas at a rate of one per round until some or all of his area of effect is full. These vapors prevent anyone from seeing the caster, and even radar, sonar, and infrared devices cannot penetrate them. The caster, on the other hand, can see through the vapors perfectly.
+                    
+                    The effect that the vapors have on combat is to provide the caster with a +1CS when striking an opponent who is in the vapors and to penalize the opponent with a -2CS Shift for striking at the caster, while the opponent is in the vapors.
+                Vapors-Sleep:
+                  Description: &Vapors-Sleep |
+                    The caster can conjure forth magical vapors, which pour out from around his feet, hands, or just suddenly begin to swirl in the air (caster’s discretion). These vapors resemble soft, billowy, white clouds and will only cover the caster’s immediate area (if the spell rank is Good or less) or the caster’s area and one adjacent area of his choice (if the spell rank is Excellent of better). The vapors are not of sufficient density to affect anyone’s vision.
+                    
+                    Everyone but the caster who is in the vaporous area(s) must make an Endurance FEAT roll or fall asleep for 1-10 rounds plus an additional 2 rounds. Loud noises, being nudged, and other “awakening” conditions will arouse the characters affected. These vapors only last for one round, then dissipate.
+              Dimensional Energies:
+                Environmental Independence:
+                  Description: &Environmental_Independence |
+                    The caster can surround himself with an aura of magic that maintains a livable environment for him. He does not need to sleep, eat, drink, or breathe, but can if he wants to. He feels no non-magical cold or heat and can survive in outer space, under water, within the earth, in hostile atmospheres, etc. This spell does not provide protection from or immunity to attack, but it does allow the caster to survive in conditions where survival would normally be impossible. The area of spell is usually just around the caster himself, though the aura can contain an additional character for every rank of the caster’s Psyche above Remarkable.
+                    
+                    This is a particularly long-lived spell, often used by magic wielders stranded in hostile circumstances or alien dimensions. The duration of this spell is left to the Judge, as different conditions and circumstances (time passage in other dimensions for example) can affect the duration. It is suggested that the caster receive a +3CS on the duration of the spell. (For example, the spell would have a Unearthly duration for a caster with an Incredible spell rank.) An Unearthly duration means that the spell lasts indefinitely, usually until the caster escapes from the hostile conditions that caused him to cast the spell.
+                Dimensional Aperture:
+                  Description: &Dimensional_Aperture |
+                    This spell causes a temporary opening in the dimension’s fabric, allowing the caster to cross from one dimension to another. Look for the section on Dimensions in the Miscellany of Mysticism for more detail. The caster can automatically open a portal to a dimension with which he is familiar, but opening a portal to an unfamiliar dimension requires a successful spell rank FEAT roll. If a FEAT roll is required, failure indicates that the caster cannot enter the desired dimension that day A beginning caster who does not really know one dimension from another can stumble into any one of them at random.
+                    
+                    A spellcaster who is in a familiar foreign dimension can automatically return to his home dimension. However, if the caster is in an unfamiliar dimension or if his mind has been affected by traveling in a sanity-bending or sanity-threatening dimension, the caster must make a successful spell rank FEAT roll to locate the dimensional position of his home dimension. This roll to return is only allowed once per week. However, the caster can enter another random dimension and try to go home from there.
+                    
+                    If the caster tries to take anyone else with him into a dimension, whether they are willing or unwilling, then a Psyche FEAT roll is required of each character passing through into the dimension, every time they enter a new dimension. Anyone who fails the FEAT roll cannot pass through that particular dimensional aperture at this time. Characters who are left behind can try again a day later, if the aperture is still in effect.
+                    
+                    This spell also grants the caster knowledge of a tiny “personal dimension” where he can go with perfect accuracy and safety. This pocket dimension is only accessible from the caster’s home dimension and contains no dangerous creatures. There the caster can go for peace, solitude, and can even make it a home away from home. The caster can enter or leave his own little dimension once per day.
+                Link:
+                  Description: &Link |
+                    The caster can link his mind with other, willing magic wielders, thus giving him additional power. Up to four magic wielders can be linked in this manner. For every magic wielder linked to his mind, the caster gains a +1CS to the spell rank of any spell he casts, up to a maximum of Shift X rank. (Exception: this spell cannot increase the rank or effects of Link spells.) If the spell involves a range factor, the range is increased to that of the shifted spell rank. If the spell inflicts damage, the area of effect and the spell rank is shifted, for purposes of FEAT rolls, but damage is increased by 10 points (not 1 rank) for each additional mind linked. (For example, if three magic wielders are linked to a caster with an Incredible rank in Eldritch Crystals, he would receive a +3CS for the area of effect and chance of a successful spell rank FEAT roll, but any damage caused would be 70 points, not 100.
+                    
+                    Only the caster who initiates the Link spell can perform any actions. All other magic wielders who are linked must remain in place and concentrate. If the caster they are linked to sustains damage, they absorb one-tenth of that damage too, rounded down. The link also increases the caster’s Psyche for resistance to mental attack. For every additional mind linked, apply a +1CS to the caster’s Psyche when defending against mental attack.
+                    
+                    The link is automatically broken if the caster is rendered unconscious or if he loses control of his own mind (due to Confusion spells, Fear spells, Mental Control spells, etc.)
+                Sensing:
+                Shield-Multiple:
+                  Description: &Shield-Multiple |
+                    This spell uses extradimensional energies to create a Multiple Shield. It is identical to an Individual Shield, except that there are actually multiple shields behind the one that appears. For every spell rank above Good, the caster has another Shield that immediately appears when the previous shield has been shattered. For example, a caster with a Remarkable spell rank has three Individual Shields, one right behind the other to protect him.
+                    
+                    If the outermost shield is struck by an attack that is at least two ranks higher than the shield rank, one or more inner shields are also broken; if the attack is 2 ranks higher, a second shield is broken, at 3 ranks higher, a third shield, and so on. No damage will reach the caster in the round the last shield is broken.
+                Teleportation:
+                  Description: &Teleportation |
+                    The caster can channel his Universal or Dimensional energy into a special type of movement that allows him to travel instantaneously from one spot to another without physically crossing any of the space between. The caster can teleport as far as his area of effect allows. If the caster is familiar with the location he is teleporting to, or is able to see it, then he need make no FEAT roll. If he is attempting to teleport into an unknown location he must make a spell rank FEAT roll. A failed roll means he could not complete the movement and was “bumped” back to his original point of departure.
+                    
+                    If a caster tries teleporting into a solid object (because he is unaware of its presence) he must make an Endurance FEAT roll; if this roll fails, he materializes outside the object but suffers damage equal to the material rank of the object. The character is automatically slammed (1 area) and may be stunned (make a FEAT roll for exact result).
+                    
+                    The visual effects that accompany teleporting (vapors rising, flash of light, slow fade out, etc.) are up to the player.

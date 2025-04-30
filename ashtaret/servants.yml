@@ -213,8 +213,8 @@ Character Sheet:
                 Description: |
                   The Talent Robot is a robot specifically designed for a certain purpose, and its programming reflects that purpose. The Avengers' fire-fighting robots or the robotic opponent the Black Knight uses are examples of talent robots. Such robots may have one ability at Remarkable level. All others are Excellent.
             Magical Items:
-              Silver: &Silver
-                Description: |
+              Silver:
+                Description: &Silver |
                   In game terms, all silver weapons cause double their normal damage to those characters and creatures classified as demons. If a silver weapon strikes a character who is possessed by a demon, only the demon will suffer damage, not the host body, Damage is caused not by the edge or type of weapon as much as simply touching silver to these creatures.
 
   Supporting Cast:
@@ -298,7 +298,7 @@ Character Sheet:
                 Magical Items:
                   Silver Weapons:
                     Note: Melee and Thrown Weapons are Silver
-                    Reference: *Silver        
+                    Description: *Silver        
           Reference: *Sentry_Robot
           Description: |
             Generally greater imps.
