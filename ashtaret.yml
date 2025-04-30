@@ -1105,31 +1105,31 @@ Character Sheet:
               Room Packages:
                 Living Room Package:
                   Description: &Living_Room_Package |
-                    *Cost: Good* - Occupies one room. Consists of sofa, two easy chairs, two end tables, coffee tables, two lamps (ceiling table or floor).
+                    *Cost: Good* - Occupies one room. Consists of sofa, two easy chairs, two end tables, coffee tables, two lamps (ceiling table or floor). At *Excellent Cost* add television, stereo set-up, or piano. At *Remarkable Cost* add all three.
                 Dining Room Package:
                   Description: &Dining_Room_Package |
                     *Cost: Good* - Occupies one room. Consists of table, four chairs, ceiling lamp. *Excellent Cost* add large table, bureau and four more chairs. *Remarkable Cost* add china cabinet, set of good china and sterling tableware.
                 Kitchen Package:
                   Description: &Kitchen_Package |
-                    *Cost: Good* - Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing.
+                    *Cost: Good* - Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing. At *Excellent Cost* add refrigerator, dishwasher, or microwave, plus a fire extinguisher. At *Remarkable Cost* add all three and freezer.
                 Library Package:
                   Description: &Library_Package |
-                    *Cost: Excellent* - Occupies one room. Consists of two easy chairs, table, desk, straight chair, and up to five bookcases on general subjects (texts readily available, and including encyclopedias, world histories, and atlases). Special or rare volumes, such as the Book of the Vishanti, the Necronomicon, or Amazing Fantasy \#15, would have to be obtained separately.
+                    *Cost: Excellent* - Occupies one room. Consists of two easy chairs, table, desk, straight chair, and up to five bookcases on general subjects (texts readily available, and including encyclopedias, world histories, and atlases). At *Remarkable Cost* adds globe, microfiche or microfilm reader, computer terminal (only useful if building has computer room or is linked up to computer). Special or rare volumes, such as the Book of the Vishanti, the Necronomicon, or Amazing Fantasy \#15, would have to be obtained separately.
                 Workshop Package:
                   Description: &Workshop_Package |
-                    *Cost: Remarkable* - Occupies one or more rooms. Basic equipment for metal and woodworking: lathes, drills, saws and fire extinguisher.
+                    *Cost: Remarkable* - Occupies one or more rooms. Basic equipment for metal and woodworking: lathes, drills, saws and fire extinguisher. At *Incredible Cost* includes laser-guided instruments. At *Amazing Cost* includes all of the above and automatic processing materials (an automatic factory, in effect, for simple goods).
                 Laboratory Package:
                   Description: &Laboratory_Package |
-                    *Cost: Remarkable* - Occupies one or more rooms. Basic lab equipment: scales, sinks, common chemicals, microscope.
+                    *Cost: Remarkable* - Occupies one or more rooms. Basic lab equipment: scales, sinks, common chemicals, microscope. At *Incredible Cost* include computer capable of analysis with incredible ability, or clean room (prevent germs from escaping lab). At *Amazing Cost* include both, plus poison analysis and serum dispenser (Excellent effects against known poisons only). Certain pieces, such as electron micro-probes and stellar mass detectors, may be purchased separately (in general, such items are Incredible Rank purchases).
                 Office Package:
                   Description: &Office_Package |
-                    *Cost: Good* - Occupies one or more rooms. Includes desk, three chairs, two lamps.
+                    *Cost: Good* - Occupies one or more rooms. Includes desk, three chairs, two lamps. At *Excellent Cost* doubles the material, adds file cabinet, typewriter. At *Remarkable Cost*, add computer terminal, double previous material, add hanging plants, decorative art.
                 Pool Package:
                   Description: &Pool_Package |
                     *Cost: Remarkable outdoors, Incredible indoors* - Occupies one or more rooms, or outdoor area. Consists of Olympic-size pool, filtered water, small sauna room. At *Remarkable Cost* adds separate, smaller pool (featuring diving board and chlorine), plus pool cover. At *Incredible Cost* includes two Olympic pools, heated water, pool cover. At Amazing Cost, both pools are heated.
                 Conference Room Package:
                   Description: &Conference_Room_Package |
-                    *Cost: Remarkable* - Occupies one room. Contains material for assembling of heroes, or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs.
+                    *Cost: Remarkable* - Occupies one room. Contains material for assembling of heroes, or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs. Wood paneling available at *Incredible Cost*.
                 Security Packages:
                   Description: &Security_Packages |
                     *Cost: Good* — one Security package to a door or window. Occupies no space. Consists of hand-set burglar alarms on windows and doors, coupled with mechanical locks. At *Excellent Cost:* Automatic burglar alarms with computer-code or card identification system. At *Remarkable Cost:* Automatic burglar alarms with palm-print scan, can activate defense systems. At *Incredible Cost:* Full body scan with benign identification program as to hostility. Can activate defense systems.
@@ -1145,6 +1145,9 @@ Character Sheet:
                 Imprisonment Package:
                   Description: &Imprisonment_Package |
                     *Cost: Excellent* - Occupies one room. Contains standard restraining devices, including bars of Remarkable material strength. At *Remarkable Cost*, restraining devices made of Incredible Strength. At *Incredible Cost*, restraining devices at Amazing Strength and Excellent Strength inhibitor restraints.
+                Fire Protection Packages:
+                  Description: &Fire_Protection_Packages |
+                    Cost: Excellent Occupies no space. Sprinkler system that may cover up to 10 rooms, provides Good protection from fire. Remarkable Cost: Foam-projectors that provide Excellent protection from fire, covers up to 10 rooms. Fire Protection Packages automatically activate on heat or smoke and must be modified to avoid extinguishing flaming heroes.
           Magic:
             Spells:
               Personal Energies:
@@ -2074,8 +2077,17 @@ Character Sheet:
           Equipment:
             Headquarters:
               Note:
-                - Cost is a reflection of location as well as size of the structure. The listed prices are for a building in most American cities and their suburban surroundings. If the heroes are apartment hunting in Manhattan or the richer suburbs, the price is +1CS.
-                - Room Package Costs are for a fairly nice selection of material. Very high-quality packages (a Library Package stocked with first editions) may be +1CS or +2CS.
+                - Size is a general statement.
+                  - Small quarters are suitable for 1 or 2 heroes with a small amount of equipment, and has 2, maybe 3 areas or rooms.
+                  - Mid-sized housing is suitable for 2 or 3 heroes, any support crowd (offices would fit into this area), and runs no more than 5 areas or rooms.
+                  - Large is suitable for a number of heroes and equipment, and has 10 or more areas spread over 2 floors.
+                  - Deluxe is the largest size, and is for heroes with several vehicle types, trophy rooms, and living quarters. It has 20 + areas spread through 3 or more floors.
+
+                    Spider-Man's lodgings are an example of Small dwelling. The Heroes for Hire offices were Mid-sized, the Angel's place used by the Defenders in Colorado Large, and the Avengers' mansion, Baxter Building, and Doctor Strange's sanctum sanctorum are Deluxe. (The last measures interior size, not exterior.)
+                  - Cost is a reflection of location as well as sire of the structure. The listed prices are for a building in most American cities and their suburban surroundings. If the heroes are apartment hunting in Manhattan or the richer suburbs, the price is +1CS. If the heroes settle down in a relatively secluded spot, like Colorado, Tamarind Island, or Lake Geneva, the price is -1CS. Cost is presented in 2 values. The first is the cost if the character is renting, payable by the month. The second is if the character is buying or building (in the case of apartments, this is dealing in condos).
+                - Costs are for a fairly nice selection of material. The heroes may acquire something less expensive and/or reliable (in the case of a living room, the furniture doesn't match— in the case of a second-hand danger room, it goes berserk more often than usual), at -1CS of price. Very high-quality packages (a Library Package stocked with first editions) may be +1CS or +2CS. Equipment may also be picked up by pieces, and for certain types of equipment, this is the only way of acquiring it.
+                - Rented, furnished places often have their own packages installed. This is included in the rent, though the hero is responsible for their replacement in case of damage or theft. ("Let me get this straight, Mr. Grimm. You threw a what through the where to hit who?")
+                - Base Cost is the version selected, Value is based on quality CS shifts, not different versions.
               Ashtaret's Domain:
                 Type: Special
                 Cost: *Beyond
@@ -2252,7 +2264,7 @@ Character Sheet:
                   - Bedrooms, of which there are many, feature subtle implementations of the Imprisonment Package as described. An Amazing Intensity feat is required to notice them when they are inactive. Bedchambers are opulent but austere, matching the rest of the domain.
                   - Servants:
                       Note:
-                        - These are created or summoned by the Servant spell, and are elemental or demonic spirits, or magical automatons, rather than technological robots, but have the same general roles, Abilities, and other features.
+                        - These are created or summoned by the Servant Spell, demonic spirits incarnated by the Spell, rather than technological robots, but have the same general roles, Abilities, and other features.
                         - Servants are capable of interacting and coordinating with the Security and Defense Packages in Ashtaret's Domain.
                       Common Statistics:
                           Origin: *Demon
@@ -2558,7 +2570,7 @@ Character Sheet:
                     Description: *Security_Packages
                   Fire Protection Package:
                     Cost: *Excellent
-                    Description: *Fire_Protection_Package
+                    Description: *Fire_Protection_Packages
                 Note:
                   - Example typical residences for Normal Human Aspect cover identity.
                   - Rented furnished.
