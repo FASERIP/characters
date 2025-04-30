@@ -452,7 +452,7 @@ Character Sheet:
 
                   The result of any form of this Power is permanent. (What's the point of healing somebody if he's just going to drop dead later, right?) The actual ongoing effects continue for as long as the hero continues to use his Power. Once this is done, the target's natural healing abilities and rates revert to normal. There are seven forms of Biophysical Control, each with its own set of effects. The first four forms are benevolent, the last three are maievolent. Heroes who use the malevolent forms against sentient beings risk Karma and Popularity loss. When the hero is created, the player must choose one of these forms. He can select one or let the dice decide for him.
 
-                  - **Healing:** The hero can cure the damage caused by wounds, trauma, toxins', and disease. The hero can increase the target's Health by'an amount equal to the Power rank level. This is the maximum benefit the hero can give per day to one specific person. The color of the required FEAT is determined by the nature and severity of the damage. Green FEATs handle broken bones, non-terminal disease, and simple wounds. Yellow FEATs handle physical trauma, wounds to organs, non-fatal poisoning, and terminal diseases. Red FEATs handle mortal wounds, coronary attacks, strokes, toxic poisoning, and massive physical trauma. The Power seals the body and returns any still-living tissues to health. It cannot replace lost tissue.
+                  - **Healing:** The hero can cure the damage caused by wounds, trauma, toxins, and disease. The hero can increase the target's Health by'an amount equal to the Power rank level. This is the maximum benefit the hero can give per day to one specific person. The color of the required FEAT is determined by the nature and severity of the damage. Green FEATs handle broken bones, non-terminal disease, and simple wounds. Yellow FEATs handle physical trauma, wounds to organs, non-fatal poisoning, and terminal diseases. Red FEATs handle mortal wounds, coronary attacks, strokes, toxic poisoning, and massive physical trauma. The Power seals the body and returns any still-living tissues to health. It cannot replace lost tissue.
                   - **Regeneration:** The hero has the ability to heal (as above) and can recreate large areas of lost tissue, such as severed limbs or destroyed organs. Limbs are regrown by a green FEAT, organs by a yellow FEAT, and brain and neural tissues by a red FEAT.
                   - **Revival:** The hero can actually bring the dead back to life. The Power rank number is the maximum number of days the target can have been deceased and still be revived. The condition of the corpse determines the color of the required FEAT. An intact, unembalmed, undecayed corpse is revived on a green FEAT. A decayed but intact corpse needs a yellow FEAT. A red FEAT is required for partial or embalmed remains.
                     For example, a Good rank can revive a 10-day-old, slightly moldy body if the player rolls a 75 or better.
@@ -2005,7 +2005,9 @@ Character Sheet:
                       Number: 884
                     Spread: 29
                     Turns Until Full Recovery: 45
-                Note: Rank-less abilities not included.  Focus itself is, but recovery is at full Rank.
+                Note:
+                  - Rank-less abilities not included.  Focus itself is, but recovery is at full Rank.
+                  - Resistance to Fire and Heat is considered the same Power in both Resistance to Physical Attacs and Resistance to Energy Attacks
                 Description: *Focus
             Self Alteration:
               Imitation-Face Changer:
@@ -2804,13 +2806,30 @@ Character Sheet:
                       Powers:
                         Defensive:
                           Resistance to Energy Attacks:
+                            Cold:
+                              Rank:
+                                Demon: *Remarkable
+                                Normal Human: *Feeble
+                                Animal: *Good
                             Fire and Heat:
                               Rank:
                                 Demon: *Unranked
+                                Normal Human: *Feeble
                           Resistance to Physical Attacks:
+                            Disease:
+                              Rank:
+                                Demon: *Amazing
+                                Normal Human: *Excellent
+                                Animal: *Excellent
                             Fire and Heat:
                               Rank:
                                 Demon: *Unranked
+                                Normal Human: *Feeble
+                            Toxins:
+                              Rank:
+                                Demon: *Amazing
+                                Normal Human: *Excellent
+                                Animal: *Excellent
                         Detection:
                           Environmental Awareness:
                             Rank:
@@ -2818,7 +2837,9 @@ Character Sheet:
                               Animal: *Excellent
                           Extradimensional Detection:
                             Rank:
+                              Demon: *Good
                               Ethereal: *Excellent
+                              Animal: *Good
                           Hypersensitive Hearing:
                             Rank:
                               Animal: *Remarkable
@@ -2909,14 +2930,14 @@ Character Sheet:
                             Totals:
                               Demon:
                                 Rank: Shift-Z
-                                Number: 605
-                                Spread: 22
-                                Turns to Full Recovery: 31
+                                Number: 725
+                                Spread: 24
+                                Turns to Full Recovery: 37
                               Normal Human:
                                 Rank: Shift-Y
-                                Number: 300
-                                Spread: 14
-                                Turns to Full Recovery: 30
+                                Number: 304
+                                Spread: 17
+                                Turns to Full Recovery: 31
                         Self Alteration:
                           Imitation-Face Changer:
                             Rank:
@@ -3038,6 +3059,7 @@ Character Sheet:
                     Somewhat paradoxically harsh, stern, and serious on one hand, but flirtatious, flamboyant, and almost comically macabre on the other.   Highly competent. Absolutely devoted and loyal to Ashtaret. Comfortable with modern technology. Generally professional but has outbursts. "Work Hard, Play Hard—Uptight then Let Loose."
                   Description: |
                     A tall, slender woman with a decidedly devilish mien, with dark bronze-olive skin, long, spiraling black curls, and deep amber eyes.  Her typical appearance in human form is much the same, less the devilishness.
+          Contacts:
             Professional:
               Crime:
                 Mariah Dillard: From Criminology Talent.
