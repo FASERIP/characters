@@ -1,0 +1,1066 @@
+---
+Character Sheet:
+  Game System:
+    Name: TSR Marvel Super Heroes RPG Advanced
+    Reference:
+      Origin: &Demon
+        Physical Form:
+          Demon:
+            Description: |
+              These are magical beings from other planes of existence. They are both supernatural and corporeal in nature. The main difference between these types is their inherent personality. "Angels" are benevolent; "demons" are malevolent. Other than that, there isn't much difference.
+
+              These beings resemble characters from various mythologies. This affects their Popularity. Angels gain +2CS while demons lose -2CS on their initial Popularity. These beings do not necessarily follow the popular traditional behavior patterns. A heroic demon might be fighting a personal war against other, even more evil beings. A crazed angel might be a villain, seeking to purify the Earth at any cost.
+              - Demons roll on Column 5.
+              - Demons have no initial Contacts but will soon be sought out by groups who see them as symbols or tools.
+              - All Physical Abilities are raised +1CS.
+              - Such beings possess a Psychological Weakness that Negates their Power.
+              - Demons lose -2CS Popularity.
+              - Demons automatically possess Good Fire Generation and Specific Invulnerability to Heat and Fire.
+        Origin of Power: 
+          Creation:
+            Description: |
+              The hero was born in the form he now has, that of an adult who possesses Power and/or whatever the Body Type is. Most of the Artificial Body Types belong in this class. Examples include the android Human Torch, all robots, angels, demons, and deities.
+      Weakness: 
+        Demon: &Weakness_Demon
+          Stimulus: Psychological
+          Effect: Power Negation
+          Duration: Continuous with Contact
+          Conditions: Hallowed Ground
+          Note:
+            - Powers cease functioning within 20 feet of stimulus, -1CS Abilities per 10 turns of exposure, cannot directly use Powers against Stimulus from outside radius.
+            - Instantly reverses when moved away from Stimulus.
+            - Psychological Weaknesses can be temporarily overcome by an Unearthly Intensity Psyche FEAT. They can be permanently overcome by a Shift-Z Intensity Psyche FEAT.
+            - Sites consecrated to the Annunaki (including Ashtaret and Allatou) do not trigger this Weakness.
+        Ethereal: &Weakness_Ethereal
+          Stimulus: Psychological
+          Effect: Special
+          Duration: Continuous with Contact
+          Conditions: Hallowed Ground
+          Note:
+            - Forced change back to Demon Aspect on exposure to stimulus. May not assume Ethereal Aspect again until outside of Stimulus radius.
+            - Psychological Weaknesses can be temporarily overcome by an Unearthly Intensity Psyche FEAT. They can be permanently overcome by a Shift-Z Intensity Psyche FEAT.
+        Normal Human: &Weakness_Normal_Human
+          Stimulus:
+            Elemental Allergy: Suffers adverse effects if exposed to dangerous chemical elements.
+            Molecular Allergy: Dangerous chemical compounds cause the Effect.
+            Energy Allergy: Exposure to dangerous or powerful forms of energy.
+          Effect: Fatal
+          Duration: Continuous with Contact
+          Conditions: Exposure to dangerous energies or toxic substances causes loss of Health and Endurance.  May heal as normal after exposure ceases.
+          Note:
+            - Inherent to all Normal Human Physical Form Characters.
+            - This Weakness simply reflects how dangerous substances and energy like poison, fire, radiation, electricity, etc. affect Normal Humans.
+      Abilities:
+        Special Abilities:
+          Powers:
+            Defensive:
+              Body Armor:
+                Description: &Body_Armor |
+                  The hero possesses artificially-created armor that provides protection and possibly a way of possessing other Powers.
+                  Armor comes in many forms exotic plate-mail, nuclear-powered exoskeletons, or mechanically-created force fields. The player should work with the Judge to create proper Armor for his hero. The player can also determine which Powers are possessed by the hero and which are properties of the armor. Powers built into the armor can later be modified and enhanced: think of the changes Tony Stark has made in the Iron Man armor. On the other hand, Powers that are built into the armor may suffer mechanical failure. The Armor's Power rank determines its ability to resist damage.
+
+                  The player also has to determine where he got the Armor in the first place. This is covered in the "Character Creation" section elsewhere in this book. If the hero gained the armor through an accident, he might not be able to repair it.
+              Resistance to Emotion Attacks:
+                Description: &Resistance_to_Emotion_Attacks |
+                  The hero has increased resistance to emotion-related attacks. Such attacks include Emotion Control, Hallucinations, Domination, and attacks aimed at the Intuition. The hero can ignore attacks with Intensities less than the Power rank, and may reduce damage from higher level attacks by the Power rank number.
+
+                  This Power rank must be at least equal to the hero's Intuition +1CS; if a lower rank is initially rolled, the player should raise it to the Intuition rank +1CS.
+              Resistance to Energy Attacks:
+                Description: &Resistance_to_Energy_Attacks |
+                  The hero has an increased resistance to any emitted energy form, whether artificial, natural, or Power-based. Such attacks include Light, Heat, Flame, Plasma, Hard radiation, Electricity, Vibration, Sonics, Cold, and Kinetic Bolts (most of the Energy Emission category).
+
+                  Note that this Power overlaps [D15](#d15). The hero can ignore attacks with Intensities less than his Power rank and may reduce higher level attacks by his Power rank number. When creating the hero, the player can raise his rank +1CS by choosing to specialize in a specific Energy Resistance. For example, the Player's Book contains listings for Resistance to Fire and Heat, Cold, Electricity, and Radiation.
+              Resistance to Magic Attacks:
+                Description: &Resistance_to_Magic_Attacks |
+                  The hero has increased resistance to magic based attacks, whether physical or mental in orientation. Unlike [D11](#d11) and [D14](#d14), this Power rank can be lower than the Psyche rank, making the hero more vulnerable to some types of magic.
+
+                  The hero can ignore any magic whose rank is less than this Power's rank and can reduce higher level attacks by the Power rank number.
+              Resistance to Mental Attacks:
+                Description: &Resistance_to_Mental_Attacks |
+                  The hero has increased resistance to attacks aimed at the mind and neural system. Such attacks include psionics, neural manipulation, and any other attacks aimed at the Psyche. It does not include emotion-based attacks (see [D11](#d11)) or magical attacks (see [D13](#d13)). The Power's rank must be at least one rank higher than the hero's Psyche; if a lower rank is rolled initially, the player should raise it to that rank +1CS.
+              Resistance to Physical Attacks:
+                Description: &Resistance_to_Physical_Attacks |
+                  The hero has increased resistance to any physical attack. This includes brute force, chemical weapons, biochemicals, disease, hostile environments, and temperature extremes. The hero can ignore any physical attacks with Intensities less than. the Power rank, and may reduce damage from higher level attacks by the Power rank number.
+
+                  When creating the hero, the player can raise the Power rank +1CS by choosing to specialize in a specific Physical Resistance. For example, the Player's Book contains listings for Resistances to Fire and Heat, Corrosives, and Disease.
+              Resistance to Power Manipulation:
+                Description: &Resistance_to_Power_Manipulation |
+                  The hero has increased resistance to attacks that directly affect the hero's Powers. Such attacks include Weakness Creation, Power Control, Power Domination, Magic Control, and Magician Domination.
+
+                  The hero can ignore any attack who rank is less than this Power rank. He may reduce the effectiveness of the higher level attacks by the Power rank number.
+              Resistance to Vampirism:
+                Description: &Resistance_to_Vampirism |
+                  The hero has increased resistance to any vampiric-type attacks. Such attacks include forms of Psi-, Bio-, Energy, Magic, and Power Vampirism.
+
+                  The hero can ignore any vampiric attack whose rank is less than this Power's rank. He can reduce the effectiveness of the vampire's attack by deducting his Power rank number from the vampiric attack's Power rank.
+
+                  When creating the hero, the player can choose to raise the rank +2CS by specializing in a particular form of Resistance.
+            Detection:
+              Environmental Awareness:
+                Description: &Environmental_Awareness |
+                  Range column B. The hero has increased sensitivity to conditions in, disturbances in, and influences on the environment. The hero automatically maintains full knowledge of current conditions in his surroundings. This awareness extends to such factors as weather, chemicals, movement, and life.
+
+                  The rank determines the range to which the awareness extends: exceeding it requires a FEAT (+1CS, green:+2CS, yellow:+3CS, red). The hero can gain +1CS by linking his Health to the environment. In this symbiosis, harm to the environment is reflected in the hero's physical welfare.
+              Extradimensional Detection:
+                Description: &Extradimensional_Detection |
+                  The hero can sense across the dimensional barrier and see things existing in other dimensions.
+
+                  A list of some of the dimensions in the Marvel Universe is found in Realms of Magic. These include Asgard, the Astral Plane, Avalon, the Dark Dimension, the Demon Dimension, etc. The power rank number equals the number of different dimensions into which the hero can see.
+              Hypersensitive Touch:
+                Description: &Hypersensitive_Touch |
+                  The hero possesses an Enhanced sense of touch that permits him to detect extremely fine surface details and to identify materials by their surface "feel."
+              Life Detection:
+                Description: &Life_Detection |
+                  Range column B. The hero can detect the presence of life and identify the nature of that life. The hero can probe a specific target for more detailed physiological data on a red FEAT.
+
+                  Rank determines the maximum range. A red FEAT allows the hero to locate a specific lifeform in the midst of a number of similar beings.
+
+                  This is one of the Powers that can function as "Mutant Detection."
+              Magic Detection:
+                Description: &Magic_Detection |
+                  The hero can detect and identify magic and its effects. The Power can detect both magic in actual use and in potential. As such, this is another way to detect mutants, although it cannot differentiate them from normal magic-users.
+
+                  The hero can identify the past use of magic (a green FEAT), a yellow FEAT identifies the magic-user, and a red FEAT identifies the actual spell.
+              Thermal Vision:
+                Description: &Thermal_Vision |
+                  The hero can see infrared light and heat images. This allows the hero to see in the dark, perceive temperature differences (especially those left by a living person's contact with an object), and partially see through solids. In the last case, the hero can only see the heat patterns of objects touching the other side of the barrier.
+
+                  With practice, the hero can judge the temperature of a target by its thermal color. The hero has an increased risk of being blinded by strong heat sources, even those that don't affect normal vision (-1CS). Thermal vision may be a consciously-activated mode or the hero's normal means of vision.
+              True Sight:
+                Description: &True_Sight |
+                  The hero can see the correct image of a target, despite any attempts at concealment or disguise. This Power can penetrate any means of hiding something's true nature, whether physical, psionic, illusionary, or power-based.
+
+                  True Sight can penetrate any disguise at or below its rank. A green FEAT is required at +1CS; a yellow FEAT at +2CS; and a red FEAT at +3CS.
+
+                  Range is limited to one area unless the Power is coupled with a Power that extends his vision (Telescopic Vision, for example). The Power may be automatic or deliberate. If automatic, the hero gains +1CS but loses -2CS from his Psyche rank.
+              Weakness Detection:
+                Description: &Weakness_Detection |
+                  The hero can detect flaws and stress points in a target. This doesn't guarantee he can exploit this knowledge, though.
+
+                  The rank determines the types of weaknesses he can detect. Good or below: physical weakness only. Excellent to Amazing: mental and physical weaknesses. Monstrous and above: mental physical, and Power-based weaknesses.
+              Hypersensitive Hearing:
+                Description: &Hypersensitive_Hearing |
+                  The hero can detect extremely faint sounds and unusual frequencies. He can identify objects by the sounds they emit. Because of the sensitivity of the hero's hearing, he is more vulnerable to sonic attacks (which receive a +1CS against him).
+              Hypersensitive Olfactory:
+                Description: &Hypersensitive_Olfactory |
+                  The hero can detect the presence of minute traces of substances and accurately identify them.
+
+                  This Power is continually functioning: the hero has learned to ignore unpleasant smells. If he loses his ability to mask out nasty odors, he'll be so distracted (and possibly sickened) by the intruding odors that he loses -1CS on Reason and Endurance.
+              Tracking Ability:
+                Description: &Tracking_Ability |
+                  The hero can detect and follow the tracks left by a specific target. The hero can detect environmental and spatial disturbances with the result that at high ranks the hero can actually track across deep space.
+            Energy Control:
+              Darkforce Manipulation:
+                Description: &Darkforce_Manipulation |
+                  This is a Power that is unique to campaigns using the Marvel Universe. It does not apply to campaigns set in other parts of the Multiverse.
+
+                  The hero can generate and control the extra-dimensional energy-form known as "Darkforce." This resembles a tangible, impenetrable shadow and possesses several unique characteristics that the hero can use to develop Power Stunts:
+
+                  The Darkforce is as yet undefined in the Marvel Universe. For your game's purposes, you might simply treat it as an other-dimensional power source that fills its own entire pocket dimension. That definition will work in or out of the official Marvel Universe.
+              Fire Control:
+                Description: &Fire_Control |
+                  The hero can control existing flames, whether natural or Power-based. He can alter any factor involved in combustion without direct physical contact. The hero can increase or decrease the flame's Intensity up to his Power rank and reduce fire damage by his rank number. This Power includes Power rank Resistance to Fire and Heat. The most important aspect of this Power is enabling the hero to reshape flame into any form he desires. This can be used in a variety of Power stunts, as the hero develops numerous fiery constructs to perform miscellaneous deeds. Such fiery constructs do not act like normal flames. They emit less heat and consume less oxygen. Their fire doesn't spread past the outline of the constructs. In addition, they self-extinguish rapidly upon cessation of this Power. Optional Powers include Fire Generation, Thermal Control, Energy Sheath, and Energy Body.
+              Shadowshaping:
+                Description: &Shadowshaping |
+                  This is not [Darkforce Manipulation](#darkforce_manipulation): that's handled elsewhere. This Power enables the hero to affect normal shadows and, indirectly, light as well. The hero can shift the location and size of normal shadows. He can form them into two-dimensional images that can do Power rank damage to real targets. The hero can also Remote Sense through these shadow-constructs. The hero can increase or decrease the Intensity of any shadow, whether natural or Power-based, by his Power rank number. This overlaps with Light Generation and Shadowcasting but differs in that either effect is possible and only existing shadows or shadow-related Powers are affected.
+
+                  The hero has the ability to see through any shadow as if it were a normally-lit area, provided its Intensity is less than or equal to his Power rank. This does not apply to Darkforce, however.
+
+                  This Power includes Power rank Resistance to shadow-based Powers.
+
+                  This has the Bonus Power of [Shadowcasting](#shadowcasting).
+
+                  Optional Powers include [Light Control](#light_control), [Energy Sheath](#energy_sheath), and [Energy Body](#energy_body). In the last two cases, the hero resembles a living shadow.
+            Energy Emission:
+              Fire Generation:
+                Description: &Fire_Generation |
+                  The hero can project fire with Power rank damage and range. These flames have no apparent fuel source and spring from the hero as if he were a living fuel tank. Although the flames' fuel comes out of the proverbial nowhere, free oxygen must be present for the Power to function. If not, the hero can cause a single flame that lasts' only one turn, then fizzles out. At Shift X rank, the hero gains the ability to generate oxygen as well, permitting this Power to function under any conditions. When creating the hero, the player can choose the Powers of Flame Control, Energy Sheath, and Energy Body to fill any slots still open. For example, under the Ultimate system, the Human Torch possesses three powers: Fire Generation, Fire Control, and Energy Sheath.
+
+                  This has to be the most dangerous Power around. Heroes have to watch out for accidental firestorms. They also tend to consume all the oxygen in their location, making everyone pass out. Then there is the question of smoke and gases created by the hero's Flame Power. It makes me wonder what kind of ventilation system the Baxter Building has…
+
+                  Fire Generation is the opposing Power to Cold Emission, Coldshaping, and Powers that use water. This Power gains +1CS when fighting these Powers. It also loses -1CS when being attacked by those Powers
+              Kinetic Bolt:
+                Description: &Kinetic_Bolt |
+                  This is a crude form of M30/Telekinesis. The hero can strike a target with a surge of force at Power rank range and damage. The Kinetic Bolt can be shaped as desired by the hero. It can be a wide cylinder, or an incredibly fine needle. Its effect is the same as if the target had been struck by a solid object of equal material strength. This Power can affect only tangible materials. It includes Resistance to Kinetic Bolts, Kinetic Control, or Telekinesis. Optional Powers are Kinetic Control and Telekinesis, which are also the Nemeses.
+              Shadowcasting:
+                Description: &Shadowcasting |
+                  The hero can emit a field that decreases light and radiation. The obscured energy's Intensity is lowered by the Power's rank taken as Intensity. The energy forms that can be affected by this Power are [Light](#light_emission), [Heat](#heat), [Hard Radiation](#hard_radiation_emission), [Radiowaves](#radiowave_generation), [Energy Doppelgangers](#energy_doppelganger), and [Energy Bodies](#energy_body).
+
+                  The hero possesses the ability to affect only [Light](#light_emission) when his Power is at Good rank. At each rank above Good, he gains the ability to affect another energy form in the following order: EX-[Heat](#heat), RM-[Hard Radiation](#hard_radiation_emission), IN-[Radiowaves](#radiowave_generation), AM-[Energy Doppelgangers](#energy_doppelganger), MN-[Energy Bodies](#energy_body).
+
+                  This Power includes the ability to see clearly through his own natural or Power-created shadows of Intensity less that the hero's Power rank.
+
+                  The Power can disrupt [Darkforce Manipulation](#darkforce_manipulation) on a Typical Intensity FEAT if its rank is higher than that of the Darkforce manipulator, Remarkable Intensity FEAT if they are equal, and Unearthly Intensity FEAT if the Power's rank is lower.
+
+                  Optional Powers include [Shadowshaping](#shadowshaping) and [Darkforce Manipulation](#darkforce_manipulation).
+
+                  The Nemesis is [Light Emission](#light_emission).
+            Fighting:
+              Natural Weaponry:
+                Description: &Natural_Weaponry |
+                  The hero's body contains special anatomical features that can function as weapons. These may be of any nature and can be external, internal, or retractable. If these are damaged the hero suffers as if they were normal body parts.
+
+                  When creating the hero, the player decides the nature of the weaponry. The weaponry chosen possesses this Power and rank taken as material strength for purposes of determining potential damage.
+
+                  Each time the player rolls this Power, he can add another weapon to the hero. As stated in the Player's Book, some forms of Natural Weaponry provide Bonus Powers (see "Claws" and "Extra Body Parts"). These are placed in the next available slot in the Power Generation. The player and the Judge need to work together to create a functional hero. A drawback to this Power is that if the hero is somehow deprived of his Natural Weaponry, he suffers a loss to his Fighting Ability equal to his weapon's rank. Example: Due to a mishap with a matter transmitter, Wolverine temporarily loses his claws. He's so shaken that his normal Incredible Fighting Ability drops to Feeble.
+
+                  If the Natural Weaponry is made of materials not normally found in the body, it makes the hero vulnerable to attacks that affect those materials. For instance, Wolvie has a -1CS resistance to Magneto's powers, since they can affect his metal skeleton.
+            Illusory:
+              Illusion-Casting:
+                Description: &Illusion-Casting |
+                  The hero can create realistic holographic images that have apparent solidity. These Illusions can be mechanically detected and recorded by such means as photography or television. That separates this Power from the psionic, image-generating Power called Hallucinations, which produces images directly in the target's mind and cannot affect mechanical senses.
+
+                  The Illusion can take any size or appearance the hero desires and is limited only by his imagination. The Illusion can be a realistic simulation, a fanciful creation direct from the hero's mind, or an abstract display of light. The hero is playing with light itself and can create anything that is visible. Since most people depend. on vision to gain information on their surroundings, this Power presents the awesome ability to apparently alter the nature of reality.
+
+                  The hero can cast his Illusions anywhere within his Power rank range, though he must be able to clearly see the area where the Illusion is forming if he wants to make it at all realistic. The normal limit for unaided vision is one area (132 feet). Beyond that range the hero can no longer clearly see his Illusion's surroundings and thus cannot alter the Illusion to reflect things going on around the Illusion.
+
+                  For example, an Illusionary tree cast two areas away might seem to be floating a discreet two inches above the ground.
+
+                  If the hero is unconcerned about maintaining the reality of his Illusions, this limit can be ignored. The hero does not even need to be able to see the Illusion as it forms. Such uncontrolled Illusions appear as transparent, free-floating apparitions. If the Illusion takes the form of a living being, viewers might see it as a ghost or other phantom form. If the hero possesses a means of extending the range of his senses, he can maintain the realism m of his Illusion at up to full range of both this Power and that of whatever means he uses to extend his vision. Ways of increasing the senses' range include mechanical means such as binoculars and remote TV cameras and sense-extending Powers, most notably Telescopic Vision and Clairvoyance.
+
+                  Example: Deetee has an Incredible rank and can Illusion-Cast up to two miles away. She also has a good pair of binoculars that enable her to see up to one mile away. For idle amusement, she likes to go to the top of tall buildings and Cast Illusions at the pedestrians below. She also like to find the monitors for remote surveillance cameras and use them to direct her Illusions into locked rooms.
+
+                  Illusions last as long as the hero concentrates on maintaining their existence. The Judge is free to determine how long the hero can maintain his concentration in a given circumstance. Breaking the hero's concentration abruptly terminates the Illusion, while merely getting distracted causes the Illusion to begin to lose realism (drift, lose detail, become translucent, and so on). The Illusion's effect on a viewer varies. A viewer must make an Intuition FEAT against the Power rank of the Illusion-caster: success means the viewer now recognizes the Illusion's true nature. Players running characters viewing an Illusion are only allowed to make a FEAT if they suspect the Illusion. This can occur if they physically touch the Illusion, if the Illusion is somehow flawed, or if the character is just naturally cynical. ("Congratulations, Les. So far this morning you have attempted to disbelieve the existence of a flying saucer, Galactus, two muggers, and your breakfast."). Since Illusion-Casting includes the Power of Light Control, Illusions can provide a measure of protection against light-based attacks. An Illusory tent would provide protection against both infrared and ultraviolet light, thus keeping the hero cool and safe from sunburn. Treat this Power as +2CS Resistance to Light-based attacks. It does not provide protection against any of the other ways Moms Nature has of affecting us. That Illusory tent would be drafty, cold, and flimsy.
+
+                  Illusion Casting can be combined with other Powers to give 1he Illusion enhanced realism: this can also create Illusions that do real physical damage. If the Illusion-caster has any of the Energy Emission Powers, these can be redirected to apparently originate from the Illusion rather than from the hero.
+
+                  For example, combining this Power with Plasma Generation would simulate the Phoenix-force and fry any electronics in the area.
+
+                  More commonly, the power is used to disguise the true nature of anything the hero or her companions might be doing.
+
+                  Example: Deetee and her buddy Jayboy have to break into a certain building that they know is under surveillance. Deetee doesn't care about subtlety, only About distraction, and casts an Illusion of a Large elephant that comes lumbering around a corner and lies down in front of the door. Inside the elephantine Illusion, Jayboy is free to use his Kinetic Bolt Power to smash open the door. He also uses his K-bolts to simulate the effect the elephant's legs have when they kick against a target.
+
+                  The main drawback to Illusion-Casting is that the hero must keep his Power's true nature a secret from his adversaries. It must be presented as if it were another Power entirely.
+
+                  For example, although she is an Illusion-caster, Deetee often presents herself as a Demon-Summoner.
+
+                  Even if the Power's nature is public knowledge, the Power is still effective. The Powers of Light Emission and Light Control are innate factors of Illusion Casting. As such, the hero has the ability to generate any intensity and frequency of light. He can warp light, alter its frequency, and change its degree of coherency. The hero can do -2CS rank level damage using light-based attacks. As noted earlier, the Power includes -2CS Resistance to Light-based attacks: the hero simply casts an Illusion of something opaque between herself and the offending light. The hero can simulate other visual Powers or Talents with some effectiveness as well: the -2CS limit is used as a guide for determining how well the hero can do these things.
+
+                  Example: Once inside the building, Deetee and Jay-boy discover a guard. Deetee casts an Illusion of Ringmaster and tries to hypnotize the guard. Her Incredible rank is reduced to merely Excellent when she tries simulate Hypnotic Control. Fortunately that is enough: the guard falls under the spurious Ringmaster's control.
+
+                  Powers that are a part of or can be simulated by Illusion-Casting include:
+
+                  D4/Force Field vs. Energy
+
+                  D12/Resistance to Energy
+
+                  DT3/Energy Detection (Light)
+
+                  EC14/Light Control
+
+                  EC18/Shadowshaping
+
+                  EE5/Hard Radiation Emission (UV Light)
+
+                  EE6/Heat (infrared Light)
+
+                  EE8/Light Emission
+
+                  EE12/Shadowcasting
+
+                  I1/Animate Image
+
+                  I3/Illusory Invisibility
+
+                  I4/Illusory Duplication
+
+                  L9/Hypnotic Control
+
+                  MCo1/Coloration
+
+                  M13/Hallucinations
+
+                  S6/Blending
+
+                  S12/Energy Sheath (Light)
+
+                  S20/Self-Vegetation
+
+                  S21/Shapeshifting
+
+                  A drawback in characters who have this Power is that they tend to become philosophical about the relationship between Reality and Illusion. Companions find themselves drawn into interminable arguments about what is real and what is not. Illusion-Casters may even begin to feel that they themselves are an Illusion being cast by some unknown being.
+
+                  Optional Powers include Energy Solidification, Telescopic Vision, and Clairvoyance.
+
+                  Nemesis Powers include Shadowcasting, Shadowshaping, Sonar, Radar, and closing your eyes.
+            Lifeform Control:
+              Biophysical Control:
+                Description: &Biophysical_Control |
+                  The hero has the ability to consciously alter the physiology of a target. This is accomplished by sheer force of will and does not require any physical action on the hero's part, aside from touching the target. The Power can be used at a distance but each 10 feet separating the hero from the target reduces his effective Power by -1CS. The Power is normally concentrated on a single target, but the hero can affect as many targets as he desires. Each additional target also decreases the rank -1CS.
+
+                  For example, trying to affect two targets at a distance of 10 feet drops the hero's rank -4CS (-2CS per target).
+
+                  The result of any form of this Power is permanent. (What's the point of healing somebody if he's just going to drop dead later, right?) The actual ongoing effects continue for as long as the hero continues to use his Power. Once this is done, the target's natural healing abilities and rates revert to normal. There are seven forms of Biophysical Control, each with its own set of effects. The first four forms are benevolent, the last three are maievolent. Heroes who use the malevolent forms against sentient beings risk Karma and Popularity loss. When the hero is created, the player must choose one of these forms. He can select one or let the dice decide for him.
+
+                  Optional Powers include another form of this Power.
+
+                  The Nemesis is either Immortality or Serial Immortality.
+              Exorcism:
+                Description: &Exorcism |
+                  The hero can release a being from any external domination imposed by a third party. Such controls include Possession, Mental Domination, Serial Immortality, and Magic. If there's a control, this Power can break it. This Power rank is compared to that of the Power controlling the subject. A Typical Intensity FEAT can sever a lower ranking control Power. A Remarkable Intensity FEAT severs a controlling Power of equal rank, and an Amazing Intensity FEAT severs one of one or more ranks higher. Upon severing the being's control over the subject, that being is immediately teleported to its home dimension.
+
+                  This Power commonly appears as a spell used by sorcerers and holy men.
+
+                  The hero must be within 10' of the subject in order to perform the Exorcism.
+
+                  The hero can use this Power to resist the initial attempt by another to control him, but if this attempt fails (as per the FEATs listed above), he cannot Exorcise himself later.
+              Forced Reincarnation:
+                Description: &Forced_Reincarnation |
+                  The hero can capture disembodied spirits and merge them into new bodies. The spirits can be the newly-dead, ghosts, or Free Spirits. The bodies can be anything: newborn infants, clones, androids, robots, animals, or plants. Because of the Power's interference, the reincarnated person retains his full memories and Mental Powers. The spirit is permanently bonded to the new body for as long as that body lives, unless the bond is deliberately broken by the spirit (a red Psyche FEAT) or by a hero with Exorcism Power (L5).
+
+                  The hero can indefinitely hold the spirit in stasis (one Typical Intensity FEAT per day should be sufficient) while seeking absuitable body into which he can transplant the soul. If the hero fails a FEAT, he has 10 turns in which to implant the spirit or lose it forever.
+
+                  The hero cannot transplant the spirit into a living, intelligent being-with two notable exceptions. As noted earlier, spirits can be placed within newborn infants. The hero can also accept the spirit into himself; the result is the hero now has a complete second person living in his head. The player now has to redo his character sheet to reflect the secondary set of characteristics for Reason, Intuition, and Psyche.
+
+                  When a character is reincarnated into a body, he retains his abilities of Reason, Intuition, and Psyche, and any Mental Talents and Powers. Physical abilities, secondary characteristics, Physical Powers and Talents, and Contacts are all lost. Contacts can be quickly regained by convincing the Contacts of who he really is (a Remarkable Intensity FEAT).
+
+                  Karma awards should depend on how well the hero has handled the spiritual transplant. Just dumping the spirit into the first available body can actually cost Karma, while going to extraordinary lengths to find the perfect situation entitles the hero to a hefty bonus.
+              Hypnotic Control:
+                Description: &Hypnotic_Control |
+                  This is a Talent in the Advanced Set. The hero can dominate a target's behavior and actions by implanting commands, not by direct psionic control. The Hypnotic command may pertain to current conditions or lie dormant until triggered by future conditions (post-hypnotic suggestion). Hypnotic controls come in two forms:
+
+                  Normal hypnosis cannot make a person perform any action that goes against his sense of ethics. However, the Power of Hypnotic Control can override the target's innate sense of morality by means of a red FEAT. Less conflicting commands involve only a green FEAT. Hypnotic Control can be established by any one of a number of means. These include specific gestures, words, songs, or devices. When creating the hero, the Player determines which method the hero uses.
+
+                  The Intensity and duration of a Hypnotic Control are determined by the Power rank. In the case of post-hypnotic Suggestions, duration does not include the time prior to activation of the suggestion, but only the time the suggestion is actually in force.
+              Mind Control:
+                Description: &Mind_Control |
+                  The hero has the ability to directly control a target's mind through psionic Powers. The hero completely overrides the will and perhaps even the conscious mind of the target. There are four forms of Mind Control:
+
+                  The Power rank determines the Intensity of the hero's control, the range at which he can establish and maintain that control, and the duration of the control.
+              Neural Manipulation:
+                Description: &Neural_Manipulation |
+                  The hero can alter a target's neural activity. By changing nerve messages within the target's body, the hero can cause a variety of effects.
+
+                  Normally, a hero can select any of these effects. When creating the hero, the player can choose to specialize in one effect for a benefit of +2CS. Note: This Power only affects the voluntary muscles; it does not affect the autonomic nervous system which controls the heart, lungs, and other automatic bodily functions. The range and duration of this Power are determined by its rank. Suitable distances are shown on column A of the Range Table. The Power normally affects only a single person; affecting more causes a decrease in duration of -1CS per additional person. The target's mind and senses are unaffected by the Power: the victim knows full well what is happening (even if he doesn't know why it's happening to him). The Power can reach across the dimensional barriers if it is combined with some way of breaching the dimensions. It can function normally if both hero and target are within another dimension.
+              Plant Control:
+                Description: &Plant_Control |
+                  The hero can impart limited movement and self-awareness to normally unintelligent plants. The plants obey simple commands, and possess rudimentary communication and senses. The hero can accelerate the plants' growth somewhat, but cannot make it exceed normal limits on size or shape.
+
+                  Rank determines the number of plants affected and the duration of the control. Exceeding the number of controlled plants decreases the duration -1CS per additional 10%. Controlled plants have their own characteristics and ranks that are increased to the hero's Power rank, where applicable.
+              Plant Growth:
+                Description: &Plant_Growth |
+                  The hero has the ability to make plants grow nearly instantaneously, and far larger than normal. The Power can force a seed to sprout immediately and gives it the ability to thrive, even in the absence of normal nutrients (light, soil, and water). The hero can affect existing plants and seeds or use seeds and sprouts carried with him. In the latter case, the player must make a list of the types of seeds the hero carries oust as a weapons specialist needs a list of those with which he is proficient.
+
+                  This Power does not change the natural abilities of the affected plants; it only enhances them up to the Power's rank. This Power requires the player to develop some rudimentary knowledge of botany, since the more the player knows about plants, the more stunts the hero can perform. Typical plants used with this Power are:
+
+                  Power rank determines the speed of plant growth and the rank of the affected plant's abilities. Growing a plant in normal conditions (adequate light, soil, and water) requires a Typical Intensity.FEAT. Growing plants in less than adequate conditions (insufficient light, soil, or water; typical urban conditions) requires a Remarkable Intensity FEAT. Growing plants in openly hostile conditions (no light, soil, or water) requires an Unearthly Intensity FEAT. Because their metabolism is accelerated by this Power, the plants quickly die. The lifespan is 1/8 normal. As a rule of thumb, the player can use these guidelines for normal and accelerated lifespans:
+
+                  The point of this is that your hero doesn't have to worry about filling the city with giant plants left over from old battles. He might still be in trouble with the Park Department, though…
+              Sleep-Induced:
+                Description: &Sleep-Induced |
+                  This is a nice, simple, straight-forward Power that is hardly ever used in any comic because it's not terribly dramatic. Nor is it exactly cricket. The hero has the ability to put any target into a deep sleep, from which he cannot awake while the Power is in effect. During this induced sleep, the target is completely helpless (see what I mean about not being cricket?). On the other hand, when you're facing 325 battle-crazed Skrulls, this Power can be really handy.
+
+                  The Power rank determines the range and duration of the Power. Relevant distances are shown on column A of the Range Table. It affects everyone within range. Sleep persists for 1-10 hours after the Power's duration. During that time, the victim can be awakened by anyone, but he'll wake up naturally in any case.
+              Summoning:
+                Description: &Summoning |
+                  The hero can summon and control extra-dimensional, corporeal beings. Such beings are commonly called "demons" but may be of any nature or disposition.
+
+                  The Power enables the hero to summon any known extra-dimensional being, Provided his Power rank is higher than the being's Psyche rank, on a green FEAT. Equal ranks require a yellow FEAT. Trust me, you don't want to summon beings more powerful than you (they might answer), but if you do it anyway, you need a red FEAT. The summoned being is instantly teleported from its home dimension to a spot chosen by the hero. Once summoned, the being must perform a single task ordered by the hero. being must immediately set about fulfilling the order. If successful, he can immediately depart for his home dimension.
+
+                  Players should refer to MHAC9, Realms of Magic, by Kim Eastland for a detailed list of beings this Power can summon. Normally, heroes will only summon magical creatures like demons and elementals. If a hero feels particularly confident, though, he might be able to call magical characters like Clea and D'Spayre. Heroes can never summon entities, although one might pretend to answer a summoning on a lark.
+
+                  This Power summons one being at a time. Each additional being decreases the Power's rank by -1CS.
+
+                  Remember that most magical beings are intelligent and that many are hostile to humans. The being a hero summons today might hold a grudge against him for eons to come.
+            Matter Control:
+              Crystallization:
+                Description: &Crystallization |
+                  The hero can transform any target material into a gemlike material that possesses Power rank material strength. Crystallization occurs because the hero has the ability to shape the molecular bonds of normally amorphous matter into a crystal matrix of great strength. The Crystallization can occur at any site within the hero's line of sight and range; distances are determined by the Power rank and can be found on column C of the Range Table on the inside cover. The newly- formed Crystal is initially stationary; it cannot be launched like a missile (unless the hero possesses Missile Creation, but I'm getting ahead of myself). It can be formed in such a position that gravity immediately affects it.
+
+                  Crystallization automatically affects non-living, unprotected, stationary targets. Moving targets require the hero to make an Agility FEAT in order to hit the target. If Crystallization is used as an attack against a living target, it can be resisted by the usual methods. Methods of protecting a target from being Crystallized include Force Field vs. Energy Attack, Resistance to Energy Attack, True Invulnerability, and various Magics and Power Controls.
+
+                  Crystal can be formed in any shape the hero desires. The amount of Crystal the hero can create in a single turn is the number of square feet equal to the Power rank number. The material to be transformed into Crystal is drawn from particles in the air or from the target itself. Solid targets can themselves be Crystallized. If the Power is used on a living target, innate safeguards incorporated into the Power place the target into a semi-state of Suspended Animation; all life functions temporarily cease but the target remains aware of its condition and surroundings. A Crystallized lifeform must remain intact if the process is to be reversed. If the Crystallized lifeform is shattered, the transformation is permanent. Note: the shards-of a shattered, Crystallized lifeform all possess some of the victim's lifeforce; the percentage of the victim's Psyche possessed by a particular shard is equal to the percentage of the original body represented by the shard. Such shards can be used to create powerful Magic. Such shards can also lead to later Plot Complications. ("You don't understand. The gem in the necklace I gave Helen was part of Leviathan!")
+
+                  Normally Crystallization is only temporary. The duration of a given Crystal is the number of minutes equal to the Power rank number. At the expiration of this time, the Crystal reverts back to its original material. If the Crystallization was directed in the air the original material was probably dust particles. As mentioned earlier, if the Crystallization was used to transform a living target and that Crystal was subsequently shattered, the transformation is made permanent. (This rule is purposefully intended to spare the Judge and players from dealing with the hamburger that would be created if the formerly living target did revert to its original state.) For game purposes, the category of "living target" can be expanded by the Judge to encompass any of the Physical Types for player characters and NPCs.
+
+                  The Power can be combined with other Powers listed in this book. As mentioned before, Missiles can give the Crystals momentum and range. Weapons Creation can specialize in crystalline instruments of destruction. Body Armor or Body Coating can be a suit of flexible crystalline armor with that gives Power rank Resistance to physical or energy attacks. Vision-based Detection Powers can be achieved by the hero spontaneously forming optical devices and lenses of crystal. If the hero has an exotic Physical Type, perhaps he can himself be composed of living crystal. Such categories include Modified Humans, Cyborgs, Robots, Abnormal Chemistry, Mineral, Compound, and Changeling.
+
+                  Optional Powers include Weapons Creation (limited to Crystal weapons only), Collection, Matter Animation, Missile-Creation, and Spray.
+
+                  Nemeses include Force Field vs. Energy Attack, Force Field vs. Physical Attack, Resistance to Energy, Resistance to Physical Attack, and Disintegration.
+              Geoforce:
+                Description: &Geoforce |
+                  The hero can detect and control geological forces. These include plate movement, stress, faults, and vulcanism. This Power only applies to natural rock and semi-natural materials such as concrete, cement, and asphalt. Radically altered material (steel, plastic) is not directly affected by the Power.
+
+                  This Power has two ranges, both based on the Power rank. The ability to detect forces and materials within the earth has a range shown on Column C of the Range Table on the inside cover. The ability to actually control those forces is more limited and is determined on Column B. For example, a hero with Remarkable Geoforce can detect forces 12 miles distant but can only control those forces within one mile of her location.
+
+                  The Detection aspect of this Power enables the hero to sense a variety of earth-related things. These include ground temperature (green FEAT), general mineral composition (green), specific minerals (red), locate caves (green), locate beings moving within the earth (yellow), identify faultlines and stress points (yellow), and communicate with beings made of rock (red).
+
+                  The active aspect of this Power enables the hero to accelerate, slow, or alter the direction of natural geological forces. The hero can affect plate movement; this can create Power rank tremors or reduce the intensity of existing tremors by the Power rank number. The hero can accelerate erosion by decreasing the Material Strength of exposed rock. The flow of magma within the earth can be redirected to anywhere the hero wants an instant baby volcano to erupt. By magnifying existing faults and decreasing the rock's Material Strength, the hero can create openings in the earth. These can be instant pits, valleys, caves, or tunnels.
+
+                  The effects of the Power are permanent alterations to the landscape. Baby volcanoes don't last very long, though, if the area didn't have a previous history of vulcanis,. For example, during her tenure with the New Mutants, Magma has created baby volcanoes in such places as Rio de Janeiro's harbor, the living room of Professor Xavier's man sion, and an apartment in Manhattan. Such freakish volcanoes immediately cool down once the Power is no longer supporting their existence; heat is lost at a rate of -1CS per hour. For example, the volcano in the X-Mansion was cool enough to sit on by the time Professor X came home a few hours later. It is assumed that the cooling effect extends all the way down back through the ground to where the magma came from in the first place; otherwise all these baby volcanoes would act as conduits for later, normal vulcanism.
+
+                  The amount of matter the Power can effect is awesome. The Power can affect a maximum amount of rock equivalent to ten tons for each point of the Power rank number. For example, Magma's Monstrous Geoforce can affect 750 tons (1.5 million pounds!) at a range of up to six miles.
+
+                  The Power can be expanded into a variety of Power Stunts, such as induced Avalanches and sculpting chambers in the earth. The latter example is also a way for the hero to make some money on the side by creating "secret underground headquarters" on commission. The giant caves that litter the pages of comic books do not occur in real life, people.
+
+                  A curious use of the Power is to communicate with beings who are themselves composed of natural rock. The Power provides the hero with a seismic equivalent of Telepathy. Such beings include Golems, Earth Elementals, and planetary beings such as Ego the Living Planet. Is Mother Earth alive in your campaign? If she is, then this Power will let your hero talk to her.
+
+                  The Nemeses for this Power include itself, Disintegration, and Phasing.
+              Molding:
+                Description: &Molding |
+                  The hero can shape any solid material into any desired shape. The shaped material retains its original chemical nature. If the target is living, its internal anatomy is rearranged in such a way that permits life to continue without loss of Health. The new shape can be of any complexity; even intricate machines can be created if the proper materials are available. The newly-Molded target can be Animated, even if the original material or the current shape is normally incapable of movement. This movement is accomplished by the simple act of continually re-Molding the target (think of it in terms of stop-motion animation).
+
+                  Molded targets retain their basic Material Strength. New shapes may alter the load-bearing capacity of the material. For example, a arch can bear greater weight than a plane and a honeycomb is about the strongest shape there is. Using the Power destructively is easy; using it constructively is harder and requires the player to have some knowledge of basic Engineering.
+
+                  The maximum range at which the hero can Mold a target is determined by the Power rank. Appropriate distances are. shown on Column A of the Range Table. The amount of material the hero can Mold is a mass weighing 100 pounds times the Power rank number. When creating the hero, the player has the option of raising either range or amount affected by lowering the other factor an equal amount. For example, a Remarkable rank can Mold 3,000 pounds of material at a range of 8 areas. Either factor can be altered by as much as 5CS and produce results as varied as Feeble range (contact)/Shift X effect (15,000 lb.) to Shift X range (80 areas)/Feeble effect (200 lb.). The player has the further option of raising the Power rank +1CS by specializing in Molding a particular type of matter, such as wood, metal, stone, and so on. This option is not available if the hero also possesses any of the Elemental or Molecular Conversion or Creation Powers.
+
+                  The complexity of the intended design determines what Reason FEAT is needed. Simple, single-component designs require a green Reason FEAT. Complex or multiple-component designs require a yellow FEAT. Extremely complex designs (anything from a clock on up) requires a red FEAT and probably a set of blueprints. Exactly duplicating an existing object also requires a red Reason FEAT. The Power can function for as long as the hero can concentrate. Any failed rolls while attempting a FEAT mean that while the Power has begun to Mold the target, there is a problem because "something doesn't look quite right."
+
+                  Molding automatically affects any stationary, non-living, unprotected material. Moving targets require the hero to make an Agility FEAT to hit. Living targets are allowed to Resist this Power in the same way they would try to Resist any Energy Attack. As mentioned earlier, living targets can be affected but not directly slain by this Power. A target can be protected from being Molded by the use of such Powers as Force Field vs. Energy, Resistance to Energy, True Invulnerability, certain Magics and Power Controls, temporary Conversion to a liquid or gaseous state, or an equal or higher rank of Molding. The simultaneous use of a protective Molding Power to counteract an offensive one by continually re-Molding the target into its original shape would look positively psychedelic as the target of both Molders continually rippled and wavered.
+
+                  The Power can be used quite profitably to outfit either heroes or villains with all the arcane and exotic equipment they need. After all, Quinjets, body armor, and nuclear pogo-sticks aren't exactly off-the-shelf purchases. Clever use of this Power could raise the hero's Resource level anywhere from +1CS to +4CS; the Judge and player will have to work this out for themselves. ("Okay Jeff, in yesterday's game you remodeled the HQ of Dr. Octopus. Today you try to collect what he owes you.")
+
+                  Optional Powers include Elemental and Molecular Conversion, Collection, and Crystallization.
+
+                  Nemeses include Force Field and Molding.
+              Weather Control:
+                Description: &Weather_Control |
+                  The hero has complete control over the weather. He can sense those factors in the air that create weather and alter any aspect of them at his desire. Any of these factors can produce both physical and psychological effects on humans.
+
+                  He can control temperature by raising or lowering the air a maximum number of degrees equal to his Power rank number. For example, an Incredible rank can change a comfortable 70 degrees into a wintry 30 degrees or a sweltering 100 degrees.
+
+                  He can increase or decrease windspeed by a number of miles per hour equal to his Power rank number. For example, an Excellent rank can stop a 20-mph wind, slow a 50-mph gale to 30mph, or turn still air into a 20-mph wind. Gale winds of 40-mph or higher begin to make travel difficult. Whole gales of 55 to 72 mph begin to do widespread damage. Winds above 72 mph reach hurricane strength. Above 200 mph the wind becomes a tornado.
+
+                  Wind direction can be changed up to 60 degrees by a green Power FEAT, up to 120 degrees by a yellow FEAT, and completely reversed 180 degrees by a red FEAT. For example, changing a cool northern wind to an east wind is a change of 90 degrees, a yellow FEAT.
+
+                  Humidity can be increased or decreased a maximum percentage equal to the Power rank number. Note: the maximum humidity is 100%. Apparently humidity has some effect on human behavior and health. As humidity approaches 80% or higher, people become more sluggish and irritable, especially if the air temperature is also 80 degrees or higher.
+
+                  If the air has any moisture at all, the hero can Collect it into any type of cloud, whether Cirrus, Cumulus, Stratus, a common Fog, or any other type. He can form Nimbostratus clouds that continually disgorge moisture in the form of rain, hail, sleet,-or snow, depending on the air temperature and wind direction. Rainfall per hour can reach a maximum number of inches equal to the Power rank number. If the precipitation falls as snow, the snowfall depth is equal to six inches for each inch of rainfall (since snowflakes pack less densely than rain). The Power can form Cumulonimbus clouds into thunderheads that deliver lightning as well as rain. The hero can control the emission and direction of lightning, producing bolts that do rank damage.
+
+                  The area of weather over which the hero has control is a circle (a vertical cylinder actually) with the Weather Controller at the center. The diameter and height of this cylinder is determined by the Power rank. Appropriate distances are shown on Column C of the Range Table. For example, when she possessed her full Amazing Weather Control, Storm could control the weather over a fifty-mile wide area. Note: While the atmosphere is composed of four layers and is a few hundred miles deep, only the bottom layers of the troposphere and stratosphere really affect the surface weather. Beyond twenty miles in height, the Power is reduced to a negligible effect.
+
+                  The duration of the effect the Power has over the weather varies. The hero has a limited amount of time each day she can actively Control the weather. The maximum length of time is the number of minutes equal to the hero's Health. Each minute spent using this Power temporarily costs the hero one point. Note: this does not decrease the hero's actual Health; instead it decreases a "dummy account" set up for the purposes of the player's bookkeeping. The account is replenished at the start of each new day. Returning to the example of Storm, her Amazing rank enabled her to actively control the weather fifty minutes each day. Furthermore, the effect the Power has over the weather does not instantly vanish when the hero rests. The changes the hero made continue for a while before things return to their original state. Lingering effects last an amount of time equal to the time spent actively controlling the Weather. The Intensity rank of the lingering Weather slowly decreases; the average Intensity rank is half that of the Power rank. For example, if Storm spent ten minutes operating a thunderstorm, that storm would last an additional ten minutes and produce Excellent rainfall and lightning while it slowly dissipated.
+
+                  As mentioned briefly, the hero can detect any aspect of the Weather that he can control. A green FEAT enables the hero to know the local wind's speed and direction, humidity, temperature, the chance for precipitation, and the next day's weather forecast. A yellow FEAT enables the hero to detect these thing anywhere within her Power's range and thus figure out the weather forecast for the next two days. A red FEAT enables the hero to make three-day weather forecasts and more importantly detect the cause and location of any change in the weather, such as distant disturbances or the use of this Power by others elsewhere. For example, with a yellow FEAT the hero senses a mass of hot air twenty-three miles away. A red FEAT enables her to detect the cause as a fire raging in New Rochelle.
+
+                  A peculiar use of the Power involves gaseous beings such as Air Elementals. The hero can create puppets of air whose actions simulate the behavior of Air Elementals. The hero can directly combat real Air Elementals with the Power doing rank damage to the opponent's Health. Imagine this as a vaporous equivalent of a Slugfest. Finally, the Power can serve as a means to communicate with gaseous beings. In this case the Power acts as an equivalent to Telepathy.
+
+                  Optional Powers include Environmental Awareness and either True Flight, Whirlwind, or Gliding.
+
+                  Nemeses include itself and Phasing, since Weather cannot affect a phantom.
+            Matter Conversion:
+              Molecular Conversion:
+                Description: &Molecular_Conversion |
+                  The hero can transform any material into a desired compound. This Power is an enhanced version of Elemental Conversion. Whereas that Power could only create a single specified element, this Power can create a number of elements simultaneously and arrange them in a desired molecular configuration. The matter to be converted can be composed of any element, compound, or combination thereof. The elements that result can be any of the hundred-odd natural, artificial, and mythical elements. The compounds they form can likewise be real or mythical. An example of a fictional compound is the alloy Adamantium, a steel alloy that only exists in the Marvel Universe. Mythical compounds or compounds that incorporate a mythical element (like Vibranium) require a red FEAT to create. Note: it has never been established whether Vibranium is an element or a compound; while I choose to refer to Vibranium as an element, Judges are free to decide for themselves whether it is an element or a compound in their campaign. Most other compounds require either a green or yellow FEAT to create. The more complex a compound's formula is, the harder it is to create. As a rule of thumb, a compound whose molecules incorporate from two to twenty atoms can be created by a green FEAT. A compound with molecules of from twenty-one to one hundred atoms, or alloys of various compounds, requires a yellow FEAT; examples include hydrocarbons. More complex molecules or alloys require a red FEAT; examples include polymers, proteins, and other compounds essential to life. Obviously, playing this Power requires knowledge of basic chemistry. At the least the player must have a crib sheet filled with various useful compounds and their formulas.
+
+                  The hero can after a finite amount of matter each turn. The mass limit is the number of pounds equal to the Power rank number. The amount of matter converted weighs the same either before or after Conversion. The heavier the resulting compound, the smaller its volume. Conversely, the lighter the compound, the more volume it has. This simple fact can be exploited as a variety of Power Stunts. For example, a fist-sized rock can be transformed into a roomful of the mixture of gases we humans consume as air.
+
+                  The maximum range at which the Power can affect a target is determined by the Power rank; distances are shown on column A of the Range Table. At the time the hero is created, the player has the option of increasing either the Power's range or amount affected by decreasing the remaining factor an equal amount. For example, an Amazing rank can Convert 50 pounds at a range of 20 areas. Either factor can be modified by up to 7CS. This can produce such extreme combinations as Feeble range (Contact only) and CL3000 effect (3000 pounds per turn) or CL3000 range (10,000 miles) and Feeble effect (two pounds).
+
+                  The player also has the option of increasing the Power +1CS by making its effect temporary. Normally, Conversions are permanent or at least remain until a reverse Conversion occurs. If the player chooses the temporary option, the Conversion only lasts a maximum number of turns equal to the hero's Reason rank number. While permanent Conversions may be fatal to living targets (it depends on what was Converted and what the result was), the temporary form has the side-effect of placing the target area into a form of Suspended Animation until the Conversion wears off. Of course, the Conversion can have severe, even fatal, effects on the rest of the living target if the entire body is not Converted.
+
+                  The target must be in line of sight of the hero for the Conversion to occur. The Power can function even if a normal, transparent barrier such as glass separates the hero and the target.
+
+                  The minimum amount of material that can be affected by the Power is limited only by the hero's eyesight. In practical terms, the smallest size a Normal Human can see is 1/128th of an inch. Below that requires the use of something to enhance the hero's vision.
+
+                  Stationary, non-living, unprotected targets are automatically affected by this Power. Moving targets require an Agility FEAT in order for the hero to hit the target. Living targets are allowed to resist Molecular Conversion just as they would any Energy Attack. Targets can be protected from being effected by this Power through the use of other Powers including Force Field vs. Energy, Resistance to Energy, True Invulnerability, various Magics, and various Power Controls. Such Powers will completely protect against a lesser or equal rank Molecular Conversion and offer partial protection against higher ranks. The Judge is free to decide the results of partial protection.
+
+                  Optional Powers include Matter Animation and Molding.
+
+                  Nemeses include Force Field vs. Energy, Resistance to Energy, and True Invulnerability.
+            Matter Creation:
+              Artifact Creation:
+                Description: &Artifact_Creation |
+                  The hero can create a desired object from virtually nothing. The artifact can be of any substance, and is limited to being composed of a single piece. Although the Power can create facsimiles of more complex construction, close examination reveals that all the smaller pieces are fused together. However, the hero can create complex items by forming them one piece at a time.
+
+                  The hero can create in one turn a number of ounces equal to his Power rank number. The durability of the artifact is determined at the time of creation. A green FEAT gives the artifact a lifespan of the number of turns equal to the hero's Reason rank number times 100. A yellow FEAT raises it to 10,000 times the Reason rank number. A red FEAT makes the artifact permanent.
+
+                  Each ounce of created matter temporarily costs the hero one Health point. The hero can regain all his lost Health points after 24 hours. Thus, the hero can only create a number of ounces in a single day equal to his Health point total. The hero must have detailed knowledge of the design of whatever he wants to create. He can only store a finite number of designs in his mind at any one time. The limit for this Power is equal to his Reason rank number. The player must keep a record of which items the hero knows how to create. The list can be changed at any time. A green Reason FEAT gains the hero a new design. If no memory slots are available, the new design replaces an old one. ("That's okay; how many more Dr. Doom masks was I going to need, anyway?")
+
+                  Editor's Note: Matter Creation Powers that create specific items (as opposed to raw matter) bring with them a specified number of memory slots, usually equal to the hero's Reason rank number. If a hero should have two of these specific Matter Creation Powers, he would then have twice the number of memory slots (equal to his Reason rank number times two once for each Power).
+
+                  Normally the Power is used to create facsimiles of objects that already exist. These can be directly studied by the hero as he memorizes their designs. This takes at least ten minutes before attempting the FEAT. Failure requires another ten minutes of study, and another attempt. As you can guess, their hero might never be able to master certain designs.
+
+                  The hero can also create new designs based solely on his own imagination. Since this requires really intense concentration, a red Reason FEAT is needed to store this design.
+
+                  The artifact has the same properties as a normally manufactured item of its type. In the case of altered or imaginary designs, the player and the Judge should agree on reasonable statistics for the item in question.
+
+                  The hero can materialize the artifact at any site within one area. The artifact is initially stationary; you can't launch an artifact as you can a missile or a spray. The hero can take advantage of gravity, though, by materializing the artifact uphill or over a target.
+
+                  Now that you've read all the rules so far, I'll give you the one exception to the weight limit. When creating the character, the player can choose to specialize in creating a single copy of one specific item, like a suit of armor or a costume. In this case, the weight limit is raised from one ounce per Health point to one pound per Health point. Red FEATs are treated as yellow FEATs.
+
+                  This Power includes versions of Elemental and Molecular Creation. Each element and compound takes up a memory slot, just like the daggers and shields that are already cluttering the hero's mind. Such raw matter can be formed in any shape, though. This permits the hero to change the composition of any of his already-memorized designs. For example, if he already has memorized a knife design and the nature of silver, he can make either a steel knife (like the one he memorized) or one made of silver. The hero can create facsimiles of living matter, but such facsimiles are not themselves capable of living. He can make a dead chicken, but not a live one; however, the one he makes will taste just as good. Being able to create corpse versions of yourself could be extremely handy, especially for villains out to confound the law.
+
+                  Optional Powers include a form of Matter Animation that is limited to matter created by the hero, and Hyper-Intelligence.
+
+                  The Nemesis Powers are Disintegration and Mental Domination, especially induced Amnesia.
+              Lifeform Creation:
+                Description: &Lifeform_Creation |
+                  The hero can create living matter and even complete bio-organisms from virtually nothing. The new life can be of any nature, although it can only possess Powers that are intrinsic to its physical structure. The size of the new lifeform is limited by its weight. The hero can create in a single turn a maximum number of ounces equal to his Power rank number. Since the lifeform cannot be assembled in several pieces, but rather must be done all at once, this limits how large the creation is. It can grow, though, if it has the time. The lifespan of this new creation is determined at its genesis. A green FEAT gives it a lifespan of 100 turns times the hero's Reason rank number. A yellow FEAT increases that to 10,000 times the number. On a red FEAT, the lifeform is permanent.
+
+                  Each ounce of created life costs the hero one Health point. All points lost in this way are automatically regained after 24 hours. In a single day, the hero can only create lifeforms whose total weight does not exceed his Health.
+
+                  The hero must have detailed knowledge of any organism he wants to create. He can only store a limited number of organic designs within his memory. The total number of memory slots available for this Power is equal to his Reason rank number. The player must keep a record of the organisms he can create. The list can be changes at any time. A green Reason FEAT gains the hero a new design. If there are no available memory slots, an old design is discarded to make room for the new one.
+
+                  Normally the Power is used to create facsimiles of existing organisms. The hero must make a detailed study of the original for at least one hour before attempting a FEAT to memorize it. A failure means the hero must study the organism for another hour before attempting another FEAT. With sufficiently bad luck, the hero may never be able to memorize certain lifeforms One note: This Power includes a mixture of Detection Powers that permit the hero to study a lifeform down to its atomic level without having to do anything harmful to that lifeform (like dissect it). The hero can create new lifeforms based solely on his imagination and basic knowledge of anatomy and physiology. This requires an active imagination, intense concentration, and a red FEAT to memorize a viable design.
+
+                  The newly born lifeform has the same characteristics as a normally born lifeform of its type. In the case of altered or imaginary creations, the player and Judge should agree on a reasonable set of statistics for the being in question. This Power also includes versions of Elemental and Molecular Creation. This can be used to create raw biological materials or foodstuffs; examples include sugar, blood, protoplasm, and so on. Each material takes up a memory slot. The hero can materialize his creation at any site within one area. The new life is initially stationary but can immediately begin to move under its own power. Like the rest of the Matter Creation Powers, this Power is stopped by the first barrier between the hero and the site of his intended target. So, no, people-you can't have your hero inject nasty germs directly into his opponent.
+
+                  As stated before, this Power can create living replicas of actual beings. The minds of such beings are not as complex as the original, and lack most of the original's memories and all Powers that are not strictly Physical in nature. For game purposes, new life has the following statistics:
+
+                  Only physical Powers are duplicated. Talents' are lost as are Contacts, unless the Contact seeks out the duplicate.
+
+                  New life can learn, if it lives long enough. It can even raise its abilities and gain simulations of other Powers the original possesses. The Judge should set his own standards, based on what type of beastie the hero has come up with.
+
+                  Here comes the exception to all that's been written here so far. When creating the hero, the player can opt to specialize in creating one unique being, like a Pegasus or a She-Hulk of the hero's very own. (No more trouble getting dates for this guy…) In that case, the weight limit is raised from one ounce per Health point to one pound per Health point. Red FEATs are treated as yellow FEATs, thus the hero is required to periodically recreate his chosen companion. Such a continually created being retains its memory from creation to creation and can learn and develop just like any normal lifeform. Any damage suffered by this being disappears when it is summoned anew. If slain, the being immediately disintegrates and its statistics (when it is summoned again) drop to their original levels. The hero should also incur a hefty Karma loss if he was directly responsible for his companion's death.
+
+                  If the hero possesses other Powers, the player can assign them to whatever lifeforms the hero can summon. This is an interesting possibility for creating unique characters, especially if Specialization is chosen.
+
+                  Optional Powers include forms of Telepathy, Mental Domination, Animal Control, and Plant Control, all limited to lifeforms created by the hero.
+
+                  These same Powers are also the Nemeses.
+              Molecular Creation:
+                Description: &Molecular_Creation |
+                  This is a more powerful form of Elemental Creation. The hero can form several elements simultaneously and form them into any desired compound. The hero can form this on any target within one area. He can create in one turn a number of ounces equal to his Power rank number. For example, at Poor rank he could form only four ounces in one turn. The durability of the newly created compound is determined by a FEAT at the time of creation. A green FEAT gives the material a span of a number of turns equal to 100 times the hero's Reason rank number. A yellow FEAT raises the multiplier to 10,000, and on a red FEAT the material is permanent.
+
+                  Each ounce the hero creates temporarily costs him one point of Health. The hero can regain Health points lost in this way after a 24-hour period including eight hours of sleep. Thus, the hero can create only a number of ounces per day equal to his total Health points.
+
+                  Example: Synthos is visiting a primitive culture and decides to give them a gift of useful bronze. His Power is Excellent (20) and his Reason is Typical (6), but his Health is only 50. On his first try, he makes only a green FEAT. That batch of 20 ounces disintegrates in 600 turns (1 hour). He tries again, making a yellow FEAT this time. That's not much better; the batch of 20 ounces disintegrates in four days. His honor on the line, Synthos tries again. He succeeds with a red FEAT. However, his depleted Health only permitted him to create 10 ounces of bronze. Synthos is unaware of this, having passed out from the strain.
+
+                  The hero can use this Power as an attack by trying to form the new material on a chosen target. Such targets can try to dodge. If they succeed, the material forms in their previous position. The hero must be in line of sight of the target. He cannot form material within a target's interior or through any barrier between himself and the target. Synthos, for example, could not form plastic explosive within a Sentinel, unless someone left an inspection hatch open where Synthos could see it.
+
+                  In order to fully play this Power, the player needs to know some basic chemistry, especially the physical properties of various compounds. The hero can develop Power stunts such as:
+
+                  This Power includes the ability to form single elements as in Elemental Creation. This is an innate (not a Bonus) Power. Optional Powers include Matter Animation in any single form and Mechanical Animation. The Nemesis Powers are Disintegration and Matter Animation (all forms, simultaneously).
+            Mental Enhancement:
+              Cosmic Awareness:
+                Description: &Cosmic_Awareness |
+                  The hero is in tune with the entire scope of reality. He possesses a detached, omniscient viewpoint that allows him to explore the entire existence of a chosen subject. Unfortunately, this causes such a massive overload of superfluous information that the hero is hard pressed to sort it all out. The FEAT represents the hero's ability to recover a specific bit of information from all the effluvia. The more exact the required detail, the higher the difficulty. Discovering basic facts or locating any one on the Earth requires a green FEAT. Complex information or finding anyone within a star system requires a yellow FEAT. Secrets, weaknesses, arcane knowledge, and anything else the Judge wants to make difficult to find out requires a red FEAT.
+
+                  The Power can be used to automatically track any Class 1000 or higher Power within ten miles of the hero's position. In combat the Power raises the hero's own attacks +1CS by detecting the weak points in the opponent.
+
+                  The major drawback to this Power is that can lead to insanity, especially catatonic withdrawal, as the hero's Psyche is continually inundated by a flood of information. The Judge can determine the chance of temporary insanity by secretly making a Reason FEAT for the hero: a green, yellow, or red FEAT means the hero has retained all his marbles for another day. The Judge should make this check any time the hero uses the Power more than five times a day or a number equal to 10% of the Power rank number, whichever is higher. Because of this, caution is urged in the use of this Power. If the Power is somehow negated, the hero may also go into a state of shock or severe depression. Any mental problems the hero suffers can be cured by normal psychotherapy.
+
+                  The Optional Power is [Hyper-Intelligence](#hyper-intelligence).
+
+                  The Nemesis is [Emotion Control](#emotion_control).
+              Dreamtravel:
+                Description: &Dreamtravel |
+                  The hero can actually enter into the short-lived pocket dimensions created by a person's dreams and nightmares. These dreamworlds are outside the boundaries of normal reality and exist solely as a reflection of the dreamer's imagination.
+
+                  The Dreamtraveler must be within ten feet of the dreamer in order for the Power to function at full rank. The Power rank decreases -1CS for each additional 10 feet that separates the two.
+
+                  The Dreamtraveler has no direct control over the conditions within the dreamworld. He can interact with things within that world by performing "physical" actions much as he would in the real world. Fighting, Agility, Strength, and Endurance are all represented by this Power's rank. If the hero has other Powers, these exist in equivalent forms that possess this Power's rank instead of their own. The Dreamtraveler can suffer real damage as a result of events that affect him within the dreamworld. He might even die. The equivalent of the damage appears in the hero's real body.
+
+                  Normally the hero's real body retains its solidity during Dreamtravel. The player can raise the rank +1CS by making the hero's body dematerialize whenever the Power is used. In this case, if the hero is slain or trapped within the dreamworld, the body might never reappear.
+
+                  Each dreamworld is unique to the specific dreamer and retains no existence except during the act of dreaming. Dreamworlds are not the same as the Dream Dimension, although it is possible they exist within the greater Dream Dimension. It is possible that dreamworlds touch each other and may even overlap in the case of telepathic dreamers. If so, it is possible that the Dreamtraveler can enter one dreamworld and exit one of someone else's.
+
+                  The Optional Power is a form of Telepathy limited to dreamers.
+              Empathy:
+                Description: &Empathy |
+                  The hero can detect the surface emotions of others. The hero can detect the target's emotional state and further refine that knowledge to discover the target's physical state, surroundings, and location, insofar as these have an influence on the emotions. He can transmit his own emotional state but he cannot impose this on others (that requires Emotion Control).
+
+                  Empathy is extremely useful when the hero has to deal with non-sentient beings or large numbers of people. It can read the target's mood and support already existing emotions. The range can vary within a single Power rank. The distances shown on column B of the Range Table refer to a single target. Each additional target reduces the range -1CS. Range never falls below Feeble, even if the hero is trying to read the emotions of a crowd. The Power functions for as long as the hero concentrates on using it. The hero can send 'Empathic, messages by means of a Power FEAT. The message is in the form of a burst of emotion accompanied by a subtle identification of the Empath. A green FEAT transmits to a known person and location. A yellow FEAT transmits to a known person in an unknown location. A red FEAT is the Psionic equivalent of a general announcement. ("Did you feel that? Felt like somebody was really scared… Wait a minute. That was Sender. He needs us!")
+
+                  Optional Powers include Clairvoyance and Emotion Control.
+
+                  The Nemeses are Mental Invisibility and either Force Field or Resistance to Psionics.
+              Iron Will:
+                Description: &Iron_Will |
+                  The hero has complete conscious control over his mind and body. By using his Iron Will, the hero can temporarily halt the damage done by mental or physical attacks: he can even postpone his own death.
+
+                  Iron Will can be used in place of any lower-ranked Ability to determine Resistance to an attack. Any time the hero suffers damage from an attack, the Power can temporarily absorb it before it can affect any of the hero's Ability ranks. The maximum amount of damage Iron Will can absorb at one time is equal to its rank number. Absorbed damage does not affect the hero at that time. Damage exceeding that amount affects the hero in its normal manner. The hero can maintain his Iron Will indefinitely but will eventually have to relax his self-control in order to heal and renew his Power. Letting down his control causes him to immediately suffer a loss of Health points equal to one half the amount of damage Iron Will had absorbed. Regardless of the original nature of the attack, it is always translated into lost Health points: this reflects the strain the Power places on the body. Once the translation occurs and the Iron Will has been purged of its burden, it is able to absorb new damage. The cycle of absorption/purging/ absorption can continue until the hero's Health drops to zero or below. Note: The Power. can still absorb damage, even if the conversion of that damage into Health points will result in the immediate death of the hero. In such a case, the hero had best make sure he is already in an excellent Trauma Center when he relaxes his Power.
+
+                  Example: Sunstone is battling the Marauders and not doing too well. He possesses Incredible Iron Will and has 100 Health points. Harpoon hits him with a Slayspear: this does 40 points of damage. Iron Will absorbs it all but immediately reconverts it to a loss of 20 Health points. Sabertooth slashes and gnaws Sunstone for 60 points. Iron Will only absorbs the first 40, then immediately converts it. Health now stands at 40 points. Malice attempts to Possess Sunstone: Iron Will fends off the mental attack but at a cost of another 38 points. Sunstone decides discretion is better than valor and flees. Scalphunter fires at the retreating figure and inflicts thirty more points of damage. Sunstone heads for the best-equipped hospital in the area. He manages to maintain his self-control until he is actually in the operating room, then he passes out as wounds suddenly appear across his body.
+              Linguistics:
+                Description: &Linguistics |
+                  This is a specialized form of Hyper-intelligence. The hero has the ability to rapidly learn any language if sufficient material is available for him to work with. Once the language is mastered, the hero is fluent in that language, provided he is physically capable of communicating in it.
+
+                  The number of languages a hero is currently fluent in is limited to the Power rank number. For example, Doug Ramsey's Incredible rank enables him to retain fluency in up to forty languages at a time. When a hero exceeds that limit, he begins to forget a previously mastered language. This will usually be some obscure tongue the hero has had little use for, like Basic Otter or Mephitish.
+
+                  The speed with which a hero can learn a new language is determined by its strangeness and what source materials are available. Current human languages require a Poor FEAT. Archaic human languages are a Good FEAT. Alien but Humanoid languages are Remarkable FEAT. Animal languages are an Incredible FEAT (note: not all animals have an actual language). Alien, nonhumanoid languages are an Amazing FEAT. The color of the FEAT is determined by the source of the language. A green FEAT is needed if the hero has access to actual instructional materials or a cooperative native speaker of that language who also speaks a language the hero knows. A yellow FEAT is needed if the hero has a native speaker who cannot speak any tongue the hero knows or if the hero only has non-instructional samples of that language. A red FEAT is needed if the hero has only fragments of the new language. For example, learning Shi'ar from watching a broadcast of a speech by Majestrix Lilandra is a yellow Remarkable Intensity FEAT. Learning spoken Primate by actually using sign language to talk with a chimpanzee requires a green incredible intensity FEAT.
+
+                  The hero can try a FEAT roll every hour. Failure means he simply has not yet gotten the hang of the new language. The only real drawback to the Power is that the hero may accidentally forget his native language, especially if he rarely uses it. Still, he can always re-learn it. There is a danger that an adversary might warp the hero's Linguistic Power and actually negate his language comprehension: in such a case, the hero becomes dyslexic and unable to understand simple English.
+
+                  A curious side-effect of the Power is that it provides Power rank Resistance to Hypnotic Voice and other sonic-based forms of Hypnotic or Mind Control. The hero's mind shifts into its translation mode: it studies the medium through which the hypnosis is communicated rather than the actual message. ("Lorelei, did you ever realize that your sleep command is a high C-sharp while your paralysis command is a high C-flat?")
+
+                  The Optional Power is Hyper-Intelligence.
+
+                  The Nemesis is Mind Drain.
+              Mental Probe:
+                Description: &Mental_Probe |
+                  The hero can telepathically probe a living mind or a psionic phenomenon to gain a detailed analysis of the target. Living minds can be searched for specific images and thoughts, although the hero must have a basic idea beforehand of what she is looking for. The target mind is allowed to make a Psyche FEAT to resist a Mental Probe. This is automatic, even if the target mind is initially unaware if the attempted probe. If resistance is successful, the probe is rejected with a headache-like backlash that prevents the hero from trying to probe that target again for 24 hours. A side-effect of the Power is that the target's Psyche may temporarily drop -1CS for 24 hours as a result of fending off the probe. This potential loss is determined by a second Psyche FEAT made after the initial resistance. A successful probe reveals only information known by the target.
+
+                  Mental Probes can be used to analyze independently existing psychic phenomena. Such things include poltergeists, psionic emissions that were so strong they permeated an area and now continually echo, and psionic Powers intercepted by the hero. The hero can examine any unknown psionic phenomena in stages. The first FEAT reveals basic information, such as the nature of the psionics in use. Further FEATs reveal increasingly detailed information.
+
+                  Mental Probes have a range determined by the Power rank. Maximum ranges are shown on column A of the Range Table. The player has the option, when creating the hero, of raising the Power rank +1CS by decreasing the range to contact-only.
+
+                  Optional Powers include Telepathy and Sensory Link. The Nemesis is Mental Invisibility.
+              Serial Immortality:
+                Description: &Serial_Immortality |
+                  A character with this Power can suffer damage, get sick, age, and even die. None of it is permanent to the character, though. When the hero's body dies from any cause, the unique nature of his lifeforce enables it to transfer to a new body. He can also transfer some but not all of his Powers to the new body. The hero loses all Karma with the death of the old body. There are five forms of Serial Immortality, each with a different means of rebirth and Power transferral. The player must choose one of these methods, either selecting for himself or letting the die decide.
+
+                  It is incredibly difficult to finally defeat an adversary with any form of Serial Immortality. The best the foe can normally hope for is to defeat the current body and then prepare for the next incarnation. It is possible to stop the infinite progression from body to body by preventing the hero from leaving his current body (suspended animation will do) or entering a new one (stranding the hero in intergalactic space is a good tactic). The lifeforce can be directly fought or even killed within the Limbo dimension.
+
+                  Sometimes a character with this Power can be forced out of his current body without that body getting killed in the process. The Judge is free to decide what conditions apply in his campaign; suggested moans revolve around coercion or such Powers as Magic, Power Controls, Force Field vs. Hostiles, Summoning, and Exorcism. Such Powers must exceed the hero's Power rank by 2CS in order to forcibly evict the lifeforce from the body. If successful, the lifeforce is driven into Limbo or a new body in a more peaceful location. As for the now vacated body, the results vary with the form and variety of Serial Immortality:
+
+                  The Nemesis is Exorcism.
+              Telekinesis:
+                Description: &Telekinesis |
+                  The hero can handle material objects without having to make direct or indirect physical contact (pushing or blowing, for example). The hero can perform any action that could be accomplished using normal Strength. The Power rank serves as an equivalent for the Strength rank. Most Telekinetics ("TKs") visualize their Power in terms of an amorphous arm extending from the body. This leads to a curious psychological handicap in that most TKs cannot lift their own bodies. Only rare examples like Marvel Girl have overcome this bit of irrationality.
+
+                  The range is determined by the Power rank. Column A on the Range Table shows the ranges for a single act of TK activity. Each additional simultaneous action reduces the range -1CS. Multiple activities share the common pool of TK strength. The more actions that are attempted, the weaker each telekinetic arm becomes. If the hero attempts to perform a greater number of simultaneous complex activities than the Judge thinks plausible, the Judge may require an Agility FEAT.
+
+                  If the hero also possesses Remote Sensing, she can develop a sense of touch through her TK grasp. This permits the hero to handle materials that are not within her sight. Clairvoyance can be incorporated into TK to permit visual guidance.
+
+                  Optional Powers include Matter Animation, Molding, Clairvoyance, Remote Sensing/Touch, Levitation, and True Flight.
+
+                  Nemesis is either Force Field vs. Psionics or Gravity Manipulation.
+              Telelocation:
+                Description: &Telelocation |
+                  The hero can Psionically locate a chosen target. This differs from normal Tracking in that no physical or sensory contact, however tenuous, is required. Consequently, the Power is not hampered by the concealment, erasure, or absence of the target's "scent." Telelocation can operate over immense distances. The only factors that can hinder the Power are those that diminish any Psionic activity.
+
+                  The range, determined by the Power rank, is shown on Column D of the Range Table. This represents a sphere centered on the hero: the quarry must be within it. The hero must have a stimulus to channel her Power toward a specific quarry. The nature of the stimulus determines the Power FEAT. A green FEAT requires contact with a part or possession of the quarry. A yellow FEAT requires the hero to have previous contact with the quarry.
+
+                  A red FEAT is required if the hero only has second-hand information about the quarry (and it had better be good).
+
+                  Optional Powers include Clairvoyance (limited to already located quarries) and Extradimensional Detection (which automatically combines with this Power to extend its range into other dimensions).
+
+                  The Nemesis is Mental Invisibility.
+              Telepathy:
+                Description: &Telepathy |
+                  The hero can communicate on a direct mind-to-mind basis. This is automatic with willing minds or Psyches with ranks lower than the Power rank. Equal Psyche ranks require a yellow FEAT. Minds with mental Powers or some form of Psionic defense require a red FEAT. Uncooperative beings with Psyches exceeding the Power rank are impossible FEATs.
+
+                  Range is determined by Power rank. Column D of the Range Table shows the limits. At Class 1000 the Power can breach dimensional barriers: this can also be accomplished if the hero combines Telepathy with Extradimensional Detection.
+
+                  In the main Marvel Universe, Magneto created a special magnetic flux in the Earth's magnetic field. His purpose was to hinder Professor X's efforts to locate him. The result is that terrestrial Telepathy is decreased -3CS in range with a minimum of contact-only. Actual Telepathic strength is unaffected by Magneto's interference. If the hero is beyond Earth's altered magnetic field, in the past, or in other dimensions, then the limit disappears and the Telepathy can assume its true range.
+
+                  When the hero is created, the player can raise the Power rank +1CS by choosing a limitation. Examples include either receiving or transmitting only (not both), communicating in only words or visual images (not both), or being limited to contacting only other telepaths and other Psionic types.
+
+                  Optional Powers include Empathy, Hallucinations, Mental Invisibility, Mental Probe, Mind Blast, Mind Drain, Sensory Link, and Psionic Detection.
+
+                  The Nemesis is Resistance to Psionics.
+              Total Memory:
+                Description: &Total_Memory |
+                  The hero has the ability to remember anything that he has ever experienced. This could be a book he's read, the faces of everyone he saw on Tuesday, what birth was like, and so on. The accuracy of his recall is his Power rank number treated as a percentage. Feeble is 2%, Excellent is 20%, and so on to automatic accuracy at Unearthly rank or above.
+
+                  The color FEAT reflects the nature of the memory being sought. Green FEATs involve personal memories. Yellow FEATs involve learning experiences. Red FEATs involve unconsciously gained information, such as the faces of everyone the hero saw on Tuesday.
+
+                  The Power is the perfect complement for Hyper-Intelligence by providing a built-in library. It can be used to simulate that Power, Hyper-Invention, or Weapons Tinkering, provided the hero once read texts that explained how to do things that come naturally to those with the other Powers. ("Well, I read Reed Richard's notes on constructing dimensional gateways, so if I just follow his plans we should be in the Negative Zone by next Monday night.")
+
+                  When playing a character with Total Memory, assume he is a voracious consumer of all media. It is to his advantage, after all. Such characters are also fond of quoting obscure texts or unconsciously reciting encyclopedia entries. The Power doesn't really alter either Intuition or Reason, thus these can be used as a guide for what the hero has probably read in the past. When the hero claims to have read a special text, the player is required to make a Reason FEAT to prove he has read something along the desired liner.
+
+                  Flashback is a real danger. If the hero was ever a victim of a mental attack, there is a chance the memory will accidentally resurface at a later time and the effect returns anew. Such flashbacks occur when the hero is somehow reminded of the original incident. The hero must make a green Psyche FEAT to avoid reliving the full effects of that other Power.
+
+                  Example: Phtomemry was under Ringmaster's Hypnotic Control for two days back in 1978. Today he saw a news report on Ringmaster's parole hearing. Suddenly the compulsion to rob jewelry stores returned.
+
+                  Optional Powers include Hyper-Invention, Hyper-intelligence, and Weapons Tinkering.
+
+                  The Nemesis is Mind Drain.
+            Physical Enhancement:
+              Body Resistance:
+                Description: &Body_Resistance |
+                  This is the form Body Armor most heroes want. The hero's body is composed of apparently normal flesh. However, the tissue of capable of withstanding major damage without showing any effects. The resistance covers physical and energy attacks only.
+
+                  The Intensity rank number of the attack is reduced by this Power's rank number. The remaining Intensity is the actual damage the hero suffers.
+
+                  While the hero's skin shows the effects of the tremendous abuse it suffers, at least it heals quickly. The Power enables the epidermis to heal at a tenfold rate.
+
+                  An Optional Power is [Regeneration](#regeneration).
+              Hypnotic Voice:
+                Description: &Hypnotic_Voice |
+                  The hero possesses a voice whose intrinsic qualities permit a hypnotic domination of the target's conscious and subconscious thoughts. The bulk of the hero's commands are sub-verbal in nature (it's not what she says, but how she says it).
+
+                  The hero can effect anyone within the sound of her voice. The optimum effect occurs within twenty feet of her location.
+
+                  The Power decreases -1CS for each additional twenty feet. Everyone within range must make an Intuition FEAT in order to resist falling under the effect of this Power. Failure means complete submission to the singer's command. Victims of the Power can make a new attempt to resist every ten turns. The Power can be used for as long as the hero concentrates on it. If a victim gets beyond the sound of the Hypnotic Voice, he can attempt to resist every five turns.
+
+                  The Power comes in two varieties, automatic and deliberate. The automatic form is a permanent modification to the hero's voice. Every time she speaks, the Power can function. The deliberate form requires the hero to consciously alter his voice to manifest his Power. The player must choose which form the hero has. The automatic form costs a decrease of -2CS to the Power rank.
+
+                  The Power's range can be extended by mechanical means like telephones and radio. Remote control has a decreased effectiveness of -2CS. Reproduction of the Hypnotic Voice is not quite as dangerous: the overall rank is decreased -4CS.
+
+                  The Power cannot control someone who cannot hear it. Deaf persons or those with altered senses are immune. Soundproofing, loud noises, and simply getting out of range are effective tactics against the Power. The Power has -1CS effect on non-humans. (When creating the hero, the player can raise the Power rank +1CS by limiting its effect to members of the opposite sex. For example, Lorelei can only affect men.)
+              Pheromones:
+                Description: &Pheromones |
+                  This is an aerosol version of Hypnotic Control. The hero's body can create and emit chemicals capable of altering a target's behavior. These chemicals vaporize instantly on contact with air and are received by the target's nose. The complexity of the commands can vary with the rank of the Power. The hero can readily affect anyone within twenty feet of him. The Power rank decreases -1CS with each additional twenty feet.
+
+                  The Power cannot affect those unable to smell it. This includes would-be targets who are upwind, behind a force-field, have their own air supply, don't breathe, or breathe but have no sense of smell. The last example includes a hero with the power of Lung Adaptability.
+
+                  When the hero is created, the player must decide whether the Power functions automatically or deliberately. The automatic form lowers the Power rank -2CS.
+              Self-Revival:
+                Description: &Self-Revival |
+                  The hero's Power is so strong that it can repair fatal damage and actually return the hero to life. The power functions despite the absence of life in the body. It repairs the major damage and replaces lost tissues at the same rate as Regeneration above. When the body is returned to minimum life sustaining condition, the hero comes back to life. This occurs despite any intervening time in which the hero was dead: from the hero's point of view, no time has passed.
+
+                  If the hero was dismembered, the Revival Power is concentrated on the largest remaining segment. The rest of the body decays normally. In rare cases, all body parts regrow. Depending on the size of the segment, each attains only partial redevelopment of growth, intelligence, and power. Even rarer are the cases where all the newly regrown bodies attain full development. Rarest of all is the case where all the new bodies share a single mind. The Judge can decide if he wants to allow such rare cases to intrude on his tidy campaign. This power contains aspects of Free Spirit and Matter Creation.
+
+                  The color FEAT reflects the amount of the body available for the Power to work with. A green FEAT means all the body is present aside from spilled blood. A yellow FEAT means all vital organs are present, although some of the less vital parts may still be missing. A red FEAT is required if at most one quarter of the original body is available. If less is available, Revival cannot occur.
+              Self-Sustenance:
+                Description: &Self-Sustenance |
+                  The hero can survive indefinitely without consuming air, water, or food. Bodily wastes are internally recycled back into useable materials.
+
+                  Normally the hero would not need to replenish himself when his power reached its limit. He merely resumes normal consumption habits (breathe normally, eat a light snack, etc.). This is the permanent form of the power. The temporary form requires the hero to consume mass quantities at the expiration of the Power. ("That's the fifteenth steak you've eaten, Fred. How long did you say it's been since you ate last?") The required intake is one-quarter what the hero would normally have consumed during the time he was abstaining. The hero can raise his Power rank +1CS by opting for the temporary form.
+              Stealth:
+                Description: &Stealth |
+                  The hero can move in ways that cannot be detected, whether while moving or if subjected to later tracking. When the hero uses Stealth, his rank is subtracted from the efforts of those detecting him.
+
+                  Example: Shadowfox has Excellent Stealth. He cannot be detected by Typical means (that is less than Shift-0). Unfortunately, it's Wolverine who's tracking him with Monstrous ability. Shadowfox's Stealth lowers Wolverine's chance of finding him to merely Good.
+              True Invulnerability:
+                Description: &True_Invulnerability |
+                  This is a combination of Resistances and Body Armor. The hero is immune to any physi cal harm, up to his rank's limit. The immunity includes the following resistances: fire, heat, cold, electricity, radiation, corrosives, disease, poison, brute force, sonics, and kinetic bolts. The rank of the Invulnerability reduces the rank of the attack form.
+
+                  Example: A Mandroid's Excellent laser would do only Feeble damage against Good Invulnerability, and none at all against Remarkable Invulnerability.
+
+                  The hero with this Power is still vulnerable to magical and mental attacks. If the hero should lose his True Invulnerability, his Fighting rank drops to Typical (he's not used to avoiding blows).
+
+                  The hero's appearance is not affected by this power; he appears to be a normal member of his race.
+              Vocal Control:
+                Description: &Vocal_Control |
+                  This might be considered a Talent rather than a Power, but here goes anyway.
+
+                  The hero has total control over his own voice and can use it to duplicate any desired voice of sound. The accuracy of the simulated sound is 100% within the Power's limit (determined by rank) on a green FEAT. Exceeding the limit requires a higher FEAT. The hero can imitate Sonic Powers that will have most of the effectiveness of the original. The rank for such mimicked Powers is -1CS of the original's rank.
+            Power Control:
+              Energy Source:
+                Description: &Energy_Source |
+                  The hero draws his Powers from a special source that provides him with all the energy he can handle. As long as the hero can maintain his link with this source, he can continue to use his Powers. The nature of the source and its link varies with each hero. If the source is small enough, the hero may be required to carry it with him. If not, perhaps the hero needs to periodically return to the source or forge an ethereal Power cord that links him to his Source despite any intervening distance. The Judge and player need to work together to produce a playable source and link.
+
+                  If the link is severed or the source destroyed, the Mage is left with a finite supply of energy left. The amount of raw Power left is the number of points equal to his Psyche rank. Each time he uses Power, he decreases the reservoir by that Power's rank number. Obviously, it is within the hero's best interests to renew his link or rebuild his source in as little time as possible.
+
+                  As you are beginning to suspect, this isn't really a Power and is more of a restraint. You're right. If you roll this Power, go ahead and roll an additional Power.
+              Focus:
+                Description: &Focus |
+                  The hero can channel all his raw energy into a single burst of a chosen Ability or Power. All his Power and Ability rank numbers are totaled together. This rank number replaces the rank number for a chosen Power. Upon the completion of releasing the Power, all the hero's Abilities and Powers temporarily drop to Feeble. This Power's rank number is the total amount of lost points the hero can regain each turn. Points are divided evenly between all the depleted Abilities and Powers. (Okay, this isn't really a Power either. Roll again for an additional Power.)
+            Self Alteration:
+              Imitation-Face Changer:
+                Description: &Imitation-Face_Changer |
+              Imitation-Human Changeling:
+                Description: &Imitation-Human_Changeling |
+              Invisibility:
+                Description: &Invisibility |
+                  With this Power a hero can render himself undetectable by normal, consciously willed sight. There are four very different means of accomplishing this effect. Each form has unique characteristics regarding such factors as the area made invisible, protection against light-based attacks, mechanical detection, and detection by other means.
+
+                  The duration of any form of Invisibility is a function of the Power rank. This Power can be reduced in effectiveness or even terminated by certain acts, performed either by the hero or someone under the Power's effect. Simple physical contact can alert others to the hero's presence (Physics, Hallucinatory, Holographic). Physical attacks by the hero terminate the Invisibility (Telepathic) or reduce its protection by -1CS for each attack the hero makes (all other forms). A Invisible hero may find himself surrounded by a coating material (rain, dust, and paint for example). This only effects the Physics-based Invisibility. At Feeble, Poor, and Typical ranks the hero is visible for the duration of the coating. At Good or higher ranks, such coatings remain visible for the number of turns equal to eight minus the number of Power rank levels. (Example: Invisible Woman is struck by a balloon filled with paint. Her Power is Excellent and renders the paint invisible in three turns.)
+
+                  There is a base 2% chance that the Invisibility is permanent (4% if the hero is alien). Such a state can only be negated by nullifying the Power itself, permanently. Previously controllable Invisibility can be made permanent through brain damage or Powers that affect the hero's control.
+            Travel:
+              Dimension Travel:
+                Description: &Dimension_Travel |
+                  The hero can travel into a number of other Dimensions. Transit to a random dimension normally occurs automatically but the Power is weakened by adrenaline. If the hero is in any kind of precarious situation, he must make a Power rank FEAT. He must also make a FEAT if he is trying to appear in a specific dimension or alternate timeline. Specific locations in the other dimension require a red FEAT. The return trip is easier. Returning to a random location on the homeworld is automatic. Returning to a familiar spot on the homeworld is a yellow FEAT.
+
+                  The hero initially has two dimensions he can travel to, his home and one other realm. Additional dimensions can be reached by developing the trips as Power stunts or by dropping the affinity that permits effortless travel to either of the two original dimensions. ("What do you mean, you don't remember how to get back to Earth?")
+              Gateway:
+                Description: &Gateway |
+                  The hero can travel to any point in space, time, or other dimensions by traveling along bridges she creates herself. She can travel along a bridge from her current location to a location in space (a green FEAT), time (a yellow FEAT), and other dimensions (a red FEAT). The destination of each Gateway is a fixed point in space but the departure end always moves with the hero.
+
+                  A bridge to another location in space is created by a FEAT. A green FEAT creates a spatial bridge. The maximum distance the target can be from the hero at the time the bridge is created is shown on column E of the Range Table. A Gateway through time is created by a yellow FEAT. The maximum distance into the past or future the Power can initially reach is the number of centuries equal to the Power rank number. Gateways into other dimensions or alternate timelines require a red FEAT. The transdimensional bridges are initially limited to reaching only one dimension. Additional dimensions require development as Power Stunts. Once created, the bridge functions no matter how far the hero is in space, time, or the Multiverse.
+
+                  The hero has a finite number of locations she can bridge to. Once the hero has established the bridge, she always returns to it when creating that type of Gateway. The maximum number of dif ferent Gateways the hero can create is equal to the Power rank number. Shortly after gaining this Power, the hero should create at least half of her possible Gateways. More can be added at any time. If the hero exceeds her limit, a previously established bridge is replaced by the hero is trying to add.
+
+                  Example: Gatekeeper has Good rank. She can establish up to ten bridges. She establishes Gateways to her home, her team's headquarters at the Avengers Minnesota mansion, her ex-boyfriend's timesharing condo in Jamaica, the bottom of the Atlantic, geosynchronous orbit 22,400 miles above Minnesota, the crater of an active volcano in Iceland, the prisoner processing area of Ryker's Island Federal Prison, Tahiti in the year 1287, the surface of Lake Michigan (twenty miles east of Milwaukee), and Death Valley. The need arises for a bridge to an alternate Earth. Gatekeeper concentrates on establishing the link: making the red FEAT takes her most of the day. Later she realizes that she can't hop over to Jamaica any more. Oh well, she'd hadn't been there with Wilford since he'd gotten married.
+
+                  Gateways automatically transport willing passengers. The Power can be used to catch and transport unwilling passengers (like foes or rampaging water buffaloes) by means of an Agility FEAT. The would-be transportee is allowed to resist in any way he can.
+
+                  Gateways deal with size and not mass. The hero can transport a black hole as long as it's small enough. The maximum size of a Gateway is the number of square feet equal to the Power rank number. For example, a Feeble rank creates a two square foot Gateway that most people could just barely squeeze through. The Gateway forms within ten feet of the hero. It can maintain its existence for as long as the hero concentrates on it or until he passes through it.
+              Teleport Others:
+                Description: &Teleport_Others |
+                  The hero can make any target except his own body vanish and instantly reappear at a distant site. The target does not physically cross the intervening distance and is unaffected by most physical barriers. Column E of the Range Table shows the maximum distance the hero can Teleport a passenger.
+
+                  Teleportation always occurs if the passenger is immobile or touching the hero. The passenger must make an yellow Endurance FEAT to see how he fared. Failure means disorientation for 1-10 turns.
+
+                  If the passenger is uncooperative or in motion, the hero must make an Agility FEAT to catch him. In addition, each 10 feet of distance separating the hero and passenger increases the Power rank -1CS.
+
+                  The Power can teleport a mass equal to the hero's Strength limit. This may be a single object or any number, so long as the weight limit isn't exceeded. If the hero is trying to exceed his limit, he only Teleports part of the mass. Living targets are transported intact: if a being weighs too much it simply won't Teleport. Only the amount of non-living material that within the limit is Teleported: the rest is left behind.
+
+                  Example: The Teleportation beam aboard the spaceship Jenni Lea has Excellent rank and can handle up to 800 pounds of material. A emergency required the evacuation of five people (average weight 200 lbs.) and their equipment. The Teleportation beam sorted out its load before taking effect. Only four of the crewmen were teleported in the first turn. The fifth crewman, the equipment, and the clothes the other four had previously been wearing arrived on the next go-round.
+
+                  The hero can consciously try to Teleport sections of a target: the effect is as if the hero had used an extremely fine scalpel. Such Teleportational dissection requires a Power FEAT whose intensity is equal to the material strength of a nonliving target or the actual Strength of a living target. Heroes with Medical Talents can develop this type of exotic surgery as a Power Stunt.
+
+                  Certain conditions can prevent the passage of a Teleportation beam. Neutronium and black holes are impassable. Barriers that incorporate such Powers as Force Field vs. either Energy or Magic, Power Negation, or True Invulnerability are impenetrable if their Intensity ranks are greater than this Power's rank.
+
+                  The act of Teleportation takes three turns. The first turn the hero affects the target. The second turn the actual transportation occurs. The third turn the target rematerializes. Only on the fourth turn can the hero seek another target.
+
+                  Optional Powers include Teleport Self and Clairvoyance.
+              Teleport Self:
+                Description: &Teleport_Self |
+                  The hero can vanish at one location and instantly reappear at a distant site. He does not physically. cross the intervening distance and is not affected by most physical barriers. Column E of the Range Table shows the maximum distance a hero can Teleport. Teleportation always occurs, but the hero must make a Power FEAT to see how well he makes the trip. Failure means he arrives disoriented and cannot take any actions the following turn.
+
+                  The hero can carry along anything he is touching (except the ground on which he stands), up to his Strength's weight limit. Passengers must make a green Endurance FEAT or be disoriented for 1-10 turns.
+
+                  As the hero rematerializes, gases and liquids move aside before he solidifies. Normal safeguards prevent the hero from consciously Teleporting into a solid mass. If the hero accidentally teleports into a solid, he must make an Endurance FEAT. Success means the hero instinctively jumped to another location and promptly fainted for 1-10 turns. Failure means the hero takes damage equal to twice the solid's Material Strength or actual Strength, if the blockage was a living being. In the latter case, that being takes equal damage.
+
+                  Certain conditions can prevent the hero from Teleporting. If the hero doesn't know where he is, psychological blockage may prevent him from consciously Teleporting. Extremely dense materials like Neutronium or black holes are impassable. Barriers that incorporate such Powers as Power Negation, Force Field vs. either Energy or Magic, or True Invulnerability are also impassable at higher rank.
+
+                  The Optional Powers are Teleport Others and Clairvoyance.
+              True Flight:
+                Description: &True_Flight |
+                  The hero can fly through air and space without an apparent means of propulsion. This is the most desired Power in the history of the world. The Power rank determines the maximum speed the hero can attain in a specific condition. There are three mediums in which a hero can fly. The slowest form of Flight occurs when the hero torpedoes through the water at the Water Movement rate. Faster speed occurs when the hero flies through the air at the Air Movement rate. The fastest flight occurs when the hero is free of any hindering atmospheric friction: this is the Space Movement rate. Acceleration occurs at a rate of +1CS per turn. Deceleration occurs at -2CS per turn.
+
+                  The hero's maneuverability is determined by his Agility. The hero may be able to surpass light speed but if he has Feeble Agility he is going to need a wide turning radius.
+
+                  True Flight includes as a side effect Power rank resistance to atmospheric friction and lungs adapted to breathe high velocity wind. It does not include the ability to breathe water or survive the rigors of outer space.
+
+                  When creating the hero, the player can define the Power in any way that is consistent with the character or his equipment.
+
+                  Optional Powers include Body Resistance, Armor Skin, Self-Sustenance, and Telekinesis.
+
+                  The Nemesis is Gravity Manipulation.
+            Special:
+              Eldritch Bolts:
+                Description: &Eldritch_Bolts |
+                  Eldritch Bolt is a bolt of magical power, and includes all manner of spells such as Doctor Strange's Bolt of Bedevilment. The range is as determined in the spell range table, and damage is equal to the Power rank, with the following difference:: the bolt may reduce Health or Karma values (in the latter case, the target's effectively out of luck). If the bolt attacks Health, treat it as a Force attack.
+              Eldritch Shield:
+                Description: &Eldritch_Shield |
+                  The Eldritch Shield is a shield of mystical energy that provides the caster with mystical Body Armor equal to the caster's rank number. This is also proof against magical attacks or those attacks which arise from magic.
+
+                  If an attacker directs his attacks against the shield Itself, treat the attack as an attempt to break the material, with the attacker's bolt supplying the strength and the defender's shield the object that may be broken. The mage whose shield is broken that round takes no damage, but has no shield until he raises it the next round. An Eldritch Shield will protect its caster from all forms of magic of up to the Psyche of the caster.
+              Immortality:
+                Description: &Immortality |
+                  The character with this Power does not age or die in a normal fashion. Now, before you all run out and grab this Power for your young hero, note the fine print. The hero can still suffer loss of Endurance ranks as the result of wounds, poisons, and damages, but if the results call for perishing. then the character is left at Shift 0 Endurance but does not die. The character cannot move or act until Endurance reaches Feeble, however. so throwing an Immortal character into an active volcano will keep him out of the way for a while. (He cannot heal while taking damage.)
+
+                  If Endurance reaches Shift 0, or the character otherwise dies, the immortal character loses all Karma, including that set aside for advancement. The character may be out of luck, but at least he has his Health. If an immortal character is part of a Karma pool, then an amount of Karma is subtracted as if the character had left the group. This is done each time the immortal character becomes "dead."
+                  This Power does not have a Power rank. It counts as two Powers for any hero who takes it, unless the character is alien in origin, in which case the cost is normal (this reflects that a large number of extradimensional aliens are effectively immortal).
+                  An immortal character's body will slowly regenerate lost parts and heal. so that short of atomizing the remains and spreading that collection of atoms through a large portion of space, the immortal character will return at some point in the future.
+                  Immortality is applicable to the Earth Dimension only (including all planets of this dimension). An immortal character in another dimension—such as Asgard or Olympus, but excluding variant or divergent earths-does not age, but may be killed normally while in that dimension.
+          Talents:
+            Weapon Skills:
+              Sharp Weapons: &Sharp_Weapons
+                Description: | 
+                  Characters with this Talent gain a +1CS to hit when attacking with a weapon that resolves attacks on the Edged Attack column of the Battle Effects Table. This includes swords, daggers (unless thrown), and spears, but excludes claws and other natural extensions that inflict this type of damage.
+              Weapons Master: &Weapons_Master
+                Description: | 
+                  The character with this Talent gains a +1CS to hit with any weapon that requires a Fighting FEAT to hit.
+              Weapons Specialist: &Weapons_Specialist
+                Description: | 
+                  The character with this Talent gains a +2CS with a single weapon of choice. This may be any type of weapon, missile, or melee. The character who is a weapon specialist will also increase his initiative when using this weapon by 1.
+            Fighting Skills:
+              Acrobatics: &Acrobatics
+                Description: |
+                  The hero with this Talent is very limber and as such gains advantages when under attack. The hero has a +1CS when dodging, evading, and escaping.
+              Tumbling: &Tumbling
+                Description: |
+                  The hero with this Talent knows how to fall and land without undue injury. Individuals with this Talent may make an Agility FEAT to land feet-first after any fall that does not inflict damage.
+            Professional Skills:
+              Law: &Law
+                Description: |
+                  The character with this Talent has an extensive background in law (the assumption being US Law, but this may vary according to the Judge's campaign). The hero may be a lawyer or capable of applying to pass the bar (Reason FEAT of Good Intensity). A character with Law as a Talent gains a +1CS to all FEAT rolls involving the law, including correct legal procedure. A character without Law gains no benefit to Reason FEATs, and in addition, will have to make Reason FEATs more often than a character with Law Talent.
+              Military: &Military
+                Description: | 
+                  The hero has had some dealings with one of the armed services. In military matters, the hero gets a +1CS to all FEAT rolls, and in addition may take a member of the armed services as a Contact.
+              Business/Finance:
+                Description: &Business-Finance |
+                  The hero is familiar with the world of business, corporate finance, and how money works. Initial resources are a minimum of Good, and the hero gains a +1CS for FEAT rolls dealing with money. The hero gains a Contact in the Professional category.
+              Engineering: &Engineering
+                Description: | 
+                  Engineering includes all the varied types of that profession dedicated to the design of functional items- civil, chemical, mechanical, etc. A character with Engineering Talent gains a +1CS to all FEATs involving building things, including the Resource FEAT to determine if an object can be built.
+              Criminology: &Criminology
+                Description: | 
+                  The hero with this Talent has an understanding of the criminal mind and behavior, either from studies or first-hand observation. The character with this Talent gains a +1CS on all Reason and Intuition FEATs involving criminal practices ("If I were a crook, where would I hide?"). The hero also gains a Contact in either the police or crime areas.
+              Psychiatry: &Psychiatry
+                Description: |
+                  The hero with this Talent has a background in studies of the mind and as such gains a +1CS on all FEATs involving the mind. This is a popular Talent with those heroes and villains with Mental Powers, and the character with these Talents gains a +1CS on FEATs involving Mental Control, Domination, Hypnosis, Emotion Control, and Mental Probe Powers.
+              Detective/Espionage:
+                Description: &Detective-Espionage |
+                  The hero with this Talent has been trained to notice small clues in solving crimes. The character with this Talent gains a +1CS to discover clues to a crime, and in addition gains a Contact in either crime, law enforcement, law, or espionage.
+            Scientific Skills:
+              Chemistry: &Chemistry
+                Description: | 
+                  A +1CS on matters of chemistry, including developing new formulas, finding cures for inorganic poisons, and identifying chemicals by smell, touch, or taste.
+              Biology: &Biology
+                Description: | 
+                  A +1CS on matters of biology, including animal and plant identification, finding cures for organic poisons, and researching diseases and their cures.
+              Geology: &Geology
+                Description: | 
+                  A +1CS on matters involving the Earth, including volcanic activity, the geology of the surrounding land, types of rocks and their powers, and mineral identification.
+              Archaeology: &Archaeology
+                Description: | 
+                  A +1CS on matters involving the past, including paleontology, historical records, and ancient myths and legends.
+              Computers:
+                Description:
+            Mystic and Mental Skills:
+              Trance: &Trance
+                Description: |
+                  The character may place himself into a trance. While in a trance, the character slows his body functions to such a level that he may be assumed to be deceased (Intuition FEAT for the character checking). A character in a trance reduces needs for food and water to a minimal level, and may regain Endurance ranks at one rank per day.
+              Mesmerism and Hypnosis: &Mesmerism_and_Hypnosis
+                Description: |
+                  This Talent is a primitive form of Mind Control at the Power rank number equal to the Reason of the character with this Talent. Information can be gained as per a Mental Probe, and posthypnotic suggestions may be implanted within the victim's mind. Any attempt to force an individual to do something that he would not normally do, or divulge information that he would not normally reveal, will cause the hypnotism to break. A hypnotic command fades in 1-10 hours after it is given.
+              Sleight of Hand: &Sleight_of_Hand
+                Description: |
+                  This is a Talent developed by stage magicians which causes items to appear and disappear by a combination of misdirection and swift, fluid gestures. The character with this Talent may palm small items, making them appear or disappear with Agility +1CS ability.
+              Resist Domination: &Resist_Domination
+                Description: | 
+                  This is a Psi-Screen that may be developed by individuals without that Power. This permits the character to resist mental attacks as if the character had a mental power of Psyche +1CS. The Talent is passive in nature and does not grant any other particular benefit. A character with Mental Probe may be able to discern where the character gained this Talent, but nothing else.
+              Occult Lore: &Occult_Lore
+                Description: | 
+                  The character with this Talent has a knowledge of magical societies, antiquities, runes, and a general understanding of forgotten lore. The character gains a +1CS to Reason FEATs involving items of a magical nature.
+              Mystic Background: &Mystic_Background
+                Description: | 
+                  the Marvel Universe, all humankind has the potential for developing magical Powers. This "Talent" shows that the character has some background with magical forces. Heroes may have derived their powers from these forces if they choose this Talent. A character with this Talent may have Magical Powers, with the approval of the Judge. If the Judge allows magical player characters, then any of the initial Powers created may be spells, and should be noted as deriving from Personal, Universal, or Dimensional energies.
+            Other Talents:
+              Artist: &Artist
+                Description: | 
+                  The character with an artist background creates works of art, either for himself or for sale to others. This includes painting, sculpting, and writing. A single work takes 1-10 weeks, and upon completion grants the artist Karma points equal to 10 times the number of weeks. The character must allocate some time daily at his work.
+              Languages: &Languages
+                Description: | 
+                  The character with this Talent has a natural understanding of languages. The character gains 1 additional language at start, and may add other languages at half the cost of a Talent (500 points regardless of who teaches it). Characters without the Languages Talent must gain this Talent first to learn other languages. The gaining of additional languages assumes someone is available to teach these languages. A Player character with this Talent does not have to assign a language at start, but may fill one in later as need be.
+              Repair/Tinkering:
+                Description: &Repair-Tinkering |
+                  The character with this Talent gains a +1CS to any Reason FEATs involving the repair and modification of existing items, but not the building of new items. This +1CS may be added to any other bonuses gained from other Talents, so that an Engineer with Tinkering Talent would gain a +2CS on repair.
+              Performer: &Performer
+                Description: | 
+                  The character is someone who acts, sings, dances, mimes, or otherwise uses his Talents to entertain (this is related to the Artist, the key difference being that the Artist may leave the scene of creation; the Performer is identified with that creation directly). A Performer receives 10 karma points for a week's worth of performance, whether in a play, doing a nightclub routine, or working for a movie.
+              Trivia: &Trivia
+                Description: |
+                  This is a general category that covers any one subject desired by the character. On that subject, the character gains +1CS to all Reason FEATs. (Say, the character is into collecting Spores and Fungus. A Trivia Talent would be: Trivia/Spores and Fungus). Trivia categories should be specific (old movies, military history, sports, rock music, comic books) as opposed to general (all knowledge) or covered by other Talents.
+              Leadership: &Leadership
+                Description: | 
+                  The hero with this Talent has the brains and understanding of a cohesive group, such that he is a benefit to the team. Any Karma Pool to which the character belongs receives a 50-point bonus, provided the character with this Talent is recognized as the "team leader." A Karma Pool may only have one recognized leader, though more than one character with Leadership may belong to one group. When the "Leader" of a group leaves, the 50 points are deducted from the Karma Pool, but the leader does not receive them for personal use (the bonus points only exist as a part of the pool).
+            Magic Wielder Talents:
+              Bibliophile: &Bibliophile
+                Description: | 
+                  The character has an extensive knowledge of magical books, scrolls, or other primarily informational items, and the lore concerning them. He has a +2 CS when using or researching these.
+              Chronicler of Magic: &Chronicler_of_Magic
+                Description: | 
+                  The character studies magical societies and their activities. He has a +2 CS for researching and/or knowing who the adepts and masters are, what their relationship is with each other and with any beings that they entreat, and for any specific facts about most magical cults.
+              Demonologist: &Demonologist
+                Description: | 
+                  The character has studied accounts of demons in the Marvel Universe and he knows how dangerous and hostile they are. The character receives a + 1 CS in any situation involving demons, including research, communication, identification, and combat.
+              Occultist: &Occultist
+                Description: | 
+                  The character has made extensive studies into the area of occult happenings, including unexplained events and mysteries of the world, hauntings, and other manifestations of the spirit world. He has a +2 CS when researching or dealing with occult events.
+              Runesmith: &Runesmith
+                Description: | 
+                  The character is a transcriber and translator of runes, especially ancient, magical runes. (A rune is a letter in an ancient alphabet. Most ancient magical items have runes on them to warn potential users of the possible harm that the item can cause. These runes can be any one of a vast array of almost-forgotten codes.) The character has a +2 CS whenever studying, deciphering, or inscribing runes.
+              Scholar of Antiquities: &Scholar_of_Antiquities
+                Description: | 
+                  The character has an extensive knowledge of antiques, especially ancient magical artifacts and lore concerning them (but not including books, scrolls, or other artifacts that are primarily informational). He has a +2 CS when dealing with them or researching them.
+              Stamina: &Stamina
+                Description: |
+                  The character has trained himself to go many days without eating or sleeping in the pursuit of his magical studies. If researching anything magical or just using a spell (no physical combat or extensive movement allowed), the character can go without food or sleep for up to 6 days.
+              Theoginist: &Theoginist
+                Description: | 
+                  The character is a scholar on the origins of the powerful extra-dimensional beings and gods of the Marvel Universe (this category includes all of the major entities listed in the Miscellany of Mysticism and those beings that provide dimensional energy when called upon, such as Dormammu). The character has a +2 CS when researching information on this subject.
+              Zoologist of Magic: &Zoologist_of_Magic
+                Description: | 
+                  The character studies magical creatures and has collected books on the subject. This talent includes not only mythological or fantastic beasts of Earth’s legends but also the creatures of other dimensions in the Marvel Universe. He has a +1CS when attempting to identify magical creatures and their powers. (Please see the Magical Creature section in Book 3 for many known magical creatures.
+          Equipment:
+            Shooting Weapons:
+              Laser Pistol: &Laser
+                Price: *Remarkable
+                Range: 10
+                Damage: 10
+                Type: Energy
+                Rate: 1
+                Shots: 10
+                Material Strength: *Poor
+                Notes:
+                  - One-handed
+                  - Power pack
+                  - Illegal
+                Description: |
+                  The Laser Pistol, Concussion Pistol, and Plasma Beam Handgun are weapons used by high-tech spies and subversive organizations, including S.H.I.E.L.D. and A.I.M. Their possession is illegal by unauthorized persons (Other Crime). All three types operate from power packs.
+            Melee and Thrown Weapons:
+              Knife: &Knife
+                Price: *Feeble
+                Damage: 10
+                Type: 
+                  - Edged Attack
+                  - Edged Throwing
+                Material Strength: *Excellent
+                Description: |
+                  A Knife is defined as any blade weapon with a blade up to 12 inches. It may be thrown as a thrown object.
+              Sword: &Sword
+                Price: *Poor
+                Damage: 10
+                Type: Edged Attack
+                Material Strength: *Excellent
+                Description: |
+                  Swords are considered one-handed blade weapons with blades over 12 inches long. They are not normally thrown.
+              Spear: &Spear
+                Price: *Feeble
+                Damage: 10
+                Type:
+                  - Edged Attack
+                  - Edged Throwing
+                Material Strength: *Good
+                Description: |
+                  A Spear is considered as any thrusting blade with a handle over one foot long. It is normally thrown or wielded with two hands.
+              Whip, Leather: &Leather_Whip
+                Price: *Poor
+                Damage: 0
+                Type:
+                  - Grappling
+                  - Grabbing
+                Material Strength: *Typical
+                Description: |
+                  Whips can make Grappling or Grabbing attacks from a distance, as if the whip had a Strength equal to its material strength. Example: a villain using a leather whip tries to entangle a charging hero. The villain rolls a Grappling attack on the Typical column. The result would then be a Miss, Partial hold, or Full hold.
+            Salaries Sundries and Other Equipment:
+              Fire Extinguisher: &Fire_Extinguisher
+                Price: *Typical
+                Notes: Excellent Intensity
+                Description: |
+                  Fire Extinguishers inflict no damage normally, but against fire are of Good Intensity (eliminate fire of Typical Intensity or less in the same area on a green FEAT, of Good Intensity on a yellow, and up to Excellent on a red). Against characters with flaming powers causes a FEAT roll against that Intensity to retain flame.
+              Robot, Standard: &Standard_Robot
+                Cost: *Incredible
+                Description: |
+                  The Standard Robot is only capable of simple tasks and has no special abilities other than to record what transpires before its recorders and perform simple tasks. The H.E.R.B.I.E. series was a modified form of the standard robot. All Standard robot abilities are Typical.
+              Robot, Sentry: &Sentry_Robot
+                Cost: *Incredible
+                Description: |
+                  The Sentry Robot has a bit more programming and firepower. It is programmed to identify hostile threats (that is — anything not in its bank) and open fire. Sentry robots come equipped with Good Strength lasers, though some may be additionally armed. All sentry robot abilities are Good.
+              Robot, Talent: &Talent_Robot
+                Cost: *Amazing
+                Description: |
+                  The Talent Robot is a robot specifically designed for a certain purpose, and its programming reflects that purpose. The Avengers' fire-fighting robots or the robotic opponent the Black Knight uses are examples of talent robots. Such robots may have one ability at Remarkable level. All others are Excellent.
+              Mystic Texts: &Mystic_Texts
+                Price: *Incredible
+                Description: |
+                  Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
+            Magical Items:
+              Grimoire:
+                Description: &Grimoire |
+                  The book in which a mage records spells or incantations. Some spells, like many Entreaty spells, cannot be memorized, only read aloud from a text. A character can only have two grimoires at any one time, the primary and a back-up copy. Creating takes 10+1d10 full days of work
+              Ruby of Domination: &Ruby_of_Domination
+                  Description: |
+                    This large red, floating ruby (3 feet in diameter) was once used by Xandu in an attempt to make Earth's population mind-slaves. When Doctor Strange shattered it, little rubies were left on Earth from its shards. A character attempting the powers of Emotion Control, Mental Control, Mesmerism, or Mesmermechanism has a +1CS for success when focusing the power through one of these smaller Rubies of Domination.
+              Serum of the Seraphim:
+                Description: &Serum_of_the_Seraphim |
+                  This is the most powerful medicine known to the occult and can cure anything but death once it occurs. The serum is so potent that only a few ounces are needed, it is usually kept in tiny ornate containers holding just a few ounces.
+                  Any character drinking this serum is instantly returned to his full Health points and has all of his wounds healed. Any magical fungus, physical curses (like blindness), or diseases are held in check, then slowly cured over a few days time.
+              Silver:
+                Description: &Silver |
+                  In game terms, all silver weapons cause double their normal damage to those characters and creatures classified as demons. If a silver weapon strikes a character who is possessed by a demon, only the demon will suffer damage, not the host body, Damage is caused not by the edge or type of weapon as much as simply touching silver to these creatures.
+            Headquarters:
+              Room Packages:
+                Living Room Package:
+                  Description: &Living_Room_Package |
+                    *Cost: Good* - Occupies one room. Consists of sofa, two easy chairs, two end tables, coffee tables, two lamps (ceiling table or floor).
+                Dining Room Package:
+                  Description: &Dining_Room_Package |
+                    *Cost: Good* - Occupies one room. Consists of table, four chairs, ceiling lamp. *Excellent Cost* add large table, bureau and four more chairs. *Remarkable Cost* add china cabinet, set of good china and sterling tableware.
+                Kitchen Package:
+                  Description: &Kitchen_Package |
+                    *Cost: Good* - Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing.
+                Library Package:
+                  Description: &Library_Package |
+                    *Cost: Excellent* - Occupies one room. Consists of two easy chairs, table, desk, straight chair, and up to five bookcases on general subjects (texts readily available, and including encyclopedias, world histories, and atlases). Special or rare volumes, such as the Book of the Vishanti, the Necronomicon, or Amazing Fantasy \#15, would have to be obtained separately.
+                Workshop Package:
+                  Description: &Workshop_Package |
+                    *Cost: Remarkable* - Occupies one or more rooms. Basic equipment for metal and woodworking: lathes, drills, saws and fire extinguisher.
+                Laboratory Package:
+                  Description: &Laboratory_Package |
+                    *Cost: Remarkable* - Occupies one or more rooms. Basic lab equipment: scales, sinks, common chemicals, microscope.
+                Office Package:
+                  Description: &Office_Package |
+                    *Cost: Good* - Occupies one or more rooms. Includes desk, three chairs, two lamps.
+                Pool Package:
+                  Description: &Pool_Package |
+                    *Cost: Remarkable outdoors, Incredible indoors* - Occupies one or more rooms, or outdoor area. Consists of Olympic-size pool, filtered water, small sauna room. At *Remarkable Cost* adds separate, smaller pool (featuring diving board and chlorine), plus pool cover. At *Incredible Cost* includes two Olympic pools, heated water, pool cover. At Amazing Cost, both pools are heated.
+                Conference Room Package:
+                  Description: &Conference_Room_Package |
+                    *Cost: Remarkable* - Occupies one room. Contains material for assembling of heroes, or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs.
+                Security Packages:
+                  Description: &Security_Packages |
+                    *Cost: Good* — one Security package to a door or window. Occupies no space. Consists of hand-set burglar alarms on windows and doors, coupled with mechanical locks. At *Excellent Cost:* Automatic burglar alarms with computer-code or card identification system. At *Remarkable Cost:* Automatic burglar alarms with palm-print scan, can activate defense systems. At *Incredible Cost:* Full body scan with benign identification program as to hostility. Can activate defense systems.
+                Defense Package:
+                  Description: &Defense_Package |
+                    *Cost: Excellent* - Will protect one or more areas. Pre-set defenses consisting of entangling tentacles or nets or lasers or stun rifles, or concussive rifles or pit traps, with the maximum of Remarkable Strength or Intensity. *Remarkable Cost:* Defenses activated by Security package, consists of one type as above of Incredible Strength. *Incredible Cost:* As above, intensities are of Amazing Strength. Multiple defense mechanisms may protect the same establishment (example, the WCA compound consists of net-filled pits, stun rifles disguised as trees, and a passive alarm system in the Security Package). Specialized defense packages may be designed.
+                Porches, storage, bathrooms, and closets:
+                  Description: &PSBC |
+                    These are assumed in the cost of the building, according to its design. These rooms cost nothing, and no package exists other than what the heroes decide to stuff into the closets.
+                Trophy Room Package:
+                  Description: &Trophy_Room_Package |
+                    *Cost: Excellent* - Occupies one room. Contains showcase, lighting, frames to display mementos, and may be used as a reception half or gallery. At *Remarkable Cost*, contains capability to handle potentially dangerous exhibits at the Incredible level.
+                Imprisonment Package:
+                  Description: &Imprisonment_Package |
+                    *Cost: Excellent* - Occupies one room. Contains standard restraining devices, including bars of Remarkable material strength. At *Remarkable Cost*, restraining devices made of Incredible Strength. At *Incredible Cost*, restraining devices at Amazing Strength and Excellent Strength inhibitor restraints.
