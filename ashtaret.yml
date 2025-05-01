@@ -1053,6 +1053,15 @@ Character Sheet:
                 Material Strength: *Good
                 Description: |
                   A Spear is considered as any thrusting blade with a handle over one foot long. It is normally thrown or wielded with two hands.
+              Club: &Club
+                Price: *Feeble
+                Damage: 10
+                Type:
+                  - Blunt Attack
+                  - Blunt Throwing
+                Material Strength: *Good
+                Description: |
+                  Clubs are standard blunt weapons, including makeshift weapons such as chairs and tables.
               Whip, Leather: &Leather_Whip
                 Price: *Poor
                 Damage: 0
@@ -2653,73 +2662,70 @@ Character Sheet:
                 Note: Primary and backup Grimoires. Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
                 Description: *Grimoire
               Ebon Staff of Ereshkigal:
-                Melee and Thrown Weapons:
-                  Damage: 15
-                  Type:
-                    - Blunt Attack
-                    - Blunt Throwing
-                  Material Strength: *Unearthly
-                  Note: Minimum 15 damage, maximum the lesser of wielder's Strength or item's Material Strength, on appropriate column (BA/BT).
-                Staff of Polar Power:
-                  Magic:
-                    Magic Wielder: Umma Ušumgal
-                    School: Specific Pantheon (Annunaki)
-                    Energy Use: All Energies
-                    Rank: Master
-                    Master: Ereshkigal
-                    Spells:
-                      Personal Energies:
-                        Astral Projection:
-                          Rank: *Amazing
-                          Description: *Astral_Projection
-                        Resistance Aura:
-                          Rank: *Amazing
-                          Type: Solar
-                          Description: *Resistance_Aura
-                        Trance:
-                          Rank: *Amazing
-                          Description: *Trance
-                        Transformation:
-                          Rank: *Amazing
-                          Type: Darkforce
-                          Description: *Transformation
-                      Universal Energies:
-                        Eldritch Beams/Bolts:
-                          Rank: *Amazing
-                          Type:
-                            - Darkforce Bolt
-                            - Disintegrating Bolt
-                          Note: Beams/bolts originate from the crystal on the end of the staff.
-                          Description: *Eldritch_Beams-Bolts
-                        Eldritch Blast:
-                          Rank: *Amazing
-                          Type: Darkforce
-                          Description: *Eldritch_Blast
-                        Eldritch Flames:
-                          Rank: *Amazing
-                          Description: *Eldritch_Flames
-                        Energy Control:
-                          Rank: *Amazing
-                          Type: Darkforce
-                          Description: *Energy_Control
-                        Fear:
-                          Rank: *Amazing
-                          Description: *Fear
-                        Revival:
-                          Rank: *Amazing
-                          Description: *Revival
-                        Shield-Aura:
-                          Rank: *Amazing
-                          Description: *Shield-Aura
-                        Vapors-Resist Death:
-                          Rank: *Amazing
-                          Description: *Vapors-Resist_Death
-                  Description: *Staff_of_Polar_Power
+                Material Strength: *Unearthly
+                Reference:
+                  Club: *Club
+                  Staff of Polar Power:
+                    Magic:
+                      Magic Wielder: Umma Ušumgal
+                      School: Specific Pantheon (Annunaki)
+                      Energy Use: All Energies
+                      Rank: Master
+                      Master: Ereshkigal
+                      Spells:
+                        Personal Energies:
+                          Astral Projection:
+                            Rank: *Amazing
+                            Description: *Astral_Projection
+                          Resistance Aura:
+                            Rank: *Amazing
+                            Type: Solar
+                            Description: *Resistance_Aura
+                          Trance:
+                            Rank: *Amazing
+                            Description: *Trance
+                          Transformation:
+                            Rank: *Amazing
+                            Type: Darkforce
+                            Description: *Transformation
+                        Universal Energies:
+                          Eldritch Beams/Bolts:
+                            Rank: *Amazing
+                            Type:
+                              - Darkforce Bolt
+                              - Disintegrating Bolt
+                            Note: Beams/bolts originate from the crystal on the end of the staff.
+                            Description: *Eldritch_Beams-Bolts
+                          Eldritch Blast:
+                            Rank: *Amazing
+                            Type: Darkforce
+                            Description: *Eldritch_Blast
+                          Eldritch Flames:
+                            Rank: *Amazing
+                            Description: *Eldritch_Flames
+                          Energy Control:
+                            Rank: *Amazing
+                            Type: Darkforce
+                            Description: *Energy_Control
+                          Fear:
+                            Rank: *Amazing
+                            Description: *Fear
+                          Revival:
+                            Rank: *Amazing
+                            Description: *Revival
+                          Shield-Aura:
+                            Rank: *Amazing
+                            Description: *Shield-Aura
+                          Vapors-Resist Death:
+                            Rank: *Amazing
+                            Description: *Vapors-Resist_Death
+                    Description: *Staff_of_Polar_Power
                 Note: Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
                 Description: |
                   About six feet long and an inch and a half thick, this staff of solid, lightweight, smooth, black metal is twisted along much of its length. It bears a prism of black crystal at one end, terminating in a tapered, blunted spike at the other. It bears an inscription, spiraling around its shaft: 𒋼𒀭𒅗𒆠𒊮𒀀𒍣𒆗𒂗𒂠𒁉𒇻𒋼𒍑𒅗𒇷𒅋𒍣𒆗𒂗𒂠𒅗𒆰𒈠𒀀𒆠𒍣𒆗𒂗𒂠𒁉𒀭𒅗𒋻𒅎𒁍𒀭𒂗𒈾𒈠𒂵𒉌 - "šu d.erkalla-ke₄ za-lam-e-ne bi-lu šu ul-ba-ke₄ za-lam-e-ne kalam-ma-ke₄ za-lam-e-ne-bi-in ka-ta in-du₁₁ d.en na-ma-gin₃" (Sumerian, roughly "This, the hand of Irkalla, shall touch all the living in their entirety, the living of the world, it shall seize them all. Thus it has been spoken. As the Lord decreed, so it shall be.")
               Ruby Ring of Regency:
-                Ruby of Domination: *Ruby_of_Domination
+                Reference:
+                  Ruby of Domination: *Ruby_of_Domination
                 Description: |
                   A relatively recent acquisition after Doctor Strange shattered the Ruby into shards, Ashtaret found a shard of the Ruby of Domination and had it set into a gold ring.
               Serum of the Seraphim:
