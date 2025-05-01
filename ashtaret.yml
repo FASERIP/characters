@@ -4,9 +4,9 @@ Character Sheet:
     Name: TSR Marvel Super Heroes RPG Advanced
     Ranks:
         Unranked: &Unranked
-          Name: null
+          Name: Unranked
           Number: .nan
-          Abbreviation:
+          Abbreviation: N/A
         Shift 0: &Shift_0
           Name: Shift 0
           Number: 0
