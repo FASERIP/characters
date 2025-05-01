@@ -2387,7 +2387,7 @@ Character Sheet:
                           Reference: *Standard_Robot
                           Encounter: Always work in pairs or teams of four for larger tasks, though there may work details of 6-12, or even up to 20 for major undertakings. There are 2-6 in each workplace room of the Archivists and Magitechnicians, one for each Captain, two for each Retainer, four for Allatou, including her entourage, for 7-9, and six for Ashtaret, making sixteen with her entourage included, 23-25 if Allatou and hers are present. They may move around the domain alone when off-duty.
                           Description: |
-                            Made from the lowliest demonic spirits, imps, these Servants are the backbone of the workforce. They provide all of the menial and unskilled labor, running of errands, cleaning, and holding things under general supervision, and perform semi-skilled tasks under close supervision after proper instruction.
+                            Made from the lowliest demonic spirits, such as imps or dæmonettes, these Servants are the backbone of the workforce. They provide all of the menial and unskilled labor, running of errands, cleaning, and holding things under general supervision, and perform semi-skilled tasks under close supervision after proper instruction.
                         Sentry:
                           Origin: *Demon
                           Weakness: *Weakness
@@ -2429,8 +2429,8 @@ Character Sheet:
                           Reference: *Sentry_Robot
                           Encounter: Always in pairs, they are posted outside the the entrances of important or secure rooms, and inside the entrances of the most important and secure. Two accompany each Captain and Retainer, and four accompany Allatou. Ashtaret has a personal squad of thirteen, who are posted in a circle around the inner perimeter of in the Throne Room when she is there, in addition to the two inside and two outside each entrance, and those of each of Ashtaret's four Retinue and two Captains, for at least seventeen, 25-27 if Allatou is present, to account for her entire entourage.
                           Description: |
-                            Generally made from greater imps, or sometimes least devils, Sentries are the bulk of the Domain's armed forces. They guard areas and inhabitants, patrol the domain, and respond to intruders and threats.
-                        Talent Servant:
+                            Generally made from greater imps or devilkin, Sentries are the bulk of the Domain's armed forces. They guard areas and inhabitants, patrol the domain, and respond to intruders and threats.
+                        Staff:
                           Origin: *Demon
                           Weakness: *Weakness
                           Abilities:
@@ -2459,7 +2459,7 @@ Character Sheet:
                               Equipment: Has Equipment specific to role and purpose.
                           Reference: *Talent_Robot
                           Description: |
-                            Generally minor demons such as succubi, incubi, and lesser devils
+                            Generally succubi, incubi, minor demons, and lesser devils, but sometimes higher-tier spirits.
                           Types:
                             Archivist:
                               Abilities:
@@ -2486,7 +2486,7 @@ Character Sheet:
                                 - Generally overseen by Allatou and the Retinue
                               Encounter: In their workplaces, there are generally 2-6 per room, though they often move alone about the domain. A pair of Sentries are generally posted outside each of their workplace entrances. Each workplace room has 2-4 Minions as runners, menial labor, and unskilled general assistance.
                               Description: |
-                                Librarian and sage that works in the Libraries and Trophy Rooms, cataloguing, organizing, researching, and preserving books and scrolls, including Mystic Texts and Grimoires, Magical Items, and other treasures.
+                                Librarian and sage that works in the Libraries and Trophy Rooms, cataloguing, organizing, researching, and preserving books and scrolls, including Mystic Texts and Grimoires, Magical Items, and other treasures.  Often dæmon spirits of forbidden or hidden knowledge or secrets.
                             Magitechnician:
                               Enhanced Attribute: Reason
                               Abilities:
@@ -2514,8 +2514,8 @@ Character Sheet:
                                 - Genrally overseen by Allatou and the Retinue, with Captains overseeing weapons, armor, and security work.
                               Encounter: In their workplaces, there are generally 2-6 per room, though they often move alone about the domain. A pair of Sentries are generally posted outside each of their workplace entrances. Each workplace room has 2-4 Minions as runners, menial labor, and unskilled general assistance.
                               Description: |
-                                Alchemist and artificer that works in the Laboratories and Workshops, assisting with experiments, research, compounding, construction, and repairs.
-                            Sentry Captain:
+                                Alchemist and artificer that works in the Laboratories and Workshops, assisting with experiments, research, compounding, construction, and repairs. Particularly clever, crafty, deft, and resourceful spirits become this sort of Servant.
+                            Captain:
                               Abilities:
                                 Primary Abilities:
                                   Intuition: *Remarkable
@@ -2558,7 +2558,7 @@ Character Sheet:
                               Note: Enhanced Primary Attribute is Intuition
                               Encounter: They are generally accompanied by a pair of Sentries. One is always in the Security Office, unless responding elsewhere, and one generally accompanies Allatou, Ashtaret two. Each has a Minion on call, as well.
                               Description: |
-                                Generally overseen by Allatou they directly oversee Sentries and coordinate with the Retinue. They respond to intruders and threats, and escort guests.
+                                Generally overseen by Allatou, they directly oversee Sentries and coordinate with the Retinue. They respond to intruders and threats, enforce edicts, and escort guests. Usually made from the more violence-focused sorts of minor demonic and lesser diabolic spirits, though still cunning and charismatic ones. Sometimes a particularly bright and brutal greater imp that stands taller than their peers, in both the literal and metaphorical senses.
                             Retainer:
                               Abilities:
                                 Primary Abilities:
@@ -2587,7 +2587,7 @@ Character Sheet:
                                 - Enhanced Primary Attribute is Psyche
                               Encounter: Generally have a pair of Sentries as an escort, along with them or posted outside the door. Each also has a pair of Minions.
                               Description: |
-                                The Retinue are assistants and lieutenants who work with Allatou to ensure the smooth operation of Ashtaret's Domain, and generally assist Ashtaret and Allatou. They supervise the Minions, and coordinate with the Sentry Captains. In addition, they manage the Archivists' and Magitechnicians' projects on Allatou's behalf.
+                                The Retinue comprise assistants, adjutants, deputies, and lieutenants who work with Allatou to ensure the smooth operation of Ashtaret's Domain, and serve as personal assistants to Ashtaret and Allatou, with whose authority they speak. They supervise the Minions, and coordinate with the Captains. In addition, they manage the Archivists' and Magitechnicians' projects on Allatou's behalf. Any given Retainer is as often as not made from a major demon or greater devil spirit, uniquely among the staff, though no minor demon lords or lesser archdevils approaching a peer of Allatou. Those that aren't drawn from those strata are still the most formidable of their minor demon and lesser devil kin.
                 Description: |
                   A small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams, with a readily accessible border with the Astral Plane, Ashtaret's domain is not strictly a structure or building, though there are areas that appear to be "inside," as well as "outside," and "underground." The substructure of "walls," "ceilings," "floors," and "the ground" are an ultrahard, impenetrable, basalt-like material. There is "weather" of sorts in the "sky" of the "outdoor" portions, and flying into it, away from the surface eventually leads to the Astral Plane. However, this is ultimately a one-way trip once the flyer has passed fully into the Astral, requiring a different mechanism to return. Strange and alien flora populate the courtyard gardens, infernal analogues of their counterparts on Earth, if any, but there is no fauna, the sky has neither birds nor otherwise, and there aren't even creatures to buzz and flit through the gardens like insects.
 
