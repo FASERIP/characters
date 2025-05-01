@@ -2663,65 +2663,64 @@ Character Sheet:
                 Description: *Grimoire
               Ebon Staff of Ereshkigal:
                 Material Strength: *Unearthly
-                Magic:
-                  Magic Wielder: Umma Ušumgal
+                Melee and Thrown Weapon: *Club
+                Staff of Polar Power:
+                  Polarized Magic Wielder: Umma Ušumgal
                   School: Specific Pantheon (Annunaki)
                   Energy Use: All Energies
                   Rank: Master
                   Master: Ereshkigal
-                  Spells:
-                    Personal Energies:
-                      Astral Projection:
-                        Rank: *Amazing
-                        Description: *Astral_Projection
-                      Resistance Aura:
-                        Rank: *Amazing
-                        Type: Solar
-                        Description: *Resistance_Aura
-                      Trance:
-                        Rank: *Amazing
-                        Description: *Trance
-                      Transformation:
-                        Rank: *Amazing
-                        Type: Darkforce
-                        Description: *Transformation
-                    Universal Energies:
-                      Eldritch Beams/Bolts:
-                        Rank: *Amazing
-                        Type:
-                          - Darkforce Bolt
-                          - Disintegrating Bolt
-                        Note: Beams/bolts originate from the crystal on the end of the staff.
-                        Description: *Eldritch_Beams-Bolts
-                      Eldritch Blast:
-                        Rank: *Amazing
-                        Type: Darkforce
-                        Description: *Eldritch_Blast
-                      Eldritch Flames:
-                        Rank: *Amazing
-                        Description: *Eldritch_Flames
-                      Energy Control:
-                        Rank: *Amazing
-                        Type: Darkforce
-                        Description: *Energy_Control
-                      Fear:
-                        Rank: *Amazing
-                        Description: *Fear
-                      Revival:
-                        Rank: *Amazing
-                        Description: *Revival
-                      Shield-Aura:
-                        Rank: *Amazing
-                        Description: *Shield-Aura
-                      Vapors-Resist Death:
-                        Rank: *Amazing
-                        Description: *Vapors-Resist_Death
-                Reference:
-                  Club: *Club
-                  Staff of Polar Power: *Staff_of_Polar_Power
+                  Description: *Staff_of_Polar_Power
+                Spells:
+                  Personal Energies:
+                    Astral Projection:
+                      Rank: *Amazing
+                      Description: *Astral_Projection
+                    Resistance Aura:
+                      Rank: *Amazing
+                      Type: Solar
+                      Description: *Resistance_Aura
+                    Trance:
+                      Rank: *Amazing
+                      Description: *Trance
+                    Transformation:
+                      Rank: *Amazing
+                      Type: Darkforce
+                      Description: *Transformation
+                  Universal Energies:
+                    Eldritch Beams/Bolts:
+                      Rank: *Amazing
+                      Type:
+                        - Darkforce Bolt
+                        - Disintegrating Bolt
+                      Note: Beams/bolts originate from the crystal on the end of the staff.
+                      Description: *Eldritch_Beams-Bolts
+                    Eldritch Blast:
+                      Rank: *Amazing
+                      Type: Darkforce
+                      Description: *Eldritch_Blast
+                    Eldritch Flames:
+                      Rank: *Amazing
+                      Description: *Eldritch_Flames
+                    Energy Control:
+                      Rank: *Amazing
+                      Type: Darkforce
+                      Description: *Energy_Control
+                    Fear:
+                      Rank: *Amazing
+                      Description: *Fear
+                    Revival:
+                      Rank: *Amazing
+                      Description: *Revival
+                    Shield-Aura:
+                      Rank: *Amazing
+                      Description: *Shield-Aura
+                    Vapors-Resist Death:
+                      Rank: *Amazing
+                      Description: *Vapors-Resist_Death
                 Note: Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
                 Description: |
-                  About six feet long and an inch and a half thick, this staff of solid, lightweight, smooth, black metal is twisted along much of its length. It bears a prism of black crystal at one end, terminating in a tapered, blunted spike at the other. It bears an inscription, spiraling around its shaft: 𒋼𒀭𒅗𒆠𒊮𒀀𒍣𒆗𒂗𒂠𒁉𒇻𒋼𒍑𒅗𒇷𒅋𒍣𒆗𒂗𒂠𒅗𒆰𒈠𒀀𒆠𒍣𒆗𒂗𒂠𒁉𒀭𒅗𒋻𒅎𒁍𒀭𒂗𒈾𒈠𒂵𒉌 - "šu d.erkalla-ke₄ za-lam-e-ne bi-lu šu ul-ba-ke₄ za-lam-e-ne kalam-ma-ke₄ za-lam-e-ne-bi-in ka-ta in-du₁₁ d.en na-ma-gin₃" (Sumerian, roughly "This, the hand of Irkalla, shall touch all the living in their entirety, the living of the world, it shall seize them all. Thus it has been spoken. As the Lord decreed, so it shall be.") It was originally possessed by Umma Ušumgal, a Sumerian sorceress favored by Ereshkigal, and is polarized to her magic.
+                  About six feet long and an inch and a half thick, this staff of solid, lightweight, smooth, black metal is twisted along much of its length. It bears a prism of black crystal at one end, terminating in a tapered, blunted spike at the other. It bears an inscription, spiraling around its shaft: 𒋼𒀭𒅗𒆠𒊮𒀀𒍣𒆗𒂗𒂠𒁉𒇻𒋼𒍑𒅗𒇷𒅋𒍣𒆗𒂗𒂠𒅗𒆰𒈠𒀀𒆠𒍣𒆗𒂗𒂠𒁉𒀭𒅗𒋻𒅎𒁍𒀭𒂗𒈾𒈠𒂵𒉌 - "šu d.erkalla-ke₄ za-lam-e-ne bi-lu šu ul-ba-ke₄ za-lam-e-ne kalam-ma-ke₄ za-lam-e-ne-bi-in ka-ta in-du₁₁ d.en na-ma-gin₃" (Sumerian, roughly "This, the hand of Irkalla, shall touch all the living in their entirety, the living of the world, it shall seize them all. Thus it has been spoken. As the Lord decreed, so it shall be.") It was created and originally possessed by Umma Ušumgal, a Sumerian Master sorceress favored by Ereshkigal.
               Ruby Ring of Regency:
                 Reference:
                   Ruby of Domination: *Ruby_of_Domination
