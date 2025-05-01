@@ -3102,7 +3102,7 @@ Character Sheet:
                         Master: Ashtaret
                         Spells:
                           Personal Energies:
-                            Heal: *Amazing
+                            Healing: *Amazing
                             Trance: *Amazing
                           Universal Energies:
                             Conjure: *Amazing
@@ -3216,7 +3216,7 @@ Character Sheet:
                 Gramarye:
                   Rank: *Amazing
                   Description: *Gramarye
-                Heal:
+                Healing:
                   Rank: *Amazing
                   Description: *Heal
                 Image Projection:
