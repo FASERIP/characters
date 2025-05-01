@@ -2347,7 +2347,7 @@ Character Sheet:
                                 Energy Emission:
                                   Fire Generation: *Good
                               Special:
-                                Immortality: ~
+                                Immortality: *Unranked
                               Talents:
                                 Mystic and Mental Skills:
                                   Mystic Background: *Mystic_Background
@@ -2993,7 +2993,7 @@ Character Sheet:
                               Normal Human: *Good
                             Totals:
                               Demon:
-                                Rank: Shift-Z
+                                Rank: Class-1000
                                 Number: 1755
                                 Spread: 24
                                 Turns to Full Recovery: 35
