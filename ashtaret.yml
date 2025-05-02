@@ -146,7 +146,7 @@ Character Sheet:
               The Stimulus does its full damage to the hero, even when exposure to the Stimulus has been interrupted. In this case, the Stimulus sets off a bodily self-destruction sequence that must continue to its full extent. In the case of Power Negation, the hero's Powers are permanently lost. Incapacitation results in the hero reaching zero Health points and lapsing into a coma lasting 1 -10 days. After that time, he may regain his Health at the normal rate. Fatal results in the death of the hero as both Health and Endurance drop to zero. The hero can be revived, however, and will eventually recover if revival occurs.
           Conditions: Assuming Deity Aspect
           Note:
-            - Forced change back to Demon Aspect after 1d100 turns in Deity Aspect, doubled if a Psyche FEAT has Red result rolled after determining duration, unless in continuous contact with Energy Source while in that Aspect (contact pauses countdown).
+            - In the Earth Dimension, forced change back to Demon Aspect after 1d100 turns in Deity Aspect, doubled if a Psyche FEAT has Red result rolled after determining duration, unless in continuous contact with Energy Source while in that Aspect (contact pauses countdown).
             - Cannot resume Deity form until 1d100 turns exposure to Energy Source to recharge, Red Psyche FEAT to halve time (recharge does not begin until duration of change concludes).
         Normal Human:
           Stimulus:
@@ -1088,7 +1088,7 @@ Character Sheet:
                   - Dimension of Dreams
                   - Ashtaret's Demiplanar Pocket Domain
                   - Site of active worship (Cannot benefit from actively self-promoted worship.)
-                Note: Recharges Deity Aspect.
+                Note: Recharges Deity Aspect. Being in one of the listed dimensions or places, or in contact with some sort of conduit or battery for energy from them is sufficient.
                 Description: &Energy_Source |
                   The hero draws his Powers from a special source that provides him with all the energy he can handle. As long as the hero can maintain his link with this source, he can continue to use his Powers. The nature of the source and its link varies with each hero. If the source is small enough, the hero may be required to carry it with him. If not, perhaps the hero needs to periodically return to the source or forge an ethereal Power cord that links him to his Source despite any intervening distance. The Judge and player need to work together to produce a playable source and link.
 
