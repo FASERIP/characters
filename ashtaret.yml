@@ -1579,6 +1579,7 @@ Character Sheet:
                                 Demon: *Class-1000
                                 Normal Human: *Feeble
                                 Animal: *Typical
+                            Description: *Resistance_to_Energy_Attacks
                           Resistance to Physical Attacks:
                             Disease:
                               Rank:
@@ -1590,16 +1591,19 @@ Character Sheet:
                                 Demon: *Amazing
                                 Normal Human: *Excellent
                                 Animal: *Excellent
+                            Description: *Resistance_to_Physical_Attacks
                         Detection:
                           Environmental Awareness:
                             Rank:
                               Demon: *Excellent
                               Animal: *Excellent
+                            Description: *Environmental_Awareness
                           Extradimensional Detection:
                             Rank:
                               Demon: *Good
                               Ethereal: *Excellent
                               Animal: *Good
+                            Description: *Extradimensional_Detection
                           Hypersensitive Hearing:
                             Rank:
                               Animal: *Remarkable
@@ -1617,16 +1621,19 @@ Character Sheet:
                               Demon: *Excellent
                               Ethereal: *Excellent
                               Animal: *Remarkable
+                            Description: *Life_Detection
                           Magic Detection:
                             Rank:
                               Demon: *Remarkable
                               Ethereal: *Remarkable
                               Normal Human: *Excellent
                               Animal: *Excellent
+                            Description: *Magic_Detection
                           Thermal Vision:
                             Rank:
                               Demon: *Remarkable
                               Animal: *Remarkable
+                            Description: *Thermal_Vision
                           Tracking Ability:
                             Rank:
                               Animal: *Remarkable
@@ -1643,16 +1650,20 @@ Character Sheet:
                               - Flight at -1CS speed.
                               - Gateway.
                               - Energy Solidification.
+                            Description: *Darkforce_Manipulation
                           Fire Control:
                             Rank:
                               Demon: *Good
+                            Description: *Fire_Control
                         Energy Emission:
                           Fire Generation:
                             Rank:
                               Demon: *Good
+                            Description: *Fire_Generation
                           Kinetic Bolt:
                             Rank:
                               Ethereal: *Remarkable
+                            Description: *Kinetic_Bolt
                         Fighting:
                           Natural Weaponry:
                             Rank:
@@ -1660,45 +1671,56 @@ Character Sheet:
                             Type:
                               - Claws (Edged Attack)
                             Note: Animal Aspects attack on Edged Attack column naturally, without a Power.
+                            Description: *Natural_Weaponry
                         Illusionary:
                           Illusion-Casting:
                             Rank:
                               Demon: *Remarkable
                               Ethereal: *Remarkable
+                            Description: *Illusion-Casting
                         Lifeform Control:
                           Mind Control:
                             Rank:
                               Ethereal: *Remarkable
                             Form:
                               Type: Possession
+                            Description: *Mind_Control
                         Mental Enhancement:
                           Iron Will:
                             Rank:
                               Normal Human: *Remarkable
                               Animal: *Remarkable
+                            Description: *Iron_Will
                           Linguistics:
                             Rank: *Remarkable
+                            Description: *Linguistics
                           Telekinesis:
                             Rank:
                               Demon: *Good
                               Ethereal: *Remarkable
+                            Description: *Telekinesis
                           Telepathy:
                             Rank:
                               Demon: *Remarkable
                               Ethereal: *Remarkable
+                            Description: *Telepathy
                           Total Memory:
                             Rank: *Remarkable
+                            Description: *Total_Memory
                         Physical Enhancement:
                           Body Resistance:
                             Rank:
                               Demon: *Excellent
+                            Description: *Body_Resistance
                           Self-Sustenance:
                             Rank:
                               Demon: *Monstrous
                             Type: Permanent
+                            Description: *Self-Sustenance
                           Stealth:
                             Rank:
                               Animal: *Excellent
+                            Description: *Stealth
                         Power Control:
                           Focus:
                             Ranks:
@@ -1718,10 +1740,12 @@ Character Sheet:
                                 Number: 354
                                 Spread: 17
                                 Turns to Full Recovery: 36
+                            Description: *Focus
                         Self Alteration:
                           Imitation-Face Changer:
                             Rank:
                               Normal Human: *Excellent
+                            Description: *Imitation-Face_Changer
                         Special:
                           Eldritch Bolts:
                             Rank:
@@ -2311,13 +2335,48 @@ Character Sheet:
                                     Rank: *Remarkable
                                 Special Abilities:
                                   Powers:
+                                    Detection:
+                                      Magic Detection:
+                                        Rank: *Remarkable
+                                        Description: *Magic_Detection
+                                      Microscopic Vision:
+                                        Rank: *Remarkable
+                                        Description: &Microscopic_Vision |
+                                          The hero's eyes can focus on extremely minute targets, objects too small for normal vision to perceive. This Power functions in two stages. The first is light magnification: the hero's eyes function as normal microscopes. This allows the hero to see things as small as chromosomes. Beyond this level, light no longer carries images. The second stage of this Power is a variation of Clairvoyance that permits the hero to see miniature, rather than distant, targets. The Power automatically shifts between these stages without the hero's conscious choice. (Rank: FE = microfilm, EX = cells, AM = molecules, UN = atoms, ShY = electrons, CL5000 = surfaces of subatomic worlds.)
                                     Mental Enhancement:
                                       Linguistics:
                                         Rank: *Remarkable
                                         Description: *Linguistics
+                                      Postcognition:
+                                        Rank: *Remarkable
+                                        Description: &Postcognition |
+                                          The hero has the ability to "see" the past. The Power requires the hero to have physical contact with the target whose history is being examined. The hero can mentally examine a person, item, or site and mentally re-live a specific moment of history from the target's point-of-view. As such, it only reveals factors that somehow affected the target.
+
+                                          It is important that the Judge secretly roll the dice whenever the hero uses the Power. This prevents the player from knowing the accuracy of his vision.
+
+                                          The hero can delve into the past the number of weeks equal to the Power rank number. For example, a Poor rank can see events of four weeks ago, an Amazing rank can look back almost one year, and a CL5000 rank can look back a century.
+
+                                          The clarity of the vision is determined by what FEAT color is attained. A white roll lets the Judge say anything that comes to his head: accuracy and truthfulness are optional. ("This doll was once a living child.") A green FEAT gives vague impressions: the Judge should be honest about the real past but give only partial details. ("A little girl held this doll. She had black hair.") A yellow FEAT gives general information: the Judge should give any information he can, though within the limits of what the target would know. ("The girl's name is Helen. She is feeling very angry. She is mad at her friend Davey.") A red FEAT reveals information that might not be otherwise available, including details that the subject might not have known at the time. ("Helen is mad because Davey broke her doll. Helen is going to get even with Davey. Helen is a mutant.")
+
+                                          Postcognition can be used to gain information on what an item is and who may have handled it. It cannot provide a detailed analysis of the item's internal structure or as-yet-unrealized potential. For example, examining a nuclear bomb would reveal how it was manufactured and handled but the Power wouldn't even hint at the bomb's explosive potential. The hero gains +1CS when using Postcognition on friends, possessions, and his dwelling place. He gains +2CS when using the Power on himself. This can be used to probe times of which the hero has no memory, such as sleep or amnesia. ("What was the Black Widow doing in my apartment while I was asleep?")
+
+                                          Optional Powers include modified forms of Telepathy and Time Travel. Telepathy can be used to read the minds of anyone within the scope of the Postcognitive vision. Time Travel can be used to draw the hero to that point in the past: note that this often results in the creation if a divergent timeline.
                                       Total Memory:
                                         Rank: *Remarkable
                                         Description: *Total_Memory
+                                    Travel:
+                                      Floating Disc:
+                                        Rank: *Remarkable
+                                        Description: &Floating_Disc |
+                                          The hero can create a glowing platform of solid light. The disc materializes to support any part of the hero's body: generally this is under the feet or posterior. The disc is a part of the hero's Power and has no independent existence beyond him. The disc can automatically support the hero and additional mass. The weight is supported by a Power FEAT with the Power substituting for Strength. For example, creating a Floating Disc to lift five tons is an Incredible Intensity FEAT. The disc's surface area expands to support wide loads.
+
+                                          Travel occurs at Power rank speed. The Power provides no innate protection against high windspeed and friction burns, thus the practical speed limit for atmospheric Flight is Remarkable (225 mph). The Power can be used in the water with proportionally decreased speed.
+
+                                          If the hero is a technological type or possesses such Powers as Hyper-Intelligence, Hyper-inventiveness, Weapons Tinkering, or Mechanical Creation, then the Floating Discs can be mechanical in nature. Such disks collapse for easy storage somewhere on the hero's costume, such as a false bottom in the boots. An example of this is the Wizard's anti-grav disks.
+
+                                          The Optional Power is Kinetic Bolt: the energy resembles the Floating Disc.
+
+                                          Nemesis is Energy Vampirism.
                                   Talents:
                                     Scientific Skills:
                                       Archaeology:
@@ -2357,6 +2416,13 @@ Character Sheet:
                                     Rank: *Remarkable
                                 Special Abilities:
                                   Powers:
+                                    Detection:
+                                      Magic Detection:
+                                        Rank: *Remarkable
+                                        Description: *Magic_Detection
+                                      Microscopic Vision:
+                                        Rank: *Remarkable
+                                        Description: *Microscopic_Vision
                                     Fighting:
                                       Weapons Tinkering:
                                         Rank: *Remarkable
@@ -2378,8 +2444,47 @@ Character Sheet:
 
                                           Needless to say, the player will have to develop stats for anything he comes up with. If he successfully copies existing technology, like the Iron Man battlesuit or a SHIELD Plasma Beam Handgun, he can simply use the established stats for that device. Weapons Locker (MHAC8) by Epperson and Grubb is a valuable aid to the player of a hero with this Power. A clever character can also use this Power to make money off of other characters by building weapons on commission. After all, somebody's got to be building all those super-weapons tha`t fill the pages of comic books…
                                     Matter Control:
+                                      Bonding:
+                                        Rank: *Remarkable
+                                        Description: &Bonding |
+                                          The hero has the ability to join two or more targets together on a molecular level. The effect is the same as if the targets were glued or welded together. In actuality, the hero has induced molecular adhesion. A submicroscopic examination would fail to reveal any foreign material (such as a glue) or disturbances in the normal arrangement of the target's structure (such as the distortion caused by welding). The Bonding is so powerful that attempting to sever its effect results in physical damage to either of the Bonded targets because the only way to forcibly separate two Bonded objects is to tear the surface of one or both of them. This causes Typical wounds to a living target.
+
+                                          The range for Bonding is limited to Contact only. The hero need not touch the actual area to be Bonded, although the hero needs to touch the two targets somewhere in order to direct the Power's effect. Once the hero is touching both targets and has begun to manifest his Power, Bonding occurs at any point where the two targets are in contact with each other. The Bonding process takes any number of turns, depending both on the hero's Power rank and the desired material strength of the Bonding. The first turn produces a Bonding of Feeble material strength. Each turn the Bonding process continues raises that material strength +1CS, up to the limit of the Power rank. At any point the hero can cease to use his Power and thus produce Bondings of varied strengths.
+
+                                          Example: K. Z. Glew has Good Bonding and is testing his Power on a number of blocks. When he holds two together for two turns, he produces a Poor Bonding. Holding two together for three turns produces a Typical Bonding. Holding two bricks for four turns produces a Good Bonding; in fact, K. Z. could concentrate on the same two bricks all day and not be able to exceed that Good Bonding.
+
+                                          The duration of the Bonding is determined by a Power FEAT at the time the Power is used. A green FEAT creates a Bond that lasts a number of turns equal to the hero's Reason rank number times 100. A yellow FEAT increases the multipliers to 10,000 turns times the Reason rank number. A red FEAT ensures a permanent Bonding. If the Bonding is temporary, its effects end without a trace at the expiration of the time limit.
+
+                                          This is a Power that readily combines with many of the other listings in this book. Combining it with Webcasting produces an equivalent to Spiderman's web. Weapons Tinkering produces an equivalent to the Trapster's glue gun. Chemical Touch produces a natural adhesive coating on the hero's body. Combustion or Fire Generation produces napalm. There are more but I'll leave them to the player's imagination to devise.
+
+                                          The Power can only affect solids. Liquid, gaseous, ethereal, and Phasing matter are immune to this Power's effects. Once Bonded, matter cannot Phase as a means of escaping the adhesion; doing so causes Typical damage as the Bonded surface is lett behind. Transition from solid to either liquid or gaseous state will work to free the Bonded matter without physical damage, although this is not an option for most people.
+
+                                          Bonding only occurs on the surface and does not penetrate more than 1/16th of an inch into any Bonded material. The effect this has on living targets is that only the epidermis is affected. As it does not affect liquids, the Power automatically penetrates any coating that might otherwise protect the target. Optional Powers include Missile Creation, Spray, Webcasting, and Weapons Tinkering.
+
+                                          The Nemeses are Phasing, Body Transformation, and Energy Body.
+                                      Collection:
+                                        Rank: *Remarkable
+                                        Description: &Collection |
+                                          The hero can cause any desired material to collect in a specific location. This material must already be present and diffused throughout the hero's vicinity, whether in the air, water, soil, or scattered across the ground. The Collection area has a radius determined by the Power rank; distances are shown on column C of the Range Table inside this book’s cover. For example, an Incredible rank can collect material from as far as 25 miles away. Collected material instantly teleports to the designated Collection site. The site must be in line of sight of the hero and within his Power's range. The hero can Collect per turn a maximum amount of material measured in the number of pounds equal to the Power rank number. This assumes, of course, that enough material exists within the vicinity in order to be Collected. Any material of any nature can be Collected. There is a partial exemption to this rule in regards to living beings. The Power can only Collect living beings whose weight is within the weight limits for the Power; if the beings weighs more, the Power can not affect them aside from a brief tug. If the Power is used to Collect the bodily products of living beings, player and Judges are to assume that so little is drawn from each being that no harm results. For example, a character could Collect a mass of blood without having to worry that he bled some stranger to death.
+
+                                          The Power does not after the state of any matter either before or after Collection. The desired matter must be in the basic chemical formulation desired. Desired materials that are in some altered state are not affected by the Power. For example, trying to Collect steel in a junkyard full of rust will lead to naught. The exception is if the desired material is in either a state of solution or suspension, since neither actually affects the chemical nature of the material.
+
+                                          For example, imagine your hero is standing at the seaside and practicing his Power. He cannot Collect the hydrogen bound into the water but he could Collect salt, gold, or anything else dissolved into seawater. Collecting salt is easy; a Remarkable Power can Collect a man- sized pile within a minute's time. Gold is harder; each cubic mile of seawater contains only a few ounces of gold.
+
+                                          Due to some unexplained limitation to this Power, it cannot randomly Collect foreign materials found within the bodies of anyone within the Power's range. Common foreign materials include tooth fillings, prostheses, sutures, and drugs. If the hero must Collect such materials from a body. For example if he knows arsenic has been swallowed by someone, the conditions increase in difficulty. The hero must be in contact with the source of the desired material and the hero must make a red FEAT to withdraw the material without harming the donor. Failure to do so means the material is still locked within the target's body.
+
+                                          Ethereal and Phasing matter can be Collected. They just can't be held for any length of time without consciously and repeatedly using the Power to return such matter to the Collection site.
+
+                                          This Power is most commonly linked to the Matter Control and Conversion Powers as a way to gather sufficient raw material to permit the other Powers to function. These are listed as Optional Powers. Even if used by itself, this Power can be used effectively. Matter can be Collected to form a protective shield or to entrap a foe in a suddenly appearing pile of debris. Dirt or water can be Collected to smother a fire or dampen escaping radiation. The hero is free to develop various Power Stunts using suddenly materialized matter.
+
+                                          The complexity of the material to be collected determines what Intensity FEAT is required. Raw, amorphous materials can be collected in a dusty pile by a green FEAT. Common examples include metals, dirt, and water. Formed or complex material requires a yellow FEAT to collect in recognizable form. Examples include bricks, edibles, and comic books. Biological material requires a red FEAT, whether the hero is trying to collect bile or hamsters.
+
+                                          Optional Powers include Crystallization, Matter Animation, Micro Environment, Molding, Weather, Combustion, Elemental Conversion, and Molecular Conversion.
+
+                                          The Nemesis is Matter Animation.
                                       Molding:
                                         Rank: *Remarkable
+                                        Description: *Molding
                                     Matter Conversion:
                                       Molecular Conversion:
                                         Rank: *Remarkable
@@ -2395,7 +2500,7 @@ Character Sheet:
 
                                           Each ounce of created matter temporarily costs the hero one point of Health. All points lost in this way are regained after 24 hours. Thus the hero can only create in a single day a number of ounces equal to his Health.
 
-                                          The hero must have detailed knowledge of anything he wants to create. He can only store a limited number of de-' signs in his memory. The total number of memory slots available for this Power is equal to his Reason rank number. The player must keep a record of the designs the hero can create. The list can be changed at any time. A green Reason FEAT gains the hero a new design; if no memory slots are available, an old design is tossed away to make room for the new one. Normally the Power is used to create facsimiles of existing machines.
+                                          The hero must have detailed knowledge of anything he wants to create. He can only store a limited number of designs in his memory. The total number of memory slots available for this Power is equal to his Reason rank number. The player must keep a record of the designs the hero can create. The list can be changed at any time. A green Reason FEAT gains the hero a new design; if no memory slots are available, an old design is tossed away to make room for the new one. Normally the Power is used to create facsimiles of existing machines.
 
                                           The hero must make a detailed study of the machine for at least 10 minutes for each attempted FEAT. Failure to make a FEAT means another 10 minutes of study is required. Some items may be beyond the hero's comprehension. if the player is really bad at rolling the dice.
 
@@ -2553,6 +2658,11 @@ Character Sheet:
                                   Resources:
                                     Rank: *Good
                                 Special Abilities:
+                                  Powers:
+                                    Mental Enhancement:
+                                      Empathy:
+                                        Rank: *Incredible
+                                        Description: *Empathy
                                   Talents:
                                     Professional Skills:
                                       Business/Finance:
@@ -2753,7 +2863,7 @@ Character Sheet:
                     Time alteration spells cast from the astral plane work within the physical plane, but do not affect the astral plane.
                 Empathy:
                   Rank: *Amazing
-                  Description: &Empathy |
+                  Description: &Empathy_Spell |
                     The caster can magically sense another character or group’s strong emotions (not thoughts). This spell not only allows the character to gain a general impression of the mood and intentions of individuals or groups, it also allows him to broadcast his emotions to an individual or group. Broadcasting emotional attitudes like friendship, love, caution, helpfulness, and so forth can sometimes prove invaluable in clearing up a misunderstanding. The character cannot broadcast these emotions unless he truly feels them. These feelings should help dictate his actions. Only one attempt at it can be made per encounter. By using this spell, especially on animals, the caster can sense whether the target is deathly afraid, slightly afraid, in love, full of hate, etc. and the object of their hate, love, fear, and so on.
                 Enchanted Eye:
                   Rank: *Amazing
