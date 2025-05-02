@@ -148,7 +148,7 @@ Character Sheet:
           Note:
             - In the Earth Dimension, forced change back to Demon Aspect after 1d100 turns in Deity Aspect, doubled if a Psyche FEAT has Red result rolled after determining duration, unless in continuous contact with Energy Source while in that Aspect (contact pauses countdown).
             - Cannot resume Deity form until 1d100 turns exposure to Energy Source to recharge, Red Psyche FEAT to halve time (recharge does not begin until duration of change concludes).
-        Normal Human:
+        Normal Human: &Weakness_Normal_Human
           Stimulus:
             - Type: Elemental Allergy
               Description: |
@@ -1484,7 +1484,7 @@ Character Sheet:
                   Weakness:
                     Demon: *Weakness_Demon
                     Ethereal: *Weakness_Ethereal
-                    Normal Human: &Weakness_Normal_Human
+                    Normal Human: *Weakness_Normal_Human
                     Animal: *Weakness_Normal_Human
                     All Aspects:
                       Aspect Shifting:
