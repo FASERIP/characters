@@ -2588,6 +2588,10 @@ Character Sheet:
                                         Rank: *Excellent
                                         Note: As Sentries, but generally doesn't have a shield.
                                         Description: *Body_Armor
+                                    Detection:
+                                      Tracking Ability:
+                                        Rank: *Remarkable
+                                        Description: *Tracking_Ability
                                     Energy Emission:
                                       Light Emission:
                                         Rank: *Good
@@ -2659,14 +2663,52 @@ Character Sheet:
                                     Rank: *Good
                                 Special Abilities:
                                   Powers:
+                                    Detection:
+                                      Magic Detection:
+                                        Rank: *Remarkable
+                                        Description: *Magic_Detection
+                                      True Sight:
+                                        Rank: *Remarkable
+                                        Description: *True_Sight
+                                    Lifeform Control:
+                                      Exorcism:
+                                        Rank: *Remarkable
+                                        Description: *Exorcism
+                                      Summoning:
+                                        Rank: *Remarkable
+                                        Description: *Summoning
                                     Mental Enhancement:
                                       Empathy:
-                                        Rank: *Incredible
+                                        Rank: *Remarkable
                                         Description: *Empathy
+                                      Linguistics:
+                                        Rank: *Remarkable
+                                        Description: *Linguistics
+                                      Mind Probe:
+                                        Rank: *Remarkable
+                                        Description: *Mind_Probe
+                                      Total Memory:
+                                        Rank: *Remarkable
+                                        Description: *Total_Memory
+                                    Physical Enhancement:
+                                      Hypnotic Voice:
+                                        Rank: *Remarkable
+                                        Description: *Hypnotic_Voice
+                                    Special:
+                                      Eldritch Bolts:
+                                        Rank: *Remarkable
+                                        Description: *Eldritch_Bolts
+                                      Eldritch Shield:
+                                        Rank: *Remarkable
+                                        Description: *Eldritch_Shield
                                   Talents:
                                     Professional Skills:
                                       Business/Finance:
                                         Description: *Business-Finance
+                                      Detective/Espionage:
+                                        Description: *Detective-Espionage
+                                      Psychiatry:
+                                        Description: *Psychiatry
                                     Mystic and Mental Skills:
                                       Resist Domination:
                                         Description: *Resist_Domination
