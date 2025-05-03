@@ -2942,12 +2942,6 @@ Character Sheet:
                   Rank: *Amazing
                   Description: &Healing |
                     This spell gives the caster such complete control over his bodily functions that he can heal himself by use of personal or dimensional energy. Use the spell rank number instead of his Endurance rank number to determine the maximum amount of damage healed. The caster can only perform this once per day, in addition to his normal healing rate.
-                Healing-Others:
-                  Rank: *Amazing
-                  Description: &Healing-Others |
-                    The caster can magically heal other characters by using universal or dimensional energy. The caster must touch the character for two consecutive rounds after casting the spell. A successful spell rank FEAT roll is required. The, maximum amount of damage that can be healed per person is the spell rank number. Any individual character can only be healed once per day by a specific caster. The number of different characters the caster can heal per day is equal to the spell rank number divided by 10 (round fractions up). If the player so desires, this spell could be used to heal a creature instead of a character.
-
-                    The healing is complete, including the mending of broken bones and torn cartilage. The spell is also effective against disease.
                 Image Projection:
                   Rank: *Amazing
                   Description: &Image_Projection |
@@ -3164,6 +3158,11 @@ Character Sheet:
 
                     Once established the glamor cannot be moved out of the area or exact location it was cast upon. Glamor has no effect on the caster.
                 Healing-Others:
+                  Rank: *Amazing
+                  Description: &Healing-Others |
+                    The caster can magically heal other characters by using universal or dimensional energy. The caster must touch the character for two consecutive rounds after casting the spell. A successful spell rank FEAT roll is required. The, maximum amount of damage that can be healed per person is the spell rank number. Any individual character can only be healed once per day by a specific caster. The number of different characters the caster can heal per day is equal to the spell rank number divided by 10 (round fractions up). If the player so desires, this spell could be used to heal a creature instead of a character.
+
+                    The healing is complete, including the mending of broken bones and torn cartilage. The spell is also effective against disease.
                 Illusion:
                   Rank: *Amazing
                   Description: &Illusion |
