@@ -33,35 +33,47 @@ Character Sheet:
     Abilities:
       Primary Abilities:
         Fighting:
-          Rank: Remarkable
-          Number: 30
+          Rank: Amazing
+          Number: 40
+          Reference: Maximum human potential (Captain America, Silver Surfer)
         Agility:
-          Rank: Remarkable
-          Number: 30
+          Rank: Incredible
+          Number: 40
+          Reference: Olympic gymnast (Captain America, Daredevil)
         Strength:
-          Rank: Remarkable
-          Number: 30
+          Rank: Excellent
+          Number: 20
+          Reference: Able to press up to 800 lbs. Maximum human ability (Captain America)
         Endurance:
           Rank: Remarkable
           Number: 30
+          Reference: Intensive exercise (Captain America, Cyclops)
         Reason:
           Rank: Unearthly
           Number: 125
+          Reference: In effect, IS an alien technology (Watcher)
+          Hyper-Intelligence: Increased by Monstrous (75) Hyper-Intelligence/Reason Power
         Intuition:
           Rank: Unearthly
           Number: 105
+          Reference: In touch with universe, cannot be blindsided (Watcher)
+          Hyper-Intelligence: Increased by Monstrous (75) Hyper-Intelligence/Intuition Power
         Psyche:
-          Rank: Remarkable
-          Number: 30
+          Rank: Monstrous
+          Number: 75
+          Reference: Intense training in mental powers, experience in wielding those powers  (Professor X, Loki)
+          Psi-Screen: +1CS to resist mental attacks from Resist Domination Talent
       Secondary Abilities:
-        Health: 120
-        Karma: 240
+        Health: 130
+        Karma: 305
         Resources: 
           Rank: Amazing
           Number: 50
+          Reference: Large corporation, small country (Doctor Doom, Mandarin, A.I.M.)
         Popularity:
           Rank: Excellent
           Number: 20
+          Reference: (Captain Marvel, Iron Man, Shaman, Silver Surfer)
       Special Abilities:
         Powers:
           Defensive:
@@ -119,6 +131,10 @@ Character Sheet:
                 - Martial Arts C
                 - Martial Arts D
                 - Martial Arts E
+                - Wrestling
+                - Throwing
+                - Acrobatics
+                - Tumbling
               Reference: |
                 In the MARVEL SUPER HEROES game system Fighting is considered an Ability, not a Power. However, this Power increases a hero's already-mastered Martial Arts (a Talent in the game system) to dramatically higher levels and allows him to perform actions that would otherwise be impossible, like splitting a battleship in two with a single karate chop.
 
@@ -255,7 +271,7 @@ Character Sheet:
               Number: 75
               Total:
                 Rank: Class 1000
-                Number: 1545
+                Number: 1620
                 Spread: 24
                 Turns to Full Recovery: 21
               Reference: The hero can channel all his raw energy into a single burst of a chosen Ability or Power. All his Power and Ability rank numbers are totaled together. This rank number replaces the rank number for a chosen Power. Upon the completion of releasing the Power, all the hero's Abilities and Powers temporarily drop to Feeble. This Power's rank number is the total amount of lost points the hero can regain each turn. Points are divided evenly between all the depleted Abilities and Powers. (Okay, this isn't really a Power either. Roll again for an additional Power.)
@@ -277,13 +293,13 @@ Character Sheet:
                   Immortality is applicable to the Earth Dimension only (including all planets of this dimension). An immortal character in another dimension—such as Asgard or Olympus, but excluding variant or divergent earths-does not age, but may be killed normally while in that dimension.
             Magic:
               Eldritch Bolts:
-                Rank: Remarkable
-                Number: 30
+                Rank: Monstrous
+                Number: 75
                 Reference: |
                   Eldritch Bolt is a bolt of magical power, and includes all manner of spells such as Doctor Strange's Bolt of Bedevilment. The range is as determined in the spell range table, and damage is equal to the Power rank, with the following difference: the bolt may reduce Health or Karma values (in the latter case, the target's effectively out of luck). If the bolt attacks Health, treat it as a Force attack.
               Eldritch Shield:
-                Rank: Remarkable
-                Number: 30
+                Rank: Monstrous
+                Number: 75
                 Reference: |
                   The Eldritch Shield is a shield of mystical energy that provides the caster with mystical Body Armor equal to the caster's rank number. This is also proof against magical attacks or those attacks which arise from magic.
 
