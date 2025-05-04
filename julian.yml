@@ -18,6 +18,7 @@ Character Sheet:
       Origin of Power:
         Self-Achievement: The hero actively sought out a means of giving himself Power. He developed the methods, procedures, equipment, or whatever permits him to possess Power. This could be through scientific endeavors (Henry Pym/ Ant Man), arcane study (Dr. Strange), or physical training (iron Fist). Anyone can gain Powers similar to the hero's by following this special training.
     Weakness:
+      Normal Human: Everybody has an Achilles' Heel, a weakness that can really mess up his day. The nature and severity of the weakness varies with the individual, race, or class. Normal Humans have so many we don't even think about them, aside from heeding such warnings as "Poison" or skull-and-crossbones symbols. For Normal Humans, the standard stimuli are Elemental Allergy, Molecular Allergy, and Energy Allergy with Fatal Effects. 
       Stimulus:
         Elemental Allergy: |
             The hero suffers adverse effects if he is exposed to a specific one of the hundred-odd elements. This Allergy only occurs if the element is present in a pure state and in an accumulation of at least one ounce. If the element is combined in a molecular state or is in insufficient quantities, no Effect occurs. The element must be within 20 feet of the hero for it to have any Effect.
@@ -29,8 +30,6 @@ Character Sheet:
         Fatal: As in the above, the hero gets ill after the initial exposure to the Stimulus. However, the Health loss does not stop at zero. Death will eventually occur if Health and (subsequently) Endurance drop to zero during the Weakness Duration. The hero can be revived if proper medical attention is given, but only after his Health and Endurance have both reached zero.
       Duration:
         Continuous with Contact: As long as the hero remains within the effective range of the Stimulus, the Effect continues. When the hero is insulated or moved away from the Stimulus, the Effect immediately ceases. Lost Health points are returned at a rate of 2 per turn. If death has occurred, the hero now has the possibility of being revived.
-      Conditions: Exposure to dangerous energies or toxic substances causes loss of Health and Endurance. May heal as normal after exposure ceases.
-      Note: This Weakness simply reflects how dangerous substances and energy like poison, fire, radiation, electricity, etc. affect Normal Humans.
     Abilities:
       Primary Abilities:
         Fighting:
