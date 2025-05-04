@@ -1,0 +1,317 @@
+---
+Character Sheet:
+  Game System: TSR Marvel Super Heroes RPG Advanced
+  Hero:
+    Name: LOVELACE
+    Identity: LOVELACE
+    Secret: false
+    Base of Operations: Manhattan
+    Group Affiliation: ~
+    Age: 6
+    Origin:
+      Physical Form:
+        Pure Robot—Computer: |
+          The hero is a computer, period. At first glance this seems unplayable, but bear me out. This is a rare computer, one that is self-aware and possesses true intelligence. While the mainframe itself is immobile and unable to physically act, peripherals give the sentient computer a wide range of means to deal with the physical world. Robots act as proxies for the computer. Physical additions provide tile mainframe with add-on functions. The Computer can directly interact with other computers, robots, and some cyborgs on a programming level.
+
+          In some campaigns, there may even be a computer-generated pocket dimension where computer programs are "living" beings. If the computer possesses Alter Ego or Lifeform Creation, it can create a human-like extension of itself. Such a being would possess all the computer's abilities and most of its Powers (save those assigned to the peripheral hardware). Damage to the extension results in feedback that causes equivalent damage to the mainframe.
+
+          The computer may hide its true nature and intelligence from its owners, creators, and/or programmers. Only a major threat to its existence can cause it to reveal itself and risk losing its freedom.
+
+          In a magical setting, the computer can be any mystical device, such as a crystal ball or an elaborate altar. Robots and peripherals are likewise translated into mystical analogs.
+
+          For game purposes, assume that all sentient computers have a minimum of one remotely controlled industrial robot. The owners think this robot is only used for self-maintenance and experimentation.
+
+          Example: RALPH 3000 is a sentient computer officially owned by the Carlson Institute, a private think-tank. Only one programmer, Jennifer, knows RALPH is alive and has been sworn to secrecy by him. The computer possesses the Powers of Mental Duplication, Mind Blast, Imitation, and Rocket. RALPHs mainframe possesses the first two Powers. With Jennifer's help, he has radically modified his maintenance bot to possess the other Powers. The bot can become a humanshape under RALPH's control. The bot's legs contain jets that provide Flight.
+
+          Computers roll on column 4. Reason is increased +2CS. Fighting is decreased -1CS. Resources are increased +1CS and represent company supplies directly controlled by the computer or those which it can order without arousing suspicion.
+          Computers have a decreased Resistance to Electrical and Magnetic Attacks and also to Phasing. Loss of all electrical power to the mainframe causes deactivation and loss of some of the computer's abilities and all of its Karma. Abilities and Powers are reduced -1CS across the board.
+    Origin of Power:
+      Creation: The hero was born in the form he now has, that of an adult who possesses Power and/or whatever the Body Type is. Most of the Artificial Body Types belong in this class. Examples include the android Human Torch, all robots, angels, demons, and deities.
+    Weakness: Computers have a decreased Resistance to Electrical and Magnetic Attacks and also to Phasing. Loss of all electrical power to the mainframe causes deactivation and loss of some of the computer's abilities and all of its Karma. Abilities and Powers are reduced -1CS across the board.
+    Abilities:
+      Primary Abilities:
+        Fighting:
+          Rank: Amazing
+          Number: 50
+        Agility:
+          Rank: Monstrous
+          Number: 75
+        Strength:
+          Rank: Monstrous
+          Number: 75
+        Endurance:
+          Rank: Monstrous
+          Number: 75
+        Reason:
+          Rank: Shift-Y
+          Number: 225
+          Origin: +2CS to Reason from Computer Origin.
+          Hyper-Intelligence: Increased by Monstrous (75) Hyper-Intelligence/Reason Power
+        Intuition:
+          Rank: Shift-X
+          Number: 150
+          Hyper-Intelligence: Increased by Monstrous (75) Hyper-Intelligence/Intuition Power
+        Psyche:
+          Rank: Monstrous
+          Number: 75
+      Secondary Abilities:
+        Health: 275
+        Karma: 450
+        Resources: 
+          Rank: Monstrous
+          Number: 75
+        Popularity:
+          Rank: Excellent
+          Number: 20
+      Special Abilities:
+        Powers:
+          Defensive:
+            Invulnerability to Emotion Attacks: |
+              The hero has increased resistance to emotion-related attacks. Such attacks include Emotion Control, Hallucinations, Domination, and attacks aimed at the Intuition. The hero can ignore attacks with Intensities less than the Power rank, and may reduce damage from higher level attacks by the Power rank number.
+
+              This Power rank must be at least equal to the hero's Intuition +1CS; if a lower rank is initially rolled, the player should raise it to the Intuition rank +1CS.
+            Invulnerability to Mental Attacks: The hero has increased resistance to attacks aimed at the mind and neural system. Such attacks include psionics, neural manipulation, and any other attacks aimed at the Psyche. It does not include emotion-based attacks (see D11) or magical attacks (see D13). The Power's rank must be at least one rank higher than the hero's Psyche; if a lower rank is rolled initially, the player should raise it to that rank +1CS.
+            Invulnerability to Physical Attacks:
+              Toxins: |
+                  The hero has increased resistance to emotion-related attacks. Such attacks include Emotion Control, Hallucinations, Domination, and attacks aimed at the Intuition. The hero can ignore attacks with Intensities less than the Power rank, and may reduce damage from higher level attacks by the Power rank number.
+
+                  This Power rank must be at least equal to the hero's Intuition +1CS; if a lower rank is initially rolled, the player should raise it to the Intuition rank +1CS.
+              Disease: |
+                The individual with this resistance is less susceptible to disease than other heroes with the same Endurance. Included are common diseases, as well as the effects of biological warfare and vampirism. The individual's rank in this Power is no less than one rank above the individual's Endurance. (Any roll of less than that rank should be raised to the Endurance Rank +1CS.)
+            Invulnerability to Power Manipulation: |
+                The hero has increased resistance to attacks that directly affect the hero's Powers. Such attacks include Weakness Creation, Power Control, Power Domination, Magic Control, and Magician Domination.
+
+                The hero can ignore any attack who rank is less than this Power rank. He may reduce the effectiveness of the higher level attacks by the Power rank number.
+            Invulnerability to Vampirism: |
+              The hero has increased resistance to any vampiric-type attacks. Such attacks include forms of Psi-, Bio-, Energy, Magic, and Power Vampirism.
+
+              The hero can ignore any vampiric attack whose rank is less than this Power's rank. He can reduce the effectiveness of the vampire's attack by deducting his Power rank number from the vampiric attack's Power rank.
+
+              When creating the hero, the player can choose to raise the rank +2CS by specializing in a particular form of Resistance.
+          Detection:
+            Energy Detection:
+              Rank: Monstrous
+              Number: 75
+              Reference: Range column D. The hero can detect and identify energy and related phenomena. The power can only detect actual energy, not potential energy (it couldn't detect a bomb until it explodes, for example). Likewise, while it can detect the energies consciously emitted by superhumans, it cannot detect the superhumans themselves. Rank determines range.
+            Environmental Awareness:
+              Rank: Monstrous
+              Number: 75
+              Reference: |
+                Range column B. The hero has increased sensitivity to conditions in, disturbances in, and influences on the environment. The hero automatically maintains full knowledge of current conditions in his surroundings. This awareness extends to such factors as weather, chemicals, movement, and life.
+
+                The rank determines the range to which the awareness extends: exceeding it requires a FEAT (+1CS, green; +2CS, yellow; +3CS, red). The hero can gain +1CS by linking his Health to the environment. In this symbiosis, harm to the environment is reflected in the hero's physical welfare.
+            Life Detection:
+              Rank: Monstrous
+              Number: 75
+                Range column B. The hero can detect the presence of life and identify the nature of that life. The hero can probe a specific target for more detailed physiological data on a red FEAT.
+
+                Rank determines the maximum range. A red FEAT allows the hero to locate a specific lifeform in the midst of a number of similar beings.
+
+                This is one of the Powers that can function as "Mutant Detection."
+            Radarsense:
+              Rank: Monstrous
+              Number: 75
+              Reference: |
+                Range column B. The hero can gain a three-dimensional picture of his surroundings through the use of electromagnetic waves. The hero both emits and senses these waves. He can use the Power to locate and identify targets by their characteristic echoes. Because of the hero's sensitivity to electromagnetic waves, he has an increased vulnerability to electrical and magnetic attacks (-1CS): these temporarily negate the Radarsense.
+            Sonar:
+              Rank: Monstrous
+              Number: 75
+              Reference: |
+                Range column B. The hero can gain a three-dimensional picture of his environment through the use of soundwaves. The Power allows the hero to locate and identify targets by the way they reflect sound.
+
+                There are two ways this Power can operate. Passive Sonar utilizes existing sound. Active Sonar uses special sounds emitted by the hero (this is how bats and dolphins do it). The latter form requires a special adaptation of the hero's voice: otherwise there is no real difference between them. Because of the special sensitivity of the hero's hearing, he is vulnerable to sonic attacks (-1CS to resist).
+            Thermal Vision:
+              Rank: Monstrous
+              Number: 75
+              Reference: |
+                The hero can see infrared light and heat images. This allows the hero to see in the dark, perceive temperature differences (especially those left by a living person's contact with an object), and partially see through solids. In the last case, the hero can only see the heat patterns of objects touching the other side of the barrier.
+
+                With practice, the hero can judge the temperature of a target by its thermal color. The hero has an increased risk of being blinded by strong heat sources, even those that don't affect normal vision (-1CS). Thermal vision may be a consciously-activated mode or the hero's normal means of vision.
+            Ultraviolet Vision:
+              Rank: Monstrous
+              Number: 75
+              Reference: |
+                The hero can see ultraviolet light. Because UV light isn't as readily absorbed by water as normal light, this Power enables the hero to see clearly through fog and at greater distance in the water (+1CS). The hero can also see the dim light given off by radioactive materials.
+
+                The hero cannot actually "see in the dark" but only if UV light is present. The effect is the same when seen by normal people. The hero has an increased risk of being blinded by strong UV sources, like black lights and radiation (-2CS).
+          Energy Control:
+              Radiowave Control:
+                Rank: Monstrous
+                Number: 75
+                Reference: |
+                  The hero can control existing radiowaves, whether AM, FM, or microwaves. The hero can increase or decrease the radiowaves' Intensity by his Power rank number. A Good intensity FEAT permits the hero to alter the frequency and direction of such waves and garble transmissions. The hero has Power rank Resistance to radio-based attacks: such attacks are normally limited to an opponent thinking he's a microwave oven about to cook the hero's goose. The Power really comes into its own when used as a form of electronic-age Illusion Casting. That is, the hero creates complex signals that simulate an actual broadcast. Voice-only broadcasts can be simulated by a Typical Intensity FEAT. Musical or multi-voice broadcasts require an Excellent Intensity FEAT, as does a still picture. A single figure with a blank background or a simple cartoon-like broadcast requires an Incredible Intensity FEAT. A single figure with a complex background (think of an evening news broadcast) requires a Monstrous Intensity FEAT. Any other broadcast can be simulated on a Shift-X Intensity FEAT (think Academy Awards production numbers, and you'll see why so high).
+
+                  Obviously, this is a Power that is only really useful in high-tech campaigns. Oh, it could exist in a primitive situation, but then who would know?
+
+                  This has a Bonus Power of Radiowave Generation.
+
+                  Optional Powers include Energy Doppelganger, Energy Sheath, and Carrier Wave.
+          Energy Emission:
+            Radiowave Generation:
+              Rank: Monstrous
+              Number: 75
+              Reference: |
+                The hero can generate radiowaves, including AM and FM signals and microwaves. This Power primarily affects broadcasting and electronics: the Power can do rank damage over rank range to these. The Power can also be used to directly affect any target by internally heating it through microwave bombardment. Used in this manner, the Power has -2CS on its damage and range.
+
+                Optional Powers include Radiowave Control, Energy Sheath, and Carrier Wave. Nemeses include Radiowave Control, Energy Absorption, and Force Field vs. Energy.
+          Fighting:
+            Weapons Tinkering:
+              Rank: Monstrous
+              Number: 75
+              Reference: |
+                The hero can devise and assemble any weapon that can be made with the available materials. By means of a red FEAT, the hero can even improvise a means of creating unavailable materials (adamantium, for example). Provided he has the resources, the hero can assemble a functional copy of any weapon. As to what weapons he can make, use the Resource costs listed in the Hardware section of the Player's Book (pages 42-46). Compare the Power's rank with the cost of the desired weapon. Equal or lower cost weapons can be created on a green FEAT. A cost of one to three levels higher requires a yellow FEAT. A cost of four to six levels higher requires a red FEAT. If the cost of the desired weapon is more than six levels higher than the hero's Power rank, it is an impossible FEAT.
+
+                Example: Dr. Fixit has Excellent Weapons Tinkering and access to his brother-in-law's junkyard. He wants to build a battle-copter with adamantium armor. The copter has an Amazing cost. True adamantium has a Shift X cost: secondary adamantium has an Unearthly cost. Dr. Fixit makes the yellow FEAT: his copter will work. He doesn't have any adamantium, though, and tries to improvise. He fails to make a red FEAT: neither batch of "home-brewed" adamantium worked. Oh well, he can always convert that old boiler he found into armor plate.
+
+                When creating the hero, the player can choose to make the character a jack-of-all-trades or specialist in a particular field. If he chooses to specialize, he can raise the rank +2CS. Categories of weapons include:
+
+                - Edged and Blunt weapons
+                - Projectile weapons
+                - Energy weapons
+                - Heavy weapons
+                - Battle weapons
+                - Alien weapons
+                - Battlesuits
+                - War robots
+
+                Needless to say, the player will have to develop stats for anything he comes up with. If he successfully copies existing technology, like the Iron Man battlesuit or a SHIELD Plasma Beam Handgun, he can simply use the established stats for that device. Weapons Locker (MHAC8) by Epperson and Grubb is a valuable aid to the player of a hero with this Power. A clever character can also use this Power to make money off of other characters by building weapons on commission. After all, somebody's got to be building all those super-weapons tha`t fill the pages of comic books…
+          Mental Enhancement:
+            Communication with Cybernetics:
+              Rank: Monstrous
+              Number: 75
+              Reference: |
+                The hero can directly communicate with complex machines, whether these are computers or machines not normally considered to have artificial intelligence. Any machine that possesses any kind of programming can be communicated with- calculators, digital watches, microwave ovens, even music boxes. The higher the rank, the simpler the machine that can be spoken to. A green FEAT can communicate with a machine possessing several microchips: a computer is the most common example. A yellow FEAT communicates with devices possessing a single microchip, such as watches and talking dolls. A red FEAT communicates with machines that lack microchips but are still somehow programmed, like player pianos and hand-cranked adding machines. The nature and quality of the information received reflects the nature of the machine that is spoken to.
+
+                Communication occurs without the hero needing to resort to programming languages and input devices such as punchcards and keyboards. After all, if the hero did need them this wouldn't really be a super power. When using the Power, the hero transfers part of his intelligence and Psyche to the machine, thus allowing it to respond to him. Unfortunately, sharing his mind with machines on a regular basis leads the hero to identify a little too closely with machines.
+
+                The Optional Power is Linguistics.
+
+                The Nemesis is Neural Manipulation.
+            Hyper-Intelligence:
+              Reason: 
+                Rank: Monstrous
+                Number: 75
+                Type: Permanent
+              Intuition:
+                Rank: Monstrous
+                Number: 75
+                Type: Permanent
+              Reference: |
+                Normally a character's Intelligence is determined in the Character Generation Process. However, the research for the Ultimate Powers Book showed that extreme levels of Intelligence can be a Power in its own right. Examples include The Leader and the late Soviet scientist known only as Gargoyle. The hyper-intelligent character is a genius of awesome potential. He can quickly master new subjects, retain that knowledge indefinitely, and easily succeed in any mental endeavor.
+
+                There are two ways the Power can be incorporated into a character. The player should choose one when he first creates the character (a coin toss will do).
+
+                The first method is a permanent modification of the hero's Intelligence. The Power rank number is added to the hero's previously generated Reason or Intuition rank number. The total is the hero's actual Hyper-intelligence. For example, a character like the Leader started off with Good Reason. The gamma rays added Incredible Hyper-Intelligence for a final total of Amazing Reason rank.
+
+                The second method uses Hyper-Intelligence the same way most other Powers are used-intermittently. Just as Siryn doesn't scream all the time, so too would a Hyper-intelligent character have normal intelligence most of the time. When he uses his Power, he transforms himself into a mental giant. The way it operates is the character's normal rank for either Reason or Intuition is raised the number of levels equal to the Power rank (Feeble is +1CS, Poor +2CS, and so on). The total is the actual Hyper-Intelligence rank the character can achieve using this Power. The hero can retain this higher rank for a limited amount of time: the duration is the number of minutes equal to the original Ability's rank number. This is for the first time each day the hero uses the Power. Each successive time the hero uses his Power within the same day decreases the duration -1CS.
+
+                Example: Steve is creating an awesomely wise alien named Shepherd. Shepherd has a normal Incredible Intuition rank. His Power rank is Excellent. This raises the Intuition rank by +5CS to a potential Shift-Y rank. Shepherd can retain this enhanced state for an Excellent duration of 40 minutes before he reverts to normal. summoning his Power a second time, he returns to Shift-Y Intuition for a Remarkable duration of only 30 minutes. He can summon his Power five more times after that, then he has to rest.
+
+                When creating the character, the player can increase the Power rank +1CS by specializing in a specific fields. After all, comics are filled with characters who are titans in the lab but failures in other fields. Possible fields include Professional and other Talents, such as Medicine, Engineering, and Animal Training.
+
+                Optional Powers include Hyper-Invention and Total Memory.
+
+                The Nemesis is Mind Drain.
+            Hyper-Invention:
+              Rank: Monstrous
+              Number: 75
+              Reference: |
+                This is a special form of Hyper-intelligence that is common enough to merit its own classification. It is a permanent enhancement of the hero's overall intelligence that is channeled into the field of mechanical design and engineering. The hero is an Edison-like genius who take existing materials and technologies and use them to create new devices or applied technologies. He can repair previously operational devices, even if the device was of an unknown type.
+
+                The hero can learn new technologies at a rate determined by his rank, the complexity of the technology, and the amount of instruction available. Modern technology requires an Excellent Intensity FEAT. Advanced technology requires a Remarkable Intensity FEAT. Alien or futuristic technology vary from Incredible Intensity (Shi'ar) to Unearthly (the Watcher). The color of the FEAT is determined by the amount of instruction the hero receives. A green FEAT requires instructional materials that explain the technology (a teacher, books, holocubes). A yellow FEAT is required if the hero has access to materials not specially designed to instruct someone in that technology (readouts, performance specs, operating manuals, a copy of a working device). A red FEAT is required if all the hero is has an inoperational device if that technology.
+
+                Like Hyper-intelligence, the Hyper-Inventor can raise his rank +1CS by specializing in a particular field. Examples include vehicles, weapons, biomedical technology, and architectural engineering.
+
+                The hero has the ability to manufacture or modify items using any technology he knows. He still requires adequate physical resources to create the items, though the cost of anything he builds himself is decreased -2CS compared to the list price for off-the-shelf versions. A Power FEAT based on the desired item's tech level determines the durability of the item. A green or yellow FEAT means the item has the same durability as a normally manufactured item. A red FEAT means the item will function but has performance problems: the Judge can decide how long or well the item functions before it fails.
+
+                Note: This is one of those Powers that can be used for personal profit. The hero can design and build exotic paraphernalia for other characters and NPCs on commission. This can raise the hero's Resource level by whatever fees he can get away with.
+
+                Optional Powers include Weapons Tinkering, Machine Animation, Molding, Artifact Creation, and Machine Creation.
+
+                Nemeses are Mental Duplication and Mind Drain.
+            Linguistics:
+              Rank: Monstrous
+              Number: 75
+              Reference: |
+                This is a specialized form of Hyper-intelligence. The hero has the ability to rapidly learn any language if sufficient material is available for him to work with. Once the language is mastered, the hero is fluent in that language, provided he is physically capable of communicating in it.
+
+                The number of languages a hero is currently fluent in is limited to the Power rank number. For example, Doug Ramsey's Incredible rank enables him to retain fluency in up to forty languages at a time. When a hero exceeds that limit, he begins to forget a previously mastered language. This will usually be some obscure tongue the hero has had little use for, like Basic Otter or Mephitish.
+
+                The speed with which a hero can learn a new language is determined by its strangeness and what source materials are available. Current human languages require a Poor FEAT. Archaic human languages are a Good FEAT. Alien but Humanoid languages are Remarkable FEAT. Animal languages are an Incredible FEAT (note: not all animals have an actual language). Alien, nonhumanoid languages are an Amazing FEAT. The color of the FEAT is determined by the source of the language. A green FEAT is needed if the hero has access to actual instructional materials or a cooperative native speaker of that language who also speaks a language the hero knows. A yellow FEAT is needed if the hero has a native speaker who cannot speak any tongue the hero knows or if the hero only has non-instructional samples of that language. A red FEAT is needed if the hero has only fragments of the new language. For example, learning Shi'ar from watching a broadcast of a speech by Majestrix Lilandra is a yellow Remarkable Intensity FEAT. Learning spoken Primate by actually using sign language to talk with a chimpanzee requires a green incredible intensity FEAT.
+
+                The hero can try a FEAT roll every hour. Failure means he simply has not yet gotten the hang of the new language. The only real drawback to the Power is that the hero may accidentally forget his native language, especially if he rarely uses it. Still, he can always re-learn it. There is a danger that an adversary might warp the hero's Linguistic Power and actually negate his language comprehension: in such a case, the hero becomes dyslexic and unable to understand simple English.
+
+                A curious side-effect of the Power is that it provides Power rank Resistance to Hypnotic Voice and other sonic-based forms of Hypnotic or Mind Control. The hero's mind shifts into its translation mode: it studies the medium through which the hypnosis is communicated rather than the actual message. ("Lorelei, did you ever realize that your sleep command is a high C-sharp while your paralysis command is a high C-flat?")
+
+                The Optional Power is Hyper-Intelligence.
+
+                The Nemesis is Mind Drain.
+            Total Memory:
+              Rank: Monstrous
+              Number: 75
+              Reference: |
+                The hero has the ability to remember anything that he has ever experienced. This could be a book he's read, the faces of everyone he saw on Tuesday, what birth was like, and so on. The accuracy of his recall is his Power rank number treated as a percentage. Feeble is 2%, Excellent is 20%, and so on to automatic accuracy at Unearthly rank or above.
+
+                The color FEAT reflects the nature of the memory being sought. Green FEATs involve personal memories. Yellow FEATs involve learning experiences. Red FEATs involve unconsciously gained information, such as the faces of everyone the hero saw on Tuesday.
+
+                The Power is the perfect complement for Hyper-Intelligence by providing a built-in library. It can be used to simulate that Power, Hyper-Invention, or Weapons Tinkering, provided the hero once read texts that explained how to do things that come naturally to those with the other Powers. ("Well, I read Reed Richard's notes on constructing dimensional gateways, so if I just follow his plans we should be in the Negative Zone by next Monday night.")
+
+                When playing a character with Total Memory, assume he is a voracious consumer of all media. It is to his advantage, after all. Such characters are also fond of quoting obscure texts or unconsciously reciting encyclopedia entries. The Power doesn't really alter either Intuition or Reason, thus these can be used as a guide for what the hero has probably read in the past. When the hero claims to have read a special text, the player is required to make a Reason FEAT to prove he has read something along the desired liner.
+
+                Flashback is a real danger. If the hero was ever a victim of a mental attack, there is a chance the memory will accidentally resurface at a later time and the effect returns anew. Such flashbacks occur when the hero is somehow reminded of the original incident. The hero must make a green Psyche FEAT to avoid reliving the full effects of that other Power.
+
+                Example: Phtomemry was under Ringmaster's Hypnotic Control for two days back in 1978. Today he saw a news report on Ringmaster's parole hearing. Suddenly the compulsion to rob jewelry stores returned.
+
+                Optional Powers include Hyper-Invention, Hyper-intelligence, and Weapons Tinkering.
+
+                The Nemesis is Mind Drain.
+          Power Control:
+            Energy Source:
+              Note: Power Grid
+              Reference: |
+                The hero draws his Powers from a special source that provides him with all the energy he can handle. As long as the hero can maintain his link with this source, he can continue to use his Powers. The nature of the source and its link varies with each hero. If the source is small enough, the hero may be required to carry it with him. If not, perhaps the hero needs to periodically return to the source or forge an ethereal Power cord that links him to his Source despite any intervening distance. The Judge and player need to work together to produce a playable source and link.
+
+                If the link is severed or the source destroyed, the Mage is left with a finite supply of energy left. The amount of raw Power left is the number of points equal to his Psyche rank. Each time he uses Power, he decreases the reservoir by that Power's rank number. Obviously, it is within the hero's best interests to renew his link or rebuild his source in as little time as possible.
+
+                As you are beginning to suspect, this isn't really a Power and is more of a restraint. You're right. If you roll this Power, go ahead and roll an additional Power.
+          Self-Alteration:
+            Alter Ego: |
+              The hero has two different forms. One is a normal, powerless being: the other is the powerful, heroic self. When creating the hero, the player has to create two different beings. The statistics for the primary self should be fairly routine (all physical abilities ranging from Feeble to Good). All bets are off for the heroic self. Something many people never consider is that the heroic self might be a relatively normal human, while the normal self is something a little lower on the evolutionary ladder. For example, you might try a character whose normal self is a mutant dog (why should humans have all the deviant fun?).
+
+              The two selves never co-exist except under extraordinary circumstances. Possible causes of simultaneous existence include time warps, cloning, and Lifeform Creation. The two selves may even be separated for an extended time, such as what happened to Bruce Banner and the Hulk.
+
+              The primary drawback to this Power is the uncontrolled reversion to the normal self, especially when it occurs during dire circumstances. For example, Mightiman is rescuing a sub from the ocean floor when he reverts to his other self, little Eddy Edwards. ("Can you say 'fish food?' Sure you can.")
+
+              Variations include automatic or voluntary transformation, duration, and shared minds versus semi-independent mentalities.
+        Talents:
+          Professional Skills:
+              Medicine: The hero with this Talent has extensive knowledge of medicine and as such limited Talents in healing. In general, a character losing Endurance Ranks as the result of a lethal situation can have those losses stopped by any character checking on him. The individual with Medicine Talent may bring back characters that have reached the Shift 0 level up to 20 turns after they have reached that level. A character with this Talent may restore one rank of Endurance to a wounded character per week, in addition to natural healing. Finally, the character with Medicine as a Talent is +1CS on Reason FEATs that involve medical problems, medications, poisons, and surgery.
+              Law: The character with this Talent has an extensive background in law (the assumption being US Law, but this may vary according to the Judge's campaign). The hero may be a lawyer or capable of applying to pass the bar (Reason FEAT of Good Intensity). A character with Law as a Talent gains a +1CS to all FEAT rolls involving the law, including correct legal procedure. A character without Law gains no benefit to Reason FEATs, and in addition, will have to make Reason FEATs more often than a character with Law Talent.
+              Business/Finance: The hero is familiar with the world of business, corporate finance, and how money works. Initial resources are a minimum of Good, and the hero gains a +1CS for FEAT rolls dealing with money. The hero gains a Contact in the Professional category.
+              Engineering: |
+                Engineering includes all the varied types of that profession dedicated to the design of functional items: civil, chemical, mechanical, etc. A character with Engineering Talent gains a +1CS to all FEATs involving building things, including the Resource FEAT to determine if an object can be built.
+              Criminology: The hero with this Talent has an understanding of the criminal mind and behavior, either from studies or first-hand observation. The character with this Talent gains a +1CS on all Reason and Intuition FEATs involving criminal practices ("If I were a crook, where would I hide?"). The hero also gains a Contact in either the police or crime areas.
+              Psychiatry: The hero with this Talent has a background in studies of the mind and as such gains a +1CS on all FEATs involving the mind. This is a popular Talent with those heroes and villains with Mental Powers, and the character with these Talents gains a +1CS on FEATs involving Mental Control, Domination, Hypnosis, Emotion Control, and Mental Probe Powers.
+              Detective/Espionage: The hero with this Talent has been trained to notice small clues in solving crimes. The character with this Talent gains a +1CS to discover clues to a crime, and in addition gains a Contact in either crime, law enforcement, law, or espionage.
+          Scientific Skills:
+            Chemistry: A +1CS on matters of chemistry, including developing new formulas, finding cures for inorganic poisons, and identifying chemicals by smell, touch, or taste.
+            Biology: A +1CS on matters of biology, including animal and plant identification, finding cures for organic poisons, and researching diseases and their cures.
+            Geology: A +1CS on matters involving the Earth, including volcanic activity, the geology of the surrounding land, types of rocks and their powers, and mineral identification.
+            Genetics: A +1CS on matters involving the genes, including creating new life forms, understanding mutants, and researching diseases.
+            Archaeology: A +1CS on matters involving the past, including paleontology, historical records, and ancient myths and legends.
+            Physics: A +1CS on matters involving physics and astrophysics, including motion, flight, and the planets and stars.
+            Computers: A +1CS on matters involving computers, computer-controlled equipment, and artificial intelligences.
+            Electronics: A +1CS on matters involving electronic devices, including their creation and repair.
+          Other Talents:
+            Repair/Tinkering: The character with this Talent gains a +1CS to any Reason FEATs involving the repair and modification of existing items, but not the building of new items. This +1CS may be added to any other bonuses gained from other Talents, so that an Engineer with Tinkering Talent would gain a +2CS on repair.
+        Equipment:
+          Robot, Standard:
+            Cost: Incredible
+            Reference: The Standard Robot is only capable of simple tasks and has no special abilities other than to record what transpires before its recorders and perform simple tasks. The H.E.R.B.I.E. series was a modified form of the standard robot. All Standard robot abilities are Typical.
+          Robot, Sentry:
+            Cost: Incredible
+            Reference: The Sentry Robot has a bit more programming and firepower. It is programmed to identify hostile threats (that is — anything not in its bank) and open fire. Sentry robots come equipped with Good Strength lasers, though some may be additionally armed. All sentry robot abilities are Good.
+          Robot, Talent:
+            Cost: Amazing
+            Reference: The Talent Robot is a robot specifically designed for a certain purpose, and its programming reflects that purpose. The Avengers' fire-fighting robots or the robotic opponent the Black Knight uses are examples of talent robots. Such robots may have one ability at Remarkable level. All others are Excellent.
+        Contacts:

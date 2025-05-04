@@ -34,7 +34,7 @@ Character Sheet:
       Primary Abilities:
         Fighting:
           Rank: Amazing
-          Number: 40
+          Number: 50
           Reference: Maximum human potential (Captain America, Silver Surfer)
         Agility:
           Rank: Incredible
@@ -64,7 +64,7 @@ Character Sheet:
           Reference: Intense training in mental powers, experience in wielding those powers  (Professor X, Loki)
           Psi-Screen: +1CS to resist mental attacks from Resist Domination Talent
       Secondary Abilities:
-        Health: 130
+        Health: 140
         Karma: 305
         Resources: 
           Rank: Amazing
@@ -271,9 +271,9 @@ Character Sheet:
               Number: 75
               Total:
                 Rank: Class 1000
-                Number: 1620
+                Number: 1630
                 Spread: 24
-                Turns to Full Recovery: 21
+                Turns to Full Recovery: 22
               Reference: The hero can channel all his raw energy into a single burst of a chosen Ability or Power. All his Power and Ability rank numbers are totaled together. This rank number replaces the rank number for a chosen Power. Upon the completion of releasing the Power, all the hero's Abilities and Powers temporarily drop to Feeble. This Power's rank number is the total amount of lost points the hero can regain each turn. Points are divided evenly between all the depleted Abilities and Powers. (Okay, this isn't really a Power either. Roll again for an additional Power.)
           Other Powers: #From APB
             Mental Powers:
