@@ -297,6 +297,14 @@ Character Sheet:
             Edged Weapons: Characters with this Talent gain a +1CS to hit when attacking with a weapon that resolves attacks on the Edged Attack column of the Battle Effects Table. This includes swords, daggers (unless thrown), and spears, but excludes claws and other natural extensions that inflict this type of damage.
             Marksman: The character with this Talent gains a +1CS to hit with any distance weapon that requires line of sight to hit (the character could benefit when firing heavy artillery, but not when controlling a tele-guided missile). Such a weapon in the hands of a marksman does not suffer penalties to hit from range.
             Weapons Master: The character with this Talent gains a +1CS to hit with any weapon that requires a Fighting FEAT to hit.
+            Weapons Specialist:
+              - The character with this Talent gains a +2CS with a single weapon of choice. This may be any type of weapon, missile, or melee. The character who is a weapon specialist will also increase his initiative when using this weapon by 1.
+              - Weapons:
+                - Club
+                - Sword
+                - Knife
+                - Spear
+                - Handgun
           Fighting Skills:
             Martial Arts A: This form of martial arts concentrates on using an opponent's strength against him and is typical of oriental-American forms such as judo and karate. The practitioner of this type of martial arts can Stun or Slam an opponent regardless of their comparative Strengths and Endurances.
             Martial Arts B: This form of martial arts is keyed on offense and inflicting damage in short, quick bursts, and includes such disciplines as boxing. The practitioner of this form of martial arts gains a +1CS to Fighting ability when engaged in unarmed combat.
@@ -504,6 +512,9 @@ Character Sheet:
               - Doctor Stephen Strange
               - Wong
               - Doctor Anthony Druid
+              - Agatha Harkness
+              - Lilia Calderu
+              - Selene
             Mythology:
               - Thor Odinson
               - Hercules Panhellenios
