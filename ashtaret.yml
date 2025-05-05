@@ -2011,7 +2011,7 @@ Character Sheet:
                       - Constructed as thermae-style baths, the pools are supplied by volcanic hot springs, and do Good (10) heat damage per turn to anyone in them who lacks sufficient resistance to or protection from fire and heat.
                       - Considered "indoor" for purposes of Cost.
                     Description: &Pool_Package |
-                      *Cost: Remarkable outdoors, Incredible indoors* - Occupies one or more rooms, or outdoor area. Consists of Olympic-size pool, filtered water, small sauna room. At *Remarkable Cost* adds separate, smaller pool (featuring diving board and chlorine), plus pool cover. At *Incredible Cost* includes two Olympic pools, heated water, pool cover. At Amazing Cost, both pools are heated.
+                      *Cost: Remarkable outdoors, Incredible indoors* Occupies 2 or more areas, and extends 1 floor downward. Consists of standard Olympic swimming pool, diving boards, and sun room (alternately, sun roof which is retractable).
                   Conference Room Package:
                     Cost:
                       Total: *Amazing
