@@ -123,18 +123,21 @@ Character Sheet:
                 The hero can identify the past use of magic (a green FEAT), a yellow FEAT identifies the magic-user, and a red FEAT identifies the actual spell.
           Fighting:
             Martial Supremacy: #F2
-              Rank: Monstrous
-              Number: 75
-              Talents:
-                - Martial Arts A
-                - Martial Arts B
-                - Martial Arts C
-                - Martial Arts D
-                - Martial Arts E
-                - Wrestling
-                - Throwing
-                - Acrobatics
-                - Tumbling
+              Martial Arts A:
+                Rank: Monstrous
+                Number: 75
+              Martial Arts B:
+                Rank: Monstrous
+                Number: 75
+              Martial Arts C:
+                Rank: Monstrous
+                Number: 75
+              Martial Arts D:
+                Rank: Monstrous
+                Number: 75
+              Martial Arts E:
+                Rank: Monstrous
+                Number: 75
               Reference: |
                 In the MARVEL SUPER HEROES game system Fighting is considered an Ability, not a Power. However, this Power increases a hero's already-mastered Martial Arts (a Talent in the game system) to dramatically higher levels and allows him to perform actions that would otherwise be impossible, like splitting a battleship in two with a single karate chop.
 
@@ -271,9 +274,9 @@ Character Sheet:
               Number: 75
               Total:
                 Rank: Class 1000
-                Number: 1630
-                Spread: 24
-                Turns to Full Recovery: 22
+                Number: 1870
+                Spread: 26
+                Turns to Full Recovery: 25
               Reference: The hero can channel all his raw energy into a single burst of a chosen Ability or Power. All his Power and Ability rank numbers are totaled together. This rank number replaces the rank number for a chosen Power. Upon the completion of releasing the Power, all the hero's Abilities and Powers temporarily drop to Feeble. This Power's rank number is the total amount of lost points the hero can regain each turn. Points are divided evenly between all the depleted Abilities and Powers. (Okay, this isn't really a Power either. Roll again for an additional Power.)
           Other Powers: #From APB
             Mental Powers:
@@ -291,19 +294,6 @@ Character Sheet:
                   An immortal character's body will slowly regenerate lost parts and heal. so that short of atomizing the remains and spreading that collection of atoms through a large portion of space, the immortal character will return at some point in the future.
 
                   Immortality is applicable to the Earth Dimension only (including all planets of this dimension). An immortal character in another dimension—such as Asgard or Olympus, but excluding variant or divergent earths-does not age, but may be killed normally while in that dimension.
-            Magic:
-              Eldritch Bolts:
-                Rank: Monstrous
-                Number: 75
-                Reference: |
-                  Eldritch Bolt is a bolt of magical power, and includes all manner of spells such as Doctor Strange's Bolt of Bedevilment. The range is as determined in the spell range table, and damage is equal to the Power rank, with the following difference: the bolt may reduce Health or Karma values (in the latter case, the target's effectively out of luck). If the bolt attacks Health, treat it as a Force attack.
-              Eldritch Shield:
-                Rank: Monstrous
-                Number: 75
-                Reference: |
-                  The Eldritch Shield is a shield of mystical energy that provides the caster with mystical Body Armor equal to the caster's rank number. This is also proof against magical attacks or those attacks which arise from magic.
-
-                  If an attacker directs his attacks against the shield Itself, treat the attack as an attempt to break the material, with the attacker's bolt supplying the strength and the defender's shield the object that may be broken. The mage whose shield is broken that round takes no damage, but has no shield until he raises it the next round. An Eldritch Shield will protect its caster from all forms of magic of up to the Psyche of the caster.
         Talents:
           Weapons Skills:
             Guns: Individuals without this Talent fire guns (all handguns, rifles, and submachine guns, including laser, stun, and concussion varieties) at their Agility rank. Those with this Talent fire such weapons at +1CS.
