@@ -66,18 +66,24 @@ Character Sheet:
       Special Abilities:
         Powers:
           Defensive:
+            Peripheral: false
+            Invulnerability: |
+              When creating the hero, the player can raise the Power rank +1CS by choosing to specialize in a specific Physical Resistance. For example, the Player's Book contains listings for Resistances to Toxins, Corrosives, and Disease.
+
+              The hero with this Power is totally unaffected by one or more of the attack forms listed above. The initial choosing of Invulnerability counts as two choices, but every additional choice in Resistances may be changed to an Invulnerability. (Example -- A hero being generated picks up Invulnerability to Fire, counting it as two slots. She then gets another resistance, and chooses Resistance to Cold. She may then choose to be Invulnerable to Cold instead at no additional cost.) Invulnerability means that the hero in question has a Class 1000 resistance to that attack form.
             Invulnerability to Emotion Attacks: |
               The hero has increased resistance to emotion-related attacks. Such attacks include Emotion Control, Hallucinations, Domination, and attacks aimed at the Intuition. The hero can ignore attacks with Intensities less than the Power rank, and may reduce damage from higher level attacks by the Power rank number.
 
               This Power rank must be at least equal to the hero's Intuition +1CS; if a lower rank is initially rolled, the player should raise it to the Intuition rank +1CS.
             Invulnerability to Mental Attacks: The hero has increased resistance to attacks aimed at the mind and neural system. Such attacks include psionics, neural manipulation, and any other attacks aimed at the Psyche. It does not include emotion-based attacks (see D11) or magical attacks (see D13). The Power's rank must be at least one rank higher than the hero's Psyche; if a lower rank is rolled initially, the player should raise it to that rank +1CS.
             Invulnerability to Physical Attacks:
-              Toxins: |
-                  The hero has increased resistance to emotion-related attacks. Such attacks include Emotion Control, Hallucinations, Domination, and attacks aimed at the Intuition. The hero can ignore attacks with Intensities less than the Power rank, and may reduce damage from higher level attacks by the Power rank number.
+              Toxins: This Power rank is always a minimum of one rank greater than the hero's Endurance rank (if the random roll sets this Power as less than this stated minimum, it is raised to Endurance rank +1CS). This rank is used instead of Endurance for all FEATs involving poison, and is not reduced by damage or effects of poison. Failing a FEAT with this Power will mean Endurance drops by one rank, but this Power rank does not drop. It will be used next turn at its normal level for determining further effects.
+              Disease: The individual with this resistance is less susceptible to disease than other heroes with the same Endurance. Included are common diseases, as well as the effects of biological warfare and vampirism. The individual's rank in this Power is no less than one rank above the individual's Endurance. (Any roll of less than that rank should be raised to the Endurance Rank +1CS.)
+              Reference:
+                Resistance to Physical Attacks: |
+                  The hero has increased resistance to any physical attack. This includes brute force, chemical weapons, biochemicals, disease, hostile environments, and temperature extremes. The hero can ignore any physical attacks with Intensities less than. the Power rank, and may reduce damage from higher level attacks by the Power rank number.
 
-                  This Power rank must be at least equal to the hero's Intuition +1CS; if a lower rank is initially rolled, the player should raise it to the Intuition rank +1CS.
-              Disease: |
-                The individual with this resistance is less susceptible to disease than other heroes with the same Endurance. Included are common diseases, as well as the effects of biological warfare and vampirism. The individual's rank in this Power is no less than one rank above the individual's Endurance. (Any roll of less than that rank should be raised to the Endurance Rank +1CS.)
+                  When creating the hero, the player can raise the Power rank +1CS by choosing to specialize in a specific Physical Resistance. For example, the Player's Book contains listings for Resistances to Fire and Heat, Corrosives, and Disease.
             Invulnerability to Power Manipulation: |
                 The hero has increased resistance to attacks that directly affect the hero's Powers. Such attacks include Weakness Creation, Power Control, Power Domination, Magic Control, and Magician Domination.
 
@@ -135,18 +141,20 @@ Character Sheet:
 
                 The hero cannot actually "see in the dark" but only if UV light is present. The effect is the same when seen by normal people. The hero has an increased risk of being blinded by strong UV sources, like black lights and radiation (-2CS).
           Energy Control:
-              Radiowave Control:
-                Rank: Monstrous
-                Number: 75
-                Reference: |
-                  The hero can control existing radiowaves, whether AM, FM, or microwaves. The hero can increase or decrease the radiowaves' Intensity by his Power rank number. A Good intensity FEAT permits the hero to alter the frequency and direction of such waves and garble transmissions. The hero has Power rank Resistance to radio-based attacks: such attacks are normally limited to an opponent thinking he's a microwave oven about to cook the hero's goose. The Power really comes into its own when used as a form of electronic-age Illusion Casting. That is, the hero creates complex signals that simulate an actual broadcast. Voice-only broadcasts can be simulated by a Typical Intensity FEAT. Musical or multi-voice broadcasts require an Excellent Intensity FEAT, as does a still picture. A single figure with a blank background or a simple cartoon-like broadcast requires an Incredible Intensity FEAT. A single figure with a complex background (think of an evening news broadcast) requires a Monstrous Intensity FEAT. Any other broadcast can be simulated on a Shift-X Intensity FEAT (think Academy Awards production numbers, and you'll see why so high).
+            Peripheral: true
+            Radiowave Control:
+              Rank: Monstrous
+              Number: 75
+              Reference: |
+                The hero can control existing radiowaves, whether AM, FM, or microwaves. The hero can increase or decrease the radiowaves' Intensity by his Power rank number. A Good intensity FEAT permits the hero to alter the frequency and direction of such waves and garble transmissions. The hero has Power rank Resistance to radio-based attacks: such attacks are normally limited to an opponent thinking he's a microwave oven about to cook the hero's goose. The Power really comes into its own when used as a form of electronic-age Illusion Casting. That is, the hero creates complex signals that simulate an actual broadcast. Voice-only broadcasts can be simulated by a Typical Intensity FEAT. Musical or multi-voice broadcasts require an Excellent Intensity FEAT, as does a still picture. A single figure with a blank background or a simple cartoon-like broadcast requires an Incredible Intensity FEAT. A single figure with a complex background (think of an evening news broadcast) requires a Monstrous Intensity FEAT. Any other broadcast can be simulated on a Shift-X Intensity FEAT (think Academy Awards production numbers, and you'll see why so high).
 
-                  Obviously, this is a Power that is only really useful in high-tech campaigns. Oh, it could exist in a primitive situation, but then who would know?
+                Obviously, this is a Power that is only really useful in high-tech campaigns. Oh, it could exist in a primitive situation, but then who would know?
 
-                  This has a Bonus Power of Radiowave Generation.
+                This has a Bonus Power of Radiowave Generation.
 
-                  Optional Powers include Energy Doppelganger, Energy Sheath, and Carrier Wave.
+                Optional Powers include Energy Doppelganger, Energy Sheath, and Carrier Wave.
           Energy Emission:
+            Peripheral: true
             Radiowave Generation:
               Rank: Monstrous
               Number: 75
@@ -155,6 +163,7 @@ Character Sheet:
 
                 Optional Powers include Radiowave Control, Energy Sheath, and Carrier Wave. Nemeses include Radiowave Control, Energy Absorption, and Force Field vs. Energy.
           Fighting:
+            Peripheral: false
             Weapons Tinkering:
               Rank: Monstrous
               Number: 75
@@ -175,7 +184,29 @@ Character Sheet:
                 - War robots
 
                 Needless to say, the player will have to develop stats for anything he comes up with. If he successfully copies existing technology, like the Iron Man battlesuit or a SHIELD Plasma Beam Handgun, he can simply use the established stats for that device. Weapons Locker (MHAC8) by Epperson and Grubb is a valuable aid to the player of a hero with this Power. A clever character can also use this Power to make money off of other characters by building weapons on commission. After all, somebody's got to be building all those super-weapons tha`t fill the pages of comic books…
+          Matter Control:
+            Peripheral: true
+            Micro-Environment:
+              Rank: Shift-Z
+              Number: 500
+              Reference: |
+                The hero can alter his immediate surroundings to create a miniature climate around himself. The Micro-Environment always contains fresh clean air (or water or methane or whatever the hero breathes) at any temperature and pressure the hero desires. The Micro-Environment incorporates a Force Field that protects it from any factor that might harm or even annoy the hero, such as rain, poisonous gases, extreme temperatures, or the pressure that naturally results from having three miles of ocean over your head. In such cases, the Micro-Environment automatically excludes potentially hazardous gases and liquids and reduces the Intensity of pressure, extreme temperature, and high gravity by the Power rank number. Lesser or equal Intensities are canceled out, while higher ranks only penetrate in diminished form.
+
+                The Power automatically Collects the desired materials into a sphere around the hero; if no such materials are available, the Power employs an innate form of Matter Creation or Conversion to produce those materials. The Force Field maintains the desired pressure, temperature, and gravity levels while enclosing the desired materials and shielding the hero from the undesired ones. If the hero requires a surface to stand on but none is available, the Power provides one by solidifying a section of the Force Field.
+
+                The Power is primarily intended to protect the hero when he is in places other than his home environment. It can, be used to protect him from extreme variations in that home environment though, should the hero so choose. Thus the Power can be used to protect the hero in the middle of a house fire, gas leak at a fertilizer plant, radiation spill at a laboratory, a thunderstorm, or a smog alert in Los Angeles. The Power can be used to Resist the effects of Air or Water Animation, Weather Control, Heat, or Cold Generation; the Intensity of the attack is reduced by the Power rank number.
+
+                The Micro-Environment has a maximum radius in feet equal to the Power rank number. Normally it is a sphere centered in the hero but she can shape it or direct it to another location if she so desires. The maximum range at which the hero can direct the Micro-Environment is determined by the Power rank; appropriate distances are shown on Column B on the Range Table. The maximum volume of the Micro-Environment is the equivalent of a sphere whose radius equals the Power rank number. Figuring out the maximum volume of other shapes requires a doing a bit of geometry.
+
+                Example: A rank of Good can produce a sphere of 3.14(10-cubed) or 3,140 cubic feet. This can be shaped into a rectangular "tunnel" 10 feet high, 10 feet wide, and 31 feet long. I suggest that anyone with this Power figure out as soon as possible how big a sphere/hemisphere/column/tunnel/cone/et cetera he can make with his Power rank. If you don't, the Judge is liable to say that mysterious changes in the environment prevent your hero's Power from working.
+
+                The Power only protects the hero from environmental effects or Powers that employ aspects of the Environment. Beside the Powers mentioned earlier, this Power will also provide limited protection against Electrical Control, Electrical Generation, Coldshaping, Gravity Manipulation, Hard Radiation and its Control, Thermal Control, Plague Carrier, Geoforce, Spray, and Pheromones, but only if the offending Power originates outside the Micro-Environment.
+
+                As hinted at before, the Power can be used to create any environment the hero desires, provided it is beneficial to whatever nature of being is inside its protection. Of course, what is a marvelous climate for one being could be instantly fatal to another. Consider the Micro-Environments created by beings that thrive on super-heated steam or swim in liquid helium. Player characters are limited to producing only those MicroEnvironments that will help the beings inside. Villainous and Mind- Controlled NPC heroes are able to pervert the Power and create toxic Micro-Environments. In such a case, the Power is treated as an attack and the intended victim is urged to Resist it in any way he can.
+
+                The Nemeses are either Air or Liquid Animation, depending on the nature of the Micro-Environment.
           Mental Enhancement:
+            Peripheral: false
             Communication with Cybernetics:
               Rank: Monstrous
               Number: 75
@@ -246,6 +277,26 @@ Character Sheet:
                 The Optional Power is Hyper-Intelligence.
 
                 The Nemesis is Mind Drain.
+            Serial Immortality:
+              Rank: Monstrous
+              Number: 75
+              Reference: |
+                A character with this Power can suffer damage, get sick, age, and even die. None of it is permanent to the character, though. When the hero's body dies from any cause, the unique nature of his lifeforce enables it to transfer to a new body. He can also transfer some but not all of his Powers to the new body. The hero loses all Karma with the death of the old body. There are five forms of Serial Immortality, each with a different means of rebirth and Power transferral. The player must choose one of these methods, either selecting for himself or letting the die decide.
+
+                - Premade: |
+                  The new body is a previously prepared clone or android body that was prepared specifically for this purpose. Such a body is already physically mature and in possession of the full range of the hero's Powers. It is completely mindless and rests in a comatose state until activated by the hero's lifeforce.
+
+                  The knowledge of how to create these bodies can be learned by characters with Remarkable or better Reason, provided they are properly trained. Someone with Amazing Reason can figure it out for himself. A Laboratory or Medical Package of Amazing cost is required to create these bodies. Each body has an Remarkable cost. Magically created bodies require an equivalent Resource level.
+
+                  If a premade body is unavailable at the time the old one dies, the lifeforce drifts in Limbo until such a body becomes available.
+
+                It is incredibly difficult to finally defeat an adversary with any form of Serial Immortality. The best the foe can normally hope for is to defeat the current body and then prepare for the next incarnation. It is possible to stop the infinite progression from body to body by preventing the hero from leaving his current body (suspended animation will do) or entering a new one (stranding the hero in intergalactic space is a good tactic). The lifeforce can be directly fought or even killed within the Limbo dimension.
+
+                Sometimes a character with this Power can be forced out of his current body without that body getting killed in the process. The Judge is free to decide what conditions apply in his campaign; suggested moans revolve around coercion or such Powers as Magic, Power Controls, Force Field vs. Hostiles, Summoning, and Exorcism. Such Powers must exceed the hero's Power rank by 2CS in order to forcibly evict the lifeforce from the body. If successful, the lifeforce is driven into Limbo or a new body in a more peaceful location. As for the now vacated body, the results vary with the form and variety of Serial Immortality:
+
+                - Premade: "He's dead, Jim."
+
+                The Nemesis is Exorcism.
             Total Memory:
               Rank: Monstrous
               Number: 75
@@ -266,6 +317,7 @@ Character Sheet:
 
                 The Nemesis is Mind Drain.
           Power Control:
+            Peripheral: true
             Energy Source:
               Note: Power Grid
               Reference: |
@@ -275,14 +327,52 @@ Character Sheet:
 
                 As you are beginning to suspect, this isn't really a Power and is more of a restraint. You're right. If you roll this Power, go ahead and roll an additional Power.
           Self-Alteration:
-            Alter Ego: |
-              The hero has two different forms. One is a normal, powerless being: the other is the powerful, heroic self. When creating the hero, the player has to create two different beings. The statistics for the primary self should be fairly routine (all physical abilities ranging from Feeble to Good). All bets are off for the heroic self. Something many people never consider is that the heroic self might be a relatively normal human, while the normal self is something a little lower on the evolutionary ladder. For example, you might try a character whose normal self is a mutant dog (why should humans have all the deviant fun?).
+            Peripheral: false
+            Alter Ego:
+              Reference: |
+                The hero has two different forms. One is a normal, powerless being: the other is the powerful, heroic self. When creating the hero, the player has to create two different beings. The statistics for the primary self should be fairly routine (all physical abilities ranging from Feeble to Good). All bets are off for the heroic self. Something many people never consider is that the heroic self might be a relatively normal human, while the normal self is something a little lower on the evolutionary ladder. For example, you might try a character whose normal self is a mutant dog (why should humans have all the deviant fun?).
 
-              The two selves never co-exist except under extraordinary circumstances. Possible causes of simultaneous existence include time warps, cloning, and Lifeform Creation. The two selves may even be separated for an extended time, such as what happened to Bruce Banner and the Hulk.
+                The two selves never co-exist except under extraordinary circumstances. Possible causes of simultaneous existence include time warps, cloning, and Lifeform Creation. The two selves may even be separated for an extended time, such as what happened to Bruce Banner and the Hulk.
 
-              The primary drawback to this Power is the uncontrolled reversion to the normal self, especially when it occurs during dire circumstances. For example, Mightiman is rescuing a sub from the ocean floor when he reverts to his other self, little Eddy Edwards. ("Can you say 'fish food?' Sure you can.")
+                The primary drawback to this Power is the uncontrolled reversion to the normal self, especially when it occurs during dire circumstances. For example, Mightiman is rescuing a sub from the ocean floor when he reverts to his other self, little Eddy Edwards. ("Can you say 'fish food?' Sure you can.")
 
-              Variations include automatic or voluntary transformation, duration, and shared minds versus semi-independent mentalities.
+                Variations include automatic or voluntary transformation, duration, and shared minds versus semi-independent mentalities.
+              Dr. Ada Grace Turing, Ph.D.:
+                Origin:
+                  Physical Form:
+                    Android: |
+                      These are artificially created organic beings. An android is made of laboratory-created protoplasm and grows to maturity in an artificial womb. More intricately made Androids can actually interbreed with Normal Humans. One example is the Vision. Androids generally resemble the race that created them; alien androids can be any shape.
+
+                        - Androids roll on column 4 of the Random Ranks Table.
+                        - Popularity is initially lowered -1CS. Androids may raise any one Ability +1CS. Androids gain one Power.
+                        - Androids have at least one Contact, the lab tech or scientist who created them.
+                Abilities:
+                  Primary Abilities:
+                    Agility: +1CS
+                  Secondary Abilities:
+                    Health: + Agility Rank Number Difference
+                    Popularity: -1CS
+                  Special Abilities:
+                    Powers:
+                      Base: Where not assigned to peripheral
+                      Physical Enhancement:
+                        Body Resistance:
+                          Reference: 
+                            This is the form Body Armor most heroes want. The hero's body is composed of apparently normal flesh. However, the tissue of capable of withstanding major damage without showing any effects. The resistance covers physical and energy attacks only.
+
+                            The Intensity rank number of the attack is reduced by this Power's rank number. The remaining Intensity is the actual damage the hero suffers.
+
+                            While the hero's skin shows the effects of the tremendous abuse it suffers, at least it heals quickly. The Power enables the epidermis to heal at a tenfold rate.
+
+                            An Optional Power is Regeneration.
+                        Regeneration:
+                          Reference: The hero can rapidly recover from any wound. Cuts quickly close and disease symptoms disappear. The hero heals at an accelerated rate equal to the Power rank number times the normal amount of time. For example, a Typical rank can heal six times as fast as normal, an Unearthly rank heals at a hundredfold rate, and so on. With time, the hero can regrow large areas of lost tissue, especially severed limbs. Lost limbs or organs require a red FEAT. It cannot repair losses that resulted in the hero's death unless the hero is revived. If such a fatal loss and subsequent revival occurs, the hero requires life-support equipment to give his Power time to function.
+                        Self-Sustenance:
+                          Form: Permanent
+                          Reference: |
+                            The hero can survive indefinitely without consuming air, water, or food. Bodily wastes are internally recycled back into useable materials.
+
+                            Normally the hero would not need to replenish himself when his power reached its limit. He merely resumes normal consumption habits (breathe normally, eat a light snack, etc.). This is the permanent form of the power. The temporary form requires the hero to consume mass quantities at the expiration of the Power. ("That's the fifteenth steak you've eaten, Fred. How long did you say it's been since you ate last?") The required intake is one-quarter what the hero would normally have consumed during the time he was abstaining. The hero can raise his Power rank +1CS by opting for the temporary form.
         Talents:
           Weapons Skills:
             Marksman: The character with this Talent gains a +1CS to hit with any distance weapon that requires line of sight to hit (the character could benefit when firing heavy artillery, but not when controlling a tele-guided missile). Such a weapon in the hands of a marksman does not suffer penalties to hit from range.
