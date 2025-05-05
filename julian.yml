@@ -377,83 +377,7 @@ Character Sheet:
             Zoologist of Magic: The character studies magical creatures and has collected books on the subject. This talent includes not only mythological or fantastic beasts of Earth’s legends but also the creatures of other dimensions in the Marvel Universe. He has a +1CS when attempting to identify magical creatures and their powers. (Please see the Magical Creature section in Book 3 for many known magical creatures.
         Equipment:
           Shooting Weapons:
-            Guardian Blaster Mk. I:
-              Description: The Guardian Blaster Mk. I is a combination weapon with utility functions.  It fires gyrojet rockets, canister rounds (including standard shotgun shells, or non-lethal shotgun loads), and laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher.
-              Cost: Incredible
-              Range:
-                Gyrojet: 5
-                Laser: 10
-                Concussion: 4
-                Stun: 2
-                Shot, Canister: 2
-              Damage:
-                Gyrojet: 10
-                Laser: 10
-                Concussion: 10
-                Stun: Fires a stunning beam of Typical Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns.
-                Shot: 15
-                Canister: By type.
-              Type:
-                Gyrojet: Shooting
-                Laser: Energy
-                Concussion: Force
-                Stun: Stunning
-                Shot: Shooting
-                Canister: By type.
-              Rate: 1
-              Shots:
-                Gyrojet: 3
-                Power Pack: 10
-                Shot, Canister: 6
-              Material Strength: Excellent
-              Notes:
-                - One-Handed
-                - Shot bursts, which affects up to three adjacent targets, with one roll made for all targets.
-              Ammunition:
-                Power Pack: Stun, concussion, and laser weapons operate from power packs and may not use other types of ammunition.
-                Standard: Damage listed for each weapon is for standard ammunition.
-                Canister Shot:
-                  - Canister shot is a special type of ammunition that may be loaded with various cartridges for different effects. Specify the type of canister desired when purchasing.
-                  - Gas Canisters: Gas Canisters contain Incredible Intensity Tear Gas. Cover one area.
-                  - Knock-Out Canisters: Knock-Out Can contain Remarkable Intensity Knock-Out gas. Cover one area.
-                  - Smoke Canisters: Smoke Canisters contain Excellent Intensity smoke. Cover one area.
-                  - Explosive Canisters: Explosive Canisters inflict double damage to all in target area, normal damage to all in adjacent areas.
-                  - Incendiary Canisters: Incendiary Canisters inflict 20 damage in fire (Energy), which burns at Excellent Intensity for 1-10 rounds.
-                Gyrojet:
-                  - Standard Shot: Damage listed for each weapon is for standard ammunition.
-                  - Explosive Shot: Explosive Shot inflicts twice the normal (listed) damage for the weapon. If the weapon fires bursts or scatters, all targets in the area are affected.
-                  - Heat-Seeker Ammunition: Heat-Seeker Ammunition seeks out the hottest source in line to the target. Will track the hottest source up to maximum of the weapon's range, and suffers no penalty for range. If several targets are of the same heat, then it will determine a target randomly. This ammunition type is only available for Gyro-Jet Pistols.
-                  - Explosive Heat-Seeker Ammunition
-              GyroJet Pistol: A GyroJet Pistol fires a miniature rocket, which may affect one or more targets according to ammunition type. Gyro-jets will only fire one type of ammunition, and gyrojet ammunition will not fit any other type of gun.
-              Laser Pistol, Concussion Pistol: The Laser Pistol, Concussion Pistol, and Plasma Beam Handgun are weapons used by high-tech spies and subversive organizations, including S.H.I.E.L.D. and A.I.M. All three types operate from power packs.
-              Stun Pistol: The standard Stun Pistol fires a stunning beam of Typical Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns. It operates from a power pack.
-              Shotgun: The Shotgun is a one- or two-barreled weapon that fires bursts. It is often loaded with non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results). One or both barrels may be fired.
-              Riot Gun: The Riot Gun is a smaller version of the shotgun and fires grenade-like missiles and canister shot (treat as grenades). Riot guns may be fired one-handed at -1CS to hit.
-              Fire Extinguisher: Fire Extinguishers inflict no damage normally, but against fire are of Good Intensity (eliminate fire of Typical Intensity or less in the same area on a green FEAT, of Good Intensity on a yellow, and up to Excellent on a red). Against characters with flaming powers, such as the Human Torch, the extinguisher causes a FEAT roll against that Intensity to retain flame.
-              Sniper Sights: Sniper Sights are built into the sniper rifle and the target pistol, and added to any other weapon eliminate the penalty for range for weapons. The user of a weapon with a sniper sight automatically has an initiative roll of 10 (last in the round).
-              Infra-Red Sights: Infra-Red Sights are a modification similar to the sniper sight, may be used for any missile weapon. These sights permit the user to see up to 5 areas in the dark.
-              Flashlight:
-                - Flashlights are common to all readers. The normal flashlight is the type most common, with a plastic or metal body. The Halogen flashlight has a brighter bulb and more concentrated beam, and blinds with a more powerful Intensity. Normal flashlight has a range of two areas, the halogen three.
-                - Normal: Typical Intensity
-                - Halogen: Remarkable Intensity
-              Mace: Mace is a small one-area weapon that shoots a mist of Typical Intensity tear gas at a single target adjacent to the user. It does not require an Agility FEAT to hit, though the target must make an Endurance FEAT to avoid the effects.
-              Flare Pistol: Flare Pistols fire a burning charge that lights the sky, either to provide illumination (lighting all areas within three) or as a signal device (fired 10 floors straight up). Used as a weapon, the device has a range of two areas and inflicts Good damage. The charge is incendiary and will ignite flammable material.
           Melee and Thrown Weapons:
-            Defender Staff Mk. I:
-              Description: A telescoping/collapsible alloy pole with a retractable blade at the end. May be used as blunt (Club, Boomerang) or edged (Knife, Sword, Spear) weapons in either extended or collapsed positions, and thrown in any configuration. Two may connect end-to-end with the blades retracted to form a longer pole. A user with the Thrown Weapons or Throwing talents knows how to throw them so they arc or ricochet to return to their hands when thrown, whether they hit or miss, by making an Agility FEAT.
-              Cost: Incredible
-              Material Strength: Remarkable
-              Type:
-                - Blunt Attack
-                - Blunt Throwing
-                - Edged Attack
-                - Edged Throwing
-              Damage: 10
-              Knife: A Knife is defined as any blade weapon with a blade up to 12 inches. It may be thrown as a thrown object.
-              Sword: Swords are considered one-handed blade weapons with blades over 12 inches long. They are not normally thrown.
-              Spear: A Spear is considered as any thrusting blade with a handle over one foot long. It is normally thrown or wielded with two hands.
-              Club: Clubs are standard blunt weapons, including makeshift weapons such as chairs and tables.
-              Boomerang: The Boomerang is a flat, curved throwing stick. Only a character with Throwing talent may cause a Boomerang to return to their hands.
           Vehicles:
             Convertible Sports Car:
               Type: Road
@@ -468,18 +392,6 @@ Character Sheet:
                   - Sports Cars include most of the jazzy little numbers the detectives on TV zip around in. They have a higher safe speed and better control than the family car, but are made of lighter materials and more easily damaged. Sports cars carry two normally. three or four with crowding (the Trans Am back seat is not designed for the human form).
                   - A Convertible is a sedan with a top that folds down. With the top up, it has similar protection to a sedan. Include cars with T-top roofs as well in this category.
           Salaries Sundries and Other Equipment:
-            Sentinel Battlesuit Mk. I:
-              Description: A sleek, armored suit consisting of para-aramids, meta-aramids, beta cloth, titanium mesh, silicone rubber, and high-impact ballistic plastic, it sports built-in functionality such as an integral air supply and respirator in its mask, and night-vision and polarized eye-protection in the goggles, as well as retractable inline wheels in the boots and compact rocket boosters on the back.
-              Cost: Incredible
-              Material Strength: Excellent
-              Infra-red Goggles: Infra-Red Goggles are similar to infra-red sights; these permit normal vision up to 5 areas away in dimly lit areas.
-              Polarized Lenses: Polarized Lenses are goggles that provide Good resistance to light attacks. If exposed to a bright light, they darken for 1 round, then lighten to allow normal sight.
-              Gas Mask: Allows the wearer to breathe and act normally in conditions of smoke, tear gas, or knock-out gas. It does not allow clear vision in these areas, however, only normal movement.
-              Flak Jacket: Flak Jackets are worn by police in special situations and by SWAT teams. These jackets provide Good protection from physical damage.
-              Beta Cloth: Beta-Cloth is a lightweight material worn by agents of S.H.I.E.L.D. It provides Typical protection from physical attacks, Excellent protection from heat and radiation.
-              Scuba Gear: Scuba Gear allows the wearer to breathe tanked air for 2 hours and, as such, dive to moderate depths in the ocean.
-              Roller Skates: Roller Skates are used by a variety of heroes from Dazzler to Iron Man. Standard skates allow the hero to move at the listed speed as if Endurance were three ranks higher.
-              Rocket Pack: Rocket Pack, worn either as a belt-pack or a backpack, allows the wearer to fly at Excellent speeds. All limitations on flight apply to the wearer, and Agility FEATs required are at one CS lower.
             Personal Computer:
               Price: Excellent
               Modem: true
@@ -490,6 +402,99 @@ Character Sheet:
           Magical Items:
             Grimoire:
               Reference: The book in which a mage records spells or incantations. Some spells, like many Entreaty spells, cannot be memorized, only read aloud from a text. A character can only have two grimoires at any one time, the primary and a back-up copy. Creating takes 10+1d10 full days of work
+          Custom Equipment:
+            Guardian Blaster Mk. I:
+              Description: The Guardian Blaster Mk. I is a combination weapon with utility functions.  It fires gyrojet rockets, canister rounds (including standard shotgun shells, or non-lethal shotgun loads), and laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher.
+              Shooting Weapons:
+                Cost: Incredible
+                Range:
+                  Gyrojet: 5
+                  Laser: 10
+                  Concussion: 4
+                  Stun: 2
+                  Shot, Canister: 2
+                Damage:
+                  Gyrojet: 10
+                  Laser: 10
+                  Concussion: 10
+                  Stun: Fires a stunning beam of Typical Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns.
+                  Shot: 15
+                  Canister: By type.
+                Type:
+                  Gyrojet: Shooting
+                  Laser: Energy
+                  Concussion: Force
+                  Stun: Stunning
+                  Shot: Shooting
+                  Canister: By type.
+                Rate: 1
+                Shots:
+                  Gyrojet: 3
+                  Power Pack: 10
+                  Shot, Canister: 6
+                Material Strength: Excellent
+                Notes:
+                  - One-Handed
+                  - Shot bursts, which affects up to three adjacent targets, with one roll made for all targets.
+                Ammunition:
+                  Power Pack: Stun, concussion, and laser weapons operate from power packs and may not use other types of ammunition.
+                  Standard: Damage listed for each weapon is for standard ammunition.
+                  Canister Shot:
+                    - Canister shot is a special type of ammunition that may be loaded with various cartridges for different effects. Specify the type of canister desired when purchasing.
+                    - Gas Canisters: Gas Canisters contain Incredible Intensity Tear Gas. Cover one area.
+                    - Knock-Out Canisters: Knock-Out Can contain Remarkable Intensity Knock-Out gas. Cover one area.
+                    - Smoke Canisters: Smoke Canisters contain Excellent Intensity smoke. Cover one area.
+                    - Explosive Canisters: Explosive Canisters inflict double damage to all in target area, normal damage to all in adjacent areas.
+                    - Incendiary Canisters: Incendiary Canisters inflict 20 damage in fire (Energy), which burns at Excellent Intensity for 1-10 rounds.
+                  Gyrojet:
+                    - Standard Shot: Damage listed for each weapon is for standard ammunition.
+                    - Explosive Shot: Explosive Shot inflicts twice the normal (listed) damage for the weapon. If the weapon fires bursts or scatters, all targets in the area are affected.
+                    - Heat-Seeker Ammunition: Heat-Seeker Ammunition seeks out the hottest source in line to the target. Will track the hottest source up to maximum of the weapon's range, and suffers no penalty for range. If several targets are of the same heat, then it will determine a target randomly. This ammunition type is only available for Gyro-Jet Pistols.
+                    - Explosive Heat-Seeker Ammunition
+                GyroJet Pistol: A GyroJet Pistol fires a miniature rocket, which may affect one or more targets according to ammunition type. Gyro-jets will only fire one type of ammunition, and gyrojet ammunition will not fit any other type of gun.
+                Laser Pistol, Concussion Pistol: The Laser Pistol, Concussion Pistol, and Plasma Beam Handgun are weapons used by high-tech spies and subversive organizations, including S.H.I.E.L.D. and A.I.M. All three types operate from power packs.
+                Stun Pistol: The standard Stun Pistol fires a stunning beam of Typical Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns. It operates from a power pack.
+                Shotgun: The Shotgun is a one- or two-barreled weapon that fires bursts. It is often loaded with non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results). One or both barrels may be fired.
+                Riot Gun: The Riot Gun is a smaller version of the shotgun and fires grenade-like missiles and canister shot (treat as grenades). Riot guns may be fired one-handed at -1CS to hit.
+              Other Equipment:
+                Fire Extinguisher: Fire Extinguishers inflict no damage normally, but against fire are of Good Intensity (eliminate fire of Typical Intensity or less in the same area on a green FEAT, of Good Intensity on a yellow, and up to Excellent on a red). Against characters with flaming powers, such as the Human Torch, the extinguisher causes a FEAT roll against that Intensity to retain flame.
+                Sniper Sights: Sniper Sights are built into the sniper rifle and the target pistol, and added to any other weapon eliminate the penalty for range for weapons. The user of a weapon with a sniper sight automatically has an initiative roll of 10 (last in the round).
+                Infra-Red Sights: Infra-Red Sights are a modification similar to the sniper sight, may be used for any missile weapon. These sights permit the user to see up to 5 areas in the dark.
+                Flashlight:
+                  - Flashlights are common to all readers. The normal flashlight is the type most common, with a plastic or metal body. The Halogen flashlight has a brighter bulb and more concentrated beam, and blinds with a more powerful Intensity. Normal flashlight has a range of two areas, the halogen three.
+                  - Normal: Typical Intensity
+                  - Halogen: Remarkable Intensity
+                Mace: Mace is a small one-area weapon that shoots a mist of Typical Intensity tear gas at a single target adjacent to the user. It does not require an Agility FEAT to hit, though the target must make an Endurance FEAT to avoid the effects.
+                Flare Pistol: Flare Pistols fire a burning charge that lights the sky, either to provide illumination (lighting all areas within three) or as a signal device (fired 10 floors straight up). Used as a weapon, the device has a range of two areas and inflicts Good damage. The charge is incendiary and will ignite flammable material.
+            Sentinel Staff Mk. I:
+              Description: A telescoping/collapsible alloy pole with a retractable blade at the end. May be used as blunt (Club, Boomerang) or edged (Knife, Sword, Spear) weapons in either extended or collapsed positions, and thrown in any configuration. Two may connect end-to-end with the blades retracted to form a longer pole. A user with the Thrown Weapons or Throwing talents knows how to throw them so they arc or ricochet to return to their hands when thrown, whether they hit or miss, by making an Agility FEAT.
+              Cost: Incredible
+              Melee and Thrown Weapons:
+                Material Strength: Remarkable
+                Type:
+                  - Blunt Attack
+                  - Blunt Throwing
+                  - Edged Attack
+                  - Edged Throwing
+                Damage: 10
+                Knife: A Knife is defined as any blade weapon with a blade up to 12 inches. It may be thrown as a thrown object.
+                Sword: Swords are considered one-handed blade weapons with blades over 12 inches long. They are not normally thrown.
+                Spear: A Spear is considered as any thrusting blade with a handle over one foot long. It is normally thrown or wielded with two hands.
+                Club: Clubs are standard blunt weapons, including makeshift weapons such as chairs and tables.
+                Boomerang: The Boomerang is a flat, curved throwing stick. Only a character with Throwing talent may cause a Boomerang to return to their hands.
+            Defender Battlesuit Mk. I:
+              Description: A sleek, dark, armored suit consisting of para-aramids, meta-aramids, beta cloth, titanium mesh, silicone rubber, and high-impact ballistic plastic, it sports built-in functionality such as an integral air supply and respirator in its mask, and night-vision and polarized eye-protection in the goggles, as well as retractable inline wheels in the boots and compact rocket boosters on the back.
+              Cost: Incredible
+              Material Strength: Excellent
+              Other Equipment:
+                Infra-red Goggles: Infra-Red Goggles are similar to infra-red sights; these permit normal vision up to 5 areas away in dimly lit areas.
+                Polarized Lenses: Polarized Lenses are goggles that provide Good resistance to light attacks. If exposed to a bright light, they darken for 1 round, then lighten to allow normal sight.
+                Gas Mask: Allows the wearer to breathe and act normally in conditions of smoke, tear gas, or knock-out gas. It does not allow clear vision in these areas, however, only normal movement.
+                Flak Jacket: Flak Jackets are worn by police in special situations and by SWAT teams. These jackets provide Good protection from physical damage.
+                Beta Cloth: Beta-Cloth is a lightweight material worn by agents of S.H.I.E.L.D. It provides Typical protection from physical attacks, Excellent protection from heat and radiation.
+                Scuba Gear: Scuba Gear allows the wearer to breathe tanked air for 2 hours and, as such, dive to moderate depths in the ocean.
+                Roller Skates: Roller Skates are used by a variety of heroes from Dazzler to Iron Man. Standard skates allow the hero to move at the listed speed as if Endurance were three ranks higher.
+                Rocket Pack: Rocket Pack, worn either as a belt-pack or a backpack, allows the wearer to fly at Excellent speeds. All limitations on flight apply to the wearer, and Agility FEATs required are at one CS lower.
         Contacts:
           Professional:
             Law:
@@ -542,7 +547,7 @@ Character Sheet:
           Character Type:
             Magic Wielder: A character able to use spells. Such characters may also be called magicians, sorcerers, wizards, enchanters, etc.
           Magic School:
-            Scientific Magic: | 
+            Scientific Magic: |
               This is a school that has no particular philosophy or ethical background. Magic is regarded not as a way of life, but rather as a tactic used to attain one’s goal. Followers of this school are seldom spellcasters themselves, but rather combine elements of magic with obscure or highly advanced forms of science to create effects that seem magical. In this school, the distinction between science and magic is never clear; either or both could be used to produce a single effect. Alchemy is the best example of a semi-magical science. The character, such as Diablo, would be an alchemist, that is, he brings about his effects through the use of potions, powders, and pills he himself creates (sometimes through materials or energy tapped from dimensional or universal sources). A scientific sorcerer is somewhat vulnerable (his items and creations can be destroyed or stolen, robbing him of power; or he could run out of items whereas spells are usually always available). However, a scientific spellcaster is somewhat less restricted in what he can accomplish (add three more spells, 2 of Personal energy and 1 of Universal energy to his capabilities, in artificial forms, of course).
 
               The time required to gather materials and create new items, powders, potions, or tablets are left to the Judge and depend on the spell, how strong it is and what its effects are. It is suggested that items with effects of Remarkable rank or less can be created at the rate of 2 per day, while items up to Amazing rank can be produced at the rate of 1 per day. The creation of items with greater effect, or the creation of any permanent item requires the equivalent of a ceremony and must be handled by the Judge.
@@ -554,8 +559,8 @@ Character Sheet:
               Scientific magic is a “neutral” school, and no special bonuses or vulnerabilities apply to it.
           Energy Use:
             All Energies: All Energies indicates that the character is able to use all of the spells.
-          Rank:
-          Master: ~
+          Rank: Master
+          Master: Hermes Trismegisos
           Spells:
             Personal Energies:
               Admittance:
