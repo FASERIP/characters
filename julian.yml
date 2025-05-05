@@ -379,7 +379,7 @@ Character Sheet:
           Shooting Weapons:
             Guardian Blaster Mk. I:
               Description: The Guardian Blaster Mk. I is a combination weapon with utility functions.  It fires gyrojet rockets, canister rounds (including standard shotgun shells, or non-lethal shotgun loads), and laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher.
-              Cost: Amazing
+              Cost: Incredible
               Range:
                 Gyrojet: 5
                 Laser: 10
@@ -441,7 +441,7 @@ Character Sheet:
           Melee and Thrown Weapons:
             Defender Staff Mk. I:
               Description: A telescoping/collapsible alloy pole with a retractable blade at the end. May be used as blunt (Club, Boomerang) or edged (Knife, Sword, Spear) weapons in either extended or collapsed positions, and thrown in any configuration. Two may connect end-to-end with the blades retracted to form a longer pole. A user with the Thrown Weapons or Throwing talents knows how to throw them so they arc or ricochet to return to their hands when thrown, whether they hit or miss, by making an Agility FEAT.
-              Cost: Amazing
+              Cost: Incredible
               Material Strength: Remarkable
               Type:
                 - Blunt Attack
@@ -470,6 +470,8 @@ Character Sheet:
           Salaries Sundries and Other Equipment:
             Sentinel Battlesuit Mk. I:
               Description: A sleek, armored suit consisting of para-aramids, meta-aramids, beta cloth, titanium mesh, silicone rubber, and high-impact ballistic plastic, it sports built-in functionality such as an integral air supply and respirator in its mask, and night-vision and polarized eye-protection in the goggles, as well as retractable inline wheels in the boots and compact rocket boosters on the back.
+              Cost: Incredible
+              Material Strength: Excellent
               Infra-red Goggles: Infra-Red Goggles are similar to infra-red sights; these permit normal vision up to 5 areas away in dimly lit areas.
               Polarized Lenses: Polarized Lenses are goggles that provide Good resistance to light attacks. If exposed to a bright light, they darken for 1 round, then lighten to allow normal sight.
               Gas Mask: Allows the wearer to breathe and act normally in conditions of smoke, tear gas, or knock-out gas. It does not allow clear vision in these areas, however, only normal movement.
