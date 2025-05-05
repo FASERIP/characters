@@ -7,7 +7,7 @@ Character Sheet:
     Secret: false
     Base of Operations: Manhattan
     Group Affiliation: ~
-    Age: 1421
+    Age: 1706
     Origin:
       Physical Form:
         Normal Human: |
@@ -21,9 +21,9 @@ Character Sheet:
       Normal Human: Everybody has an Achilles' Heel, a weakness that can really mess up his day. The nature and severity of the weakness varies with the individual, race, or class. Normal Humans have so many we don't even think about them, aside from heeding such warnings as "Poison" or skull-and-crossbones symbols. For Normal Humans, the standard stimuli are Elemental Allergy, Molecular Allergy, and Energy Allergy with Fatal Effects. 
       Stimulus:
         Elemental Allergy: |
-            The hero suffers adverse effects if he is exposed to a specific one of the hundred-odd elements. This Allergy only occurs if the element is present in a pure state and in an accumulation of at least one ounce. If the element is combined in a molecular state or is in insufficient quantities, no Effect occurs. The element must be within 20 feet of the hero for it to have any Effect.
+          The hero suffers adverse effects if he is exposed to a specific one of the hundred-odd elements. This Allergy only occurs if the element is present in a pure state and in an accumulation of at least one ounce. If the element is combined in a molecular state or is in insufficient quantities, no Effect occurs. The element must be within 20 feet of the hero for it to have any Effect.
 
-            This allergy can be overcome by physically insulating the hero from the element or by increasing the distance between them.
+          This allergy can be overcome by physically insulating the hero from the element or by increasing the distance between them.
         Molecular Allergy: This is similar to Elemental Allergy. A specific compound causes the Effect. Common examples include water, wood, and Adamantium.
         Energy Allergy: The hero suffers when he is exposed to a specific form of energy. This can be any wavelength or Intensity of energy found in the Energy Emission and Energy Control sections of this book. Sunlight is a common example of Energy Allergy, particularly when dealing with supernatural beings.
       Effect:
@@ -557,10 +557,11 @@ Character Sheet:
               A scientific magic wielder automatically receives one scientific talent of his choice (such as engineering, biology, genetics, physics, etc.) in addition to any other talents he may normally receive. The automatic talent received by alchemists is pharmacy (the mixture and preparation of medicines).
 
               Scientific magic is a “neutral” school, and no special bonuses or vulnerabilities apply to it.
+            Note: Julian makes use of actual sorcery as well as alchemy, artifice, technomancy and such, liberally substituting and alternating.
           Energy Use:
             All Energies: All Energies indicates that the character is able to use all of the spells.
           Rank: Master
-          Master: Hermes Trismegistos
+          Master: Zosimos of Panopolis
           Spells:
             Personal Energies:
               Admittance:
