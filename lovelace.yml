@@ -319,7 +319,7 @@ Character Sheet:
           Power Control:
             Peripheral: true
             Energy Source:
-              Note: Power Grid
+              Source: Power Grid
               Reference: |
                 The hero draws his Powers from a special source that provides him with all the energy he can handle. As long as the hero can maintain his link with this source, he can continue to use his Powers. The nature of the source and its link varies with each hero. If the source is small enough, the hero may be required to carry it with him. If not, perhaps the hero needs to periodically return to the source or forge an ethereal Power cord that links him to his Source despite any intervening distance. The Judge and player need to work together to produce a playable source and link.
 
