@@ -391,7 +391,7 @@ Character Sheet:
                 - Sports Car: Sports Cars include most of the jazzy little numbers the detectives on TV zip around in. They have a higher safe speed and better control than the family car, but are made of lighter materials and more easily damaged. Sports cars carry two normally. three or four with crowding (the Trans Am back seat is not designed for the human form).
                 - Convertible: A Convertible is a sedan with a top that folds down. With the top up, it has similar protection to a sedan. Include cars with T-top roofs as well in this category.
             High Performance SUV:
-              Description: A high-performance four wheel drive vehicle, it has the speed, acceleration, and handling of a sports car, the off-road capability of a military vehicle, and the solidity and comfort of a luxury car. Features expected off-road functional accessories like winches, lights, air, and CB, as well as a car phone and high-end sound system.
+              Description: A high-performance four wheel drive vehicle, it has the speed, acceleration, and handling of a sports car, the off-road capability of a military vehicle, and the solidity and comfort of a luxury car. Features expected off-road functional accessories like winches, lights, air, and CB, as well as a car phone and high-end sound system. It's an integrated combination of existing items (Sports Car, Jeep, and Luxury Car).
               Type: Off-Road
               Control: Excellent
               Speed: Remarkable
@@ -635,7 +635,7 @@ Character Sheet:
                         - Napalm: The Spray is combined with Fire Generation and does Power rank damage.
                         - Freeze Cloud: The Spray combines with Cold Emission to do Power rank damage.
                         - Shrink Dust: The Spray combines with Diminution to reduce the size of anything in the target area.
-                        Booster Dust: The Spray combines with Power Control/Magnification to raise the Power ranks of everyone in the target area +1CS.
+                        - Booster Dust: The Spray combines with Power Control/Magnification to raise the Power ranks of everyone in the target area +1CS.
 
                         Any Power in the Ultimate Powers Book can be combined with this Power to create unique Sprays for each character. When creating such characters, the player should follow this simple guideline: If you can figure out a way to combine externalized Powers with this one, do it. Powers that are completely internalized are exempt from this rule. This includes most of the Mental and Physical Enhancements and all of the Self Alterations and Detections.
 
@@ -679,44 +679,44 @@ Character Sheet:
                         If the link is severed or the source destroyed, the Mage is left with a finite supply of energy left. The amount of raw Power left is the number of points equal to his Psyche rank. Each time he uses Power, he decreases the reservoir by that Power's rank number. Obviously, it is within the hero's best interests to renew his link or rebuild his source in as little time as possible.
 
                         As you are beginning to suspect, this isn't really a Power and is more of a restraint. You're right. If you roll this Power, go ahead and roll an additional Power.
-              Warden Staff:
-                Mk. 0:
-                  Description: A telescoping/collapsible alloy pole with a retractable blade at the end. May be used as blunt (Club, Boomerang) or edged (Knife, Sword, Spear) weapons in either extended or collapsed positions, and thrown in any configuration. Two may connect end-to-end with the blades retracted to form a longer pole. A user with the Thrown Weapons or Throwing talents knows how to throw them so they arc or ricochet to return to their hands when thrown, whether they hit or miss, by making an Agility FEAT. A coiled spring and compressed air system allows the blade to be launched as if it were a crossbow or speargun. It's an integrated combination of existing items.
-                  Count: 2
-                  Material Strength: Remarkable
-                  Shooting Weapons:
-                    Range: 3
-                    Damage: 10
-                    Type: Shooting
-                    Rate: 1 per 2
-                    Shots: 1
-                    Crossbow: Crossbows have a -1CS to hit, unless the wielder has Bow Talent.
-                    Spear Gun: The Spear Gun is similar to the crossbow in statistics but may fire its bolts underwater for their full distance without penalty.
-                  Melee and Thrown Weapons:
-                    Type:
-                      - Blunt Attack
-                      - Blunt Throwing
-                      - Edged Attack
-                      - Edged Throwing
-                    Damage: 10
-                    Knife: A Knife is defined as any blade weapon with a blade up to 12 inches. It may be thrown as a thrown object.
-                    Spear: A Spear is considered as any thrusting blade with a handle over one foot long. It is normally thrown or wielded with two hands.
-                    Club: Clubs are standard blunt weapons, including makeshift weapons such as chairs and tables.
-                    Boomerang: The Boomerang is a flat, curved throwing stick. Only a character with Throwing talent may cause a Boomerang to return to their hands.
-              Defender Battlesuit:
-                Mk. 0:
-                  Description: A sleek, dark, armored suit consisting of para-aramids, meta-aramids, beta cloth, titanium mesh, silicone rubber, and high-impact ballistic plastic, it sports built-in functionality such as an integral air supply and respirator in its mask, and night-vision and polarized eye-protection in the goggles, as well as retractable inline wheels in the boots and compact rocket boosters on the back.  It's an integrated combination of existing items.
-                  Material Strength: Excellent
-                  Other Equipment:
-                    Infra-red Goggles: Infra-Red Goggles are similar to infra-red sights; these permit normal vision up to 5 areas away in dimly lit areas.
-                    Polarized Lenses: Polarized Lenses are goggles that provide Good resistance to light attacks. If exposed to a bright light, they darken for 1 round, then lighten to allow normal sight.
-                    Gas Mask: Allows the wearer to breathe and act normally in conditions of smoke, tear gas, or knock-out gas. It does not allow clear vision in these areas, however, only normal movement.
-                    Flak Jacket: Flak Jackets are worn by police in special situations and by SWAT teams. These jackets provide Good protection from physical damage.
-                    Beta Cloth: Beta-Cloth is a lightweight material worn by agents of S.H.I.E.L.D. It provides Typical protection from physical attacks, Excellent protection from heat and radiation.
-                    Scuba Gear: Scuba Gear allows the wearer to breathe tanked air for 2 hours and, as such, dive to moderate depths in the ocean.
-                    Roller Skates: Roller Skates are used by a variety of heroes from Dazzler to Iron Man. Standard skates allow the hero to move at the listed speed as if Endurance were three ranks higher.
-                    Rocket Pack: Rocket Pack, worn either as a belt-pack or a backpack, allows the wearer to fly at Excellent speeds. All limitations on flight apply to the wearer, and Agility FEATs required are at one CS lower.
-                Mk. 1:
+            Warden Staff:
+              Mk. 0:
+                Description: A telescoping/collapsible alloy pole with a retractable blade at the end. May be used as blunt (Club, Boomerang) or edged (Knife, Sword, Spear) weapons in either extended or collapsed positions, and thrown in any configuration. Two may connect end-to-end with the blades retracted to form a longer pole. A user with the Thrown Weapons or Throwing talents knows how to throw them so they arc or ricochet to return to their hands when thrown, whether they hit or miss, by making an Agility FEAT. A coiled spring and compressed air system allows the blade to be launched as if it were a crossbow or speargun. It's an integrated combination of existing items.
+                Count: 2
+                Material Strength: Remarkable
+                Shooting Weapons:
+                  Range: 3
+                  Damage: 10
+                  Type: Shooting
+                  Rate: 1 per 2
+                  Shots: 1
+                  Crossbow: Crossbows have a -1CS to hit, unless the wielder has Bow Talent.
+                  Spear Gun: The Spear Gun is similar to the crossbow in statistics but may fire its bolts underwater for their full distance without penalty.
+                Melee and Thrown Weapons:
+                  Type:
+                    - Blunt Attack
+                    - Blunt Throwing
+                    - Edged Attack
+                    - Edged Throwing
+                  Damage: 10
+                  Knife: A Knife is defined as any blade weapon with a blade up to 12 inches. It may be thrown as a thrown object.
+                  Spear: A Spear is considered as any thrusting blade with a handle over one foot long. It is normally thrown or wielded with two hands.
+                  Club: Clubs are standard blunt weapons, including makeshift weapons such as chairs and tables.
+                  Boomerang: The Boomerang is a flat, curved throwing stick. Only a character with Throwing talent may cause a Boomerang to return to their hands.
+            Defender Battlesuit:
+              Mk. 0:
+                Description: A sleek, dark, armored suit consisting of para-aramids, meta-aramids, beta cloth, titanium mesh, silicone rubber, and high-impact ballistic plastic, it sports built-in functionality such as an integral air supply and respirator in its mask, and night-vision and polarized eye-protection in the goggles, as well as retractable inline wheels in the boots and compact rocket boosters on the back.  It's an integrated combination of existing items.
+                Material Strength: Excellent
+                Other Equipment:
+                  Infra-red Goggles: Infra-Red Goggles are similar to infra-red sights; these permit normal vision up to 5 areas away in dimly lit areas.
+                  Polarized Lenses: Polarized Lenses are goggles that provide Good resistance to light attacks. If exposed to a bright light, they darken for 1 round, then lighten to allow normal sight.
+                  Gas Mask: Allows the wearer to breathe and act normally in conditions of smoke, tear gas, or knock-out gas. It does not allow clear vision in these areas, however, only normal movement.
+                  Flak Jacket: Flak Jackets are worn by police in special situations and by SWAT teams. These jackets provide Good protection from physical damage.
+                  Beta Cloth: Beta-Cloth is a lightweight material worn by agents of S.H.I.E.L.D. It provides Typical protection from physical attacks, Excellent protection from heat and radiation.
+                  Scuba Gear: Scuba Gear allows the wearer to breathe tanked air for 2 hours and, as such, dive to moderate depths in the ocean.
+                  Roller Skates: Roller Skates are used by a variety of heroes from Dazzler to Iron Man. Standard skates allow the hero to move at the listed speed as if Endurance were three ranks higher.
+                  Rocket Pack: Rocket Pack, worn either as a belt-pack or a backpack, allows the wearer to fly at Excellent speeds. All limitations on flight apply to the wearer, and Agility FEATs required are at one CS lower.
+              Mk. 1:
                   Description: A full suit of powered armor, still sleek and futuristic, but reminiscient of Byzantine motifs with a dark theme.
                   Abilities: 
                     Fighting:
