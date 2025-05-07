@@ -584,7 +584,7 @@ Character Sheet:
               Sensing-Evil:
                 Rank: Amazing
                 Number: 50
-                Reference: |
+                Reference: &Sensing-Evil |
                   The caster can mystically sense the presence of great evil in his area of spell. This includes the presence of evil creatures (demons, evil magic wielders, super villains bent on destruction, etc.), artifacts of evil design or exceptionally evil deeds. This spell is automatic (FEAT rolls are not needed). As the caster gets closer to the source of the evil emanations, his sensing gets stronger. Thus, he can usually root out the evil if he goes looking for it.
 
                   If the spell duration is permanent, the spell functions constantly, even when the caster is asleep.
@@ -705,7 +705,7 @@ Character Sheet:
             Top Down: Feeble
             Top Up: Poor
           Reference:
-            - Sports Car: Sports Cars include most of the jazzy little numbers the detectives on TV zip around in. They have a higher safe speed and better control than the family car, but are made of lighter materials and more easily damaged. Sports cars carry two normally. three or four with crowding (the Trans Am back seat is not designed for the human form).
+            - Sports Car: &Sports_Car Sports Cars include most of the jazzy little numbers the detectives on TV zip around in. They have a higher safe speed and better control than the family car, but are made of lighter materials and more easily damaged. Sports cars carry two normally. three or four with crowding (the Trans Am back seat is not designed for the human form).
             - Convertible: A Convertible is a sedan with a top that folds down. With the top up, it has similar protection to a sedan. Include cars with T-top roofs as well in this category.
         High Performance SUV:
           Description: A high-performance four wheel drive vehicle, it has the speed, acceleration, and handling of a sports car, the off-road capability of a military vehicle, and the solidity and comfort of a luxury car. Features expected off-road functional accessories like winches, lights, air, and CB, as well as a car phone and high-end sound system. It's an integrated combination of existing items (Sports Car, Jeep, and Luxury Car).
@@ -716,8 +716,8 @@ Character Sheet:
           Body: Excellent
           Protection: Good
           Reference:
-            - Sports Car: Sports Cars include most of the jazzy little numbers the detectives on TV zip around in. They have a higher safe speed and better control than the family car, but are made of lighter materials and more easily damaged. Sports cars carry two normally. three or four with crowding (the Trans Am back seat is not designed for the human form).
-            - Jeep: The Pick-Up and Jeep are four-wheel drive off-road vehicles. Four-wheel drive does not prevent you from getting stuck; it only gets you stuck in worse places (quote by Dirtbuggy Doug Niles). The Jeep has been a workhorse for the Army for years and is only now being replaced by another vehicle with similar stats.
+            - Sports Car: *Sports_Car
+            - Jeep: &Jeep The Pick-Up and Jeep are four-wheel drive off-road vehicles. Four-wheel drive does not prevent you from getting stuck; it only gets you stuck in worse places (quote by Dirtbuggy Doug Niles). The Jeep has been a workhorse for the Army for years and is only now being replaced by another vehicle with similar stats.
             - Luxury Car: Luxury Cars are the gas-guzzling huge cars, and range from a mid-sized Cadillac to the huge vehicles with wet bars inside. Their big trouble is that they steer like rocks. Luxury cars seat from 5 up to about 10 for the largest monsters.
       Salaries Sundries and Other Equipment:
         Personal Computer:
@@ -737,7 +737,7 @@ Character Sheet:
         Familiar:
           Reference: Familiar indicates a being that is very powerful magically and actively assists the hero. Two powers should be rolled randomly or selected by the Judge from the personal and universal energy lists for this familiar. In addition, the familiar is intelligent (Reason and Psyche at least Typical) and can communicate with its owner (the kind of communication is left to the Judge’s discretion). The form of the familiar can either be that of a normal animal (usually a cat) or an unusual type, such as a small dragon or other mythical creature. The familiar’s form is at the player’s discretion.
           Leonidas:
-            Description: A particularly large housecat most resembling an Oriental Longhair, with a black spotted silver tabby coat, a green right eye, and a blue left eye.
+            Description: A particularly large housecat most resembling a strikingly ancient- and wild-looking Oriental breed somewhat like an oversized Egyptian Mau, with a black spotted silver tabby coat and brilliant green eyes.
             Abilities:
               Primary Abilities:
                 Fighting:
@@ -766,21 +766,21 @@ Character Sheet:
               Special Abilities:
                 Powers:
                   Detection:
-                      Hypersensitive Hearing:
-                        Rank: Remarkable
-                        Number: 30
-                        Reference: The hero can detect extremely faint sounds and unusual frequencies. He can identify objects by the sounds they emit. Because of the sensitivity of the hero's hearing, he is more vulnerable to sonic attacks (which receive a +1CS against him).
-                      Hypersensitive Olfactory:
-                        Rank: Remarkable
-                        Number: 30
-                        Reference: |
-                          The hero can detect the presence of minute traces of substances and accurately identify them.
+                    Hypersensitive Hearing:
+                      Rank: Remarkable
+                      Number: 30
+                      Reference: The hero can detect extremely faint sounds and unusual frequencies. He can identify objects by the sounds they emit. Because of the sensitivity of the hero's hearing, he is more vulnerable to sonic attacks (which receive a +1CS against him).
+                    Hypersensitive Olfactory:
+                      Rank: Remarkable
+                      Number: 30
+                      Reference: |
+                        The hero can detect the presence of minute traces of substances and accurately identify them.
 
-                          This Power is continually functioning: the hero has learned to ignore unpleasant smells. If he loses his ability to mask out nasty odors, he'll be so distracted (and possibly sickened) by the intruding odors that he loses -1CS on Reason and Endurance.
-                      Tracking Ability:
-                        Rank: Remarkable
-                        Number: 30
-                        Reference: The hero can detect and follow the tracks left by a specific target. The hero can detect environmental and spatial disturbances with the result that at high ranks the hero can actually track across deep space.
+                        This Power is continually functioning: the hero has learned to ignore unpleasant smells. If he loses his ability to mask out nasty odors, he'll be so distracted (and possibly sickened) by the intruding odors that he loses -1CS on Reason and Endurance.
+                    Tracking Ability:
+                      Rank: Remarkable
+                      Number: 30
+                      Reference: The hero can detect and follow the tracks left by a specific target. The hero can detect environmental and spatial disturbances with the result that at high ranks the hero can actually track across deep space.
                   Other Powers: #From APB
                     Body Alterations/Defensive:
                       Immortality:
@@ -811,6 +811,10 @@ Character Sheet:
                       Rank: Amazing
                       Number: 50
                       Reference:  The caster can disrupt probability fields so that very unlikely events can occur, somewhat like creating his own luck. For example, he could cause a table to collapse or a machine to tip over. He can not cause something to happen if that event is impossible; tables can not be created from nothing, and machines just can’t cease to exist. When the caster uses his spell, the player describes exactly what effect is wanted, and the Judge decides whether or not that effect is within the spell’s power and assigns an appropriate FEAT color. To use the spell the caster must make a successful spell rank FEAT roll. If the caster is trying to alter probabilities around magic materials or energies, such as magical artifacts or temples, apply a -2CS to the spell rank when making the FEAT roll.
+                    Sensing-Evil:
+                      Rank: Amazing
+                      Number: 50
+                      Reference: *Sensing-Evil
                     Sensing-Mystical Detection:
                       Rank: Amazing
                       Number: 50
