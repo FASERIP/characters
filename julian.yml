@@ -286,7 +286,7 @@ Character Sheet:
           Other Powers: #From APB
             Body Alterations/Defensive:
               Immortality:
-                Reference: |
+                Reference: &Immortality |
                   The character with this Power does not age or die in a normal fashion. Now, before you all run out and grab this Power for your young hero, note the fine print. The hero can still suffer loss of Endurance ranks as the result of wounds, poisons, and damages, but if the results call for perishing. then the character is left at Shift 0 Endurance but does not die. The character cannot move or act until Endurance reaches Feeble, however. so throwing an Immortal character into an active volcano will keep him out of the way for a while. (He cannot heal while taking damage.)
 
                   If Endurance reaches Shift 0, or the character otherwise dies, the immortal character loses all Karma, including that set aside for advancement. The character may be out of luck, but at least he has his Health. If an immortal character is part of a Karma pool, then an amount of Karma is subtracted as if the character had left the group. This is done each time the immortal character becomes "dead."
@@ -452,7 +452,7 @@ Character Sheet:
               Admittance:
                 Rank: Amazing
                 Number: 50
-                Reference: |
+                Reference: &Admittance |
                   The caster can direct enchanted energy at any locked door or container and it will easily open for him, no matter how many locks it has or how big or intricate they are, if his spell rank FEAT roll is successful.
               Apparition:
                 Rank: Amazing
@@ -632,7 +632,7 @@ Character Sheet:
               Teleportation:
                 Rank: Amazing
                 Number: 50
-                Reference: |
+                Reference: &Teleportation |
                   The caster can channel his Universal or Dimensional energy into a special type of movement that allows him to travel instantaneously from one spot to another without physically crossing any of the space between. The caster can teleport as far as his area of effect allows. If the caster is familiar with the location he is teleporting to, or is able to see it, then he need make no FEAT roll. If he is attempting to teleport into an unknown location he must make a spell rank FEAT roll. A failed roll means he could not complete the movement and was “bumped” back to his original point of departure.
 
                   If a caster tries teleporting into a solid object (because he is unaware of its presence) he must make an Endurance FEAT roll; if this roll fails, he materializes outside the object but suffers damage equal to the material rank of the object. The character is automatically slammed (1 area) and may be stunned (make a FEAT roll for exact result).
@@ -699,6 +699,52 @@ Character Sheet:
             This is actually a class of staves. They can come in any shape or material and range in size from 4 to 8 feet long. A Staff of Polar Power polarizes the holder with the power of the master who created it. Therefore different powers and different levels of mastery are engrained into each staff and no two are alike. All Staves of Power allow the character to become pure energy for the purpose of floating through dimensions. In such form a character can move through dimensions at a rate of 5 dimensions per round and ignore all physical attacks. Another quality of most Staves of Power is their ability to absorb attack spells cast at them (see Magic Effects Table, Agility & Targeting). An Agility FEAT roll of a bull’s-eye indicates the character has intercepted the spell with his staff).
 
             This item offers the Judge a great opportunity to be creative and is a good item to improve a freshly generated character who is weak.
+        Familiar:
+          Reference: Familiar indicates a being that is very powerful magically and actively assists the hero. Two powers should be rolled randomly or selected by the Judge from the personal and universal energy lists for this familiar. In addition, the familiar is intelligent (Reason and Psyche at least Typical) and can communicate with its owner (the kind of communication is left to the Judge’s discretion). The form of the familiar can either be that of a normal animal (usually a cat) or an unusual type, such as a small dragon or other mythical creature. The familiar’s form is at the player’s discretion.
+          Leonidas:
+            Abilities:
+              Primary Abilities:
+                Fighting:
+                  Rank: Excellent
+                  Number: 20
+                Agility:
+                  Rank: Amazing
+                  Number: 50
+                Strength:
+                  Rank: Poor
+                  Number: 4
+                Endurance:
+                  Rank: Excellent
+                  Number: 20
+                Reason:
+                  Rank: Excellent
+                  Number: 20
+                Intuition:
+                  Rank: Remarkable
+                  Number: 30
+                Psyche:
+                  Rank: Incredible
+                  Number: 40
+              Secondary Abilities:
+                Health: 94
+              Special Abilities:
+                Powers:
+                  Other Powers: #From APB
+                    Body Alterations/Defensive:
+                      Immortality:
+                        Reference: *Immortality
+                Magic:
+                  Personal Energies:
+                    Admittance:
+                      Rank: Amazing
+                      Number: 50
+                      Reference: *Admittance
+                  Universal Energies:
+                    Teleportation:
+                      Rank: Amazing
+                      Number: 50
+                      Reference: *Teleportation
+              Notes: Cats include most ordinary house cats and small wild cats. They inflict Edged attack damage with their claws but cannot score a Kill result against human targets. They move 2 areas/turn.
       Custom Equipment:
         Guardian Blaster:
           Mk. 0:
