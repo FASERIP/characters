@@ -125,6 +125,7 @@ Character Sheet:
             Life Detection: #DT9
               Rank: Monstrous
               Number: 75
+              Reference: |
                 Range column B. The hero can detect the presence of life and identify the nature of that life. The hero can probe a specific target for more detailed physiological data on a red FEAT.
 
                 Rank determines the maximum range. A red FEAT allows the hero to locate a specific lifeform in the midst of a number of similar beings.
@@ -345,8 +346,8 @@ Character Sheet:
             Martial Arts E: This form of martial arts encourages quick striking to catch the opponent off-guard. Heroes with this form of Martial Arts are at a +1CS to initiative rolls in unarmed combat.
             Wrestling: The hero with this Talent is proficient in applying holds. It includes familiar types of wrestling as well as the sumo forms of the art. The hero with this Talent gains a +2CS when making Grappling attacks, but gains no benefit in damage. (A hero with Martial Arts B and this Talent gains a +3CS to hit in a Grappling attack, and a +1CS for damage.)
             Thrown Objects: The hero with this Talent gains a +1CS with all Throwing attacks (both Edged and Blunt) and +1CS on Catching. This applies to both thrown weapons and normal items. If the hero has the Thrown Weapons Talent as well, the modification is +2CS when using thrown weapons.
-            Acrobatics: The hero with this Talent is very limber and as such gains advantages when under attack. The hero has a +1CS when dodging, evading, and escaping.
-            Tumbling: The hero with this Talent knows how to fall and land without undue injury. Individuals with this Talent may make an Agility FEAT to land feet-first after any fall that does not inflict damage.
+            Acrobatics: &Acrobatics The hero with this Talent is very limber and as such gains advantages when under attack. The hero has a +1CS when dodging, evading, and escaping.
+            Tumbling: &Tumbling The hero with this Talent knows how to fall and land without undue injury. Individuals with this Talent may make an Agility FEAT to land feet-first after any fall that does not inflict damage.
           Professional Skills:
             Medicine: The hero with this Talent has extensive knowledge of medicine and as such limited Talents in healing. In general, a character losing Endurance Ranks as the result of a lethal situation can have those losses stopped by any character checking on him. The individual with Medicine Talent may bring back characters that have reached the Shift 0 level up to 20 turns after they have reached that level. A character with this Talent may restore one rank of Endurance to a wounded character per week, in addition to natural healing. Finally, the character with Medicine as a Talent is +1CS on Reason FEATs that involve medical problems, medications, poisons, and surgery.
             Law: The character with this Talent has an extensive background in law (the assumption being US Law, but this may vary according to the Judge's campaign). The hero may be a lawyer or capable of applying to pass the bar (Reason FEAT of Good Intensity). A character with Law as a Talent gains a +1CS to all FEAT rolls involving the law, including correct legal procedure. A character without Law gains no benefit to Reason FEATs, and in addition, will have to make Reason FEATs more often than a character with Law Talent.
@@ -371,8 +372,9 @@ Character Sheet:
             Trance: The character may place himself into a trance. While in a trance, the character slows his body functions to such a level that he may be assumed to be deceased (Intuition FEAT for the character checking). A character in a trance reduces needs for food and water to a minimal level, and may regain Endurance ranks at one rank per day.
             Mesmerism and Hypnosis: This Talent is a primitive form of Mind Control at the Power rank number equal to the Reason of the character with this Talent. Information can be gained as per a Mental Probe, and posthypnotic suggestions may be implanted within the victim's mind. Any attempt to force an individual to do something that he would not normally do, or divulge information that he would not normally reveal, will cause the hypnotism to break. A hypnotic command fades in 1-10 hours after it is given.
             Sleight of Hand: This is a Talent developed by stage magicians which causes items to appear and disappear by a combination of misdirection and swift, fluid gestures. The character with this Talent may palm small items, making them appear or disappear with Agility +1CS ability.
-            Resist Domination: This is a Psi-Screen that may be developed by individuals without that Power. This permits the character to resist mental attacks as if the character had a mental power of Psyche +1CS. The Talent is passive in nature and does not grant any other particular benefit. A character with Mental Probe may be able to discern where the character gained this Talent, but nothing else.
-            Mystic Background: In the Marvel Universe, all humankind has the potential for developing magical Powers. This "Talent" shows that the character has some background with magical forces. Heroes may have derived their powers from these forces if they choose this Talent. A character with this Talent may have Magical Powers, with the approval of the Judge. If the Judge allows magical player characters, then any of the initial Powers created may be spells, and should be noted as deriving from Personal, Universal, or Dimensional energies.
+            Resist Domination: &Resist_Domination This is a Psi-Screen that may be developed by individuals without that Power. This permits the character to resist mental attacks as if the character had a mental power of Psyche +1CS. The Talent is passive in nature and does not grant any other particular benefit. A character with Mental Probe may be able to discern where the character gained this Talent, but nothing else.
+            Occult Lore: &Occult_Lore The character with this Talent has a knowledge of magical societies, antiquities, runes, and a general understanding of forgotten lore. The character gains a +1CS to Reason FEATs involving items of a magical nature.
+            Mystic Background: &Mystic_Background In the Marvel Universe, all humankind has the potential for developing magical Powers. This "Talent" shows that the character has some background with magical forces. Heroes may have derived their powers from these forces if they choose this Talent. A character with this Talent may have Magical Powers, with the approval of the Judge. If the Judge allows magical player characters, then any of the initial Powers created may be spells, and should be noted as deriving from Personal, Universal, or Dimensional energies.
           Other Talents:
             Artist: The character with an artist background creates works of art, either for himself or for sale to others. This includes painting, sculpting, and writing. A single work takes 1-10 weeks, and upon completion grants the artist Karma points equal to 10 times the number of weeks. The character must allocate some time daily at his work.
             Languages: The character with this Talent has a natural understanding of languages. The character gains 1 additional language at start, and may add other languages at half the cost of a Talent (500 points regardless of who teaches it). Characters without the Languages Talent must gain this Talent first to learn other languages. The gaining of additional languages assumes someone is available to teach these languages. A Player character with this Talent does not have to assign a language at start, but may fill one in later as need be.
@@ -464,12 +466,11 @@ Character Sheet:
               Admittance:
                 Rank: Amazing
                 Number: 50
-                Reference: &Admittance |
-                  The caster can direct enchanted energy at any locked door or container and it will easily open for him, no matter how many locks it has or how big or intricate they are, if his spell rank FEAT roll is successful.
+                Reference: &Admittance The caster can direct enchanted energy at any locked door or container and it will easily open for him, no matter how many locks it has or how big or intricate they are, if his spell rank FEAT roll is successful.
               Apparition:
                 Rank: Amazing
                 Number: 50
-                Reference: |
+                Reference: &Apparition |
                   The caster can mystically make his body non-corporeal and become an apparition. (This should not be confused with Astral Projection, as that power takes the caster to another dimension and he is invisible to most characters in this dimension.) Once the spell is cast, the caster need not concentrate upon his state to remain an apparition. As an apparition, the caster can still move, speak, cast spells, and perform most other normal actions. His movement rate is the same as if he were corporeal, but he can walk on air, sink through floors, climb up elevations as if he were climbing stairs, etc.
 
                   When a caster becomes an apparition his body loses its density, allowing him to pass through solid object and letting solid objects pass through him. The caster can be seen, but is obviously not completely solid. This power grants the caster body armor equal to the spell rank against any physical, energy, or mental attacks. If the apparition/caster physically attacks another character, that character must also be treated as though he has body armor equal to this spell rank. Magical, mental, or energy attacks against the target are treated as normal.
@@ -509,7 +510,7 @@ Character Sheet:
               Invisibility:
                 Rank: Amazing
                 Number: 50
-                Reference: |
+                Reference: &Invisibility |
                   This spell makes the caster invisible to others. Any item on the caster’s person and anyone holding hands with him (and willing to be affected) also becomes invisible as long as they remain in contact with him. This spell cannot turn an unwilling creature invisible.
 
                   Being invisible causes no special problems for the caster, but anyone else affected who is not used to being invisible will have a real problem moving about (movement halved), performing the simplest of actions (-2CS), and fighting in any fashion (-3CS for any combat). It requires at least 10 rounds of being invisible before becoming used to it.
@@ -554,8 +555,7 @@ Character Sheet:
               Sensing-Danger:
                 Rank: Amazing
                 Number: 50
-                Reference: |
-                  The caster can scan the area of spell using mystic waves that will warn him of danger. If this spell rank is higher than the caster’s Intuition rank, use this spell rank when the caster makes Intuition FEAT rolls. If the spell rank is lower than the caster’s Intuition, increase his Intuition by one level when making Intuition FEAT checks.
+                Reference: The caster can scan the area of spell using mystic waves that will warn him of danger. If this spell rank is higher than the caster’s Intuition rank, use this spell rank when the caster makes Intuition FEAT rolls. If the spell rank is lower than the caster’s Intuition, increase his Intuition by one level when making Intuition FEAT checks.
               Sensing-Evil:
                 Rank: Amazing
                 Number: 50
@@ -573,20 +573,18 @@ Character Sheet:
               Sensing-Identity:
                 Rank: Amazing
                 Number: 50
-                Reference: |
-                  The caster can mystically scan the mind of anybody he can see within his area of spell and determine that person’s true identity. If the target is another magic wielder or a character with mental powers of any kind, he is allowed a Psyche FEAT roll to resist the probe. If the resistance FEAT roll is successful, he is unaffected.
+                Reference: The caster can mystically scan the mind of anybody he can see within his area of spell and determine that person’s true identity. If the target is another magic wielder or a character with mental powers of any kind, he is allowed a Psyche FEAT roll to resist the probe. If the resistance FEAT roll is successful, he is unaffected.
               Sensing-Mystical Detection:
                 Rank: Amazing
                 Number: 50
-                Reference: |
+                Reference: &Sensing-Mystical_Detection |
                   The caster is sensitive to the use of magic. He can detect magic use and its specific source within the area of effect. Among the specific things he can detect are: magicians casting spells, magical items that are being used or that have a protective spell cast on them, magical portals, and magical creatures.
 
                   Unlike some sensing spells, this spell does not require a great deal of concentration.
               Tongues:
                 Rank: Amazing
                 Number: 50
-                Reference: |
-                  The caster mystically alters his senses so he can read, write, speak, and hear unknown language spoken or written in his presence. The area of effect has no significance with this spell. If the language is native to his world, no FEAT roll is needed. If the language is an alien one, he must make a successful spell rank FEAT roll to be able to comprehend it.
+                Reference: The caster mystically alters his senses so he can read, write, speak, and hear unknown language spoken or written in his presence. The area of effect has no significance with this spell. If the language is native to his world, no FEAT roll is needed. If the language is an alien one, he must make a successful spell rank FEAT roll to be able to comprehend it.
               Trance:
                 Rank: Amazing
                 Number: 50
@@ -714,6 +712,7 @@ Character Sheet:
         Familiar:
           Reference: Familiar indicates a being that is very powerful magically and actively assists the hero. Two powers should be rolled randomly or selected by the Judge from the personal and universal energy lists for this familiar. In addition, the familiar is intelligent (Reason and Psyche at least Typical) and can communicate with its owner (the kind of communication is left to the Judge’s discretion). The form of the familiar can either be that of a normal animal (usually a cat) or an unusual type, such as a small dragon or other mythical creature. The familiar’s form is at the player’s discretion.
           Leonidas:
+            Description: A particularly large housecat most resembling an Oriental Longhair, with a black spotted silver tabby coat, a green right eye, and a blue left eye.
             Abilities:
               Primary Abilities:
                 Fighting:
@@ -741,22 +740,94 @@ Character Sheet:
                 Health: 94
               Special Abilities:
                 Powers:
+                  Detection:
+                      Hypersensitive Hearing:
+                        Rank: Remarkable
+                        Number: 30
+                        Reference: The hero can detect extremely faint sounds and unusual frequencies. He can identify objects by the sounds they emit. Because of the sensitivity of the hero's hearing, he is more vulnerable to sonic attacks (which receive a +1CS against him).
+                      Hypersensitive Olfactory:
+                        Rank: Remarkable
+                        Number: 30
+                        Reference: |
+                          The hero can detect the presence of minute traces of substances and accurately identify them.
+
+                          This Power is continually functioning: the hero has learned to ignore unpleasant smells. If he loses his ability to mask out nasty odors, he'll be so distracted (and possibly sickened) by the intruding odors that he loses -1CS on Reason and Endurance.
+                      Tracking Ability:
+                        Rank: Remarkable
+                        Number: 30
+                        Reference: The hero can detect and follow the tracks left by a specific target. The hero can detect environmental and spatial disturbances with the result that at high ranks the hero can actually track across deep space.
                   Other Powers: #From APB
                     Body Alterations/Defensive:
                       Immortality:
                         Reference: *Immortality
+                Talents:
+                  Fighting Skills:
+                    Acrobatics: *Acrobatics
+                    Tumbling: *Tumbling
+                  Mystic and Mental Skills:
+                    Resist Domination: *Resist_Domination
+                    Occult Lore: *Occult_Lore
+                    Mystic Background: *Mystic_Background
                 Magic:
                   Personal Energies:
                     Admittance:
                       Rank: Amazing
                       Number: 50
                       Reference: *Admittance
+                    Apparition:
+                      Rank: Amazing
+                      Number: 50
+                      Reference: *Apparition
+                    Invisibility:
+                      Rank: Amazing
+                      Number: 50
+                      Reference: *Invisibility
+                    Luck:
+                      Rank: Amazing
+                      Number: 50
+                      Reference:  The caster can disrupt probability fields so that very unlikely events can occur, somewhat like creating his own luck. For example, he could cause a table to collapse or a machine to tip over. He can not cause something to happen if that event is impossible; tables can not be created from nothing, and machines just can’t cease to exist. When the caster uses his spell, the player describes exactly what effect is wanted, and the Judge decides whether or not that effect is within the spell’s power and assigns an appropriate FEAT color. To use the spell the caster must make a successful spell rank FEAT roll. If the caster is trying to alter probabilities around magic materials or energies, such as magical artifacts or temples, apply a -2CS to the spell rank when making the FEAT roll.
+                    Sensing-Mystical Detection:
+                      Rank: Amazing
+                      Number: 50
+                      Reference: *Sensing-Mystical_Detection
                   Universal Energies:
+                    Fear:
+                      Rank: Amazing
+                      Number: 50
+                      Reference: |
+                        This spell affects all targets in the area of effect. The spell releases an unreasoning fear from the target’s mind. All targets are allowed a Psyche FEAT roll to resist the effect (see the Magic Effects Table). If the target misses the roll, the frightened character wants nothing more than to run away and hide (all his actions while afraid are at -2CS). The victim will try to avoid, or if necessary attack, anyone attempting to stop or restrain him. The character can only perform actions (including spellcasting) that will help him to escape. The victim always flees away from the attacker, even if he cannot see the caster. After the first three rounds of being afraid, and every other round after that, if need be, the frightened character is allowed a Psyche FEAT roll to regain his composure. Once made, it will still take him a full round to get complete control of himself.
+
+                        Though the caster must maintain a high degree of concentration on this spell to keep the target afraid (no attacks or other spellcasting allowed), he does not know when the character breaks the spell. Only when the target attacks the caster or otherwise acts contrary to a state of fear does the caster realize he no longer influences the target.
+                    Forgetfulness:
+                      Rank: Amazing
+                      Number: 50
+                      Reference: |
+                        The caster can magically effect other characters’ minds and cause them to forget events. This is usually used by heroic magic wielders to protect innocent bystanders from the awesome psychic shock caused by some of the sights to be seen during magical combat, etc. It is also used by most magic wielding characters to protect their secret identities. Evil magicians may also use this spell to cover up their trail or their crimes. The duration of the spell is permanent (unless another sorcerer uses a Revival spell of at least equal spell rank to break the spell of Forgetfulness). The number of people that can be ensorcelled by the spell depends on the spell rank: Good = 1 person; Excellent = up to 5 people; Remarkable = everyone in I area; Incredible = everyone in a square mile; Amazing = everyone in 100 square miles; Monstrous = everyone on the planet; Unearthly everyone in one dimension; Class 1000 everyone in all dimensions.
+
+                        Any character with a Psyche equal to or greater than the caster’s may make a Psyche FEAT roll to reduce the effects of the spell. Magic wielding characters have a +2CS for this FEAT roll. A green result means that vague recollections of the event sometimes surface in the character’s memory. A yellow result means that the character knows most of the highlights of the event, but cannot remember who cast the spell of forgetfulness. A red result means that the character can remember everything.
+                    Static Field:
+                      Rank: Amazing
+                      Number: 50
+                      Reference: |
+                        The caster can set up an invisible static field with his magical energy. This field, which blankets his area of effect, disrupts television, radio, CB, walkie-talkie, and other broadcasting devices. It also disrupts all closed-circuited monitoring security systems and scanners, most computer systems, robotic “brains”, and any other highly sophisticated electronic devices. The field moves with the caster and once an item is outside the field, it works as before.
+
+                        Any attack that uses broadcast power, such as a maser (microwave), must punch through the field first. Treat the spell rank as body armor for purposes of defense.
                     Teleportation:
                       Rank: Amazing
                       Number: 50
                       Reference: *Teleportation
-              Notes: Cats include most ordinary house cats and small wild cats. They inflict Edged attack damage with their claws but cannot score a Kill result against human targets. They move 2 areas/turn.
+            Notes: Inflicts Edged attack damage with claws but cannot score a Kill result against human targets. Moves 2 areas/turn.
+            Reference:
+              Cat:
+                Fighting: Feeble
+                Agility: Good
+                Strength: Feeble
+                Endurance: Good
+                Reason: Feeble
+                Intuition: Typical
+                Psyche: Feeble
+                Health: 24
+                Notes: Cats include most ordinary house cats and small wild cats. They inflict Edged attack damage with their claws but cannot score a Kill result against human targets. They move 2 areas/turn.
       Custom Equipment:
         Guardian Blaster:
           Mk. 0:
