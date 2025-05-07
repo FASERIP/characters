@@ -373,6 +373,8 @@ Character Sheet:
                       Base: Where not assigned to peripheral
                       Physical Enhancement:
                         Body Resistance:
+                          Rank: Monstrous
+                          Number: 75
                           Reference: 
                             This is the form of Body Armor most heroes want. The hero's body is composed of apparently normal flesh. However, the tissue of capable of withstanding major damage without showing any effects. The resistance covers physical and energy attacks only.
 
@@ -382,8 +384,12 @@ Character Sheet:
 
                             An Optional Power is Regeneration.
                         Regeneration:
+                          Rank: Monstrous
+                          Number: 75
                           Reference: The hero can rapidly recover from any wound. Cuts quickly close and disease symptoms disappear. The hero heals at an accelerated rate equal to the Power rank number times the normal amount of time. For example, a Typical rank can heal six times as fast as normal, an Unearthly rank heals at a hundredfold rate, and so on. With time, the hero can regrow large areas of lost tissue, especially severed limbs. Lost limbs or organs require a red FEAT. It cannot repair losses that resulted in the hero's death unless the hero is revived. If such a fatal loss and subsequent revival occurs, the hero requires life-support equipment to give his Power time to function.
                         Self-Sustenance:
+                          Rank: Monstrous
+                          Number: 75
                           Form: Permanent
                           Reference: |
                             The hero can survive indefinitely without consuming air, water, or food. Bodily wastes are internally recycled back into useable materials.
