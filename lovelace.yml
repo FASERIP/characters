@@ -1,6 +1,22 @@
 ---
 Character Sheet:
-  Game System: TSR Marvel Super Heroes RPG Advanced
+  Game System:
+    Name: Marvel Super Heroes RPG
+    Edition: Advanced
+    Publisher: TSR, Inc.
+    Year: 1986
+    Reference: Reference Fields are the full text of a reference from the relevant book, sometimes edited for relevance or clarity.
+    Books:
+      - Advanced Player's Book
+      - Advanced Judge's Book
+      - Ultimate Powers Book
+      - Realms of Magic
+      - Weapons Locker
+  Campaign:
+    Continuity: Earth-1986
+    Era:
+      Start: 1986
+      End: 1993
   Hero:
     Name: LOVELACE
     Identity: LOVELACE
