@@ -1,452 +1,469 @@
-Hero:
-  Game System: TSR Marvel Super Heroes RPG Advanced/2nd Edition
-  Name: Evenstar
-  Identity: Stella Blake
-  Secret: true
-  Base of Operations: Manhattan
-  Group Affiliation: None
-  Era: Dark/Iron/Early Modern  (Mid 1980's-Early 1990's)
-  Continuity: Earth-1986
-  Age: 18
-  DoB: 1968-07-31T02:15:00-05
-  Origin:
-    Physical Form: Modified Human
-    Origin of Power: Endowment
-  Weakness:
-    Stimulus: Psychological
-    Effect: Power Negation
-    Duration: Continuous with Contact
-    Conditions:
-      - Extreme stress leading loss of focus and inner balance may cause reversion to Alter Ego and the accompanying loss of powers.
-    Notes:
-      - Overuse of powers could make transformation to Evenstar permanent.
-      - Possibility of Cosmic Awareness overload, especially as Stella.
-  Abilities:
-    Primary Abilities:
-      Fighting:
-        Evenstar:
-          Rank: Remarkable
-          Number: 30
-        Stella:
-          Rank: Good
-          Number: 10
-      Agility:
-        Evenstar:
-          Rank: Incredible
-          Number: 40
-        Stella:
-          Rank: Excellent
-          Number: 20
-      Strength:
-        Evenstar:
-          Rank: Excellent
-          Number: 20
-        Stella:
-          Rank: Typical
-          Number: 6
-      Endurance:
-        Evenstar:
-          Rank: Monstrous
-          Number: 75
-        Stella:
-          Rank: Excellent
-          Number: 20
-      Reason:
-        Evenstar:
-          Rank: Monstrous
-          Number: 75
-        Stella:
-          Rank: Remarkable
-          Number: 30
-      Intuition:
-        Evenstar:
-          Rank: Monstrous
-          Number: 75
-        Stella:
-          Rank: Remarkable
-          Number: 30
-      Psyche:
-        Evenstar:
-          Rank: Monstrous
-          Number: 75
-        Stella:
-          Rank: Remarkable
-          Number: 30
-    Secondary Abilities:
-      Health:
-        Evenstar: 165
-        Stella: 56
-      Karma:
-        Evenstar: 225
-        Stella: 90
-      Resources:
-        Rank: Remarkable
-        Number: 30
-        Note: Works for the family's restaurant business as a server and delivery driver and goes to college as part of the family trust's stipulations.
-      Popularity:
-        Evenstar: 5
-        Stella: 5
-    Special Abilities:
-      Powers:
-        Defensive:
-          Resistance to Emotion Attacks:
-            Rank: Unearthly
-            Number: 100
-            Notes:
-              - Minimum of Psyche +1 CS
-              - Stella has this power at Incredible (40) from the Resist Domination Talent
-          Resistance to Energy Attacks:
-            Rank: Monstrous
-            Number: 75
-          Resistance to Physical Attacks:
-            Rank: Amazing
-            Number: 50
-          Resistance to Power Manipulation:
-            Rank: Monstrous
-            Number: 75
-          Resistance to Mental Attacks:
-            Rank: Unearthly
-            Number: 100
-            Notes:
-              - Minimum of Psyche +1 CS
-              - Stella has this power at Incredible (40) from the Resist Domination Talent
-          Resistance to Vampirism:
-            Rank: Monstrous
-            Number: 75
-        Detection:
-          Energy Detection:
-            Rank: Amazing
-            Number: 50
-          Environmental Awareness:
+---
+Character Sheet:
+  Game System:
+    Name: Marvel Super Heroes RPG
+    Edition: Advanced
+    Publisher: TSR, Inc.
+    Year: 1986
+    Reference: Reference Fields are the full text of a reference from the relevant book, sometimes edited for relevance or clarity.
+    Books:
+      - Advanced Player's Book
+      - Advanced Judge's Book
+      - Ultimate Powers Book
+      - Realms of Power
+      - Weapons Locker
+  Campaign:
+    Continuity: Earth-1986
+    Era:
+      Start: 1986
+      End: 1993
+  Hero:
+    Name: Evenstar
+    Identity: Stella Blake
+    Secret: true
+    Base of Operations: Manhattan
+    Group Affiliation: None
+    Age: 18
+    Origin:
+      Physical Form: Modified Human
+      Origin of Power: Endowment
+      Weakness:
+        Stimulus: Psychological
+        Effect: Power Negation
+        Duration: Continuous with Contact
+        Conditions:
+          - Extreme stress leading loss of focus and inner balance may cause reversion to Alter Ego and the accompanying loss of powers.
+        Notes:
+          - Overuse of powers could make transformation to Evenstar permanent.
+          - Possibility of Cosmic Awareness overload, especially as Stella.
+    Abilities:
+      Primary Abilities:
+        Fighting:
+          Evenstar:
             Rank: Remarkable
             Number: 30
-          Extradimensional Detection:
-            Rank: Remarkable
-            Number: 30
-          Life Detection:
-            Rank: Remarkable
-            Number: 30
-          Magic Detection:
+          Stella:
+            Rank: Good
+            Number: 10
+        Agility:
+          Evenstar:
+            Rank: Incredible
+            Number: 40
+          Stella:
             Rank: Excellent
             Number: 20
-          Microscopic Vision:
-            Rank: Incredible
-            Number: 40
-            Note: Light-control-based.
-          Telescopic Vision:
-            Rank: Incredible
-            Number: 40
-            Note: Light-control-based.
-          Thermal Vision:
-            Rank: Incredible
-            Number: 40
-            Note: Consciously-Activated
-          True Sight:
-            Rank: Monstrous
-            Number: 75
-            Type: Deliberate
-        Energy Control:
-          Energy Solidification:
-            Rank: Incredible
-            Number: 40
-          Gravity Manipulation:
-            Rank: Amazing
-            Number: 50
-            Power Stunts:
-              - Changing the direction of gravity.
-              - Creating artificial gravity in a normally weightless situation.
-              - Levitation at -1CS speed; this can be done to the hero himself or a target.
-              - Forming large asteroids by coalescing space debris.
-          Hard Radiation Control:
+        Strength:
+          Evenstar:
             Rank: Excellent
             Number: 20
-          Light Control:
-            Rank: Amazing
-            Number: 50
-          Magnetic Manipulation:
-            Rank: Remarkable
-            Number: 30
-          Plasma Control:
-            Rank: Amazing
-            Number: 50
-          Radiowave Control:
+          Stella:
+            Rank: Typical
+            Number: 6
+        Endurance:
+          Evenstar:
+            Rank: Monstrous
+            Number: 75
+          Stella:
             Rank: Excellent
             Number: 20
-        Energy Emission:
-          Hard Radiation:
+        Reason:
+          Evenstar:
+            Rank: Monstrous
+            Number: 75
+          Stella:
             Rank: Remarkable
             Number: 30
-          Heat:
-            Rank: Amazing
-            Number: 50
-          Light Emission:
-            Rank: Amazing
-            Number: 50
-          Magnetism:
+        Intuition:
+          Evenstar:
+            Rank: Monstrous
+            Number: 75
+          Stella:
             Rank: Remarkable
             Number: 30
-          Plasma Generation:
+        Psyche:
+          Evenstar:
             Rank: Monstrous
             Number: 75
-            Power Stunts:
-              - Plasma fields may have any two of the following side effects:
-                - Light at -2CS level of illumination
-                - Heat at -2CS damage
-                - Flame at -2CS damage
-                - Hard Radiation at -2CS damage
-                - Magnetism at -2CS damage but full Power rank range
-                - Electricity at -2CS damage.
-          Radiowave Generation:
-            Rank: Remarkble
-            Number: 30
-        Magic:
-          Internal Limbo:
-            Rank: Monstrous
-            Number: 75
-            Note: Evenstar's "Black Hole" ability where time is completely stopped for anything inside due to intense warping of spacetime.
-        Matter Control:
-          Disintegration:
+          Stella:
             Rank: Remarkable
             Number: 30
-          Ionization:
-            Rank: Remarkable
-            Number: 30
-        Mental Enhancement:
-          Cosmic Awareness:
-            Rank: Monstrous
-            Number: 75
-            Note: Occasional flashes of Cosmic Awareness as Stella.  Stella must make a Psyche FEAT of a color based on the Intensity of manifestation or be overloaded, using the Stun column of the Effects portion of the Universal Table.
-          Hyper Intelligence:
-            Rank: Monstrous
-            Number: 75
-            Effect: Gives +9 CS to Reason and Intuition (Max Shift-Z) for 75 Minutes.
-          Incarnation Awareness:
-            Rank: Monstrous
-            Number: 75
-            Note: The past incarnation is the star whose power she inherited rather than any past lives Stella may have had, and any prior stars whose cycle of death and rebirth lead directly to its existence, since the beginning of the universe. This power is available to Stella.
-          Total Memory:
-            Rank: Monstrous
-            Number: 75
-            Note: This power is available to Stella.
-        Physical Enhancement:
-          Body Resistance:
-            Rank: Amazing
-            Number: 50
-          Regeneration:
-            Rank: Incredible
-            Number: 50
-          Self-Sustenance:
-            Rank: Monstrous
-            Number: 75
-            Type: Permanent
-        Power Control:
-          Focus:
-            Rank: Monstrous
-            Number: 75
-            Total:
-              Rank: Class 3000
-              Number: 3005
-              Spread: 54
-              Rounds Until Full Recovery: 40
-        Self-Alteration:
-          Alter Ego:
-            Rank: No Rank
-            Note: |
-              Only Evenstar possesses Powers. The Alter Ego, Stella does not, except for Resistance to Mental and Emotion Attacks (albeit reduced, as a result of her Resist Domination Talent), Incarnation Awareness, Total Memory, and the occasional flash of Cosmic Awareness.
-              Evenstar's costume is part of the transformation. Stella's clothing reappears when she transforms back.
-          Energy Body:
-            Light:
-              Rank: Amazing
-              Number: 50
-            Plasma:
+      Secondary Abilities:
+        Health:
+          Evenstar: 165
+          Stella: 56
+        Karma:
+          Evenstar: 225
+          Stella: 90
+        Resources:
+          Rank: Remarkable
+          Number: 30
+          Note: Works for the family's restaurant business as a server and delivery driver and goes to college as part of the family trust's stipulations.
+        Popularity:
+          Evenstar: 5
+          Stella: 5
+      Special Abilities:
+        Powers:
+          Defensive:
+            Resistance to Emotion Attacks:
               Rank: Unearthly
               Number: 100
-              Limitation: Only works outside atmosphere.
-          Energy Sheath:
-            Light:
+              Notes:
+                - Minimum of Psyche +1 CS
+                - Stella has this power at Incredible (40) from the Resist Domination Talent
+            Resistance to Energy Attacks:
+              Rank: Monstrous
+              Number: 75
+            Resistance to Physical Attacks:
               Rank: Amazing
               Number: 50
-            Plasma:
+            Resistance to Power Manipulation:
               Rank: Monstrous
               Number: 75
-        Travel:
-          Carrier Wave:
-            Light:
-              Rank: Monstrous
-              Number: 75
-            Plasma:
+            Resistance to Mental Attacks:
               Rank: Unearthly
               Number: 100
-              Limitation: Only works outside atmosphere.
-          Gateway:
-            Rank: Monstrous
-            Number: 75
-            Note: Evenstar's "Wormhole" ability, from intense multidimensional spacetime warping.
-          True Flight:
-            Rank: Monstrous
-            Number: 75
-      Talents:
-        Fighting Skills:
-          - Martial Arts A
-          - Martial Arts B
-          - Martial Arts C
-          - Wrestling
-          - Acrobatics
-          - Tumbling
-        Mystic and Mental Skills:
-          - Mystic Background
-          - Resist Domination
-        Scientific Skills:
-          - Chemistry
-          - Biology
-          - Physics
-          - Computers
-          - Electronics
-        Other Talents:
-          - First Aid
-          - Repair/Tinkering
-          - Languages (Greek, Italian, Spanish, Russian)
-          - Heir to Fortune
-          - Student
-      Equipment:
-        Vehicles:
-          - Motorcycle:
-              Type: Off-Road
-              Control: Typical
-              Speed: Excellent
-              Body: Poor
-              Protection: Shift-0
-              Note: A Motorcycle that goes out of control cannot be brought under control until it comes to a stop. Cycle riders may reduce damage by one rank by wearing adequate headgear. Seats two.
-              Special: Insulated delivery box to keep hot things hot and cold things cold, lockable, made of diamondplate steel (Remarkable material) mounted on luggage rack with a locking helmet box on top, saddlebags, tank bags, backrest, windscreen, engine guard, CB Radio with PA, footboards, rain gear, first aid kit, roadside emergency kit, motorcycle tool kit.
-              Description: A black 1983 Honda CB450SC, bought used and rebuilt and upfitted for delivery by Pappous and Stella.
-        Headquarters:
-          Medium House:
-            Status: Owned
-            Location: West Village
-            Type: Residence
-            Note: Converted carriage house
-            Rooms:
-              - Name: Bedroom
-                Count: 1
-              - Name: Living Room Package
-                Cost: Remarkable
-              - Name: Dining Room Package
-                Cost: Remarkable
-              - Name: Kitchen Package
-                Cost: Remarkable
-              - Name: Library Package
-                Cost: Remarkable
-              - Name: Workshop Package
-                Cost: Remarkable
-              - Name: Rec Room Package
-                Cost: Remarkable
-              - Name: Garage Package
-                Cost: Excellent
-              - Name: Porches, storage, bathrooms, and closets
-              - Name: Security Package
-                Cost: Excellent
-              - Name: Fire Protection Package
-                Cost: Excellent
-        Other Equipment:
-          - Flashlight:
-              Type: Normal
-              Intensity: Typical
-              Range: 2 Areas
-              Note: Mini Mag-Lite.  She carries spare batteries.
-          - Camera:
-              Accessories:
-                - Film
-                - Flash:
-                    Type: Normal
-                    Intensity: Typical
-                    Range: 2 Areas
-                - Special Lenses:
-                    - Telephoto Lens
-                    - Wide-Angle Lens
-                    - Macro Lens
-                    - Fisheye Lens
-              Note: Nikon F-401 QD
-          - Personal Computer:
-              Reason: Poor
-              Modem: Yes
-              Note: Macintosh SE
-          - Roller Skates:
-              Note: +3CS Movement Speed
-          - Mace:
-              Effect: Tear Gas
-              Intensity: Typical
-              Targets: 1
-              Range: Adjacent Area
-              Note: Foes not require an Agility FEAT to hit, target resists with an Endurance FEAT.
-          - Knife:
-              Damage: 10
-              Type:
-                - Edged Attack
-                - Edged Throwing
-              Strength: Excellent
-              Note: An old-style Navy-issue sailor's knife with a pair of blades (clip-point and sheepsfoot), marlinspike, shackle tool, and can opener.
-      Contacts:
-        Professional Contacts:
-          Law:
-            Jennifer Walters:
-              Stella: Yes
-              Evenstar: Yes
-              Knows Secret: Yes
-              Note: Stella retains Ms. Walters as an attorney for Evenstar-related issues.
-          Journalism:
-            Peter Parker / Spider-Man:
-              Stella: Yes
-              Evenstar: Yes
-              Knows Secret: No
-              Note: Stella knows Peter as a classmate from ESU, Evenstar knows Spider-Man, neither know the other's secret.
-          Crime:
-            Dominikos Petrakis / Avalanche:
-              Stella: Yes
-              Evenstar: No
-              Knows Secret: No
-              Note: Stella knows him as part of the NYC Greek community.
-          Espionage:
-            Elektra Natchios:
-              Stella: Yes
-              Evenstar: No
-              Knows Secret: No
-              Note: Stella knows her as part of the NYC Greek community.  Elektra's father Hugo and Stella's grandfather Konstantinos were close.
-        Scientific Contacts:
-          Physics:
-            Reed Richards:
-              Stella: Yes
-              Evenstar: No
-              Knows Secret: No
-              Note: Stella's Professor at Empire State University for her in-major physics classes.
-        Mystical Contacts:
-          Mystic Arts:
-            Stephen Strange:
-              Stella: Yes
-              Evenstar: Yes
-              Knows Secret: Yes
-              Note: Mentor and confidant.  Stella had to register with him as a Cosmic Entity.
-          Mythology:
-            Hercules Panhellenios:
-              Stella: Yes
-              Evenstar: Yes
-              Knows Secret: Yes
-              Note: Stella knows him as part of the NYC Greek community.  Friends with her Pappous and a longtime regular at her family's restaurant.  Entrusted with her secret shortly after Stella was first endowed with The Power Astral.
-            Apalla the Sun Queen:
-              Stella: Yes
-              Evenstar: Yes
-              Knows Secret: Yes
-              Note: Apalla, as the embodiment of the Earth's sun, was entrusted by the dying star to look out for Stella when it chose a human from Earth as its cosmic heiress. Her close relationship with Doctor Strange facilitates Stella's mentorship.
-  Biography: |
-    **Stella Blake**, a young dynamo from the heart of Manhattan, stands with a poise that's a touch above the crowd. Her athletic silhouette is a testament to countless hours balancing the rigors of academia and the demands of a bustling city life. Her raven-black waves cascade like a waterfall, a stark contrast to her sun-kissed, Mediterranean skin. But it's those piercing emerald eyes that truly tell her story - a tale of dreams, destiny, and the dance of the stars.
-    When the cosmos beckon and Stella heeds the call, she transforms into the radiant **Evenstar**, a heroine draped in the very fabric of the universe, a tapestry of twinkling stars, swirling nebulae, and distant galaxies. Her cosmic attire, sleek and form-fitting, boasts a deep celestial palette, punctuated by a silvery V-neckline that plunges to a star emblem, the very heart of her cosmic identity. Each fold of her majestic cloak, billowing like the night sky,is chapter of the cosmos she's sworn to explore and protect.
-    Stella's path to cosmic greatness wasn't some walk in Central Park. A starry-eyed teen with a penchant for physics, her world was turned upside-down when a celestial titan, a star on the brink of oblivion, chose her as its cosmic heir. This starry essence fused with Stella, gifting her with powers that'd make even the mightiest of heroes tip their hat.
-    Back on terra firma, Stella's a regular Jane, juggling the challenges of college life with shifts at **Nonna Maria's Pizza and Gyros**, the local joint run by her maternal grandparents, **Konstantinos "Pappous Kostas" Athanasiou** and **Maria Theresa "Nonna" Athanasiou**. Whether she's hitting the books, the mats, or dishing out slices, Stella's tale is one of duality - a dance between the wonders of the cosmos and the rhythm of the Big Apple.
-    Stella's two worlds are a study in contrasts. By day, she's the diligent student, her gaze often lost in thought or fixed on some distant star. But when duty calls, as Evenstar, she's the very embodiment of cosmic valor, a beacon of hope in a universe filled with endless wonders and dangers.
-    **The Power Astral** that **Stella Lucia Blake**, also known as **Evenstar**, received from a celestial titan at the brink of oblivion is a profound testament to the interstellar legacy bestowed upon her. This endowment not only transformed her physically, but also imbued her with a suite of cosmic abilities that defy the very laws of physics as we understand them. The Power Astral is a cosmic endowment that has woven the fabric of the universe into the core of her being. Each ability, from manipulating gravity to emitting plasma, serves as a thread in the vast tapestry of powers that Stella wields as Evenstar. These powers are not just tools but extensions of her very essence, shaped by the cosmic forces that chose her as their champion.
-    The psychological depth of Stella's transformation into **Evenstar** is mirrored in the duality of her existence. As Stella, she embodies the humility and warmth of human life, whereas, as Evenstar, she transcends to a celestial domain, becoming a custodian of cosmic balance-- in her words, "Me, but a star". This duality is a poignant reflection of her journey, marked by the slow aging process akin to being near a collapsing star---a metaphor for the timeless burden she bears. Her powers, while magnificent, come with their challenges. The very essence that makes her a beacon of hope in the cosmos, packed as it is in a mortal frame, also renders her vulnerable to psychological stimuli, where extreme stress or the loss of focus could either negate her powers or trap her in her celestial form permanently. Thus, The Power Astral is not merely a set of supernatural abilities but a complex legacy that balances immense strength with profound vulnerability, casting Stella as a paragon of cosmic duality and human resilience.
-    Stella lives in West Village on the riverfront, in a carriage house converted to a loft and garage after the old, formerly-stately mansion it was attached to was torn down, owned by the family trust. She is an undergraduate physics major at Empire State University, with an eye towards a doctorate in astrophysics. Her maternal grandparents have a restaurant (Pizzeria and Greek Diner)/specialty grocery/bodega at the edge of SoHo where it meets Little Italy, **Nonna Maria's Pizza and Gyros**, where she works as a server and delivery driver. Not far away, the same grandfather operates the nearby (in Little Italy near SoHo and Chinatown) **Kratos Athletic Club**, a gym that features wrestling, boxing, and gymnastics along with weights and an authentic Turkish Bath, where Stella trains her body, the **Kalliopi Arcade** on South Street Pier, and several apartment buildings, parking garages and lots, and commercial rentals.  The latter three have begun to be managed by her uncles as the scope grew.
-  Description:
-    Stella: |
-      Stella Blake stands 5'7" tall, with an athletic build that reflects her dedication to physical training. Her Mediterranean heritage is evident in her bronzy-olive complexion and classic features - strong cheekbones, an elegant nose, and a defined chin. Cascading black curls frame her face, while striking emerald eyes serve as windows to her extraordinary destiny.
-    Evenstar: |
-      In her cosmic form as Evenstar, Stella's presence becomes more commanding. Her frame elongates and strengthens, characterized by broader shoulders, wider hips, and enhanced musculature. Her hair lengthens and takes on a metallic sheen that mirrors the cosmic forces flowing through her. While her facial features remain recognizable, subtle changes in muscle and tissue structure create a more sculpted appearance. Most striking are her eyes, which emanate a subtle cosmic green glow, marking her as something more than human. Her skin radiates a lustrous metallic gleam, reflecting the stellar power she inherited.
+              Notes:
+                - Minimum of Psyche +1 CS
+                - Stella has this power at Incredible (40) from the Resist Domination Talent
+            Resistance to Vampirism:
+              Rank: Monstrous
+              Number: 75
+          Detection:
+            Energy Detection:
+              Rank: Amazing
+              Number: 50
+            Environmental Awareness:
+              Rank: Remarkable
+              Number: 30
+            Extradimensional Detection:
+              Rank: Remarkable
+              Number: 30
+            Life Detection:
+              Rank: Remarkable
+              Number: 30
+            Magic Detection:
+              Rank: Excellent
+              Number: 20
+            Microscopic Vision:
+              Rank: Incredible
+              Number: 40
+              Note: Light-control-based.
+            Telescopic Vision:
+              Rank: Incredible
+              Number: 40
+              Note: Light-control-based.
+            Thermal Vision:
+              Rank: Incredible
+              Number: 40
+              Note: Consciously-Activated
+            True Sight:
+              Rank: Monstrous
+              Number: 75
+              Type: Deliberate
+          Energy Control:
+            Energy Solidification:
+              Rank: Incredible
+              Number: 40
+            Gravity Manipulation:
+              Rank: Amazing
+              Number: 50
+              Power Stunts:
+                - Changing the direction of gravity.
+                - Creating artificial gravity in a normally weightless situation.
+                - Levitation at -1CS speed; this can be done to the hero himself or a target.
+                - Forming large asteroids by coalescing space debris.
+            Hard Radiation Control:
+              Rank: Excellent
+              Number: 20
+            Light Control:
+              Rank: Amazing
+              Number: 50
+            Magnetic Manipulation:
+              Rank: Remarkable
+              Number: 30
+            Plasma Control:
+              Rank: Amazing
+              Number: 50
+            Radiowave Control:
+              Rank: Excellent
+              Number: 20
+          Energy Emission:
+            Hard Radiation:
+              Rank: Remarkable
+              Number: 30
+            Heat:
+              Rank: Amazing
+              Number: 50
+            Light Emission:
+              Rank: Amazing
+              Number: 50
+            Magnetism:
+              Rank: Remarkable
+              Number: 30
+            Plasma Generation:
+              Rank: Unearthly
+              Number: 100
+              Power Stunts:
+                - Plasma fields may have any two of the following side effects:
+                  - Light at -2CS level of illumination
+                  - Heat at -2CS damage
+                  - Flame at -2CS damage
+                  - Hard Radiation at -2CS damage
+                  - Magnetism at -2CS damage but full Power rank range
+                  - Electricity at -2CS damage.
+            Radiowave Generation:
+              Rank: Remarkble
+              Number: 30
+          Magic:
+            Internal Limbo:
+              Rank: Monstrous
+              Number: 75
+              Note: Evenstar's "Black Hole" ability where time is completely stopped for anything inside due to intense warping of spacetime.
+          Matter Control:
+            Disintegration:
+              Rank: Remarkable
+              Number: 30
+            Ionization:
+              Rank: Remarkable
+              Number: 30
+          Mental Enhancement:
+            Cosmic Awareness:
+              Rank: Monstrous
+              Number: 75
+              Note: Occasional flashes of Cosmic Awareness as Stella.  Stella must make a Psyche FEAT of a color based on the Intensity of manifestation or be overloaded, using the Stun column of the Effects portion of the Universal Table.
+            Hyper Intelligence:
+              Reason:
+                Rank: Monstrous
+                Number: 75
+              Intuition:
+                Rank: Monstrous
+                Number: 75
+              Effect: Gives +9 CS to Reason and Intuition (Max Shift-Z) for 75 Minutes.
+            Incarnation Awareness:
+              Rank: Monstrous
+              Number: 75
+              Note: The past incarnation is the star whose power she inherited rather than any past lives Stella may have had, and any prior stars whose cycle of death and rebirth lead directly to its existence, since the beginning of the universe. This power is available to Stella.
+            Total Memory:
+              Rank: Monstrous
+              Number: 75
+              Note: This power is available to Stella.
+          Physical Enhancement:
+            Body Resistance:
+              Rank: Amazing
+              Number: 50
+            Regeneration:
+              Rank: Incredible
+              Number: 50
+            Self-Sustenance:
+              Rank: Unearthly
+              Number: 100
+              Type: Permanent
+          Power Control:
+            Focus:
+              Rank: Monstrous
+              Number: 75
+              Total:
+                Rank: Class 3000
+                Number: 3130
+                Spread: 55
+                Rounds Until Full Recovery: 42
+          Self-Alteration:
+            Alter Ego:
+              Rank: No Rank
+              Note: |
+                Only Evenstar possesses Powers. The Alter Ego, Stella does not, except for Resistance to Mental and Emotion Attacks (albeit reduced, as a result of her Resist Domination Talent), Incarnation Awareness, Total Memory, and the occasional flash of Cosmic Awareness.
+                Evenstar's costume is part of the transformation. Stella's clothing reappears when she transforms back.
+            Energy Body:
+              Light:
+                Rank: Amazing
+                Number: 50
+              Plasma:
+                Rank: Unearthly
+                Number: 100
+            Energy Sheath:
+              Light:
+                Rank: Amazing
+                Number: 50
+              Plasma:
+                Rank: Monstrous
+                Number: 75
+          Travel:
+            Carrier Wave:
+              Light:
+                Rank: Monstrous
+                Number: 75
+              Plasma:
+                Rank: Unearthly
+                Number: 100
+            Gateway:
+              Rank: Monstrous
+              Number: 75
+              Note: Evenstar's "Wormhole" ability, from intense multidimensional spacetime warping.
+            True Flight:
+              Rank: Monstrous
+              Number: 75
+        Talents:
+          Fighting Skills:
+            - Martial Arts A
+            - Martial Arts B
+            - Martial Arts C
+            - Wrestling
+            - Acrobatics
+            - Tumbling
+          Mystic and Mental Skills:
+            - Mystic Background
+            - Resist Domination
+          Scientific Skills:
+            - Chemistry
+            - Biology
+            - Physics
+            - Computers
+            - Electronics
+          Other Talents:
+            - First Aid
+            - Repair/Tinkering
+            - Languages (Greek, Italian, Spanish, Russian)
+            - Heir to Fortune
+            - Student
+        Equipment:
+          Vehicles:
+            - Motorcycle:
+                Type: Off-Road
+                Control: Typical
+                Speed: Excellent
+                Body: Poor
+                Protection: Shift-0
+                Note: A Motorcycle that goes out of control cannot be brought under control until it comes to a stop. Cycle riders may reduce damage by one rank by wearing adequate headgear. Seats two.
+                Special: Insulated delivery box to keep hot things hot and cold things cold, lockable, made of diamondplate steel (Remarkable material) mounted on luggage rack with a locking helmet box on top, saddlebags, tank bags, backrest, windscreen, engine guard, CB Radio with PA, footboards, rain gear, first aid kit, roadside emergency kit, motorcycle tool kit.
+                Description: A black 1983 Honda CB450SC, bought used and rebuilt and upfitted for delivery by Pappous and Stella.
+          Headquarters:
+            Medium House:
+              Status: Owned
+              Location: West Village
+              Type: Residence
+              Note: Converted carriage house
+              Rooms:
+                - Name: Bedroom
+                  Count: 1
+                - Name: Living Room Package
+                  Cost: Remarkable
+                - Name: Dining Room Package
+                  Cost: Remarkable
+                - Name: Kitchen Package
+                  Cost: Remarkable
+                - Name: Library Package
+                  Cost: Remarkable
+                - Name: Workshop Package
+                  Cost: Remarkable
+                - Name: Rec Room Package
+                  Cost: Remarkable
+                - Name: Garage Package
+                  Cost: Excellent
+                - Name: Porches, storage, bathrooms, and closets
+                - Name: Security Package
+                  Cost: Excellent
+                - Name: Fire Protection Package
+                  Cost: Excellent
+          Other Equipment:
+            - Flashlight:
+                Type: Normal
+                Intensity: Typical
+                Range: 2 Areas
+                Note: Mini Mag-Lite.  She carries spare batteries.
+            - Camera:
+                Accessories:
+                  - Film
+                  - Flash:
+                      Type: Normal
+                      Intensity: Typical
+                      Range: 2 Areas
+                  - Special Lenses:
+                      - Telephoto Lens
+                      - Wide-Angle Lens
+                      - Macro Lens
+                      - Fisheye Lens
+                Note: Nikon F-401 QD
+            - Personal Computer:
+                Reason: Poor
+                Modem: Yes
+                Note: Macintosh SE
+            - Roller Skates:
+                Note: +3CS Movement Speed
+            - Mace:
+                Effect: Tear Gas
+                Intensity: Typical
+                Targets: 1
+                Range: Adjacent Area
+                Note: Foes not require an Agility FEAT to hit, target resists with an Endurance FEAT.
+            - Knife:
+                Damage: 10
+                Type:
+                  - Edged Attack
+                  - Edged Throwing
+                Strength: Excellent
+                Note: An old-style Navy-issue sailor's knife with a pair of blades (clip-point and sheepsfoot), marlinspike, shackle tool, and can opener.
+        Contacts:
+          Professional Contacts:
+            Law:
+              Jennifer Walters:
+                Stella: Yes
+                Evenstar: Yes
+                Knows Secret: Yes
+                Note: Stella retains Ms. Walters as an attorney for Evenstar-related issues.
+            Journalism:
+              Peter Parker / Spider-Man:
+                Stella: Yes
+                Evenstar: Yes
+                Knows Secret: No
+                Note: Stella knows Peter as a classmate from ESU, Evenstar knows Spider-Man, neither know the other's secret.
+            Crime:
+              Dominikos Petrakis / Avalanche:
+                Stella: Yes
+                Evenstar: No
+                Knows Secret: No
+                Note: Stella knows him as part of the NYC Greek community.
+            Espionage:
+              Elektra Natchios:
+                Stella: Yes
+                Evenstar: No
+                Knows Secret: No
+                Note: Stella knows her as part of the NYC Greek community.  Elektra's father Hugo and Stella's grandfather Konstantinos were close.
+          Scientific Contacts:
+            Physics:
+              Reed Richards:
+                Stella: Yes
+                Evenstar: No
+                Knows Secret: No
+                Note: Stella's Professor at Empire State University for her in-major physics classes.
+          Mystical Contacts:
+            Mystic Arts:
+              Stephen Strange:
+                Stella: Yes
+                Evenstar: Yes
+                Knows Secret: Yes
+                Note: Mentor and confidant.  Stella had to register with him as a Cosmic Entity.
+            Mythology:
+              Hercules Panhellenios:
+                Stella: Yes
+                Evenstar: Yes
+                Knows Secret: Yes
+                Note: Stella knows him as part of the NYC Greek community.  Friends with her Pappous and a longtime regular at her family's restaurant.  Entrusted with her secret shortly after Stella was first endowed with The Power Astral.
+              Apalla the Sun Queen:
+                Stella: Yes
+                Evenstar: Yes
+                Knows Secret: Yes
+                Note: Apalla, as the embodiment of the Earth's sun, was entrusted by the dying star to look out for Stella when it chose a human from Earth as its cosmic heiress. Her close relationship with Doctor Strange facilitates Stella's mentorship.
+    Biography: |
+      **Stella Blake**, a young dynamo from the heart of Manhattan, stands with a poise that's a touch above the crowd. Her athletic silhouette is a testament to countless hours balancing the rigors of academia and the demands of a bustling city life. Her raven-black waves cascade like a waterfall, a stark contrast to her sun-kissed, Mediterranean skin. But it's those piercing emerald eyes that truly tell her story - a tale of dreams, destiny, and the dance of the stars.
+      When the cosmos beckon and Stella heeds the call, she transforms into the radiant **Evenstar**, a heroine draped in the very fabric of the universe, a tapestry of twinkling stars, swirling nebulae, and distant galaxies. Her cosmic attire, sleek and form-fitting, boasts a deep celestial palette, punctuated by a silvery V-neckline that plunges to a star emblem, the very heart of her cosmic identity. Each fold of her majestic cloak, billowing like the night sky,is chapter of the cosmos she's sworn to explore and protect.
+      Stella's path to cosmic greatness wasn't some walk in Central Park. A starry-eyed teen with a penchant for physics, her world was turned upside-down when a celestial titan, a star on the brink of oblivion, chose her as its cosmic heir. This starry essence fused with Stella, gifting her with powers that'd make even the mightiest of heroes tip their hat.
+      Back on terra firma, Stella's a regular Jane, juggling the challenges of college life with shifts at **Nonna Maria's Pizza and Gyros**, the local joint run by her maternal grandparents, **Konstantinos "Pappous Kostas" Athanasiou** and **Maria Theresa "Nonna" Athanasiou**. Whether she's hitting the books, the mats, or dishing out slices, Stella's tale is one of duality - a dance between the wonders of the cosmos and the rhythm of the Big Apple.
+      Stella's two worlds are a study in contrasts. By day, she's the diligent student, her gaze often lost in thought or fixed on some distant star. But when duty calls, as Evenstar, she's the very embodiment of cosmic valor, a beacon of hope in a universe filled with endless wonders and dangers.
+      **The Power Astral** that **Stella Lucia Blake**, also known as **Evenstar**, received from a celestial titan at the brink of oblivion is a profound testament to the interstellar legacy bestowed upon her. This endowment not only transformed her physically, but also imbued her with a suite of cosmic abilities that defy the very laws of physics as we understand them. The Power Astral is a cosmic endowment that has woven the fabric of the universe into the core of her being. Each ability, from manipulating gravity to emitting plasma, serves as a thread in the vast tapestry of powers that Stella wields as Evenstar. These powers are not just tools but extensions of her very essence, shaped by the cosmic forces that chose her as their champion.
+      The psychological depth of Stella's transformation into **Evenstar** is mirrored in the duality of her existence. As Stella, she embodies the humility and warmth of human life, whereas, as Evenstar, she transcends to a celestial domain, becoming a custodian of cosmic balance-- in her words, "Me, but a star". This duality is a poignant reflection of her journey, marked by the slow aging process akin to being near a collapsing star---a metaphor for the timeless burden she bears. Her powers, while magnificent, come with their challenges. The very essence that makes her a beacon of hope in the cosmos, packed as it is in a mortal frame, also renders her vulnerable to psychological stimuli, where extreme stress or the loss of focus could either negate her powers or trap her in her celestial form permanently. Thus, The Power Astral is not merely a set of supernatural abilities but a complex legacy that balances immense strength with profound vulnerability, casting Stella as a paragon of cosmic duality and human resilience.
+      Stella lives in West Village on the riverfront, in a carriage house converted to a loft and garage after the old, formerly-stately mansion it was attached to was torn down, owned by the family trust. She is an undergraduate physics major at Empire State University, with an eye towards a doctorate in astrophysics. Her maternal grandparents have a restaurant (Pizzeria and Greek Diner)/specialty grocery/bodega at the edge of SoHo where it meets Little Italy, **Nonna Maria's Pizza and Gyros**, where she works as a server and delivery driver. Not far away, the same grandfather operates the nearby (in Little Italy near SoHo and Chinatown) **Kratos Athletic Club**, a gym that features wrestling, boxing, and gymnastics along with weights and an authentic Turkish Bath, where Stella trains her body, the **Kalliopi Arcade** on South Street Pier, and several apartment buildings, parking garages and lots, and commercial rentals.  The latter three have begun to be managed by her uncles as the scope grew.
+    Description:
+      Stella: |
+        Stella Blake stands 5'7" tall, with an athletic build that reflects her dedication to physical training. Her Mediterranean heritage is evident in her bronzy-olive complexion and classic features - strong cheekbones, an elegant nose, and a defined chin. Cascading black curls frame her face, while striking emerald eyes serve as windows to her extraordinary destiny.
+      Evenstar: |
+        In her cosmic form as Evenstar, Stella's presence becomes more commanding. Her frame elongates and strengthens, characterized by broader shoulders, wider hips, and enhanced musculature. Her hair lengthens and takes on a metallic sheen that mirrors the cosmic forces flowing through her. While her facial features remain recognizable, subtle changes in muscle and tissue structure create a more sculpted appearance. Most striking are her eyes, which emanate a subtle cosmic green glow, marking her as something more than human. Her skin radiates a lustrous metallic gleam, reflecting the stellar power she inherited.
