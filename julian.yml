@@ -348,12 +348,12 @@ Character Sheet:
                   If an attacker directs his attacks against the shield Itself, treat the attack as an attempt to break the material, with the attacker's bolt supplying the strength and the defender's shield the object that may be broken. The mage whose shield is broken that round takes no damage, but has no shield until he raises it the next round. An Eldritch Shield will protect its caster from all forms of magic of up to the Psyche of the caster.
         Talents:
           Weapons Skills:
-            Guns: Individuals without this Talent fire guns (all handguns, rifles, and submachine guns, including laser, stun, and concussion varieties) at their Agility rank. Those with this Talent fire such weapons at +1CS.
+            Guns: &Guns Individuals without this Talent fire guns (all handguns, rifles, and submachine guns, including laser, stun, and concussion varieties) at their Agility rank. Those with this Talent fire such weapons at +1CS.
             Thrown Weapons: Characters with this Talent toss weapons designed to be thrown (including spears, daggers, Shuriken, disks, and snowballs) at +1CS to their Agility.
             Bows: Bows are tricky items to operate, such that those who have not been trained fire them at -1CS to their Agility. Those with this Talent gain a +1CS to hit with all bows, including crossbows, and may fire and reload in a single round. They may fire multiple arrows on a successful Agility FEAT.
-            Blunt Weapons: Characters with this Talent gain a +1CS to hit when attacking with a weapon that resolves attacks on the Blunt Attacks column of the Battle Effects Table.
-            Edged Weapons: Characters with this Talent gain a +1CS to hit when attacking with a weapon that resolves attacks on the Edged Attack column of the Battle Effects Table. This includes swords, daggers (unless thrown), and spears, but excludes claws and other natural extensions that inflict this type of damage.
-            Marksman: The character with this Talent gains a +1CS to hit with any distance weapon that requires line of sight to hit (the character could benefit when firing heavy artillery, but not when controlling a tele-guided missile). Such a weapon in the hands of a marksman does not suffer penalties to hit from range.
+            Blunt Weapons: &Blunt_Weapons Characters with this Talent gain a +1CS to hit when attacking with a weapon that resolves attacks on the Blunt Attacks column of the Battle Effects Table.
+            Sharp Weapons: &Sharp_Weapons Characters with this Talent gain a +1CS to hit when attacking with a weapon that resolves attacks on the Edged Attack column of the Battle Effects Table. This includes swords, daggers (unless thrown), and spears, but excludes claws and other natural extensions that inflict this type of damage.
+            Marksman: &Marksman The character with this Talent gains a +1CS to hit with any distance weapon that requires line of sight to hit (the character could benefit when firing heavy artillery, but not when controlling a tele-guided missile). Such a weapon in the hands of a marksman does not suffer penalties to hit from range.
             Weapons Master: The character with this Talent gains a +1CS to hit with any weapon that requires a Fighting FEAT to hit.
             Weapons Specialist:
               - The character with this Talent gains a +2CS with a single weapon of choice. This may be any type of weapon, missile, or melee. The character who is a weapon specialist will also increase his initiative when using this weapon by 1.
@@ -364,11 +364,11 @@ Character Sheet:
                 - Spear
                 - Handgun
           Fighting Skills:
-            Martial Arts A: This form of martial arts concentrates on using an opponent's strength against him and is typical of oriental-American forms such as judo and karate. The practitioner of this type of martial arts can Stun or Slam an opponent regardless of their comparative Strengths and Endurances.
-            Martial Arts B: This form of martial arts is keyed on offense and inflicting damage in short, quick bursts, and includes such disciplines as boxing. The practitioner of this form of martial arts gains a +1CS to Fighting ability when engaged in unarmed combat.
-            Martial Arts C: This form of martial arts concentrates on holds and escapes. The practitioner of this form gains a +1CS to his Strength for Grappling attacks (including damage), a +1CS to Strength for Escaping, and a +1CS to Agility for purposes of Dodging.
+            Martial Arts A: &Martial_Arts_A This form of martial arts concentrates on using an opponent's strength against him and is typical of oriental-American forms such as judo and karate. The practitioner of this type of martial arts can Stun or Slam an opponent regardless of their comparative Strengths and Endurances.
+            Martial Arts B: &Martial_Arts_B This form of martial arts is keyed on offense and inflicting damage in short, quick bursts, and includes such disciplines as boxing. The practitioner of this form of martial arts gains a +1CS to Fighting ability when engaged in unarmed combat.
+            Martial Arts C: &Martial_Arts_C This form of martial arts concentrates on holds and escapes. The practitioner of this form gains a +1CS to his Strength for Grappling attacks (including damage), a +1CS to Strength for Escaping, and a +1CS to Agility for purposes of Dodging.
             Martial Arts D: This meditative form of martial arts searches out the weak spots of the opponent's defenses and strikes against them. The practitioner of this form of attack may ignore the effects of Body Armor (though not force fields) for determining Stun and Slam results. The attack by the character with this Talent does not have to inflict damage to force a check for possible Stun and Slam. The disadvantage is that the target of this attack must be studied for two rounds before the effects may be brought into play. The character with this Talent does not have to attack the character, only watch him in battle for two rounds previous to attacking.
-            Martial Arts E: This form of martial arts encourages quick striking to catch the opponent off-guard. Heroes with this form of Martial Arts are at a +1CS to initiative rolls in unarmed combat.
+            Martial Arts E: &Martial_Arts_E This form of martial arts encourages quick striking to catch the opponent off-guard. Heroes with this form of Martial Arts are at a +1CS to initiative rolls in unarmed combat.
             Wrestling: The hero with this Talent is proficient in applying holds. It includes familiar types of wrestling as well as the sumo forms of the art. The hero with this Talent gains a +2CS when making Grappling attacks, but gains no benefit in damage. (A hero with Martial Arts B and this Talent gains a +3CS to hit in a Grappling attack, and a +1CS for damage.)
             Thrown Objects: The hero with this Talent gains a +1CS with all Throwing attacks (both Edged and Blunt) and +1CS on Catching. This applies to both thrown weapons and normal items. If the hero has the Thrown Weapons Talent as well, the modification is +2CS when using thrown weapons.
             Acrobatics: &Acrobatics The hero with this Talent is very limber and as such gains advantages when under attack. The hero has a +1CS when dodging, evading, and escaping.
@@ -376,14 +376,14 @@ Character Sheet:
           Professional Skills:
             Medicine: The hero with this Talent has extensive knowledge of medicine and as such limited Talents in healing. In general, a character losing Endurance Ranks as the result of a lethal situation can have those losses stopped by any character checking on him. The individual with Medicine Talent may bring back characters that have reached the Shift 0 level up to 20 turns after they have reached that level. A character with this Talent may restore one rank of Endurance to a wounded character per week, in addition to natural healing. Finally, the character with Medicine as a Talent is +1CS on Reason FEATs that involve medical problems, medications, poisons, and surgery.
             Law: The character with this Talent has an extensive background in law (the assumption being US Law, but this may vary according to the Judge's campaign). The hero may be a lawyer or capable of applying to pass the bar (Reason FEAT of Good Intensity). A character with Law as a Talent gains a +1CS to all FEAT rolls involving the law, including correct legal procedure. A character without Law gains no benefit to Reason FEATs, and in addition, will have to make Reason FEATs more often than a character with Law Talent.
-            Pilot: The character with this Talent has a working knowledge of most aircraft and receives a +1CS for all FEAT rolls involving an aircraft that character is controlling (including Control FEATs, Agility FEATs, and Reason FEATs involving aircraft handling and design). A character with a background that would permit it (a hero who is an alien) may extend this Talent to spacecraft as well.
-            Military: The hero has had some dealings with one of the armed services. In military matters, the hero gets a +1CS to all FEAT rolls, and in addition may take a member of the armed services as a Contact.
+            Pilot: &Pilot The character with this Talent has a working knowledge of most aircraft and receives a +1CS for all FEAT rolls involving an aircraft that character is controlling (including Control FEATs, Agility FEATs, and Reason FEATs involving aircraft handling and design). A character with a background that would permit it (a hero who is an alien) may extend this Talent to spacecraft as well.
+            Military: &Military The hero has had some dealings with one of the armed services. In military matters, the hero gets a +1CS to all FEAT rolls, and in addition may take a member of the armed services as a Contact.
             Business/Finance: The hero is familiar with the world of business, corporate finance, and how money works. Initial resources are a minimum of Good, and the hero gains a +1CS for FEAT rolls dealing with money. The hero gains a Contact in the Professional category.
             Engineering: |
               Engineering includes all the varied types of that profession dedicated to the design of functional items: civil, chemical, mechanical, etc. A character with Engineering Talent gains a +1CS to all FEATs involving building things, including the Resource FEAT to determine if an object can be built.
-            Criminology: The hero with this Talent has an understanding of the criminal mind and behavior, either from studies or first-hand observation. The character with this Talent gains a +1CS on all Reason and Intuition FEATs involving criminal practices ("If I were a crook, where would I hide?"). The hero also gains a Contact in either the police or crime areas.
+            Criminology: &Criminology The hero with this Talent has an understanding of the criminal mind and behavior, either from studies or first-hand observation. The character with this Talent gains a +1CS on all Reason and Intuition FEATs involving criminal practices ("If I were a crook, where would I hide?"). The hero also gains a Contact in either the police or crime areas.
             Psychiatry: The hero with this Talent has a background in studies of the mind and as such gains a +1CS on all FEATs involving the mind. This is a popular Talent with those heroes and villains with Mental Powers, and the character with these Talents gains a +1CS on FEATs involving Mental Control, Domination, Hypnosis, Emotion Control, and Mental Probe Powers.
-            Detective/Espionage: The hero with this Talent has been trained to notice small clues in solving crimes. The character with this Talent gains a +1CS to discover clues to a crime, and in addition gains a Contact in either crime, law enforcement, law, or espionage.
+            Detective/Espionage: &Detective-Espionage The hero with this Talent has been trained to notice small clues in solving crimes. The character with this Talent gains a +1CS to discover clues to a crime, and in addition gains a Contact in either crime, law enforcement, law, or espionage.
           Scientific Skills:
             Chemistry: A +1CS on matters of chemistry, including developing new formulas, finding cures for inorganic poisons, and identifying chemicals by smell, touch, or taste.
             Biology: A +1CS on matters of biology, including animal and plant identification, finding cures for organic poisons, and researching diseases and their cures.
@@ -391,8 +391,8 @@ Character Sheet:
             Genetics: A +1CS on matters involving the genes, including creating new life forms, understanding mutants, and researching diseases.
             Archaeology: A +1CS on matters involving the past, including paleontology, historical records, and ancient myths and legends.
             Physics: A +1CS on matters involving physics and astrophysics, including motion, flight, and the planets and stars.
-            Computers: A +1CS on matters involving computers, computer-controlled equipment, and artificial intelligences.
-            Electronics: A +1CS on matters involving electronic devices, including their creation and repair.
+            Computers: &Computers A +1CS on matters involving computers, computer-controlled equipment, and artificial intelligences.
+            Electronics: &Electronnics A +1CS on matters involving electronic devices, including their creation and repair.
           Mystic and Mental Skills:
             Trance: The character may place himself into a trance. While in a trance, the character slows his body functions to such a level that he may be assumed to be deceased (Intuition FEAT for the character checking). A character in a trance reduces needs for food and water to a minimal level, and may regain Endurance ranks at one rank per day.
             Mesmerism and Hypnosis: This Talent is a primitive form of Mind Control at the Power rank number equal to the Reason of the character with this Talent. Information can be gained as per a Mental Probe, and posthypnotic suggestions may be implanted within the victim's mind. Any attempt to force an individual to do something that he would not normally do, or divulge information that he would not normally reveal, will cause the hypnotism to break. A hypnotic command fades in 1-10 hours after it is given.
@@ -402,9 +402,9 @@ Character Sheet:
             Mystic Background: &Mystic_Background In the Marvel Universe, all humankind has the potential for developing magical Powers. This "Talent" shows that the character has some background with magical forces. Heroes may have derived their powers from these forces if they choose this Talent. A character with this Talent may have Magical Powers, with the approval of the Judge. If the Judge allows magical player characters, then any of the initial Powers created may be spells, and should be noted as deriving from Personal, Universal, or Dimensional energies.
           Other Talents:
             Artist: The character with an artist background creates works of art, either for himself or for sale to others. This includes painting, sculpting, and writing. A single work takes 1-10 weeks, and upon completion grants the artist Karma points equal to 10 times the number of weeks. The character must allocate some time daily at his work.
-            Languages: The character with this Talent has a natural understanding of languages. The character gains 1 additional language at start, and may add other languages at half the cost of a Talent (500 points regardless of who teaches it). Characters without the Languages Talent must gain this Talent first to learn other languages. The gaining of additional languages assumes someone is available to teach these languages. A Player character with this Talent does not have to assign a language at start, but may fill one in later as need be.
-            First Aid: The medicine Talent notes that the loss of Endurance ranks may be halted by someone checking on the dying character and administering some form of aid. The First Aid Talent grants the character this immediate halt to Endurance rank loss, the recovery of one rank immediately (one use only per situation), and in addition, the hero with this Talent can stabilize a dying character at Shift 0 Health up to 5 rounds after that character reaches that level.
-            Repair/Tinkering: The character with this Talent gains a +1CS to any Reason FEATs involving the repair and modification of existing items, but not the building of new items. This +1CS may be added to any other bonuses gained from other Talents, so that an Engineer with Tinkering Talent would gain a +2CS on repair.
+            Languages: &Languages The character with this Talent has a natural understanding of languages. The character gains 1 additional language at start, and may add other languages at half the cost of a Talent (500 points regardless of who teaches it). Characters without the Languages Talent must gain this Talent first to learn other languages. The gaining of additional languages assumes someone is available to teach these languages. A Player character with this Talent does not have to assign a language at start, but may fill one in later as need be.
+            First Aid: &First_Aid The medicine Talent notes that the loss of Endurance ranks may be halted by someone checking on the dying character and administering some form of aid. The First Aid Talent grants the character this immediate halt to Endurance rank loss, the recovery of one rank immediately (one use only per situation), and in addition, the hero with this Talent can stabilize a dying character at Shift 0 Health up to 5 rounds after that character reaches that level.
+            Repair/Tinkering: &Repair-Tinkering The character with this Talent gains a +1CS to any Reason FEATs involving the repair and modification of existing items, but not the building of new items. This +1CS may be added to any other bonuses gained from other Talents, so that an Engineer with Tinkering Talent would gain a +2CS on repair.
             Performer: The character is someone who acts, sings, dances, mimes, or otherwise uses his Talents to entertain (this is related to the Artist, the key difference being that the Artist may leave the scene of creation; the Performer is identified with that creation directly). A Performer receives 10 karma points for a week's worth of performance, whether in a play, doing a nightclub routine, or working for a movie.
             Leadership: The hero with this Talent has the brains and understanding of a cohesive group, such that he is a benefit to the team. Any Karma Pool to which the character belongs receives a 50-point bonus, provided the character with this Talent is recognized as the "team leader." A Karma Pool may only have one recognized leader, though more than one character with Leadership may belong to one group. When the "Leader" of a group leaves, the 50 points are deducted from the Karma Pool, but the leader does not receive them for personal use (the bonus points only exist as a part of the pool)
           Magic Wielder Talents:
@@ -735,131 +735,10 @@ Character Sheet:
 
             This item offers the Judge a great opportunity to be creative and is a good item to improve a freshly generated character who is weak.
         Familiar:
-          Reference: Familiar indicates a being that is very powerful magically and actively assists the hero. Two powers should be rolled randomly or selected by the Judge from the personal and universal energy lists for this familiar. In addition, the familiar is intelligent (Reason and Psyche at least Typical) and can communicate with its owner (the kind of communication is left to the Judge’s discretion). The form of the familiar can either be that of a normal animal (usually a cat) or an unusual type, such as a small dragon or other mythical creature. The familiar’s form is at the player’s discretion.
-          Leonidas:
-            Description: A particularly large housecat most resembling a strikingly ancient- and wild-looking Oriental breed somewhat like an oversized Egyptian Mau, with a black spotted silver tabby coat and brilliant green eyes.
-            Abilities:
-              Primary Abilities:
-                Fighting:
-                  Rank: Excellent
-                  Number: 20
-                Agility:
-                  Rank: Amazing
-                  Number: 50
-                Strength:
-                  Rank: Poor
-                  Number: 4
-                Endurance:
-                  Rank: Excellent
-                  Number: 20
-                Reason:
-                  Rank: Excellent
-                  Number: 20
-                Intuition:
-                  Rank: Remarkable
-                  Number: 30
-                Psyche:
-                  Rank: Incredible
-                  Number: 40
-              Secondary Abilities:
-                Health: 94
-              Special Abilities:
-                Powers:
-                  Detection:
-                    Hypersensitive Hearing:
-                      Rank: Remarkable
-                      Number: 30
-                      Reference: The hero can detect extremely faint sounds and unusual frequencies. He can identify objects by the sounds they emit. Because of the sensitivity of the hero's hearing, he is more vulnerable to sonic attacks (which receive a +1CS against him).
-                    Hypersensitive Olfactory:
-                      Rank: Remarkable
-                      Number: 30
-                      Reference: |
-                        The hero can detect the presence of minute traces of substances and accurately identify them.
-
-                        This Power is continually functioning: the hero has learned to ignore unpleasant smells. If he loses his ability to mask out nasty odors, he'll be so distracted (and possibly sickened) by the intruding odors that he loses -1CS on Reason and Endurance.
-                    Tracking Ability:
-                      Rank: Remarkable
-                      Number: 30
-                      Reference: The hero can detect and follow the tracks left by a specific target. The hero can detect environmental and spatial disturbances with the result that at high ranks the hero can actually track across deep space.
-                  Other Powers: #From APB
-                    Body Alterations/Defensive:
-                      Immortality:
-                        Reference: *Immortality
-                Talents:
-                  Fighting Skills:
-                    Acrobatics: *Acrobatics
-                    Tumbling: *Tumbling
-                  Mystic and Mental Skills:
-                    Resist Domination: *Resist_Domination
-                    Occult Lore: *Occult_Lore
-                    Mystic Background: *Mystic_Background
-                Magic:
-                  Personal Energies:
-                    Admittance:
-                      Rank: Amazing
-                      Number: 50
-                      Reference: *Admittance
-                    Apparition:
-                      Rank: Amazing
-                      Number: 50
-                      Reference: *Apparition
-                    Invisibility:
-                      Rank: Amazing
-                      Number: 50
-                      Reference: *Invisibility
-                    Luck:
-                      Rank: Amazing
-                      Number: 50
-                      Reference:  The caster can disrupt probability fields so that very unlikely events can occur, somewhat like creating his own luck. For example, he could cause a table to collapse or a machine to tip over. He can not cause something to happen if that event is impossible; tables can not be created from nothing, and machines just can’t cease to exist. When the caster uses his spell, the player describes exactly what effect is wanted, and the Judge decides whether or not that effect is within the spell’s power and assigns an appropriate FEAT color. To use the spell the caster must make a successful spell rank FEAT roll. If the caster is trying to alter probabilities around magic materials or energies, such as magical artifacts or temples, apply a -2CS to the spell rank when making the FEAT roll.
-                    Sensing-Evil:
-                      Rank: Amazing
-                      Number: 50
-                      Reference: *Sensing-Evil
-                    Sensing-Mystical Detection:
-                      Rank: Amazing
-                      Number: 50
-                      Reference: *Sensing-Mystical_Detection
-                  Universal Energies:
-                    Fear:
-                      Rank: Amazing
-                      Number: 50
-                      Reference: |
-                        This spell affects all targets in the area of effect. The spell releases an unreasoning fear from the target’s mind. All targets are allowed a Psyche FEAT roll to resist the effect (see the Magic Effects Table). If the target misses the roll, the frightened character wants nothing more than to run away and hide (all his actions while afraid are at -2CS). The victim will try to avoid, or if necessary attack, anyone attempting to stop or restrain him. The character can only perform actions (including spellcasting) that will help him to escape. The victim always flees away from the attacker, even if he cannot see the caster. After the first three rounds of being afraid, and every other round after that, if need be, the frightened character is allowed a Psyche FEAT roll to regain his composure. Once made, it will still take him a full round to get complete control of himself.
-
-                        Though the caster must maintain a high degree of concentration on this spell to keep the target afraid (no attacks or other spellcasting allowed), he does not know when the character breaks the spell. Only when the target attacks the caster or otherwise acts contrary to a state of fear does the caster realize he no longer influences the target.
-                    Forgetfulness:
-                      Rank: Amazing
-                      Number: 50
-                      Reference: |
-                        The caster can magically effect other characters’ minds and cause them to forget events. This is usually used by heroic magic wielders to protect innocent bystanders from the awesome psychic shock caused by some of the sights to be seen during magical combat, etc. It is also used by most magic wielding characters to protect their secret identities. Evil magicians may also use this spell to cover up their trail or their crimes. The duration of the spell is permanent (unless another sorcerer uses a Revival spell of at least equal spell rank to break the spell of Forgetfulness). The number of people that can be ensorcelled by the spell depends on the spell rank: Good = 1 person; Excellent = up to 5 people; Remarkable = everyone in I area; Incredible = everyone in a square mile; Amazing = everyone in 100 square miles; Monstrous = everyone on the planet; Unearthly everyone in one dimension; Class 1000 everyone in all dimensions.
-
-                        Any character with a Psyche equal to or greater than the caster’s may make a Psyche FEAT roll to reduce the effects of the spell. Magic wielding characters have a +2CS for this FEAT roll. A green result means that vague recollections of the event sometimes surface in the character’s memory. A yellow result means that the character knows most of the highlights of the event, but cannot remember who cast the spell of forgetfulness. A red result means that the character can remember everything.
-                    Static Field:
-                      Rank: Amazing
-                      Number: 50
-                      Reference: |
-                        The caster can set up an invisible static field with his magical energy. This field, which blankets his area of effect, disrupts television, radio, CB, walkie-talkie, and other broadcasting devices. It also disrupts all closed-circuited monitoring security systems and scanners, most computer systems, robotic “brains”, and any other highly sophisticated electronic devices. The field moves with the caster and once an item is outside the field, it works as before.
-
-                        Any attack that uses broadcast power, such as a maser (microwave), must punch through the field first. Treat the spell rank as body armor for purposes of defense.
-                    Teleportation:
-                      Rank: Amazing
-                      Number: 50
-                      Reference: *Teleportation
-            Notes: Inflicts Edged attack damage with claws but cannot score a Kill result against human targets. Moves 2 areas/turn.
-            Reference:
-              Cat:
-                Fighting: Feeble
-                Agility: Good
-                Strength: Feeble
-                Endurance: Good
-                Reason: Feeble
-                Intuition: Typical
-                Psyche: Feeble
-                Health: 24
-                Notes: Cats include most ordinary house cats and small wild cats. They inflict Edged attack damage with their claws but cannot score a Kill result against human targets. They move 2 areas/turn.
+          Reference: &Familiar Familiar indicates a being that is very powerful magically and actively assists the hero. Two powers should be rolled randomly or selected by the Judge from the personal and universal energy lists for this familiar. In addition, the familiar is intelligent (Reason and Psyche at least Typical) and can communicate with its owner (the kind of communication is left to the Judge’s discretion). The form of the familiar can either be that of a normal animal (usually a cat) or an unusual type, such as a small dragon or other mythical creature. The familiar’s form is at the player’s discretion.
       Custom Equipment:
         Guardian Blaster:
-          Mk. 0:
+          Mk. 0: &Guardian_Blaster_Mk0
             Description: The Guardian Blaster Mk. I is a combination weapon with utility functions.  It fires handgun bullets, gyrojet rockets, canister rounds (including standard shotgun shells, or non-lethal shotgun loads), and plasma, laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher. It's an integrated combination of existing items.
             Count: 2
             Material Strength: Excellent
@@ -1185,7 +1064,7 @@ Character Sheet:
 
                     As you are beginning to suspect, this isn't really a Power and is more of a restraint. You're right. If you roll this Power, go ahead and roll an additional Power.
         Warden Staff:
-          Mk. 0:
+          Mk. 0: &Warden_Staff_Mk0
             Description: A telescoping/collapsible alloy pole with a retractable blade at the end. May be used as blunt (Club, Boomerang) or edged (Knife, Sword, Spear) weapons in either extended or collapsed positions, and thrown in any configuration. Two may connect end-to-end with the blades retracted to form a longer pole. A user with the Thrown Weapons or Throwing talents knows how to throw them so they arc or ricochet to return to their hands when thrown, whether they hit or miss, by making an Agility FEAT. A coiled spring and compressed air system allows the blade to be launched as if it were a crossbow or speargun. It's an integrated combination of existing items.
             Count: 2
             Material Strength: Remarkable
@@ -1209,7 +1088,7 @@ Character Sheet:
               Club: Clubs are standard blunt weapons, including makeshift weapons such as chairs and tables.
               Boomerang: The Boomerang is a flat, curved throwing stick. Only a character with Throwing talent may cause a Boomerang to return to their hands.
         Defender Battlesuit:
-          Mk. 0:
+          Mk. 0: &Defender_Battlesuit_Mk0
             Description: A sleek, dark, armored suit consisting of para-aramids, meta-aramids, beta cloth, titanium mesh, silicone rubber, and high-impact ballistic plastic, it sports built-in functionality such as an integral air supply and respirator in its mask, and night-vision and polarized eye-protection in the goggles, as well as retractable inline wheels in the boots and compact rocket boosters on the back.  It's an integrated combination of existing items.
             Material Strength: Excellent
             Other Equipment:
@@ -1319,3 +1198,204 @@ Character Sheet:
                       The Power is treated like Strength to determine the maximum thrust the Power can achieve. If the thrust is high enough, the hero can carry or push additional loads. For example, Cannonball's Remarkable thrust can lift up to one ton.
 
                       The Nemesis is Gravity Manipulation.
+        Pathfinder:
+          Mk. 0: &Pathfinder_Mk0
+            Description: An up-armored high-performance four wheel drive vehicle, it has the speed, acceleration, and handling of a sports car, the off-road capability of a military vehicle, and the armor and durability of an armored vehicle. Features expected off-road functional accessories like winches, lights, air, and CB, as well as police scanners, HAM, commerical/business band radio with encryption, car phone, spotlights, cameras, and a welder-cutter. It's an integrated combination of existing items (Sports Car, Jeep, and Armored Car).
+            Type:
+              Off-Road: Off-Road vehicles are land vehicles designed to handle broken ground better than road vehicles. Some recreational vehicles and military equipment fall under this category.
+            Control: Excellent
+            Speed: Remarkable
+            Body: Remarkable
+            Protection: Remarkable
+            Reference:
+              - Sports Car: *Sports_Car
+              - Jeep: *Jeep
+              - Armored Car: Armored Cars are favorite targets of criminals and normally sport a team of two guards in the front and an optional man inside. Armored Cars are also used for transporting powerful criminals who are under arrest.
+  Supporting Cast:
+    Leonidas:
+      Description: A particularly large housecat most resembling a strikingly ancient- and wild-looking Oriental breed, somewhat like an oversized Egyptian Mau, with a black spotted silver tabby coat and brilliant green eyes.
+      Abilities:
+        Primary Abilities:
+          Fighting:
+            Rank: Excellent
+            Number: 20
+          Agility:
+            Rank: Amazing
+            Number: 50
+          Strength:
+            Rank: Poor
+            Number: 4
+          Endurance:
+            Rank: Excellent
+            Number: 20
+          Reason:
+            Rank: Excellent
+            Number: 20
+          Intuition:
+            Rank: Remarkable
+            Number: 30
+          Psyche:
+            Rank: Incredible
+            Number: 40
+        Secondary Abilities:
+          Health: 94
+        Special Abilities:
+          Powers:
+            Detection:
+              Hypersensitive Hearing:
+                Rank: Remarkable
+                Number: 30
+                Reference: The hero can detect extremely faint sounds and unusual frequencies. He can identify objects by the sounds they emit. Because of the sensitivity of the hero's hearing, he is more vulnerable to sonic attacks (which receive a +1CS against him).
+              Hypersensitive Olfactory:
+                Rank: Remarkable
+                Number: 30
+                Reference: |
+                  The hero can detect the presence of minute traces of substances and accurately identify them.
+
+                  This Power is continually functioning: the hero has learned to ignore unpleasant smells. If he loses his ability to mask out nasty odors, he'll be so distracted (and possibly sickened) by the intruding odors that he loses -1CS on Reason and Endurance.
+              Tracking Ability:
+                Rank: Remarkable
+                Number: 30
+                Reference: The hero can detect and follow the tracks left by a specific target. The hero can detect environmental and spatial disturbances with the result that at high ranks the hero can actually track across deep space.
+            Other Powers: #From APB
+              Body Alterations/Defensive:
+                Immortality:
+                  Reference: *Immortality
+          Talents:
+            Fighting Skills:
+              Acrobatics: *Acrobatics
+              Tumbling: *Tumbling
+            Mystic and Mental Skills:
+              Resist Domination: *Resist_Domination
+              Occult Lore: *Occult_Lore
+              Mystic Background: *Mystic_Background
+          Magic:
+            Personal Energies:
+              Admittance:
+                Rank: Amazing
+                Number: 50
+                Reference: *Admittance
+              Apparition:
+                Rank: Amazing
+                Number: 50
+                Reference: *Apparition
+              Invisibility:
+                Rank: Amazing
+                Number: 50
+                Reference: *Invisibility
+              Luck:
+                Rank: Amazing
+                Number: 50
+                Reference:  The caster can disrupt probability fields so that very unlikely events can occur, somewhat like creating his own luck. For example, he could cause a table to collapse or a machine to tip over. He can not cause something to happen if that event is impossible; tables can not be created from nothing, and machines just can’t cease to exist. When the caster uses his spell, the player describes exactly what effect is wanted, and the Judge decides whether or not that effect is within the spell’s power and assigns an appropriate FEAT color. To use the spell the caster must make a successful spell rank FEAT roll. If the caster is trying to alter probabilities around magic materials or energies, such as magical artifacts or temples, apply a -2CS to the spell rank when making the FEAT roll.
+              Sensing-Evil:
+                Rank: Amazing
+                Number: 50
+                Reference: *Sensing-Evil
+              Sensing-Mystical Detection:
+                Rank: Amazing
+                Number: 50
+                Reference: *Sensing-Mystical_Detection
+            Universal Energies:
+              Fear:
+                Rank: Amazing
+                Number: 50
+                Reference: |
+                  This spell affects all targets in the area of effect. The spell releases an unreasoning fear from the target’s mind. All targets are allowed a Psyche FEAT roll to resist the effect (see the Magic Effects Table). If the target misses the roll, the frightened character wants nothing more than to run away and hide (all his actions while afraid are at -2CS). The victim will try to avoid, or if necessary attack, anyone attempting to stop or restrain him. The character can only perform actions (including spellcasting) that will help him to escape. The victim always flees away from the attacker, even if he cannot see the caster. After the first three rounds of being afraid, and every other round after that, if need be, the frightened character is allowed a Psyche FEAT roll to regain his composure. Once made, it will still take him a full round to get complete control of himself.
+
+                  Though the caster must maintain a high degree of concentration on this spell to keep the target afraid (no attacks or other spellcasting allowed), he does not know when the character breaks the spell. Only when the target attacks the caster or otherwise acts contrary to a state of fear does the caster realize he no longer influences the target.
+              Forgetfulness:
+                Rank: Amazing
+                Number: 50
+                Reference: |
+                  The caster can magically effect other characters’ minds and cause them to forget events. This is usually used by heroic magic wielders to protect innocent bystanders from the awesome psychic shock caused by some of the sights to be seen during magical combat, etc. It is also used by most magic wielding characters to protect their secret identities. Evil magicians may also use this spell to cover up their trail or their crimes. The duration of the spell is permanent (unless another sorcerer uses a Revival spell of at least equal spell rank to break the spell of Forgetfulness). The number of people that can be ensorcelled by the spell depends on the spell rank: Good = 1 person; Excellent = up to 5 people; Remarkable = everyone in I area; Incredible = everyone in a square mile; Amazing = everyone in 100 square miles; Monstrous = everyone on the planet; Unearthly everyone in one dimension; Class 1000 everyone in all dimensions.
+
+                  Any character with a Psyche equal to or greater than the caster’s may make a Psyche FEAT roll to reduce the effects of the spell. Magic wielding characters have a +2CS for this FEAT roll. A green result means that vague recollections of the event sometimes surface in the character’s memory. A yellow result means that the character knows most of the highlights of the event, but cannot remember who cast the spell of forgetfulness. A red result means that the character can remember everything.
+              Static Field:
+                Rank: Amazing
+                Number: 50
+                Reference: |
+                  The caster can set up an invisible static field with his magical energy. This field, which blankets his area of effect, disrupts television, radio, CB, walkie-talkie, and other broadcasting devices. It also disrupts all closed-circuited monitoring security systems and scanners, most computer systems, robotic “brains”, and any other highly sophisticated electronic devices. The field moves with the caster and once an item is outside the field, it works as before.
+
+                  Any attack that uses broadcast power, such as a maser (microwave), must punch through the field first. Treat the spell rank as body armor for purposes of defense.
+              Teleportation:
+                Rank: Amazing
+                Number: 50
+                Reference: *Teleportation
+      Notes: Inflicts Edged attack damage with claws but cannot score a Kill result against human targets. Moves 2 areas/turn.
+      Reference:
+              Familiar: *Familiar
+              Cat:
+                Fighting: Feeble
+                Agility: Good
+                Strength: Feeble
+                Endurance: Good
+                Reason: Feeble
+                Intuition: Typical
+                Psyche: Feeble
+                Health: 24
+                Notes: Cats include most ordinary house cats and small wild cats. They inflict Edged attack damage with their claws but cannot score a Kill result against human targets. They move 2 areas/turn.
+    Varangian:
+      Description: Elite operatives drawn from the highest echelons of special operations and intelligence work, Varangians are the highly-paid, trusted bodyguards, proxies, and fixers of their employer. 
+      Abilities:
+        Primary Abilities:
+          Fighting:
+            Rank: Excellent
+            Number: 20
+          Agility:
+            Rank: Excellent
+            Number: 20
+          Strength:
+            Rank: Excellent
+            Number: 20
+          Endurance:
+            Rank: Excellent
+            Number: 20
+          Reason:
+            Rank: Excellent
+            Number: 20
+          Intuition:
+            Rank: Excellent
+            Number: 20
+          Perception:
+            Rank: Excellent
+            Number: 20
+        Secondary Abilities:
+          Health: 80
+          Karma: 60
+          Resources:
+            Rank: Excellent
+            Number: 20
+        Talents:
+          Weapons Skills:
+            Guns: *Guns
+            Blunt Weapons: *Blunt_Weapons
+            Sharp Weapons: *Sharp_Weapons
+            Marksman: *Marksman
+          Fighting Skills:
+            Martial Arts A: *Martial_Arts_A
+            Martial Arts B: *Martial_Arts_B
+            Martial Arts C: *Martial_Arts_C
+            Martial Arts E: *Martial_Arts_E
+            Acrobatics: *Acrobatics
+          Professional Skills:
+            Law Enforcement: The character with this Talent has a background with law-enforcement authorities. This Talent includes both Gun and Law Talents, and the character, if still a member of a law-enforcement agency, may legally carry a gun and make arrests.
+            Pilot: *Pilot
+            Military: *Military
+            Criminology: *Criminology
+            Detective/Espionage: *Detective-Espionage
+          Scientific Skills:
+            Computer: *Computer
+            Electronics: *Electronics
+          Mystic and Mental Skills:
+            Resist Domination: *Resist_Domination
+          Other Talents:
+            Languages: *Languages
+            First Aid: *First_Aid
+            Repair/Tinkering: *Repair-Tinkering
+      Equipment:
+        Custom Equipment:
+          Guardian Blaster Mk. 0: *Guardian_Blaster_Mk0
+          Warden Staff Mk. 0: *Warden_Staff_Mk0
+          Defender Battlesuit Mk. 0: *Defender_Battlesuit_Mk0
+          Pathfinder Mk. 0: *Pathfinder_Mk0
+
