@@ -82,7 +82,7 @@ Character Sheet:
       Special Abilities:
         Powers:
           Defensive:
-            Peripheral: false
+            Peripheral Only: false
             Invulnerability: |
               When creating the hero, the player can raise the Power rank +1CS by choosing to specialize in a specific Physical Resistance. For example, the Player's Book contains listings for Resistances to Toxins, Corrosives, and Disease.
 
@@ -116,6 +116,7 @@ Character Sheet:
               Number: 75
               Reference: Range column D. The hero can detect and identify energy and related phenomena. The power can only detect actual energy, not potential energy (it couldn't detect a bomb until it explodes, for example). Likewise, while it can detect the energies consciously emitted by superhumans, it cannot detect the superhumans themselves. Rank determines range.
             Environmental Awareness:
+              Peripheral Only: true
               Rank: Monstrous
               Number: 75
               Reference: |
@@ -123,6 +124,7 @@ Character Sheet:
 
                 The rank determines the range to which the awareness extends: exceeding it requires a FEAT (+1CS, green; +2CS, yellow; +3CS, red). The hero can gain +1CS by linking his Health to the environment. In this symbiosis, harm to the environment is reflected in the hero's physical welfare.
             Life Detection:
+              Peripheral Only: true
               Rank: Monstrous
               Number: 75
                 Range column B. The hero can detect the presence of life and identify the nature of that life. The hero can probe a specific target for more detailed physiological data on a red FEAT.
@@ -157,7 +159,7 @@ Character Sheet:
 
                 The hero cannot actually "see in the dark" but only if UV light is present. The effect is the same when seen by normal people. The hero has an increased risk of being blinded by strong UV sources, like black lights and radiation (-2CS).
           Energy Control:
-            Peripheral: true
+            Peripheral Only: true
             Radiowave Control:
               Rank: Monstrous
               Number: 75
@@ -170,7 +172,7 @@ Character Sheet:
 
                 Optional Powers include Energy Doppelganger, Energy Sheath, and Carrier Wave.
           Energy Emission:
-            Peripheral: true
+            Peripheral Only: true
             Radiowave Generation:
               Rank: Monstrous
               Number: 75
@@ -179,7 +181,7 @@ Character Sheet:
 
                 Optional Powers include Radiowave Control, Energy Sheath, and Carrier Wave. Nemeses include Radiowave Control, Energy Absorption, and Force Field vs. Energy.
           Fighting:
-            Peripheral: false
+            Peripheral Only: false
             Weapons Tinkering:
               Rank: Monstrous
               Number: 75
@@ -201,7 +203,7 @@ Character Sheet:
 
                 Needless to say, the player will have to develop stats for anything he comes up with. If he successfully copies existing technology, like the Iron Man battlesuit or a SHIELD Plasma Beam Handgun, he can simply use the established stats for that device. Weapons Locker (MHAC8) by Epperson and Grubb is a valuable aid to the player of a hero with this Power. A clever character can also use this Power to make money off of other characters by building weapons on commission. After all, somebody's got to be building all those super-weapons tha`t fill the pages of comic books…
           Matter Control:
-            Peripheral: true
+            Peripheral Only: true
             Micro-Environment:
               Rank: Shift-Z
               Number: 500
@@ -222,7 +224,7 @@ Character Sheet:
 
                 The Nemeses are either Air or Liquid Animation, depending on the nature of the Micro-Environment.
           Mental Enhancement:
-            Peripheral: false
+            Peripheral Only: false
             Communication with Cybernetics:
               Rank: Monstrous
               Number: 75
@@ -333,7 +335,7 @@ Character Sheet:
 
                 The Nemesis is Mind Drain.
           Power Control:
-            Peripheral: true
+            Peripheral Only: true
             Energy Source:
               Source: Power Grid
               Reference: |
@@ -343,7 +345,7 @@ Character Sheet:
 
                 As you are beginning to suspect, this isn't really a Power and is more of a restraint. You're right. If you roll this Power, go ahead and roll an additional Power.
           Self-Alteration:
-            Peripheral: false
+            Peripheral Only: false
             Alter Ego:
               Reference: |
                 The hero has two different forms. One is a normal, powerless being: the other is the powerful, heroic self. When creating the hero, the player has to create two different beings. The statistics for the primary self should be fairly routine (all physical abilities ranging from Feeble to Good). All bets are off for the heroic self. Something many people never consider is that the heroic self might be a relatively normal human, while the normal self is something a little lower on the evolutionary ladder. For example, you might try a character whose normal self is a mutant dog (why should humans have all the deviant fun?).
