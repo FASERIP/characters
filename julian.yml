@@ -748,7 +748,7 @@ Game:
                   Plasma: 20
                   Stun: Fires a stunning beam of Typical Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns.
                   Shot: 15
-                  Canister: As canister type
+                  Canister: As canister
                 Type:
                   Bullet: Shooting
                   Gyrojet: Shooting
@@ -757,8 +757,8 @@ Game:
                   Plasma: Force
                   Stun: Typical Intensity stunning
                   Shot: Shooting
-                  Canister: As canister type
-                Rate: 1
+                  Canister: As canister
+                  Rate: 1
                 Shots:
                   Bullets: 9
                   Gyrojet: 3
@@ -2563,6 +2563,50 @@ Game:
               Deluxe: *Deluxe
             Material Strength: Remarkable
         Room Packages:
+          Basement:
+            Operations Center:
+              Communications Room:
+                Cost: Incredible
+            Security Office:
+              Crime Files Room:
+                Cost: Incredible
+                Holding Cells:
+            Imprisonment Package:
+                Cost: Incredible
+            Backup Data Center:
+              Computer Room:
+                Cost: Amazing
+            Medical and Forensic Laboratory:
+              Laboratory Package:
+                Cost: Amazing
+            Private Hospital:
+              Medical Package:
+                Cost: Amazing
+            Primary Power:
+              Power Room:
+                Cost: Amazing
+            Backup Power:
+              Power Room:
+                Cost: Amazing
+            Storage, Bathrooms, and Closets: *PSBC
+            Security Package:
+              Cost: Remarkable
+              Location: All doors
+            Fire Protection Package:
+              Cost: Remarkable
+              Location: All Areas
+            Defense Package:
+              Cost: Amazing
+              Location: All areas
+          Ground Floor:
+          First Floor:
+          Second Floor:
+          Third Floor:
+          Fourth Floor:
+          Fifth Floor:
+          Sixth Floor:
+          Seventh Floor:
+          Roof:
       Operations Building:
         Reference:
           Large Warehouse:
@@ -2570,6 +2614,8 @@ Game:
               Deluxe: *Deluxe
             Material Strength: Good
         Room Packages:
+          Floor:
+          Roof:
       Technical Building:
         Reference:
           Large Factory:
@@ -2577,3 +2623,5 @@ Game:
               Deluxe: *Deluxe
             Material Strength: Incredible
         Room Packages:
+          Floor:
+          Roof:
