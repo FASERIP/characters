@@ -69,12 +69,12 @@ Game:
             Rank: Amazing
             Number: 50
             Reference: Create leading-edge technologies, such as stardrive or time travel (Mister Fantastic, Doctor Doom)
-            Hyper Intelligence: +9CS (Max Shift-Z) for Power Rank minutes
+            Hyper Intelligence: +8CS (Max Shift-Z) for Power Rank (50) minutes first use, -1CS duration per use
           Intuition:
             Rank: Incredible
             Number: 40
             Reference: Strong empathic sense; gut feeling (Captain America, Doctor Doom)
-            Hyper Intelligence: +9CS (Max Shift-Z) for Power Rank minutes
+            Hyper Intelligence: +8CS (Max Shift-Z) for Power Rank (50) minutes, -1CS duration per use
           Psyche:
             Rank: Amazing
             Number: 50
@@ -95,37 +95,30 @@ Game:
           Powers:
             Defensive:
               Resistance to Magic Attacks: #D13
-                Rank: Monstrous
-                Number: 75
+                Rank: Amazing
+                Number: 50
                 Reference: |
                   The hero has increased resistance to magic based attacks, whether physical or mental in orientation. Unlike D11 and D14, this Power rank can be lower than the Psyche rank, making the hero more vulnerable to some types of magic.
 
                   The hero can ignore any magic whose rank is less than this Power's rank and can reduce higher level attacks by the Power rank number.
-              Resistance to Power Manipulation: #D16
-                Rank: Monstrous
-                Number: 75
-                Reference: |
-                  The hero has increased resistance to attacks that directly affect the hero's Powers. Such attacks include Weakness Creation, Power Control, Power Domination, Magic Control, and Magician Domination.
-
-                  The hero can ignore any attack who rank is less than this Power rank. He may reduce the effectiveness of the higher level attacks by the Power rank number.
             Detection:
               Environmental Awareness: #DT5
-                Rank: Monstrous
-                Number: 75
+                Rank: Incredible
+                Number: 40
                 Reference: |
                   Range column B. The hero has increased sensitivity to conditions in, disturbances in, and influences on the environment. The hero automatically maintains full knowledge of current conditions in his surroundings. This awareness extends to such factors as weather, chemicals, movement, and life.
 
                   The rank determines the range to which the awareness extends: exceeding it requires a FEAT (+1CS, green; +2CS, yellow; +3CS, red). The hero can gain +1CS by linking his Health to the environment. In this symbiosis, harm to the environment is reflected in the hero's physical welfare.
               Extradimensional Detection: #DT5
-                Rank: Monstrous
-                Number: 75
+                Rank: Incredible
+                Number: 40
                 Reference: |
                   The hero can sense across the dimensional barrier and see things existing in other dimensions.
 
                   A list of some of the dimensions in the Marvel Universe is found in Realms of Magic. These include Asgard, the Astral Plane, Avalon, the Dark Dimension, the Demon Dimension, etc. The power rank number equals the number of different dimensions into which the hero can see.
               Life Detection: #DT9
-                Rank: Monstrous
-                Number: 75
+                Rank: Incredible
+                Number: 40
                 Reference: |
                   Range column B. The hero can detect the presence of life and identify the nature of that life. The hero can probe a specific target for more detailed physiological data on a red FEAT.
 
@@ -133,8 +126,8 @@ Game:
 
                   This is one of the Powers that can function as "Mutant Detection."
               Magic Detection: #DT10
-                Rank: Monstrous
-                Number: 75
+                Rank: Incredible
+                Number: 40
                 Reference: |
                   The hero can detect and identify magic and its effects. The Power can detect both magic in actual use and in potential. As such, this is another way to detect mutants, although it cannot differentiate them from normal magic-users.
 
@@ -142,20 +135,20 @@ Game:
             Fighting:
               Martial Supremacy: #F2
                 Martial Arts A:
-                  Rank: Monstrous
-                  Number: 75
+                  Rank: Amazing
+                  Number: 50
                 Martial Arts B:
-                  Rank: Monstrous
-                  Number: 75
+                  Rank: Amazing
+                  Number: 50
                 Martial Arts C:
-                  Rank: Monstrous
-                  Number: 75
+                  Rank: Amazing
+                  Number: 50
                 Martial Arts D:
-                  Rank: Monstrous
-                  Number: 75
+                  Rank: Amazing
+                  Number: 50
                 Martial Arts E:
-                  Rank: Monstrous
-                  Number: 75
+                  Rank: Amazing
+                  Number: 50
                 Reference: |
                   In the MARVEL SUPER HEROES game system Fighting is considered an Ability, not a Power. However, this Power increases a hero's already-mastered Martial Arts (a Talent in the game system) to dramatically higher levels and allows him to perform actions that would otherwise be impossible, like splitting a battleship in two with a single karate chop.
 
@@ -179,8 +172,8 @@ Game:
 
                   The Nemesis Power is Martial Arts Supremacy of one rank higher than that possessed by the hero.
               Weapons Tinkering: #F5
-                Rank: Monstrous
-                Number: 75
+                Rank: Amazing
+                Number: 50
                 Reference: |
                   The hero can devise and assemble any weapon that can be made with the available materials. By means of a red FEAT, the hero can even improvise a means of creating unavailable materials (adamantium, for example). Provided he has the resources, the hero can assemble a functional copy of any weapon. As to what weapons he can make, use the Resource costs listed in the Hardware section of the Player's Book (pages 42-46). Compare the Power's rank with the cost of the desired weapon. Equal or lower cost weapons can be created on a green FEAT. A cost of one to three levels higher requires a yellow FEAT. A cost of four to six levels higher requires a red FEAT. If the cost of the desired weapon is more than six levels higher than the hero's Power rank, it is an impossible FEAT.
 
@@ -200,8 +193,8 @@ Game:
                   Needless to say, the player will have to develop stats for anything he comes up with. If he successfully copies existing technology, like the Iron Man battlesuit or a SHIELD Plasma Beam Handgun, he can simply use the established stats for that device. Weapons Locker (MHAC8) by Epperson and Grubb is a valuable aid to the player of a hero with this Power. A clever character can also use this Power to make money off of other characters by building weapons on commission. After all, somebody's got to be building all those super-weapons tha`t fill the pages of comic books…
             Lifeform Control:
               Exorcism: #L5
-                Rank: Monstrous
-                Number: 75
+                Rank: Amazing
+                Number: 50
                 Reference: |
                   The hero can release a being from any external domination imposed by a third party. Such controls include Possession, Mental Domination, Serial Immortality, and Magic. If there's a control, this Power can break it. This Power rank is compared to that of the Power controlling the subject. A Typical Intensity FEAT can sever a lower ranking control Power. A Remarkable Intensity FEAT severs a controlling Power of equal rank, and an Amazing Intensity FEAT severs one of one or more ranks higher. Upon severing the being's control over the subject, that being is immediately teleported to its home dimension.
 
@@ -211,8 +204,8 @@ Game:
 
                   The hero can use this Power to resist the initial attempt by another to control him, but if this attempt fails (as per the FEATs listed above), he cannot Exorcise himself later.
               Summoning: #L20
-                Rank: Monstrous
-                Number: 75
+                Rank: Amazing
+                Number: 50
                 Reference: |
                   The hero can summon and control extra-dimensional, corporeal beings. Such beings are commonly called "demons" but may be of any nature or disposition.
 
@@ -226,12 +219,12 @@ Game:
             Mental Enhancement:
               Hyper-Intelligence: #M13
                 Reason: 
-                  Rank: Monstrous
-                  Number: 75
+                  Rank: Amazing
+                  Number: 50
                   Type: Intermittent
                 Intuition:
-                  Rank: Monstrous
-                  Number: 75
+                  Rank: Amazing
+                  Number: 50
                   Type: Intermittent
                 Reference: |
                   Normally a character's Intelligence is determined in the Character Generation Process. However, the research for the Ultimate Powers Book showed that extreme levels of Intelligence can be a Power in its own right. Examples include The Leader and the late Soviet scientist known only as Gargoyle. The hyper-intelligent character is a genius of awesome potential. He can quickly master new subjects, retain that knowledge indefinitely, and easily succeed in any mental endeavor.
@@ -250,8 +243,8 @@ Game:
 
                   The Nemesis is Mind Drain.
               Hyper-Invention: #M14
-                Rank: Monstrous
-                Number: 75
+                Rank: Amazing
+                Number: 50
                 Reference: |
                   This is a special form of Hyper-intelligence that is common enough to merit its own classification. It is a permanent enhancement of the hero's overall intelligence that is channeled into the field of mechanical design and engineering. The hero is an Edison-like genius who take existing materials and technologies and use them to create new devices or applied technologies. He can repair previously operational devices, even if the device was of an unknown type.
 
@@ -267,8 +260,8 @@ Game:
 
                   Nemeses are Mental Duplication and Mind Drain.
               Iron Will: #M16
-                Rank: Monstrous
-                Number: 75
+                Rank: Amazing
+                Number: 50
                 Reference: |
                   The hero has complete conscious control over his mind and body. By using his Iron Will, the hero can temporarily halt the damage done by mental or physical attacks: he can even postpone his own death.
 
@@ -276,8 +269,8 @@ Game:
 
                   Example: Sunstone is battling the Marauders and not doing too well. He possesses Incredible Iron Will and has 100 Health points. Harpoon hits him with a Slayspear: this does 40 points of damage. Iron Will absorbs it all but immediately reconverts it to a loss of 20 Health points. Sabertooth slashes and gnaws Sunstone for 60 points. Iron Will only absorbs the first 40, then immediately converts it. Health now stands at 40 points. Malice attempts to Possess Sunstone: Iron Will fends off the mental attack but at a cost of another 38 points. Sunstone decides discretion is better than valor and flees. Scalphunter fires at the retreating figure and inflicts thirty more points of damage. Sunstone heads for the best-equipped hospital in the area. He manages to maintain his self-control until he is actually in the operating room, then he passes out as wounds suddenly appear across his body.
               Linguistics: #M17
-                Rank: Monstrous
-                Number: 75
+                Rank: Amazing
+                Number: 50
                 Reference: |
                   This is a specialized form of Hyper-intelligence. The hero has the ability to rapidly learn any language if sufficient material is available for him to work with. Once the language is mastered, the hero is fluent in that language, provided he is physically capable of communicating in it.
 
@@ -293,8 +286,8 @@ Game:
 
                   The Nemesis is Mind Drain.
               Total Memory: #M33
-                Rank: Monstrous
-                Number: 75
+                Rank: Amazing
+                Number: 50
                 Reference: |
                   The hero has the ability to remember anything that he has ever experienced. This could be a book he's read, the faces of everyone he saw on Tuesday, what birth was like, and so on. The accuracy of his recall is his Power rank number treated as a percentage. Feeble is 2%, Excellent is 20%, and so on to automatic accuracy at Unearthly rank or above.
 
@@ -313,13 +306,13 @@ Game:
                   The Nemesis is Mind Drain.
             Power Control:
               Focus: #PC7
-                Rank: Monstrous
-                Number: 75
+                Rank: Amazing
+                Number: 50
                 Total:
                   Rank: Class 1000
-                  Number: 1994
-                  Spread: 30
-                  Turns to Full Recovery: 27
+                  Number: 1379
+                  Spread: 29
+                  Turns to Full Recovery: 28
                 Reference: The hero can channel all his raw energy into a single burst of a chosen Ability or Power. All his Power and Ability rank numbers are totaled together. This rank number replaces the rank number for a chosen Power. Upon the completion of releasing the Power, all the hero's Abilities and Powers temporarily drop to Feeble. This Power's rank number is the total amount of lost points the hero can regain each turn. Points are divided evenly between all the depleted Abilities and Powers. (Okay, this isn't really a Power either. Roll again for an additional Power.)
             Other Powers: #From APB
               Body Alterations/Defensive:
