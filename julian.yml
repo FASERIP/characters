@@ -869,7 +869,7 @@ Game:
                   Fire Control: #EC10
                     Rank: Amazing
                     Number: 50
-                    Note: In conjunction with Spray only
+                    Note: &Spray-Only In conjunction with Spray only
                     Reference: The hero can control existing flames, whether natural or Power-based. He can alter any factor involved in combustion without direct physical contact. The hero can increase or decrease the flame's Intensity up to his Power rank and reduce fire damage by his rank number. This Power includes Power rank Resistance to Fire and Heat. The most important aspect of this Power is enabling the hero to reshape flame into any form he desires. This can be used in a variety of Power stunts, as the hero develops numerous fiery constructs to perform miscellaneous deeds. Such fiery constructs do not act like normal flames. They emit less heat and consume less oxygen. Their fire doesn't spread past the outline of the constructs. In addition, they self-extinguish rapidly upon cessation of this Power. Optional Powers include Fire Generation, Thermal Control, Energy Sheath, and Energy Body.
                 Energy Emission:
                   Fire Generation: #EE4
@@ -949,6 +949,7 @@ Game:
                   Neural Manipulation: #L12
                     Rank: Amazing
                     Number: 50
+                    Note: *Spray-Only
                     Reference: |
                       The hero can alter a target's neural activity. By changing nerve messages within the target's body, the hero can cause a variety of effects.
 
