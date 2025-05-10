@@ -53,6 +53,7 @@ Game:
             Rank: Amazing
             Number: 50
             Reference: Maximum human potential (Captain America, Silver Surfer)
+            Martial Supremacy: +Power Rank Number to Martial Arts
           Agility:
             Rank: Incredible
             Number: 40
@@ -69,12 +70,12 @@ Game:
             Rank: Amazing
             Number: 50
             Reference: Create leading-edge technologies, such as stardrive or time travel (Mister Fantastic, Doctor Doom)
-            Hyper Intelligence: +8CS (Max Shift-Z) for Power Rank (50) minutes first use, -1CS duration per use
+            Hyper Intelligence: +Power Rank CS (Max Shift-Z) for Power Rank Number minutes first use, -1CS duration per use
           Intuition:
             Rank: Incredible
             Number: 40
             Reference: Strong empathic sense; gut feeling (Captain America, Doctor Doom)
-            Hyper Intelligence: +8CS (Max Shift-Z) for Power Rank (50) minutes, -1CS duration per use
+            Hyper Intelligence: +Power Rank CS (Max Shift-Z) for Power Rank Number minutes, -1CS duration per use
           Psyche:
             Rank: Amazing
             Number: 50
@@ -134,21 +135,8 @@ Game:
                   The hero can identify the past use of magic (a green FEAT), a yellow FEAT identifies the magic-user, and a red FEAT identifies the actual spell.
             Fighting:
               Martial Supremacy: #F2
-                Martial Arts A:
-                  Rank: Amazing
-                  Number: 50
-                Martial Arts B:
-                  Rank: Amazing
-                  Number: 50
-                Martial Arts C:
-                  Rank: Amazing
-                  Number: 50
-                Martial Arts D:
-                  Rank: Amazing
-                  Number: 50
-                Martial Arts E:
-                  Rank: Amazing
-                  Number: 50
+                Rank: Amazing
+                Number: 50
                 Reference: |
                   In the MARVEL SUPER HEROES game system Fighting is considered an Ability, not a Power. However, this Power increases a hero's already-mastered Martial Arts (a Talent in the game system) to dramatically higher levels and allows him to perform actions that would otherwise be impossible, like splitting a battleship in two with a single karate chop.
 
@@ -172,8 +160,8 @@ Game:
 
                   The Nemesis Power is Martial Arts Supremacy of one rank higher than that possessed by the hero.
               Weapons Tinkering: #F5
-                Rank: Amazing
-                Number: 50
+                Rank: Unearthly
+                Number: 100
                 Reference: |
                   The hero can devise and assemble any weapon that can be made with the available materials. By means of a red FEAT, the hero can even improvise a means of creating unavailable materials (adamantium, for example). Provided he has the resources, the hero can assemble a functional copy of any weapon. As to what weapons he can make, use the Resource costs listed in the Hardware section of the Player's Book (pages 42-46). Compare the Power's rank with the cost of the desired weapon. Equal or lower cost weapons can be created on a green FEAT. A cost of one to three levels higher requires a yellow FEAT. A cost of four to six levels higher requires a red FEAT. If the cost of the desired weapon is more than six levels higher than the hero's Power rank, it is an impossible FEAT.
 
@@ -243,8 +231,8 @@ Game:
 
                   The Nemesis is Mind Drain.
               Hyper-Invention: #M14
-                Rank: Amazing
-                Number: 50
+                Rank: Unearthly
+                Number: 100
                 Reference: |
                   This is a special form of Hyper-intelligence that is common enough to merit its own classification. It is a permanent enhancement of the hero's overall intelligence that is channeled into the field of mechanical design and engineering. The hero is an Edison-like genius who take existing materials and technologies and use them to create new devices or applied technologies. He can repair previously operational devices, even if the device was of an unknown type.
 
@@ -260,8 +248,8 @@ Game:
 
                   Nemeses are Mental Duplication and Mind Drain.
               Iron Will: #M16
-                Rank: Amazing
-                Number: 50
+                Rank: Unearthly
+                Number: 100
                 Reference: |
                   The hero has complete conscious control over his mind and body. By using his Iron Will, the hero can temporarily halt the damage done by mental or physical attacks: he can even postpone his own death.
 
@@ -269,8 +257,8 @@ Game:
 
                   Example: Sunstone is battling the Marauders and not doing too well. He possesses Incredible Iron Will and has 100 Health points. Harpoon hits him with a Slayspear: this does 40 points of damage. Iron Will absorbs it all but immediately reconverts it to a loss of 20 Health points. Sabertooth slashes and gnaws Sunstone for 60 points. Iron Will only absorbs the first 40, then immediately converts it. Health now stands at 40 points. Malice attempts to Possess Sunstone: Iron Will fends off the mental attack but at a cost of another 38 points. Sunstone decides discretion is better than valor and flees. Scalphunter fires at the retreating figure and inflicts thirty more points of damage. Sunstone heads for the best-equipped hospital in the area. He manages to maintain his self-control until he is actually in the operating room, then he passes out as wounds suddenly appear across his body.
               Linguistics: #M17
-                Rank: Amazing
-                Number: 50
+                Rank: Unearthly
+                Number: 100
                 Reference: |
                   This is a specialized form of Hyper-intelligence. The hero has the ability to rapidly learn any language if sufficient material is available for him to work with. Once the language is mastered, the hero is fluent in that language, provided he is physically capable of communicating in it.
 
@@ -286,8 +274,8 @@ Game:
 
                   The Nemesis is Mind Drain.
               Total Memory: #M33
-                Rank: Amazing
-                Number: 50
+                Rank: Unearthly
+                Number: 100
                 Reference: |
                   The hero has the ability to remember anything that he has ever experienced. This could be a book he's read, the faces of everyone he saw on Tuesday, what birth was like, and so on. The accuracy of his recall is his Power rank number treated as a percentage. Feeble is 2%, Excellent is 20%, and so on to automatic accuracy at Unearthly rank or above.
 
@@ -310,9 +298,9 @@ Game:
                 Number: 50
                 Total:
                   Rank: Class 1000
-                  Number: 1379
-                  Spread: 29
-                  Turns to Full Recovery: 28
+                  Number: 1429
+                  Spread: 25
+                  Turns to Full Recovery: 29
                 Reference: The hero can channel all his raw energy into a single burst of a chosen Ability or Power. All his Power and Ability rank numbers are totaled together. This rank number replaces the rank number for a chosen Power. Upon the completion of releasing the Power, all the hero's Abilities and Powers temporarily drop to Feeble. This Power's rank number is the total amount of lost points the hero can regain each turn. Points are divided evenly between all the depleted Abilities and Powers. (Okay, this isn't really a Power either. Roll again for an additional Power.)
             Other Powers: #From APB
               Body Alterations/Defensive:
@@ -808,12 +796,13 @@ Game:
                 Flare Pistol: Flare Pistols fire a burning charge that lights the sky, either to provide illumination (lighting all areas within three) or as a signal device (fired 10 floors straight up). Used as a weapon, the device has a range of two areas and inflicts Good damage. The charge is incendiary and will ignite flammable material.
             Mk. 1:
               Description: A sleek, futuristic device with extendable stock and forestock to transition between handgun to long gun form factors. It may be attached to the Sentinel Battlesuit Mk. 1's arm, becoming an integral part of the suit, or operate off a power pack as an energy source to be used as a standalone device.
-              Material Strength: Monstrous
+              Material Strength: Amazing
               Powers: 
                 Energy Control:
                   Fire Control: #EC10
                     Rank: Amazing
                     Number: 50
+                    Note: In conjunction with Spray only
                     Reference: The hero can control existing flames, whether natural or Power-based. He can alter any factor involved in combustion without direct physical contact. The hero can increase or decrease the flame's Intensity up to his Power rank and reduce fire damage by his rank number. This Power includes Power rank Resistance to Fire and Heat. The most important aspect of this Power is enabling the hero to reshape flame into any form he desires. This can be used in a variety of Power stunts, as the hero develops numerous fiery constructs to perform miscellaneous deeds. Such fiery constructs do not act like normal flames. They emit less heat and consume less oxygen. Their fire doesn't spread past the outline of the constructs. In addition, they self-extinguish rapidly upon cessation of this Power. Optional Powers include Fire Generation, Thermal Control, Energy Sheath, and Energy Body.
                 Energy Emission:
                   Fire Generation: #EE4
@@ -1137,8 +1126,8 @@ Game:
                         The Nemeses are either Air or Liquid Animation, depending on the nature of the Micro-Environment.
                   Travel:
                     Rocket:
-                      Rank: Amazing
-                      Number: 50
+                      Rank: Unearthly
+                      Number: 100
                       Reference: | #T13
                         The hero flies by means of a rocket-like exhaust that propels him at Power rank speed. The rocket blast is created by a thermo-chemical reaction generated by the hero's body. The Power converts whatever material is around him into fuel and oxidant, then it shapes the exhaust into a stream to propel him. If the hero is in a vacuum, the Power creates fuel out of virtual nothingness.
 
