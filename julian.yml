@@ -840,7 +840,7 @@ Game:
                 Mace: &Mace Mace is a small one-area weapon that shoots a mist of Typical Intensity tear gas at a single target adjacent to the user. It does not require an Agility FEAT to hit, though the target must make an Endurance FEAT to avoid the effects.
                 Flare Pistol: Flare Pistols fire a burning charge that lights the sky, either to provide illumination (lighting all areas within three) or as a signal device (fired 10 floors straight up). Used as a weapon, the device has a range of two areas and inflicts Good damage. The charge is incendiary and will ignite flammable material.
             Mk. 1:
-              Description: A sleek, futuristic device with extendable stock and forestock to transition between handgun to long gun form factors. It may be attached to the Sentinel Battlesuit Mk. 1's arm, becoming an integral part of the suit, or operate off a power pack as an energy source to be used as a standalone device for 10 uses of any power per Power Pack.
+              Description: A sleek, futuristic device with extendable stock and forestock to transition between handgun to long gun form factors. It may be attached to the Sentinel Battlesuit Mk. 1's arm, becoming an integral part of the suit, or operate off grid power or a power pack as an energy source to be used as a standalone device for 10 uses of any power per Power Pack.
               Material Strength: Amazing
               Powers:
                 Defensive:
