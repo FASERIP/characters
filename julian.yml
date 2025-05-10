@@ -1076,7 +1076,7 @@ Game:
                 Power Control:
                   Energy Source: #PC5
                     Source:
-                      - Defender Battlesuit Mk. 1
+                      - Sentinel Battlesuit Mk. 1
                       - Power Pack: *Power_Pack
                       - Room Package: Power Room
                       - Power grid
@@ -1124,8 +1124,8 @@ Game:
                 Spear: A Spear is considered as any thrusting blade with a handle over one foot long. It is normally thrown or wielded with two hands.
                 Club: &Club Clubs are standard blunt weapons, including makeshift weapons such as chairs and tables.
                 Boomerang: The Boomerang is a flat, curved throwing stick. Only a character with Throwing talent may cause a Boomerang to return to their hands.
-          Defender Battlesuit:
-            Mk. 0: &Defender_Battlesuit_Mk0
+          Sentinel Battlesuit:
+            Mk. 0: &Sentinel_Battlesuit_Mk0
               Description: A sleek, dark, armored suit consisting of para-aramids, meta-aramids, beta cloth, titanium mesh, silicone rubber, and high-impact ballistic plastic, it sports built-in functionality such as an integral air supply and respirator in its mask, and night-vision and polarized eye-protection in the goggles, as well as retractable inline wheels in the boots and compact rocket boosters on the back.  It's an integrated combination of existing items.
               Material Strength: Excellent
               Other Equipment:
@@ -1487,7 +1487,7 @@ Game:
         Custom Equipment:
           Guardian Blaster Mk. 0: *Guardian_Blaster_Mk0
           Warden Staff Mk. 0: *Warden_Staff_Mk0
-          Defender Battlesuit Mk. 0: *Defender_Battlesuit_Mk0
+          Sentinel Battlesuit Mk. 0: *Sentinel_Battlesuit_Mk0
           Pathfinder Mk. 0: *Pathfinder_Mk0
           Sentry Glasses Mk. 0: *Sentry_Glasses_Mk0
     Magoi: &Magos
