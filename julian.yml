@@ -2538,7 +2538,7 @@ Game:
         Defense Package:
           Cost: Incredible
           Note:
-            - Multiple:
+            - Multiple: &Multiple_Defense
               - Laser: Energy
               - Concussive: Force
               - Stun: Stunning
@@ -2549,7 +2549,7 @@ Game:
           Reference: &PSBC These are assumed in the cost of the building, according to its design. These rooms cost nothing, and no package exists other than what the heroes decide to stuff into the closets.
     Akropolis:
       Description: |
-        A mid-rise office building attached to a warehouse and factory with a parking garage and some dockside space and rail access, located near the port and transit station in the Hudson Yards neighborhood of Manhattan, comprise the Varangian Guard, Incorporated headquarters compound. There are helipads, extensive communications antenna arrays, weather and atmospheric montiors, and solar panels atop each.
+        A mid-rise office building attached to a warehouse and factory with a parking garage and some dockside space and rail access, located near the port and transit station in the Hudson Yards neighborhood of Manhattan, comprise the Varangian Guard, Incorporated headquarters compound, Akropolis. There are helipads, extensive communications antenna arrays, weather and atmospheric montiors, and solar panels atop each.
 
         There is a perimeter wall with security stations that oversee the walkup, light vehicle, freight, and railyard entrances, as well as at the docks, whose piers are outside the perimeter. The entrances for Varangian Guard vehicles are separate from the others, and employees, visitors, and VIPs also have separate entrances for both foot and vehicle traffic.
 
@@ -2567,46 +2567,205 @@ Game:
             Operations Center:
               Communications Room:
                 Cost: Incredible
+                Reference: *Communications_Room
             Security Office:
               Crime Files Room:
                 Cost: Incredible
-                Holding Cells:
-            Imprisonment Package:
+                Reference: |
+                  Cost: Excellent Occupies one room. Basically a separate computer with a specialized task at information processing and retrieval. Used by large groups to keep track of former villains and modi operandi. Performs its task with Remarkable ability. Room cost includes terminal, chairs, lights.
+            Holding Cells:
+              Imprisonment Package:
                 Cost: Incredible
+                Note: Multiple
+                Reference: |
+                  Cost: Excellent Occupies one room. Contains standard restraining devices, including bars of Remarkable material strength. At Remarkable Cost, restraining devices made of Incredible Strength. At Incredible Cost, restraining devices at Amazing Strength and Excellent Strength inhibitor restraints.
             Backup Data Center:
               Computer Room:
                 Cost: Amazing
+                Reference: *Computer_Room
             Medical and Forensic Laboratory:
               Laboratory Package:
                 Cost: Amazing
+                Reference: *Laboratory_Package
             Private Hospital:
               Medical Package:
                 Cost: Amazing
+                Reference:  |
+                  Cost: Remarkable Occupies one room. Equivalent of emergency room care, no heavy equipment, standard antidotes and medication. Incredible Cost: X-ray, clean room, operating room, pathology. (Additional rooms.) Amazing Cost: as above, plus cryogenics. Note: The Auto-doc and other life-saving devices are generally experimental on Earth. The one in the X-Men's possession is of Shi'ar hybrid technology, is one of the most powerful available, and is limited to Excellent healing ability.
             Primary Power:
               Power Room:
                 Cost: Amazing
+                Reference: *Power_Room
             Backup Power:
               Power Room:
                 Cost: Amazing
+                Reference: *Power_Room
             Storage, Bathrooms, and Closets: *PSBC
             Security Package:
               Cost: Remarkable
               Location: All doors
+              Reference: *Security_Package
+            Fire Protection Package:
+              Cost: Remarkable
+              Location: All Areas
+              Reference: *Fire_Protection_Package
+            Defense Package:
+              Cost: Amazing
+              Location: All areas
+              Note:
+                - Multiple: *Multiple_Defense
+              Reference: *Defense_Package
+          Ground Floor:
+            Lobby:
+              Living Room Package:
+                Cost:
+                  Total: Incredible
+                  Base: Remarkable
+                Note:
+                  - &+1CS_High-Quality +1CS for high-quality Package
+                  - Multiple: Size
+            Auditorium:
+              Conference Room Package:
+                Cost:
+                  Total: Amazing
+                  Base: Incredible
+                Note: *+1CS_High-Quality
+            Conference One:
+              Conference Room Package:
+                Cost:
+                  Total: Amazing
+                  Base: Incredible
+                Note: *+1CS_High-Quality
+            Reception Hall:
+              Trophy Room Package:
+                Cost:
+                  Total: Incredible
+                  Base: Remarkable
+                Note: *+1CS_High-Quality
+            Reception Kitchen:
+              Kitchen Package:
+                Cost: Remarkable
+            Reception Dining:
+              Dining Room Package:
+                Cost:
+                  Total: Incredible
+                  Base: Remarkable
+                Note:
+                  - Multiple: Size
+                  - *+1CS_High-Quality
+            Office Suite:
+              Office Package:
+                Cost: Remarkable
+            Storage, Bathrooms, and Closets: *PSBC
+            Security Package:
+              Cost: Remarkable
+              Location: All doors and windows, perimeter
             Fire Protection Package:
               Cost: Remarkable
               Location: All Areas
             Defense Package:
               Cost: Amazing
-              Location: All areas
-          Ground Floor:
-          First Floor:
-          Second Floor:
-          Third Floor:
+              Location: Perimeter and Exterior
+              Note: *Multiple_Defense
+          First Floor: &Office_Floor
+            Office Suite:
+              Office Package:
+                Cost: Remarkable
+              Note: Multiple
+            Storage, Bathrooms, and Closets: *PSBC
+            Security Package:
+              Cost: Remarkable
+              Location: All doors and windows
+            Fire Protection Package:
+              Cost: Remarkable
+              Location: All Areas
+          Second Floor: *Office_Floor
+          Third Floor: *Office_Floor
           Fourth Floor:
-          Fifth Floor:
+            Conference Rooms:
+              Conference Room Package:
+                Cost: Remarkable
+                Note: Multiple
+            Employee Kitchen:
+              Kitchen Package:
+                Cost: Remarkable
+            Break Room:
+              Living Room Package:
+                Cost: Remarkable
+            Employee Lounge:
+              Rec. Room Package:
+                Cost: Remarkable
+            Employee Gym:
+              Gym Package:
+                Cost: Incredible
+            Storage, Bathrooms, and Closets:
+            Security Package:
+              Cost: Remarkable
+              Location: All doors and windows
+            Fire Protection Package:
+              Cost: Remarkable
+              Location: All Areas
+          Fifth Floor: *Office_Floor
           Sixth Floor:
+            Data Centers:
+              Computer Room:
+                Cost: Amazing
+                Note: Multiple
+            Office Suite:
+              Office Package:
+                Cost: Remarkable
+            Storage, Bathrooms, and Closets: *PSBC
+            Security Package:
+              Cost: Remarkable
+              Location: All doors and windows, perimeter
+            Fire Protection Package:
+              Cost: Remarkable
+              Location: All Areas
           Seventh Floor:
-          Roof:
+            Executive Floor Lobby:
+              Living Room Package:
+                Cost:
+                  Total: Amazing
+                  Base: Remarkable
+                  Note: *+2CS_High-Quality
+            Executive Conference Room:
+              Conference Room Package:
+                  Total: Monstrous
+                  Base: Incredible
+                  Note: *+2CS_High-Quality
+            Executive Office Suite:
+              Office Package:
+                Cost:
+                  Total: Amazing
+                  Base: Remarkable
+                  Note: *+2CS_High-Quality
+            Storage, Bathrooms, and Closets: *PSBC
+            Security Package:
+              Cost: Remarkable
+              Location: All doors and windows, roof access
+            Fire Protection Package:
+              Cost: Remarkable
+              Location: All Areas
+          Roof: &Roof
+            Helicopter Maintenance:
+              Hangar Package:
+                Cost: Excellent
+                Vehicle: Traffic Copter
+                Reference: &Hangar |
+                  Cost: Excellent Occupies one area per vehicle using that hangar. Servicing for a single air vehicle, including repair facilities. Each different vehicle requires its own hangar package.
+            Storage, Bathrooms, and Closets: *PSBC
+            Security Package:
+              Cost: Remarkable
+              Location: Roof access, hangar entrances
+            Fire Protection Package:
+              Cost: Remarkable
+              Location: All interior areas, helipad
+            Defense Package:
+              Cost: Amazing
+              Location: All areas
+              Note:
+                - Multiple: *Multiple_Defense
+              Reference: *Defense_Package
       Operations Building:
         Reference:
           Large Warehouse:
@@ -2615,7 +2774,67 @@ Game:
             Material Strength: Good
         Room Packages:
           Floor:
-          Roof:
+            Dispatch:
+              Communications Room:
+                Cost: Incredible
+            Briefing Room:
+              Conference Room Package:
+                Cost: Remarkable
+            Galley:
+              Kitchen Package:
+                Cost: Remarkable
+            Fleet Garage:
+              Garage Package:
+                Cost: Remarkable
+                Note:
+                  - Multiple: Size
+            Cafeteria:
+              Dining Room Package:
+                Cost: Excellent
+            Lounge:
+              Rec. Room Package:
+                Cost: Remarkable
+            Sentinel Gym:
+              Gym Package:
+                Cost: Amazing
+            Sentinel Training:
+              Danger Room:
+                Cost: Amazing
+            Administrative Office:
+              Office Package:
+                Cost: Remarkable
+            Primary Power:
+              Power Room:
+                Cost: Amazing
+            Backup Power:
+              Power Room:
+                Cost: Amazing
+            Boat Maintenance:
+              Dock Package:
+                Cost: Excellent
+                Vehicle: Speedboat
+                Note: Multiple
+            Personal Watercraft Maintenance:
+              Dock Package:
+                Cost: Excellent
+                Vehicle: Jetski
+                Note: Multiple
+            Hovercraft Maintenance:
+              Dock Package:
+                Cost: Excellent
+                Vehicle: Hovercraft
+            Storage, Bathrooms, and Closets: *PSBC
+            Security Package:
+              Cost: Remarkable
+              Location: All doors and windows, roof access, perimeter
+            Fire Protection Package:
+              Cost: Remarkable
+              Location: All Areas
+            Defense Package:
+              Cost: Amazing
+              Location: Perimeter and Exterior
+              Note: *Multiple_Defense
+          Roof: *Roof
       Technical Building:
         Reference:
           Large Factory:
@@ -2624,4 +2843,30 @@ Game:
             Material Strength: Incredible
         Room Packages:
           Floor:
-          Roof:
+            Production Floor:
+              Workshop Package:
+                Cost: Amazing
+                Note: Multiple
+            Research and Development:
+              Laboratory Package:
+                Cost: Amazing
+            Break Room:
+              Living Room Package:
+                Cost: Remarkable
+            Administrative Office:
+              Office Package:
+                Cost: Remarkable
+            Primary Power:
+              Power Room:
+                Cost: Amazing
+            Backup Power:
+              Power Room:
+                Cost: Amazing
+            Garage:
+              Garage Package:
+                Cost: Remarkable
+            Boat Maintenance:
+              Dock Package:
+                Cost: Excellent
+                Vehicle: Speedboat
+          Roof: *Roof
