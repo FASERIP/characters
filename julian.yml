@@ -2417,7 +2417,7 @@ Game:
               Total: Remarkable
               Base: Good
           Note:
-            - &+2CS_High-Quality +2CS Cost for extremely high-quality package.
+            - &+2CS_High-Quality +2CS to Cost for extremely high-quality Package.
             - Multiple:
               - Small
               - Medium:
@@ -2625,29 +2625,35 @@ Game:
                   Total: Incredible
                   Base: Remarkable
                 Note:
-                  - &+1CS_High-Quality +1CS for high-quality Package
+                  - &+1CS_High-Quality +1CS to Cost for high-quality Package
                   - Multiple: Size
+                Reference: *Living_Room_Package
             Auditorium:
               Conference Room Package:
                 Cost:
                   Total: Amazing
                   Base: Incredible
                 Note: *+1CS_High-Quality
+                Reference: &Conference_Room_Package |
+                  *Cost: Remarkable* - Occupies one room. Contains material for assembling of heroes, or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs. Wood paneling available at *Incredible Cost*.
             Conference One:
               Conference Room Package:
                 Cost:
                   Total: Amazing
                   Base: Incredible
                 Note: *+1CS_High-Quality
+                Reference: *Conference_Room_Package
             Reception Hall:
               Trophy Room Package:
                 Cost:
                   Total: Incredible
                   Base: Remarkable
                 Note: *+1CS_High-Quality
+                Reference: *Trophy_Room_Package
             Reception Kitchen:
               Kitchen Package:
                 Cost: Remarkable
+                Reference: *Kitchen_Package
             Reception Dining:
               Dining Room Package:
                 Cost:
@@ -2656,16 +2662,20 @@ Game:
                 Note:
                   - Multiple: Size
                   - *+1CS_High-Quality
+                Reference: *Dining_Room_Package
             Office Suite:
               Office Package:
                 Cost: Remarkable
+                Reference: *Office_Package
             Storage, Bathrooms, and Closets: *PSBC
             Security Package:
               Cost: Remarkable
               Location: All doors and windows, perimeter
+              Reference: *Security_Package
             Fire Protection Package:
               Cost: Remarkable
               Location: All Areas
+              Reference: *Fire_Protection_Package
             Defense Package:
               Cost: Amazing
               Location: Perimeter and Exterior
@@ -2675,55 +2685,69 @@ Game:
               Office Package:
                 Cost: Remarkable
               Note: Multiple
+              Reference: *Office_Package
             Storage, Bathrooms, and Closets: *PSBC
             Security Package:
               Cost: Remarkable
               Location: All doors and windows
+              Reference: *Security_Package
             Fire Protection Package:
               Cost: Remarkable
               Location: All Areas
+              Reference: *Fire_Protection_Package
           Second Floor: *Office_Floor
           Third Floor: *Office_Floor
-          Fourth Floor:
+          Fourth Floor: *Office_Floor
+          Fifth Floor:
             Conference Rooms:
               Conference Room Package:
                 Cost: Remarkable
                 Note: Multiple
+              Reference: *Conference_Room_Package
             Employee Kitchen:
               Kitchen Package:
                 Cost: Remarkable
+                Reference: *Kitchen_Package
             Break Room:
               Living Room Package:
                 Cost: Remarkable
+                Reference: *Living_Room_Package
             Employee Lounge:
               Rec. Room Package:
                 Cost: Remarkable
+                Reference: *Rec_Room_Package
             Employee Gym:
               Gym Package:
                 Cost: Incredible
+                Reference: *Gym_Package
             Storage, Bathrooms, and Closets:
             Security Package:
               Cost: Remarkable
               Location: All doors and windows
+              Reference: *Security_Package
             Fire Protection Package:
               Cost: Remarkable
               Location: All Areas
-          Fifth Floor: *Office_Floor
+              Reference: *Fire_Protection_Package
           Sixth Floor:
             Data Centers:
               Computer Room:
                 Cost: Amazing
                 Note: Multiple
+                Reference: *Computer_Room
             Office Suite:
               Office Package:
                 Cost: Remarkable
+                Reference: *Office_Package
             Storage, Bathrooms, and Closets: *PSBC
             Security Package:
               Cost: Remarkable
               Location: All doors and windows, perimeter
+              Reference: *Security_Package
             Fire Protection Package:
               Cost: Remarkable
               Location: All Areas
+              Reference: *Fire_Protection_Package
           Seventh Floor:
             Executive Floor Lobby:
               Living Room Package:
@@ -2731,38 +2755,45 @@ Game:
                   Total: Amazing
                   Base: Remarkable
                   Note: *+2CS_High-Quality
+                  Reference: *Living_Room_Package
             Executive Conference Room:
               Conference Room Package:
                   Total: Monstrous
                   Base: Incredible
                   Note: *+2CS_High-Quality
+                  Reference: *Conference_Room_Package
             Executive Office Suite:
               Office Package:
                 Cost:
                   Total: Amazing
                   Base: Remarkable
                   Note: *+2CS_High-Quality
+                  Reference: *Office_Package
             Storage, Bathrooms, and Closets: *PSBC
             Security Package:
               Cost: Remarkable
               Location: All doors and windows, roof access
+              Reference: *Security_Package
             Fire Protection Package:
               Cost: Remarkable
               Location: All Areas
+              Reference: *Fire_Protection_Package
           Roof: &Roof
             Helicopter Maintenance:
               Hangar Package:
                 Cost: Excellent
                 Vehicle: Traffic Copter
-                Reference: &Hangar |
+                Reference: |
                   Cost: Excellent Occupies one area per vehicle using that hangar. Servicing for a single air vehicle, including repair facilities. Each different vehicle requires its own hangar package.
             Storage, Bathrooms, and Closets: *PSBC
             Security Package:
               Cost: Remarkable
               Location: Roof access, hangar entrances
+              Reference: *Security_Package
             Fire Protection Package:
               Cost: Remarkable
               Location: All interior areas, helipad
+              Reference: *Fire_Protection_Package
             Defense Package:
               Cost: Amazing
               Location: All areas
@@ -2780,63 +2811,92 @@ Game:
             Dispatch:
               Communications Room:
                 Cost: Incredible
+                Reference: *Communications_Room
             Briefing Room:
               Conference Room Package:
                 Cost: Remarkable
+                Reference: *Conference_Room_Package
             Galley:
               Kitchen Package:
                 Cost: Remarkable
+                Note:
+                  - Multiple: Size
+                Reference: *Kitchen_Package
             Fleet Garage:
               Garage Package:
                 Cost: Remarkable
                 Note:
                   - Multiple: Size
+                Reference: *Garage_Package
             Cafeteria:
               Dining Room Package:
                 Cost: Excellent
+                Note:
+                  - Multiple: Size
+                Reference: *Dining_Room_Package
             Lounge:
               Rec. Room Package:
                 Cost: Remarkable
+                Note:
+                  - Multiple: Size
+                Reference: *Rec_Room_Package
             Sentinel Gym:
               Gym Package:
                 Cost: Amazing
+                Note:
+                  - Multiple: Size
+                Reference: *Gym_Package
             Sentinel Training:
               Danger Room:
-                Cost: Amazing
+                Cost:
+                  Total: Unearthly
+                  Base: Amazing
+                Note: *+2CS_High-Quality
+                Reference: |
+                  Cost: Incredible Duplicates Remarkable Cost Gym package with additional active dangers and security systems. "Threats" may be of any general type, but no "threat" may exceed Incredible in strength, Intensity, or damage. Amazing Cost: as Incredible, with threats increased to Amazing strength, intensity, or damage. Some limited holographic illusion generation at the Excellent rank. This represents the danger room of the type originally possessed by the X-Men and now used by the Hellions. The current X-Men danger room is a unique hybrid design using Shi'ar technology and has holographic abilities that outshine those listed here.
             Administrative Office:
               Office Package:
                 Cost: Remarkable
             Primary Power:
               Power Room:
                 Cost: Amazing
+                Reference: *Power_Room
             Backup Power:
               Power Room:
                 Cost: Amazing
+                Reference: *Power_Room
             Boat Maintenance:
               Dock Package:
                 Cost: Excellent
                 Vehicle: Speedboat
                 Note: Multiple
+                Reference: &Dock_Package |
+                  Cost: Remarkable Occupies three areas per sea or sub vehicle. Servicing for a single sea or sub vehicle, including drydock facilities. Each sea or sub vehicle requires its own dock package.
             Personal Watercraft Maintenance:
               Dock Package:
                 Cost: Excellent
                 Vehicle: Jetski
                 Note: Multiple
+                Reference: *Dock_Package
             Hovercraft Maintenance:
               Dock Package:
                 Cost: Excellent
                 Vehicle: Hovercraft
+                Reference: *Dock_Package
             Storage, Bathrooms, and Closets: *PSBC
             Security Package:
               Cost: Remarkable
               Location: All doors and windows, roof access, perimeter
+              Reference: *Security_Package
             Fire Protection Package:
               Cost: Remarkable
               Location: All Areas
+              Reference: *Fire_Protection_Package
             Defense Package:
               Cost: Amazing
               Location: Perimeter and Exterior
               Note: *Multiple_Defense
+              Reference: *Defense_Package
           Roof: *Roof
       Technical Building:
         Reference:
@@ -2850,26 +2910,47 @@ Game:
               Workshop Package:
                 Cost: Amazing
                 Note: Multiple
+                Reference: *Workshop_Package
             Research and Development:
               Laboratory Package:
                 Cost: Amazing
+                Reference: *Laboratory_Package
             Break Room:
               Living Room Package:
                 Cost: Remarkable
+                Reference: *Living_Room_Package
             Administrative Office:
               Office Package:
                 Cost: Remarkable
+                Reference: *Office_Package
             Primary Power:
               Power Room:
                 Cost: Amazing
+                Reference: *Power_Room
             Backup Power:
               Power Room:
                 Cost: Amazing
+                Reference: *Power_Room
             Garage:
               Garage Package:
                 Cost: Remarkable
+                Reference: *Garage_Package
             Boat Maintenance:
               Dock Package:
                 Cost: Excellent
                 Vehicle: Speedboat
+                Reference: *Dock_Package
+            Storage, Bathrooms, and Closets: *PSBC
+            Security Package:
+              Cost: Remarkable
+              Location: All doors and windows, roof access, perimeter
+              Reference: *Security_Package
+            Fire Protection Package:
+              Cost: Remarkable
+              Location: All Areas
+              Reference: *Fire_Protection_Package
+            Defense Package:
+              Cost: Amazing
+              Location: Perimeter and Exterior
+              Note: *Multiple_Defense
           Roof: *Roof
