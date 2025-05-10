@@ -2611,6 +2611,7 @@ Game:
 
         There is ample exterior and covered parking inside the perimeter in the outside lots and attached parking garage for employees, visitors, and company vehicles, all of them separate and watched, in addition to the maintenance garages inside the warehouse building. There is special, reserved parking outside for emergency and government vehicles.
       Administrative Building:
+        Description: Primary administrative building for the Varangian Guard leadership and support personnel.
         Reference:
           Office Building, 8 floors:
             Size:
@@ -2644,7 +2645,7 @@ Game:
             Private Hospital:
               Medical Package:
                 Cost: Amazing
-                Reference:  |
+                Reference:  &Medical_Package |
                   Cost: Remarkable Occupies one room. Equivalent of emergency room care, no heavy equipment, standard antidotes and medication. Incredible Cost: X-ray, clean room, operating room, pathology. (Additional rooms.) Amazing Cost: as above, plus cryogenics. Note: The Auto-doc and other life-saving devices are generally experimental on Earth. The one in the X-Men's possession is of Shi'ar hybrid technology, is one of the most powerful available, and is limited to Excellent healing ability.
             Primary Power:
               Power Room:
@@ -2762,6 +2763,8 @@ Game:
             Break Room:
               Living Room Package:
                 Cost: Remarkable
+                Note:
+                  - Multiple: Size
                 Reference: *Living_Room_Package
             Employee Lounge:
               Rec. Room Package:
@@ -2852,6 +2855,7 @@ Game:
                 - Multiple: *Multiple_Defense
               Reference: *Defense_Package
       Operations Building:
+        Description: Primary operations center for the Varangian Guard.  Includes barracks and crash bunks for security personnel, serves as dispatch, training facility, and fleet garage.
         Reference:
           Large Warehouse:
             Size:
@@ -2891,13 +2895,17 @@ Game:
                 Note:
                   - Multiple: Size
                 Reference: *Rec_Room_Package
-            Sentinel Gym:
+            Infirmary:
+              Medical Package:
+                Cost: Remarkable
+                Reference: *Medical_Package
+            Varangian Guard Gym:
               Gym Package:
                 Cost: Amazing
                 Note:
                   - Multiple: Size
                 Reference: *Gym_Package
-            Sentinel Training:
+            Varangian Guard Training:
               Danger Room:
                 Cost:
                   Total: Unearthly
@@ -2950,6 +2958,7 @@ Game:
               Reference: *Defense_Package
           Roof: *Roof
       Technical Building:
+        Description: Research and development and manufacturing and production all in one building.  Also has maintenance and repair facilities.
         Reference:
           Large Factory:
             Size:
@@ -2960,15 +2969,20 @@ Game:
             Production Floor:
               Workshop Package:
                 Cost: Amazing
-                Note: Multiple
+                Note:
+                  - Multiple: Size
                 Reference: *Workshop_Package
             Research and Development:
               Laboratory Package:
                 Cost: Amazing
+                Note:
+                  - Multiple: Size
                 Reference: *Laboratory_Package
             Break Room:
               Living Room Package:
                 Cost: Remarkable
+                Note:
+                  - Multiple: Size
                 Reference: *Living_Room_Package
             Administrative Office:
               Office Package:
@@ -2985,12 +2999,9 @@ Game:
             Garage:
               Garage Package:
                 Cost: Remarkable
+                Note:
+                  - Multiple: Size
                 Reference: *Garage_Package
-            Boat Maintenance:
-              Dock Package:
-                Cost: Excellent
-                Vehicle: Speedboat
-                Reference: *Dock_Package
             Storage, Bathrooms, and Closets: *PSBC
             Security Package:
               Cost: Remarkable
