@@ -66,23 +66,23 @@ Game:
             Number: 30
             Reference: Intensive exercise (Captain America, Cyclops)
           Reason:
-            Rank: Unearthly
-            Number: 125
-            Reference: In effect, IS an alien technology (Watcher)
-            Hyper-Intelligence: Increased by Monstrous (75) Hyper-Intelligence/Reason Power
+            Rank: Amazing
+            Number: 50
+            Reference: Create leading-edge technologies, such as stardrive or time travel (Mister Fantastic, Doctor Doom)
+            Hyper Intelligence: +9CS (Max Shift-Z) for Power Rank minutes
           Intuition:
-            Rank: Unearthly
-            Number: 125
-            Reference: In touch with universe, cannot be blindsided (Watcher)
-            Hyper-Intelligence: Increased by Monstrous (75) Hyper-Intelligence/Intuition Power
+            Rank: Incredible
+            Number: 40
+            Reference: Strong empathic sense; gut feeling (Captain America, Doctor Doom)
+            Hyper Intelligence: +9CS (Max Shift-Z) for Power Rank minutes
           Psyche:
-            Rank: Monstrous
-            Number: 75
-            Reference: Intense training in mental powers, experience in wielding those powers  (Professor X, Loki)
+            Rank: Amazing
+            Number: 50
+            Reference: Indomitable willpower (Marvel Girl, Doctor Doom)
             Psi-Screen: +1CS to resist mental attacks from Resist Domination Talent
         Secondary Abilities:
           Health: 140
-          Karma: 325
+          Karma: 140
           Resources: 
             Rank: Amazing
             Number: 50
@@ -228,11 +228,11 @@ Game:
                 Reason: 
                   Rank: Monstrous
                   Number: 75
-                  Type: Permanent
+                  Type: Intermittent
                 Intuition:
                   Rank: Monstrous
                   Number: 75
-                  Type: Permanent
+                  Type: Intermittent
                 Reference: |
                   Normally a character's Intelligence is determined in the Character Generation Process. However, the research for the Ultimate Powers Book showed that extreme levels of Intelligence can be a Power in its own right. Examples include The Leader and the late Soviet scientist known only as Gargoyle. The hyper-intelligent character is a genius of awesome potential. He can quickly master new subjects, retain that knowledge indefinitely, and easily succeed in any mental endeavor.
 
@@ -242,7 +242,7 @@ Game:
 
                   The second method uses Hyper-Intelligence the same way most other Powers are used-intermittently. Just as Siryn doesn't scream all the time, so too would a Hyper-intelligent character have normal intelligence most of the time. When he uses his Power, he transforms himself into a mental giant. The way it operates is the character's normal rank for either Reason or Intuition is raised the number of levels equal to the Power rank (Feeble is +1CS, Poor +2CS, and so on). The total is the actual Hyper-Intelligence rank the character can achieve using this Power. The hero can retain this higher rank for a limited amount of time: the duration is the number of minutes equal to the original Ability's rank number. This is for the first time each day the hero uses the Power. Each successive time the hero uses his Power within the same day decreases the duration -1CS.
 
-                  Example: Steve is creating an awesomely wise alien named Shepherd. Shepherd has a normal Incredible Intuition rank. His Power rank is Excellent. This raises the Intuition rank by +5CS to a potential Shift-Y rank. Shepherd can retain this enhanced state for an Excellent duration of 40 minutes before he reverts to normal. summoning his Power a second time, he returns to Shift-Y Intuition for a Remarkable duration of only 30 minutes. He can summon his Power five more times after that, then he has to rest.
+                  Example: Steve is creating an awesomely wise alien named Shepherd. Shepherd has a normal Incredible Intuition rank. His Power rank is Excellent. This raises the Intuition rank by +5CS to a potential Shift-Y rank. Shepherd can retain this enhanced state for an Excellent duration of 40 minutes before he reverts to normal. Summoning his Power a second time, he returns to Shift-Y Intuition for a Remarkable duration of only 30 minutes. He can summon his Power five more times after that, then he has to rest.
 
                   When creating the character, the player can increase the Power rank +1CS by specializing in a specific fields. After all, comics are filled with characters who are titans in the lab but failures in other fields. Possible fields include Professional and other Talents, such as Medicine, Engineering, and Animal Training.
 
@@ -317,9 +317,9 @@ Game:
                 Number: 75
                 Total:
                   Rank: Class 1000
-                  Number: 2194
+                  Number: 1994
                   Spread: 30
-                  Turns to Full Recovery: 30
+                  Turns to Full Recovery: 27
                 Reference: The hero can channel all his raw energy into a single burst of a chosen Ability or Power. All his Power and Ability rank numbers are totaled together. This rank number replaces the rank number for a chosen Power. Upon the completion of releasing the Power, all the hero's Abilities and Powers temporarily drop to Feeble. This Power's rank number is the total amount of lost points the hero can regain each turn. Points are divided evenly between all the depleted Abilities and Powers. (Okay, this isn't really a Power either. Roll again for an additional Power.)
             Other Powers: #From APB
               Body Alterations/Defensive:
@@ -334,15 +334,18 @@ Game:
                     An immortal character's body will slowly regenerate lost parts and heal. so that short of atomizing the remains and spreading that collection of atoms through a large portion of space, the immortal character will return at some point in the future.
 
                     Immortality is applicable to the Earth Dimension only (including all planets of this dimension). An immortal character in another dimension—such as Asgard or Olympus, but excluding variant or divergent earths-does not age, but may be killed normally while in that dimension.
+              Mental Powers:
+                Mechanical intuition:
+                  Reference: This is a specific form of Ultimate Skill that affects repairs. inventing, and building things. The character with this Power has a strong intuitive knowledge of machinery. Regardless of Reason, any rolls for determining whether an invention works or not are at Unearthly Rank. No modifiers may be added to this roll. The character with this Power must still provide Resources for these inventions in the standard fashion.
               Magic:
                 Eldritch Bolts:
-                  Rank: Monstrous
-                  Number: 75
+                  Rank: Amazing
+                  Number: 50
                   Reference: &Eldritch_Bolts |
                     Eldritch Bolt is a bolt of magical power, and includes all manner of spells such as Doctor Strange's Bolt of Bedevilment. The range is as determined in the spell range table, and damage is equal to the Power rank, with the following difference: the bolt may reduce Health or Karma values (in the latter case, the target's effectively out of luck). If the bolt attacks Health, treat it as a Force attack.
                 Eldritch Shield:
-                  Rank: Monstrous
-                  Number: 75
+                  Rank: Amazing
+                  Number: 50
                   Reference: &Eldritch_Shield |
                     The Eldritch Shield is a shield of mystical energy that provides the caster with mystical Body Armor equal to the caster's rank number. This is also proof against magical attacks or those attacks which arise from magic.
 
