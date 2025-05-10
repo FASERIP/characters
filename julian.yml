@@ -1866,6 +1866,24 @@ Game:
                   Protection: Typical
                   Reference: Corporate Jets are turbo‑prop airliners used by corporations, seating two crew and up to 20 passengers comfortably.
             Hierax Two: *Hierax
+            Prototype Bipedal Vehicle:
+              Reference:
+                Walker:
+                  Type:
+                    Off-Road: *Off-Road
+                  Control: Good
+                  Speed: Good
+                  Body: Remarkable
+                  Protection: Remarkable
+            Prototype Tunneling Vehicle:
+              Reference:
+                Borer:
+                  Type:
+                    Off-Road: *Off-Road
+                  Control: Poor
+                  Speed: Typical
+                  Body: Remarkable
+                  Protection: Remarkable
           Supporting Cast:
             Security:
               Security Officer:
