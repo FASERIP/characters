@@ -812,13 +812,13 @@ Game:
               Powers: 
                 Energy Control:
                   Fire Control: #EC10
-                    Rank: Monstrous
-                    Number: 75
+                    Rank: Amazing
+                    Number: 50
                     Reference: The hero can control existing flames, whether natural or Power-based. He can alter any factor involved in combustion without direct physical contact. The hero can increase or decrease the flame's Intensity up to his Power rank and reduce fire damage by his rank number. This Power includes Power rank Resistance to Fire and Heat. The most important aspect of this Power is enabling the hero to reshape flame into any form he desires. This can be used in a variety of Power stunts, as the hero develops numerous fiery constructs to perform miscellaneous deeds. Such fiery constructs do not act like normal flames. They emit less heat and consume less oxygen. Their fire doesn't spread past the outline of the constructs. In addition, they self-extinguish rapidly upon cessation of this Power. Optional Powers include Fire Generation, Thermal Control, Energy Sheath, and Energy Body.
                 Energy Emission:
                   Fire Generation: #EE4
-                    Rank: Monstrous
-                    Number: 75
+                    Rank: Amazing
+                    Number: 50
                     Reference: &Fire_Generation |
                       The hero can project fire with Power rank damage and range. These flames have no apparent fuel source and spring from the hero as if he were a living fuel tank. Although the flames' fuel comes out of the proverbial nowhere, free oxygen must be present for the Power to function. If not, the hero can cause a single flame that lasts' only one turn, then fizzles out. At Shift X rank, the hero gains the ability to generate oxygen as well, permitting this Power to function under any conditions. When creating the hero, the player can choose the Powers of Flame Control, Energy Sheath, and Energy Body to fill any slots still open. For example, under the Ultimate system, the Human Torch possesses three powers: Fire Generation, Fire Control, and Energy Sheath.
 
@@ -826,13 +826,13 @@ Game:
 
                       Fire Generation is the opposing Power to Cold Emission, Coldshaping, and Powers that use water. This Power gains +1CS when fighting these Powers. It also loses -1CS when being attacked by those Powers.
                   Kinetic Bolt: #EE7
-                    Rank: Monstrous
-                    Number: 75
+                    Rank: Amazing
+                    Number: 50
                     Reference: |
                       This is a crude form of M30/Telekinesis. The hero can strike a target with a surge of force at Power rank range and damage. The Kinetic Bolt can be shaped as desired by the hero. It can be a wide cylinder, or an incredibly fine needle. Its effect is the same as if the target had been struck by a solid object of equal material strength. This Power can affect only tangible materials. It includes Resistance to Kinetic Bolts, Kinetic Control, or Telekinesis. Optional Powers are Kinetic Control and Telekinesis, which are also the Nemeses.
                   Light Emission: #EE8
-                    Rank: Monstrous
-                    Number: 75
+                    Rank: Amazing
+                    Number: 50
                     Reference: &Light_Emission |
                       The hero can emit powerful bursts of light do Power rank damage at rank range. The light may be of any nature:
 
@@ -842,8 +842,8 @@ Game:
 
                       The player can raise the hero's rank upon creation by +2CS if he chooses specialization in a specific form of this Power.
                   Plasma Generation: #EE10
-                    Rank: Monstrous
-                    Number: 75
+                    Rank: Amazing
+                    Number: 50
                     Power Stunts:
                       - Light: *Light_Emission
                       - Heat: |
@@ -891,8 +891,8 @@ Game:
                       Plasma is a Nemesis to the Powers of Energy Sheath and Energy Body. The hero gains +1CS when attacking either Power. Plasma's own Nemeses are Plasma Control and Power Control.
                 Lifeform Control:
                   Neural Manipulation: #L12
-                    Rank: Monstrous
-                    Number: 75
+                    Rank: Amazing
+                    Number: 50
                     Reference: |
                       The hero can alter a target's neural activity. By changing nerve messages within the target's body, the hero can cause a variety of effects.
 
@@ -904,8 +904,8 @@ Game:
                       Normally, a hero can select any of these effects. When creating the hero, the player can choose to specialize in one effect for a benefit of +2CS. Note: This Power only affects the voluntary muscles; it does not affect the autonomic nervous system which controls the heart, lungs, and other automatic bodily functions. The range and duration of this Power are determined by its rank. Suitable distances are shown on column A of the Range Table. The Power normally affects only a single person; affecting more causes a decrease in duration of -1CS per additional person. The target's mind and senses are unaffected by the Power: the victim knows full well what is happening (even if he doesn't know why it's happening to him). The Power can reach across the dimensional barriers if it is combined with some way of breaching the dimensions. It can function normally if both hero and target are within another dimension.
                 Matter Conversion:
                   Disintegration: #MCo3
-                    Rank: Monstrous
-                    Number: 75
+                    Rank: Amazing
+                    Number: 50
                     Reference: |
                       This is the ever popular but never explained "Disintegrator Ray." The hero has the ability to convert any matter into pure energy, usually Light although the player can specify another resultant energy when he first creates the character. The energy dissipates harmlessly and does not affect anyone in the vicinity.
 
@@ -926,8 +926,8 @@ Game:
                       Nemeses for Disintegration are Phasing (to protect the hero) and Ionization (to protect others) as the Power cannot affect intangible matter.
                 Matter Creation:
                   Missile Creation: #MCr5
-                    Rank: Monstrous
-                    Number: 75
+                    Rank: Amazing
+                    Number: 50
                     Missiles:
                       Stunning Missile:
                         Power: ~
@@ -959,8 +959,8 @@ Game:
 
                       There are two Nemeses for this Power. If the Power is innate to the hero, Reflection stops it. If the Power is externalized in a weapon, Induced Teleportation works by removing the weapon from the hero's possession and giving it to the opponent.            
                   Spray: #MCr7
-                    Rank: Monstrous
-                    Number: 75
+                    Rank: Amazing
+                    Number: 50
                     Sprays:
                       Spray:
                         Power: ~
@@ -1002,8 +1002,8 @@ Game:
 
                       There are two Nemeses for this Power. If the Power is innate to the hero, then Reflection stops it. If the Power is externalized in a device, Induced Teleportation works be removing the device from the hero's possession and turning it over to the Nemesis.
                   Webcasting: #MCr8
-                    Rank: Monstrous
-                    Number: 75
+                    Rank: Amazing
+                    Number: 50
                     Webs:
                       Adhesive:
                         Power: ~
@@ -1106,8 +1106,8 @@ Game:
                 Powers:
                   Defensive:
                     Body Armor: #D1
-                      Rank: Monstrous
-                      Number: 75
+                      Rank: Amazing
+                      Number: 50
                       Reference: |
                         The hero possesses artificially-created armor that provides protection and possibly a way of possessing other Powers.
 
@@ -1116,24 +1116,24 @@ Game:
                         The player also has to determine where he got the Armor in the first place. This is covered in the "Character Creation" section elsewhere in this book. If the hero gained the armor through an accident, he might not be able to repair it.
                   Detection:
                     Energy Detection: #DT3
-                      Rank: Monstrous
-                      Number: 75
+                      Rank: Amazing
+                      Number: 50
                       Reference: Range column D. The hero can detect and identify energy and related phenomena. The power can only detect actual energy, not potential energy (it couldn't detect a bomb until it explodes, for example). Likewise, while it can detect the energies consciously emitted by superhumans, it cannot detect the superhumans themselves. Rank determines range.
                     Radarsense: #DT15
-                      Rank: Monstrous
-                      Number: 75
+                      Rank: Amazing
+                      Number: 50
                       Reference: |
                         Range column B. The hero can gain a three-dimensional picture of his surroundings through the use of electromagnetic waves. The hero both emits and senses these waves. He can use the Power to locate and identify targets by their characteristic echoes. Because of the hero's sensitivity to electromagnetic waves, he has an increased vulnerability to electrical and magnetic attacks (-1CS): these temporarily negate the Radarsense.
                     Sonar: #DT16
-                      Rank: Monstrous
-                      Number: 75
+                      Rank: Amazing
+                      Number: 50
                       Reference: |
                         Range column B. The hero can gain a three-dimensional picture of his environment through the use of soundwaves. The Power allows the hero to locate and identify targets by the way they reflect sound.
 
                         There are two ways this Power can operate. Passive Sonar utilizes existing sound. Active Sonar uses special sounds emitted by the hero (this is how bats and dolphins do it). The latter form requires a special adaptation of the hero's voice: otherwise there is no real difference between them. Because of the special sensitivity of the hero's hearing, he is vulnerable to sonic attacks (-1CS to resist).
                     Telescopic Vision: #DT17
-                      Rank: Monstrous
-                      Number: 75
+                      Rank: Amazing
+                      Number: 50
                       Reference: |
                         Range column E. The hero's eyes can focus on extremely distant targets, objects too small for normal vision to perceive. The eyes function as telescopes, magnifying normal visual images. With this Power, the hero can see anything in his line of sight, even the surfaces of distant worlds. However, the Power is limited by the speed of light. Images of Alpha Centauri, for example, are five years old.
 
@@ -1141,15 +1141,15 @@ Game:
 
                         When using this Power, the distant objects appear very close. An adversary with a means of altering the hero's control over this Power might make the Telescopic Vision continually override the hero's normal sight. The effect would be disastrous (imagine trying to walk through Manhattan when all you're seeing are the sands of Mars).
                     Thermal Vision: #DT18
-                      Rank: Monstrous
-                      Number: 75
+                      Rank: Amazing
+                      Number: 50
                       Reference: |
                         The hero can see infrared light and heat images. This allows the hero to see in the dark, perceive temperature differences (especially those left by a living person's contact with an object), and partially see through solids. In the last case, the hero can only see the heat patterns of objects touching the other side of the barrier.
 
                         With practice, the hero can judge the temperature of a target by its thermal color. The hero has an increased risk of being blinded by strong heat sources, even those that don't affect normal vision (-1CS). Thermal vision may be a consciously-activated mode or the hero's normal means of vision.
                     Ultraviolet Vision: #DT21
-                      Rank: Monstrous
-                      Number: 75
+                      Rank: Amazing
+                      Number: 50
                       Reference: |
                         The hero can see ultraviolet light. Because UV light isn't as readily absorbed by water as normal light, this Power enables the hero to see clearly through fog and at greater distance in the water (+1CS). The hero can also see the dim light given off by radioactive materials.
 
@@ -1172,13 +1172,13 @@ Game:
 
                         The Power only protects the hero from environmental effects or Powers that employ aspects of the Environment. Beside the Powers mentioned earlier, this Power will also provide limited protection against Electrical Control, Electrical Generation, Coldshaping, Gravity Manipulation, Hard Radiation and its Control, Thermal Control, Plague Carrier, Geoforce, Spray, and Pheromones, but only if the offending Power originates outside the Micro-Environment.
 
-                        As hinted at before, the Power can be used to create any environment the hero desires, provided it is beneficial to whatever nature of being is inside its protection. Of course, what is a marvelous climate for one being could be instantly fatal to another. Consider the Micro-Environments created by beings that thrive on super-heated steam or swim in liquid helium. Player characters are limited to producing only those MicroEnvironments that will help the beings inside. Villainous and Mind- Controlled NPC heroes are able to pervert the Power and create toxic Micro-Environments. In such a case, the Power is treated as an attack and the intended victim is urged to Resist it in any way he can.
+                        As hinted at before, the Power can be used to create any environment the hero desires, provided it is beneficial to whatever nature of being is inside its protection. Of course, what is a marvelous climate for one being could be instantly fatal to another. Consider the Micro-Environments created by beings that thrive on super-heated steam or swim in liquid helium. Player characters are limited to producing only those Micro-Environments that will help the beings inside. Villainous and Mind-Controlled NPC heroes are able to pervert the Power and create toxic Micro-Environments. In such a case, the Power is treated as an attack and the intended victim is urged to Resist it in any way he can.
 
                         The Nemeses are either Air or Liquid Animation, depending on the nature of the Micro-Environment.
                   Travel:
                     Rocket:
-                      Rank: Monstrous
-                      Number: 75
+                      Rank: Amazing
+                      Number: 50
                       Reference: | #T13
                         The hero flies by means of a rocket-like exhaust that propels him at Power rank speed. The rocket blast is created by a thermo-chemical reaction generated by the hero's body. The Power converts whatever material is around him into fuel and oxidant, then it shapes the exhaust into a stream to propel him. If the hero is in a vacuum, the Power creates fuel out of virtual nothingness.
 
