@@ -204,15 +204,60 @@ Game:
                   This Power summons one being at a time. Each additional being decreases the Power's rank by -1CS.
 
                   Remember that most magical beings are intelligent and that many are hostile to humans. The being a hero summons today might hold a grudge against him for eons to come.
+            Magic:
+              Enchantment: #MG1
+                Rank: Amazing
+                Number: 50
+                Reference: |
+                  The Mage is able to invest a target with Magical Power. The target must be a non-sentient being or even nonliving matter. The Mage is able to turn the Enchanted item into a battery that can harmlessly store Magic. Any spell stored within the item can be retained indefinitely in a state of readiness until the spell is somehow released. The Mage can store any spell he already possesses with the sole exception of this Power; a Mage cannot Enchant something that will then Enchant something else later on. If the Mage is working in conjunction with another being who possesses other Magic or Powers, these can be stored away as well by incorporating them into the spell.
+
+                  Enchantment can store any number of spells, within the limit imposed by Enchantment's rank number. The total rank numbers of any.spells that are Enchanted into a target cannot exceed Enchantment's own rank number.
+
+                  For example, Feeble Enchantment can only store a single Feeble spell; Monstrous Enchantment can store one Amazing and one Excellent spell, seven Good spells, 37 Feeble spells, or any combination.
+
+                  The Mage is not required to cram everything he has into every Enchantment he makes.
+
+                  The Mage must make contact With the item in order to fully Enchant it. If he does not make physical contact, the rank of any spells he is storing decreases -1CS for each ten feet that separates the Mage and the item. For example, a Monstrous Enchantment could only place Typical spells in a target 60 feet away.
+
+                  Enchantment is disrupted by the presence of a Psyche in the target. This is why only non-sentient or nonliving items can be used. While sentient Robots and Computers cannot be Enchanted, mindless servomechanisms can be. The mechanical components of a Cyborg may fall into this category; the Judge is free to decide on an individual basis. If he decides so, the Enchantment does not directly affect the living sections of the Cyborg.
+
+                  Enchantment can be prevented by a variety of factors. Interrupting the Mechanism that creates this Effect will prevent Enchantment from occurring at all. Removing the target causes the Mage to Enchant the now-empty air; if the inter. loper substitutes another item before the Mechanism is complete, then that item will get Enchanted instead. A would-be target can be protected from unwanted Enchantment by Force Field vs. Magic, Resistance to Magic, Magic Control, Magic Domination, or a previously created Ward.
+
+                  When the Mage Enchants the item, he must specify the stimulus that will release the Magic. This can be a specific time, event, condition, intended target, or have a controlled release at the will of whoever is in possession of the Enchanted item. This last example includes such things as magical amulets, swords, wands, and the rest of the exotic paraphernalia that clutters the Sword-and-Sorcery genre.
+
+                  Such an item reverts to normal when all the spells have been released. Some spells are permanent modifications. These are spells that only directly affect the item itself and not a second, external target later on. The innate Powers of a permanently Enchanted item can be resisted or even negated by such Powers as Force Field vs. Magic, Resistance to Magic, Iron Will, Magic Control, or Magic Domination.
+
+                  Optional Powers include Elemental Conversion, Molecular Conversion, and Molding.
+
+                  Nemeses include Force Field vs. Magic, Resistance to Magic, Magic Control, or Magic Domination.
+              Warding: #MG13
+                Rank: Amazing
+                Number: 50
+                Reference: |
+                  The Mage can create areas of latent Power in any desired location. The Ward is designated by a special substance or mark. The mage decides what specific Powers the Ward possesses and what the triggering stimulus will be. When that stimulus occurs, the Ward releases all its power is a single turn, generally in the direction of whatever created the stimulus.
+
+                  The Power's rank determines how great a variety of Wards the Mage can create. The rank number is also the number of Powers he can incorporate into his Wards, even if the Mage cannot directly use those Powers. hirrn-self. Each Wards's intensity rank is the same as the Mage's own rank. For example, a Mage with Excellent Warding can create 20 different Wards, each possessing Excellent Intensity rank.
+
+                  A Remarkable Intensity FEAT enables the Mage to create a single-use Ward. An Amazing Intensity FEAT enables him to create a self-renewing Ward. The Power rank number is also the maximum number of Wards a Mage can have in existence at any one time. If the Mage tries to surpass this number, his oldest still-existing Ward harmlessly vanishes. The minimum distance between Wards is one foot for each point of the Wards' combined Intensity rank numbers. For example, a Feeble and a Monstrous Ward must be separated by at least 77 feet. If the Mage attempts to place a new ward within range of an existing one, the new one will not function. If the new Ward's area of effect would overlap with another Ward, the new Ward cannot have the full Intensity rank. The new Ward will have a maximum rank that will only touch the edge of the earlier Ward's range. For example, a Good Ward coyers an area of ten-foot radius.If the Mage tries to create a Remarkable Ward within twenty feet of the Good Ward, lie discovers he can only create a Good ward at best. If he backs off another twenty feet, though, he can create the Intensity he desires.
+
+                  The triggering mechanism can be any condition stated by the Mage at the time of creation. Normally Wards are. triggered by the close passage of a living being. Thus they are often found near doorways or in passages.
+
+                  Once created, Wards last until they are depleted or destroyed. Given the durability of modern building materials, a Ward can last for about a century or so. (Quick, name five 100-year-old buildings in your area!) Wards can be destroyed by demolishing the surface on which they are placed or by the use of Magic Control/Negation. Wards can be detected by a number of ways. The simplest is the brute force method of triggering them (also called the really stupid method). The presence of a Ward can be revealed by either Energy, Magic, Power, or Psionic Detection.
+
+                  Shortly after the Mage has been created, the Player should make up a list of at half of the possible Wards he can create. The Player should return to the Power Generation tables on pages 14-16 and randomly generate all the Powers the Mage can incorporate into Wards. Wards that employ a special variation on normal Power use, such as a Power Stunt, should be treated as individual Wards.
+
+                  Example: Consider two different Wards that each employ Force Field Generation. One creates a trap that envelops anyone within the target area. The other one creates an invisible column of force that shoves anyone back with rank level Strength. Each of these is considered a separate Ward and requires a unique designation.
+
+                  Nemesis Powers include Energy, Magic, Psionic, and Power Detections and Resistance to Magic.
             Mental Enhancement:
               Hyper-Intelligence: #M13
                 Reason: 
-                  Rank: Amazing
-                  Number: 50
+                  Rank: Unearthly
+                  Number: 100
                   Type: Intermittent
                 Intuition:
-                  Rank: Amazing
-                  Number: 50
+                  Rank: Unearthly
+                  Number: 100
                   Type: Intermittent
                 Reference: |
                   Normally a character's Intelligence is determined in the Character Generation Process. However, the research for the Ultimate Powers Book showed that extreme levels of Intelligence can be a Power in its own right. Examples include The Leader and the late Soviet scientist known only as Gargoyle. The hyper-intelligent character is a genius of awesome potential. He can quickly master new subjects, retain that knowledge indefinitely, and easily succeed in any mental endeavor.
@@ -298,9 +343,9 @@ Game:
                 Number: 50
                 Total:
                   Rank: Class 1000
-                  Number: 1429
-                  Spread: 25
-                  Turns to Full Recovery: 29
+                  Number: 1629
+                  Spread: 27
+                  Turns to Full Recovery: 33
                 Reference: The hero can channel all his raw energy into a single burst of a chosen Ability or Power. All his Power and Ability rank numbers are totaled together. This rank number replaces the rank number for a chosen Power. Upon the completion of releasing the Power, all the hero's Abilities and Powers temporarily drop to Feeble. This Power's rank number is the total amount of lost points the hero can regain each turn. Points are divided evenly between all the depleted Abilities and Powers. (Okay, this isn't really a Power either. Roll again for an additional Power.)
             Other Powers: #From APB
               Body Alterations/Defensive:
@@ -755,7 +800,7 @@ Game:
                   - One-Handed
                   - Shot bursts, which affects up to three adjacent targets, with one roll made for all targets.
                 Ammunition:
-                  Power Pack: Stun, concussion, and laser weapons operate from power packs and may not use other types of ammunition.
+                  Power Pack: &Power_Pack Stun, concussion, and laser weapons operate from power packs and may not use other types of ammunition.
                   Bullets:
                     Standard: &Standard_Ammunition Damage listed for each weapon is for standard ammunition.
                     Mercy Shot: There are several types of specialized ammunition, the first of which is Mercy Shot. Mercy bullets inflict no damage, but spread a Remarkable Intensity knock-out drug over the skin of the target. If the bullet inflicts damage to the target, the drug takes effect, knocking those affected out for 1-10 rounds.
@@ -795,9 +840,31 @@ Game:
                 Mace: &Mace Mace is a small one-area weapon that shoots a mist of Typical Intensity tear gas at a single target adjacent to the user. It does not require an Agility FEAT to hit, though the target must make an Endurance FEAT to avoid the effects.
                 Flare Pistol: Flare Pistols fire a burning charge that lights the sky, either to provide illumination (lighting all areas within three) or as a signal device (fired 10 floors straight up). Used as a weapon, the device has a range of two areas and inflicts Good damage. The charge is incendiary and will ignite flammable material.
             Mk. 1:
-              Description: A sleek, futuristic device with extendable stock and forestock to transition between handgun to long gun form factors. It may be attached to the Sentinel Battlesuit Mk. 1's arm, becoming an integral part of the suit, or operate off a power pack as an energy source to be used as a standalone device.
+              Description: A sleek, futuristic device with extendable stock and forestock to transition between handgun to long gun form factors. It may be attached to the Sentinel Battlesuit Mk. 1's arm, becoming an integral part of the suit, or operate off a power pack as an energy source to be used as a standalone device for 10 uses of any power per Power Pack.
               Material Strength: Amazing
-              Powers: 
+              Powers:
+                Defensive:
+                  Force Field: #D2
+                    Rank: Amazing
+                    Number: 50
+                    Reference: |
+                      This is the type of field used by the Invisible Woman. It provides protection against a variety of forces, including brute force, energy attacks, and extreme temperature conditions. It can be projected and used for a variety of Power stunts.
+
+                      The following seven force fields protect against specific forms of attack. Each protects the hero and the surrounding area. The maximum size of the force field is the number of areas equal to 10% of the Power rank number. For example, a Monstrous Force Field can protect 7.5 areas.
+
+                      The force field completely absorbs any attack which has an Intensity equal to or less than the Power's rank number. If the Intensity is higher, it is reduced by the Power's rank number. The remaining Intensity breaches the force field and affects anyone within by this diminished effect.
+
+                      These forms cannot be used for many of the Power stunts suggested for force fields as given in the Player's Book.
+
+                      These cannot be used to physically attack or to handle solid materials. However, the hero can develop Power stunts which reflect each form's special nature.
+
+                      The hero can form shields to protect distant targets at +2CS range.
+
+                      By expanding his field outward, the hero can sweep his surroundings clean of anything affected by his force field.
+
+                      The Power can be used as a filter to sort out anything affected by his force field.
+
+                      The force field can be formed around something it would affect, thus trapping it. The hero can move the "trap" at will up to +2CS by means of a red FEAT.
                 Energy Control:
                   Fire Control: #EC10
                     Rank: Amazing
@@ -990,15 +1057,47 @@ Game:
                       The hero has a finite amount of Spray. The maximum number of Sprays the hero can create in a 24-hour period is equal to his Power rank number. This limit also applies to Technological or Magical versions of this Power; the gasgun/flute/whatever simply clogs up from repeated use.
 
                       There are two Nemeses for this Power. If the Power is innate to the hero, then Reflection stops it. If the Power is externalized in a device, Induced Teleportation works be removing the device from the hero's possession and turning it over to the Nemesis.
-                Power Control: #PC 5
-                  Energy Source:
-                    Source: Defender Battlesuit Mk. 1
+                Mental Enhancement:
+                  Telekinesis: #M30
+                    Rank: Amazing
+                    Number: 50
+                    Reference: |
+                      The hero can handle material objects without having to make direct or indirect physical contact (pushing or blowing, for example). The hero can perform any action that could be accomplished using normal Strength. The Power rank serves as an equivalent for the Strength rank. Most Telekinetics ("TKs") visualize their Power in terms of an amorphous arm extending from the body. This leads to a curious psychological handicap in that most TKs cannot lift their own bodies. Only rare examples like Marvel Girl have overcome this bit of irrationality.
+
+                      The range is determined by the Power rank. Column A on the Range Table shows the ranges for a single act of TK activity. Each additional simultaneous action reduces the range -1CS. Multiple activities share the common pool of TK strength. The more actions that are attempted, the weaker each telekinetic arm becomes. If the hero attempts to perform a greater number of simultaneous complex activities than the Judge thinks plausible, the Judge may require an Agility FEAT.
+
+                      If the hero also possesses Remote Sensing, she can develop a sense of touch through her TK grasp. This permits the hero to handle materials that are not within her sight. Clairvoyance can be incorporated into TK to permit visual guidance.
+
+                      Optional Powers include Matter Animation, Molding, Clairvoyance, Remote Sensing/Touch, Levitation, and True Flight.
+
+                      Nemesis is either Force Field vs. Psionics or Gravity Manipulation.
+                Power Control:
+                  Energy Source: #PC5
+                    Source:
+                      - Defender Battlesuit Mk. 1
+                      - Power Pack: *Power_Pack
+                      - Room Package: Power Room
+                      - Power grid
                     Reference: |
                       The hero draws his Powers from a special source that provides him with all the energy he can handle. As long as the hero can maintain his link with this source, he can continue to use his Powers. The nature of the source and its link varies with each hero. If the source is small enough, the hero may be required to carry it with him. If not, perhaps the hero needs to periodically return to the source or forge an ethereal Power cord that links him to his Source despite any intervening distance. The Judge and player need to work together to produce a playable source and link.
 
                       If the link is severed or the source destroyed, the Mage is left with a finite supply of energy left. The amount of raw Power left is the number of points equal to his Psyche rank. Each time he uses Power, he decreases the reservoir by that Power's rank number. Obviously, it is within the hero's best interests to renew his link or rebuild his source in as little time as possible.
 
                       As you are beginning to suspect, this isn't really a Power and is more of a restraint. You're right. If you roll this Power, go ahead and roll an additional Power.
+                Travel:
+                  Floating Disc: #T5
+                    Rank: Amazing
+                    Number: 50
+                    Reference: |
+                      The hero can create a glowing platform of solid light. The disc materializes to support any part of the hero's body: generally this is under the feet or posterior. The disc is a part of the hero's Power and has no independent existence beyond him. The disc can automatically support the hero and additional mass. The weight is supported by a Power FEAT with the Power substituting for Strength. For example, creating a Floating Disc to lift five tons is an Incredible Intensity FEAT. The disc's surface area expands to support wide loads.
+
+                      Travel occurs at Power rank speed. The Power provides no innate protection against high windspeed and friction burns, thus the practical speed limit for atmospheric Flight is Remarkable (225 mph). The Power can be used in the water with proportionally decreased speed.
+
+                      If the hero is a technological type or possesses such Powers as Hyper-Intelligence, Hyper-inventiveness, Weapons Tinkering, or Mechanical Creation, then the Floating Discs can be mechanical in nature. Such disks collapse for easy storage somewhere on the hero's costume, such as a false bottom in the boots. An example of this is the Wizard's anti-grav disks.
+
+                      The Optional Power is Kinetic Bolt: the energy resembles the Floating Disc.
+
+                      Nemesis is Energy Vampirism.
           Warden Staff:
             Mk. 0: &Warden_Staff_Mk0
               Description: A telescoping/collapsible alloy pole with a retractable blade at the end. May be used as blunt (Club, Boomerang) or edged (Knife, Sword, Spear) weapons in either extended or collapsed positions, and thrown in any configuration. Two may connect end-to-end with the blades retracted to form a longer pole. A user with the Thrown Weapons or Throwing talents knows how to throw them so they arc or ricochet to return to their hands when thrown, whether they hit or miss, by making an Agility FEAT. A coiled spring and compressed air system allows the blade to be launched as if it were a crossbow or speargun. It's an integrated combination of existing items.
@@ -1037,6 +1136,7 @@ Game:
                 Roller Skates: Roller Skates are used by a variety of heroes from Dazzler to Iron Man. Standard skates allow the hero to move at the listed speed as if Endurance were three ranks higher.
                 Rocket Pack: Rocket Pack, worn either as a belt-pack or a backpack, allows the wearer to fly at Excellent speeds. All limitations on flight apply to the wearer, and Agility FEATs required are at one CS lower.
             Mk. 1:
+              Battlesuit:
                 Description: A full suit of powered armor, still sleek and futuristic, but reminiscient of Byzantine motifs with a dark theme.
                 Abilities: 
                   Fighting:
@@ -1051,7 +1151,7 @@ Game:
                   Endurance:
                     Column Shift: +4
                     Max: Unearthly
-                Material Strength: Unearthly
+                Material Strength: Monstrous
                 Powers:
                   Defensive:
                     Body Armor: #D1
