@@ -1339,7 +1339,7 @@ Game:
           Health: 24
           Notes: Cats include most ordinary house cats and small wild cats. They inflict Edged attack damage with their claws but cannot score a Kill result against human targets. They move 2 areas/turn.
     Varangioi: &Varangios
-      Description: Elite operatives drawn from the highest echelons of special operations and intelligence work, Varangioi are the highly-paid, trusted bodyguards, proxies, and fixers of their employer. When on duty but not in armor they generally wear the subdued, tailored suits worn by federal agents, plainclothes detectives, and bodyguards with their Guardian Blasters and collapsed Warden Staves discreetly concealed, or military fatigues with their Blaster and collapsed Staff on their pistol belts alongside flashlights, knives, handcuffs, and mace, depending on the assignment, as well as their Sentry Glasses in either event. Varangioi also have a formal dress uniform, prominently featuring Byzantine and Norse motifs and styling over a modern military dress base, including a (functional) ceremonial sword and dagger and a formal cape. They generally operate in pairs or multiples thereof, two to a Pathfinder. Varangios captains have the title "Akolouthos," while the rank and file are titled "Scholarios."
+      Description: Elite operatives drawn from the highest echelons of special operations and intelligence work, screened for magical potential, Varangioi are the highly-paid, trusted bodyguards, proxies, agents, and fixers of their employer. When on duty but not in armor they generally wear the subdued, tailored suits worn by federal agents, plainclothes detectives, and bodyguards with their Guardian Blasters and collapsed Warden Staves discreetly concealed, or military fatigues with their Blaster and collapsed Staff on their pistol belts alongside flashlights, knives, handcuffs, and mace, depending on the assignment, as well as their Sentry Glasses in either event. Varangioi also have a formal dress uniform, prominently featuring Byzantine and Norse motifs and styling over a modern military dress base, including a (functional) ceremonial sword and dagger and a formal cape. They generally operate in pairs or multiples thereof, two to a Pathfinder. Varangios captains have the title "Akolouthos," while the rank and file are titled "Scholarios."
       Note: Akolouthoi have the Leadership Talent.
       Abilities:
         Primary Abilities:
@@ -1360,18 +1360,6 @@ Game:
         Powers:
           Other:
             Magic:
-              Character Type:
-                Magic Wielder: *Magic_Wielder
-              Magic School:
-                Scientific Magic: *Scientific_Magic
-              Energy Use:
-                Personal and Universal Energies Only: *Personal-Universal
-              Rank:
-                Novice: |
-                  This character knows fewer than five spells or has less than an Amazing spell rank in at least two spells. He is spending most of his time with his master (when not practicing what he has learned on villains). He can study tomes and scrolls and even perform magic found therein, but he cannot yet learn spells on his own (spells that he has read in a tome or on a scroll must be studied each time he uses them—he cannot commit them to memory.)
-
-                  Novices are usually ignored by the more powerful dimensional entities. A novice using a Dimensional Entreaty spell uses his magic as normal, but no FEAT roll is necessary to determine if the entity entreated will be affronted by the entreaty and take action. The dimensional entity feels that it is an investment in the future, but the character is currently beneath his total consideration. A novice can, however, provoke a hostile reaction from extradimensional entities by abusing their power—using it in ways the entity would not normally approve of (see “Abusing Dimensional Entreaties” in the “HOW SPELLS ARE CAST” section in the Manual of Magic.
-              Master: Julian Constantine
               Spells:
                 Eldritch Bolts:
                   Rank: Excellent
@@ -1460,7 +1448,7 @@ Game:
           Pathfinder Mk. 0: *Pathfinder_Mk0
           Sentry Glasses Mk. 0: *Sentry_Glasses_Mk0
     Magoi: &Magos
-      Description: 
+      Description: Magoi are those disciples and apprentices of Julian Constantine truly walking the path of the Scientific Sorcerer. They're the closest circle of his proxies and agents, deputies serving as his eyes, hands, and mouths. Their ornate, Byzantine-styled ceremonial robes or mantles are usually worn over slickly tailored, designer suits, and their fingers, wrists, and necks bedecked with jewelry of arcane significance.
       Abilities:
         Primary Abilities:
           Fighting: Good
@@ -1533,8 +1521,9 @@ Game:
       Name: Varangian Guard, Incorporated
       Base of Operations: Manhattan
       Resources:
-          Rank: Unearthly
-          Number: 100
+        Rank: Unearthly
+        Number: 100
+        Reference: Major country, mega-corporation (United States, Soviet Union)
       Executive Director and Chairman of the Board: Julian Constantine
       Established: 1984
       Status: Nonprofit Corporation
