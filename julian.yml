@@ -1001,46 +1001,6 @@ Game:
                       The hero has a finite amount of Spray. The maximum number of Sprays the hero can create in a 24-hour period is equal to his Power rank number. This limit also applies to Technological or Magical versions of this Power; the gasgun/flute/whatever simply clogs up from repeated use.
 
                       There are two Nemeses for this Power. If the Power is innate to the hero, then Reflection stops it. If the Power is externalized in a device, Induced Teleportation works be removing the device from the hero's possession and turning it over to the Nemesis.
-                  Webcasting: #MCr8
-                    Rank: Amazing
-                    Number: 50
-                    Webs:
-                      Adhesive:
-                        Power: ~
-                        Effect:
-                          - Ensnare anyone within the target site, Power rank Strength upon hardening one round after being fired.
-                          - Form swing-lines that enable the hero to travel 3 areas per turn
-                          - Shields of Monstrous material strength.
-                      Neural:
-                        Power: Neural Manipulation
-                        Effect: Chosen form of Neural Manipulation power while target ensnared
-                      Insulating:
-                        Power: Fire Control
-                        Effect: Power Rank Protection vs. Fire and Heat for anyone shielded or within.
-                      Luminescent:
-                        Power: Light Emission
-                        Effect: Emits light of any color at up to Power Rank Intensity, for Power Rank Duration
-                    Reference: |
-                      The hero can generate and shoot out a solid web. The web can hit any target within 100 feet and instantly adhere to it. The Web has some basic properties. It can ensnare anyone within the target site. It possesses Power rank Strength upon hardening one round after being fired. It can be used to form swing-lines that enable the hero to travel 3 areas per turn, and it makes shields of Monstrous material strength.
-
-                      Webcasting can be combined with other Powers to create unique Webs for other characters. In all these cases, the range remains the same. Other characteristics, such as the nature and Intensity of the effects, are determined by the Power that has been combined with Webcasting. Some possibilities include:
-
-                      - Mind net: Telepathy combines with the Web to form a telepathic link between the hero and anyone within his Web.
-                      - Dream net: Dreamtravel combines with the Web to permit everyone within to share a common dreamworld.
-                      - Preserver: The Web places anyone wrapped within in Suspended Animation.
-                      - Spirit Net: The Web is combined with Spirit Storage to trap any disembodied spirits within.
-                      - Protector: The Web combines with any Defensive Field to protect any thing within the Web from a specific form of attack.
-                      - Metamorphic: The Web combines with Induced Shapechange to transform anyone within the Web into any shape the hero desires.
-                      - Cocoon: The Web possesses Micro-Environment and provides a safe habitat for anyone within, despite external conditions.
-                      - Mummy Shroud: The Web combines with Zombie Animation to make any corpse wrapped up in it an Undead (great party gag, folks!).
-                      - Glide Net: The hero can travel on the winds by combining his Web and Gliding Power.
-                      - Network: The hero uses Sensory Link to perceive the surroundings of any web he knows the location of. In effect, he turns any web into a two-way picture phone.
-
-                      Any Power in the UPB can be combined with Webcasting to produce unique Web Powers for each character. When creating characters, the player should follow this simple guideline: If you can figure out a way to combine externalized Powers with this one, do it. Powers that are completely internalized are exempt from this rule. This includes most of the Mental and Physical Enhancement Powers and all of the Self-Alterations and Detections. If a character is Hi-Tech, has rolled such Powers as Hyper- Invention or Weapons Tinkering, or possesses a magical device, then the Web Powers should be incorporated into a device. This can be a webshooter, reel, or any superheroic doohickey the player can invent. The hero has a finite amount of Webbing he can produce. The maximum number of times the hero can use Webcasting in a 24-hour period is equal to his Power rank number. This also applies to Technological or magical versions of this Power; the devices clog up from overuse.
-
-                      Webs created by this Power evaporate one hour after being cast.
-
-                      The Nemesis for this Power is Phasing.
                 Power Control: #PC 5
                   Energy Source:
                     Source: Defender Battlesuit Mk. 1
