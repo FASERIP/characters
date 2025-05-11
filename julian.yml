@@ -1385,7 +1385,7 @@ Game:
           Psyche: Feeble
           Health: 24
           Notes: Cats include most ordinary house cats and small wild cats. They inflict Edged attack damage with their claws but cannot score a Kill result against human targets. They move 2 areas/turn.
-    Varangioi:
+    Varangios:
       Description: Elite operatives drawn from the highest echelons of special operations and intelligence work, screened for magical potential, Varangioi are the highly-paid, trusted bodyguards, proxies, agents, and fixers of their employer. When on duty but not in armor they generally wear the subdued, tailored suits worn by federal agents, plainclothes detectives, and bodyguards with their Guardian Blasters and collapsed Warden Staves discreetly concealed, or military fatigues with their Blaster and collapsed Staff on their pistol belts alongside flashlights, knives, handcuffs, and mace, depending on the assignment, as well as their Sentry Glasses in either event. Varangioi also have a formal dress uniform, prominently featuring Byzantine and Norse motifs and styling over a modern military dress base, including a (functional) ceremonial sword and dagger and a formal cape. They generally operate in pairs or multiples thereof, two to a Pathfinder. Varangios captains have the title "Akolouthos," while the rank and file are titled "Scholarios."
       Note: Akolouthoi have the Leadership Talent.
       Abilities:
@@ -1497,7 +1497,7 @@ Game:
           Sentinel Battlesuit Mk. 0: *Sentinel_Battlesuit_Mk0
           Pathfinder Mk. 0: *Pathfinder_Mk0
           Sentry Glasses Mk. 0: *Sentry_Glasses_Mk0
-    Magoi:
+    Magos:
       Description: Magoi are those disciples and apprentices of Julian Constantine truly walking the path of the Scientific Sorcerer. They're the closest circle of his proxies and agents, deputies serving as his eyes, hands, and mouths. Their ornate, Byzantine-styled ceremonial robes or mantles are usually worn over slickly tailored, designer suits, and their fingers, wrists, and necks bedecked with jewelry of arcane significance.
       Abilities:
         Primary Abilities:
@@ -1566,7 +1566,7 @@ Game:
           Mystic Texts: *Mystic_Texts
         Magical Items:
           Grimoire: *Grimoire
-    Employees:
+    Varangian Guard, Incorporated Employees:
       Security:
         Varangian Guard Security Officer:
           Description: Varangian Guard, Inc. Security Officers use an improved Policeman stats and are equipped with a handgun, club, handcuffs, flashlight, and mace.
