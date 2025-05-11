@@ -1385,7 +1385,7 @@ Game:
           Psyche: Feeble
           Health: 24
           Notes: Cats include most ordinary house cats and small wild cats. They inflict Edged attack damage with their claws but cannot score a Kill result against human targets. They move 2 areas/turn.
-    Varangioi: &Varangios
+    Varangioi:
       Description: Elite operatives drawn from the highest echelons of special operations and intelligence work, screened for magical potential, Varangioi are the highly-paid, trusted bodyguards, proxies, agents, and fixers of their employer. When on duty but not in armor they generally wear the subdued, tailored suits worn by federal agents, plainclothes detectives, and bodyguards with their Guardian Blasters and collapsed Warden Staves discreetly concealed, or military fatigues with their Blaster and collapsed Staff on their pistol belts alongside flashlights, knives, handcuffs, and mace, depending on the assignment, as well as their Sentry Glasses in either event. Varangioi also have a formal dress uniform, prominently featuring Byzantine and Norse motifs and styling over a modern military dress base, including a (functional) ceremonial sword and dagger and a formal cape. They generally operate in pairs or multiples thereof, two to a Pathfinder. Varangios captains have the title "Akolouthos," while the rank and file are titled "Scholarios."
       Note: Akolouthoi have the Leadership Talent.
       Abilities:
@@ -1497,7 +1497,7 @@ Game:
           Sentinel Battlesuit Mk. 0: *Sentinel_Battlesuit_Mk0
           Pathfinder Mk. 0: *Pathfinder_Mk0
           Sentry Glasses Mk. 0: *Sentry_Glasses_Mk0
-    Magoi: &Magos
+    Magoi:
       Description: Magoi are those disciples and apprentices of Julian Constantine truly walking the path of the Scientific Sorcerer. They're the closest circle of his proxies and agents, deputies serving as his eyes, hands, and mouths. Their ornate, Byzantine-styled ceremonial robes or mantles are usually worn over slickly tailored, designer suits, and their fingers, wrists, and necks bedecked with jewelry of arcane significance.
       Abilities:
         Primary Abilities:
@@ -1568,8 +1568,8 @@ Game:
           Grimoire: *Grimoire
     Employees:
       Security:
-        Security Officer:
-          Description: Uniformed Security Officers use the Policeman stats and are equipped with a handgun, club, handcuffs, flashlight, and mace.
+        Varangian Guard Security Officer:
+          Description: Varangian Guard, Inc. Security Officers use an improved Policeman stats and are equipped with a handgun, club, handcuffs, flashlight, and mace.
           Abilities:
             Primary Abilities:
               Fighting: Excellent
@@ -1642,8 +1642,8 @@ Game:
                     Professional Skills:
                       Law Enforcement: *Law_Enforcement
               Reference: Standard agent of law-enforcement. Walks a beat or patrols in a squad car. Equipment includes a billy club and handgun. May make arrests.
-        Rapid Response Officer:
-          Description: Members of the Crisis Rapid Response Team use SWAT operative stats and have the same base equipment as the uniformed guards, but additionally wear Flak Jackets and are armed with a Riot Gun, Assault Rifle, or Sniper Rifle depending on their role on their squad.  They have access to Gas Masks and Infra-Red Goggles as well.
+        Varangian Guard Crisis Rapid Response Officer:
+          Description: Members of the Varangian Guard's Crisis Rapid Response Team use improved SWAT operative stats and have the same base equipment as the uniformed guards, but additionally wear Flak Jackets and are armed with a Riot Gun, Assault Rifle, or Sniper Rifle depending on their role on their squad.  They have access to Gas Masks and Infra-Red Goggles as well.
           Abilities:
             Primary Abilities:
               Fighting: Excellent
@@ -1742,8 +1742,8 @@ Game:
                     Professional Skills:
                       Law Enforcement: *Law_Enforcement
               Reference: Special Weapons and Tactics teams are attached to most modern police forces to handle volatile situations. Members wear flak jackets for protection and are expected to fight under dangerous conditions. In dealing with super-powered opponents, some SWAT teams are equipped with mechanical exoskeletons and nullifying restraints.
-        Special Officer:
-          Description: The plainclothes security use Federal Agents stats, are equipped with handguns and handcuffs
+        Varangian Guard Special Officer:
+          Description: The Varangian Guard's plainclothes security and investigatos use improved Federal Agents stats, and are equipped with handguns and handcuffs
           Abilities:
             Primary Abilities:
               Fighting: Excellent
@@ -1791,8 +1791,8 @@ Game:
                       Law Enforcement: *Law_Enforcement
                       Marksmanship: *Marksmanship
               Reference: Federal agents include investigative agents of the FBI, CIA, OSS, KGB, and other alphabetized agencies. They normally carry handguns, but generally in the field they act in an information-gathering capacity.
-        Medical Responder:
-          Description:
+        Varangian Guard Medical Responder:
+          Description: The Varangian Guard's emergency medical services use improved Paramedic stats.
           Abilities:
             Primary Abilities:
               Fighting: Typical
@@ -1829,8 +1829,8 @@ Game:
                     Other Talents:
                       First Aid: *First_Aid
               Reference: Paramedics operate out of ambulances equipped with medication and other life-support equipment. Their job is to get the sick and injured to the hospital in stable (or better) condition. They carry oxygen, a power saw, and a hydraulic jack winch.
-        Rescue Responder:
-          Description:
+        Varangian Guard Rescue Responder:
+          Description: The Varangian Guard's Firefighting and Search and Rescue personnel use improved Fire-Fighter stats.
           Note: 
           Abilities:
             Primary Abilities:
@@ -1870,8 +1870,8 @@ Game:
                       First Aid: *First_Aid
               Reference: Fire-fighters arrive on the scene of a fire with fire trucks and other equipment, including fire hoses, extinguishers, asbestos suits, and other protective gear.
       Support:
-        Employee:
-          Description: 
+        Varangian Guard Employee:
+          Description: The various employees of Varangian Guard, Inc. use improved Businessman stats, depending on their speciality.
           Note: Their abilities are generally self-evident (a pilot will always have Pilot Talent, a computer specialist Computer Talent).
           Abilities:
             Primary Abilities:
@@ -1955,8 +1955,8 @@ Game:
                 Special Abilities:
                   Talents: Varies
               Reference: Your typical New Yorker (or San Franciscan or Clevelander). Standard human stats. Good for crowds or endangered passers-by. Includes politicians, secretaries, ice cream vendors, and the entire spectrum of normal everyday people.
-        Physician:
-          Description:
+        Varangian Guard Physician:
+          Description: The Varangian Guard's medical professionals use improved Doctor stats.
           Note:
             Abilities:
               Primary Abilities:
@@ -2000,8 +2000,8 @@ Game:
                     Professional Skills:
                       Medicine: *Medicine
               Reference: Doctors are the conventional method of stopping loss of Endurance in critically wounded characters, as well as taking care of diseases and illness. There are diseases that are beyond present technology to cure, though, and the special problems of super-powered individuals may require equally specialized treatments.
-        Counsel:
-          Description:
+        Varangian Guard Counsel:
+          Description: Varangian Guard, Inc. corporate counsel use improved Lawyer stats.
           Note:
             Abilities:
               Primary Abilities:
@@ -2043,8 +2043,8 @@ Game:
                       Law: *Law
               Reference: |
                 Most hero organizations (and a bunch of villains as well) have a lawyer on retainer: that is, they pay the man to be around when they need representation in court. The Avengers and Fantastic Four both used the services of Murdock and Nelson, until that operation folded. Hiring a lawyer is an Excellent cost, though there are avenues available to those who cannot afford this.
-        Researcher:
-          Descripton:
+        Varangian Guard Researcher:
+          Descripton: The scientists, engineers, and other research and development personnel of Varangian Guard, Inc. use improved Scientist stats.
           Note:
             Primary Abilities:
               Fighting: Typical
@@ -2100,7 +2100,7 @@ Game:
         Rank: Unearthly
         Number: 100
         Reference: Major country, mega-corporation (United States, Soviet Union)
-      Info:
+      Description: 
         Executive Director and Chairman of the Board: Julian Constantine
         Established: 1980
         Status: Nonprofit Corporation
@@ -2157,7 +2157,6 @@ Game:
             - Gifts in kind
             - Volunteerism
           Rate Schedule: All services are rendered pro bono.
-      Description: 
       Reference:
         Equipment:
           Other Equipment:
