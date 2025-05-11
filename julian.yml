@@ -2163,43 +2163,13 @@ Game:
           Other Equipment:
             Utility Drone:
               Reference:
-                Standard Robot:
-                  Abilities:
-                    Primary Abilities:
-                      Rank: Typical
-                    Secondary Abilities:
-                      Health: 18
-                  Reference: The Standard Robot is only capable of simple tasks and has no special abilities other than to record what transpires before its recorders and perform simple tasks. The H.E.R.B.I.E. series was a modified form of the standard robot. All Standard robot abilities are Typical.
+                Standard Robot: The Standard Robot is only capable of simple tasks and has no special abilities other than to record what transpires before its recorders and perform simple tasks. The H.E.R.B.I.E. series was a modified form of the standard robot. All Standard robot abilities are Typical.
             Security Drone:
               Reference:
-                Sentry Robot:
-                  Abilities:
-                    Primary Abilities:
-                      Rank: Good
-                    Secondary Abilities:
-                      Health: 30
-                  Laser:
-                    Damage: Good
-                    Range: Good
-                    Type: Energy
-                    Rate: 1
-                  Reference: The Sentry Robot has a bit more programming and firepower. It is programmed to identify hostile threats (that is — anything not in its bank) and open fire. Sentry robots come equipped with Good Strength lasers, though some may be additionally armed. All sentry robot abilities are Good.
+                Sentry Robot: The Sentry Robot has a bit more programming and firepower. It is programmed to identify hostile threats (that is — anything not in its bank) and open fire. Sentry robots come equipped with Good Strength lasers, though some may be additionally armed. All sentry robot abilities are Good.
             Specialist Drone:
               Reference:
-                Talent Robot:
-                  Abilities:
-                    Primary Abilities:
-                      Rank:
-                        Base: Excellent
-                      Note:
-                      Reference: 
-                        Specialization: Remarkable
-                    Secondary Abilities:
-                      Health:
-                        Min: 60
-                        Max: 70
-                    Talents: Varies
-                  Reference: The Talent Robot is a robot specifically designed for a certain purpose, and its programming reflects that purpose. The Avengers' fire-fighting robots or the robotic opponent the Black Knight uses are examples of talent robots. Such robots may have one ability at Remarkable level. All others are Excellent.
+                Talent Robot: The Talent Robot is a robot specifically designed for a certain purpose, and its programming reflects that purpose. The Avengers' fire-fighting robots or the robotic opponent the Black Knight uses are examples of talent robots. Such robots may have one ability at Remarkable level. All others are Excellent.
           Vehicles:
             Operations Vehicle:
               Note: Primary patrol and response vehicle. Wilderness use. Lots of utility accessories.
