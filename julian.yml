@@ -1478,7 +1478,7 @@ Game:
             Description: An ornate longsword, styled as a spatha and decorated with precious metals, gems, and engraving.
             Reference:
               Sword: &Sword
-                Price: *Poor
+                Price: Poor
                 Damage: 10
                 Type: Edged Attack
                 Material Strength:
