@@ -1482,7 +1482,7 @@ Game:
                 Damage: 10
                 Type: Edged Attack
                 Material Strength:
-                  Rank: *Excellent
+                  Rank: Excellent
                 Reference: Swords are considered one-handed blade weapons with blades over 12 inches long. They are not normally thrown.
         Custom Equipment:
           Guardian Blaster Mk. 0: *Guardian_Blaster_Mk0
