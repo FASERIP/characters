@@ -1566,6 +1566,532 @@ Game:
           Mystic Texts: *Mystic_Texts
         Magical Items:
           Grimoire: *Grimoire
+    Employees:
+      Security:
+        Security Officer:
+          Description: Uniformed Security Officers use the Policeman stats and are equipped with a handgun, club, handcuffs, flashlight, and mace.
+          Abilities:
+            Primary Abilities:
+              Fighting: Excellent
+              Agility: Excellent
+              Strength: Good
+              Endurance: Excellent
+              Reason: Good
+              Intuition: Good
+              Psyche: Good
+            Secondary Abilities:
+              Health: 70
+              Karma: 30
+            Talents:
+              Weapon Skills:
+                Blunt Weapons: *Blunt_Weapons
+              Fighting Skills:
+                Martial Arts C: *Martial_Arts_C
+              Professional Skills:
+                Military: *Military
+                Law Enforcement: *Law_Enforcement
+              Other Talents:
+                First Aid: *First_Aid
+          Equipment:
+            Shooting Weapons:
+              Handgun/Pistol: &Handgun-Pistol
+                Range: 3
+                Damage: 10
+                Type: Shooting
+                Rate: 1
+                Shots:
+                  - 6
+                  - 8
+                  - 9
+                Material Strength: Excellent
+                Notes:
+                  - One-Handed
+                Ammunition: 
+                  Standard: *Standard_Ammunition
+                Reference: The Handgun/Pistol is the next most common weapon, and like the cheap handgun, is easily concealed. A number of makes and models exist, noted by the different number of shots available. When the number is not predetermined (the text states a 9-shot pistol), assume the chambers hold 6 shots.
+            Melee and Thrown Weapons:
+              Club: &Club
+                Price: Feeble
+                Damage: 10
+                Type:
+                  - Blunt Attack
+                  - Blunt Throwing
+                Material Strength: Good
+                Reference: Clubs are standard blunt weapons, including makeshift weapons such as chairs and tables.
+              Knife: *Knife
+            Other Gear:
+              Flashlight, Standard: *Flashlight
+              Mace: *Mace
+              Handcuffs: &Handcuffs Handcuffs are a standard restraining device used by the police forces of the world to prevent actions by criminals in custody. They are made of Excellent material.
+          Reference:
+            Policeman:
+              Abilities:
+                Primary Abilities:
+                  Fighting: Good
+                  Agility: Good
+                  Strength: Typical
+                  Endurance: Good
+                  Reason: Typical
+                  Intuition: Typical
+                  Psyche: Typical
+                Secondary Abilities:
+                  Health: 32
+                  Karma: 18
+                Special Abilities:
+                  Talents:
+                    Professional Skills:
+                      Law Enforcement: *Law_Enforcement
+              Reference: Standard agent of law-enforcement. Walks a beat or patrols in a squad car. Equipment includes a billy club and handgun. May make arrests.
+        Rapid Response Officer:
+          Description: Members of the Crisis Rapid Response Team use SWAT operative stats and have the same base equipment as the uniformed guards, but additionally wear Flak Jackets and are armed with a Riot Gun, Assault Rifle, or Sniper Rifle depending on their role on their squad.  They have access to Gas Masks and Infra-Red Goggles as well.
+          Abilities:
+            Primary Abilities:
+              Fighting: Excellent
+              Agility: Excellent
+              Strength: Good
+              Endurance: Excellent
+              Reason: Good
+              Intuition: Good
+              Psyche: Excellent
+            Secondary Abilities:
+              Health: 70
+              Karma: 40
+            Talents:
+              Weapon Skills:
+                Blunt Weapons: *Blunt_Weapons
+                Sharp Weapons: *Sharp_Weapons
+                Marksmanship: *Marksmanship
+              Fighting Skills:
+                Martial Arts C: *Martial_Arts_C
+                Martial Arts E: *Martial_Arts_E
+              Professional Skills:
+                Military: *Military
+                Law Enforcement: *Law_Enforcement
+              Other Talents:
+                First Aid: *First_Aid
+          Equipment:
+            Shooting Weapons:
+              Handgun: *Handgun-Pistol
+              One of the Following:
+                Riot Gun: &Riot_Gun
+                  Range: 2
+                  Damage: 15
+                  Type: Shooting
+                  Rate: 1
+                  Shots: 6
+                  Material Strength: Excellent
+                  Notes:
+                    - Bursts: Affect up to three adjacent targets, with one roll made for all targets.
+                    - Fire one-handed at -1CS
+                  Ammunition:
+                    Standard: *Standard_Ammunition
+                    Canister Shot: *Canister_Shot
+                  Reference:
+                    - Riot Gun: *Riot_Gun_Reference
+                    - Shotgun: *Shotgun
+                Sniper Rifle: &Sniper_Rifle
+                  Range: 10
+                  Damage: 15
+                  Type: Shooting
+                  Rate: 1
+                  Shots: 4
+                  Material Strength: Good
+                  Ammunition:
+                    Standard: *Standard_Ammunition
+                    AP Shot: *AP_Shot
+                  Reference: The Sniper Rifle, like the target pistol, suffers no penalty for firing up to maximum range. It is used by criminals as well as the military.
+                Assault Rifle: &Assault_Rifle
+                  Range: 7
+                  Damage: 10
+                  Type: Shooting
+                  Rate: 2
+                  Shots: 20
+                  Material Strength: Good
+                  Notes: Military
+                  Ammunition:
+                    Standard: *Standard_Ammunition
+                  Reference: The Assault Rifle is the version of the rifle used by the military.
+            Melee and Thrown Weapons:
+              Club: *Club
+              Knife: *Knife
+              Handcuffs: *Handcuffs
+            Other Gear:
+              Flashlight, Standard: *Flashlight
+              Infra-red Goggles: *Infra-Red_Goggles
+              Mace: *Mace
+              Gas Mask: *Gas_Mask
+              Flak Jacket: *Flak_Jacket
+          Reference:
+            Swat Operative:
+              Abilities:
+                Primary Abilities:
+                  Fighting: Excellent
+                  Agility: Good
+                  Strength: Good
+                  Endurance: Typical
+                  Reason: Typical
+                  Intuition: Typical
+                  Psyche: Good
+                Secondary Abilities:
+                  Health: 46
+                  Karma: 22
+                Special Abilities:
+                  Talents:
+                    Weapons Skills:
+                      Marksmanship: *Marksmanship
+                    Professional Skills:
+                      Law Enforcement: *Law_Enforcement
+              Reference: Special Weapons and Tactics teams are attached to most modern police forces to handle volatile situations. Members wear flak jackets for protection and are expected to fight under dangerous conditions. In dealing with super-powered opponents, some SWAT teams are equipped with mechanical exoskeletons and nullifying restraints.
+        Special Officer:
+          Description: The plainclothes security use Federal Agents stats, are equipped with handguns and handcuffs
+          Abilities:
+            Primary Abilities:
+              Fighting: Excellent
+              Agility: Excellent
+              Strength: Good
+              Endurance: Excellent
+              Reason: Excellent
+              Intuition: Excellent
+              Psyche: Excellent
+            Secondary Abilities:
+              Health: 70
+              Karma: 60
+            Talents:
+              Weapon Skills:
+                Blunt Weapons: *Blunt_Weapons
+                Marksmanship: *Marksmanship
+              Fighting Skills:
+                Martial Arts C: *Martial_Arts_C
+              Professional Skills:
+                Military: *Military
+                Law Enforcement: *Law_Enforcement
+                Detective/Espionage: *Detective-Espionage
+              Other Talents:
+                First Aid: *First_Aid
+          Equipment:
+            Handgun: *Handgun-Pistol
+            Handcuffs: *Handcuffs
+          Reference:
+            Federal Agent:
+              Abilities:
+                Primary Abilities:
+                  Fighting: Good
+                  Agility: Excellent
+                  Strength: Good
+                  Endurance: Good
+                  Reason: Good
+                  Intuition: Good
+                  Psyche: Good
+                Secondary Abilities:
+                  Health: 50
+                  Karma: 30
+                Special Abilities:
+                  Talents:
+                    Professional Skills:
+                      Law Enforcement: *Law_Enforcement
+                      Marksmanship: *Marksmanship
+              Reference: Federal agents include investigative agents of the FBI, CIA, OSS, KGB, and other alphabetized agencies. They normally carry handguns, but generally in the field they act in an information-gathering capacity.
+        Medical Responder:
+          Description:
+          Abilities:
+            Primary Abilities:
+              Fighting: Typical
+              Agility: Good
+              Strength: Good
+              Endurance: Excellent
+              Reason: Excellent
+              Intuition: Good
+              Psyche: Good
+            Secondary Abilities:
+              Health: 46
+              Karma: 40
+            Talents:
+              Professional Skills:
+                Military: *Military
+              Other Talents:
+                First Aid: *First_Aid
+          Reference:
+            Paramedic:
+              Abilities:
+                Primary Abilities:
+                  Fighting: Poor
+                  Agility: Typical
+                  Strength: Typical
+                  Endurance: Good
+                  Reason: Good
+                  Intuition: Typical
+                  Psyche: Typical
+                Secondary Abilities:
+                  Health: 26
+                  Karma: 22
+                Special Abilities:
+                  Talents:
+                    Other Talents:
+                      First Aid: *First_Aid
+              Reference: Paramedics operate out of ambulances equipped with medication and other life-support equipment. Their job is to get the sick and injured to the hospital in stable (or better) condition. They carry oxygen, a power saw, and a hydraulic jack winch.
+        Rescue Responder:
+          Description:
+          Note: 
+          Abilities:
+            Primary Abilities:
+              Fighting: Good
+              Agility: Good
+              Strength: Excellent
+              Endurance: Excellent
+              Reason: Good
+              Intuition: Excellent
+              Psyche: Good
+            Secondary Abilities:
+              Health: 70
+              Karma: 40
+            Talents:
+              Professional Skills:
+                Military: *Military
+              Other Talents:
+                First Aid: *First_Aid
+          Equipment:
+          Reference:
+            Fire-Fighter:
+              Abilities:
+                Primary Abilities:
+                  Fighting: Typical
+                  Agility: Typical
+                  Strength: Good
+                  Endurance: Excellent
+                  Reason: Typical
+                  Intuition: Good
+                  Psyche: Typical
+                Secondary Abilities:
+                  Health: 42
+                  Karma: 22
+                Special Abilities:
+                  Talents:
+                    Other Talents:
+                      First Aid: *First_Aid
+              Reference: Fire-fighters arrive on the scene of a fire with fire trucks and other equipment, including fire hoses, extinguishers, asbestos suits, and other protective gear.
+      Support:
+        Employee:
+          Description: 
+          Note: Their abilities are generally self-evident (a pilot will always have Pilot Talent, a computer specialist Computer Talent).
+          Abilities:
+            Primary Abilities:
+              Fighting: Typical
+              Agility:
+                Base: Good
+              Note:
+              Reference: 
+                Pilot: Excellent
+              Strength:
+                Base: Typical
+                Labor: Good
+              Endurance:
+                Base: Good
+                Labor: Excellent
+              Reason:
+                Base: Good
+                Management: Excellent
+                Technical: Excellent
+              Intuition:
+                Base: Good
+                Pilot: Excellent
+                Management: Excellent
+              Psyche:
+                Base: Good
+                Pilot: Excellent
+                Management: Excellent
+            Secondary Abilities:
+              Health:
+                Base: 32
+                Pilot: 36
+                Labor: 46
+              Karma:
+                Base: 30
+                Pilot: 50
+                Management: 60
+                Technical: 40
+            Special Abilities:
+              Talents:
+                Management:
+                  Professional Skills:
+                    Law: *Law
+                    Business/Finance: *Business-Finance
+                  Other Talents:
+                    Leadership: *Leadership
+                Pilot:
+                  Professional Skills:
+                    Pilot: *Pilot
+                  Other Talents:
+                    Languages: *Languages
+                    Repair/Tinkering: *Repair-Tinkering
+                Accountant:
+                  Professional Skills:
+                    Business/Finance: *Business-Finance
+                Paralegal:
+                  Professional Skills:
+                    Law: *Law
+                Computer Specialist:
+                  Scientific Skills:
+                    Computers: *Computers
+                    Electronics: *Electronics
+                  Other Talents:
+                    Repair/Tinkering: *Repair-Tinkering
+                Maintenance:
+                  Other Talents:
+                    Repair/Tinkering: *Repair-Tinkering
+          Reference:
+            Businessman:
+              Abilities:
+                Primary Abilities:
+                  Fighting: Poor
+                  Agility: Typical
+                  Strength: Typical
+                  Endurance: Typical
+                  Reason: Typical
+                  Intuition: Typical
+                  Psyche: Typical
+                Secondary Abilities:
+                  Health: 22
+                  Karma: 18
+                Special Abilities:
+                  Talents: Varies
+              Reference: Your typical New Yorker (or San Franciscan or Clevelander). Standard human stats. Good for crowds or endangered passers-by. Includes politicians, secretaries, ice cream vendors, and the entire spectrum of normal everyday people.
+        Physician:
+          Description:
+          Note:
+            Abilities:
+              Primary Abilities:
+                Fighting: Typical
+                Agility: Good
+                Strength: Typical
+                Endurance: Good
+                Reason: Remarkable
+                Intuition: Excellent
+                Psyche: Excellent
+              Secondary Abilities:
+                Health: 32
+                Karma: 70
+              Special Abilities:
+                Talents:
+                  Professional Skills:
+                    Medicine: *Medicine
+                    Psychiatry: *Psychiatry
+                  Scientific Skills:
+                    Biology: *Biology
+                    Chemistry: *Chemistry
+                    Genetics: *Genetics
+                  Other Talents:
+                    First Aid: *First_Aid
+          Reference:
+            Doctor:
+              Abilities:
+                Primary Abilities:
+                  Fighting: Poor
+                  Agility: Good
+                  Strength: Typical
+                  Endurance: Good
+                  Reason: Good
+                  Intuition: Good
+                  Psyche: Good
+                Secondary Abilities:
+                  Health: 30
+                  Karma: 30
+                Special Abilities:
+                  Talents:
+                    Professional Skills:
+                      Medicine: *Medicine
+              Reference: Doctors are the conventional method of stopping loss of Endurance in critically wounded characters, as well as taking care of diseases and illness. There are diseases that are beyond present technology to cure, though, and the special problems of super-powered individuals may require equally specialized treatments.
+        Counsel:
+          Description:
+          Note:
+            Abilities:
+              Primary Abilities:
+                Fighting: Typical
+                Agility: Good
+                Strength: Typical
+                Endurance: Good
+                Reason: Excellent
+                Intuition: Remarkable
+                Psyche: Excellent
+              Secondary Abilities:
+                Health: 32
+                Karma: 70
+              Special Abilities:
+                Talents:
+                  Professional Skills:
+                    Law: *Law
+                    Business/Finance: *Business-Finance
+                    Criminology: *Criminology
+                    Psychiatry: *Psychiatry
+                    Detective/Espionage: *Detective-Espionage
+          Reference:
+            Lawyer:
+              Abilities:
+                Primary Abilities:
+                  Fighting: Poor
+                  Agility: Typical
+                  Strength: Typical
+                  Endurance: Typical
+                  Reason: Typical
+                  Intuition: Good
+                  Psyche: Typical
+                Secondary Abilities:
+                  Health: 22
+                  Karma: 22
+                Special Abilities:
+                  Talents:
+                    Professional Skills:
+                      Law: *Law
+              Reference: |
+                Most hero organizations (and a bunch of villains as well) have a lawyer on retainer: that is, they pay the man to be around when they need representation in court. The Avengers and Fantastic Four both used the services of Murdock and Nelson, until that operation folded. Hiring a lawyer is an Excellent cost, though there are avenues available to those who cannot afford this.
+        Researcher:
+          Descripton:
+          Note:
+            Primary Abilities:
+              Fighting: Typical
+              Agility: Good
+              Strength: Typical
+              Endurance: Good
+              Reason: Remarkable
+              Intuition: Remarkable
+              Psyche: Good
+            Secondary Abilities:
+              Health: 32
+              Karma: 70
+            Special Abilities:
+              Talents:
+                Professional Skills:
+                  Engineering: *Engineering
+                Scientific Skills:
+                  Any three of the following:
+                    Biology: *Biology
+                    Chemistry: *Chemistry
+                    Genetics: *Genetics
+                    Physics: *Physics
+                    Geology: *Geology
+                    Archaeology: *Archaeology
+                    Computers: *Computers
+                    Electronics: *Electronics
+                Other Talents:
+                  Languages: *Languages
+                  Repair/Tinkering: *Repair-Tinkering
+          Reference:
+            Scientist:
+              Abilities:
+                Primary Abilities:
+                  Fighting: Poor
+                  Agility: Typical
+                  Strength: Poor
+                  Endurance: Typical
+                  Reason: Excellent
+                  Intuition: Good
+                  Psyche: Typical
+                Secondary Abilities:
+                  Health: 20
+                  Karma: 36
+                Special Abilities:
+                  Talents:
+                    Scientific: Any one Scientific Talent
+              Reference: The above stats are for the typical scientist to be found in a research institution or on a college campus. There are specialists in their fields that have higher Reason abilities, but they are generally loners, usually because their advancements are so far beyond the bounds of modern science, or their pet theories are ridiculed, that they reject the establishment. (Many super-powered villains got their start in this fashion.)
   Hero Team:
     The Varangian Guard:
       Name: Varangian Guard, Incorporated
@@ -1574,61 +2100,64 @@ Game:
         Rank: Unearthly
         Number: 100
         Reference: Major country, mega-corporation (United States, Soviet Union)
-      Executive Director and Chairman of the Board: Julian Constantine
-      Established: 1980
-      Status: Nonprofit Corporation
-      Missions:
-        - Security
-        - Crime Prevention
-        - Private Investigation
-        - Intelligence Gathering and Analysis
-        - Secure Transport
-        - Logistics Management
-        - Counterintelligence
-        - Civil Affairs and Psychological Operations
-        - Paramilitary Services
-        - Protective Services
-        - Risk Analysis and Management
-        - Management Consulting
-        - Project Management
-        - Quantitative and Statistical Analysis
-        - Research and Development
-        - Software Engineering and Development
-        - Municipal Infrastructure Engineering
-        - Environmental Engineering
-        - Public Utility Construction and Repair
-        - Emergency Management
-        - Emergency Communications
-        - Emergency Medical Services
-        - Ambulance and Medical Transport Services
-        - Search and Rescue
-        - Motorist Assistance
-        - Tourist Assistance
-        - Wrecker and Towing
-        - General Information and Assistance to the Public
-        - Self Defense, Safety, First Aid, and Disaster Preparedness and other Community Education
-        - Neighborhood and Highway Cleanup
-        - Charitable Grants
-        - Scholarship Fund
-        - Hero and Hero Group Endorsement
-        - Trap, Neuter, Release
-        - (Unofficially) Backup, Cover, Quick Response, Transporation, Logistics, Legal, Medical, and other support to street-level heroes.
-        - (Unofficially) Analysis of captured supervillain paraphenalia, technology, and artifacts.
-        - (Unofficially) Getting kittens out of trees, helping old ladies across the street, and handing out candy to kids.
-      Funding:
-        Funding Type: Private
-        Revenue Sources:
-          - Endowment
-          - Licensing and commercializing patents
-          - Merchandise sales
-          - Charitable donations
-          - Grants
-          - Investments
-          - Fundraising
-          - Beneficiary
-          - Gifts in kind
-          - Volunteerism
-        Rate Schedule: All services are rendered pro bono.
+      Info:
+        Executive Director and Chairman of the Board: Julian Constantine
+        Established: 1980
+        Status: Nonprofit Corporation
+        Missions:
+          - Security
+          - Crime Prevention
+          - Private Investigation
+          - Intelligence Gathering and Analysis
+          - Secure Transport
+          - Logistics Management
+          - Counterintelligence
+          - Civil Affairs and Psychological Operations
+          - Paramilitary Services
+          - Protective Services
+          - Risk Analysis and Management
+          - Management Consulting
+          - Project Management
+          - Quantitative and Statistical Analysis
+          - Research and Development
+          - Software Engineering and Development
+          - Municipal Infrastructure Engineering
+          - Environmental Engineering
+          - Civil Engineering
+          - Public Utility Construction and Repair
+          - Emergency Management
+          - Emergency Communications
+          - Emergency Medical Services
+          - Ambulance and Medical Transport Services
+          - Search and Rescue
+          - Motorist Assistance
+          - Tourist Assistance
+          - Wrecker and Towing
+          - General Information and Assistance to the Public
+          - Self Defense, Safety, First Aid, and Disaster Preparedness and other Community Education
+          - Neighborhood and Highway Cleanup
+          - Charitable Grants
+          - Scholarship Fund
+          - Hero and Hero Group Endorsement
+          - Trap, Neuter, Release
+          - (Unofficially) Backup, Cover, Quick Response, Transporation, Logistics, Legal, Medical, and other support to street-level heroes.
+          - (Unofficially) Analysis of captured supervillain paraphenalia, technology, and artifacts.
+          - (Unofficially) Getting kittens out of trees, helping old ladies across the street, and handing out candy to kids.
+        Funding:
+          Funding Type: Private
+          Revenue Sources:
+            - Endowment
+            - Licensing and commercializing patents
+            - Merchandise sales
+            - Charitable donations
+            - Grants
+            - Investments
+            - Fundraising
+            - Beneficiary
+            - Gifts in kind
+            - Volunteerism
+          Rate Schedule: All services are rendered pro bono.
+      Description: 
       Reference:
         Equipment:
           Other Equipment:
@@ -1640,6 +2169,7 @@ Game:
                       Rank: Typical
                     Secondary Abilities:
                       Health: 18
+                  Reference: The Standard Robot is only capable of simple tasks and has no special abilities other than to record what transpires before its recorders and perform simple tasks. The H.E.R.B.I.E. series was a modified form of the standard robot. All Standard robot abilities are Typical.
             Security Drone:
               Reference:
                 Sentry Robot:
@@ -1653,6 +2183,7 @@ Game:
                     Range: Good
                     Type: Energy
                     Rate: 1
+                  Reference: The Sentry Robot has a bit more programming and firepower. It is programmed to identify hostile threats (that is — anything not in its bank) and open fire. Sentry robots come equipped with Good Strength lasers, though some may be additionally armed. All sentry robot abilities are Good.
             Specialist Drone:
               Reference:
                 Talent Robot:
@@ -1668,6 +2199,7 @@ Game:
                         Min: 60
                         Max: 70
                     Talents: Varies
+                  Reference: The Talent Robot is a robot specifically designed for a certain purpose, and its programming reflects that purpose. The Avengers' fire-fighting robots or the robotic opponent the Black Knight uses are examples of talent robots. Such robots may have one ability at Remarkable level. All others are Excellent.
           Vehicles:
             Operations Vehicle:
               Note: Primary patrol and response vehicle. Wilderness use. Lots of utility accessories.
@@ -1923,532 +2455,6 @@ Game:
                   Speed: Typical
                   Body: Remarkable
                   Protection: Remarkable
-          Supporting Cast:
-            Security:
-              Security Officer:
-                Description: Uniformed Security Officers use the Policeman stats and are equipped with a handgun, club, handcuffs, flashlight, and mace.
-                Abilities:
-                  Primary Abilities:
-                    Fighting: Excellent
-                    Agility: Excellent
-                    Strength: Good
-                    Endurance: Excellent
-                    Reason: Good
-                    Intuition: Good
-                    Psyche: Good
-                  Secondary Abilities:
-                    Health: 70
-                    Karma: 30
-                  Talents:
-                    Weapon Skills:
-                      Blunt Weapons: *Blunt_Weapons
-                    Fighting Skills:
-                      Martial Arts C: *Martial_Arts_C
-                    Professional Skills:
-                      Military: *Military
-                      Law Enforcement: *Law_Enforcement
-                    Other Talents:
-                      First Aid: *First_Aid
-                Equipment:
-                  Shooting Weapons:
-                    Handgun/Pistol: &Handgun-Pistol
-                      Range: 3
-                      Damage: 10
-                      Type: Shooting
-                      Rate: 1
-                      Shots:
-                        - 6
-                        - 8
-                        - 9
-                      Material Strength: Excellent
-                      Notes:
-                        - One-Handed
-                      Ammunition: 
-                        Standard: *Standard_Ammunition
-                      Reference: The Handgun/Pistol is the next most common weapon, and like the cheap handgun, is easily concealed. A number of makes and models exist, noted by the different number of shots available. When the number is not predetermined (the text states a 9-shot pistol), assume the chambers hold 6 shots.
-                  Melee and Thrown Weapons:
-                    Club: &Club
-                      Price: Feeble
-                      Damage: 10
-                      Type:
-                        - Blunt Attack
-                        - Blunt Throwing
-                      Material Strength: Good
-                      Reference: Clubs are standard blunt weapons, including makeshift weapons such as chairs and tables.
-                    Knife: *Knife
-                  Other Gear:
-                    Flashlight, Standard: *Flashlight
-                    Mace: *Mace
-                    Handcuffs: &Handcuffs Handcuffs are a standard restraining device used by the police forces of the world to prevent actions by criminals in custody. They are made of Excellent material.
-                Reference:
-                  Policeman:
-                    Abilities:
-                      Primary Abilities:
-                        Fighting: Good
-                        Agility: Good
-                        Strength: Typical
-                        Endurance: Good
-                        Reason: Typical
-                        Intuition: Typical
-                        Psyche: Typical
-                      Secondary Abilities:
-                        Health: 32
-                        Karma: 18
-                      Special Abilities:
-                        Talents:
-                          Professional Skills:
-                            Law Enforcement: *Law_Enforcement
-                    Reference: Standard agent of law-enforcement. Walks a beat or patrols in a squad car. Equipment includes a billy club and handgun. May make arrests.
-              Rapid Response Officer:
-                Description: Members of the Crisis Rapid Response Team use SWAT operative stats and have the same base equipment as the uniformed guards, but additionally wear Flak Jackets and are armed with a Riot Gun, Assault Rifle, or Sniper Rifle depending on their role on their squad.  They have access to Gas Masks and Infra-Red Goggles as well.
-                Abilities:
-                  Primary Abilities:
-                    Fighting: Excellent
-                    Agility: Excellent
-                    Strength: Good
-                    Endurance: Excellent
-                    Reason: Good
-                    Intuition: Good
-                    Psyche: Excellent
-                  Secondary Abilities:
-                    Health: 70
-                    Karma: 40
-                  Talents:
-                    Weapon Skills:
-                      Blunt Weapons: *Blunt_Weapons
-                      Sharp Weapons: *Sharp_Weapons
-                      Marksmanship: *Marksmanship
-                    Fighting Skills:
-                      Martial Arts C: *Martial_Arts_C
-                      Martial Arts E: *Martial_Arts_E
-                    Professional Skills:
-                      Military: *Military
-                      Law Enforcement: *Law_Enforcement
-                    Other Talents:
-                      First Aid: *First_Aid
-                Equipment:
-                  Shooting Weapons:
-                    Handgun: *Handgun-Pistol
-                    One of the Following:
-                      Riot Gun: &Riot_Gun
-                        Range: 2
-                        Damage: 15
-                        Type: Shooting
-                        Rate: 1
-                        Shots: 6
-                        Material Strength: Excellent
-                        Notes:
-                          - Bursts: Affect up to three adjacent targets, with one roll made for all targets.
-                          - Fire one-handed at -1CS
-                        Ammunition:
-                          Standard: *Standard_Ammunition
-                          Canister Shot: *Canister_Shot
-                        Reference:
-                          - Riot Gun: *Riot_Gun_Reference
-                          - Shotgun: *Shotgun
-                      Sniper Rifle: &Sniper_Rifle
-                        Range: 10
-                        Damage: 15
-                        Type: Shooting
-                        Rate: 1
-                        Shots: 4
-                        Material Strength: Good
-                        Ammunition:
-                          Standard: *Standard_Ammunition
-                          AP Shot: *AP_Shot
-                        Reference: The Sniper Rifle, like the target pistol, suffers no penalty for firing up to maximum range. It is used by criminals as well as the military.
-                      Assault Rifle: &Assault_Rifle
-                        Range: 7
-                        Damage: 10
-                        Type: Shooting
-                        Rate: 2
-                        Shots: 20
-                        Material Strength: Good
-                        Notes: Military
-                        Ammunition:
-                          Standard: *Standard_Ammunition
-                        Reference: The Assault Rifle is the version of the rifle used by the military.
-                  Melee and Thrown Weapons:
-                    Club: *Club
-                    Knife: *Knife
-                    Handcuffs: *Handcuffs
-                  Other Gear:
-                    Flashlight, Standard: *Flashlight
-                    Infra-red Goggles: *Infra-Red_Goggles
-                    Mace: *Mace
-                    Gas Mask: *Gas_Mask
-                    Flak Jacket: *Flak_Jacket
-                Reference:
-                  Swat Operative:
-                    Abilities:
-                      Primary Abilities:
-                        Fighting: Excellent
-                        Agility: Good
-                        Strength: Good
-                        Endurance: Typical
-                        Reason: Typical
-                        Intuition: Typical
-                        Psyche: Good
-                      Secondary Abilities:
-                        Health: 46
-                        Karma: 22
-                      Special Abilities:
-                        Talents:
-                          Weapons Skills:
-                            Marksmanship: *Marksmanship
-                          Professional Skills:
-                            Law Enforcement: *Law_Enforcement
-                    Reference: Special Weapons and Tactics teams are attached to most modern police forces to handle volatile situations. Members wear flak jackets for protection and are expected to fight under dangerous conditions. In dealing with super-powered opponents, some SWAT teams are equipped with mechanical exoskeletons and nullifying restraints.
-              Special Officer:
-                Description: The plainclothes security use Federal Agents stats, are equipped with handguns and handcuffs
-                Abilities:
-                  Primary Abilities:
-                    Fighting: Excellent
-                    Agility: Excellent
-                    Strength: Good
-                    Endurance: Excellent
-                    Reason: Excellent
-                    Intuition: Excellent
-                    Psyche: Excellent
-                  Secondary Abilities:
-                    Health: 70
-                    Karma: 60
-                  Talents:
-                    Weapon Skills:
-                      Blunt Weapons: *Blunt_Weapons
-                      Marksmanship: *Marksmanship
-                    Fighting Skills:
-                      Martial Arts C: *Martial_Arts_C
-                    Professional Skills:
-                      Military: *Military
-                      Law Enforcement: *Law_Enforcement
-                      Detective/Espionage: *Detective-Espionage
-                    Other Talents:
-                      First Aid: *First_Aid
-                Equipment:
-                  Handgun: *Handgun-Pistol
-                  Handcuffs: *Handcuffs
-                Reference:
-                  Federal Agent:
-                    Abilities:
-                      Primary Abilities:
-                        Fighting: Good
-                        Agility: Excellent
-                        Strength: Good
-                        Endurance: Good
-                        Reason: Good
-                        Intuition: Good
-                        Psyche: Good
-                      Secondary Abilities:
-                        Health: 50
-                        Karma: 30
-                      Special Abilities:
-                        Talents:
-                          Professional Skills:
-                            Law Enforcement: *Law_Enforcement
-                            Marksmanship: *Marksmanship
-                    Reference: Federal agents include investigative agents of the FBI, CIA, OSS, KGB, and other alphabetized agencies. They normally carry handguns, but generally in the field they act in an information-gathering capacity.
-              Medical Responder:
-                Description:
-                Abilities:
-                  Primary Abilities:
-                    Fighting: Typical
-                    Agility: Good
-                    Strength: Good
-                    Endurance: Excellent
-                    Reason: Excellent
-                    Intuition: Good
-                    Psyche: Good
-                  Secondary Abilities:
-                    Health: 46
-                    Karma: 40
-                  Talents:
-                    Professional Skills:
-                      Military: *Military
-                    Other Talents:
-                      First Aid: *First_Aid
-                Reference:
-                  Paramedic:
-                    Abilities:
-                      Primary Abilities:
-                        Fighting: Poor
-                        Agility: Typical
-                        Strength: Typical
-                        Endurance: Good
-                        Reason: Good
-                        Intuition: Typical
-                        Psyche: Typical
-                      Secondary Abilities:
-                        Health: 26
-                        Karma: 22
-                      Special Abilities:
-                        Talents:
-                          Other Talents:
-                            First Aid: *First_Aid
-                    Reference: Paramedics operate out of ambulances equipped with medication and other life-support equipment. Their job is to get the sick and injured to the hospital in stable (or better) condition. They carry oxygen, a power saw, and a hydraulic jack winch.
-              Rescue Responder:
-                Description:
-                Note: 
-                Abilities:
-                  Primary Abilities:
-                    Fighting: Good
-                    Agility: Good
-                    Strength: Excellent
-                    Endurance: Excellent
-                    Reason: Good
-                    Intuition: Excellent
-                    Psyche: Good
-                  Secondary Abilities:
-                    Health: 70
-                    Karma: 40
-                  Talents:
-                    Professional Skills:
-                      Military: *Military
-                    Other Talents:
-                      First Aid: *First_Aid
-                Equipment:
-                Reference:
-                  Fire-Fighter:
-                    Abilities:
-                      Primary Abilities:
-                        Fighting: Typical
-                        Agility: Typical
-                        Strength: Good
-                        Endurance: Excellent
-                        Reason: Typical
-                        Intuition: Good
-                        Psyche: Typical
-                      Secondary Abilities:
-                        Health: 42
-                        Karma: 22
-                      Special Abilities:
-                        Talents:
-                          Other Talents:
-                            First Aid: *First_Aid
-                    Reference: Fire-fighters arrive on the scene of a fire with fire trucks and other equipment, including fire hoses, extinguishers, asbestos suits, and other protective gear.
-            Support:
-              Employee:
-                Description: 
-                Note: Their abilities are generally self-evident (a pilot will always have Pilot Talent, a computer specialist Computer Talent).
-                Abilities:
-                  Primary Abilities:
-                    Fighting: Typical
-                    Agility:
-                      Base: Good
-                    Note:
-                    Reference: 
-                      Pilot: Excellent
-                    Strength:
-                      Base: Typical
-                      Labor: Good
-                    Endurance:
-                      Base: Good
-                      Labor: Excellent
-                    Reason:
-                      Base: Good
-                      Management: Excellent
-                      Technical: Excellent
-                    Intuition:
-                      Base: Good
-                      Pilot: Excellent
-                      Management: Excellent
-                    Psyche:
-                      Base: Good
-                      Pilot: Excellent
-                      Management: Excellent
-                  Secondary Abilities:
-                    Health:
-                      Base: 32
-                      Pilot: 36
-                      Labor: 46
-                    Karma:
-                      Base: 30
-                      Pilot: 50
-                      Management: 60
-                      Technical: 40
-                  Special Abilities:
-                    Talents:
-                      Management:
-                        Professional Skills:
-                          Law: *Law
-                          Business/Finance: *Business-Finance
-                        Other Talents:
-                          Leadership: *Leadership
-                      Pilot:
-                        Professional Skills:
-                          Pilot: *Pilot
-                        Other Talents:
-                          Languages: *Languages
-                          Repair/Tinkering: *Repair-Tinkering
-                      Accountant:
-                        Professional Skills:
-                          Business/Finance: *Business-Finance
-                      Paralegal:
-                        Professional Skills:
-                          Law: *Law
-                      Computer Specialist:
-                        Scientific Skills:
-                          Computers: *Computers
-                          Electronics: *Electronics
-                        Other Talents:
-                          Repair/Tinkering: *Repair-Tinkering
-                      Maintenance:
-                        Other Talents:
-                          Repair/Tinkering: *Repair-Tinkering
-                Reference:
-                  Businessman:
-                    Abilities:
-                      Primary Abilities:
-                        Fighting: Poor
-                        Agility: Typical
-                        Strength: Typical
-                        Endurance: Typical
-                        Reason: Typical
-                        Intuition: Typical
-                        Psyche: Typical
-                      Secondary Abilities:
-                        Health: 22
-                        Karma: 18
-                      Special Abilities:
-                        Talents: Varies
-                    Reference: Your typical New Yorker (or San Franciscan or Clevelander). Standard human stats. Good for crowds or endangered passers-by. Includes politicians, secretaries, ice cream vendors, and the entire spectrum of normal everyday people.
-              Physician:
-                Description:
-                Note:
-                  Abilities:
-                    Primary Abilities:
-                      Fighting: Typical
-                      Agility: Good
-                      Strength: Typical
-                      Endurance: Good
-                      Reason: Remarkable
-                      Intuition: Excellent
-                      Psyche: Excellent
-                    Secondary Abilities:
-                      Health: 32
-                      Karma: 70
-                    Special Abilities:
-                      Talents:
-                        Professional Skills:
-                          Medicine: *Medicine
-                          Psychiatry: *Psychiatry
-                        Scientific Skills:
-                          Biology: *Biology
-                          Chemistry: *Chemistry
-                          Genetics: *Genetics
-                        Other Talents:
-                          First Aid: *First_Aid
-                Reference:
-                  Doctor:
-                    Abilities:
-                      Primary Abilities:
-                        Fighting: Poor
-                        Agility: Good
-                        Strength: Typical
-                        Endurance: Good
-                        Reason: Good
-                        Intuition: Good
-                        Psyche: Good
-                      Secondary Abilities:
-                        Health: 30
-                        Karma: 30
-                      Special Abilities:
-                        Talents:
-                          Professional Skills:
-                            Medicine: *Medicine
-                    Reference: Doctors are the conventional method of stopping loss of Endurance in critically wounded characters, as well as taking care of diseases and illness. There are diseases that are beyond present technology to cure, though, and the special problems of super-powered individuals may require equally specialized treatments.
-              Counsel:
-                Description:
-                Note:
-                  Abilities:
-                    Primary Abilities:
-                      Fighting: Typical
-                      Agility: Good
-                      Strength: Typical
-                      Endurance: Good
-                      Reason: Excellent
-                      Intuition: Remarkable
-                      Psyche: Excellent
-                    Secondary Abilities:
-                      Health: 32
-                      Karma: 70
-                    Special Abilities:
-                      Talents:
-                        Professional Skills:
-                          Law: *Law
-                          Business/Finance: *Business-Finance
-                          Criminology: *Criminology
-                          Psychiatry: *Psychiatry
-                          Detective/Espionage: *Detective-Espionage
-                Reference:
-                  Lawyer:
-                    Abilities:
-                      Primary Abilities:
-                        Fighting: Poor
-                        Agility: Typical
-                        Strength: Typical
-                        Endurance: Typical
-                        Reason: Typical
-                        Intuition: Good
-                        Psyche: Typical
-                      Secondary Abilities:
-                        Health: 22
-                        Karma: 22
-                      Special Abilities:
-                        Talents:
-                          Professional Skills:
-                            Law: *Law
-                    Reference: |
-                      Most hero organizations (and a bunch of villains as well) have a lawyer on retainer: that is, they pay the man to be around when they need representation in court. The Avengers and Fantastic Four both used the services of Murdock and Nelson, until that operation folded. Hiring a lawyer is an Excellent cost, though there are avenues available to those who cannot afford this.
-              Researcher:
-                Descripton:
-                Note:
-                  Primary Abilities:
-                    Fighting: Typical
-                    Agility: Good
-                    Strength: Typical
-                    Endurance: Good
-                    Reason: Remarkable
-                    Intuition: Remarkable
-                    Psyche: Good
-                  Secondary Abilities:
-                    Health: 32
-                    Karma: 70
-                  Special Abilities:
-                    Talents:
-                      Professional Skills:
-                        Engineering: *Engineering
-                      Scientific Skills:
-                        Any three of the following:
-                          Biology: *Biology
-                          Chemistry: *Chemistry
-                          Genetics: *Genetics
-                          Physics: *Physics
-                          Geology: *Geology
-                          Archaeology: *Archaeology
-                          Computers: *Computers
-                          Electronics: *Electronics
-                      Other Talents:
-                        Languages: *Languages
-                        Repair/Tinkering: *Repair-Tinkering
-                Reference:
-                  Scientist:
-                    Abilities:
-                      Primary Abilities:
-                        Fighting: Poor
-                        Agility: Typical
-                        Strength: Poor
-                        Endurance: Typical
-                        Reason: Excellent
-                        Intuition: Good
-                        Psyche: Typical
-                      Secondary Abilities:
-                        Health: 20
-                        Karma: 36
-                      Special Abilities:
-                        Talents:
-                          Scientific: Any one Scientific Talent
-                    Reference: The above stats are for the typical scientist to be found in a research institution or on a college campus. There are specialists in their fields that have higher Reason abilities, but they are generally loners, usually because their advancements are so far beyond the bounds of modern science, or their pet theories are ridiculed, that they reject the establishment. (Many super-powered villains got their start in this fashion.)
   Headquarters:
     Greymount Manor:
       Description: A grand, stately, Beaux-Arts mansion in West Village along the waterfront, the palatial estate has a private courtyard with peristyle, ornate, gated porte-cochère and portico, and an attached carriage house that was converted to a vehicle garage in the 1920's with direct street access. Greymount Manor was constructed for Julian Constantine, finished in 1880, and he has owned it ever since.
