@@ -35,18 +35,22 @@ Game:
         Origin of Power:
           Self-Achievement: The hero actively sought out a means of giving himself Power. He developed the methods, procedures, equipment, or whatever permits him to possess Power. This could be through scientific endeavors (Henry Pym/ Ant Man), arcane study (Dr. Strange), or physical training (iron Fist). Anyone can gain Powers similar to the hero's by following this special training.
         Weakness:
-          Normal Human: Everybody has an Achilles' Heel, a weakness that can really mess up his day. The nature and severity of the weakness varies with the individual, race, or class. Normal Humans have so many we don't even think about them, aside from heeding such warnings as "Poison" or skull-and-crossbones symbols. For Normal Humans, the standard stimuli are Elemental Allergy, Molecular Allergy, and Energy Allergy with Fatal Effects. 
-          Stimulus:
-            Elemental Allergy: |
-              The hero suffers adverse effects if he is exposed to a specific one of the hundred-odd elements. This Allergy only occurs if the element is present in a pure state and in an accumulation of at least one ounce. If the element is combined in a molecular state or is in insufficient quantities, no Effect occurs. The element must be within 20 feet of the hero for it to have any Effect.
+          Normal Human: 
+            Note:
+              - Inherent to all Normal Human Physical Form characters
+              - Represents typical Normal Human vulnerabilities to dangerous substances and energies.
+            Reference: Everybody has an Achilles' Heel, a weakness that can really mess up his day. The nature and severity of the weakness varies with the individual, race, or class. Normal Humans have so many we don't even think about them, aside from heeding such warnings as "Poison" or skull-and-crossbones symbols. For Normal Humans, the standard stimuli are Elemental Allergy, Molecular Allergy, and Energy Allergy with Fatal Effects. 
+            Stimulus:
+              Elemental Allergy: |
+                The hero suffers adverse effects if he is exposed to a specific one of the hundred-odd elements. This Allergy only occurs if the element is present in a pure state and in an accumulation of at least one ounce. If the element is combined in a molecular state or is in insufficient quantities, no Effect occurs. The element must be within 20 feet of the hero for it to have any Effect.
 
-              This allergy can be overcome by physically insulating the hero from the element or by increasing the distance between them.
-            Molecular Allergy: This is similar to Elemental Allergy. A specific compound causes the Effect. Common examples include water, wood, and Adamantium.
-            Energy Allergy: The hero suffers when he is exposed to a specific form of energy. This can be any wavelength or Intensity of energy found in the Energy Emission and Energy Control sections of this book. Sunlight is a common example of Energy Allergy, particularly when dealing with supernatural beings.
-          Effect:
-            Fatal: As in the above, the hero gets ill after the initial exposure to the Stimulus. However, the Health loss does not stop at zero. Death will eventually occur if Health and (subsequently) Endurance drop to zero during the Weakness Duration. The hero can be revived if proper medical attention is given, but only after his Health and Endurance have both reached zero.
-          Duration:
-            Continuous with Contact: As long as the hero remains within the effective range of the Stimulus, the Effect continues. When the hero is insulated or moved away from the Stimulus, the Effect immediately ceases. Lost Health points are returned at a rate of 2 per turn. If death has occurred, the hero now has the possibility of being revived.
+                This allergy can be overcome by physically insulating the hero from the element or by increasing the distance between them.
+              Molecular Allergy: This is similar to Elemental Allergy. A specific compound causes the Effect. Common examples include water, wood, and Adamantium.
+              Energy Allergy: The hero suffers when he is exposed to a specific form of energy. This can be any wavelength or Intensity of energy found in the Energy Emission and Energy Control sections of this book. Sunlight is a common example of Energy Allergy, particularly when dealing with supernatural beings.
+            Effect:
+              Fatal: As in the above, the hero gets ill after the initial exposure to the Stimulus. However, the Health loss does not stop at zero. Death will eventually occur if Health and (subsequently) Endurance drop to zero during the Weakness Duration. The hero can be revived if proper medical attention is given, but only after his Health and Endurance have both reached zero.
+            Duration:
+              Continuous with Contact: As long as the hero remains within the effective range of the Stimulus, the Effect continues. When the hero is insulated or moved away from the Stimulus, the Effect immediately ceases. Lost Health points are returned at a rate of 2 per turn. If death has occurred, the hero now has the possibility of being revived.
       Abilities:
         Primary Abilities:
           Fighting:
@@ -2445,10 +2449,6 @@ Game:
                         Talents:
                           Scientific: Any one Scientific Talent
                     Reference: The above stats are for the typical scientist to be found in a research institution or on a college campus. There are specialists in their fields that have higher Reason abilities, but they are generally loners, usually because their advancements are so far beyond the bounds of modern science, or their pet theories are ridiculed, that they reject the establishment. (Many super-powered villains got their start in this fashion.)
-            Special:
-              Varangios: *Varangios
-              Magos: *Magos
-              Unique Personnel: []
   Headquarters:
     Greymount Manor:
       Description: A grand, stately, Beaux-Arts mansion in West Village along the waterfront, the palatial estate has a private courtyard with peristyle, ornate, gated porte-cochère and portico, and an attached carriage house that was converted to a vehicle garage in the 1920's with direct street access. Greymount Manor was constructed for Julian Constantine, finished in 1880, and he has owned it ever since.
