@@ -779,327 +779,328 @@ Game:
             Reference:
               Familiar: &Familiar Familiar indicates a being that is very powerful magically and actively assists the hero. Two powers should be rolled randomly or selected by the Judge from the personal and universal energy lists for this familiar. In addition, the familiar is intelligent (Reason and Psyche at least Typical) and can communicate with its owner (the kind of communication is left to the Judge’s discretion). The form of the familiar can either be that of a normal animal (usually a cat) or an unusual type, such as a small dragon or other mythical creature. The familiar’s form is at the player’s discretion.
         Custom Equipment:
-          Guardian Blaster: &Guardian_Blaster
-            Description: The Guardian Blaster Mk. I is a combination weapon with utility functions.  It fires handgun bullets, gyrojet rockets, canister rounds (including standard shotgun shells, or non-lethal shotgun loads), and plasma, laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher. It's an integrated combination of existing items.
-            Count: 2
-            Material Strength: Excellent
-            Shooting Weapons:
-              Range:
-                Bullet: 5
-                Gyrojet: 5
-                Laser: 10
-                Concussion: 4
-                Plasma: 7
-                Stun: 2
-                Shot, Canister: 3
-              Damage:
-                Bullet: 6
-                Gyrojet: 10
-                Laser: 10
-                Concussion: 10
-                Plasma: 20
-                Stun: Fires a stunning beam of Typical Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns.
-                Shot: 15
-                Canister: As canister
-              Type:
-                Bullet: Shooting
-                Gyrojet: Shooting
-                Laser: Energy
-                Concussion: Force
-                Plasma: Force
-                Stun: Typical Intensity stunning
-                Shot: Shooting
-                Canister: As canister
-                Rate: 1
-              Shots:
-                Bullets: 9
-                Gyrojet: 3
-                Laser: 10
-                Concussion: 5
-                Plasma: 10
-                Stun: 10
-                Shot, Canister: 6
-              Notes:
-                - One-Handed
-                - Shot bursts, which affects up to three adjacent targets, with one roll made for all targets.
-              Ammunition:
-                Power Pack: Stun, concussion, and laser weapons operate from power packs and may not use other types of ammunition.
-                Bullets:
-                  Standard: &Standard_Ammunition Damage listed for each weapon is for standard ammunition.
-                  Mercy Shot: There are several types of specialized ammunition, the first of which is Mercy Shot. Mercy bullets inflict no damage, but spread a Remarkable Intensity knock-out drug over the skin of the target. If the bullet inflicts damage to the target, the drug takes effect, knocking those affected out for 1-10 rounds.
-                  AP Shot: Armor-piercing bullets reduce the target's Body Armor by 2 CS (from Good to Poor, for example) for purposes of hitting and damage. This type of ammunition has no effect on force fields.
-                  Rubber Shot: Less lethal rubber bullets that inflict slugfest damage instead of shooting damage. Ignore Slam results when using rubber bullets.
-                  Explosive Shot: &Explosive_Shot Explosive Shot inflicts twice the normal (listed) damage for the weapon. If the weapon fires bursts or scatters, all targets in the area are affected.
-                Shot:
-                  Standard: *Standard_Ammunition
-                  Non-Lethal: Non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results).
-                Canister Shot:
-                  - Canister shot is a special type of ammunition that may be loaded with various cartridges for different effects. Specify the type of canister desired when purchasing.
-                  - Gas Canisters: Gas Canisters contain Incredible Intensity Tear Gas. Cover one area.
-                  - Knock-Out Canisters: Knock-Out Can contain Remarkable Intensity Knock-Out gas. Cover one area.
-                  - Smoke Canisters: Smoke Canisters contain Excellent Intensity smoke. Cover one area.
-                  - Explosive Canisters: Explosive Canisters inflict double damage to all in target area, normal damage to all in adjacent areas.
-                  - Incendiary Canisters: Incendiary Canisters inflict 20 damage in fire (Energy), which burns at Excellent Intensity for 1-10 rounds.
-                Gyrojet:
-                  - Standard: Damage listed for each weapon is for standard ammunition.
-                  - Explosive Shot: *Explosive_Shot
-                  - Heat-Seeker Ammunition: &Heat-Seeker_Ammunition Heat-Seeker Ammunition seeks out the hottest source in line to the target. Will track the hottest source up to maximum of the weapon's range, and suffers no penalty for range. If several targets are of the same heat, then it will determine a target randomly. This ammunition type is only available for Gyro-Jet Pistols.
-                  - Explosive Heat-Seeker Ammunition:
+          Guardian Blaster:
+            Model I: &Guardian_Blaster
+              Description: The Guardian Blaster Mk. I is a combination weapon with utility functions.  It fires handgun bullets, gyrojet rockets, canister rounds (including standard shotgun shells, or non-lethal shotgun loads), and plasma, laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher. It's an integrated combination of existing items.
+              Count: 2
+              Material Strength: Excellent
+              Shooting Weapons:
+                Range:
+                  Bullet: 5
+                  Gyrojet: 5
+                  Laser: 10
+                  Concussion: 4
+                  Plasma: 7
+                  Stun: 2
+                  Shot, Canister: 3
+                Damage:
+                  Bullet: 6
+                  Gyrojet: 10
+                  Laser: 10
+                  Concussion: 10
+                  Plasma: 20
+                  Stun: Fires a stunning beam of Typical Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns.
+                  Shot: 15
+                  Canister: As canister
+                Type:
+                  Bullet: Shooting
+                  Gyrojet: Shooting
+                  Laser: Energy
+                  Concussion: Force
+                  Plasma: Force
+                  Stun: Typical Intensity stunning
+                  Shot: Shooting
+                  Canister: As canister
+                  Rate: 1
+                Shots:
+                  Bullets: 9
+                  Gyrojet: 3
+                  Laser: 10
+                  Concussion: 5
+                  Plasma: 10
+                  Stun: 10
+                  Shot, Canister: 6
+                Notes:
+                  - One-Handed
+                  - Shot bursts, which affects up to three adjacent targets, with one roll made for all targets.
+                Ammunition:
+                  Power Pack: Stun, concussion, and laser weapons operate from power packs and may not use other types of ammunition.
+                  Bullets:
+                    Standard: &Standard_Ammunition Damage listed for each weapon is for standard ammunition.
+                    Mercy Shot: There are several types of specialized ammunition, the first of which is Mercy Shot. Mercy bullets inflict no damage, but spread a Remarkable Intensity knock-out drug over the skin of the target. If the bullet inflicts damage to the target, the drug takes effect, knocking those affected out for 1-10 rounds.
+                    AP Shot: Armor-piercing bullets reduce the target's Body Armor by 2 CS (from Good to Poor, for example) for purposes of hitting and damage. This type of ammunition has no effect on force fields.
+                    Rubber Shot: Less lethal rubber bullets that inflict slugfest damage instead of shooting damage. Ignore Slam results when using rubber bullets.
+                    Explosive Shot: &Explosive_Shot Explosive Shot inflicts twice the normal (listed) damage for the weapon. If the weapon fires bursts or scatters, all targets in the area are affected.
+                  Shot:
+                    Standard: *Standard_Ammunition
+                    Non-Lethal: Non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results).
+                  Canister Shot:
+                    - Canister shot is a special type of ammunition that may be loaded with various cartridges for different effects. Specify the type of canister desired when purchasing.
+                    - Gas Canisters: Gas Canisters contain Incredible Intensity Tear Gas. Cover one area.
+                    - Knock-Out Canisters: Knock-Out Can contain Remarkable Intensity Knock-Out gas. Cover one area.
+                    - Smoke Canisters: Smoke Canisters contain Excellent Intensity smoke. Cover one area.
+                    - Explosive Canisters: Explosive Canisters inflict double damage to all in target area, normal damage to all in adjacent areas.
+                    - Incendiary Canisters: Incendiary Canisters inflict 20 damage in fire (Energy), which burns at Excellent Intensity for 1-10 rounds.
+                  Gyrojet:
+                    - Standard: Damage listed for each weapon is for standard ammunition.
                     - Explosive Shot: *Explosive_Shot
-                    - Heat-Seeker Ammunition: *Heat-Seeker_Ammunition
-              Target Pistol: The Target Pistol is the most finely balanced and accurate of the pistols. The user of a target pistol suffers no penalty for range when firing with two hands
-              Variable Pistol: The Variable Pistol has an advantage in that it may be set in the field to a specific type of ammunition and changed according to need. Most handguns fire standard ammunition and must be modified to fire other types as well.
-              GyroJet Pistol: A GyroJet Pistol fires a miniature rocket, which may affect one or more targets according to ammunition type. Gyro-jets will only fire one type of ammunition, and gyrojet ammunition will not fit any other type of gun.
-              Laser Pistol, Concussion Pistol, Plasma Beam Handgun: The Laser Pistol, Concussion Pistol, and Plasma Beam Handgun are weapons used by high-tech spies and subversive organizations, including S.H.I.E.L.D. and A.I.M. All three types operate from power packs.
-              Stun Pistol: The standard Stun Pistol fires a stunning beam of Typical Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns. It operates from a power pack.
-              Shotgun: The Shotgun fires bursts. It is often loaded with non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results).
-              Riot Gun: The Riot Gun is a smaller version of the shotgun and fires grenade-like missiles and canister shot (treat as grenades).
-            Other Equipment:
-              Fire Extinguisher: Fire Extinguishers inflict no damage normally, but against fire are of Good Intensity (eliminate fire of Typical Intensity or less in the same area on a green FEAT, of Good Intensity on a yellow, and up to Excellent on a red). Against characters with flaming powers, such as the Human Torch, the extinguisher causes a FEAT roll against that Intensity to retain flame.
-              Silencer: The Silencer is a device that may be added to a pistol or rifle which inflicts damage on the Shooting table, excluding the gyro-jet and all lasers, stunning and concussion weapons. The silencer operates by dispersing the gases from the shot that creates the crack of the pistol. The target (and those around him or her) must make an Intuition FEAT to hear the shot and know its location.
-              Sniper Sights: Sniper Sights are built into the sniper rifle and the target pistol, and added to any other weapon eliminate the penalty for range for weapons. Using the sniper sight automatically has an initiative roll of 10 (last in the round). 
-              Infra-Red Sights: Infra-Red Sights are a modification similar to the sniper sight, may be used for any missile weapon. These sights permit the user to see up to 5 areas in the dark.
-              Flashlight: Flashlights are common to all readers. The normal flashlight is the type most common, with a plastic or metal body (Typical Intensity). The Halogen flashlight has a brighter bulb and more concentrated beam, and blinds with a more powerful Intensity (Remarkable Intensity). Normal flashlight has a range of two areas, the halogen three.
-              Mace: Mace is a small one-area weapon that shoots a mist of Typical Intensity tear gas at a single target adjacent to the user. It does not require an Agility FEAT to hit, though the target must make an Endurance FEAT to avoid the effects.
-              Flare Pistol: Flare Pistols fire a burning charge that lights the sky, either to provide illumination (lighting all areas within three) or as a signal device (fired 10 floors straight up). Used as a weapon, the device has a range of two areas and inflicts Good damage. The charge is incendiary and will ignite flammable material.
-          Guardian Blaster II:
-            Description: A sleek, futuristic device with extendable stock and forestock to transition between handgun to long gun form factors. It may be attached to the Sentinel Battlesuit Mk. 1's arm, becoming an integral part of the suit, or operate off grid power or a power pack as an energy source to be used as a standalone device for 10 uses of any power per Power Pack.
-            Variants:
-              Mk. 0:
-                Base Power Rank: Excellent
-                Material Strength: Remarkable
-              Mk. 1:
-                Base Power Rank: Remarkable
-                Material Strength: Incredible
-              Mk. 2:
-                Base Power Rank: Incredible
-                Material Strength: Amazing
-              Mk. 3:
-                Base Power Rank: Amazing
-                Material Strength: Monstrous
-              Mk. 4:
-                Base Power Rank: Monstrous
-                Material Strength: Unearthly
-            Powers:
-              Energy Emission:
-                Light Emission: #EE8
-                  Rank: Base Power Rank
-                  Reference: &Light_Emission |
-                    The hero can emit powerful bursts of light do Power rank damage at rank range. The light may be of any nature:
+                    - Heat-Seeker Ammunition: &Heat-Seeker_Ammunition Heat-Seeker Ammunition seeks out the hottest source in line to the target. Will track the hottest source up to maximum of the weapon's range, and suffers no penalty for range. If several targets are of the same heat, then it will determine a target randomly. This ammunition type is only available for Gyro-Jet Pistols.
+                    - Explosive Heat-Seeker Ammunition:
+                      - Explosive Shot: *Explosive_Shot
+                      - Heat-Seeker Ammunition: *Heat-Seeker_Ammunition
+                Target Pistol: The Target Pistol is the most finely balanced and accurate of the pistols. The user of a target pistol suffers no penalty for range when firing with two hands
+                Variable Pistol: The Variable Pistol has an advantage in that it may be set in the field to a specific type of ammunition and changed according to need. Most handguns fire standard ammunition and must be modified to fire other types as well.
+                GyroJet Pistol: A GyroJet Pistol fires a miniature rocket, which may affect one or more targets according to ammunition type. Gyro-jets will only fire one type of ammunition, and gyrojet ammunition will not fit any other type of gun.
+                Laser Pistol, Concussion Pistol, Plasma Beam Handgun: The Laser Pistol, Concussion Pistol, and Plasma Beam Handgun are weapons used by high-tech spies and subversive organizations, including S.H.I.E.L.D. and A.I.M. All three types operate from power packs.
+                Stun Pistol: The standard Stun Pistol fires a stunning beam of Typical Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns. It operates from a power pack.
+                Shotgun: The Shotgun fires bursts. It is often loaded with non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results).
+                Riot Gun: The Riot Gun is a smaller version of the shotgun and fires grenade-like missiles and canister shot (treat as grenades).
+              Other Equipment:
+                Fire Extinguisher: Fire Extinguishers inflict no damage normally, but against fire are of Good Intensity (eliminate fire of Typical Intensity or less in the same area on a green FEAT, of Good Intensity on a yellow, and up to Excellent on a red). Against characters with flaming powers, such as the Human Torch, the extinguisher causes a FEAT roll against that Intensity to retain flame.
+                Silencer: The Silencer is a device that may be added to a pistol or rifle which inflicts damage on the Shooting table, excluding the gyro-jet and all lasers, stunning and concussion weapons. The silencer operates by dispersing the gases from the shot that creates the crack of the pistol. The target (and those around him or her) must make an Intuition FEAT to hear the shot and know its location.
+                Sniper Sights: Sniper Sights are built into the sniper rifle and the target pistol, and added to any other weapon eliminate the penalty for range for weapons. Using the sniper sight automatically has an initiative roll of 10 (last in the round). 
+                Infra-Red Sights: Infra-Red Sights are a modification similar to the sniper sight, may be used for any missile weapon. These sights permit the user to see up to 5 areas in the dark.
+                Flashlight: Flashlights are common to all readers. The normal flashlight is the type most common, with a plastic or metal body (Typical Intensity). The Halogen flashlight has a brighter bulb and more concentrated beam, and blinds with a more powerful Intensity (Remarkable Intensity). Normal flashlight has a range of two areas, the halogen three.
+                Mace: Mace is a small one-area weapon that shoots a mist of Typical Intensity tear gas at a single target adjacent to the user. It does not require an Agility FEAT to hit, though the target must make an Endurance FEAT to avoid the effects.
+                Flare Pistol: Flare Pistols fire a burning charge that lights the sky, either to provide illumination (lighting all areas within three) or as a signal device (fired 10 floors straight up). Used as a weapon, the device has a range of two areas and inflicts Good damage. The charge is incendiary and will ignite flammable material.
+            Model II:
+              Description: A sleek, futuristic device with extendable stock and forestock to transition between handgun to long gun form factors. It may be attached to the Sentinel Battlesuit Mk. 1's arm, becoming an integral part of the suit, or operate off grid power or a power pack as an energy source to be used as a standalone device for 10 uses of any power per Power Pack.
+              Variants:
+                Mk. 0:
+                  Base Power Rank: Excellent
+                  Material Strength: Remarkable
+                Mk. 1:
+                  Base Power Rank: Remarkable
+                  Material Strength: Incredible
+                Mk. 2:
+                  Base Power Rank: Incredible
+                  Material Strength: Amazing
+                Mk. 3:
+                  Base Power Rank: Amazing
+                  Material Strength: Monstrous
+                Mk. 4:
+                  Base Power Rank: Monstrous
+                  Material Strength: Unearthly
+              Powers:
+                Energy Emission:
+                  Light Emission: #EE8
+                    Rank: Base Power Rank
+                    Reference: &Light_Emission |
+                      The hero can emit powerful bursts of light do Power rank damage at rank range. The light may be of any nature:
 
-                    - Normal light in any color or intensity: the hero can light the area, dispel Shadow Powers, and temporarily blind targets.
-                    - Coherent Light (lasers) do rank level heat damage as they burn into targets. Lasers can also be used to carry information or to create holograms.
-                    - Optic blasts do rank level damage but rather than burn a target, they act as Kinetic Bolts.
+                      - Normal light in any color or intensity: the hero can light the area, dispel Shadow Powers, and temporarily blind targets.
+                      - Coherent Light (lasers) do rank level heat damage as they burn into targets. Lasers can also be used to carry information or to create holograms.
+                      - Optic blasts do rank level damage but rather than burn a target, they act as Kinetic Bolts.
 
-                    The player can raise the hero's rank upon creation by +2CS if he chooses specialization in a specific form of this Power.
-                Plasma Generation: #EE10
-                  Rank: Base Power Rank
-                  Power Stunts:
-                    - Light: *Light_Emission
-                    - Heat: |
-                        The hero can generate pure heat that is not necessarily accompanied by light or flame by accelerating molecular motion. This permits the hero to do rank level effects over target materials. Some Power Stunts using pure heat include:
+                      The player can raise the hero's rank upon creation by +2CS if he chooses specialization in a specific form of this Power.
+                  Plasma Generation: #EE10
+                    Rank: Base Power Rank
+                    Power Stunts:
+                      - Light: *Light_Emission
+                      - Heat: |
+                          The hero can generate pure heat that is not necessarily accompanied by light or flame by accelerating molecular motion. This permits the hero to do rank level effects over target materials. Some Power Stunts using pure heat include:
 
-                        - Causing the breakdown of molecular or even atomic bonds (Amazing and Unearthly FEATs, respectively).
-                        - Negating a target's magnetism
-                        - Negating a target's electrical conductivity.
-                        - Strengthening materials by heat-treating.
-                        - Changing local weather by heating the air: this can cause small cyclones and electrical storms.
+                          - Causing the breakdown of molecular or even atomic bonds (Amazing and Unearthly FEATs, respectively).
+                          - Negating a target's magnetism
+                          - Negating a target's electrical conductivity.
+                          - Strengthening materials by heat-treating.
+                          - Changing local weather by heating the air: this can cause small cyclones and electrical storms.
 
-                        Because this Power uses pure heat, it can function in conditions that negate Flame Emission, like the absence of free Oxygen or the hero's being underwater. Beings who possess Thermal Vision or Abnormal Sensitivity can detect an infrared glow around, the hero and his target whenever he uses his Power. Heat Emission is the Nemesis of Cold Emission, Coldshaping, and Powers that use water. This Power gains +1CS when attacking those Powers and loses -1CS when being attacked by them.
-                    - Flame: *Fire_Generation
-                    - Hard Radiation: |
-                        This covers the dangerous section of the energy spectrum: ultraviolet light, x-rays, and alpha and beta particles, gamma rays, and the ever-popular "cosmic rays." The hero can project any of these types at Power rank range and damage. When creating the hero, the player can raise his rank +1CS by specializing in a particular type of hard radiation. For game purposes, we'll assume that the hero has total control over his own inherent radioactivity and possesses automatic safe-guards that prevent him from fatally contaminating the area each time he uses his Power. This Power is linked to Radiation Control: the player can exchange one of his other Powers for Radiation Control when creating the hero, if he so desires.
-                    - Magnetism: |
-                        The hero can generate intense magnetic force. The magnetic field may be centered on the hero's body or be projected at rank range. The field can affect anything susceptible to magnetism, attracting it with Power rank Strength. If the target itself is magnetic, the hero can attract it at +1CS or repel it at Power rank. The hero can induce magnetism into any materials that can sustain a magnetic field: these include ferrous materials, iron-bearing clays and plastics, and ferrous ores. The hero can do rank level damage to electronic devices by scrambling internal signals: this is especially effective against magnetic recordings and micro-chip dependent devices. This Power can affect other Powers. It can redirect Electrical Generation by a Typical Intensity FEAT if the other Power's rank is lower, a Remarkable Intensity FEAT if equal, and an Unearthly Intensity FEAT if the other Power is higher. It can disrupt Electric or Magnetic Control and Energy Sheath or Energy Body, if either are magnetic in nature.
+                          Because this Power uses pure heat, it can function in conditions that negate Flame Emission, like the absence of free Oxygen or the hero's being underwater. Beings who possess Thermal Vision or Abnormal Sensitivity can detect an infrared glow around, the hero and his target whenever he uses his Power. Heat Emission is the Nemesis of Cold Emission, Coldshaping, and Powers that use water. This Power gains +1CS when attacking those Powers and loses -1CS when being attacked by them.
+                      - Flame: *Fire_Generation
+                      - Hard Radiation: |
+                          This covers the dangerous section of the energy spectrum: ultraviolet light, x-rays, and alpha and beta particles, gamma rays, and the ever-popular "cosmic rays." The hero can project any of these types at Power rank range and damage. When creating the hero, the player can raise his rank +1CS by specializing in a particular type of hard radiation. For game purposes, we'll assume that the hero has total control over his own inherent radioactivity and possesses automatic safe-guards that prevent him from fatally contaminating the area each time he uses his Power. This Power is linked to Radiation Control: the player can exchange one of his other Powers for Radiation Control when creating the hero, if he so desires.
+                      - Magnetism: |
+                          The hero can generate intense magnetic force. The magnetic field may be centered on the hero's body or be projected at rank range. The field can affect anything susceptible to magnetism, attracting it with Power rank Strength. If the target itself is magnetic, the hero can attract it at +1CS or repel it at Power rank. The hero can induce magnetism into any materials that can sustain a magnetic field: these include ferrous materials, iron-bearing clays and plastics, and ferrous ores. The hero can do rank level damage to electronic devices by scrambling internal signals: this is especially effective against magnetic recordings and micro-chip dependent devices. This Power can affect other Powers. It can redirect Electrical Generation by a Typical Intensity FEAT if the other Power's rank is lower, a Remarkable Intensity FEAT if equal, and an Unearthly Intensity FEAT if the other Power is higher. It can disrupt Electric or Magnetic Control and Energy Sheath or Energy Body, if either are magnetic in nature.
 
-                        The Power has its drawbacks. It attracts some types of attacks if the hero is careless. Such attacks as Electrical Generation or anything using ferrous materials (knives, missiles) gain +2CS.
+                          The Power has its drawbacks. It attracts some types of attacks if the hero is careless. Such attacks as Electrical Generation or anything using ferrous materials (knives, missiles) gain +2CS.
 
-                        This Power is its own primary Nemesis.
-                    - Electricity: |
-                        The hero can create electrical streams that can do Power rank damage. The hero can project the electricity through any conductive medium, such as air, water, or metal, at Power rank range. If the player chooses, the hero can gain +2CS to his damage by choosing to limit his range to contact only. In this case, the range can be extended by conducting the Power through solid conductors like metal. Electricity comes in various forms:
+                          This Power is its own primary Nemesis.
+                      - Electricity: |
+                          The hero can create electrical streams that can do Power rank damage. The hero can project the electricity through any conductive medium, such as air, water, or metal, at Power rank range. If the player chooses, the hero can gain +2CS to his damage by choosing to limit his range to contact only. In this case, the range can be extended by conducting the Power through solid conductors like metal. Electricity comes in various forms:
 
-                        - Static electricity causes magnetic attraction b etween objects and can disrupt electronic communications.
-                        - Lightning is sheer, raw, destructive power and by far the most popular form of this Power.
-                        - Alternating current is what our technology is driven by. This Power can either energize or overload normal electrical devices.
-                        - Direct current is what a battery produces. It can energize or overload devices that use DC power. It can also short out devices that use AC power.
+                          - Static electricity causes magnetic attraction b etween objects and can disrupt electronic communications.
+                          - Lightning is sheer, raw, destructive power and by far the most popular form of this Power.
+                          - Alternating current is what our technology is driven by. This Power can either energize or overload normal electrical devices.
+                          - Direct current is what a battery produces. It can energize or overload devices that use DC power. It can also short out devices that use AC power.
 
-                        The hero can use any form at will or can raise his rank +1CS by specializing in a particular form. This Power automatically includes Power rank Resistance to Electricity: no FEAT is required to resist your own Power. This Power is linked to Electrical Control and Energy Sheath. When creating the hero, the player can exchange any randomly determined Powers for these if he so desires. Extreme heat reduces this Power's rank by the Intensity rank of the heat. Conversely, extreme cold increases the rank by the cold's Intensity rank. At Shift X level, the hero gains the ability to create a stream of conductive gas, thus allowing the Power to function even in a vacuum.
-                  Reference: |
-                    Plasma refers to here to a field of highly-charged particles. Common examples include the aurora borealis, the glow in a fluorescent tube, the Van Allen Belt, and the heart of a nuclear blast. Plasmas may be of any nature: fiery, magnetic, electrical, radioactive, or be of a previously unknown form of energy. This last group includes many super-powers, living energy fields, and beings who can transform themselves into pure energy.
+                          The hero can use any form at will or can raise his rank +1CS by specializing in a particular form. This Power automatically includes Power rank Resistance to Electricity: no FEAT is required to resist your own Power. This Power is linked to Electrical Control and Energy Sheath. When creating the hero, the player can exchange any randomly determined Powers for these if he so desires. Extreme heat reduces this Power's rank by the Intensity rank of the heat. Conversely, extreme cold increases the rank by the cold's Intensity rank. At Shift X level, the hero gains the ability to create a stream of conductive gas, thus allowing the Power to function even in a vacuum.
+                    Reference: |
+                      Plasma refers to here to a field of highly-charged particles. Common examples include the aurora borealis, the glow in a fluorescent tube, the Van Allen Belt, and the heart of a nuclear blast. Plasmas may be of any nature: fiery, magnetic, electrical, radioactive, or be of a previously unknown form of energy. This last group includes many super-powers, living energy fields, and beings who can transform themselves into pure energy.
 
-                    The hero can project Plasma fields at Power rank range. Due to the unique nature of this Power, it does damage on two levels. The primary level is brute force: the field does Power rank damage There are also side-effects based on the nature of each Plasma bolt. Plasma fields have two of the following side effects:
+                      The hero can project Plasma fields at Power rank range. Due to the unique nature of this Power, it does damage on two levels. The primary level is brute force: the field does Power rank damage There are also side-effects based on the nature of each Plasma bolt. Plasma fields have two of the following side effects:
 
-                    - Light at -2CS level of illumination
-                    - Heat at -2CS damage
-                    - Flame at -2CS damage
-                    - Hard Radiation at -2CS damage
-                    - Magnetism at -2CS damage but full Power rank range
-                    - Electricity at -2CS damage.
+                      - Light at -2CS level of illumination
+                      - Heat at -2CS damage
+                      - Flame at -2CS damage
+                      - Hard Radiation at -2CS damage
+                      - Magnetism at -2CS damage but full Power rank range
+                      - Electricity at -2CS damage.
 
-                    The hero initially possesses a single type of Plasma with two set side-effects that occur each time he uses his Power. Later he can develop other Plasmas with different side-effects as Power Stunts.
+                      The hero initially possesses a single type of Plasma with two set side-effects that occur each time he uses his Power. Later he can develop other Plasmas with different side-effects as Power Stunts.
 
-                    Plasma is a Nemesis to the Powers of Energy Sheath and Energy Body. The hero gains +1CS when attacking either Power. Plasma's own Nemeses are Plasma Control and Power Control.
-              Matter Conversion:
-                Disintegration: #MCo3
-                  Rank: Base Power Rank
-                  Reference: |
-                    This is the ever popular but never explained "Disintegrator Ray." The hero has the ability to convert any matter into pure energy, usually Light although the player can specify another resultant energy when he first creates the character. The energy dissipates harmlessly and does not affect anyone in the vicinity.
+                      Plasma is a Nemesis to the Powers of Energy Sheath and Energy Body. The hero gains +1CS when attacking either Power. Plasma's own Nemeses are Plasma Control and Power Control.
+                Matter Conversion:
+                  Disintegration: #MCo3
+                    Rank: Base Power Rank
+                    Reference: |
+                      This is the ever popular but never explained "Disintegrator Ray." The hero has the ability to convert any matter into pure energy, usually Light although the player can specify another resultant energy when he first creates the character. The energy dissipates harmlessly and does not affect anyone in the vicinity.
 
-                    This Power can affect any target within range and line-of-sight. The range is determined by Power rank; resulting distances are shown on Column A of the Range Table. The maximum amount of matter that can be disintegrated in a single turn is the number of cubic feet equal to the Power rank number. For example, a Typical Disintegrator can destroy six cubic feet of matter at a range of two areas or 264 feet. When creating the character, the player can alter the Power range or effect if he so chooses. Either the range or the amount affected can be increased any number of Column Shifts by decreasing the other factor an equal amount.
+                      This Power can affect any target within range and line-of-sight. The range is determined by Power rank; resulting distances are shown on Column A of the Range Table. The maximum amount of matter that can be disintegrated in a single turn is the number of cubic feet equal to the Power rank number. For example, a Typical Disintegrator can destroy six cubic feet of matter at a range of two areas or 264 feet. When creating the character, the player can alter the Power range or effect if he so chooses. Either the range or the amount affected can be increased any number of Column Shifts by decreasing the other factor an equal amount.
 
-                    Example: Ken and Sue are both creating Disintegrators. Ken rolls 97 for his Power rank, an awesome Amazing rank for both range and effect. Sue isn't so lucky and rolls 77, a Good rank for her Cyborg Character. Sue wants deadlier force and chooses to after her range and effect. She decreases her range to Feeble or Contact-only, a loss of -3CS that she can apply to her effect. This increases +3CS to an Incredible effect.
+                      Example: Ken and Sue are both creating Disintegrators. Ken rolls 97 for his Power rank, an awesome Amazing rank for both range and effect. Sue isn't so lucky and rolls 77, a Good rank for her Cyborg Character. Sue wants deadlier force and chooses to after her range and effect. She decreases her range to Feeble or Contact-only, a loss of -3CS that she can apply to her effect. This increases +3CS to an Incredible effect.
 
-                    Unwilling targets of this Power are allowed to resist it in any way they can. Furthermore, the Disintegrator must make an Agility FEAT to aim this Power on a target.
+                      Unwilling targets of this Power are allowed to resist it in any way they can. Furthermore, the Disintegrator must make an Agility FEAT to aim this Power on a target.
 
-                    I mentioned the maximum area the Disintegrator can effect, but what of the minimum area? The Power comes in handy for doing all sorts of fine-detailed work like sculpting, surgery, or removing unwanted locks. The hero can Disintegrate as small an area as he can clearly see. With normal, unaided vision, the minimum limit is about 1/128th of an inch. Smaller than that and the hero needs some kind of magnifying device or Power. Note: this limit is proportional to a normally-sized human of about six feet in height. Enlarged or miniaturized characters have a proportional limit. For example, a 36-foot-tall giant would have a minimum limit of 1/21 of an inch, while a one-foot-tall person would have a minimum limit of 1/768th of an inch or about the size of a cell.
+                      I mentioned the maximum area the Disintegrator can effect, but what of the minimum area? The Power comes in handy for doing all sorts of fine-detailed work like sculpting, surgery, or removing unwanted locks. The hero can Disintegrate as small an area as he can clearly see. With normal, unaided vision, the minimum limit is about 1/128th of an inch. Smaller than that and the hero needs some kind of magnifying device or Power. Note: this limit is proportional to a normally-sized human of about six feet in height. Enlarged or miniaturized characters have a proportional limit. For example, a 36-foot-tall giant would have a minimum limit of 1/21 of an inch, while a one-foot-tall person would have a minimum limit of 1/768th of an inch or about the size of a cell.
 
-                    As stated earlier, the target must be within line of sight since the Power affects the first thing it encounters, excluding air molecules. Actually, some air is accidentally Disintegrated whenever this Power is used-that's why the Power appears as a glowing beam emitted by the hero-but not enough to divert the Power from its intended target. If an unseen or unanticipated barrier is present between the Disintegrator and the target, that barrier takes the full brunt of the Power that turn.
+                      As stated earlier, the target must be within line of sight since the Power affects the first thing it encounters, excluding air molecules. Actually, some air is accidentally Disintegrated whenever this Power is used-that's why the Power appears as a glowing beam emitted by the hero-but not enough to divert the Power from its intended target. If an unseen or unanticipated barrier is present between the Disintegrator and the target, that barrier takes the full brunt of the Power that turn.
 
-                    Ken's hero, Starburst, sights a Dreadnought and immediately tries to Disintegrate it. Unfortunately, Starburst failed to notice the plate glass window the Dreadnought was behind. The window vanishes in a flash of pretty lights as the Dreadnought ducks around the corner.
+                      Ken's hero, Starburst, sights a Dreadnought and immediately tries to Disintegrate it. Unfortunately, Starburst failed to notice the plate glass window the Dreadnought was behind. The window vanishes in a flash of pretty lights as the Dreadnought ducks around the corner.
 
-                    This Power is frequently given, to weapons systems such as the ever popular Disintegrator Pistols that fill pulp SciFi. In terms of normal contemporary Earth technology, a Disintegrator raygun requires Incredible Reason and Physics Talent to design and an Amazing cost in Resource points to build. The Judge is free to decide the range and effect of such a weapon.
+                      This Power is frequently given, to weapons systems such as the ever popular Disintegrator Pistols that fill pulp SciFi. In terms of normal contemporary Earth technology, a Disintegrator raygun requires Incredible Reason and Physics Talent to design and an Amazing cost in Resource points to build. The Judge is free to decide the range and effect of such a weapon.
 
-                    Nemeses for Disintegration are Phasing (to protect the hero) and Ionization (to protect others) as the Power cannot affect intangible matter.
-              Matter Creation:
-                Missile Creation: #MCr5
-                  Rank: Base Power Rank
-                  Missiles:
-                    Stunning Missile:
-                      Power: ~
-                      Effect: Power Rank Intensity Stunning
-                    Incendiary:
-                      Power: Fire Generation
-                      Effect: Power Rank Energy Damage
-                    Plasma:
-                      Power: Plasma Generation
-                      Effect: Power Rank Force Damage
-                    Flare:
-                      Power: Light Emission
-                      Effect: Emits light of any color at up to Power Rank Intensity.
-                    Neurotoxin Dart:
-                      Power: Neural Manipulation
-                      Effect: Chosen form of Neural Manipulation power
-                  Powers:
-                    Lifeform Control:
-                      Neural Manipulation: #L12
-                        Rank: Base Power Rank
-                        Note: &Missiles_or_Spray-Only In conjunction with Missiles or Spray only
-                        Reference: &Lifeform_Control |
-                          The hero can alter a target's neural activity. By changing nerve messages within the target's body, the hero can cause a variety of effects.
+                      Nemeses for Disintegration are Phasing (to protect the hero) and Ionization (to protect others) as the Power cannot affect intangible matter.
+                Matter Creation:
+                  Missile Creation: #MCr5
+                    Rank: Base Power Rank
+                    Missiles:
+                      Stunning Missile:
+                        Power: ~
+                        Effect: Power Rank Intensity Stunning
+                      Incendiary:
+                        Power: Fire Generation
+                        Effect: Power Rank Energy Damage
+                      Plasma:
+                        Power: Plasma Generation
+                        Effect: Power Rank Force Damage
+                      Flare:
+                        Power: Light Emission
+                        Effect: Emits light of any color at up to Power Rank Intensity.
+                      Neurotoxin Dart:
+                        Power: Neural Manipulation
+                        Effect: Chosen form of Neural Manipulation power
+                    Powers:
+                      Lifeform Control:
+                        Neural Manipulation: #L12
+                          Rank: Base Power Rank
+                          Note: &Missiles_or_Spray-Only In conjunction with Missiles or Spray only
+                          Reference: &Lifeform_Control |
+                            The hero can alter a target's neural activity. By changing nerve messages within the target's body, the hero can cause a variety of effects.
 
-                          - Disruption: The target's body loses all sensations: it falls to the ground, a limp, aumb mass of flesh.
-                          - Paralysis: The target body becomes completely rigid. No chemical can counteract the paralysis while the Power is in effect.
-                          - Seizure: The target's muscles spasm uncontrollably for as long as the Power is in effect.
-                          - Exaggeration: Nerve signals are actually amplified, causing the target to overact when attempting any movement.
+                            - Disruption: The target's body loses all sensations: it falls to the ground, a limp, aumb mass of flesh.
+                            - Paralysis: The target body becomes completely rigid. No chemical can counteract the paralysis while the Power is in effect.
+                            - Seizure: The target's muscles spasm uncontrollably for as long as the Power is in effect.
+                            - Exaggeration: Nerve signals are actually amplified, causing the target to overact when attempting any movement.
 
-                          Normally, a hero can select any of these effects. When creating the hero, the player can choose to specialize in one effect for a benefit of +2CS. Note: This Power only affects the voluntary muscles; it does not affect the autonomic nervous system which controls the heart, lungs, and other automatic bodily functions. The range and duration of this Power are determined by its rank. Suitable distances are shown on column A of the Range Table. The Power normally affects only a single person; affecting more causes a decrease in duration of -1CS per additional person. The target's mind and senses are unaffected by the Power: the victim knows full well what is happening (even if he doesn't know why it's happening to him). The Power can reach across the dimensional barriers if it is combined with some way of breaching the dimensions. It can function normally if both hero and target are within another dimension.
-                    Energy Emission:
-                      Fire Generation: #EE4
-                        Rank: Base Power Rank
-                        Note: *Missiles_or_Spray-Only
-                        Reference: &Fire_Generation |
-                          The hero can project fire with Power rank damage and range. These flames have no apparent fuel source and spring from the hero as if he were a living fuel tank. Although the flames' fuel comes out of the proverbial nowhere, free oxygen must be present for the Power to function. If not, the hero can cause a single flame that lasts' only one turn, then fizzles out. At Shift X rank, the hero gains the ability to generate oxygen as well, permitting this Power to function under any conditions. When creating the hero, the player can choose the Powers of Flame Control, Energy Sheath, and Energy Body to fill any slots still open. For example, under the Ultimate system, the Human Torch possesses three powers: Fire Generation, Fire Control, and Energy Sheath.
+                            Normally, a hero can select any of these effects. When creating the hero, the player can choose to specialize in one effect for a benefit of +2CS. Note: This Power only affects the voluntary muscles; it does not affect the autonomic nervous system which controls the heart, lungs, and other automatic bodily functions. The range and duration of this Power are determined by its rank. Suitable distances are shown on column A of the Range Table. The Power normally affects only a single person; affecting more causes a decrease in duration of -1CS per additional person. The target's mind and senses are unaffected by the Power: the victim knows full well what is happening (even if he doesn't know why it's happening to him). The Power can reach across the dimensional barriers if it is combined with some way of breaching the dimensions. It can function normally if both hero and target are within another dimension.
+                      Energy Emission:
+                        Fire Generation: #EE4
+                          Rank: Base Power Rank
+                          Note: *Missiles_or_Spray-Only
+                          Reference: &Fire_Generation |
+                            The hero can project fire with Power rank damage and range. These flames have no apparent fuel source and spring from the hero as if he were a living fuel tank. Although the flames' fuel comes out of the proverbial nowhere, free oxygen must be present for the Power to function. If not, the hero can cause a single flame that lasts' only one turn, then fizzles out. At Shift X rank, the hero gains the ability to generate oxygen as well, permitting this Power to function under any conditions. When creating the hero, the player can choose the Powers of Flame Control, Energy Sheath, and Energy Body to fill any slots still open. For example, under the Ultimate system, the Human Torch possesses three powers: Fire Generation, Fire Control, and Energy Sheath.
 
-                          This has to be the most dangerous Power around. Heroes have to watch out for accidental firestorms. They also tend to consume all the oxygen in their location, making everyone pass out. Then there is the question of smoke and gases created by the hero's Flame Power. It makes me wonder what kind of ventilation system the Baxter Building has…
+                            This has to be the most dangerous Power around. Heroes have to watch out for accidental firestorms. They also tend to consume all the oxygen in their location, making everyone pass out. Then there is the question of smoke and gases created by the hero's Flame Power. It makes me wonder what kind of ventilation system the Baxter Building has…
 
-                          Fire Generation is the opposing Power to Cold Emission, Coldshaping, and Powers that use water. This Power gains +1CS when fighting these Powers. It also loses -1CS when being attacked by those Powers.
-                  Reference: |
-                    The hero can spontaneously create and launch projectiles. These are propelled to Power rank range. Missiles that simply slam into a target act as Stunning Missiles and inflict Stunning attacks of Power rank Intensity. If the hero has other Powers, these are combined with this Power to produce missiles with specific effects.
+                            Fire Generation is the opposing Power to Cold Emission, Coldshaping, and Powers that use water. This Power gains +1CS when fighting these Powers. It also loses -1CS when being attacked by those Powers.
+                    Reference: |
+                      The hero can spontaneously create and launch projectiles. These are propelled to Power rank range. Missiles that simply slam into a target act as Stunning Missiles and inflict Stunning attacks of Power rank Intensity. If the hero has other Powers, these are combined with this Power to produce missiles with specific effects.
 
-                    - Nullifier: The Missile Power is combined with Power Control/Negation to produce missiles that inflict no direct damage but may nullify inborn or technological Powers with Power rank Intensity.
-                    - Sleep Darts-the Power is combined with Induced Sleep to create anesthetic darts.
-                    - Magnetic: The Power combines with Magnetism to produce missiles with Power rank Intensity Magnetism. These can do Power rank damage to magnetic recordings or delicate electronics, and can attract any iron in the target site (guns, for example).
-                    - Ghostcasters: The Power is combined with Illusion-casting to create missiles that emit a static hologram upon hitting the target site.
-                    - Vanishers: The Power is combined with Induced Teleportation to create missiles that teleport the target to a predetermined destination.
-                    - Energizer: Missiles are combined with Power Transference to give the target part of the hero's other Powers.
+                      - Nullifier: The Missile Power is combined with Power Control/Negation to produce missiles that inflict no direct damage but may nullify inborn or technological Powers with Power rank Intensity.
+                      - Sleep Darts-the Power is combined with Induced Sleep to create anesthetic darts.
+                      - Magnetic: The Power combines with Magnetism to produce missiles with Power rank Intensity Magnetism. These can do Power rank damage to magnetic recordings or delicate electronics, and can attract any iron in the target site (guns, for example).
+                      - Ghostcasters: The Power is combined with Illusion-casting to create missiles that emit a static hologram upon hitting the target site.
+                      - Vanishers: The Power is combined with Induced Teleportation to create missiles that teleport the target to a predetermined destination.
+                      - Energizer: Missiles are combined with Power Transference to give the target part of the hero's other Powers.
 
-                    Any Power in this book can be combined with this Power to create unique missiles for your character. When creating the character, the player should follow this guideline: If there is a way to combine external Powers with this Power, do it. Powers that are completely internal in their effects are exempted from this. This includes most of the Mental and Physical Enhancements and all of the Self Alterations and Detection Powers.
+                      Any Power in this book can be combined with this Power to create unique missiles for your character. When creating the character, the player should follow this guideline: If there is a way to combine external Powers with this Power, do it. Powers that are completely internal in their effects are exempted from this. This includes most of the Mental and Physical Enhancements and all of the Self Alterations and Detection Powers.
 
-                    If the character is High Tech, has rolled such Powers as Hyper-Invention or Weapons Tinkering, or possesses a magical device, then the Missile Powers should be combined into a device possessed by the hero. This may be an exotic gun, a wand, or any other bit of superheroic paraphernalia the player can imagine.
+                      If the character is High Tech, has rolled such Powers as Hyper-Invention or Weapons Tinkering, or possesses a magical device, then the Missile Powers should be combined into a device possessed by the hero. This may be an exotic gun, a wand, or any other bit of superheroic paraphernalia the player can imagine.
 
-                    The hero has a finite ammo supply, even if he creates the missiles as he goes. The maximum number of Missiles the hero can create per hour is equal to the Power rank number. This prevents the cliché found in bad Westerns, whereby a lone cowboy holds off the entire Apache nation with a single sixshooter. This limit also applies to Technological versions of this Power, in that the gun/wand/whatever simply overheats from repeated use.
+                      The hero has a finite ammo supply, even if he creates the missiles as he goes. The maximum number of Missiles the hero can create per hour is equal to the Power rank number. This prevents the cliché found in bad Westerns, whereby a lone cowboy holds off the entire Apache nation with a single sixshooter. This limit also applies to Technological versions of this Power, in that the gun/wand/whatever simply overheats from repeated use.
 
-                    There are two Nemeses for this Power. If the Power is innate to the hero, Reflection stops it. If the Power is externalized in a weapon, Induced Teleportation works by removing the weapon from the hero's possession and giving it to the opponent.            
-                Spray: #MCr7
-                  Rank: Base Power Rank
-                  Sprays:
-                    Spray:
-                      Power: ~
-                      Effect: Feeble damage by choking off the target's fresh air and reducing visibility by -2CS for anyone within the cloud.
-                    Accelerant:
-                      Power: Fire Control
-                      Effect: Increases effect of Fire up to Power Rank.
-                    Fire Suppression Foam:
-                      Power: Fire Control
-                      Effect:  Suppresses Fire up to Power Rank.
-                    Insulation:
-                      Power: Fire Control
-                      Effect: Power Rank Protection vs. Fire and Heat
-                    Napalm:
-                      Power: Fire Generation
-                      Effect: Power Rank Energy Damage
-                    Neurotoxin:
-                      Power: Neural Manipulation
-                      Effect: Chosen form of Neural Manipulation power
-                  Powers:
-                    Energy Control:
-                      Fire Control: #EC10
-                        Rank: Base Power Rank
-                        Note: In conjunction with Spray only
-                        Reference: The hero can control existing flames, whether natural or Power-based. He can alter any factor involved in combustion without direct physical contact. The hero can increase or decrease the flame's Intensity up to his Power rank and reduce fire damage by his rank number. This Power includes Power rank Resistance to Fire and Heat. The most important aspect of this Power is enabling the hero to reshape flame into any form he desires. This can be used in a variety of Power stunts, as the hero develops numerous fiery constructs to perform miscellaneous deeds. Such fiery constructs do not act like normal flames. They emit less heat and consume less oxygen. Their fire doesn't spread past the outline of the constructs. In addition, they self-extinguish rapidly upon cessation of this Power. Optional Powers include Fire Generation, Thermal Control, Energy Sheath, and Energy Body.
-                    Lifeform Control:
-                      Neural Manipulation: #L12
-                        Rank: Base Power Rank
-                        Note: *Missiles_or_Spray-Only
-                        Reference: *Lifeform_Control
-                    Energy Emission:
-                      Fire Generation: #EE4
-                        Rank: Base Power Rank
-                        Note: *Missiles_or_Spray-Only
-                        Reference: *Fire_Generation
-                  Reference: |
-                    The hero can spontaneously create a directed cloud of gas, mist, or dust. The Spray has a range of up to one area. It has the basic properties of doing Feeble damage by choking off the target's fresh air and reducing visibility by -2CS for anyone within the cloud. The main purpose of Spray is combining it with other Powers, thereby producing unique Spray Powers for the hero. In all these cases, the range remains the same. Other factors, such as the nature and Intensity of effects, are determined by the Power that has been combined with Spray. Some possibilities include:
+                      There are two Nemeses for this Power. If the Power is innate to the hero, Reflection stops it. If the Power is externalized in a weapon, Induced Teleportation works by removing the weapon from the hero's possession and giving it to the opponent.            
+                  Spray: #MCr7
+                    Rank: Base Power Rank
+                    Sprays:
+                      Spray:
+                        Power: ~
+                        Effect: Feeble damage by choking off the target's fresh air and reducing visibility by -2CS for anyone within the cloud.
+                      Accelerant:
+                        Power: Fire Control
+                        Effect: Increases effect of Fire up to Power Rank.
+                      Fire Suppression Foam:
+                        Power: Fire Control
+                        Effect:  Suppresses Fire up to Power Rank.
+                      Insulation:
+                        Power: Fire Control
+                        Effect: Power Rank Protection vs. Fire and Heat
+                      Napalm:
+                        Power: Fire Generation
+                        Effect: Power Rank Energy Damage
+                      Neurotoxin:
+                        Power: Neural Manipulation
+                        Effect: Chosen form of Neural Manipulation power
+                    Powers:
+                      Energy Control:
+                        Fire Control: #EC10
+                          Rank: Base Power Rank
+                          Note: In conjunction with Spray only
+                          Reference: The hero can control existing flames, whether natural or Power-based. He can alter any factor involved in combustion without direct physical contact. The hero can increase or decrease the flame's Intensity up to his Power rank and reduce fire damage by his rank number. This Power includes Power rank Resistance to Fire and Heat. The most important aspect of this Power is enabling the hero to reshape flame into any form he desires. This can be used in a variety of Power stunts, as the hero develops numerous fiery constructs to perform miscellaneous deeds. Such fiery constructs do not act like normal flames. They emit less heat and consume less oxygen. Their fire doesn't spread past the outline of the constructs. In addition, they self-extinguish rapidly upon cessation of this Power. Optional Powers include Fire Generation, Thermal Control, Energy Sheath, and Energy Body.
+                      Lifeform Control:
+                        Neural Manipulation: #L12
+                          Rank: Base Power Rank
+                          Note: *Missiles_or_Spray-Only
+                          Reference: *Lifeform_Control
+                      Energy Emission:
+                        Fire Generation: #EE4
+                          Rank: Base Power Rank
+                          Note: *Missiles_or_Spray-Only
+                          Reference: *Fire_Generation
+                    Reference: |
+                      The hero can spontaneously create a directed cloud of gas, mist, or dust. The Spray has a range of up to one area. It has the basic properties of doing Feeble damage by choking off the target's fresh air and reducing visibility by -2CS for anyone within the cloud. The main purpose of Spray is combining it with other Powers, thereby producing unique Spray Powers for the hero. In all these cases, the range remains the same. Other factors, such as the nature and Intensity of effects, are determined by the Power that has been combined with Spray. Some possibilities include:
 
-                    - Hallucinogenic: The Spray is combined with Image Generation to produce vivid visual images in the target's mind; these, of course, have nothing to do with reality. The target's Fighting and Intuition drop -3CS.
-                    - Corrosion-proofing: The Spray combines with Catalytic Control to lessen corrosive attacks' Intensity by this Power rank number.
-                    - Insulation: The Spray combines with any Energy Control to produce a coating that protects any target from that form of Energy Emission. The insulation reduces the energy attack's Intensity rank by the Energy Control's rank number.
-                    - Healing Spray: This uses any of the more pleasant forms of Bio-Physical Control to produce a cloud that heals anyone in the target area who has taken damage up to -1CS.
-                    - Napalm: The Spray is combined with Fire Generation and does Power rank damage.
-                    - Freeze Cloud: The Spray combines with Cold Emission to do Power rank damage.
-                    - Shrink Dust: The Spray combines with Diminution to reduce the size of anything in the target area.
-                    - Booster Dust: The Spray combines with Power Control/Magnification to raise the Power ranks of everyone in the target area +1CS.
+                      - Hallucinogenic: The Spray is combined with Image Generation to produce vivid visual images in the target's mind; these, of course, have nothing to do with reality. The target's Fighting and Intuition drop -3CS.
+                      - Corrosion-proofing: The Spray combines with Catalytic Control to lessen corrosive attacks' Intensity by this Power rank number.
+                      - Insulation: The Spray combines with any Energy Control to produce a coating that protects any target from that form of Energy Emission. The insulation reduces the energy attack's Intensity rank by the Energy Control's rank number.
+                      - Healing Spray: This uses any of the more pleasant forms of Bio-Physical Control to produce a cloud that heals anyone in the target area who has taken damage up to -1CS.
+                      - Napalm: The Spray is combined with Fire Generation and does Power rank damage.
+                      - Freeze Cloud: The Spray combines with Cold Emission to do Power rank damage.
+                      - Shrink Dust: The Spray combines with Diminution to reduce the size of anything in the target area.
+                      - Booster Dust: The Spray combines with Power Control/Magnification to raise the Power ranks of everyone in the target area +1CS.
 
-                    Any Power in the Ultimate Powers Book can be combined with this Power to create unique Sprays for each character. When creating such characters, the player should follow this simple guideline: If you can figure out a way to combine externalized Powers with this one, do it. Powers that are completely internalized are exempt from this rule. This includes most of the Mental and Physical Enhancements and all of the Self Alterations and Detections.
+                      Any Power in the Ultimate Powers Book can be combined with this Power to create unique Sprays for each character. When creating such characters, the player should follow this simple guideline: If you can figure out a way to combine externalized Powers with this one, do it. Powers that are completely internalized are exempt from this rule. This includes most of the Mental and Physical Enhancements and all of the Self Alterations and Detections.
 
-                    If a character is High Tech, has rolled such Powers as Hyper-Invention or Weapons Tinkering, or possesses a magical device, then the Spray Power should be incorporated into a device. This may be a gas gun, ring, horn, or any other piece of superheroic paraphernalia the player can imagine.
+                      If a character is High Tech, has rolled such Powers as Hyper-Invention or Weapons Tinkering, or possesses a magical device, then the Spray Power should be incorporated into a device. This may be a gas gun, ring, horn, or any other piece of superheroic paraphernalia the player can imagine.
 
-                    Example: The player rolls up the following Fire Generation, Elemental Conversion, Spontaneous Combustion, Spray, and Enchantment. She is a Humanoid, an Elf to be precise. She determines she is a magical character. The first three Powers readily combine with Spray. The player decides that the heroine possesses a magical flute which she built herself. Besides playing normal tunes, she knows three special melodies that create clouds which possess each of the first three Powers.
+                      Example: The player rolls up the following Fire Generation, Elemental Conversion, Spontaneous Combustion, Spray, and Enchantment. She is a Humanoid, an Elf to be precise. She determines she is a magical character. The first three Powers readily combine with Spray. The player decides that the heroine possesses a magical flute which she built herself. Besides playing normal tunes, she knows three special melodies that create clouds which possess each of the first three Powers.
 
-                    The hero has a finite amount of Spray. The maximum number of Sprays the hero can create in a 24-hour period is equal to his Power rank number. This limit also applies to Technological or Magical versions of this Power; the gasgun/flute/whatever simply clogs up from repeated use.
+                      The hero has a finite amount of Spray. The maximum number of Sprays the hero can create in a 24-hour period is equal to his Power rank number. This limit also applies to Technological or Magical versions of this Power; the gasgun/flute/whatever simply clogs up from repeated use.
 
-                    There are two Nemeses for this Power. If the Power is innate to the hero, then Reflection stops it. If the Power is externalized in a device, Induced Teleportation works be removing the device from the hero's possession and turning it over to the Nemesis.
-              Power Control:
-                Energy Source: #PC5
-                  Source:
-                    - Sentinel Battlesuit II: Battlesuit variant greater than or equal to blaster variant.
-                    - Power Pack:
-                        Uses:
-                          Mk. 0: 20
-                          Mk. 1: 10
-                          Mk. 2: 9
-                          Mk. 3: 8
-                          Mk. 4: 6
-                    - Power Rooms:
-                        Remarkable: 12 Power Packs before refuel
-                        Incredible: 24 Power Packs before refuel
-                        Amazing: 12 Power Packs/hour, +12 per +1CS Package Quality Cost Modifier
-                    - Grid Power: High voltage main as Mk 2 Battlesuit
-                  Reference: |
-                    The hero draws his Powers from a special source that provides him with all the energy he can handle. As long as the hero can maintain his link with this source, he can continue to use his Powers. The nature of the source and its link varies with each hero. If the source is small enough, the hero may be required to carry it with him. If not, perhaps the hero needs to periodically return to the source or forge an ethereal Power cord that links him to his Source despite any intervening distance. The Judge and player need to work together to produce a playable source and link.
+                      There are two Nemeses for this Power. If the Power is innate to the hero, then Reflection stops it. If the Power is externalized in a device, Induced Teleportation works be removing the device from the hero's possession and turning it over to the Nemesis.
+                Power Control:
+                  Energy Source: #PC5
+                    Source:
+                      - Sentinel Battlesuit II: Battlesuit variant greater than or equal to blaster variant.
+                      - Power Pack:
+                          Uses:
+                            Mk. 0: 20
+                            Mk. 1: 10
+                            Mk. 2: 9
+                            Mk. 3: 8
+                            Mk. 4: 6
+                      - Power Rooms:
+                          Remarkable: 12 Power Packs before refuel
+                          Incredible: 24 Power Packs before refuel
+                          Amazing: 12 Power Packs/hour, +12 per +1CS Package Quality Cost Modifier
+                      - Grid Power: High voltage main as Mk 2 Battlesuit
+                    Reference: |
+                      The hero draws his Powers from a special source that provides him with all the energy he can handle. As long as the hero can maintain his link with this source, he can continue to use his Powers. The nature of the source and its link varies with each hero. If the source is small enough, the hero may be required to carry it with him. If not, perhaps the hero needs to periodically return to the source or forge an ethereal Power cord that links him to his Source despite any intervening distance. The Judge and player need to work together to produce a playable source and link.
 
-                    If the link is severed or the source destroyed, the Mage is left with a finite supply of energy left. The amount of raw Power left is the number of points equal to his Psyche rank. Each time he uses Power, he decreases the reservoir by that Power's rank number. Obviously, it is within the hero's best interests to renew his link or rebuild his source in as little time as possible.
+                      If the link is severed or the source destroyed, the Mage is left with a finite supply of energy left. The amount of raw Power left is the number of points equal to his Psyche rank. Each time he uses Power, he decreases the reservoir by that Power's rank number. Obviously, it is within the hero's best interests to renew his link or rebuild his source in as little time as possible.
 
-                    As you are beginning to suspect, this isn't really a Power and is more of a restraint. You're right. If you roll this Power, go ahead and roll an additional Power.
+                      As you are beginning to suspect, this isn't really a Power and is more of a restraint. You're right. If you roll this Power, go ahead and roll an additional Power.
           Warden Staff: &Warden_Staff
             Description: A telescoping/collapsible alloy pole with a retractable blade at the end. May be used as blunt (Club, Boomerang) or edged (Knife, Sword, Spear) weapons in either extended or collapsed positions, and thrown in any configuration. Two may connect end-to-end with the blades retracted to form a longer pole. A user with the Thrown Weapons or Throwing talents knows how to throw them so they arc or ricochet to return to their hands when thrown, whether they hit or miss, by making an Agility FEAT. A coiled spring and compressed air system allows the blade to be launched as if it were a crossbow or speargun. It's an integrated combination of existing items.
             Count: 2
@@ -1119,146 +1120,147 @@ Game:
                 - Edged Attack
                 - Edged Throwing
               Damage: 10
-              Knife: A Knife is defined as any blade weapon with a blade up to 12 inches. It may be thrown as a thrown object.
-              Spear: A Spear is considered as any thrusting blade with a handle over one foot long. It is normally thrown or wielded with two hands.
+              Knife: &Knife_Ref A Knife is defined as any blade weapon with a blade up to 12 inches. It may be thrown as a thrown object.
+              Spear: &Spear_Ref A Spear is considered as any thrusting blade with a handle over one foot long. It is normally thrown or wielded with two hands.
               Club: Clubs are standard blunt weapons, including makeshift weapons such as chairs and tables.
               Boomerang: The Boomerang is a flat, curved throwing stick. Only a character with Throwing talent may cause a Boomerang to return to their hands.
-          Sentinel Battlesuit: &Sentinel_Battlesuit
-            Description: A sleek, dark, armored suit consisting of para-aramids, meta-aramids, beta cloth, titanium mesh, silicone rubber, and high-impact ballistic plastic, it sports built-in functionality such as an integral air supply and respirator in its mask, and night-vision and polarized eye-protection in the goggles, as well as retractable inline wheels in the boots and compact rocket boosters on the back.  It's an integrated combination of existing items.
-            Material Strength: Excellent
-            Other Equipment:
-              Infra-red Goggles: &Infra-Red_Goggles Infra-Red Goggles are similar to infra-red sights; these permit normal vision up to 5 areas away in dimly lit areas.
-              Polarized Lenses: &Polarized_Lenses Polarized Lenses are goggles that provide Good resistance to light attacks. If exposed to a bright light, they darken for 1 round, then lighten to allow normal sight.
-              Gas Mask: Allows the wearer to breathe and act normally in conditions of smoke, tear gas, or knock-out gas. It does not allow clear vision in these areas, however, only normal movement.
-              Flak Jacket: Flak Jackets are worn by police in special situations and by SWAT teams. These jackets provide Good protection from physical damage.
-              Beta Cloth: Beta-Cloth is a lightweight material worn by agents of S.H.I.E.L.D. It provides Typical protection from physical attacks, Excellent protection from heat and radiation.
-              Scuba Gear: Scuba Gear allows the wearer to breathe tanked air for 2 hours and, as such, dive to moderate depths in the ocean.
-              Roller Skates: Roller Skates are used by a variety of heroes from Dazzler to Iron Man. Standard skates allow the hero to move at the listed speed as if Endurance were three ranks higher.
-              Rocket Pack: Rocket Pack, worn either as a belt-pack or a backpack, allows the wearer to fly at Excellent speeds. All limitations on flight apply to the wearer, and Agility FEATs required are at one CS lower.
-          Sentinel Battlesuit II:
-            Description: A full suit of powered armor, still sleek and futuristic, but reminiscient of Byzantine motifs with a dark theme.
-            Variants:
-              Mk. 0:
-                Column Shift: +0
-                Base Power Rank: Excellent
-                Material Strength: Remarkable
-              Mk. 1:
-                Column Shift: +1
-                Base Power Rank: Remarkable
-                Material Strength: Incredible
-                Max Primary Ability Column Shift:
-                  Fighting: Monstrous
-                  Agility: Amazing
-                  Strength: Remarkable
-                  Endurance: Incredible
-              Mk. 2:
-                Column Shift: +2
-                Base Power Rank: Incredible
-                Material Strength: Amazing
-                Max Primary Ability Column Shift:
-                  Fighting: Unearthly
-                  Agility: Monstrous
-                  Strength: Incredible
-                  Endurance: Amazing
-              Mk. 3:
-                Column Shift: +3
-                Base Power Rank: Amazing
-                Material Strength: Monstrous
-                Max Primary Ability Column Shift:
-                  Fighting: Shift-X
-                  Agility: Unearthly
-                  Strength: Amazing
-                  Endurance: Monstrous
-              Mk. 4:
-                Column Shift: +4
-                Base Power Rank: Monstrous
-                Material Strength: Unearthly
-                Max Primary Ability Column Shift:
-                  Fighting: Shift-Y
-                  Agility: Shift-X
-                  Strength: Monstrous
-                  Endurance: Unearthly
-            Powers:
-              Defensive:
-                Body Armor: #D1
-                  Rank: Base Power Rank
-                  Reference: |
-                    The hero possesses artificially-created armor that provides protection and possibly a way of possessing other Powers.
-
-                    Armor comes in many forms exotic plate-mail, nuclear-powered exoskeletons, or mechanically-created force fields. The player should work with the Judge to create proper Armor for his hero. The player can also determine which Powers are possessed by the hero and which are properties of the armor. Powers built into the armor can later be modified and enhanced: think of the changes Tony Stark has made in the Iron Man armor. On the other hand, Powers that are built into the armor may suffer mechanical failure. The Armor's Power rank determines its ability to resist damage.
-
-                    The player also has to determine where he got the Armor in the first place. This is covered in the "Character Creation" section elsewhere in this book. If the hero gained the armor through an accident, he might not be able to repair it.
-              Detection:
-                Energy Detection: #DT3
-                  Rank: Base Power Rank
-                  Reference: Range column D. The hero can detect and identify energy and related phenomena. The power can only detect actual energy, not potential energy (it couldn't detect a bomb until it explodes, for example). Likewise, while it can detect the energies consciously emitted by superhumans, it cannot detect the superhumans themselves. Rank determines range.
-                Radarsense: #DT15
-                  Rank: Base Power Rank
-                  Reference: |
-                    Range column B. The hero can gain a three-dimensional picture of his surroundings through the use of electromagnetic waves. The hero both emits and senses these waves. He can use the Power to locate and identify targets by their characteristic echoes. Because of the hero's sensitivity to electromagnetic waves, he has an increased vulnerability to electrical and magnetic attacks (-1CS): these temporarily negate the Radarsense.
-                Sonar: #DT16
-                  Rank: Base Power Rank
-                  Reference: |
-                    Range column B. The hero can gain a three-dimensional picture of his environment through the use of soundwaves. The Power allows the hero to locate and identify targets by the way they reflect sound.
-
-                    There are two ways this Power can operate. Passive Sonar utilizes existing sound. Active Sonar uses special sounds emitted by the hero (this is how bats and dolphins do it). The latter form requires a special adaptation of the hero's voice: otherwise there is no real difference between them. Because of the special sensitivity of the hero's hearing, he is vulnerable to sonic attacks (-1CS to resist).
-                Telescopic Vision: #DT17
-                  Rank: Base Power Rank
-                  Reference: |
-                    Range column E. The hero's eyes can focus on extremely distant targets, objects too small for normal vision to perceive. The eyes function as telescopes, magnifying normal visual images. With this Power, the hero can see anything in his line of sight, even the surfaces of distant worlds. However, the Power is limited by the speed of light. Images of Alpha Centauri, for example, are five years old.
-
-                    If the hero has other vision-based Powers, he can couple them with Telescopic vision to extend their range.
-
-                    When using this Power, the distant objects appear very close. An adversary with a means of altering the hero's control over this Power might make the Telescopic Vision continually override the hero's normal sight. The effect would be disastrous (imagine trying to walk through Manhattan when all you're seeing are the sands of Mars).
-                Thermal Vision: #DT18
-                  Rank: Base Power Rank
-                  Reference: |
-                    The hero can see infrared light and heat images. This allows the hero to see in the dark, perceive temperature differences (especially those left by a living person's contact with an object), and partially see through solids. In the last case, the hero can only see the heat patterns of objects touching the other side of the barrier.
-
-                    With practice, the hero can judge the temperature of a target by its thermal color. The hero has an increased risk of being blinded by strong heat sources, even those that don't affect normal vision (-1CS). Thermal vision may be a consciously-activated mode or the hero's normal means of vision.
-                Ultraviolet Vision: #DT21
-                  Rank: Base Power Rank
-                  Reference: |
-                    The hero can see ultraviolet light. Because UV light isn't as readily absorbed by water as normal light, this Power enables the hero to see clearly through fog and at greater distance in the water (+1CS). The hero can also see the dim light given off by radioactive materials.
-
-                    The hero cannot actually "see in the dark" but only if UV light is present. The effect is the same when seen by normal people. The hero has an increased risk of being blinded by strong UV sources, like black lights and radiation (-2CS).
-              Matter Control:
-                Micro-Environment: #MC10
-                  Rank: Base Power Rank +2CS
-                  Constraint: Range and area of effect within suit only (reduced to Feeble range).
-                  Reference:  |
-                    The hero can alter his immediate surroundings to create a miniature climate around himself. The Micro-Environment always contains fresh clean air (or water or methane or whatever the hero breathes) at any temperature and pressure the hero desires. The Micro-Environment incorporates a Force Field that protects it from any factor that might harm or even annoy the hero, such as rain, poisonous gases, extreme temperatures, or the pressure that naturally results from having three miles of ocean over your head. In such cases, the Micro-Environment automatically excludes potentially hazardous gases and liquids and reduces the Intensity of pressure, extreme temperature, and high gravity by the Power rank number. Lesser or equal Intensities are canceled out, while higher ranks only penetrate in diminished form.
-
-                    The Power automatically Collects the desired materials into a sphere around the hero; if no such materials are available, the Power employs an innate form of Matter Creation or Conversion to produce those materials. The Force Field maintains the desired pressure, temperature, and gravity levels while enclosing the desired materials and shielding the hero from the undesired ones. If the hero requires a surface to stand on but none is available, the Power provides one by solidifying a section of the Force Field.
-
-                    The Power is primarily intended to protect the hero when he is in places other than his home environment. It can, be used to protect him from extreme variations in that home environment though, should the hero so choose. Thus the Power can be used to protect the hero in the middle of a house fire, gas leak at a fertilizer plant, radiation spill at a laboratory, a thunderstorm, or a smog alert in Los Angeles. The Power can be used to Resist the effects of Air or Water Animation, Weather Control, Heat, or Cold Generation; the Intensity of the attack is reduced by the Power rank number.
-
-                    The Micro-Environment has a maximum radius in feet equal to the Power rank number. Normally it is a sphere centered in the hero but she can shape it or direct it to another location if she so desires. The maximum range at which the hero can direct the Micro-Environment is determined by the Power rank; appropriate distances are shown on Column B on the Range Table. The maximum volume of the Micro-Environment is the equivalent of a sphere whose radius equals the Power rank number. Figuring out the maximum volume of other shapes requires a doing a bit of geometry.
-
-                    Example: A rank of Good can produce a sphere of 3.14(10-cubed) or 3,140 cubic feet. This can be shaped into a rectangular "tunnel" 10 feet high, 10 feet wide, and 31 feet long. I suggest that anyone with this Power figure out as soon as possible how big a sphere/hemisphere/column/tunnel/cone/et cetera he can make with his Power rank. If you don't, the Judge is liable to say that mysterious changes in the environment prevent your hero's Power from working.
-
-                    The Power only protects the hero from environmental effects or Powers that employ aspects of the Environment. Beside the Powers mentioned earlier, this Power will also provide limited protection against Electrical Control, Electrical Generation, Coldshaping, Gravity Manipulation, Hard Radiation and its Control, Thermal Control, Plague Carrier, Geoforce, Spray, and Pheromones, but only if the offending Power originates outside the Micro-Environment.
-
-                    As hinted at before, the Power can be used to create any environment the hero desires, provided it is beneficial to whatever nature of being is inside its protection. Of course, what is a marvelous climate for one being could be instantly fatal to another. Consider the Micro-Environments created by beings that thrive on super-heated steam or swim in liquid helium. Player characters are limited to producing only those Micro-Environments that will help the beings inside. Villainous and Mind-Controlled NPC heroes are able to pervert the Power and create toxic Micro-Environments. In such a case, the Power is treated as an attack and the intended victim is urged to Resist it in any way he can.
-
-                    The Nemeses are either Air or Liquid Animation, depending on the nature of the Micro-Environment.
-              Travel:
-                Rocket:
-                  Rank: Base Power Rank +2CS
-                  Reference: | #T13
-                    The hero flies by means of a rocket-like exhaust that propels him at Power rank speed. The rocket blast is created by a thermo-chemical reaction generated by the hero's body. The Power converts whatever material is around him into fuel and oxidant, then it shapes the exhaust into a stream to propel him. If the hero is in a vacuum, the Power creates fuel out of virtual nothingness.
-
-                    The Power is treated like Strength to determine the maximum thrust the Power can achieve. If the thrust is high enough, the hero can carry or push additional loads. For example, Cannonball's Remarkable thrust can lift up to one ton.
-
-                    The Nemesis is Gravity Manipulation.
-              Other Powers: #From APB
-                Senses:
-                  Computer Links:
+          Sentinel Battlesuit: 
+            Model I: &Sentinel_Battlesuit
+              Description: A sleek, dark, armored suit consisting of para-aramids, meta-aramids, beta cloth, titanium mesh, silicone rubber, and high-impact ballistic plastic, it sports built-in functionality such as an integral air supply and respirator in its mask, and night-vision and polarized eye-protection in the goggles, as well as retractable inline wheels in the boots and compact rocket boosters on the back.  It's an integrated combination of existing items.
+              Material Strength: Excellent
+              Other Equipment:
+                Infra-red Goggles: &Infra-Red_Goggles Infra-Red Goggles are similar to infra-red sights; these permit normal vision up to 5 areas away in dimly lit areas.
+                Polarized Lenses: &Polarized_Lenses Polarized Lenses are goggles that provide Good resistance to light attacks. If exposed to a bright light, they darken for 1 round, then lighten to allow normal sight.
+                Gas Mask: Allows the wearer to breathe and act normally in conditions of smoke, tear gas, or knock-out gas. It does not allow clear vision in these areas, however, only normal movement.
+                Flak Jacket: Flak Jackets are worn by police in special situations and by SWAT teams. These jackets provide Good protection from physical damage.
+                Beta Cloth: Beta-Cloth is a lightweight material worn by agents of S.H.I.E.L.D. It provides Typical protection from physical attacks, Excellent protection from heat and radiation.
+                Scuba Gear: Scuba Gear allows the wearer to breathe tanked air for 2 hours and, as such, dive to moderate depths in the ocean.
+                Roller Skates: Roller Skates are used by a variety of heroes from Dazzler to Iron Man. Standard skates allow the hero to move at the listed speed as if Endurance were three ranks higher.
+                Rocket Pack: Rocket Pack, worn either as a belt-pack or a backpack, allows the wearer to fly at Excellent speeds. All limitations on flight apply to the wearer, and Agility FEATs required are at one CS lower.
+            Model II:
+              Description: A full suit of powered armor, still sleek and futuristic, but reminiscient of Byzantine motifs with a dark theme.
+              Variants:
+                Mk. 0:
+                  Column Shift: +0
+                  Base Power Rank: Excellent
+                  Material Strength: Remarkable
+                Mk. 1:
+                  Column Shift: +1
+                  Base Power Rank: Remarkable
+                  Material Strength: Incredible
+                  Max Primary Ability Column Shift:
+                    Fighting: Monstrous
+                    Agility: Amazing
+                    Strength: Remarkable
+                    Endurance: Incredible
+                Mk. 2:
+                  Column Shift: +2
+                  Base Power Rank: Incredible
+                  Material Strength: Amazing
+                  Max Primary Ability Column Shift:
+                    Fighting: Unearthly
+                    Agility: Monstrous
+                    Strength: Incredible
+                    Endurance: Amazing
+                Mk. 3:
+                  Column Shift: +3
+                  Base Power Rank: Amazing
+                  Material Strength: Monstrous
+                  Max Primary Ability Column Shift:
+                    Fighting: Shift-X
+                    Agility: Unearthly
+                    Strength: Amazing
+                    Endurance: Monstrous
+                Mk. 4:
+                  Column Shift: +4
+                  Base Power Rank: Monstrous
+                  Material Strength: Unearthly
+                  Max Primary Ability Column Shift:
+                    Fighting: Shift-Y
+                    Agility: Shift-X
+                    Strength: Monstrous
+                    Endurance: Unearthly
+              Powers:
+                Defensive:
+                  Body Armor: #D1
                     Rank: Base Power Rank
-                    Reference: The character with this Power may communicate with and retrieve information from computer systems with Power rank ability. The hero must be able to access the computer in some way; usually this is by means of an implant relayed to a predetermined computer. If attempting to break into a new computer, compare this Power rank with the Reason of the computer or mechanical being. This Power also allows the reprogramming of simple robots (but not Player Character robots under normal circumstances).
-                  Protected Senses:
+                    Reference: |
+                      The hero possesses artificially-created armor that provides protection and possibly a way of possessing other Powers.
+
+                      Armor comes in many forms exotic plate-mail, nuclear-powered exoskeletons, or mechanically-created force fields. The player should work with the Judge to create proper Armor for his hero. The player can also determine which Powers are possessed by the hero and which are properties of the armor. Powers built into the armor can later be modified and enhanced: think of the changes Tony Stark has made in the Iron Man armor. On the other hand, Powers that are built into the armor may suffer mechanical failure. The Armor's Power rank determines its ability to resist damage.
+
+                      The player also has to determine where he got the Armor in the first place. This is covered in the "Character Creation" section elsewhere in this book. If the hero gained the armor through an accident, he might not be able to repair it.
+                Detection:
+                  Energy Detection: #DT3
                     Rank: Base Power Rank
-                    Reference: One or more of the hero's basic senses are protected from attack. The hero ignores potentially damaging attacks of less than the Power rank in intensity level. In many cases, this considers the effects of specially polarized goggles that prevent being suddenly blinded by high Intensity light. or earplugs or headgear that reduce the effects of sonic attacks.
+                    Reference: Range column D. The hero can detect and identify energy and related phenomena. The power can only detect actual energy, not potential energy (it couldn't detect a bomb until it explodes, for example). Likewise, while it can detect the energies consciously emitted by superhumans, it cannot detect the superhumans themselves. Rank determines range.
+                  Radarsense: #DT15
+                    Rank: Base Power Rank
+                    Reference: |
+                      Range column B. The hero can gain a three-dimensional picture of his surroundings through the use of electromagnetic waves. The hero both emits and senses these waves. He can use the Power to locate and identify targets by their characteristic echoes. Because of the hero's sensitivity to electromagnetic waves, he has an increased vulnerability to electrical and magnetic attacks (-1CS): these temporarily negate the Radarsense.
+                  Sonar: #DT16
+                    Rank: Base Power Rank
+                    Reference: |
+                      Range column B. The hero can gain a three-dimensional picture of his environment through the use of soundwaves. The Power allows the hero to locate and identify targets by the way they reflect sound.
+
+                      There are two ways this Power can operate. Passive Sonar utilizes existing sound. Active Sonar uses special sounds emitted by the hero (this is how bats and dolphins do it). The latter form requires a special adaptation of the hero's voice: otherwise there is no real difference between them. Because of the special sensitivity of the hero's hearing, he is vulnerable to sonic attacks (-1CS to resist).
+                  Telescopic Vision: #DT17
+                    Rank: Base Power Rank
+                    Reference: |
+                      Range column E. The hero's eyes can focus on extremely distant targets, objects too small for normal vision to perceive. The eyes function as telescopes, magnifying normal visual images. With this Power, the hero can see anything in his line of sight, even the surfaces of distant worlds. However, the Power is limited by the speed of light. Images of Alpha Centauri, for example, are five years old.
+
+                      If the hero has other vision-based Powers, he can couple them with Telescopic vision to extend their range.
+
+                      When using this Power, the distant objects appear very close. An adversary with a means of altering the hero's control over this Power might make the Telescopic Vision continually override the hero's normal sight. The effect would be disastrous (imagine trying to walk through Manhattan when all you're seeing are the sands of Mars).
+                  Thermal Vision: #DT18
+                    Rank: Base Power Rank
+                    Reference: |
+                      The hero can see infrared light and heat images. This allows the hero to see in the dark, perceive temperature differences (especially those left by a living person's contact with an object), and partially see through solids. In the last case, the hero can only see the heat patterns of objects touching the other side of the barrier.
+
+                      With practice, the hero can judge the temperature of a target by its thermal color. The hero has an increased risk of being blinded by strong heat sources, even those that don't affect normal vision (-1CS). Thermal vision may be a consciously-activated mode or the hero's normal means of vision.
+                  Ultraviolet Vision: #DT21
+                    Rank: Base Power Rank
+                    Reference: |
+                      The hero can see ultraviolet light. Because UV light isn't as readily absorbed by water as normal light, this Power enables the hero to see clearly through fog and at greater distance in the water (+1CS). The hero can also see the dim light given off by radioactive materials.
+
+                      The hero cannot actually "see in the dark" but only if UV light is present. The effect is the same when seen by normal people. The hero has an increased risk of being blinded by strong UV sources, like black lights and radiation (-2CS).
+                Matter Control:
+                  Micro-Environment: #MC10
+                    Rank: Base Power Rank +2CS
+                    Constraint: Range and area of effect within suit only (reduced to Feeble range).
+                    Reference:  |
+                      The hero can alter his immediate surroundings to create a miniature climate around himself. The Micro-Environment always contains fresh clean air (or water or methane or whatever the hero breathes) at any temperature and pressure the hero desires. The Micro-Environment incorporates a Force Field that protects it from any factor that might harm or even annoy the hero, such as rain, poisonous gases, extreme temperatures, or the pressure that naturally results from having three miles of ocean over your head. In such cases, the Micro-Environment automatically excludes potentially hazardous gases and liquids and reduces the Intensity of pressure, extreme temperature, and high gravity by the Power rank number. Lesser or equal Intensities are canceled out, while higher ranks only penetrate in diminished form.
+
+                      The Power automatically Collects the desired materials into a sphere around the hero; if no such materials are available, the Power employs an innate form of Matter Creation or Conversion to produce those materials. The Force Field maintains the desired pressure, temperature, and gravity levels while enclosing the desired materials and shielding the hero from the undesired ones. If the hero requires a surface to stand on but none is available, the Power provides one by solidifying a section of the Force Field.
+
+                      The Power is primarily intended to protect the hero when he is in places other than his home environment. It can, be used to protect him from extreme variations in that home environment though, should the hero so choose. Thus the Power can be used to protect the hero in the middle of a house fire, gas leak at a fertilizer plant, radiation spill at a laboratory, a thunderstorm, or a smog alert in Los Angeles. The Power can be used to Resist the effects of Air or Water Animation, Weather Control, Heat, or Cold Generation; the Intensity of the attack is reduced by the Power rank number.
+
+                      The Micro-Environment has a maximum radius in feet equal to the Power rank number. Normally it is a sphere centered in the hero but she can shape it or direct it to another location if she so desires. The maximum range at which the hero can direct the Micro-Environment is determined by the Power rank; appropriate distances are shown on Column B on the Range Table. The maximum volume of the Micro-Environment is the equivalent of a sphere whose radius equals the Power rank number. Figuring out the maximum volume of other shapes requires a doing a bit of geometry.
+
+                      Example: A rank of Good can produce a sphere of 3.14(10-cubed) or 3,140 cubic feet. This can be shaped into a rectangular "tunnel" 10 feet high, 10 feet wide, and 31 feet long. I suggest that anyone with this Power figure out as soon as possible how big a sphere/hemisphere/column/tunnel/cone/et cetera he can make with his Power rank. If you don't, the Judge is liable to say that mysterious changes in the environment prevent your hero's Power from working.
+
+                      The Power only protects the hero from environmental effects or Powers that employ aspects of the Environment. Beside the Powers mentioned earlier, this Power will also provide limited protection against Electrical Control, Electrical Generation, Coldshaping, Gravity Manipulation, Hard Radiation and its Control, Thermal Control, Plague Carrier, Geoforce, Spray, and Pheromones, but only if the offending Power originates outside the Micro-Environment.
+
+                      As hinted at before, the Power can be used to create any environment the hero desires, provided it is beneficial to whatever nature of being is inside its protection. Of course, what is a marvelous climate for one being could be instantly fatal to another. Consider the Micro-Environments created by beings that thrive on super-heated steam or swim in liquid helium. Player characters are limited to producing only those Micro-Environments that will help the beings inside. Villainous and Mind-Controlled NPC heroes are able to pervert the Power and create toxic Micro-Environments. In such a case, the Power is treated as an attack and the intended victim is urged to Resist it in any way he can.
+
+                      The Nemeses are either Air or Liquid Animation, depending on the nature of the Micro-Environment.
+                Travel:
+                  Rocket:
+                    Rank: Base Power Rank +2CS
+                    Reference: | #T13
+                      The hero flies by means of a rocket-like exhaust that propels him at Power rank speed. The rocket blast is created by a thermo-chemical reaction generated by the hero's body. The Power converts whatever material is around him into fuel and oxidant, then it shapes the exhaust into a stream to propel him. If the hero is in a vacuum, the Power creates fuel out of virtual nothingness.
+
+                      The Power is treated like Strength to determine the maximum thrust the Power can achieve. If the thrust is high enough, the hero can carry or push additional loads. For example, Cannonball's Remarkable thrust can lift up to one ton.
+
+                      The Nemesis is Gravity Manipulation.
+                Other Powers: #From APB
+                  Senses:
+                    Computer Links:
+                      Rank: Base Power Rank
+                      Reference: The character with this Power may communicate with and retrieve information from computer systems with Power rank ability. The hero must be able to access the computer in some way; usually this is by means of an implant relayed to a predetermined computer. If attempting to break into a new computer, compare this Power rank with the Reason of the computer or mechanical being. This Power also allows the reprogramming of simple robots (but not Player Character robots under normal circumstances).
+                    Protected Senses:
+                      Rank: Base Power Rank
+                      Reference: One or more of the hero's basic senses are protected from attack. The hero ignores potentially damaging attacks of less than the Power rank in intensity level. In many cases, this considers the effects of specially polarized goggles that prevent being suddenly blinded by high Intensity light. or earplugs or headgear that reduce the effects of sonic attacks.
           Pathfinder: &Pathfinder
             Description: An up-armored, high-performance four wheel drive vehicle, it has the speed, acceleration, and handling of a sports car, the off-road capability of a military vehicle, and the protection and durability of an armored vehicle. Features expected off-road functional accessories like winches, lights, compressed air, a welder/cutter, SSB CB, HAM, and PA, as well as police scanners, commerical/business band radio with encryption, car phone, spotlights, cameras, flashers, sirens, run flat tires, and ramming-capable grille guards. It's an integrated combination of existing items (Sports Car, Jeep, and Armored Car).
             Type:
@@ -1277,9 +1279,9 @@ Game:
               Infra-Red Goggles: *Infra-Red_Goggles
               Polarized Lenses: *Polarized_Lenses
       Description:
-      Biography: Born in Nicomedia in the year 380 in what was then the Eastern Roman Empire, Julian Hieronymus Constantine, then known as Ioulianós ó Nikomediátes, unlocked the secrets of the Philosopher's Stone in the early-mid Fifth Century, gaining immortality and eternal youth and health.  He has spent the centuries since honing his mind, body, and spirit to unprecedented levels, dedicating himself to the mastery of anything that has caught his attention along the way.  By the late 20th century, he is exorbitantly wealthy and well-connected along with his hyper-competence, due to incessant personal development and cultivation. Of human peak physicality, his mind is centuries since transcending all human limits..
-      Personality: Julian is, in a general sense, heroic, noble, valorous, and beneficient, although as a man well into his second millennium of life, having witnessed the rise and fall of many cultures, societies, and philosophies, and their values, his view is long and his perspective distant and somewhat detached.  What heroic and noble means to him reflects that perspective. He is gregarious, humorous, and charming, socially, although he prefers such socialization to be on his terms. He is disciplined, focused, and meticulous, as well as obsessive about his personal development—he devotes a considerable amount of his waking hours to that pursuit.
-      Appearance: Tall, long-limbed, broad-shouldered, and athletic, his olive skin, dark hair, strong, regal facial features, and piercing green eyes reflect his ancient Near-Eastern heritage, an ethnicity that no longer exists in that form among the entirety of humanity save himself.  When out of his armor, he tends to wear impeccable, tailored suits in neutral colors appropriate to the season, and quite a bit of jewelery with mystic or occult connotations, some of it as ancient as he is, or more.
+        Biography: Born in Nicomedia in the year 380 in what was then the Eastern Roman Empire, Julian Hieronymus Constantine, then known as Ioulianós ó Nikomediátes, unlocked the secrets of the Philosopher's Stone in the early-mid Fifth Century, gaining immortality and eternal youth and health.  He has spent the centuries since honing his mind, body, and spirit to unprecedented levels, dedicating himself to the mastery of anything that has caught his attention along the way.  By the late 20th century, he is exorbitantly wealthy and well-connected along with his hyper-competence, due to incessant personal development and cultivation. Of human peak physicality, his mind is centuries since transcending all human limits..
+        Personality: Julian is, in a general sense, heroic, noble, valorous, and beneficient, although as a man well into his second millennium of life, having witnessed the rise and fall of many cultures, societies, and philosophies, and their values, his view is long and his perspective distant and somewhat detached.  What heroic and noble means to him reflects that perspective. He is gregarious, humorous, and charming, socially, although he prefers such socialization to be on his terms. He is disciplined, focused, and meticulous, as well as obsessive about his personal development—he devotes a considerable amount of his waking hours to that pursuit.
+        Appearance: Tall, long-limbed, broad-shouldered, and athletic, his olive skin, dark hair, strong, regal facial features, and piercing green eyes reflect his ancient Near-Eastern heritage, an ethnicity that no longer exists in that form among the entirety of humanity save himself.  When out of his armor, he tends to wear impeccable, tailored suits in neutral colors appropriate to the season, and quite a bit of jewelery with mystic or occult connotations, some of it as ancient as he is, or more.
   Supporting Cast:
     Leonidas:
       Description: A particularly large housecat most resembling a strikingly ancient- and wild-looking Oriental breed, somewhat like an oversized Egyptian Mau, with a black spotted silver tabby coat and brilliant green eyes. While still very much a cat in personality, it's tempered by intelligence and insight that's far above the human norm and over a millennium of existence in close contact with Julian Constantine, giving him a dry, witty, sarcastic detachment and studious, serious, somewhat pessimistic outlook.  Leonidas doesn't speak or use telepathy to communicate per se, but is exceptionally adept at making himself understood by others, as well as understanding them, regardless of language, the same as if he were conversing like any human.
@@ -1404,8 +1406,8 @@ Game:
           Health: 24
           Notes: Cats include most ordinary house cats and small wild cats. They inflict Edged attack damage with their claws but cannot score a Kill result against human targets. They move 2 areas/turn.
     Varangians:
-      Varangios:
-        Description: Elite operatives drawn from the highest echelons of special operations and intelligence work, screened for magical potential, Varangioi are the highly-paid, trusted bodyguards, proxies, agents, and fixers of their employer. When on duty but not in armor they generally wear the subdued, tailored suits worn by federal agents, plainclothes detectives, and bodyguards with their Guardian Blasters and collapsed Warden Staves discreetly concealed, or military fatigues with their Blaster and collapsed Staff on their pistol belts alongside flashlights, knives, handcuffs, and mace, depending on the assignment, as well as their Sentry Glasses in either event. Varangioi also have a formal dress uniform, prominently featuring Byzantine and Norse motifs and styling over a modern military dress base, including a (functional) ceremonial sword and dagger and a formal cape. They generally operate in pairs or multiples thereof, two to a Pathfinder. Varangios captains have the title "Akolouthos," while the rank and file are titled "Scholarios."
+      Varangos:
+        Description: Plural Varangoi. Elite operatives drawn from the highest echelons of special operations and intelligence work, screened for magical potential, Varangoi are the highly-paid, trusted bodyguards, proxies, agents, and fixers of their employer. When on duty but not in armor they generally wear the subdued, tailored suits worn by federal agents, plainclothes detectives, and bodyguards with their Guardian Blasters and collapsed Warden Staves discreetly concealed, or military fatigues with their Blaster and collapsed Staff on their pistol belts alongside flashlights, knives, handcuffs, and mace, depending on the assignment, as well as their Sentry Glasses in either event. Varangoi also have a formal dress uniform, prominently featuring Byzantine and Norse motifs and styling over a modern military dress base, including a (functional) ceremonial sword and dagger (sometimes a spear) and a formal cape. They generally operate in pairs or multiples thereof, two to a Pathfinder unit. Within the organization, Varangos captains have the title "Akólouthos" (Follower).
         Note: Akolouthoi have the Leadership Talent.
         Abilities:
           Primary Abilities:
@@ -1510,6 +1512,19 @@ Game:
                   Material Strength:
                     Rank: Excellent
                   Reference: Swords are considered one-handed blade weapons with blades over 12 inches long. They are not normally thrown.
+            Ceremonial Spear:
+              Description: An ornate spear, styled as a short Kontárion, bearing ribbons, banners, or guidons.
+              Reference:
+                Spear:
+                  Price: *Feeble
+                  Damage: 10
+                  Type:
+                    - Edged Attack
+                    - Edged Throwing
+                  Material Strength:
+                    Rank: *Good
+                  Reference: |
+                    A Spear is considered as any thrusting blade with a handle over one foot long. It is normally thrown or wielded with two hands.
           Custom Equipment:
             Guardian Blaster: *Guardian_Blaster
             Warden Staff: *Warden_Staff
@@ -1517,7 +1532,7 @@ Game:
             Pathfinder: *Pathfinder
             Sentry Glasses: *Sentry_Glasses
       Magos:
-        Description: Magoi are those disciples and apprentices of Julian Constantine truly walking the path of the Scientific Sorcerer. They're the closest circle of his proxies and agents, deputies serving as his eyes, hands, and mouths. Their ornate, Byzantine-styled ceremonial robes or mantles, featuring a mix of Greco-Roman and Nordic motifs, are usually worn over slickly tailored, designer suits, and their fingers, wrists, and necks bedecked with jewelry of arcane significance.
+        Description: Plural Magoi. Magoi are those disciples and apprentices of Julian Constantine truly walking the path of the Scientific Sorcerer. They're the closest circle of his proxies and agents, deputies serving as his eyes, hands, and mouths. Their ornate, Byzantine-styled ceremonial robes or mantles, featuring a mix of Greco-Roman and Nordic motifs, are usually worn over slickly tailored, designer suits, and their fingers, wrists, and necks bedecked with jewelry of arcane significance.  Within the organization, Varangian Magos have the title Mágistros (Magister, Master, Teacher).
         Abilities:
           Primary Abilities:
             Fighting: Good
