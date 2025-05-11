@@ -1439,7 +1439,7 @@ Game:
             Ceremonial Dagger:
               Description: An ornate shortsword, styled as a gladius and decorated with precious metals, gems, and engraving.
               Reference:
-                Knife: &Knife
+                Knife:
                   Price: Feeble
                   Damage: 10
                   Type:
@@ -1450,7 +1450,7 @@ Game:
             Ceremonial Sword:
               Description: An ornate longsword, styled as a spatha and decorated with precious metals, gems, and engraving.
               Reference:
-                Sword: &Sword
+                Sword:
                   Price: Poor
                   Damage: 10
                   Type: Edged Attack
