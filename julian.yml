@@ -106,6 +106,19 @@ Game:
                   The hero has increased resistance to magic based attacks, whether physical or mental in orientation. Unlike D11 and D14, this Power rank can be lower than the Psyche rank, making the hero more vulnerable to some types of magic.
 
                   The hero can ignore any magic whose rank is less than this Power's rank and can reduce higher level attacks by the Power rank number.
+              Resistance to Physical Attacks: #D15
+                Toxins:
+                  Rank: Incredible
+                  Number: 40
+                  Reference: This Power rank is always a minimum of one rank greater than the hero's Endurance rank (if the random roll sets this Power as less than this stated minimum, it is raised to Endurance rank +1CS). This rank is used instead of Endurance for all FEATs involving poison, and is not reduced by damage or effects of poison. Failing a FEAT with this Power will mean Endurance drops by one rank, but this Power rank does not drop. It will be used next turn at its normal level for determining further effects.
+                Disease:
+                  Rank: Incredible
+                  Number: 40
+                  Reference: The individual with this resistance is less susceptible to disease than other heroes with the same Endurance. Included are common diseases, as well as the effects of biological warfare and vampirism. The individual's rank in this Power is no less than one rank above the individual's Endurance. (Any roll of less than that rank should be raised to the Endurance Rank +1CS.)
+                Reference: |
+                  The hero has increased resistance to any physical attack. This includes brute force, chemical weapons, biochemicals, disease, hostile environments, and temperature extremes. The hero can ignore any physical attacks with Intensities less than. the Power rank, and may reduce damage from higher level attacks by the Power rank number.
+
+                  When creating the hero, the player can raise the Power rank +1CS by choosing to specialize in a specific Physical Resistance. For example, the Player's Book contains listings for Resistances to Fire and Heat, Corrosives, and Disease.
             Detection:
               Environmental Awareness: #DT5
                 Rank: Incredible
@@ -749,9 +762,11 @@ Game:
           Personal Computer:
             Price: Excellent
             Reference: The Personal Computer listed here is the type commonly available to most Americans and is a tool, not an artificial intelligence, unlike some more powerful computers. The personal computer may be considered to have Poor Reason for problem-solving, analysis, etc. as it is only as smart as the information placed inside it. At Excellent Cost, the user can get a modem that links his machine into a net with other machines.
-          Mystic Texts: &Mystic_Texts
-            Price: Incredible
-            Reference: Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
+          Purchased Suit or Tux: Multiple
+          Standard Robot: The Standard Robot is only capable of simple tasks and has no special abilities other than to record what transpires before its recorders and perform simple tasks. The H.E.R.B.I.E. series was a modified form of the standard robot. All Standard robot abilities are Typical.
+          Sentry Robot: The Sentry Robot has a bit more programming and firepower. It is programmed to identify hostile threats (that is — anything not in its bank) and open fire. Sentry robots come equipped with Good Strength lasers, though some may be additionally armed. All sentry robot abilities are Good.
+          Talent Robot: The Talent Robot is a robot specifically designed for a certain purpose, and its programming reflects that purpose. The Avengers' fire-fighting robots or the robotic opponent the Black Knight uses are examples of talent robots. Such robots may have one ability at Remarkable level. All others are Excellent.
+          Mystic Texts: &Mystic_Texts  Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
         Magical Items:
           Grimoire: &Grimoire
             Reference: The book in which a mage records spells or incantations. Some spells, like many Entreaty spells, cannot be memorized, only read aloud from a text. A character can only have two grimoires at any one time, the primary and a back-up copy. Creating takes 10+1d10 full days of work
@@ -847,15 +862,24 @@ Game:
               Flashlight: Flashlights are common to all readers. The normal flashlight is the type most common, with a plastic or metal body (Typical Intensity). The Halogen flashlight has a brighter bulb and more concentrated beam, and blinds with a more powerful Intensity (Remarkable Intensity). Normal flashlight has a range of two areas, the halogen three.
               Mace: Mace is a small one-area weapon that shoots a mist of Typical Intensity tear gas at a single target adjacent to the user. It does not require an Agility FEAT to hit, though the target must make an Endurance FEAT to avoid the effects.
               Flare Pistol: Flare Pistols fire a burning charge that lights the sky, either to provide illumination (lighting all areas within three) or as a signal device (fired 10 floors straight up). Used as a weapon, the device has a range of two areas and inflicts Good damage. The charge is incendiary and will ignite flammable material.
-          Advanced Guardian Blaster:
+          Guardian Blaster II:
             Description: A sleek, futuristic device with extendable stock and forestock to transition between handgun to long gun form factors. It may be attached to the Sentinel Battlesuit Mk. 1's arm, becoming an integral part of the suit, or operate off grid power or a power pack as an energy source to be used as a standalone device for 10 uses of any power per Power Pack.
-            Base Power Rank:
-              Mk. 0: Excellent
-              Mk. 1: Remarkable
-              Mk. 2: Incredible
-              Mk. 3: Amazing
-              Mk. 4: Monstrous
-            Material Strength: Base Power Rank +1CS
+            Variants:
+              Mk. 0:
+                Base Power Rank: Excellent
+                Material Strength: Remarkable
+              Mk. 1:
+                Base Power Rank: Remarkable
+                Material Strength: Incredible
+              Mk. 2:
+                Base Power Rank: Incredible
+                Material Strength: Amazing
+              Mk. 3:
+                Base Power Rank: Amazing
+                Material Strength: Monstrous
+              Mk. 4:
+                Base Power Rank: Monstrous
+                Material Strength: Unearthly
             Powers:
               Energy Emission:
                 Light Emission: #EE8
@@ -1057,13 +1081,14 @@ Game:
               Power Control:
                 Energy Source: #PC5
                   Source:
-                    - Advanced Sentinel Battlesuit: Revision greater than or equal to blaster.
+                    - Sentinel Battlesuit II: Battlesuit variant greater than or equal to blaster variant.
                     - Power Pack:
-                        Mk. 0 Blaster: 20
-                        Mk. 1 Blaster: 10
-                        Mk. 2 Blaster: 9
-                        Mk. 3 Blaster: 8
-                        Mk. 4 Blaster: 6
+                        Uses:
+                          Mk. 0: 20
+                          Mk. 1: 10
+                          Mk. 2: 9
+                          Mk. 3: 8
+                          Mk. 4: 6
                     - Power Rooms:
                         Remarkable: 12 Power Packs before refuel
                         Incredible: 24 Power Packs before refuel
@@ -1110,33 +1135,53 @@ Game:
               Scuba Gear: Scuba Gear allows the wearer to breathe tanked air for 2 hours and, as such, dive to moderate depths in the ocean.
               Roller Skates: Roller Skates are used by a variety of heroes from Dazzler to Iron Man. Standard skates allow the hero to move at the listed speed as if Endurance were three ranks higher.
               Rocket Pack: Rocket Pack, worn either as a belt-pack or a backpack, allows the wearer to fly at Excellent speeds. All limitations on flight apply to the wearer, and Agility FEATs required are at one CS lower.
-          Advanced Sentinel Battlesuit:
+          Sentinel Battlesuit II:
             Description: A full suit of powered armor, still sleek and futuristic, but reminiscient of Byzantine motifs with a dark theme.
-            Column Shift:
-              Mk. 0: +0
-              Mk. 1: +1
-              Mk. 2: +2
-              Mk. 3: +3
-              Mk. 4: +4
-            Material Strength: Remarkable +CS
-            Abilities: 
-              Fighting:
-                Base Rank: + Column Shift
-                Max: Amazing + Column Shift
-              Agility:
-                Base Rank: + Column Shift
-                Max: Incredible + Column Shift
-              Strength:
-                Base Rank: + Column Shift
-                Max: Excellent + Column Shift
-              Endurance:
-                Base Rank: + Column Shift
-                Max: Remarkable + Column Shift
-            Base Power Rank:  Excellent + Column Shift
+            Variants:
+              Mk. 0:
+                Column Shift: +0
+                Base Power Rank: Excellent
+                Material Strength: Remarkable
+              Mk. 1:
+                Column Shift: +1
+                Base Power Rank: Remarkable
+                Material Strength: Incredible
+                Max Primary Ability Column Shift:
+                  Fighting: Monstrous
+                  Agility: Amazing
+                  Strength: Remarkable
+                  Endurance: Incredible
+              Mk. 2:
+                Column Shift: +2
+                Base Power Rank: Incredible
+                Material Strength: Amazing
+                Max Primary Ability Column Shift:
+                  Fighting: Unearthly
+                  Agility: Monstrous
+                  Strength: Incredible
+                  Endurance: Amazing
+              Mk. 3:
+                Column Shift: +3
+                Base Power Rank: Amazing
+                Material Strength: Monstrous
+                Max Primary Ability Column Shift:
+                  Fighting: Shift-X
+                  Agility: Unearthly
+                  Strength: Amazing
+                  Endurance: Monstrous
+              Mk. 4:
+                Column Shift: +4
+                Base Power Rank: Monstrous
+                Material Strength: Unearthly
+                Max Primary Ability Column Shift:
+                  Fighting: Shift-Y
+                  Agility: Shift-X
+                  Strength: Monstrous
+                  Endurance: Unearthly
             Powers:
               Defensive:
                 Body Armor: #D1
-                  Rank: Base
+                  Rank: Base Power Rank
                   Reference: |
                     The hero possesses artificially-created armor that provides protection and possibly a way of possessing other Powers.
 
@@ -1145,20 +1190,20 @@ Game:
                     The player also has to determine where he got the Armor in the first place. This is covered in the "Character Creation" section elsewhere in this book. If the hero gained the armor through an accident, he might not be able to repair it.
               Detection:
                 Energy Detection: #DT3
-                  Rank: Base
+                  Rank: Base Power Rank
                   Reference: Range column D. The hero can detect and identify energy and related phenomena. The power can only detect actual energy, not potential energy (it couldn't detect a bomb until it explodes, for example). Likewise, while it can detect the energies consciously emitted by superhumans, it cannot detect the superhumans themselves. Rank determines range.
                 Radarsense: #DT15
-                  Rank: Base
+                  Rank: Base Power Rank
                   Reference: |
                     Range column B. The hero can gain a three-dimensional picture of his surroundings through the use of electromagnetic waves. The hero both emits and senses these waves. He can use the Power to locate and identify targets by their characteristic echoes. Because of the hero's sensitivity to electromagnetic waves, he has an increased vulnerability to electrical and magnetic attacks (-1CS): these temporarily negate the Radarsense.
                 Sonar: #DT16
-                  Rank: Base
+                  Rank: Base Power Rank
                   Reference: |
                     Range column B. The hero can gain a three-dimensional picture of his environment through the use of soundwaves. The Power allows the hero to locate and identify targets by the way they reflect sound.
 
                     There are two ways this Power can operate. Passive Sonar utilizes existing sound. Active Sonar uses special sounds emitted by the hero (this is how bats and dolphins do it). The latter form requires a special adaptation of the hero's voice: otherwise there is no real difference between them. Because of the special sensitivity of the hero's hearing, he is vulnerable to sonic attacks (-1CS to resist).
                 Telescopic Vision: #DT17
-                  Rank: Base
+                  Rank: Base Power Rank
                   Reference: |
                     Range column E. The hero's eyes can focus on extremely distant targets, objects too small for normal vision to perceive. The eyes function as telescopes, magnifying normal visual images. With this Power, the hero can see anything in his line of sight, even the surfaces of distant worlds. However, the Power is limited by the speed of light. Images of Alpha Centauri, for example, are five years old.
 
@@ -1166,20 +1211,20 @@ Game:
 
                     When using this Power, the distant objects appear very close. An adversary with a means of altering the hero's control over this Power might make the Telescopic Vision continually override the hero's normal sight. The effect would be disastrous (imagine trying to walk through Manhattan when all you're seeing are the sands of Mars).
                 Thermal Vision: #DT18
-                  Rank: Base
+                  Rank: Base Power Rank
                   Reference: |
                     The hero can see infrared light and heat images. This allows the hero to see in the dark, perceive temperature differences (especially those left by a living person's contact with an object), and partially see through solids. In the last case, the hero can only see the heat patterns of objects touching the other side of the barrier.
 
                     With practice, the hero can judge the temperature of a target by its thermal color. The hero has an increased risk of being blinded by strong heat sources, even those that don't affect normal vision (-1CS). Thermal vision may be a consciously-activated mode or the hero's normal means of vision.
                 Ultraviolet Vision: #DT21
-                  Rank: Base
+                  Rank: Base Power Rank
                   Reference: |
                     The hero can see ultraviolet light. Because UV light isn't as readily absorbed by water as normal light, this Power enables the hero to see clearly through fog and at greater distance in the water (+1CS). The hero can also see the dim light given off by radioactive materials.
 
                     The hero cannot actually "see in the dark" but only if UV light is present. The effect is the same when seen by normal people. The hero has an increased risk of being blinded by strong UV sources, like black lights and radiation (-2CS).
               Matter Control:
                 Micro-Environment: #MC10
-                  Rank: Base +2CS
+                  Rank: Base Power Rank +2CS
                   Constraint: Range and area of effect within suit only (reduced to Feeble range).
                   Reference:  |
                     The hero can alter his immediate surroundings to create a miniature climate around himself. The Micro-Environment always contains fresh clean air (or water or methane or whatever the hero breathes) at any temperature and pressure the hero desires. The Micro-Environment incorporates a Force Field that protects it from any factor that might harm or even annoy the hero, such as rain, poisonous gases, extreme temperatures, or the pressure that naturally results from having three miles of ocean over your head. In such cases, the Micro-Environment automatically excludes potentially hazardous gases and liquids and reduces the Intensity of pressure, extreme temperature, and high gravity by the Power rank number. Lesser or equal Intensities are canceled out, while higher ranks only penetrate in diminished form.
@@ -1199,13 +1244,18 @@ Game:
                     The Nemeses are either Air or Liquid Animation, depending on the nature of the Micro-Environment.
               Travel:
                 Rocket:
-                  Rank: Base +2CS
+                  Rank: Base Power Rank +2CS
                   Reference: | #T13
                     The hero flies by means of a rocket-like exhaust that propels him at Power rank speed. The rocket blast is created by a thermo-chemical reaction generated by the hero's body. The Power converts whatever material is around him into fuel and oxidant, then it shapes the exhaust into a stream to propel him. If the hero is in a vacuum, the Power creates fuel out of virtual nothingness.
 
                     The Power is treated like Strength to determine the maximum thrust the Power can achieve. If the thrust is high enough, the hero can carry or push additional loads. For example, Cannonball's Remarkable thrust can lift up to one ton.
 
                     The Nemesis is Gravity Manipulation.
+              Other Powers: #From APB
+                Senses:
+                  Protected Senses:
+                    Rank: Base Power Rank
+                    Reference: One or more of the hero's basic senses are protected from attack. The hero ignores potentially damaging attacks of less than the Power rank in intensity level. In many cases, this considers the effects of specially polarized goggles that prevent being suddenly blinded by high Intensity light. or earplugs or headgear that reduce the effects of sonic attacks.
           Pathfinder: &Pathfinder
             Description: An up-armored, high-performance four wheel drive vehicle, it has the speed, acceleration, and handling of a sports car, the off-road capability of a military vehicle, and the protection and durability of an armored vehicle. Features expected off-road functional accessories like winches, lights, compressed air, a welder/cutter, SSB CB, HAM, and PA, as well as police scanners, commerical/business band radio with encryption, car phone, spotlights, cameras, flashers, sirens, run flat tires, and ramming-capable grille guards. It's an integrated combination of existing items (Sports Car, Jeep, and Armored Car).
             Type:
