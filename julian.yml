@@ -1239,7 +1239,7 @@ Game:
             Mk. 0: &Pathfinder_Mk0
               Description: An up-armored, high-performance four wheel drive vehicle, it has the speed, acceleration, and handling of a sports car, the off-road capability of a military vehicle, and the protection and durability of an armored vehicle. Features expected off-road functional accessories like winches, lights, compressed air, a welder/cutter, SSB CB, HAM, and PA, as well as police scanners, commerical/business band radio with encryption, car phone, spotlights, cameras, flashers, sirens, run flat tires, and ramming-capable grille guards. It's an integrated combination of existing items (Sports Car, Jeep, and Armored Car).
               Type:
-                Off-Road: *Off-Road
+                Off-Road: &Off-Road Off-Road vehicles are land vehicles designed to handle broken ground better than road vehicles. Some recreational vehicles and military equipment fall under this category.
               Control: Excellent
               Speed: Remarkable
               Body: Remarkable
