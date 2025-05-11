@@ -439,7 +439,7 @@ Game:
               Leadership: The hero with this Talent has the brains and understanding of a cohesive group, such that he is a benefit to the team. Any Karma Pool to which the character belongs receives a 50-point bonus, provided the character with this Talent is recognized as the "team leader." A Karma Pool may only have one recognized leader, though more than one character with Leadership may belong to one group. When the "Leader" of a group leaves, the 50 points are deducted from the Karma Pool, but the leader does not receive them for personal use (the bonus points only exist as a part of the pool)
             Magic Wielder Talents:
               Bibliophile: &Bibliophile The character has an extensive knowledge of magical books, scrolls, or other primarily informational items, and the lore concerning them. He has a +2CS when using or researching these.
-              Chronicler of Magic: The character studies magical societies and their activities. He has a +2CS for researching and/or knowing who the adepts and masters are, what their relationship is with each other and with any beings that they entreat, and for any specific facts about most magical cults.
+              Chronicler of Magic: &Chronicler_of_Magic The character studies magical societies and their activities. He has a +2CS for researching and/or knowing who the adepts and masters are, what their relationship is with each other and with any beings that they entreat, and for any specific facts about most magical cults.
               Demonologist: &Demonologist The character has studied accounts of demons in the Marvel Universe and he knows how dangerous and hostile they are. The character receives a +1CS in any situation involving demons, including research, communication, identification, and combat.
               Occultist: &Occultist |
                 The character has made extensive studies into the area of occult happenings, including: unexplained events and mysteries of the world, hauntings, and other manifestations of the spirit world. He has a +2CS when researching or dealing with occult events.
@@ -1850,7 +1850,7 @@ Game:
               Reference:
                 Speedboat:
                   Type:
-                    Water: Water vehicles are boats of every description. from sailboats to carriers. Their main limitation is the danger of sinking. Submersible vehicles are those designed to travel underwater, and are represented by the submarine. Subs are similar to water vehicles in the danger of sinking.
+                    Water: &Water Water vehicles are boats of every description. from sailboats to carriers. Their main limitation is the danger of sinking. Submersible vehicles are those designed to travel underwater, and are represented by the submarine. Subs are similar to water vehicles in the danger of sinking.
                   Control: Good
                   Speed: Incredible
                   Body: Typical
