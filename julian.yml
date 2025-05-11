@@ -1822,7 +1822,7 @@ Game:
               Reference:
                 Traffic Copter: &Traffic_Copter
                   Type:
-                    Air: Air vehicles travel mainly through the friendly skies, and include all forms of aircraft from gliders to the Concorde.
+                    Air: &Air Air vehicles travel mainly through the friendly skies, and include all forms of aircraft from gliders to the Concorde.
                   Control: Good
                   Speed: Excellent
                   Body: Feeble
