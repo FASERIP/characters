@@ -630,7 +630,7 @@ Game:
                 Talent Robot: The Talent Robot is a robot specifically designed for a certain purpose, and its programming reflects that purpose. The Avengers' fire-fighting robots or the robotic opponent the Black Knight uses are examples of talent robots. Such robots may have one ability at Remarkable level. All others are Excellent.
           Vehicles:
             Operations Vehicle:
-              Note: Primary patrol and response vehicle. Wilderness use. Lots of utility accessories.
+              Note: Primary patrol, response, and utility vehicle. Wilderness use. Lots of utility accessories.
               Reference:
                 Jeep:
                   Type:
@@ -715,7 +715,7 @@ Game:
                   Speed: Good
                   Body: Good
                   Protection: Good
-                  Reference: Vans are large, box-like vehicles on a sedan wheelbase, offering space for about eight and an enclosed rear to shield contents—favorites of heroes like Captain America and Punisher.
+                  Reference: Vans are large, box-like vehicles on a sedan wheelbase. They have the advantage of space (about 8 bodies), and the back may be covered to prevent unwanted eyes seeing in. Both Captain America and Punisher have modified vans.
             Cargo Transport:
               Reference:
                 Van: *Van
@@ -728,7 +728,7 @@ Game:
                   Speed: Poor
                   Body: Excellent
                   Protection: Good
-                  Reference: Security Limos are luxury cars with thicker plating, bullet‑proof glass, and higher protection ratings; seating as for luxury cars.
+                  Reference: Security Limo is a variant of the luxury car, with stronger materials, thicker plating about the passenger compartment, bullet-proof glass, and a higher protection value to those within. Seating is as for Luxury Cars.
             Special Transport:
               Reference:
                 Armored Car:
@@ -738,7 +738,7 @@ Game:
                   Speed: Typical
                   Body: Remarkable
                   Protection: Remarkable
-                  Reference: Armored Cars are strong, plated vehicles used to transport valuables or prisoners, often manned by two guards in front and optionally one inside.
+                  Reference: Armored Cars are favorite targets of criminals and normally sport a team of two guards in the front and an optional man inside. Armored Cars are also used for transporting powerful criminals who are under arrest.
             Light Utility Vehicle:
               Note: Primarily on-premises use.  Wilderness use.
               Reference:
@@ -749,7 +749,7 @@ Game:
                   Speed: Good
                   Body: Good
                   Protection: Typical
-                  Reference: All-Terrain Vehicles (ATVs) are multi‑tired off-road machines used by civilians and covert teams for rugged travel.
+                  Reference: ATV means All-Terrain Vehicle and is a catch-phrase for the wide variety of multiple-tired and treaded vehicles used both by ordinary citizens and secret subversive societies.
             Security Interceptor-Cruiser:
               Note: Fast patrol and response. On-premises security and escort. Pursuit. Highway travel.
               Reference:
@@ -760,7 +760,7 @@ Game:
                   Speed: Excellent
                   Body: Typical
                   Protection: Typical
-                  Reference: Police Cars are enhanced sedans with better maintenance and power, often fitted with front-rear partitions to secure detainees.
+                  Reference: Police Cars are the vehicles of the constabulary, usually with a little more power under the hood and better-cared for than the standard sedan. Police cars seat 5 but often have a grill between the front and back seats to prevent the passengers from getting to the driver (and vice-versa).
             Special Officer Transport:
               Note: Special Officers use an unmarked variant.
               Reference:
@@ -774,7 +774,7 @@ Game:
                   Speed: Good
                   Body: Good
                   Protection: Typical
-                  Reference: Police Vans carry riot gear, gas canisters, and up to 10 detainees temporarily; the back holds prisoners securely.
+                  Reference: The Police Van is to the van as the Police Car is to the sedan. This vehicle often carries additional armament for teams in trouble, including Riot Guns and gas canisters. The back part of the van can carry up to 10 prisoners for short periods.
             Crisis Response Vehicle:
               Reference:
                 SWAT Van:
@@ -784,7 +784,7 @@ Game:
                   Speed: Good
                   Body: Remarkable
                   Protection: Excellent
-                  Reference: SWAT Vans are mobile armories holding rifles, flak jackets, and gas grenades, transporting ten tactical officers.
+                  Reference: The SWAT in SWAT Van stands for Special Weapons And Tactics, and these babies are portable armories of ten riot guns, ten sniper rifles, ten flak jackets, and a wide supply of smoke, tear gas, and knock-out gas grenades (sorry, weapons and batteries not included in the purchase of the vehicle). Carries about ten people.
             Executive Helicopter:
               Note: Comfortable and luxurious
               Reference:
@@ -795,7 +795,7 @@ Game:
                   Speed: Excellent
                   Body: Feeble
                   Protection: Feeble
-                  Reference: Traffic Copters are VTOL helicopters common over cities, used for traffic patrol, medivac, and executive transport.
+                  Reference: Traffic Copters are fairly common in the airspace over American cities, and this type also includes private vehicles and medivac copters as well. Helicopters have VTOL ability (Vertical Take-off and Landing), and as such may drop to 0 speed without losing control.
             Patrol Helicopter:
               Note: Spotlights, cameras, thermal, loudspeakers, advanced comms, etc.
               Reference:
@@ -813,7 +813,7 @@ Game:
                   Speed: Excellent
                   Body: Good
                   Protection: Good
-                  Reference: Hovercraft ride on air cushion, operate as both air and off-road vehicles, reaching Good speed off-road but crashing if lift lost.
+                  Reference: The Hovercraft is the only notable mention of the Ground Effect Vehicle. This vehicle is neither fish nor fowl, as it rides on a cushion of air, handles as does an Air type, but goes out of control as an off-road vehicle. Hovercraft move at a maximum Speed of Good off road, over broken ground, or in stormy weather.
             Utility Craft:
               Reference:
                 Speedboat:
@@ -823,7 +823,7 @@ Game:
                   Speed: Incredible
                   Body: Typical
                   Protection: Poor
-                  Reference: Speedboats are streamlined powerboats for quick entry and exit missions, seating about four.
+                  Reference: The Speedboat is the more streamlined, powerful version of the motorboat. It is used as a pleasure craft and also for missions requiring quick entrance and exit. Seats about 4 comfortably.
             Rapid Response Craft:
               Reference:
                 Jetski:
@@ -833,7 +833,7 @@ Game:
                   Speed: Excellent
                   Body: Good
                   Protection: 0
-                  Reference: Jetskis are one-man watercraft akin to snowmobiles, some modified for weapons or flight.
+                  Reference: Jetskis are small one-man sea equivalents of the snowmobile. Some may be modified to carry weapons, and others have been modified to give flight and underwater abilities.
             Emergency Medical Transport:
               Reference:
                 Ambulance:
@@ -843,7 +843,8 @@ Game:
                   Speed: Excellent
                   Body: Good
                   Protection: Good
-                  Reference: Ambulances are high‑power vans equipped for medical emergencies, operating with hospitals or independent paramedic services.
+                  Reference: |
+                    An Ambulance is a van equipped with a more powerful engine and gear to handle most medical emergencies. Ambulances operate both in conjunction with hospitals and as separate Paramedic services. Driving Note: Ambulances, Fire Trucks, and Police Vehicles with their top-lights flashing have right of way over other vehicles.
             Rescue Response Vehicle:
               Reference:
                 Fire Truck:
@@ -853,7 +854,8 @@ Game:
                   Speed: Excellent
                   Body: Good
                   Protection: Typical
-                  Reference: Fire Trucks carry crews, hoses, ladders, and protective gear to fires; they have right-of-way when lights are flashing.
+                  Reference: |
+                    Fire Trucks are large trucks used to carry men and materials to fires. Each carries up to a dozen men, along with hose, hooks and ladders, nets, and fireproof suits. Note: Includes Fire Hoses, Hook and Ladder.
             Hierax One: &Hierax
               Note: Kept at LaGuardia (LGA)
               Reference:
@@ -864,7 +866,7 @@ Game:
                   Speed: Amazing
                   Body: Feeble
                   Protection: Typical
-                  Reference: Corporate Jets are turbo‑prop airliners used by corporations, seating two crew and up to 20 passengers comfortably.
+                  Reference: Corporate Jets represent the more modern turbo-prop jets that more powerful corporations use for their top executives. Corporate Jets have a crew of two and may carry up to 20 people in comfort.
             Hierax Two: *Hierax
             Prototype Bipedal Vehicle:
               Reference:
@@ -875,6 +877,20 @@ Game:
                   Speed: Good
                   Body: Remarkable
                   Protection: Remarkable
+                  Reference:  
+                    - The Walker is a curious form of off-road vehicle in that it does not have wheels or treads but rather two or more legs that simulate human or animal movement. Such devices are generally experimental and are used by organizations such as Hulkbusters. They are normally equipped with a stun cannon, as firing weapons with recoil (such as LAW or Light Artillery) would require a Control FEAT to prevent tipping over. Any attack on a walker vehicle requires a Control FEAT by the operator to determine whether it remains upright. Seats four to eight persons.
+                    - Shooting Weapons:
+                        Stun Cannon:
+                          Range: 10
+                          Rate: 1
+                          Shots: 10
+                          Material Strength: Remarkable
+                          Notes:
+                            - Two men to fire
+                            - One-man firing at -1CS to hit
+                            - Incredible Intensity stunning
+                            - Bursts (Affects up to 3 adjacent targets with one roll)
+                            - Power pack
             Prototype Tunneling Vehicle:
               Reference:
                 Borer:
@@ -884,6 +900,7 @@ Game:
                   Speed: Typical
                   Body: Remarkable
                   Protection: Remarkable
+                  Reference: The Borer is not really a land vehicle but a subterranean vehicle. It allows speedy travel through the underground. If moving at Poor speed, its passage leaves a tunnel that others may follow; otherwise, it leaves churned earth behind it. Villains who live deep within the Earth, such as Mole Man, use the Borer as standard equipment. Because of its construction, with the forward screw, the borer can make an Edged Attack for Incredible damage.
   Headquarters:
     Akropolis:
       Description: |
