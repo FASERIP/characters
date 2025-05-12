@@ -18,541 +18,539 @@ Game:
       Start: 1986
       End: 1993
   Supporting Cast:
-    Security:
-      Security Officer:
-        Description: Varangian Guard, Inc. Security Officers use an improved Policeman stats and are equipped with a handgun, club, handcuffs, flashlight, and mace.
-        Abilities:
-          Primary Abilities:
-            Fighting: Excellent
-            Agility: Excellent
-            Strength: Good
-            Endurance: Excellent
-            Reason: Good
-            Intuition: Good
-            Psyche: Good
-          Secondary Abilities:
-            Health: 70
-            Karma: 30
-          Talents:
-            Weapon Skills:
-              Blunt Weapons: &Blunt_Weapons Characters with this Talent gain a +1CS to hit when attacking with a weapon that resolves attacks on the Blunt Attacks column of the Battle Effects Table.
-            Fighting Skills:
-              Martial Arts C: &Martial_Arts_C This form of martial arts concentrates on holds and escapes. The practitioner of this form gains a +1CS to his Strength for Grappling attacks (including damage), a +1CS to Strength for Escaping, and a +1CS to Agility for purposes of Dodging.
-            Professional Skills:
-              Military: &Military The hero has had some dealings with one of the armed services. In military matters, the hero gets a +1CS to all FEAT rolls, and in addition may take a member of the armed services as a Contact.
-              Law Enforcement: &Law_Enforcement The character with this Talent has a background with law-enforcement authorities. This Talent includes both Gun and Law Talents, and the character, if still a member of a law-enforcement agency, may legally carry a gun and make arrests.
-            Other Talents:
-              First Aid: &First_Aid The medicine Talent notes that the loss of Endurance ranks may be halted by someone checking on the dying character and administering some form of aid. The First Aid Talent grants the character this immediate halt to Endurance rank loss, the recovery of one rank immediately (one use only per situation), and in addition, the hero with this Talent can stabilize a dying character at Shift 0 Health up to 5 rounds after that character reaches that level.
-        Equipment:
-          Shooting Weapons:
-            Handgun/Pistol: &Handgun-Pistol
-              Range: 3
-              Damage: 10
+    Security Officer:
+      Description: Varangian Guard, Inc. Security Officers use improved Policeman stats and are equipped with a handgun, club, handcuffs, flashlight, and mace.
+      Abilities:
+        Primary Abilities:
+          Fighting: Excellent
+          Agility: Excellent
+          Strength: Good
+          Endurance: Excellent
+          Reason: Good
+          Intuition: Good
+          Psyche: Good
+        Secondary Abilities:
+          Health: 70
+          Karma: 30
+        Talents:
+          Weapon Skills:
+            Blunt Weapons: &Blunt_Weapons Characters with this Talent gain a +1CS to hit when attacking with a weapon that resolves attacks on the Blunt Attacks column of the Battle Effects Table.
+          Fighting Skills:
+            Martial Arts C: &Martial_Arts_C This form of martial arts concentrates on holds and escapes. The practitioner of this form gains a +1CS to his Strength for Grappling attacks (including damage), a +1CS to Strength for Escaping, and a +1CS to Agility for purposes of Dodging.
+          Professional Skills:
+            Military: &Military The hero has had some dealings with one of the armed services. In military matters, the hero gets a +1CS to all FEAT rolls, and in addition may take a member of the armed services as a Contact.
+            Law Enforcement: &Law_Enforcement The character with this Talent has a background with law-enforcement authorities. This Talent includes both Gun and Law Talents, and the character, if still a member of a law-enforcement agency, may legally carry a gun and make arrests.
+          Other Talents:
+            First Aid: &First_Aid The medicine Talent notes that the loss of Endurance ranks may be halted by someone checking on the dying character and administering some form of aid. The First Aid Talent grants the character this immediate halt to Endurance rank loss, the recovery of one rank immediately (one use only per situation), and in addition, the hero with this Talent can stabilize a dying character at Shift 0 Health up to 5 rounds after that character reaches that level.
+      Equipment:
+        Shooting Weapons:
+          Handgun/Pistol: &Handgun-Pistol
+            Range: 3
+            Damage: 10
+            Type: Shooting
+            Rate: 1
+            Shots:
+              - 6
+              - 8
+              - 9
+            Material Strength: Excellent
+            Notes:
+              - One-Handed
+            Ammunition: 
+              Standard: &Standard_Ammunition Damage listed for each weapon is for standard ammunition.
+            Reference: The Handgun/Pistol is the next most common weapon, and like the cheap handgun, is easily concealed. A number of makes and models exist, noted by the different number of shots available. When the number is not predetermined (the text states a 9-shot pistol), assume the chambers hold 6 shots.
+        Melee and Thrown Weapons:
+          Club: &Club
+            Price: Feeble
+            Damage: 10
+            Type:
+              - Blunt Attack
+              - Blunt Throwing
+            Material Strength: Good
+            Reference: Clubs are standard blunt weapons, including makeshift weapons such as chairs and tables.
+          Knife: &Knife
+            Price: Feeble
+            Damage: 10
+            Type:
+              - Edged Attack
+              - Edged Throwing
+            Material Strength: Excellent
+        Other Gear:
+          Flashlight, Standard: &Flashlight Flashlights are common to all readers. The normal flashlight is the type most common, with a plastic or metal body (Typical Intensity). The Halogen flashlight has a brighter bulb and more concentrated beam, and blinds with a more powerful Intensity (Remarkable Intensity). Normal flashlight has a range of two areas, the halogen three.
+          Mace: &Mace Mace is a small one-area weapon that shoots a mist of Typical Intensity tear gas at a single target adjacent to the user. It does not require an Agility FEAT to hit, though the target must make an Endurance FEAT to avoid the effects.
+          Handcuffs: &Handcuffs Handcuffs are a standard restraining device used by the police forces of the world to prevent actions by criminals in custody. They are made of Excellent material.
+      Reference:
+        Policeman:
+          Abilities:
+            Primary Abilities:
+              Fighting: Good
+              Agility: Good
+              Strength: Typical
+              Endurance: Good
+              Reason: Typical
+              Intuition: Typical
+              Psyche: Typical
+            Secondary Abilities:
+              Health: 32
+              Karma: 18
+            Special Abilities:
+              Talents:
+                Professional Skills:
+                  Law Enforcement: The character with this Talent has a background with law-enforcement authorities. This Talent includes both Gun and Law Talents, and the character, if still a member of a law-enforcement agency, may legally carry a gun and make arrests.
+          Reference: Standard agent of law-enforcement. Walks a beat or patrols in a squad car. Equipment includes a billy club and handgun. May make arrests.
+    Rapid Response Officer:
+      Description: Members of the Varangian Guard's Crisis Rapid Response Team use improved SWAT operative stats and have the same base equipment as the uniformed guards, but additionally wear Flak Jackets and are armed with a Riot Gun, Assault Rifle, or Sniper Rifle depending on their role on their squad.  They have access to Gas Masks and Infra-Red Goggles as well.
+      Abilities:
+        Primary Abilities:
+          Fighting: Excellent
+          Agility: Excellent
+          Strength: Good
+          Endurance: Excellent
+          Reason: Good
+          Intuition: Good
+          Psyche: Excellent
+        Secondary Abilities:
+          Health: 70
+          Karma: 40
+        Talents:
+          Weapon Skills:
+            Blunt Weapons: *Blunt_Weapons
+            Marksmanship: &Marksmanship The character with this Talent gains a +1CS to hit with any distance weapon that requires line of sight to hit (the character could benefit when firing heavy artillery, but not when controlling a tele-guided missile). Such a weapon in the hands of a marksman does not suffer penalties to hit from range.
+          Fighting Skills:
+            Martial Arts C: *Martial_Arts_C
+            Martial Arts E: This form of martial arts encourages quick striking to catch the opponent off-guard. Heroes with this form of Martial Arts are at a +1CS to initiative rolls in unarmed combat.
+          Professional Skills:
+            Military: *Military
+            Law Enforcement: *Law_Enforcement
+          Other Talents:
+            First Aid: *First_Aid
+      Equipment:
+        Shooting Weapons:
+          Handgun: *Handgun-Pistol
+          One of the Following:
+            Riot Gun:
+              Range: 2
+              Damage: 15
               Type: Shooting
               Rate: 1
-              Shots:
-                - 6
-                - 8
-                - 9
+              Shots: 6
               Material Strength: Excellent
               Notes:
-                - One-Handed
-              Ammunition: 
-                Standard: &Standard_Ammunition Damage listed for each weapon is for standard ammunition.
-              Reference: The Handgun/Pistol is the next most common weapon, and like the cheap handgun, is easily concealed. A number of makes and models exist, noted by the different number of shots available. When the number is not predetermined (the text states a 9-shot pistol), assume the chambers hold 6 shots.
-          Melee and Thrown Weapons:
-            Club: &Club
-              Price: Feeble
-              Damage: 10
-              Type:
-                - Blunt Attack
-                - Blunt Throwing
+                - Bursts: Affect up to three adjacent targets, with one roll made for all targets.
+                - Fire one-handed at -1CS
+              Ammunition:
+                Standard: *Standard_Ammunition
+                Canister Shot:
+                  - Canister shot is a special type of ammunition that may be loaded with various cartridges for different effects. Specify the type of canister desired when purchasing.
+                  - Gas Canisters: Gas Canisters contain Incredible Intensity Tear Gas. Cover one area.
+                  - Knock-Out Canisters: Knock-Out Can contain Remarkable Intensity Knock-Out gas. Cover one area.
+                  - Smoke Canisters: Smoke Canisters contain Excellent Intensity smoke. Cover one area.
+                  - Explosive Canisters: Explosive Canisters inflict double damage to all in target area, normal damage to all in adjacent areas.
+                  - Incendiary Canisters: Incendiary Canisters inflict 20 damage in fire (Energy), which burns at Excellent Intensity for 1-10 rounds.
+              Reference:
+                - Riot Gun: The Riot Gun is a smaller version of the shotgun and fires grenade-like missiles and canister shot (treat as grenades).
+                - Shotgun: The Shotgun fires bursts. It is often loaded with non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results).
+            Sniper Rifle:
+              Range: 10
+              Damage: 15
+              Type: Shooting
+              Rate: 1
+              Shots: 4
               Material Strength: Good
-              Reference: Clubs are standard blunt weapons, including makeshift weapons such as chairs and tables.
-            Knife: &Knife
-              Price: Feeble
+              Ammunition:
+                Standard: *Standard_Ammunition
+                AP Shot: Armor-piercing bullets reduce the target's Body Armor by 2 CS (from Good to Poor, for example) for purposes of hitting and damage. This type of ammunition has no effect on force fields.
+              Reference: The Sniper Rifle, like the target pistol, suffers no penalty for firing up to maximum range. It is used by criminals as well as the military.
+            Assault Rifle:
+              Range: 7
               Damage: 10
-              Type:
-                - Edged Attack
-                - Edged Throwing
-              Material Strength: Excellent
-          Other Gear:
-            Flashlight, Standard: &Flashlight Flashlights are common to all readers. The normal flashlight is the type most common, with a plastic or metal body (Typical Intensity). The Halogen flashlight has a brighter bulb and more concentrated beam, and blinds with a more powerful Intensity (Remarkable Intensity). Normal flashlight has a range of two areas, the halogen three.
-            Mace: &Mace Mace is a small one-area weapon that shoots a mist of Typical Intensity tear gas at a single target adjacent to the user. It does not require an Agility FEAT to hit, though the target must make an Endurance FEAT to avoid the effects.
-            Handcuffs: &Handcuffs Handcuffs are a standard restraining device used by the police forces of the world to prevent actions by criminals in custody. They are made of Excellent material.
-        Reference:
-          Policeman:
-            Abilities:
-              Primary Abilities:
-                Fighting: Good
-                Agility: Good
-                Strength: Typical
-                Endurance: Good
-                Reason: Typical
-                Intuition: Typical
-                Psyche: Typical
-              Secondary Abilities:
-                Health: 32
-                Karma: 18
-              Special Abilities:
-                Talents:
-                  Professional Skills:
-                    Law Enforcement: The character with this Talent has a background with law-enforcement authorities. This Talent includes both Gun and Law Talents, and the character, if still a member of a law-enforcement agency, may legally carry a gun and make arrests.
-            Reference: Standard agent of law-enforcement. Walks a beat or patrols in a squad car. Equipment includes a billy club and handgun. May make arrests.
-      Rapid Response Officer:
-        Description: Members of the Varangian Guard's Crisis Rapid Response Team use improved SWAT operative stats and have the same base equipment as the uniformed guards, but additionally wear Flak Jackets and are armed with a Riot Gun, Assault Rifle, or Sniper Rifle depending on their role on their squad.  They have access to Gas Masks and Infra-Red Goggles as well.
-        Abilities:
-          Primary Abilities:
-            Fighting: Excellent
-            Agility: Excellent
-            Strength: Good
-            Endurance: Excellent
-            Reason: Good
-            Intuition: Good
-            Psyche: Excellent
-          Secondary Abilities:
-            Health: 70
-            Karma: 40
-          Talents:
-            Weapon Skills:
-              Blunt Weapons: *Blunt_Weapons
-              Marksmanship: &Marksmanship The character with this Talent gains a +1CS to hit with any distance weapon that requires line of sight to hit (the character could benefit when firing heavy artillery, but not when controlling a tele-guided missile). Such a weapon in the hands of a marksman does not suffer penalties to hit from range.
-            Fighting Skills:
-              Martial Arts C: *Martial_Arts_C
-              Martial Arts E: This form of martial arts encourages quick striking to catch the opponent off-guard. Heroes with this form of Martial Arts are at a +1CS to initiative rolls in unarmed combat.
-            Professional Skills:
-              Military: *Military
-              Law Enforcement: *Law_Enforcement
-            Other Talents:
-              First Aid: *First_Aid
-        Equipment:
-          Shooting Weapons:
-            Handgun: *Handgun-Pistol
-            One of the Following:
-              Riot Gun:
-                Range: 2
-                Damage: 15
-                Type: Shooting
-                Rate: 1
-                Shots: 6
-                Material Strength: Excellent
-                Notes:
-                  - Bursts: Affect up to three adjacent targets, with one roll made for all targets.
-                  - Fire one-handed at -1CS
-                Ammunition:
-                  Standard: *Standard_Ammunition
-                  Canister Shot:
-                    - Canister shot is a special type of ammunition that may be loaded with various cartridges for different effects. Specify the type of canister desired when purchasing.
-                    - Gas Canisters: Gas Canisters contain Incredible Intensity Tear Gas. Cover one area.
-                    - Knock-Out Canisters: Knock-Out Can contain Remarkable Intensity Knock-Out gas. Cover one area.
-                    - Smoke Canisters: Smoke Canisters contain Excellent Intensity smoke. Cover one area.
-                    - Explosive Canisters: Explosive Canisters inflict double damage to all in target area, normal damage to all in adjacent areas.
-                    - Incendiary Canisters: Incendiary Canisters inflict 20 damage in fire (Energy), which burns at Excellent Intensity for 1-10 rounds.
-                Reference:
-                  - Riot Gun: The Riot Gun is a smaller version of the shotgun and fires grenade-like missiles and canister shot (treat as grenades).
-                  - Shotgun: The Shotgun fires bursts. It is often loaded with non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results).
-              Sniper Rifle:
-                Range: 10
-                Damage: 15
-                Type: Shooting
-                Rate: 1
-                Shots: 4
-                Material Strength: Good
-                Ammunition:
-                  Standard: *Standard_Ammunition
-                  AP Shot: Armor-piercing bullets reduce the target's Body Armor by 2 CS (from Good to Poor, for example) for purposes of hitting and damage. This type of ammunition has no effect on force fields.
-                Reference: The Sniper Rifle, like the target pistol, suffers no penalty for firing up to maximum range. It is used by criminals as well as the military.
-              Assault Rifle:
-                Range: 7
-                Damage: 10
-                Type: Shooting
-                Rate: 2
-                Shots: 20
-                Material Strength: Good
-                Notes: Military
-                Ammunition:
-                  Standard: *Standard_Ammunition
-                Reference: The Assault Rifle is the version of the rifle used by the military.
-          Melee and Thrown Weapons:
-            Club: *Club
-            Knife: *Knife
-            Handcuffs: *Handcuffs
-          Other Gear:
-            Flashlight, Standard: *Flashlight
-            Infra-red Goggles: Infra-Red Goggles are similar to infra-red sights; these permit normal vision up to 5 areas away in dimly lit areas.
-            Mace: *Mace
-            Gas Mask: Allows the wearer to breathe and act normally in conditions of smoke, tear gas, or knock-out gas. It does not allow clear vision in these areas, however, only normal movement.
-            Flak Jacket: Flak Jackets are worn by police in special situations and by SWAT teams. These jackets provide Good protection from physical damage.
-        Reference:
-          Swat Operative:
-            Abilities:
-              Primary Abilities:
-                Fighting: Excellent
-                Agility: Good
-                Strength: Good
-                Endurance: Typical
-                Reason: Typical
-                Intuition: Typical
-                Psyche: Good
-              Secondary Abilities:
-                Health: 46
-                Karma: 22
-              Special Abilities:
-                Talents:
-                  Weapons Skills:
-                    Marksmanship: *Marksmanship
-                  Professional Skills:
-                    Law Enforcement: *Law_Enforcement
-            Reference: Special Weapons and Tactics teams are attached to most modern police forces to handle volatile situations. Members wear flak jackets for protection and are expected to fight under dangerous conditions. In dealing with super-powered opponents, some SWAT teams are equipped with mechanical exoskeletons and nullifying restraints.
-      Special Officer:
-        Description: The Varangian Guard's plainclothes security and investigatos use improved Federal Agents stats, and are equipped with handguns and handcuffs
-        Abilities:
-          Primary Abilities:
-            Fighting: Excellent
-            Agility: Excellent
-            Strength: Good
-            Endurance: Excellent
-            Reason: Excellent
-            Intuition: Excellent
-            Psyche: Excellent
-          Secondary Abilities:
-            Health: 70
-            Karma: 60
-          Talents:
-            Weapon Skills:
-              Blunt Weapons: *Blunt_Weapons
-              Marksmanship: *Marksmanship
-            Fighting Skills:
-              Martial Arts C: *Martial_Arts_C
-            Professional Skills:
-              Military: *Military
-              Law Enforcement: *Law_Enforcement
-              Criminology: &Criminology The hero with this Talent has an understanding of the criminal mind and behavior, either from studies or first-hand observation. The character with this Talent gains a +1CS on all Reason and Intuition FEATs involving criminal practices ("If I were a crook, where would I hide?"). The hero also gains a Contact in either the police or crime areas.
-              Detective/Espionage: &Detective-Espionage The hero with this Talent has been trained to notice small clues in solving crimes. The character with this Talent gains a +1CS to discover clues to a crime, and in addition gains a Contact in either crime, law enforcement, law, or espionage.
-            Other Talents:
-              First Aid: *First_Aid
-        Equipment:
-          Handgun: *Handgun-Pistol
+              Type: Shooting
+              Rate: 2
+              Shots: 20
+              Material Strength: Good
+              Notes: Military
+              Ammunition:
+                Standard: *Standard_Ammunition
+              Reference: The Assault Rifle is the version of the rifle used by the military.
+        Melee and Thrown Weapons:
+          Club: *Club
+          Knife: *Knife
           Handcuffs: *Handcuffs
-        Reference:
-          Federal Agent:
-            Abilities:
-              Primary Abilities:
-                Fighting: Good
-                Agility: Excellent
-                Strength: Good
-                Endurance: Good
-                Reason: Good
-                Intuition: Good
-                Psyche: Good
-              Secondary Abilities:
-                Health: 50
-                Karma: 30
-              Special Abilities:
-                Talents:
-                  Professional Skills:
-                    Law Enforcement: *Law_Enforcement
-                    Marksmanship: *Marksmanship
-            Reference: Federal agents include investigative agents of the FBI, CIA, OSS, KGB, and other alphabetized agencies. They normally carry handguns, but generally in the field they act in an information-gathering capacity.
-      Medical Responder:
-        Description: The Varangian Guard's emergency medical services use improved Paramedic stats.
-        Abilities:
-          Primary Abilities:
-            Fighting: Typical
-            Agility: Good
-            Strength: Good
-            Endurance: Excellent
-            Reason: Excellent
-            Intuition: Good
-            Psyche: Good
-          Secondary Abilities:
-            Health: 46
-            Karma: 40
-          Talents:
-            Professional Skills:
-              Military: *Military
-            Other Talents:
-              First Aid: *First_Aid
-        Reference:
-          Paramedic:
-            Abilities:
-              Primary Abilities:
-                Fighting: Poor
-                Agility: Typical
-                Strength: Typical
-                Endurance: Good
-                Reason: Good
-                Intuition: Typical
-                Psyche: Typical
-              Secondary Abilities:
-                Health: 26
-                Karma: 22
-              Special Abilities:
-                Talents:
-                  Other Talents:
-                    First Aid: *First_Aid
-            Reference: Paramedics operate out of ambulances equipped with medication and other life-support equipment. Their job is to get the sick and injured to the hospital in stable (or better) condition. They carry oxygen, a power saw, and a hydraulic jack winch.
-      Rescue Responder:
-        Description: The Varangian Guard's Firefighting and Search and Rescue personnel use improved Fire-Fighter stats.
-        Note: 
-        Abilities:
-          Primary Abilities:
-            Fighting: Good
-            Agility: Good
-            Strength: Excellent
-            Endurance: Excellent
-            Reason: Good
-            Intuition: Excellent
-            Psyche: Good
-          Secondary Abilities:
-            Health: 70
-            Karma: 40
-          Talents:
-            Other Talents:
-              First Aid: *First_Aid
-        Equipment:
-        Reference:
-          Fire-Fighter:
-            Abilities:
-              Primary Abilities:
-                Fighting: Typical
-                Agility: Typical
-                Strength: Good
-                Endurance: Excellent
-                Reason: Typical
-                Intuition: Good
-                Psyche: Typical
-              Secondary Abilities:
-                Health: 42
-                Karma: 22
-              Special Abilities:
-                Talents:
-                  Other Talents:
-                    First Aid: *First_Aid
-            Reference: Fire-fighters arrive on the scene of a fire with fire trucks and other equipment, including fire hoses, extinguishers, asbestos suits, and other protective gear.
-    Support:
-      Employee:
-        Description: The various employees of Varangian Guard, Inc. use improved Businessman stats, depending on their speciality.
-        Note: Their abilities are generally self-evident (a pilot will always have Pilot Talent, a computer specialist Computer Talent).
-        Abilities:
-          Primary Abilities:
-            Fighting: Typical
-            Agility:
-              Base: Good
-            Note:
-            Reference: 
-              Pilot: Excellent
-            Strength:
-              Base: Typical
-              Labor: Good
-            Endurance:
-              Base: Good
-              Labor: Excellent
-            Reason:
-              Base: Good
-              Management: Excellent
-              Technical: Excellent
-            Intuition:
-              Base: Good
-              Pilot: Excellent
-              Management: Excellent
-            Psyche:
-              Base: Good
-              Pilot: Excellent
-              Management: Excellent
-          Secondary Abilities:
-            Health:
-              Base: 32
-              Pilot: 36
-              Labor: 46
-            Karma:
-              Base: 30
-              Pilot: 50
-              Management: 60
-              Technical: 40
-          Special Abilities:
-            Talents:
-              Management:
-                Professional Skills:
-                  Law: &Law The character with this Talent has an extensive background in law (the assumption being US Law, but this may vary according to the Judge's campaign). The hero may be a lawyer or capable of applying to pass the bar (Reason FEAT of Good Intensity). A character with Law as a Talent gains a +1CS to all FEAT rolls involving the law, including correct legal procedure. A character without Law gains no benefit to Reason FEATs, and in addition, will have to make Reason FEATs more often than a character with Law Talent.
-                  Business/Finance: &Business-Finance The hero is familiar with the world of business, corporate finance, and how money works. Initial resources are a minimum of Good, and the hero gains a +1CS for FEAT rolls dealing with money. The hero gains a Contact in the Professional category.
-                Other Talents:
-                  Leadership: The hero with this Talent has the brains and understanding of a cohesive group, such that he is a benefit to the team. Any Karma Pool to which the character belongs receives a 50-point bonus, provided the character with this Talent is recognized as the "team leader." A Karma Pool may only have one recognized leader, though more than one character with Leadership may belong to one group. When the "Leader" of a group leaves, the 50 points are deducted from the Karma Pool, but the leader does not receive them for personal use (the bonus points only exist as a part of the pool)
-              Pilot:
-                Professional Skills:
-                  Pilot: The character with this Talent has a working knowledge of most aircraft and receives a +1CS for all FEAT rolls involving an aircraft that character is controlling (including Control FEATs, Agility FEATs, and Reason FEATs involving aircraft handling and design). A character with a background that would permit it (a hero who is an alien) may extend this Talent to spacecraft as well.
-                Other Talents:
-                  Repair/Tinkering: &Repair-Tinkering The character with this Talent gains a +1CS to any Reason FEATs involving the repair and modification of existing items, but not the building of new items. This +1CS may be added to any other bonuses gained from other Talents, so that an Engineer with Tinkering Talent would gain a +2CS on repair.
-              Accountant:
-                Professional Skills:
-                  Business/Finance: *Business-Finance
-              Paralegal:
-                Professional Skills:
-                  Law: *Law
-              Computer Specialist:
-                Scientific Skills:
-                  Computers: &Computers A +1CS on matters involving computers, computer-controlled equipment, and artificial intelligences.
-                  Electronics: &Electronics A +1CS on matters involving electronic devices, including their creation and repair.
-                Other Talents:
-                  Repair/Tinkering: *Repair-Tinkering
-              Maintenance:
-                Other Talents:
-                  Repair/Tinkering: *Repair-Tinkering
-        Reference:
-          Businessman:
-            Abilities:
-              Primary Abilities:
-                Fighting: Poor
-                Agility: Typical
-                Strength: Typical
-                Endurance: Typical
-                Reason: Typical
-                Intuition: Typical
-                Psyche: Typical
-              Secondary Abilities:
-                Health: 22
-                Karma: 18
-              Special Abilities:
-                Talents: Varies
-            Reference: Your typical New Yorker (or San Franciscan or Clevelander). Standard human stats. Good for crowds or endangered passers-by. Includes politicians, secretaries, ice cream vendors, and the entire spectrum of normal everyday people.
-      Physician:
-        Description: The Varangian Guard's medical professionals use improved Doctor stats.
-        Note:
+        Other Gear:
+          Flashlight, Standard: *Flashlight
+          Infra-red Goggles: Infra-Red Goggles are similar to infra-red sights; these permit normal vision up to 5 areas away in dimly lit areas.
+          Mace: *Mace
+          Gas Mask: Allows the wearer to breathe and act normally in conditions of smoke, tear gas, or knock-out gas. It does not allow clear vision in these areas, however, only normal movement.
+          Flak Jacket: Flak Jackets are worn by police in special situations and by SWAT teams. These jackets provide Good protection from physical damage.
+      Reference:
+        Swat Operative:
           Abilities:
             Primary Abilities:
-              Fighting: Typical
+              Fighting: Excellent
               Agility: Good
-              Strength: Typical
-              Endurance: Good
-              Reason: Remarkable
-              Intuition: Excellent
-              Psyche: Excellent
+              Strength: Good
+              Endurance: Typical
+              Reason: Typical
+              Intuition: Typical
+              Psyche: Good
             Secondary Abilities:
-              Health: 32
-              Karma: 70
+              Health: 46
+              Karma: 22
+            Special Abilities:
+              Talents:
+                Weapons Skills:
+                  Marksmanship: *Marksmanship
+                Professional Skills:
+                  Law Enforcement: *Law_Enforcement
+          Reference: Special Weapons and Tactics teams are attached to most modern police forces to handle volatile situations. Members wear flak jackets for protection and are expected to fight under dangerous conditions. In dealing with super-powered opponents, some SWAT teams are equipped with mechanical exoskeletons and nullifying restraints.
+    Special Officer:
+      Description: The Varangian Guard's plainclothes security and investigatos use improved Federal Agents stats, and are equipped with handguns and handcuffs
+      Abilities:
+        Primary Abilities:
+          Fighting: Excellent
+          Agility: Excellent
+          Strength: Good
+          Endurance: Excellent
+          Reason: Excellent
+          Intuition: Excellent
+          Psyche: Excellent
+        Secondary Abilities:
+          Health: 70
+          Karma: 60
+        Talents:
+          Weapon Skills:
+            Blunt Weapons: *Blunt_Weapons
+            Marksmanship: *Marksmanship
+          Fighting Skills:
+            Martial Arts C: *Martial_Arts_C
+          Professional Skills:
+            Military: *Military
+            Law Enforcement: *Law_Enforcement
+            Criminology: &Criminology The hero with this Talent has an understanding of the criminal mind and behavior, either from studies or first-hand observation. The character with this Talent gains a +1CS on all Reason and Intuition FEATs involving criminal practices ("If I were a crook, where would I hide?"). The hero also gains a Contact in either the police or crime areas.
+            Detective/Espionage: &Detective-Espionage The hero with this Talent has been trained to notice small clues in solving crimes. The character with this Talent gains a +1CS to discover clues to a crime, and in addition gains a Contact in either crime, law enforcement, law, or espionage.
+          Other Talents:
+            First Aid: *First_Aid
+      Equipment:
+        Handgun: *Handgun-Pistol
+        Handcuffs: *Handcuffs
+      Reference:
+        Federal Agent:
+          Abilities:
+            Primary Abilities:
+              Fighting: Good
+              Agility: Excellent
+              Strength: Good
+              Endurance: Good
+              Reason: Good
+              Intuition: Good
+              Psyche: Good
+            Secondary Abilities:
+              Health: 50
+              Karma: 30
             Special Abilities:
               Talents:
                 Professional Skills:
-                  Medicine: &Medicine The hero with this Talent has extensive knowledge of medicine and as such limited Talents in healing. In general, a character losing Endurance Ranks as the result of a lethal situation can have those losses stopped by any character checking on him. The individual with Medicine Talent may bring back characters that have reached the Shift 0 level up to 20 turns after they have reached that level. A character with this Talent may restore one rank of Endurance to a wounded character per week, in addition to natural healing. Finally, the character with Medicine as a Talent is +1CS on Reason FEATs that involve medical problems, medications, poisons, and surgery.
-                  Psychiatry: &Psychiatry The hero with this Talent has a background in studies of the mind and as such gains a +1CS on all FEATs involving the mind. This is a popular Talent with those heroes and villains with Mental Powers, and the character with these Talents gains a +1CS on FEATs involving Mental Control, Domination, Hypnosis, Emotion Control, and Mental Probe Powers.
-                Scientific Skills:
-                  Biology: &Biology A +1CS on matters of biology, including animal and plant identification, finding cures for organic poisons, and researching diseases and their cures.
-                  Chemistry: &Chemistry A +1CS on matters of chemistry, including developing new formulas, finding cures for inorganic poisons, and identifying chemicals by smell, touch, or taste.
-                  Genetics: &Genetics A +1CS on matters involving the genes, including creating new life forms, understanding mutants, and researching diseases.
+                  Law Enforcement: *Law_Enforcement
+                  Marksmanship: *Marksmanship
+          Reference: Federal agents include investigative agents of the FBI, CIA, OSS, KGB, and other alphabetized agencies. They normally carry handguns, but generally in the field they act in an information-gathering capacity.
+    Medical Responder:
+      Description: The Varangian Guard's emergency medical services use improved Paramedic stats.
+      Abilities:
+        Primary Abilities:
+          Fighting: Typical
+          Agility: Good
+          Strength: Good
+          Endurance: Excellent
+          Reason: Excellent
+          Intuition: Good
+          Psyche: Good
+        Secondary Abilities:
+          Health: 46
+          Karma: 40
+        Talents:
+          Professional Skills:
+            Military: *Military
+          Other Talents:
+            First Aid: *First_Aid
+      Reference:
+        Paramedic:
+          Abilities:
+            Primary Abilities:
+              Fighting: Poor
+              Agility: Typical
+              Strength: Typical
+              Endurance: Good
+              Reason: Good
+              Intuition: Typical
+              Psyche: Typical
+            Secondary Abilities:
+              Health: 26
+              Karma: 22
+            Special Abilities:
+              Talents:
                 Other Talents:
                   First Aid: *First_Aid
-        Reference:
-          Doctor:
-            Abilities:
-              Primary Abilities:
-                Fighting: Poor
-                Agility: Good
-                Strength: Typical
-                Endurance: Good
-                Reason: Good
-                Intuition: Good
-                Psyche: Good
-              Secondary Abilities:
-                Health: 30
-                Karma: 30
-              Special Abilities:
-                Talents:
-                  Professional Skills:
-                    Medicine: *Medicine
-            Reference: Doctors are the conventional method of stopping loss of Endurance in critically wounded characters, as well as taking care of diseases and illness. There are diseases that are beyond present technology to cure, though, and the special problems of super-powered individuals may require equally specialized treatments.
-      Counsel:
-        Description: Varangian Guard, Inc. corporate counsel use improved Lawyer stats.
-        Note:
+          Reference: Paramedics operate out of ambulances equipped with medication and other life-support equipment. Their job is to get the sick and injured to the hospital in stable (or better) condition. They carry oxygen, a power saw, and a hydraulic jack winch.
+    Rescue Responder:
+      Description: The Varangian Guard's Firefighting and Search and Rescue personnel use improved Fire-Fighter stats.
+      Note: 
+      Abilities:
+        Primary Abilities:
+          Fighting: Good
+          Agility: Good
+          Strength: Excellent
+          Endurance: Excellent
+          Reason: Good
+          Intuition: Excellent
+          Psyche: Good
+        Secondary Abilities:
+          Health: 70
+          Karma: 40
+        Talents:
+          Other Talents:
+            First Aid: *First_Aid
+      Equipment:
+      Reference:
+        Fire-Fighter:
           Abilities:
             Primary Abilities:
               Fighting: Typical
-              Agility: Good
-              Strength: Typical
-              Endurance: Good
-              Reason: Excellent
-              Intuition: Remarkable
-              Psyche: Excellent
+              Agility: Typical
+              Strength: Good
+              Endurance: Excellent
+              Reason: Typical
+              Intuition: Good
+              Psyche: Typical
             Secondary Abilities:
-              Health: 32
-              Karma: 70
+              Health: 42
+              Karma: 22
             Special Abilities:
               Talents:
-                Professional Skills:
-                  Law: *Law
-                  Business/Finance: *Business-Finance
-                  Criminology: *Criminology
-                  Psychiatry: *Psychiatry
-                  Detective/Espionage: *Detective-Espionage
-        Reference:
-          Lawyer:
-            Abilities:
-              Primary Abilities:
-                Fighting: Poor
-                Agility: Typical
-                Strength: Typical
-                Endurance: Typical
-                Reason: Typical
-                Intuition: Good
-                Psyche: Typical
-              Secondary Abilities:
-                Health: 22
-                Karma: 22
-              Special Abilities:
-                Talents:
-                  Professional Skills:
-                    Law: *Law
-            Reference: |
-              Most hero organizations (and a bunch of villains as well) have a lawyer on retainer: that is, they pay the man to be around when they need representation in court. The Avengers and Fantastic Four both used the services of Murdock and Nelson, until that operation folded. Hiring a lawyer is an Excellent cost, though there are avenues available to those who cannot afford this.
-      Researcher:
-        Descripton: The scientists, engineers, and other research and development personnel of Varangian Guard, Inc. use improved Scientist stats.
-        Note:
+                Other Talents:
+                  First Aid: *First_Aid
+          Reference: Fire-fighters arrive on the scene of a fire with fire trucks and other equipment, including fire hoses, extinguishers, asbestos suits, and other protective gear.
+    Employee:
+      Description: The various employees of Varangian Guard, Inc. use improved Businessman stats, depending on their speciality.
+      Note: Their abilities are generally self-evident (a pilot will always have Pilot Talent, a computer specialist Computer Talent).
+      Abilities:
+        Primary Abilities:
+          Fighting: Typical
+          Agility:
+            Base: Good
+          Note:
+          Reference: 
+            Pilot: Excellent
+          Strength:
+            Base: Typical
+            Labor: Good
+          Endurance:
+            Base: Good
+            Labor: Excellent
+          Reason:
+            Base: Good
+            Management: Excellent
+            Technical: Excellent
+          Intuition:
+            Base: Good
+            Pilot: Excellent
+            Management: Excellent
+          Psyche:
+            Base: Good
+            Pilot: Excellent
+            Management: Excellent
+        Secondary Abilities:
+          Health:
+            Base: 32
+            Pilot: 36
+            Labor: 46
+          Karma:
+            Base: 30
+            Pilot: 50
+            Management: 60
+            Technical: 40
+        Special Abilities:
+          Talents:
+            Management:
+              Professional Skills:
+                Law: &Law The character with this Talent has an extensive background in law (the assumption being US Law, but this may vary according to the Judge's campaign). The hero may be a lawyer or capable of applying to pass the bar (Reason FEAT of Good Intensity). A character with Law as a Talent gains a +1CS to all FEAT rolls involving the law, including correct legal procedure. A character without Law gains no benefit to Reason FEATs, and in addition, will have to make Reason FEATs more often than a character with Law Talent.
+                Business/Finance: &Business-Finance The hero is familiar with the world of business, corporate finance, and how money works. Initial resources are a minimum of Good, and the hero gains a +1CS for FEAT rolls dealing with money. The hero gains a Contact in the Professional category.
+              Other Talents:
+                Leadership: The hero with this Talent has the brains and understanding of a cohesive group, such that he is a benefit to the team. Any Karma Pool to which the character belongs receives a 50-point bonus, provided the character with this Talent is recognized as the "team leader." A Karma Pool may only have one recognized leader, though more than one character with Leadership may belong to one group. When the "Leader" of a group leaves, the 50 points are deducted from the Karma Pool, but the leader does not receive them for personal use (the bonus points only exist as a part of the pool)
+            Pilot:
+              Professional Skills:
+                Pilot: The character with this Talent has a working knowledge of most aircraft and receives a +1CS for all FEAT rolls involving an aircraft that character is controlling (including Control FEATs, Agility FEATs, and Reason FEATs involving aircraft handling and design). A character with a background that would permit it (a hero who is an alien) may extend this Talent to spacecraft as well.
+              Other Talents:
+                Repair/Tinkering: &Repair-Tinkering The character with this Talent gains a +1CS to any Reason FEATs involving the repair and modification of existing items, but not the building of new items. This +1CS may be added to any other bonuses gained from other Talents, so that an Engineer with Tinkering Talent would gain a +2CS on repair.
+            Accountant:
+              Professional Skills:
+                Business/Finance: *Business-Finance
+            Paralegal:
+              Professional Skills:
+                Law: *Law
+            Computer Specialist:
+              Scientific Skills:
+                Computers: &Computers A +1CS on matters involving computers, computer-controlled equipment, and artificial intelligences.
+                Electronics: &Electronics A +1CS on matters involving electronic devices, including their creation and repair.
+              Other Talents:
+                Repair/Tinkering: *Repair-Tinkering
+            Maintenance:
+              Other Talents:
+                Repair/Tinkering: *Repair-Tinkering
+      Reference:
+        Businessman:
+          Abilities:
+            Primary Abilities:
+              Fighting: Poor
+              Agility: Typical
+              Strength: Typical
+              Endurance: Typical
+              Reason: Typical
+              Intuition: Typical
+              Psyche: Typical
+            Secondary Abilities:
+              Health: 22
+              Karma: 18
+            Special Abilities:
+              Talents: Varies
+          Reference: Your typical New Yorker (or San Franciscan or Clevelander). Standard human stats. Good for crowds or endangered passers-by. Includes politicians, secretaries, ice cream vendors, and the entire spectrum of normal everyday people.
+    Physician:
+      Description: The Varangian Guard's medical professionals use improved Doctor stats.
+      Note:
+        Abilities:
           Primary Abilities:
             Fighting: Typical
             Agility: Good
             Strength: Typical
             Endurance: Good
             Reason: Remarkable
-            Intuition: Remarkable
-            Psyche: Good
+            Intuition: Excellent
+            Psyche: Excellent
           Secondary Abilities:
             Health: 32
             Karma: 70
           Special Abilities:
             Talents:
               Professional Skills:
-                Engineering: |
-                Engineering includes all the varied types of that profession dedicated to the design of functional items: civil, chemical, mechanical, etc. A character with Engineering Talent gains a +1CS to all FEATs involving building things, including the Resource FEAT to determine if an object can be built.
+                Medicine: &Medicine The hero with this Talent has extensive knowledge of medicine and as such limited Talents in healing. In general, a character losing Endurance Ranks as the result of a lethal situation can have those losses stopped by any character checking on him. The individual with Medicine Talent may bring back characters that have reached the Shift 0 level up to 20 turns after they have reached that level. A character with this Talent may restore one rank of Endurance to a wounded character per week, in addition to natural healing. Finally, the character with Medicine as a Talent is +1CS on Reason FEATs that involve medical problems, medications, poisons, and surgery.
+                Psychiatry: &Psychiatry The hero with this Talent has a background in studies of the mind and as such gains a +1CS on all FEATs involving the mind. This is a popular Talent with those heroes and villains with Mental Powers, and the character with these Talents gains a +1CS on FEATs involving Mental Control, Domination, Hypnosis, Emotion Control, and Mental Probe Powers.
               Scientific Skills:
-                Any three of the following:
-                  Biology: *Biology
-                  Chemistry: *Chemistry
-                  Genetics: *Genetics
-                  Physics: A +1CS on matters involving physics and astrophysics, including motion, flight, and the planets and stars.
-                  Geology: A +1CS on matters involving the Earth, including volcanic activity, the geology of the surrounding land, types of rocks and their powers, and mineral identification.
-                  Archaeology: A +1CS on matters involving the past, including paleontology, historical records, and ancient myths and legends.
-                  Computers: *Computers
-                  Electronics: *Electronics
+                Biology: &Biology A +1CS on matters of biology, including animal and plant identification, finding cures for organic poisons, and researching diseases and their cures.
+                Chemistry: &Chemistry A +1CS on matters of chemistry, including developing new formulas, finding cures for inorganic poisons, and identifying chemicals by smell, touch, or taste.
+                Genetics: &Genetics A +1CS on matters involving the genes, including creating new life forms, understanding mutants, and researching diseases.
               Other Talents:
-                Languages: The character with this Talent has a natural understanding of languages. The character gains 1 additional language at start, and may add other languages at half the cost of a Talent (500 points regardless of who teaches it). Characters without the Languages Talent must gain this Talent first to learn other languages. The gaining of additional languages assumes someone is available to teach these languages. A Player character with this Talent does not have to assign a language at start, but may fill one in later as need be.
-                Repair/Tinkering: *Repair-Tinkering
-        Reference:
-          Scientist:
-            Abilities:
-              Primary Abilities:
-                Fighting: Poor
-                Agility: Typical
-                Strength: Poor
-                Endurance: Typical
-                Reason: Excellent
-                Intuition: Good
-                Psyche: Typical
-              Secondary Abilities:
-                Health: 20
-                Karma: 36
-              Special Abilities:
-                Talents:
-                  Scientific: Any one Scientific Talent
-            Reference: The above stats are for the typical scientist to be found in a research institution or on a college campus. There are specialists in their fields that have higher Reason abilities, but they are generally loners, usually because their advancements are so far beyond the bounds of modern science, or their pet theories are ridiculed, that they reject the establishment. (Many super-powered villains got their start in this fashion.)
+                First Aid: *First_Aid
+      Reference:
+        Doctor:
+          Abilities:
+            Primary Abilities:
+              Fighting: Poor
+              Agility: Good
+              Strength: Typical
+              Endurance: Good
+              Reason: Good
+              Intuition: Good
+              Psyche: Good
+            Secondary Abilities:
+              Health: 30
+              Karma: 30
+            Special Abilities:
+              Talents:
+                Professional Skills:
+                  Medicine: *Medicine
+          Reference: Doctors are the conventional method of stopping loss of Endurance in critically wounded characters, as well as taking care of diseases and illness. There are diseases that are beyond present technology to cure, though, and the special problems of super-powered individuals may require equally specialized treatments.
+    Counsel:
+      Description: Varangian Guard, Inc. corporate counsel use improved Lawyer stats.
+      Note:
+        Abilities:
+          Primary Abilities:
+            Fighting: Typical
+            Agility: Good
+            Strength: Typical
+            Endurance: Good
+            Reason: Excellent
+            Intuition: Remarkable
+            Psyche: Excellent
+          Secondary Abilities:
+            Health: 32
+            Karma: 70
+          Special Abilities:
+            Talents:
+              Professional Skills:
+                Law: *Law
+                Business/Finance: *Business-Finance
+                Criminology: *Criminology
+                Psychiatry: *Psychiatry
+                Detective/Espionage: *Detective-Espionage
+      Reference:
+        Lawyer:
+          Abilities:
+            Primary Abilities:
+              Fighting: Poor
+              Agility: Typical
+              Strength: Typical
+              Endurance: Typical
+              Reason: Typical
+              Intuition: Good
+              Psyche: Typical
+            Secondary Abilities:
+              Health: 22
+              Karma: 22
+            Special Abilities:
+              Talents:
+                Professional Skills:
+                  Law: *Law
+          Reference: |
+            Most hero organizations (and a bunch of villains as well) have a lawyer on retainer: that is, they pay the man to be around when they need representation in court. The Avengers and Fantastic Four both used the services of Murdock and Nelson, until that operation folded. Hiring a lawyer is an Excellent cost, though there are avenues available to those who cannot afford this.
+    Researcher:
+      Descripton: The scientists, engineers, and other research and development personnel of Varangian Guard, Inc. use improved Scientist stats.
+      Note:
+        Primary Abilities:
+          Fighting: Typical
+          Agility: Good
+          Strength: Typical
+          Endurance: Good
+          Reason: Remarkable
+          Intuition: Remarkable
+          Psyche: Good
+        Secondary Abilities:
+          Health: 32
+          Karma: 70
+        Special Abilities:
+          Talents:
+            Professional Skills:
+              Engineering: |
+              Engineering includes all the varied types of that profession dedicated to the design of functional items: civil, chemical, mechanical, etc. A character with Engineering Talent gains a +1CS to all FEATs involving building things, including the Resource FEAT to determine if an object can be built.
+            Scientific Skills:
+              Any three of the following:
+                Biology: *Biology
+                Chemistry: *Chemistry
+                Genetics: *Genetics
+                Physics: A +1CS on matters involving physics and astrophysics, including motion, flight, and the planets and stars.
+                Geology: A +1CS on matters involving the Earth, including volcanic activity, the geology of the surrounding land, types of rocks and their powers, and mineral identification.
+                Archaeology: A +1CS on matters involving the past, including paleontology, historical records, and ancient myths and legends.
+                Computers: *Computers
+                Electronics: *Electronics
+            Other Talents:
+              Languages: The character with this Talent has a natural understanding of languages. The character gains 1 additional language at start, and may add other languages at half the cost of a Talent (500 points regardless of who teaches it). Characters without the Languages Talent must gain this Talent first to learn other languages. The gaining of additional languages assumes someone is available to teach these languages. A Player character with this Talent does not have to assign a language at start, but may fill one in later as need be.
+              Repair/Tinkering: *Repair-Tinkering
+      Reference:
+        Scientist:
+          Abilities:
+            Primary Abilities:
+              Fighting: Poor
+              Agility: Typical
+              Strength: Poor
+              Endurance: Typical
+              Reason: Excellent
+              Intuition: Good
+              Psyche: Typical
+            Secondary Abilities:
+              Health: 20
+              Karma: 36
+            Special Abilities:
+              Talents:
+                Scientific: Any one Scientific Talent
+          Reference: The above stats are for the typical scientist to be found in a research institution or on a college campus. There are specialists in their fields that have higher Reason abilities, but they are generally loners, usually because their advancements are so far beyond the bounds of modern science, or their pet theories are ridiculed, that they reject the establishment. (Many super-powered villains got their start in this fashion.)
   Hero Team:
     The Varangian Guard:
       Name: Varangian Guard, Incorporated
