@@ -1464,7 +1464,7 @@ Game:
             First Aid: *First_Aid
             Repair/Tinkering: *Repair-Tinkering
             Leadership:
-              Note: Akoulothoi only.
+              Note: Akólouthoi only.
               Reference: *Leadership
         Contacts:
           Professional:
@@ -1668,7 +1668,7 @@ Game:
             - *+2CS_High-Quality
             - Multiple: Size
           Reference: |
-            Cost: Excellent - Occupies one room. Consists of two easy chairs, table, desk, straight chair, and up to five bookcases on general subjects (texts readily available, and including encyclopedias, world histories, and atlases). At Remarkable Cost adds globe, microfiche or microfilm reader, computer terminal (only useful if building has computer room or is linked up to computer). Special or rare volumes, such as the Book of the Vishanti, the Necronomicon, or Amazing Fantasy \#15, would have to be obtained separately.
+            Cost: Excellent - Occupies one room. Consists of two easy chairs, table, desk, straight chair, and up to five bookcases on general subjects (texts readily available, and including encyclopedias, world histories, and atlases). At Remarkable Cost adds globe, microfiche or microfilm reader, computer terminal (only useful if building has computer room or is linked up to computer). Special or rare volumes, such as the Book of the Vishanti, the Necronomicon, or Amazing Fantasy #15, would have to be obtained separately.
         Office Package:
           Cost:
             Total: Amazing
