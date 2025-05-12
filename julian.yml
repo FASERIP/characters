@@ -748,7 +748,7 @@ Game:
           Convertible Sports Car:
             Description: A high-end convertible supercar, its alloy frame and body is more durable while not compromising speed, acceleration, and handling.  It's an integrated combination of existing items (Sports Car and Convertible). Features a car phone and state of the art sound system.
             Type:
-              Road: Road vehicles are those designed primarily to be driven on relatively flat surfaces (like roads), and include most vehicles found in modern cities. Road vehicles suffer penalties for Control and Speed when off- road (like cutting through the park in your luxury lime)
+              Road: &Road Road vehicles are those designed primarily to be driven on relatively flat surfaces (like roads), and include most vehicles found in modern cities. Road vehicles suffer penalties for Control and Speed when off- road (like cutting through the park in your luxury lime)
             Control: Excellent
             Speed: Remarkable
             Body: Good
@@ -763,9 +763,6 @@ Game:
             Price: Excellent
             Reference: The Personal Computer listed here is the type commonly available to most Americans and is a tool, not an artificial intelligence, unlike some more powerful computers. The personal computer may be considered to have Poor Reason for problem-solving, analysis, etc. as it is only as smart as the information placed inside it. At Excellent Cost, the user can get a modem that links his machine into a net with other machines.
           Purchased Suit or Tux: Multiple
-          Standard Robot: The Standard Robot is only capable of simple tasks and has no special abilities other than to record what transpires before its recorders and perform simple tasks. The H.E.R.B.I.E. series was a modified form of the standard robot. All Standard robot abilities are Typical.
-          Sentry Robot: The Sentry Robot has a bit more programming and firepower. It is programmed to identify hostile threats (that is — anything not in its bank) and open fire. Sentry robots come equipped with Good Strength lasers, though some may be additionally armed. All sentry robot abilities are Good.
-          Talent Robot: The Talent Robot is a robot specifically designed for a certain purpose, and its programming reflects that purpose. The Avengers' fire-fighting robots or the robotic opponent the Black Knight uses are examples of talent robots. Such robots may have one ability at Remarkable level. All others are Excellent.
           Mystic Texts: &Mystic_Texts  Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
         Magical Items:
           Grimoire: &Grimoire
@@ -781,7 +778,7 @@ Game:
         Custom Equipment:
           Guardian Blaster:
             Model I: &Guardian_Blaster
-              Description: The Guardian Blaster Mk. I is a combination weapon with utility functions.  It fires handgun bullets, gyrojet rockets, canister rounds (including standard shotgun shells, or non-lethal shotgun loads), and plasma, laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher. It's an integrated combination of existing items.
+              Description: The Guardian Blaster Model I is a combination weapon with utility functions.  It fires handgun bullets, gyrojet rockets, canister rounds (including standard shotgun shells, or non-lethal shotgun loads), and plasma, laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher. It's an integrated combination of existing items.
               Count: 2
               Material Strength: Excellent
               Shooting Weapons:
@@ -861,7 +858,7 @@ Game:
                 Sniper Sights: Sniper Sights are built into the sniper rifle and the target pistol, and added to any other weapon eliminate the penalty for range for weapons. Using the sniper sight automatically has an initiative roll of 10 (last in the round). 
                 Infra-Red Sights: Infra-Red Sights are a modification similar to the sniper sight, may be used for any missile weapon. These sights permit the user to see up to 5 areas in the dark.
                 Flashlight: Flashlights are common to all readers. The normal flashlight is the type most common, with a plastic or metal body (Typical Intensity). The Halogen flashlight has a brighter bulb and more concentrated beam, and blinds with a more powerful Intensity (Remarkable Intensity). Normal flashlight has a range of two areas, the halogen three.
-                Mace: Mace is a small one-area weapon that shoots a mist of Typical Intensity tear gas at a single target adjacent to the user. It does not require an Agility FEAT to hit, though the target must make an Endurance FEAT to avoid the effects.
+                Mace: &Mace Mace is a small one-area weapon that shoots a mist of Typical Intensity tear gas at a single target adjacent to the user. It does not require an Agility FEAT to hit, though the target must make an Endurance FEAT to avoid the effects.
                 Flare Pistol: Flare Pistols fire a burning charge that lights the sky, either to provide illumination (lighting all areas within three) or as a signal device (fired 10 floors straight up). Used as a weapon, the device has a range of two areas and inflicts Good damage. The charge is incendiary and will ignite flammable material.
             Model II:
               Description: A sleek, futuristic device with extendable stock and forestock to transition between handgun to long gun form factors. It may be attached to the Sentinel Battlesuit Mk. 1's arm, becoming an integral part of the suit, or operate off grid power or a power pack as an energy source to be used as a standalone device for 10 uses of any power per Power Pack.
@@ -919,7 +916,7 @@ Game:
                       - Electricity: |
                           The hero can create electrical streams that can do Power rank damage. The hero can project the electricity through any conductive medium, such as air, water, or metal, at Power rank range. If the player chooses, the hero can gain +2CS to his damage by choosing to limit his range to contact only. In this case, the range can be extended by conducting the Power through solid conductors like metal. Electricity comes in various forms:
 
-                          - Static electricity causes magnetic attraction b etween objects and can disrupt electronic communications.
+                          - Static electricity causes magnetic attraction between objects and can disrupt electronic communications.
                           - Lightning is sheer, raw, destructive power and by far the most popular form of this Power.
                           - Alternating current is what our technology is driven by. This Power can either energize or overload normal electrical devices.
                           - Direct current is what a battery produces. It can energize or overload devices that use DC power. It can also short out devices that use AC power.
@@ -1274,7 +1271,7 @@ Game:
               - Jeep: The Pick-Up and Jeep are four-wheel drive off-road vehicles. Four-wheel drive does not prevent you from getting stuck; it only gets you stuck in worse places (quote by Dirtbuggy Doug Niles). The Jeep has been a workhorse for the Army for years and is only now being replaced by another vehicle with similar stats.
               - Armored Car: Armored Cars are favorite targets of criminals and normally sport a team of two guards in the front and an optional man inside. Armored Cars are also used for transporting powerful criminals who are under arrest.
           Sentry Glasses: &Sentry_Glasses
-            Description: Indistinguishable from particularly fashionable and well-made, but otherwise normal sunglasses of the wayfarer variety, these glasses protect the wearer from intense brightness, flashes, and glare (Good protection (5 areas).
+            Description: Indistinguishable from particularly fashionable and well-made, but otherwise normal sunglasses of the aviator variety, these glasses protect the wearer from intense brightness, flashes, and glare (Good protection (5 areas).
             Reference:
               Infra-Red Goggles: *Infra-Red_Goggles
               Polarized Lenses: *Polarized_Lenses
@@ -1284,7 +1281,7 @@ Game:
         Appearance: Tall, long-limbed, broad-shouldered, and athletic, his olive skin, dark hair, strong, regal facial features, and piercing green eyes reflect his ancient Near-Eastern heritage, an ethnicity that no longer exists in that form among the entirety of humanity save himself.  When out of his armor, he tends to wear impeccable, tailored suits in neutral colors appropriate to the season, and quite a bit of jewelery with mystic or occult connotations, some of it as ancient as he is, or more.
   Supporting Cast:
     Leonidas:
-      Description: A particularly large housecat most resembling a strikingly ancient- and wild-looking Oriental breed, somewhat like an oversized Egyptian Mau, with a black spotted silver tabby coat and brilliant green eyes. While still very much a cat in personality, it's tempered by intelligence and insight that's far above the human norm and over a millennium of existence in close contact with Julian Constantine, giving him a dry, witty, sarcastic detachment and studious, serious, somewhat pessimistic outlook.  Leonidas doesn't speak or use telepathy to communicate per se, but is exceptionally adept at making himself understood by others, as well as understanding them, regardless of language, the same as if he were conversing like any human.
+      Description: A particularly large housecat most resembling a strikingly ancient- and wild-looking Oriental breed, somewhat like an oversized Egyptian Mau, with a black spotted silver tabby coat and brilliant green eyes. While still very much a cat in personality, it's tempered by intelligence and insight that's far above the human norm and over a millennium of existence in close contact with Julian Constantine, giving him a dry, witty, sarcastic detachment and studious, serious, somewhat pessimistic outlook.  Leonidas doesn't speak or use telepathy to communicate per se, but is exceptionally adept at making himself understood by others, as well as understanding them, regardless of language, the same as if he were conversing like any human. Leonidas has been with Julian since the latter began his sorcerous journey.
       Abilities:
         Primary Abilities:
           Fighting: Excellent
@@ -1378,7 +1375,7 @@ Game:
                 Rank: Incredible
                 Number: 40
                 Reference: |
-                  The caster can magically effect other characters’ minds and cause them to forget events. This is usually used by heroic magic wielders to protect innocent bystanders from the awesome psychic shock caused by some of the sights to be seen during magical combat, etc. It is also used by most magic wielding characters to protect their secret identities. Evil magicians may also use this spell to cover up their trail or their crimes. The duration of the spell is permanent (unless another sorcerer uses a Revival spell of at least equal spell rank to break the spell of Forgetfulness). The number of people that can be ensorcelled by the spell depends on the spell rank: Good = 1 person; Excellent = up to 5 people; Remarkable = everyone in I area; Incredible = everyone in a square mile; Amazing = everyone in 100 square miles; Monstrous = everyone on the planet; Unearthly everyone in one dimension; Class 1000 everyone in all dimensions.
+                  The caster can magically effect other characters’ minds and cause them to forget events. This is usually used by heroic magic wielders to protect innocent bystanders from the awesome psychic shock caused by some of the sights to be seen during magical combat, etc. It is also used by most magic wielding characters to protect their secret identities. Evil magicians may also use this spell to cover up their trail or their crimes. The duration of the spell is permanent (unless another sorcerer uses a Revival spell of at least equal spell rank to break the spell of Forgetfulness). The number of people that can be ensorcelled by the spell depends on the spell rank: Good = 1 person; Excellent = up to 5 people; Remarkable = everyone in 1 area; Incredible = everyone in a square mile; Amazing = everyone in 100 square miles; Monstrous = everyone on the planet; Unearthly everyone in one dimension; Class 1000 everyone in all dimensions.
 
                   Any character with a Psyche equal to or greater than the caster’s may make a Psyche FEAT roll to reduce the effects of the spell. Magic wielding characters have a +2CS for this FEAT roll. A green result means that vague recollections of the event sometimes surface in the character’s memory. A yellow result means that the character knows most of the highlights of the event, but cannot remember who cast the spell of forgetfulness. A red result means that the character can remember everything.
               Static Field:
@@ -1405,201 +1402,218 @@ Game:
           Psyche: Feeble
           Health: 24
           Notes: Cats include most ordinary house cats and small wild cats. They inflict Edged attack damage with their claws but cannot score a Kill result against human targets. They move 2 areas/turn.
-    Varangians:
-      Varangos:
-        Description: Plural Varangoi. Elite operatives drawn from the highest echelons of special operations and intelligence work, screened for magical potential, Varangoi are the highly-paid, trusted bodyguards, proxies, agents, and fixers of their employer. When on duty but not in armor they generally wear the subdued, tailored suits worn by federal agents, plainclothes detectives, and bodyguards with their Guardian Blasters and collapsed Warden Staves discreetly concealed, or military fatigues with their Blaster and collapsed Staff on their pistol belts alongside flashlights, knives, handcuffs, and mace, depending on the assignment, as well as their Sentry Glasses in either event. Varangoi also have a formal dress uniform, prominently featuring Byzantine and Norse motifs and styling over a modern military dress base, including a (functional) ceremonial sword and dagger (sometimes a spear) and a formal cape. They generally operate in pairs or multiples thereof, two to a Pathfinder unit. Within the organization, Varangos captains have the title "Akólouthos" (Follower).
-        Note: Akolouthoi have the Leadership Talent.
-        Abilities:
-          Primary Abilities:
-            Fighting: Remarkable
-            Agility: Remarkable
-            Strength: Excellent
-            Endurance: Remarkable
-            Reason: Excellent
-            Intuition: Remarkable
-            Psyche: Excellent
-          Secondary Abilities:
-            Health: 110
-            Karma: 70
-            Resources: Excellent
-            Popularity:
-              Rank: Excellent
-              Number: 20
-          Powers:
-            Other:
-              Magic:
-                Spells:
-                  Eldritch Bolts:
-                    Rank: Excellent
-                    Number: 20
-                    Reference: *Eldritch_Bolts
-                  Eldritch Shield:
-                    Rank: Excellent
-                    Number: 20
-                    Reference: *Eldritch_Shield
-          Talents:
-            Weapons Skills:
-              Guns: *Guns
-              Blunt Weapons: *Blunt_Weapons
-              Sharp Weapons: *Sharp_Weapons
-              Marksman: *Marksmanship
-            Fighting Skills:
-              Martial Arts A: *Martial_Arts_A
-              Martial Arts B: *Martial_Arts_B
-              Martial Arts C: *Martial_Arts_C
-              Martial Arts E: *Martial_Arts_E
-              Acrobatics: *Acrobatics
-              Tumbling: *Tumbling
-            Professional Skills:
-              Law Enforcement: The character with this Talent has a background with law-enforcement authorities. This Talent includes both Gun and Law Talents, and the character, if still a member of a law-enforcement agency, may legally carry a gun and make arrests.
-              Pilot: *Pilot
-              Military: *Military
-              Criminology: *Criminology
-              Detective/Espionage: *Detective-Espionage
-            Scientific Skills:
-              Computer: *Computers
-              Electronics: *Electronics
-            Mystic and Mental Skills:
-              Resist Domination: *Resist_Domination
-              Occult Lore: *Occult_Lore
-              Mystic Background: *Mystic_Background
-            Other Talents:
-              Languages: *Languages
-              First Aid: *First_Aid
-              Repair/Tinkering: *Repair-Tinkering
-              Leadership:
-                Note: Akoulothoi only.
-                Reference: *Leadership
-          Contacts:
-            Professional:
-              - One Military contact from Military Talent
-              - One Law Enforcement or Crime contact from the Criminology Talent
-              - One Crime, Law Enforcement, Law, or Espionage contact from the Detective/Espionage Talent
-          Magic:
-            Character Type:
-              Magic Wielder: *Magic_Wielder
-            Magic School:
-              Scientific Magic: *Scientific_Magic
-            Energy Use:
-              Personal and Universal Energies Only: *Personal-Universal
-            Rank:
-              Novice: |
-                This character knows fewer than five spells or has less than an Amazing spell rank in at least two spells. He is spending most of his time with his master (when not practicing what he has learned on villains). He can study tomes and scrolls and even perform magic found therein, but he cannot yet learn spells on his own (spells that he has read in a tome or on a scroll must be studied each time he uses them—he cannot commit them to memory.)
-
-                Novices are usually ignored by the more powerful dimensional entities. A novice using a Dimensional Entreaty spell uses his magic as normal, but no FEAT roll is necessary to determine if the entity entreated will be affronted by the entreaty and take action. The dimensional entity feels that it is an investment in the future, but the character is currently beneath his total consideration. A novice can, however, provoke a hostile reaction from extradimensional entities by abusing their power—using it in ways the entity would not normally approve of (see “Abusing Dimensional Entreaties” in the “HOW SPELLS ARE CAST” section in the Manual of Magic.
-            Master: Julian Constantine
-            Spells: Any 1-4 spells from the Personal Energies or Universal Energies lists at Excellent (20).
-        Equipment:
-          Melee and Thrown Weapons:
-            Ceremonial Dagger:
-              Description: An ornate shortsword, styled as a gladius and decorated with precious metals, gems, and engraving.
-              Reference:
-                Knife:
-                  Price: Feeble
-                  Damage: 10
-                  Type:
-                    - Edged Attack
-                    - Edged Throwing
-                  Material Strength: Excellent
-                  Reference: A Knife is defined as any blade weapon with a blade up to 12 inches. It may be thrown as a thrown object.
-            Ceremonial Sword:
-              Description: An ornate longsword, styled as a spatha and decorated with precious metals, gems, and engraving.
-              Reference:
-                Sword:
-                  Price: Poor
-                  Damage: 10
-                  Type: Edged Attack
-                  Material Strength:
-                    Rank: Excellent
-                  Reference: Swords are considered one-handed blade weapons with blades over 12 inches long. They are not normally thrown.
-            Ceremonial Spear:
-              Description: An ornate spear, styled as a short Kontárion, bearing ribbons, banners, or guidons.
-              Reference:
-                Spear:
-                  Price: *Feeble
-                  Damage: 10
-                  Type:
-                    - Edged Attack
-                    - Edged Throwing
-                  Material Strength:
-                    Rank: *Good
-                  Reference: |
-                    A Spear is considered as any thrusting blade with a handle over one foot long. It is normally thrown or wielded with two hands.
-          Custom Equipment:
-            Guardian Blaster: *Guardian_Blaster
-            Warden Staff: *Warden_Staff
-            Sentinel Battlesuit: *Sentinel_Battlesuit
-            Pathfinder: *Pathfinder
-            Sentry Glasses: *Sentry_Glasses
-      Magos:
-        Description: Plural Magoi. Magoi are those disciples and apprentices of Julian Constantine truly walking the path of the Scientific Sorcerer. They're the closest circle of his proxies and agents, deputies serving as his eyes, hands, and mouths. Their ornate, Byzantine-styled ceremonial robes or mantles, featuring a mix of Greco-Roman and Nordic motifs, are usually worn over slickly tailored, designer suits, and their fingers, wrists, and necks bedecked with jewelry of arcane significance.  Within the organization, Varangian Magos have the title Mágistros (Magister, Master, Teacher).
-        Abilities:
-          Primary Abilities:
-            Fighting: Good
-            Agility: Good
-            Strength: Good
-            Endurance: Excellent
-            Reason: Remarkable
-            Intuition: Incredible
-            Psyche: Remarkable
-          Secondary Abilities:
-            Health: 50
-            Karma: 100
-            Resources: Excellent
-            Popularity:
-              Rank: Typical
-              Number: 5
-          Powers:
-            Other:
-              Magic:
+    Varangos:
+      Description: Plural Varangoi. Elite operatives drawn from the highest echelons of special operations and intelligence work, screened for magical potential, Varangoi are the highly-paid, trusted bodyguards, proxies, agents, investigators, and fixers of their employer. When on duty but not in armor they generally wear the subdued, tailored suits worn by federal agents, plainclothes detectives, and bodyguards with their Guardian Blasters and collapsed Warden Staves discreetly concealed, or military fatigues and berets with their Blaster and collapsed Staff on their pistol belts alongside flashlights, knives, handcuffs, and mace, depending on the assignment, as well as their Sentry Glasses in either event. Varangoi also have a formal dress uniform, prominently featuring Byzantine and Norse motifs and styling over a modern military dress base, including a (functional) ceremonial sword and dagger (sometimes a spear) and a formal cape. They generally operate in pairs or multiples thereof, two to a Pathfinder unit. Within the organization, Varangos captains have the title "Akólouthos" (Follower).
+      Note: Akólouthoi have the Leadership Talent.
+      Abilities:
+        Primary Abilities:
+          Fighting: Remarkable
+          Agility: Remarkable
+          Strength: Excellent
+          Endurance: Remarkable
+          Reason: Excellent
+          Intuition: Remarkable
+          Psyche: Excellent
+        Secondary Abilities:
+          Health: 110
+          Karma: 70
+          Resources: Excellent
+          Popularity:
+            Rank: Excellent
+            Number: 20
+        Powers:
+          Other:
+            Magic:
+              Spells:
                 Eldritch Bolts:
-                  Rank: Remarkable
-                  Number: 30
+                  Rank: Excellent
+                  Number: 20
                   Reference: *Eldritch_Bolts
                 Eldritch Shield:
-                  Rank: Remarkable
-                  Number: 30
+                  Rank: Excellent
+                  Number: 20
                   Reference: *Eldritch_Shield
-          Talents:
-            Scientific Skills:
-              Archaeology: *Archaeology
-            Mystic and Mental Skills:
-              Trance: *Trance
-              Mesmerism and Hypnosis: *Mesmerism_and_Hypnosis
-              Resist Domination: *Resist_Domination
-              Occult Lore: *Occult_Lore
-              Mystic Background: *Mystic_Background
-            Other Talents:
-              Languages: *Languages
-            Magic Wielder Talents:
-              Any Two of the Following:
-                - Bibliophile: *Bibliophile 
-                - Chronicler of Magic: *Chronicler_of_Magic
-                - Demonologist: *Demonologist
-                - Occultist: *Occultist
-                - Runesmith: *Runesmith
-                - Scholar of Antiquities: *Scholar_of_Antiquities
-                - Theoginist: *Theoginist
-                - Zoologist of Magic: *Zoologist_of_Magic
-          Magic:
-            Character Type:
-              Magic Wielder: *Magic_Wielder
-            Magic School:
-              Scientific Magic: *Scientific_Magic
-            Energy Use:
-              Personal and Universal Energies Only: *Personal-Universal
-            Rank:
-              Disciple: |
-                The character possesses at least 5 spells or has at least an Amazing rank in all of his spells. He assists the master in some of his rituals, but is spending more time adventuring than a novice. He may learn new spells from his master’s written works.
+        Talents:
+          Weapons Skills:
+            Guns: *Guns
+            Blunt Weapons: *Blunt_Weapons
+            Sharp Weapons: *Sharp_Weapons
+            Marksman: *Marksmanship
+          Fighting Skills:
+            Martial Arts A: *Martial_Arts_A
+            Martial Arts B: *Martial_Arts_B
+            Martial Arts C: *Martial_Arts_C
+            Martial Arts E: *Martial_Arts_E
+            Acrobatics: *Acrobatics
+            Tumbling: *Tumbling
+          Professional Skills:
+            Law Enforcement: The character with this Talent has a background with law-enforcement authorities. This Talent includes both Gun and Law Talents, and the character, if still a member of a law-enforcement agency, may legally carry a gun and make arrests.
+            Pilot: *Pilot
+            Military: *Military
+            Criminology: *Criminology
+            Detective/Espionage: *Detective-Espionage
+          Scientific Skills:
+            Computer: *Computers
+            Electronics: *Electronics
+          Mystic and Mental Skills:
+            Resist Domination: *Resist_Domination
+            Occult Lore: *Occult_Lore
+            Mystic Background: *Mystic_Background
+          Other Talents:
+            Languages: *Languages
+            First Aid: *First_Aid
+            Repair/Tinkering: *Repair-Tinkering
+            Leadership:
+              Note: Akoulothoi only.
+              Reference: *Leadership
+        Contacts:
+          Professional:
+            - One Military contact from Military Talent
+            - One Law Enforcement or Crime contact from the Criminology Talent
+            - One Crime, Law Enforcement, Law, or Espionage contact from the Detective/Espionage Talent
+        Magic:
+          Character Type:
+            Magic Wielder: *Magic_Wielder
+          Magic School:
+            Scientific Magic: *Scientific_Magic
+          Energy Use:
+            Personal and Universal Energies Only: *Personal-Universal
+          Rank:
+            Novice: |
+              This character knows fewer than five spells or has less than an Amazing spell rank in at least two spells. He is spending most of his time with his master (when not practicing what he has learned on villains). He can study tomes and scrolls and even perform magic found therein, but he cannot yet learn spells on his own (spells that he has read in a tome or on a scroll must be studied each time he uses them—he cannot commit them to memory.)
 
-                Disciples, like novices, are usually ignored by the more powerful dimensional entities. A disciple using a Dimensional Entreaty spell uses his magic as normal, but no FEAT roll is necessary to determine if the entity entreated will be affronted by the entreaty and take action. The dimensional entity feels that it is an investment in the future, but the character is currently beneath his total consideration. A disciple can, however, provoke a hostile reaction from extra-dimensional entities by abusing their power-using it in ways the entity would not normally approve of (see “Abusing Dimensional Entreaties” in the “HOW SPELLS ARE CAST” section in the Manual of Magic.)
-            Master: Julian Constantine
-            Spells:  Any 5-8 spells from the Personal Energies or Universal Energies lists at Remarkable (30).
-        Equipment:
-          Salaries Sundries and Other Equipment:
-            Mystic Texts: *Mystic_Texts
-          Magical Items:
-            Grimoire: *Grimoire
+              Novices are usually ignored by the more powerful dimensional entities. A novice using a Dimensional Entreaty spell uses his magic as normal, but no FEAT roll is necessary to determine if the entity entreated will be affronted by the entreaty and take action. The dimensional entity feels that it is an investment in the future, but the character is currently beneath his total consideration. A novice can, however, provoke a hostile reaction from extradimensional entities by abusing their power—using it in ways the entity would not normally approve of (see “Abusing Dimensional Entreaties” in the “HOW SPELLS ARE CAST” section in the Manual of Magic.
+          Master: Julian Constantine
+          Spells: Any 1-4 spells from the Personal Energies or Universal Energies lists at Excellent (20).
+      Equipment:
+        Melee and Thrown Weapons:
+          Ceremonial Dagger:
+            Description: An ornate shortsword, styled as a gladius and decorated with precious metals, gems, and engraving.
+            Reference:
+              Knife: &Knife
+                Price: Feeble
+                Damage: 10
+                Type:
+                  - Edged Attack
+                  - Edged Throwing
+                Material Strength: Excellent
+                Reference: A Knife is defined as any blade weapon with a blade up to 12 inches. It may be thrown as a thrown object.
+          Ceremonial Sword:
+            Description: An ornate longsword, styled as a spatha and decorated with precious metals, gems, and engraving.
+            Reference:
+              Sword:
+                Price: Poor
+                Damage: 10
+                Type: Edged Attack
+                Material Strength:
+                  Rank: Excellent
+                Reference: Swords are considered one-handed blade weapons with blades over 12 inches long. They are not normally thrown.
+          Ceremonial Spear:
+            Description: An ornate spear, styled as a short Kontárion, decorated with precious metals, gems, and engraving, bearing ribbons, banners, or guidons.
+            Reference:
+              Spear:
+                Price: *Feeble
+                Damage: 10
+                Type:
+                  - Edged Attack
+                  - Edged Throwing
+                Material Strength:
+                  Rank: *Good
+                Reference: |
+                  A Spear is considered as any thrusting blade with a handle over one foot long. It is normally thrown or wielded with two hands.
+          Tactical Knife:
+            Description: A short, sturdy, locking folding knife easily opened with one hand, has a sharp point and partially serrated blade and back.
+            Reference: *Knife
+        Other Equipment:
+          Handcuffs: Handcuffs are a standard restraining device used by the police forces of the world to prevent actions by criminals in custody. They are made of Excellent material.
+          Flashlight: *Flashlight
+          Mace: *Mace
+        Custom Equipment:
+          Guardian Blaster: *Guardian_Blaster
+          Warden Staff: *Warden_Staff
+          Sentinel Battlesuit: *Sentinel_Battlesuit
+          Pathfinder: *Pathfinder
+          Sentry Glasses: *Sentry_Glasses
+    Magos:
+      Description: Plural Magoi. Magoi are those disciples and apprentices of Julian Constantine truly walking the path of the Scientific Sorcerer. They're the closest circle of his proxies and agents, deputies serving as his eyes, hands, and mouths. Their ornate, Byzantine-styled ceremonial robes or mantles, featuring a mix of Greco-Roman and Nordic motifs, are usually worn over slickly tailored, designer suits, and their fingers, wrists, and necks bedecked with jewelry of arcane significance.  Within the organization, Varangian Magos have the title Mágistros (Magister, Master, Teacher).
+      Abilities:
+        Primary Abilities:
+          Fighting: Good
+          Agility: Good
+          Strength: Good
+          Endurance: Excellent
+          Reason: Remarkable
+          Intuition: Incredible
+          Psyche: Remarkable
+        Secondary Abilities:
+          Health: 50
+          Karma: 100
+          Resources: Excellent
+          Popularity:
+            Rank: Typical
+            Number: 5
+        Powers:
+          Other:
+            Magic:
+              Eldritch Bolts:
+                Rank: Remarkable
+                Number: 30
+                Reference: *Eldritch_Bolts
+              Eldritch Shield:
+                Rank: Remarkable
+                Number: 30
+                Reference: *Eldritch_Shield
+        Talents:
+          Scientific Skills:
+            Archaeology: *Archaeology
+          Mystic and Mental Skills:
+            Trance: *Trance
+            Mesmerism and Hypnosis: *Mesmerism_and_Hypnosis
+            Resist Domination: *Resist_Domination
+            Occult Lore: *Occult_Lore
+            Mystic Background: *Mystic_Background
+          Other Talents:
+            Languages: *Languages
+          Magic Wielder Talents:
+            Any Two of the Following:
+              - Bibliophile: *Bibliophile 
+              - Chronicler of Magic: *Chronicler_of_Magic
+              - Demonologist: *Demonologist
+              - Occultist: *Occultist
+              - Runesmith: *Runesmith
+              - Scholar of Antiquities: *Scholar_of_Antiquities
+              - Theoginist: *Theoginist
+              - Zoologist of Magic: *Zoologist_of_Magic
+        Magic:
+          Character Type:
+            Magic Wielder: *Magic_Wielder
+          Magic School:
+            Scientific Magic: *Scientific_Magic
+          Energy Use:
+            Personal and Universal Energies Only: *Personal-Universal
+          Rank:
+            Disciple: |
+              The character possesses at least 5 spells or has at least an Amazing rank in all of his spells. He assists the master in some of his rituals, but is spending more time adventuring than a novice. He may learn new spells from his master’s written works.
+
+              Disciples, like novices, are usually ignored by the more powerful dimensional entities. A disciple using a Dimensional Entreaty spell uses his magic as normal, but no FEAT roll is necessary to determine if the entity entreated will be affronted by the entreaty and take action. The dimensional entity feels that it is an investment in the future, but the character is currently beneath his total consideration. A disciple can, however, provoke a hostile reaction from extra-dimensional entities by abusing their power-using it in ways the entity would not normally approve of (see “Abusing Dimensional Entreaties” in the “HOW SPELLS ARE CAST” section in the Manual of Magic.)
+          Master: Julian Constantine
+          Spells:  Any 5-8 spells from the Personal Energies or Universal Energies lists at Remarkable (30).
+      Equipment:
+        Vehicles:
+          Luxury Car:
+            Type:
+              Road: *Road
+            Control: Poor
+            Speed: Good
+            Body: Poor
+            Protection: Poor
+            Reference: Luxury Cars are the gas-guzzling huge cars, ranging from mid-sized Cadillacs to monster limos with wet bars inside. Their big trouble is that they steer like rocks; they seat from 5 up to about 10 for the largest vehicles.
+        Salaries Sundries and Other Equipment:
+          Purchased Suit or Tux: Multiple
+          Mystic Texts: *Mystic_Texts
+        Magical Items:
+          Grimoire: *Grimoire
+        
   Headquarters:
     Greymount Manor:
       Description: A grand, stately, Beaux-Arts mansion in West Village along the waterfront, the palatial estate has a private courtyard with peristyle, ornate, gated porte-cochère and portico, and an attached carriage house that was converted to a vehicle garage in the 1920's with direct street access. Greymount Manor was constructed for Julian Constantine, finished in 1880, and he has owned it ever since.
