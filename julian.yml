@@ -1679,9 +1679,7 @@ Game:
           Health: 50
           Karma: 100
           Resources: Excellent
-          Popularity:
-            Rank: Typical
-            Number: 5
+          Popularity: Excellent
         Powers:
           Other:
             Magic:
