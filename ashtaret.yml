@@ -155,7 +155,7 @@ Character Sheet:
               Reference: |
                 The hero has a finite energy supply that permits him to manifest Power. This energy must be periodically renewed by means of rest, food, Energy Absorption, Energy Vampirism, or simply making contact with a source of that energy. If the hero's energy level drops too low, dire Effects result.
             Effect: Special
-            Duration:
+            Duration: &Permanent
               Type: Permanent
               Reference: |
                 The Stimulus does its full damage to the hero, even when exposure to the Stimulus has been interrupted. In this case, the Stimulus sets off a bodily self-destruction sequence that must continue to its full extent. In the case of Power Negation, the hero's Powers are permanently lost. Incapacitation results in the hero reaching zero Health points and lapsing into a coma lasting 1 -10 days. After that time, he may regain his Health at the normal rate. Fatal results in the death of the hero as both Health and Endurance drop to zero. The hero can be revived, however, and will eventually recover if revival occurs.
@@ -180,14 +180,14 @@ Character Sheet:
               Type: Fatal
               Reference: |
                 As in the above, the hero gets ill after the initial exposure to the Stimulus. However, the Health loss does not stop at zero. Death will eventually occur if Health and (subsequently) Endurance drop to zero during the Weakness Duration. The hero can be revived if proper medical attention is given, but only after his Health and Endurance have both reached zero.
-            Duration: *Continuous_with_Contact
+            Duration: *Permanent
             Conditions: Exposure to dangerous energies or toxic substances causes loss of Health and Endurance. May heal as normal after exposure ceases.
             Note: This Weakness simply reflects how dangerous substances and energy like poison, fire, radiation, electricity, etc. affect Normal Humans.
           All Aspects:
             Deity Rule:
               Stimulus: Special
               Effect: Special
-              Duration: Continuous with Contact
+              Duration: *Continuous_with_Contact
               Conditions: Engaging personally in actively promoting a religion based on herself (may still passively attract followers).
               Note:
                 - Loss of -1CS to all Powers and abilities. Inherent to all Deity Physical Form characters. This condition and effect applies in any Aspect.

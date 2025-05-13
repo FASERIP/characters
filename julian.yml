@@ -25,7 +25,7 @@ Game:
       Base of Operations: Manhattan
       Group Affiliation: ~
       Age: 1606
-      Origin:
+      Origin: &Normal_Human_Self-Achievement
         Physical Form:
           Normal Human: |
             The body is completely normal and possesses no detectable abnormalities. Any Powers the hero possesses have left no visible mark on the body.
@@ -34,23 +34,26 @@ Game:
             - Resources are increased +1CS.
         Origin of Power:
           Self-Achievement: The hero actively sought out a means of giving himself Power. He developed the methods, procedures, equipment, or whatever permits him to possess Power. This could be through scientific endeavors (Henry Pym/ Ant Man), arcane study (Dr. Strange), or physical training (iron Fist). Anyone can gain Powers similar to the hero's by following this special training.
-        Weakness:
-          Normal Human: 
-            Note:
-              - Inherent to all Normal Human Physical Form characters
-              - Represents typical Normal Human vulnerabilities to dangerous substances and energies.
+        Weakness: &Normal_Human_Weakness
+          Normal Human:
             Reference: Everybody has an Achilles' Heel, a weakness that can really mess up his day. The nature and severity of the weakness varies with the individual, race, or class. Normal Humans have so many we don't even think about them, aside from heeding such warnings as "Poison" or skull-and-crossbones symbols. For Normal Humans, the standard stimuli are Elemental Allergy, Molecular Allergy, and Energy Allergy with Fatal Effects. 
             Stimulus:
-              Elemental Allergy: |
-                The hero suffers adverse effects if he is exposed to a specific one of the hundred-odd elements. This Allergy only occurs if the element is present in a pure state and in an accumulation of at least one ounce. If the element is combined in a molecular state or is in insufficient quantities, no Effect occurs. The element must be within 20 feet of the hero for it to have any Effect.
+              Elemental Allergy:
+                Element: Toxic elements
+                Reference: |
+                  The hero suffers adverse effects if he is exposed to a specific one of the hundred-odd elements. This Allergy only occurs if the element is present in a pure state and in an accumulation of at least one ounce. If the element is combined in a molecular state or is in insufficient quantities, no Effect occurs. The element must be within 20 feet of the hero for it to have any Effect.
 
-                This allergy can be overcome by physically insulating the hero from the element or by increasing the distance between them.
-              Molecular Allergy: This is similar to Elemental Allergy. A specific compound causes the Effect. Common examples include water, wood, and Adamantium.
-              Energy Allergy: The hero suffers when he is exposed to a specific form of energy. This can be any wavelength or Intensity of energy found in the Energy Emission and Energy Control sections of this book. Sunlight is a common example of Energy Allergy, particularly when dealing with supernatural beings.
+                  This allergy can be overcome by physically insulating the hero from the element or by increasing the distance between them.
+              Molecular Allergy:
+                Compound: Toxic compounds
+                Reference: This is similar to Elemental Allergy. A specific compound causes the Effect. Common examples include water, wood, and Adamantium.
+              Energy Allergy:
+                Energy: Dangerous types of energy at sufficient Intensity
+                Reference: The hero suffers when he is exposed to a specific form of energy. This can be any wavelength or Intensity of energy found in the Energy Emission and Energy Control sections of this book. Sunlight is a common example of Energy Allergy, particularly when dealing with supernatural beings.
             Effect:
               Fatal: As in the above, the hero gets ill after the initial exposure to the Stimulus. However, the Health loss does not stop at zero. Death will eventually occur if Health and (subsequently) Endurance drop to zero during the Weakness Duration. The hero can be revived if proper medical attention is given, but only after his Health and Endurance have both reached zero.
             Duration:
-              Continuous with Contact: As long as the hero remains within the effective range of the Stimulus, the Effect continues. When the hero is insulated or moved away from the Stimulus, the Effect immediately ceases. Lost Health points are returned at a rate of 2 per turn. If death has occurred, the hero now has the possibility of being revived.
+              Permanent: The Stimulus does its full damage to the hero, even when exposure to the Stimulus has been interrupted. In this case, the Stimulus sets off a bodily self-destruction sequence that must continue to its full extent. In the case of Power Negation, the hero's Powers are permanently lost. Incapacitation results in the hero reaching zero Health points and lapsing into a coma lasting 1 -10 days. After that time, he may regain his Health at the normal rate. Fatal results in the death of the hero as both Health and Endurance drop to zero. The hero can be revived, however, and will eventually recover if revival occurs.
       Abilities:
         Primary Abilities:
           Fighting:
@@ -254,12 +257,13 @@ Game:
                 Number: 50
                 Mechanism:
                   Chant: The hero needs to recite a series of words to manifest his Power. The Chant can be any length and form. Generally, the rank of the Effect determines the length of the Chant. The Chant lasts one turn for each ten points of the Power rank number. For example, a Chant of Incredible effect takes 4 turns.
+                Wards: []
                 Reference: |
                   The Mage can create areas of latent Power in any desired location. The Ward is designated by a special substance or mark. The mage decides what specific Powers the Ward possesses and what the triggering stimulus will be. When that stimulus occurs, the Ward releases all its power is a single turn, generally in the direction of whatever created the stimulus.
 
-                  The Power's rank determines how great a variety of Wards the Mage can create. The rank number is also the number of Powers he can incorporate into his Wards, even if the Mage cannot directly use those Powers. hirrn-self. Each Wards's intensity rank is the same as the Mage's own rank. For example, a Mage with Excellent Warding can create 20 different Wards, each possessing Excellent Intensity rank.
+                  The Power's rank determines how great a variety of Wards the Mage can create. The rank number is also the number of Powers he can incorporate into his Wards, even if the Mage cannot directly use those Powers himself. Each Wards's intensity rank is the same as the Mage's own rank. For example, a Mage with Excellent Warding can create 20 different Wards, each possessing Excellent Intensity rank.
 
-                  A Remarkable Intensity FEAT enables the Mage to create a single-use Ward. An Amazing Intensity FEAT enables him to create a self-renewing Ward. The Power rank number is also the maximum number of Wards a Mage can have in existence at any one time. If the Mage tries to surpass this number, his oldest still-existing Ward harmlessly vanishes. The minimum distance between Wards is one foot for each point of the Wards' combined Intensity rank numbers. For example, a Feeble and a Monstrous Ward must be separated by at least 77 feet. If the Mage attempts to place a new ward within range of an existing one, the new one will not function. If the new Ward's area of effect would overlap with another Ward, the new Ward cannot have the full Intensity rank. The new Ward will have a maximum rank that will only touch the edge of the earlier Ward's range. For example, a Good Ward coyers an area of ten-foot radius.If the Mage tries to create a Remarkable Ward within twenty feet of the Good Ward, lie discovers he can only create a Good ward at best. If he backs off another twenty feet, though, he can create the Intensity he desires.
+                  A Remarkable Intensity FEAT enables the Mage to create a single-use Ward. An Amazing Intensity FEAT enables him to create a self-renewing Ward. The Power rank number is also the maximum number of Wards a Mage can have in existence at any one time. If the Mage tries to surpass this number, his oldest still-existing Ward harmlessly vanishes. The minimum distance between Wards is one foot for each point of the Wards' combined Intensity rank numbers. For example, a Feeble and a Monstrous Ward must be separated by at least 77 feet. If the Mage attempts to place a new ward within range of an existing one, the new one will not function. If the new Ward's area of effect would overlap with another Ward, the new Ward cannot have the full Intensity rank. The new Ward will have a maximum rank that will only touch the edge of the earlier Ward's range. For example, a Good Ward coyers an area of ten-foot radius.If the Mage tries to create a Remarkable Ward within twenty feet of the Good Ward, he discovers he can only create a Good ward at best. If he backs off another twenty feet, though, he can create the Intensity he desires.
 
                   The triggering mechanism can be any condition stated by the Mage at the time of creation. Normally Wards are. triggered by the close passage of a living being. Thus they are often found near doorways or in passages.
 
@@ -369,7 +373,7 @@ Game:
                   Turns to Full Recovery: 34
                 Reference: The hero can channel all his raw energy into a single burst of a chosen Ability or Power. All his Power and Ability rank numbers are totaled together. This rank number replaces the rank number for a chosen Power. Upon the completion of releasing the Power, all the hero's Abilities and Powers temporarily drop to Feeble. This Power's rank number is the total amount of lost points the hero can regain each turn. Points are divided evenly between all the depleted Abilities and Powers. (Okay, this isn't really a Power either. Roll again for an additional Power.)
             Other Powers: #From APB
-              Body Alterations/Defensive:
+              Body Alterations-Defensive:
                 Immortality:
                   Reference: &Immortality |
                     The character with this Power does not age or die in a normal fashion. Now, before you all run out and grab this Power for your young hero, note the fine print. The hero can still suffer loss of Endurance ranks as the result of wounds, poisons, and damages, but if the results call for perishing. then the character is left at Shift 0 Endurance but does not die. The character cannot move or act until Endurance reaches Feeble, however. so throwing an Immortal character into an active volcano will keep him out of the way for a while. (He cannot heal while taking damage.)
@@ -510,12 +514,20 @@ Game:
               Mystic Arts:
                 - Doctor Stephen Strange
                 - Wong
+                - Clea
                 - Agatha Harkness
                 - Lilia Calderu
                 - Selene
+                - Topaz
+                - Satana Hellstrom
+                - Jennifer Kale
               Mythology:
                 - Thor Odinson
                 - Hercules Panhellenios
+                - Aphrodite Ourania
+                - Athena Parthenos
+                - Hephaestus Aetnaeus
+                - Hermes Diaktoros
                 - Hecate
           Magic:
             Character Type:
@@ -622,7 +634,7 @@ Game:
                 Servant:
                   Rank: Amazing
                   Number: 50
-                  Reference: |
+                  Reference: &Servant |
                     The caster can summon forth his own, personal servant to do his bidding. This servant will require quite a bit of Judge’s discretion as to its nature, abilities, spell, etc.
 
                     The servant’s abilities are generated as for any other character. The Judge then gives it two spells, and gives it an origin appropriate to the character it serves. Various types of magical servants exist, including jinn, demons, familiars, ghosts, and the like. The servant is obedient, helpful, and useful. The caster can automatically talk to or otherwise communicate with the servant.
@@ -765,13 +777,113 @@ Game:
           Purchased Suit or Tux: Multiple
           Mystic Texts: &Mystic_Texts  Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
         Magical Items:
-          Grimoire: &Grimoire
-            Reference: The book in which a mage records spells or incantations. Some spells, like many Entreaty spells, cannot be memorized, only read aloud from a text. A character can only have two grimoires at any one time, the primary and a back-up copy. Creating takes 10+1d10 full days of work
-          Staff of Polar Power:
-            Reference: |
-              This is actually a class of staves. They can come in any shape or material and range in size from 4 to 8 feet long. A Staff of Polar Power polarizes the holder with the power of the master who created it. Therefore different powers and different levels of mastery are engrained into each staff and no two are alike. All Staves of Power allow the character to become pure energy for the purpose of floating through dimensions. In such form a character can move through dimensions at a rate of 5 dimensions per round and ignore all physical attacks. Another quality of most Staves of Power is their ability to absorb attack spells cast at them (see Magic Effects Table, Agility & Targeting). An Agility FEAT roll of a bull’s-eye indicates the character has intercepted the spell with his staff).
+          Hermetica:
+            Description: A sturdy tome of gilt-edged, finest vellum, bound in solar-motif tooled and embossed leather over cedar board with heavy leather strap, closed with a gilded brass buckle, large, gilded brass corner protectors, silk cord headband and tailband, and many sewn in bookmarks of brocaded silk.
+            Reference:
+              Grimoire: &Grimoire
+                Reference: The book in which a mage records spells or incantations. Some spells, like many Entreaty spells, cannot be memorized, only read aloud from a text. A character can only have two grimoires at any one time, the primary and a back-up copy. Creating takes 10+1d10 full days of work
+          Hēlios Mégistos:
+            Description: |
+              A richly-stained boxwood staff, bound and shod in gilt bronze: rings inlaid with blue paste glass along the shaft, a solar-motif finial cap bearing peridots, sunstones, and garnets, and a spike at the butt. The finial supports a gold icon of Sol Invictus in an adlocutio pose, palm foward, topping the staff.
+            Material Strength: Excellent
+            Reference:
+              Staff of Polar Power: |
+                  This is actually a class of staves. They can come in any shape or material and range in size from 4 to 8 feet long. A Staff of Polar Power polarizes the holder with the power of the master who created it. Therefore different powers and different levels of mastery are engrained into each staff and no two are alike. All Staves of Power allow the character to become pure energy for the purpose of floating through dimensions. In such form a character can move through dimensions at a rate of 5 dimensions per round and ignore all physical attacks. Another quality of most Staves of Power is their ability to absorb attack spells cast at them (see Magic Effects Table, Agility & Targeting). An Agility FEAT roll of a bull’s-eye indicates the character has intercepted the spell with his staff).
 
-              This item offers the Judge a great opportunity to be creative and is a good item to improve a freshly generated character who is weak.
+                  This item offers the Judge a great opportunity to be creative and is a good item to improve a freshly generated character who is weak.
+            Magic:
+              Spells:
+                Personal Energies:
+                  Resistance Aura:
+                    Rank: Amazing
+                    Number: 50
+                    Type:
+                      Solar: Resistance to sun stroke, sunburn, light attacks, and solar radiation.
+                      Heat and Flame: Resistance to fire, flames, and natural or artificial heat sources.
+                    Reference: |
+                      The caster surrounds himself with an invisible magical aura that protects him against a specific type of hostile environment or condition. The spell rank is treated as body armor against the hostile effect.
+
+                      The following are the most common kind of resistances.
+
+                        - Atmospheric: Resistance to the effects of all types of gases, spores, and airborne microbes.
+                        - Cold: Resistance to the effects of cold.
+                        - Corrosives: Resistance to acids and corrosives of all types.
+                        - Electricity: Resistance to damaging electrical currents and lightning.
+                        - Heat and Flame: Resistance to fire, flames, and natural or artificial heat sources.
+                        - Poison: Resistance to all types of natural and synthetic poisons.
+                        - Radiation: Resistance to a specific type of radiation, such as gamma rays or cosmic rays. The player and Judge should agree on a useful resistance.
+                        - Solar: Resistance to sun stroke, sunburn, light attacks, and solar radiation.
+                        - Sonics: Resistance to all types of damaging sonic waves and sounds.
+                Universal Energies:
+                  Eldritch Beams/Bolts:
+                    Rank: Amazing
+                    Number: 50
+                    Type:
+                      Light Bolt: This bolt causes damage through intense light. The bolt is golden.
+                      Fire Bolt: This bolt causes fire and heat damage and is a reddish line of flame.
+                    Reference: |
+                      This spell unleashes a magical beam or bolt causing damage equal to the spell rank (a beam is a continuous line of energy, a bolt is an interrupted line of energy). A beam or bolt (hereafter referred to as bolt) affects only one target in the target area. When this spell is obtained, the player should roll a die to see where the bolts originate. The bolts will issue forth from the character’s: 1-4 = Hands; 5-8 = Eyes; 9 = Chest; 10 = Forehead. The type of bolt the character uses will be one of the following, which the player chooses with the approval of the Judge.
+
+                        - Cold Bolt: This bolt causes freezing damage and is blue.
+                        - Darkforce Bolt: This bolt uses the Darkforce, a form of energy from another dimension. The target loses Health points equal to the caster’s spell rank. The bolt is black. (This bolt requires dimensional energy; it is not available to characters unable to use dimensional energy.)
+                        - Disintegrating Bolt: This bolt disintegrates non-living, inanimate objects up to 2 areas away from the caster. The limit of what it can disintegrate is determined by the spell rank. Compare the spell rank to the material rank of the object to be disintegrated.
+                          If the material rank is higher than the spell rank, the target’s material strength is reduced one rank.
+                          If the material rank is equal to or less than the spell rank, the target is disintegrated. Small objects (fist-sized, for example) can be destroyed automatically. Destroying man-sized objects requires a successful yellow spell rank FEAT roll. Destroying larger objects (like a vehicle) requires a successful red FEAT roll. If the target is an object of no importance, the Judge can waive the FEAT roll and rule that the item is automatically destroyed.
+                        - Energy Bolt: (Also commonly called Bolt of Bedevilment.) This bolt uses pure universal or dimensional energy This is the most common form of eldritch bolt.
+                        - Fire Bolt: This bolt causes fire and heat damage and is a reddish line of flame.
+                        - Impact Bolt: This bolt causes impact damage through reverse gravity, magnetism, etc. The bolt is invisible.
+                        - Light Bolt: This bolt causes damage through intense light. The bolt is golden.
+                        - Sonic Bolt: This bolt causes damage through sonic disruption, nerve damage, etc.
+                  Energy Control:
+                    Rank: Amazing
+                    Number: 50
+                    Type:
+                      Solar: A hero with this spell can redirect, magnify, or diminish the natural light in the area of the spell. A blinding flash can cause damage in that area equal to the spell rank number and temporarily blind a victim. A light barrier does not defend against damage, but no one can see through it and it scares off unintelligent animals and creatures.
+                    Reference: |
+                      The caster can use his personal, universal, or dimensional energy to control another type of nonmagical energy (not personal, universal, or dimensional). This energy manipulation requires a successful spell rank FEAT roll. Only one type of energy can be chosen by a beginning caster, but with advancement he may learn to control other forms of energy.
+
+                      The caster can affect all of the individual type of energy within his area of effect with ease: turning it on or off, making it overload, siphoning it where he chooses, etc. He can channel controlled energy around himself so as not to be harmed by it.
+
+                      The caster must make a successful red spell rank FEAT roll to use this spell offensively. The attack must be made by touch, no matter what the spell rank. The damage caused equals the spell rank number.
+
+                      The caster must make a successful yellow or red spell rank FEAT roll to use this spell defensively.
+
+                      The following energies the ones most often affected by this spell. (The Judge can add others as desired.)
+
+                        - Darkforce: The Darkforce is a semisentient force from another dimension. It can be used to black out an area so completely that even infravision does not work. It cannot be used as a weapon outside of the area the character is occupying, but within that area anyone enveloped by the Darkforce (except the caster) loses Health points equal to the caster’s spell rank number each round. Controlling the Darkforce requires that the caster use dimensional energy; this form of control is not available to casters who cannot use dimensional energy.
+                        - Electrical: The caster can absorb and redirect electrical energy. One of the best uses of this spell is as an electrical override. The caster can direct electrical spells to override the controls of electrical equipment, including computers, alarm systems, and unshielded robots. He can either take control or damage this equipment. The ability of control is equal to the spell rank.
+                        - Gravity: The caster can reverse or intensify gravity at will. The spell can be used to move objects (use the spell rank as the caster’s Strength). A character with this spell can do two gravity related actions at once. When used as an attack. the caster uses the gravitational forces to seize the target in a grappling-like attack. The grappling force starts with Typical Strength, but the caster can automatically increase the strength by one rank each round, up to the spell rank. This requires concentration on the part of the caster (no attacks or other spells cast while the gravity attack is in effect). The target must make a successful Strength FEAT roll to escape the effect.
+
+                          Reverse gravity can only be lowered to Shift 0, whereby the target can float a few feet above the ground.
+                        - Magnetism: A caster with magnetic control can manipulate any items that contain iron or steel within the area of the spell. He can also manipulate the Earth’s magnetic field and use it to control iron or steelbearing items, anchoring them to the ground or twirling them like a top, or create a magnetic force shield with an armor rank equal to the magnetic control spell rank.
+                        - Solar: A hero with this spell can redirect, magnify, or diminish the natural light in the area of the spell. A blinding flash can cause damage in that area equal to the spell rank number and temporarily blind a victim. A light barrier does not defend against damage, but no one can see through it and it scares off unintelligent animals and creatures.
+                        - Sonics: This spell can amplify sound in an area to the point where everyone except the caster is temporarily deafened. This is particularly distracting for magic wielders using dimensional spells and incantations (successful yellow Psyche FEAT roll required to cast a dimensional spell; see Distractions in the MAGIC USE AND COMBAT Section). The caster can also reverse the effect to completely “dampen” an area so that no sound can be heard whatsoever, including sonic weapons.
+                  Healing-Others:
+                    Rank: Amazing
+                    Number: 50
+                    Type:
+                      Solar: A hero with this spell can redirect, magnify, or diminish the natural light in the area of the spell. A blinding flash can cause damage in that area equal to the spell rank number and temporarily blind a victim. A light barrier does not defend against damage, but no one can see through it and it scares off unintelligent animals and creatures.
+                    Reference: |
+                      The caster can magically heal other characters by using universal or dimensional energy. The caster must touch the character for two consecutive rounds after casting the spell. A successful spell rank FEAT roll is required. The, maximum amount of damage that can be healed per person is the spell rank number. Any individual character can only be healed once per day by a specific caster. The number of different characters the caster can heal per day is equal to the spell rank number divided by 10 (round fractions up). If the player so desires, this spell could be used to heal a creature instead of a character.
+
+                      The healing is complete, including the mending of broken bones and torn cartilage. The spell is also effective against disease.
+                  Shield-Aura:
+                    Rank: Amazing
+                    Number: 50
+                    Reference: The caster surrounds himself or another character with a shining aura that acts as body armor against all forms of attack. It does not hinder the caster in any way. An aura shield has an armor rank equal to the spell rank -1CS. If it is hit by an attack with a higher power rank it is shattered and disappears, though no damage reaches the caster during that round. Only one aura shield can surround a character at any given time.
+                  Vapors-Resist Death:
+                    Rank: Amazing
+                    Number: 50
+                    Type:
+                      Solar: A hero with this spell can redirect, magnify, or diminish the natural light in the area of the spell. A blinding flash can cause damage in that area equal to the spell rank number and temporarily blind a victim. A light barrier does not defend against damage, but no one can see through it and it scares off unintelligent animals and creatures.
+                    Reference: |
+                      The caster can conjure forth magical vapors, which pour out from around his feet, hands, or just suddenly begin to swirl in the air (caster’s discretion). These vapors will only cover one individual the caster chooses within the area of spell. This character must be dying or dead for no more than 2 rounds when the spell is cast. These extremely powerful vapors will bring the character up to 0 Health points and keep him there (if he has died) or will freeze him at the level of his current Health and Endurance. This “freezing” of the character will last for the duration of effect and allows for time to treat his wounds or the condition which is killing him (taking him to a hospital, applying spells that heal, etc.)
+
+                      Once applied, these vapors wrap the target in a black, swirling shroud. The target remains unconscious while in the vapors.
+
+                      The caster can dissipate the vapors at will. Once gone, by the caster’s will or at the end of the duration of spell, the character starts dying and must follow the procedure on page 11 of the MARVEL SUPER HEROES Game Battle Book.
+
+                      If the character the caster is trying to save has been dead for over 2 rounds, but less than 3 hours, the caster can try to create a special, potent vapor which will have the same effect as described above. To create this special vapor requires the caster to make a spell rank FEAT roll and deduct one rank from his Psyche (for a week) whether he succeeds in the spell or not. The caster can keep attempting this spell, but must deduct the Psyche rank each time he tries. If his Psyche rank drops to Feeble or below, due to the exercising of this spell, he permanently loses a Psyche rank.
           Leonidas:
             Reference:
               Familiar: &Familiar Familiar indicates a being that is very powerful magically and actively assists the hero. Two powers should be rolled randomly or selected by the Judge from the personal and universal energy lists for this familiar. In addition, the familiar is intelligent (Reason and Psyche at least Typical) and can communicate with its owner (the kind of communication is left to the Judge’s discretion). The form of the familiar can either be that of a normal animal (usually a cat) or an unusual type, such as a small dragon or other mythical creature. The familiar’s form is at the player’s discretion.
@@ -1282,6 +1394,23 @@ Game:
   Supporting Cast:
     Leonidas:
       Description: A particularly large housecat most resembling a strikingly ancient- and wild-looking Oriental breed, somewhat like an oversized Egyptian Mau, with a black spotted silver tabby coat and brilliant green eyes. While still very much a cat in personality, it's tempered by intelligence and insight that's far above the human norm and over a millennium of existence in close contact with Julian Constantine, giving him a dry, witty, sarcastic detachment and studious, serious, somewhat pessimistic outlook.  Leonidas doesn't speak or use telepathy to communicate per se, but is exceptionally adept at making himself understood by others, as well as understanding them, regardless of language, the same as if he were conversing like any human. Leonidas has been with Julian since the latter began his sorcerous journey.
+      Origin:
+        Physical Form:
+          Animal: |
+            This is a catch-all category that includes fish, mammals, birds, reptiles, and the rest of Earth's fauna, in addition to aliens that do not fit into any other category. About the only example of this in the Marvel Universe is Lockheed, the dragon. Your campaign, on the other hand, might be filled with heroic Animals or really peculiar aliens (I'll fudge a little and include Lockjaw, the Inhumans' "dog" as an example of this).
+
+            Animal PCs have three main types of backgrounds. One is that the animal is a mutant. Another is that the animal was altered in ways that gave his intelligence and Power. The last is the animal is a relatively normal member of a race of animals like him (Lockheed, for example). The player can determine this in the Origins of Power section and embellish it to the best of his ability.
+
+            Animals have to have a human Contact. People tend to see the human Contact as the animal's owner or trainer. People refuse initially to believe the animal is intelligent. Animals have very few legal rights, but they also have few responsibilities.
+
+            - Animals roll on column 1.
+            - Aliens in this category roll on column 5. Animals gain one less Power.
+            - Animals automatically have two Detection Powers at Good rank.
+            - Animals risk death or capture from people who are ignorant of the animal's true nature.
+            - Resources are zero unless the animal has attached himself to a human. In this case, the Resource rank is assigned to that human.
+        Origin of Power:
+          Endowment: The hero was given his Power by another being. This includes such diverse situations as being transformed (Tigra), being charged with Power (the Power Pack kids), and acquiring an item whose possession gives the hero Power (Black Knight, Vindicator).
+        Weakness: *Normal_Human_Weakness
       Abilities:
         Primary Abilities:
           Fighting: Excellent
@@ -1294,6 +1423,8 @@ Game:
         Secondary Abilities:
           Health: 94
           Karma: 90
+          Popularity: Excellent
+          Resources: Shift 0
         Special Abilities:
           Powers:
             Detection:
@@ -1313,7 +1444,7 @@ Game:
                 Number: 30
                 Reference: The hero can detect and follow the tracks left by a specific target. The hero can detect environmental and spatial disturbances with the result that at high ranks the hero can actually track across deep space.
             Other Powers: #From APB
-              Body Alterations/Defensive:
+              Body Alterations-Defensive:
                 Immortality:
                   Reference: *Immortality
           Talents:
@@ -1328,7 +1459,7 @@ Game:
           Character Type:
             Magic Wielder: *Magic_Wielder
           Magic School:
-            Eclectic Magic: This is an unorganized school of magic, that is, it follows no one school of philosophy but is a hodge-podge of “get-as-get-can” magic. It is considered neutral magic. Many of those who “dabble” in magic, and are not up to the level of a Marvel super hero, usually wind up with this type of magic. A spell learned here, an enchantment discovered there, makes up the whole of their philosophy. The bonus with this is that there is very little to bind the character (enemies, rituals, obligations, etc.), the penalty with this type of magic is that there is no one to learn from in a complete and comprehensive manner; thus advancement can be very slow.
+            Eclectic Magic: &Eclectic_Magic This is an unorganized school of magic, that is, it follows no one school of philosophy but is a hodge-podge of “get-as-get-can” magic. It is considered neutral magic. Many of those who “dabble” in magic, and are not up to the level of a Marvel super hero, usually wind up with this type of magic. A spell learned here, an enchantment discovered there, makes up the whole of their philosophy. The bonus with this is that there is very little to bind the character (enemies, rituals, obligations, etc.), the penalty with this type of magic is that there is no one to learn from in a complete and comprehensive manner; thus advancement can be very slow.
           Energy Use:
             Personal and Universal Energies Only: &Personal-Universal Personal and Universal Energies Only means that the character can use spells listed as both Personal Energies and Universal Energies. The character’s spells will only be able to be utilized by tapping into either his personal energy or the energy of the universe around him.
           Rank:
@@ -1405,6 +1536,7 @@ Game:
     Varangos:
       Description: Plural Varangoi. Elite operatives drawn from the highest echelons of special operations and intelligence work, screened for magical potential, Varangoi are the highly-paid, trusted bodyguards, proxies, agents, investigators, and fixers of their employer. When on duty but not in armor they generally wear the subdued, tailored suits worn by federal agents, plainclothes detectives, and bodyguards with their Guardian Blasters and collapsed Warden Staves discreetly concealed, or military fatigues and berets with their Blaster and collapsed Staff on their pistol belts alongside flashlights, knives, handcuffs, and mace, depending on the assignment, as well as their Sentry Glasses in either event. Varangoi also have a formal dress uniform, prominently featuring Byzantine and Norse motifs and styling over a modern military dress base, including a (functional) ceremonial sword and dagger (sometimes a spear) and a formal cape. They generally operate in pairs or multiples thereof, two to a Pathfinder unit. Within the organization, Varangos captains have the title "Akólouthos" (Follower).
       Note: Akólouthoi have the Leadership Talent.
+      Origin: *Normal_Human_Self-Achievement
       Abilities:
         Primary Abilities:
           Fighting: Remarkable
@@ -1418,21 +1550,18 @@ Game:
           Health: 110
           Karma: 70
           Resources: Excellent
-          Popularity:
-            Rank: Excellent
-            Number: 20
+          Popularity: Excellent
         Powers:
           Other:
             Magic:
-              Spells:
-                Eldritch Bolts:
-                  Rank: Excellent
-                  Number: 20
-                  Reference: *Eldritch_Bolts
-                Eldritch Shield:
-                  Rank: Excellent
-                  Number: 20
-                  Reference: *Eldritch_Shield
+              Eldritch Bolts:
+                Rank: Excellent
+                Number: 20
+                Reference: *Eldritch_Bolts
+              Eldritch Shield:
+                Rank: Excellent
+                Number: 20
+                Reference: *Eldritch_Shield
         Talents:
           Weapons Skills:
             Guns: *Guns
@@ -1479,7 +1608,7 @@ Game:
           Energy Use:
             Personal and Universal Energies Only: *Personal-Universal
           Rank:
-            Novice: |
+            Novice: &Novice |
               This character knows fewer than five spells or has less than an Amazing spell rank in at least two spells. He is spending most of his time with his master (when not practicing what he has learned on villains). He can study tomes and scrolls and even perform magic found therein, but he cannot yet learn spells on his own (spells that he has read in a tome or on a scroll must be studied each time he uses them—he cannot commit them to memory.)
 
               Novices are usually ignored by the more powerful dimensional entities. A novice using a Dimensional Entreaty spell uses his magic as normal, but no FEAT roll is necessary to determine if the entity entreated will be affronted by the entreaty and take action. The dimensional entity feels that it is an investment in the future, but the character is currently beneath his total consideration. A novice can, however, provoke a hostile reaction from extradimensional entities by abusing their power—using it in ways the entity would not normally approve of (see “Abusing Dimensional Entreaties” in the “HOW SPELLS ARE CAST” section in the Manual of Magic.
@@ -1536,6 +1665,7 @@ Game:
           Sentry Glasses: *Sentry_Glasses
     Magos:
       Description: Plural Magoi. Magoi are those disciples and apprentices of Julian Constantine truly walking the path of the Scientific Sorcerer. They're the closest circle of his proxies and agents, deputies serving as his eyes, hands, and mouths. Their ornate, Byzantine-styled ceremonial robes or mantles, featuring a mix of Greco-Roman and Nordic motifs, are usually worn over slickly tailored, designer suits, and their fingers, wrists, and necks bedecked with jewelry of arcane significance.  Within the organization, Varangian Magos have the title Mágistros (Magister, Master, Teacher).
+      Origin: *Normal_Human_Self-Achievement
       Abilities:
         Primary Abilities:
           Fighting: Good
@@ -1592,7 +1722,7 @@ Game:
           Energy Use:
             Personal and Universal Energies Only: *Personal-Universal
           Rank:
-            Disciple: |
+            Disciple: &Disciple |
               The character possesses at least 5 spells or has at least an Amazing rank in all of his spells. He assists the master in some of his rituals, but is spending more time adventuring than a novice. He may learn new spells from his master’s written works.
 
               Disciples, like novices, are usually ignored by the more powerful dimensional entities. A disciple using a Dimensional Entreaty spell uses his magic as normal, but no FEAT roll is necessary to determine if the entity entreated will be affronted by the entreaty and take action. The dimensional entity feels that it is an investment in the future, but the character is currently beneath his total consideration. A disciple can, however, provoke a hostile reaction from extra-dimensional entities by abusing their power-using it in ways the entity would not normally approve of (see “Abusing Dimensional Entreaties” in the “HOW SPELLS ARE CAST” section in the Manual of Magic.)
@@ -1613,6 +1743,96 @@ Game:
           Mystic Texts: *Mystic_Texts
         Magical Items:
           Grimoire: *Grimoire        
+    Servant:
+      Description: Summoned by by Julian's use of the Servant spell.
+      Reference: *Servant
+      Origin:
+        Physical Form:
+          Demon: |
+            These are magical beings from other planes of existence. They are both supernatural and corporeal in nature. The main difference between these types is their inherent personality. "Angels" are benevolent; "demons" are malevolent. Other than that, there isn't much difference.
+
+            These beings resemble characters from various mythologies. This affects their Popularity. Angels gain +2CS while demons lose -2CS on their initial Popularity. These beings do not necessarily follow the popular traditional behavior patterns. A heroic demon might be fighting a personal war against other, even more evil beings. A crazed angel might be a villain, seeking to purify the Earth at any cost.
+
+            - Demons roll on Column 5.
+            - Demons have no initial Contacts but will soon be sought out by groups who see them as symbols or tools.
+            - All Physical Abilities are raised +1CS.
+            - Such beings possess a Psychological Weakness that Negates their Power.
+            - Demons lose -2CS Popularity.
+            - Demons automatically possess Good Fire Generation and Specific Invulnerability to Heat and Fire.
+          Origin of Power:
+            Creation: The hero was born in the form he now has, that of an adult who possesses Power and/or whatever the Body Type is. Most of the Artificial Body Types belong in this class. Examples include the android Human Torch, all robots, angels, demons, and deities.
+          Weakness:
+            Stimulus:
+              Psychological Weakness: |
+                A specific event, condition, or mental state has an adverse effect on the hero. This Stimulus directly affects the hero's mind; any resulting physical damage is psychosomatic in nature. That is, any physical damage results are due to the hero's instinctive belief in those results.
+
+                Examples include being physically bound, even if the hero could normally snap the binding material; facing a foe covered in a specific color; or feeling extremely confused.
+
+                Psychological Weaknesses can be temporarily overcome by an Unearthly Intensity Psyche FEAT. They can be permanently overcome by a Shift-Z Intensity Psyche FEAT.
+            Effect:
+              Power Negation: The hero's Powers cease to function when the hero is within 20 feet of the stimulus. The hero's Primary Abilities are also affected; these drop -1CS per 10 turns until a minimum rank of Typical is reached for all of them. If the. hero is beyond the 20 foot limit but tries to use his Powers to affect the Stimulus, certain uses of Power automatically fail. Any Power that directly acts on a target cannot affect a Stimulus. Only Powers that indirectly affect the Stimulus succeed, such as using brute force to lob missiles at the Stimulus.
+            Duration:
+              Continuous with Contact: As long as the hero remains within the effective range of the Stimulus, the Effect continues. When the hero is insulated or moved away from the Stimulus, the Effect immediately ceases. Lost Health points are returned at a rate of 2 per turn. If death has occurred, the hero now has the possibility of being revived.
+      Abilities:
+        Primary Abilities: Roll on Column 5 (Feeble-Monstrous), +1CS to Physical Abilities (Poor-Unearthly)
+        Secondary Abilities:
+          Health: 16-400
+          Karma: 6-235
+          Resources: Poor
+          Popuarity: Poor
+        Powers:
+          Inherent:
+            Energy Emission:
+              Rank: Good
+              Number: 10
+              Reference: |
+                The hero can project fire with Power rank damage and range. These flames have no apparent fuel source and spring from the hero as if he were a living fuel tank. Although the flames' fuel comes out of the proverbial nowhere, free oxygen must be present for the Power to function. If not, the hero can cause a single flame that lasts' only one turn, then fizzles out. At Shift X rank, the hero gains the ability to generate oxygen as well, permitting this Power to function under any conditions. When creating the hero, the player can choose the Powers of Flame Control, Energy Sheath, and Energy Body to fill any slots still open. For example, under the Ultimate system, the Human Torch possesses three powers: Fire Generation, Fire Control, and Energy Sheath.
+
+                This has to be the most dangerous Power around. Heroes have to watch out for accidental firestorms. They also tend to consume all the oxygen in their location, making everyone pass out. Then there is the question of smoke and gases created by the hero's Flame Power. It makes me wonder what kind of ventilation system the Baxter Building has…
+
+                Fire Generation is the opposing Power to Cold Emission, Coldshaping, and Powers that use water. This Power gains +1CS when fighting these Powers. It also loses -1CS when being attacked by those Powers
+            Other:
+              Resistances:
+                Invulnerability to Fire and Heat:
+                  Reference:
+                    Resistance to Fire and Heat: All damage from fire and heat-based attacks is reduced by the Power rank number. Further. any fire of less than this Power rank has no effect on the hero. (Example -- the hero with a Resistance to Fire/Heat of Amazing (50) rank could walk through super-heated steam of Incredible (40) Intensity without ill effect.)
+                    Invulnerability: |
+                      The hero with this Power is totally unaffected by one or more of the attack forms listed above. The initial choosing of Invulnerability counts as two choices, but every additional choice in Resistances may be changed to an Invulnerability. (Example -- A hero being generated picks up Invulnerability to Fire, counting it as two slots. She then gets another resistance, and chooses Resistance to Cold. She may then choose to be Invulnerable to Cold instead at no additional cost.)
+
+                      Invulnerability means that the hero in question has a Class 1000 resistance to that attack form.
+              Body Alterations—Defensive:
+                Immortality:
+                  Reference: *Immortality
+              Magic:
+                Eldritch Bolts:
+                  Rank: Psyche
+                  Reference: *Eldritch_Bolts
+                Eldritch Shield:
+                  Rank: Psyche
+                  Reference: *Eldritch_Shield
+          Additional: Rolled (1-14)
+        Talents:
+          Inherent:
+            Mystic and Mental Skills:
+              Occult Lore: *Occult_Lore
+              Mystic Background: *Mystic_Background
+          Additional: Rolled (0-6)
+        Contacts: Rolled (0-6)
+        Magic:
+          Character Type:
+            Magic Wielder: *Magic_Wielder
+          Magic School:
+            Eclectic Magic: *Eclectic_Magic
+          Energy Use:
+            Personal and Universal Energies Only: *Personal-Universal
+          Rank:
+            Min:
+              Novice: *Novice
+            Max:
+              Disciple: *Disciple
+          Master: ~
+          Spells: Any two spells from the Personal Energies or Universal Energies lists at Psyche Rank.
+      Equipment: Varies
   Headquarters:
     Greymount Manor:
       Description: A grand, stately, Beaux-Arts mansion in West Village along the waterfront, the palatial estate has a private courtyard with peristyle, ornate, gated porte-cochère and portico, and an attached carriage house that was converted to a vehicle garage in the 1920's with direct street access. Greymount Manor was constructed for Julian Constantine, finished in 1880, and he has owned it ever since.
