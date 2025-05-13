@@ -1534,7 +1534,7 @@ Game:
           Health: 24
           Notes: Cats include most ordinary house cats and small wild cats. They inflict Edged attack damage with their claws but cannot score a Kill result against human targets. They move 2 areas/turn.
     Varangos:
-      Description: Plural Varangoi. Elite operatives drawn from the highest echelons of special operations and intelligence work, screened for magical potential, Varangoi are the highly-paid, trusted bodyguards, proxies, agents, investigators, and fixers of their employer. When on duty but not in armor they generally wear the subdued, tailored suits worn by federal agents, plainclothes detectives, and bodyguards with their Guardian Blasters and collapsed Warden Staves discreetly concealed, or military fatigues and berets with their Blaster and collapsed Staff on their pistol belts alongside flashlights, knives, handcuffs, and mace, depending on the assignment, as well as their Sentry Glasses in either event. Varangoi also have a formal dress uniform, prominently featuring Byzantine and Norse motifs and styling over a modern military dress base, including a (functional) ceremonial sword and dagger (sometimes a spear) and a formal cape. They generally operate in pairs or multiples thereof, two to a Pathfinder unit. Within the organization, Varangos captains have the title "Akólouthos" (Follower).
+      Description: Plural Varangoi. Elite operatives drawn from the highest echelons of special operations and intelligence work, screened for magical potential, Varangoi are the highly-paid, trusted bodyguards, proxies, agents, investigators, and fixers of their employer. When on duty but not in their Model I Guardian Battlesuit they generally wear the subdued, tailored suits worn by federal agents, plainclothes detectives, and bodyguards with their Guardian Blasters and collapsed Warden Staves discreetly concealed, or military fatigues and berets with their Blaster and collapsed Staff on their pistol belts alongside flashlights, knives, handcuffs, and mace, depending on the assignment, as well as their Sentry Glasses in either event. Varangoi also have a formal dress uniform, prominently featuring Byzantine and Norse motifs and styling over a modern military dress base, including a (functional) ceremonial sword and dagger (sometimes a spear) and a formal cape. They generally operate in pairs or multiples thereof, two to a Pathfinder unit. Within the organization, Varangos captains have the title "Akólouthos" (Follower).
       Note: Akólouthoi have the Leadership Talent.
       Origin: *Normal_Human_Self-Achievement
       Abilities:
@@ -1744,7 +1744,7 @@ Game:
         Magical Items:
           Grimoire: *Grimoire        
     Servant:
-      Description: Summoned by by Julian's use of the Servant spell.
+      Description: Summoned by by Julian's use of the Servant spell. Their specific Abilities, Powers, Talents, and Spells depend on the purpose of their summoning, as the individual selected is tailored to their intended role.
       Reference: *Servant
       Origin:
         Physical Form:
@@ -1810,13 +1810,13 @@ Game:
                 Eldritch Shield:
                   Rank: Psyche
                   Reference: *Eldritch_Shield
-          Additional: Rolled (1-14)
+          Additional: Rolled (1-18)
         Talents:
           Inherent:
             Mystic and Mental Skills:
               Occult Lore: *Occult_Lore
               Mystic Background: *Mystic_Background
-          Additional: Rolled (0-6)
+          Additional: Rolled (0-8)
         Contacts: Rolled (0-6)
         Magic:
           Character Type:
