@@ -1700,7 +1700,7 @@ Game:
         Magical Items:
           Grimoire: *Grimoire        
     Servant:
-      Description: Summoned by by Julian's use of the Servant spell. Their nature, as well as Abilities, Powers, Talents, and Spells depend on the purpose of their summoning, as the individual selected is tailored to their intended role.
+      Description: Summoned by by Julian's use of the Servant spell. Their nature, celestial, infernal, elemental, or spirit, as well as Abilities, Powers, Talents, and Spells depend on the purpose of their summoning, as the individual selected is tailored to their intended role.
       Reference: *Servant
       Origin:
         Physical Form:
