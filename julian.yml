@@ -1175,7 +1175,7 @@ Game:
                 Power Control:
                   Energy Source: #PC5
                     Source:
-                      - Sentinel Battlesuit II: Battlesuit variant greater than or equal to blaster variant.
+                      - Sentinel Battlesuit Model II: Unlimited operation, but limited to Power Rank of variant, e.g. a Guardian Blaster Mk. 3 will only produce Mk. 2 Power Rank output connected to a Mk. 2 suit.
                       - Power Pack:
                           Uses:
                             Mk. 0: 20
@@ -1186,8 +1186,8 @@ Game:
                       - Power Rooms:
                           Remarkable: 12 Power Packs before refuel
                           Incredible: 24 Power Packs before refuel
-                          Amazing: 12 Power Packs/hour, +12 per +1CS Package Quality Cost Modifier
-                      - Grid Power: High voltage main as Mk 2 Battlesuit
+                          Amazing: 24 Power Packs/hour, +12 per +1CS Package Quality Cost Modifier
+                      - Grid Power: High voltage main as Mk. 2 Battlesuit
                     Reference: |
                       The hero draws his Powers from a special source that provides him with all the energy he can handle. As long as the hero can maintain his link with this source, he can continue to use his Powers. The nature of the source and its link varies with each hero. If the source is small enough, the hero may be required to carry it with him. If not, perhaps the hero needs to periodically return to the source or forge an ethereal Power cord that links him to his Source despite any intervening distance. The Judge and player need to work together to produce a playable source and link.
 
