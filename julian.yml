@@ -1015,27 +1015,6 @@ Game:
                         The player can raise the hero's rank upon creation by +2CS if he chooses specialization in a specific form of this Power.
                       - Kinetic Bolts:
                           Reference: This is a crude form of M30/Telekinesis. The hero can strike a target with a surge of force at Power rank range and damage. The Kinetic Bolt can be shaped as desired by the hero. It can be a wide cylinder, or an incredibly fine needle. Its effect is the same as if the target had been struck by a solid object of equal material strength. This Power can affect only tangible materials. It includes Resistance to Kinetic Bolts, Kinetic Control, or Telekinesis. Optional Powers are Kinetic Control and Telekinesis, which are also the Nemeses.
-                Matter Conversion:
-                  Disintegration: #MCo3
-                    Rank: Base Power Rank
-                    Reference: |
-                      This is the ever popular but never explained "Disintegrator Ray." The hero has the ability to convert any matter into pure energy, usually Light although the player can specify another resultant energy when he first creates the character. The energy dissipates harmlessly and does not affect anyone in the vicinity.
-
-                      This Power can affect any target within range and line-of-sight. The range is determined by Power rank; resulting distances are shown on Column A of the Range Table. The maximum amount of matter that can be disintegrated in a single turn is the number of cubic feet equal to the Power rank number. For example, a Typical Disintegrator can destroy six cubic feet of matter at a range of two areas or 264 feet. When creating the character, the player can alter the Power range or effect if he so chooses. Either the range or the amount affected can be increased any number of Column Shifts by decreasing the other factor an equal amount.
-
-                      Example: Ken and Sue are both creating Disintegrators. Ken rolls 97 for his Power rank, an awesome Amazing rank for both range and effect. Sue isn't so lucky and rolls 77, a Good rank for her Cyborg Character. Sue wants deadlier force and chooses to after her range and effect. She decreases her range to Feeble or Contact-only, a loss of -3CS that she can apply to her effect. This increases +3CS to an Incredible effect.
-
-                      Unwilling targets of this Power are allowed to resist it in any way they can. Furthermore, the Disintegrator must make an Agility FEAT to aim this Power on a target.
-
-                      I mentioned the maximum area the Disintegrator can effect, but what of the minimum area? The Power comes in handy for doing all sorts of fine-detailed work like sculpting, surgery, or removing unwanted locks. The hero can Disintegrate as small an area as he can clearly see. With normal, unaided vision, the minimum limit is about 1/128th of an inch. Smaller than that and the hero needs some kind of magnifying device or Power. Note: this limit is proportional to a normally-sized human of about six feet in height. Enlarged or miniaturized characters have a proportional limit. For example, a 36-foot-tall giant would have a minimum limit of 1/21 of an inch, while a one-foot-tall person would have a minimum limit of 1/768th of an inch or about the size of a cell.
-
-                      As stated earlier, the target must be within line of sight since the Power affects the first thing it encounters, excluding air molecules. Actually, some air is accidentally Disintegrated whenever this Power is used-that's why the Power appears as a glowing beam emitted by the hero-but not enough to divert the Power from its intended target. If an unseen or unanticipated barrier is present between the Disintegrator and the target, that barrier takes the full brunt of the Power that turn.
-
-                      Ken's hero, Starburst, sights a Dreadnought and immediately tries to Disintegrate it. Unfortunately, Starburst failed to notice the plate glass window the Dreadnought was behind. The window vanishes in a flash of pretty lights as the Dreadnought ducks around the corner.
-
-                      This Power is frequently given, to weapons systems such as the ever popular Disintegrator Pistols that fill pulp SciFi. In terms of normal contemporary Earth technology, a Disintegrator raygun requires Incredible Reason and Physics Talent to design and an Amazing cost in Resource points to build. The Judge is free to decide the range and effect of such a weapon.
-
-                      Nemeses for Disintegration are Phasing (to protect the hero) and Ionization (to protect others) as the Power cannot affect intangible matter.
                 Matter Creation:
                   Missile Creation: #MCr5
                     Rank: Base Power Rank

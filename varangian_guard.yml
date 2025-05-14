@@ -17,6 +17,506 @@ Game:
     Era:
       Start: 1986
       End: 1993
+  Hero Team:
+    The Varangian Guard:
+      Name: Varangian Guard, Incorporated
+      Base of Operations: Manhattan
+      Resources:
+        Rank: Unearthly
+        Number: 100
+        Reference: Major country, mega-corporation (United States, Soviet Union)
+      Description: 
+        Executive Director and Chairman of the Board: Julian Constantine
+        Established: 1980
+        Status: Nonprofit Corporation
+        Missions:
+          - Security
+          - Crime Prevention
+          - Private Investigation
+          - Intelligence Gathering and Analysis
+          - Secure Transport
+          - Logistics Management
+          - Counterintelligence
+          - Civil Affairs and Psychological Operations
+          - Paramilitary Services
+          - Protective Services
+          - Risk Analysis and Management
+          - Management Consulting
+          - Project Management
+          - Quantitative and Statistical Analysis
+          - Research and Development
+          - Software Engineering and Development
+          - Municipal Infrastructure Engineering
+          - Environmental Engineering
+          - Civil Engineering
+          - Public Utility Construction and Repair
+          - Emergency Management
+          - Emergency Communications
+          - Emergency Medical Services
+          - Ambulance and Medical Transport Services
+          - Search and Rescue
+          - Motorist Assistance
+          - Tourist Assistance
+          - Wrecker and Towing
+          - General Information and Assistance to the Public
+          - Self Defense, Safety, First Aid, and Disaster Preparedness and other Community Education
+          - Neighborhood and Highway Cleanup
+          - Charitable Grants
+          - Scholarship Fund
+          - Hero and Hero Group Endorsement
+          - Trap, Neuter, Release
+          - (Unofficially) Backup, Cover, Quick Response, Transporation, Logistics, Legal, Medical, and other support to street-level heroes.
+          - (Unofficially) Analysis of captured supervillain paraphenalia, technology, and artifacts.
+          - (Unofficially) Getting kittens out of trees, helping old ladies across the street, and handing out candy to kids.
+        Funding:
+          Funding Type: Private
+          Revenue Sources:
+            - Endowment
+            - Licensing and commercializing patents
+            - Merchandise sales
+            - Charitable donations
+            - Grants
+            - Investments
+            - Fundraising
+            - Beneficiary
+            - Gifts in kind
+            - Volunteerism
+          Rate Schedule: All services are rendered pro bono.
+  Headquarters:
+    Akropolis:
+      Description: |
+        A mid-rise office building attached to a warehouse and factory with a parking garage and some dockside space and rail access, located near the port and transit station in the Hudson Yards neighborhood of Manhattan, comprise the Varangian Guard, Incorporated headquarters compound, Akropolis. There are helipads, extensive communications antenna arrays, weather and atmospheric montiors, and solar panels atop each.
+
+        There is a perimeter wall with security stations that oversee the walkup, light vehicle, freight, and railyard entrances, as well as at the docks, whose piers are outside the perimeter. The entrances for Varangian Guard vehicles are separate from the others, and employees, visitors, and VIPs also have separate entrances for both foot and vehicle traffic.
+
+        The sidewalk and street and water outside the perimeter wall, the pier, railyard, the roof, and the grounds inside and the interiors and exteriors of the buildings themselves are always well-lit and watched by cameras with infra-red capability, recorded and monitored at the security station. The company employes certified and licensed doctors, paramedics, and firefighters who are located onsite as well.
+
+        There is ample exterior and covered parking inside the perimeter in the outside lots and attached parking garage for employees, visitors, and company vehicles, all of them separate and watched, in addition to the maintenance garages inside the warehouse building. There is special, reserved parking outside for emergency and government vehicles.
+      Administrative Building:
+        Description: Primary administrative building for the Varangian Guard leadership and support personnel.
+        Reference:
+          Office Building, 8 floors:
+            Size:
+              Deluxe: &Deluxe Deluxe is the largest size, and is for heroes with several vehicle types, trophy rooms, and living quarters. It has 20 + areas spread through 3 or more floors.
+            Material Strength: Remarkable
+        Room Packages:
+          Basement:
+            Operations Center:
+              Communications Room:
+                Cost: Incredible
+                Reference: &Communications_Room |
+                  Cost: Remarkable Occupies one room. Includes chair, short-wave monitor, tap-in for computer networks, police band. At Incredible Cost includes national security alert equipment and visual display screens.
+            Security Office:
+              Crime Files Room:
+                Cost: Incredible
+                Reference: |
+                  Cost: Excellent Occupies one room. Basically a separate computer with a specialized task at information processing and retrieval. Used by large groups to keep track of former villains and modi operandi. Performs its task with Remarkable ability. Room cost includes terminal, chairs, lights.
+            Holding Cells:
+              Imprisonment Package:
+                Cost: Incredible
+                Note: Multiple
+                Reference: |
+                  Cost: Excellent Occupies one room. Contains standard restraining devices, including bars of Remarkable material strength. At Remarkable Cost, restraining devices made of Incredible Strength. At Incredible Cost, restraining devices at Amazing Strength and Excellent Strength inhibitor restraints.
+            Backup Data Center:
+              Computer Room:
+                Cost: Amazing
+                Reference: &Computer_Room |
+                  Cost: Remarkable Occupies one room. Includes computer itself and a terminal for access, or terminal and communication equipment for access to computer outside the building. This computer is capable of performing simple tasks (calculation, information retrieval, monitoring) with Excellent ability. Incredible Cost buys a computer with this at Remarkable ability. Computers with higher forecasting and processing abilities, such as the one running the old Baxter Building and artificial computer intelligences, are unique designs.
+            Medical and Forensic Laboratory:
+              Laboratory Package:
+                Cost: Amazing
+                Reference: &Laboratory_Package |
+                  Cost: Remarkable Occupies one or more rooms. Basic lab equipment: scales, sinks, common chemicals, microscope. At Incredible Cost include computer capable of analysis with incredible ability, or clean room (prevent germs from escaping lab). At Amazing Cost include both, plus poison analysis and serum dispenser (Excellent effects against known poisons only). Certain pieces, such as electron micro-probes and stellar mass detectors, may be purchased separately (in general, such items are Incredible Rank purchases).
+            Private Hospital:
+              Medical Package:
+                Cost: Amazing
+                Reference:  &Medical_Package |
+                  Cost: Remarkable Occupies one room. Equivalent of emergency room care, no heavy equipment, standard antidotes and medication. Incredible Cost: X-ray, clean room, operating room, pathology. (Additional rooms.) Amazing Cost: as above, plus cryogenics. Note: The Auto-doc and other life-saving devices are generally experimental on Earth. The one in the X-Men's possession is of Shi'ar hybrid technology, is one of the most powerful available, and is limited to Excellent healing ability.
+            Primary Power:
+              Power Room:
+                Cost: Amazing
+                Reference: &Power_Room |
+                  Cost: Remarkable Occupies one room. Buildings are generally assumed to draw their power from outside sources, with the resulting danger of blackouts and power overloads. Heroes who wish a back-up source or alternate source (say, to power a Monstrous-strength ray-gun) must install their own power supply. At this level, the generator purchased will provide a 12-hour supply of power. Incredible Cost brings a 24-hour supply of power and an automatic cut-in 2 rounds after power fails. Amazing Cost brings solar-powered cells, removing the need for external power in normal situations.
+            Backup Power:
+              Power Room:
+                Cost: Amazing
+                Reference: *Power_Room
+            Storage, Bathrooms, and Closets: &PSBC These are assumed in the cost of the building, according to its design. These rooms cost nothing, and no package exists other than what the heroes decide to stuff into the closets.
+            Security Package:
+              Cost: Remarkable
+              Location: All doors
+              Reference: &Security_Package |
+                Cost: Good — one Security package to a door or window. Occupies no space. Consists of hand-set burglar alarms on windows and doors, coupled with mechanical locks. At Excellent Cost: Automatic burglar alarms with computer-code or card identification system. At Remarkable Cost: Automatic burglar alarms with palm-print scan, can activate defense systems. At Incredible Cost: Full body scan with benign identification program as to hostility. Can activate defense systems.
+            Fire Protection Package:
+              Cost: Remarkable
+              Location: All Areas
+              Reference: &Fire_Protection_Package |
+               Cost: Excellent Occupies no space. Sprinkler system that may cover up to 10 rooms, provides Good protection from fire. Remarkable Cost: Foam-projectors that provide Excellent protection from fire, covers up to 10 rooms. Fire Protection Packages automatically activate on heat or smoke and must be modified to avoid extinguishing flaming heroes.
+            Defense Package:
+              Cost: Amazing
+              Location: All areas
+              Note:
+                - Multiple:  &Multiple_Defense
+                  - Laser: Energy
+                  - Concussive: Force
+                  - Stun: Stunning
+              Reference: &Defense_Package |
+                Cost: Excellent Will protect one or more areas. Pre-set defenses consisting of entangling tentacles or nets or lasers or stun rifles, or concussive rifles or pit traps, with the maximum of Remarkable Strength or Intensity. Remarkable Cost: Defenses activated by Security package, consists of one type as above of Incredible Strength. Incredible Cost: As above, intensities are of Amazing Strength. Multiple defense mechanisms may protect the same establishment (example, the WCA compound consists of net-filled pits, stun rifles disguised as trees, and a passive alarm system in the Security Package). Specialized defense packages may be designed.
+          Ground Floor:
+            Lobby:
+              Living Room Package:
+                Cost:
+                  Total: Incredible
+                  Base: Remarkable
+                Note:
+                  - &+1CS_High-Quality +1CS to Cost for high-quality Package
+                  - Multiple: Size
+                Reference: &Living_Room_Package |
+                  Cost: Good - Occupies one room. Consists of sofa, two easy chairs, two end tables, coffee tables, two lamps (ceiling table or floor). At Excellent Cost add television, stereo set-up, or piano. At Remarkable Cost add all three.
+            Auditorium:
+              Conference Room Package:
+                Cost:
+                  Total: Amazing
+                  Base: Incredible
+                Note: *+1CS_High-Quality
+                Reference: &Conference_Room_Package |
+                  *Cost: Remarkable* - Occupies one room. Contains material for assembling of heroes, or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs. Wood paneling available at *Incredible Cost*.
+            Conference One:
+              Conference Room Package:
+                Cost:
+                  Total: Amazing
+                  Base: Incredible
+                Note: *+1CS_High-Quality
+                Reference: *Conference_Room_Package
+            Reception Hall:
+              Trophy Room Package:
+                Cost:
+                  Total: Incredible
+                  Base: Remarkable
+                Note: *+1CS_High-Quality
+                Reference: |
+                  Cost: Excellent Occupies one room. Contains showcase, lighting, frames to display mementos, and may be used as a reception hall or gallery. At Remarkable Cost, contains capability to handle potentially dangerous exhibits at the Incredible level.
+            Reception Kitchen:
+              Kitchen Package:
+                Cost: Remarkable
+                Reference: &Kitchen_Package |
+                  Cost: Good - Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing. At Excellent Cost add refrigerator, dishwasher, or microwave, plus a fire extinguisher. At Remarkable Cost add all three and freezer.
+            Reception Dining:
+              Dining Room Package:
+                Cost:
+                  Total: Incredible
+                  Base: Remarkable
+                Note:
+                  - Multiple: Size
+                  - *+1CS_High-Quality
+                Reference: &Dining_Room_Package |
+                  Cost: Good - Occupies one room. Consists of table, four chairs, ceiling lamp. Excellent Cost add large table, bureau and four more chairs. Remarkable Cost add china cabinet, set of good china and sterling tableware.
+            Office Suite:
+              Office Package:
+                Cost: Remarkable
+                Reference: &Office_Package |
+                  Cost: Good - Occupies one or more rooms. Includes desk, three chairs, two lamps. At Excellent Cost doubles the material, adds file cabinet, typewriter. At Remarkable Cost, add computer terminal, double previous material, add hanging plants, decorative art.
+            Storage, Bathrooms, and Closets: *PSBC
+            Security Package:
+              Cost: Remarkable
+              Location: All doors and windows, perimeter
+              Reference: *Security_Package
+            Fire Protection Package:
+              Cost: Remarkable
+              Location: All Areas
+              Reference: *Fire_Protection_Package
+            Defense Package:
+              Cost: Amazing
+              Location: Perimeter and Exterior
+              Note: *Multiple_Defense
+          First Floor: &Office_Floor
+            Office Suite:
+              Office Package:
+                Cost: Remarkable
+              Note: Multiple
+              Reference: *Office_Package
+            Storage, Bathrooms, and Closets: *PSBC
+            Security Package:
+              Cost: Remarkable
+              Location: All doors and windows
+              Reference: *Security_Package
+            Fire Protection Package:
+              Cost: Remarkable
+              Location: All Areas
+              Reference: *Fire_Protection_Package
+          Second Floor: *Office_Floor
+          Third Floor: *Office_Floor
+          Fourth Floor: *Office_Floor
+          Fifth Floor:
+            Conference Rooms:
+              Conference Room Package:
+                Cost: Remarkable
+                Note: Multiple
+              Reference: *Conference_Room_Package
+            Employee Kitchen:
+              Kitchen Package:
+                Cost: Remarkable
+                Reference: *Kitchen_Package
+            Break Room:
+              Living Room Package:
+                Cost: Remarkable
+                Note:
+                  - Multiple: Size
+                Reference: *Living_Room_Package
+            Employee Lounge:
+              Rec. Room Package:
+                Cost: Remarkable
+                Reference: &Rec_Room_Package |
+                  Cost: Excellent Occupies one or more rooms. Consists of unmatched sofa and easy chairs, pool table or ping pong table or TV. At Remarkable Cost, contains all of the above, video and/or pinball machines (hot tub is optional, only in California). At Amazing Cost, has all of the above plus computer-assisted holographic entertainment projector.
+            Employee Gym:
+              Gym Package:
+                Cost: Incredible
+                Reference: &Gym_Package |
+                  Cost: Excellent Occupies one or more rooms. Consists of typical weight-lifting equipment, universal gym, lockers. At Remarkable Cost includes rings, even and uneven parallel bar, short horse. At Incredible Cost includes separate locker and steam rooms (two additional rooms), diagnostic displays. At Amazing Cost includes a boxing area, robotic opponents, and electronic-based weights capable of reaching 100 tons, and must occupy at least 3 areas.
+            Storage, Bathrooms, and Closets: *PSBC
+            Security Package:
+              Cost: Remarkable
+              Location: All doors and windows
+              Reference: *Security_Package
+            Fire Protection Package:
+              Cost: Remarkable
+              Location: All Areas
+              Reference: *Fire_Protection_Package
+          Sixth Floor:
+            Data Centers:
+              Computer Room:
+                Cost: Amazing
+                Note: Multiple
+                Reference: *Computer_Room
+            Office Suite:
+              Office Package:
+                Cost: Remarkable
+                Reference: *Office_Package
+            Storage, Bathrooms, and Closets: *PSBC
+            Security Package:
+              Cost: Remarkable
+              Location: All doors and windows, perimeter
+              Reference: *Security_Package
+            Fire Protection Package:
+              Cost: Remarkable
+              Location: All Areas
+              Reference: *Fire_Protection_Package
+          Seventh Floor:
+            Executive Floor Lobby:
+              Living Room Package:
+                Cost:
+                  Total: Amazing
+                  Base: Remarkable
+                  Note: &+2CS_High-Quality +2CS to Cost for extremely high-quality Package.
+                  Reference: *Living_Room_Package
+            Executive Conference Room:
+              Conference Room Package:
+                  Total: Monstrous
+                  Base: Incredible
+                  Note: *+2CS_High-Quality
+                  Reference: *Conference_Room_Package
+            Executive Office Suite:
+              Office Package:
+                Cost:
+                  Total: Amazing
+                  Base: Remarkable
+                  Note: *+2CS_High-Quality
+                  Reference: *Office_Package
+            Storage, Bathrooms, and Closets: *PSBC
+            Security Package:
+              Cost: Remarkable
+              Location: All doors and windows, roof access
+              Reference: *Security_Package
+            Fire Protection Package:
+              Cost: Remarkable
+              Location: All Areas
+              Reference: *Fire_Protection_Package
+          Roof: &Roof
+            Helicopter Maintenance:
+              Hangar Package:
+                Cost: Excellent
+                Vehicle: Traffic Copter
+                Reference: |
+                  Cost: Excellent Occupies one area per vehicle using that hangar. Servicing for a single air vehicle, including repair facilities. Each different vehicle requires its own hangar package.
+            Storage, Bathrooms, and Closets: *PSBC
+            Security Package:
+              Cost: Remarkable
+              Location: Roof access, hangar entrances
+              Reference: *Security_Package
+            Fire Protection Package:
+              Cost: Remarkable
+              Location: All interior areas, helipad
+              Reference: *Fire_Protection_Package
+            Defense Package:
+              Cost: Amazing
+              Location: All areas
+              Note:
+                - Multiple: *Multiple_Defense
+              Reference: *Defense_Package
+      Operations Building:
+        Description: Primary operations center for the Varangian Guard.  Includes barracks and crash bunks for security personnel, serves as dispatch, training facility, and fleet garage.
+        Reference:
+          Large Warehouse:
+            Size:
+              Deluxe: *Deluxe
+            Material Strength: Good
+        Room Packages:
+          Floor:
+            Dispatch:
+              Communications Room:
+                Cost: Incredible
+                Reference: *Communications_Room
+            Briefing Room:
+              Conference Room Package:
+                Cost: Remarkable
+                Reference: *Conference_Room_Package
+            Galley:
+              Kitchen Package:
+                Cost: Remarkable
+                Note:
+                  - Multiple: Size
+                Reference: *Kitchen_Package
+            Fleet Garage:
+              Garage Package:
+                Cost: Remarkable
+                Note:
+                  - Multiple: Size
+                Reference: &Garage_Package |
+                  Cost: Good Occupies one room. Servicing for a single ground vehicle, including repair facilities and fire extinguisher. Excellent Cost may service up to three ground vehicles, and Remarkable up to 12 ground vehicles.
+            Cafeteria:
+              Dining Room Package:
+                Cost: Excellent
+                Note:
+                  - Multiple: Size
+                Reference: *Dining_Room_Package
+            Lounge:
+              Rec. Room Package:
+                Cost: Remarkable
+                Note:
+                  - Multiple: Size
+                Reference: *Rec_Room_Package
+            Infirmary:
+              Medical Package:
+                Cost: Remarkable
+                Reference: *Medical_Package
+            Gym:
+              Gym Package:
+                Cost: Amazing
+                Note:
+                  - Multiple: Size
+                Reference: *Gym_Package
+            Training:
+              Danger Room:
+                Cost:
+                  Total: Unearthly
+                  Base: Amazing
+                Note: *+2CS_High-Quality
+                Reference: |
+                  Cost: Incredible Duplicates Remarkable Cost Gym package with additional active dangers and security systems. "Threats" may be of any general type, but no "threat" may exceed Incredible in strength, Intensity, or damage. Amazing Cost: as Incredible, with threats increased to Amazing strength, intensity, or damage. Some limited holographic illusion generation at the Excellent rank. This represents the danger room of the type originally possessed by the X-Men and now used by the Hellions. The current X-Men danger room is a unique hybrid design using Shi'ar technology and has holographic abilities that outshine those listed here.
+            Administrative Office:
+              Office Package:
+                Cost: Remarkable
+            Primary Power:
+              Power Room:
+                Cost: Amazing
+                Reference: *Power_Room
+            Backup Power:
+              Power Room:
+                Cost: Amazing
+                Reference: *Power_Room
+            Boat Maintenance:
+              Dock Package:
+                Cost: Excellent
+                Vehicle: Speedboat
+                Note: Multiple
+                Reference: &Dock_Package |
+                  Cost: Remarkable Occupies three areas per sea or sub vehicle. Servicing for a single sea or sub vehicle, including drydock facilities. Each sea or sub vehicle requires its own dock package.
+            Personal Watercraft Maintenance:
+              Dock Package:
+                Cost: Excellent
+                Vehicle: Jetski
+                Note: Multiple
+                Reference: *Dock_Package
+            Hovercraft Maintenance:
+              Dock Package:
+                Cost: Excellent
+                Vehicle: Hovercraft
+                Reference: *Dock_Package
+            Storage, Bathrooms, and Closets: *PSBC
+            Security Package:
+              Cost: Remarkable
+              Location: All doors and windows, roof access, perimeter
+              Reference: *Security_Package
+            Fire Protection Package:
+              Cost: Remarkable
+              Location: All Areas
+              Reference: *Fire_Protection_Package
+            Defense Package:
+              Cost: Amazing
+              Location: Perimeter and Exterior
+              Note: *Multiple_Defense
+              Reference: *Defense_Package
+          Roof: *Roof
+      Technical Building:
+        Description: Research and development and manufacturing and production all in one building.  Also has maintenance and repair facilities.
+        Reference:
+          Large Factory:
+            Size:
+              Deluxe: *Deluxe
+            Material Strength: Incredible
+        Room Packages:
+          Floor:
+            Production Floor:
+              Workshop Package:
+                Cost: Amazing
+                Note:
+                  - Multiple: Size
+                Reference: &Workshop_Package |
+                  Cost: Remarkable Occupies one or more rooms. Basic equipment for metal and woodworking: lathes, drills, saws and fire extinguisher. At Incredible Cost includes laser-guided instruments. At Amazing Cost includes all of the above and automatic processing materials (an automatic factory, in effect, for simple goods).
+            Research and Development:
+              Laboratory Package:
+                Cost: Amazing
+                Note:
+                  - Multiple: Size
+                Reference: *Laboratory_Package
+            Break Room:
+              Living Room Package:
+                Cost: Remarkable
+                Note:
+                  - Multiple: Size
+                Reference: *Living_Room_Package
+            Administrative Office:
+              Office Package:
+                Cost: Remarkable
+                Reference: *Office_Package
+            Primary Power:
+              Power Room:
+                Cost: Amazing
+                Reference: *Power_Room
+            Backup Power:
+              Power Room:
+                Cost: Amazing
+                Reference: *Power_Room
+            Garage:
+              Garage Package:
+                Cost: Remarkable
+                Note:
+                  - Multiple: Size
+                Reference: *Garage_Package
+            Storage, Bathrooms, and Closets: *PSBC
+            Security Package:
+              Cost: Remarkable
+              Location: All doors and windows, roof access, perimeter
+              Reference: *Security_Package
+            Fire Protection Package:
+              Cost: Remarkable
+              Location: All Areas
+              Reference: *Fire_Protection_Package
+            Defense Package:
+              Cost: Amazing
+              Location: Perimeter and Exterior
+              Note: *Multiple_Defense
+          Roof: *Roof
   Supporting Cast:
     Security Officer:
       Description: Varangian Guard, Inc. Security Officers use improved Policeman stats and are equipped with a handgun, club, handcuffs, flashlight, and mace.
@@ -551,788 +1051,287 @@ Game:
               Talents:
                 Scientific: Any one Scientific Talent
           Reference: The above stats are for the typical scientist to be found in a research institution or on a college campus. There are specialists in their fields that have higher Reason abilities, but they are generally loners, usually because their advancements are so far beyond the bounds of modern science, or their pet theories are ridiculed, that they reject the establishment. (Many super-powered villains got their start in this fashion.)
-  Hero Team:
-    The Varangian Guard:
-      Name: Varangian Guard, Incorporated
-      Base of Operations: Manhattan
-      Resources:
-        Rank: Unearthly
-        Number: 100
-        Reference: Major country, mega-corporation (United States, Soviet Union)
-      Description: 
-        Executive Director and Chairman of the Board: Julian Constantine
-        Established: 1980
-        Status: Nonprofit Corporation
-        Missions:
-          - Security
-          - Crime Prevention
-          - Private Investigation
-          - Intelligence Gathering and Analysis
-          - Secure Transport
-          - Logistics Management
-          - Counterintelligence
-          - Civil Affairs and Psychological Operations
-          - Paramilitary Services
-          - Protective Services
-          - Risk Analysis and Management
-          - Management Consulting
-          - Project Management
-          - Quantitative and Statistical Analysis
-          - Research and Development
-          - Software Engineering and Development
-          - Municipal Infrastructure Engineering
-          - Environmental Engineering
-          - Civil Engineering
-          - Public Utility Construction and Repair
-          - Emergency Management
-          - Emergency Communications
-          - Emergency Medical Services
-          - Ambulance and Medical Transport Services
-          - Search and Rescue
-          - Motorist Assistance
-          - Tourist Assistance
-          - Wrecker and Towing
-          - General Information and Assistance to the Public
-          - Self Defense, Safety, First Aid, and Disaster Preparedness and other Community Education
-          - Neighborhood and Highway Cleanup
-          - Charitable Grants
-          - Scholarship Fund
-          - Hero and Hero Group Endorsement
-          - Trap, Neuter, Release
-          - (Unofficially) Backup, Cover, Quick Response, Transporation, Logistics, Legal, Medical, and other support to street-level heroes.
-          - (Unofficially) Analysis of captured supervillain paraphenalia, technology, and artifacts.
-          - (Unofficially) Getting kittens out of trees, helping old ladies across the street, and handing out candy to kids.
-        Funding:
-          Funding Type: Private
-          Revenue Sources:
-            - Endowment
-            - Licensing and commercializing patents
-            - Merchandise sales
-            - Charitable donations
-            - Grants
-            - Investments
-            - Fundraising
-            - Beneficiary
-            - Gifts in kind
-            - Volunteerism
-          Rate Schedule: All services are rendered pro bono.
-      Reference:
-        Equipment:
-          Other Equipment:
-            Utility Drone:
-              Reference:
-                Standard Robot: The Standard Robot is only capable of simple tasks and has no special abilities other than to record what transpires before its recorders and perform simple tasks. The H.E.R.B.I.E. series was a modified form of the standard robot. All Standard robot abilities are Typical.
-            Security Drone:
-              Reference:
-                Sentry Robot: The Sentry Robot has a bit more programming and firepower. It is programmed to identify hostile threats (that is — anything not in its bank) and open fire. Sentry robots come equipped with Good Strength lasers, though some may be additionally armed. All sentry robot abilities are Good.
-            Specialist Drone:
-              Reference:
-                Talent Robot: The Talent Robot is a robot specifically designed for a certain purpose, and its programming reflects that purpose. The Avengers' fire-fighting robots or the robotic opponent the Black Knight uses are examples of talent robots. Such robots may have one ability at Remarkable level. All others are Excellent.
-          Vehicles:
-            Operations Vehicle:
-              Note: Primary patrol, response, and utility vehicle. Wilderness use. Lots of utility accessories.
-              Reference:
-                Jeep:
-                  Type:
-                    Off-Road: &Off-Road Off-Road vehicles are land vehicles designed to handle broken ground better than road vehicles. Some recreational vehicles and military equipment fall under this category.
-                  Control: Good
-                  Speed: Excellent
-                  Body: Good
-                  Protection: Poor
-                  Reference: &Jeep The Pick-Up and Jeep are four-wheel drive off-road vehicles. Four-wheel drive does not prevent you from getting stuck; it only gets you stuck in worse places (quote by Dirtbuggy Doug Niles). The Jeep has been a workhorse for the Army for years and is only now being replaced by another vehicle with similar stats.
-            Operations Transport:
-              Note: Company car used by executives, employees on TDY, etc.
-              Reference:
-                Luxury Car:
-                  Type:
-                    Road: &Road Road vehicles are those designed primarily to be driven on relatively flat surfaces (like roads), and include most vehicles found in modern cities. Road vehicles suffer penalties for Control and Speed when off- road (like cutting through the park in your luxury lime)
-                  Control: Poor
-                  Speed: Good
-                  Body: Poor
-                  Protection: Poor
-                  Reference: Luxury Cars are the gas-guzzling huge cars, ranging from mid-sized Cadillacs to monster limos with wet bars inside. Their big trouble is that they steer like rocks; they seat from 5 up to about 10 for the largest vehicles.
-            Heavy Utility Vehicle:
-              Note: Heavy transport, tow trucks, snowplows, etc.
-              Reference:
-                Heavy Truck: &Heavy_Truck
-                  Type:
-                    Road: *Off-Road
-                  Control: Poor
-                  Speed: Typical
-                  Body: Excellent
-                  Protection: Good
-                  Reference: Heavy Trucks include dump trucks and other heavy construction equipment.
-            Construction and Repair Vehicles:
-              Note: Mixers, dump trucks, graders, asphalt trucks, utility bucket lifts, cranes, etc.
-              Reference:
-                Heavy Truck: *Heavy_Truck
-            Construction Equipment:
-              Note: Bulldozers, backhoes, end-loaders, etc.
-              Reference:
-                Bulldozer:
-                  Type:
-                    Road: *Off-Road
-                  Control: Typical
-                  Speed: Typical
-                  Body: Excellent
-                  Protection: Typical
-                  Reference: A Bulldozer is another typical construction vehicle. The blade on the front makes a suitable battering ram and is made of Remarkable strength material.
-            Utility Vehicle:
-              Note: Local light freight pick-up, etc. Wilderness use.
-              Reference:
-                Pick-Up: &Pick-Up
-                  Type:
-                    Off-Road: *Off-Road
-                  Control: Typical
-                  Speed: Good
-                  Body: Good
-                  Protection: Typical
-                  Reference: *Jeep
-            Maintenance Vehicle:
-              Note: Used by groundskeepers and maintenance crew.  Tool racks with appropriate equipment.
-              Reference:
-                Pick-Up: *Pick-Up
-            Grounds Maintenance Vehicle:
-              Note: Used by groundskeepers, tows light trailers, mows, edges, etc.
-              Reference:
-                Tractor: &Tractor
-                  Type:
-                    Off-Road: *Off-Road
-                  Control: Good
-                  Speed: Typical
-                  Body: Good
-                  Protection: Shift 0
-            Helicopter Tender:
-              Note: Light tractor for shuttling helicopters between hangars and helipads.
-              Reference:
-                Tractor: *Tractor
-            Personnel Transport:
-              Reference:
-                Van: &Van
-                  Type:
-                    Road: *Road
-                  Control: Poor
-                  Speed: Good
-                  Body: Good
-                  Protection: Good
-                  Reference: Vans are large, box-like vehicles on a sedan wheelbase. They have the advantage of space (about 8 bodies), and the back may be covered to prevent unwanted eyes seeing in. Both Captain America and Punisher have modified vans.
-            Cargo Transport:
-              Reference:
-                Van: *Van
-            VIP Transport:
-              Reference:
-                Security Limo:
-                  Type:
-                    Road: *Road
-                  Control: Typical
-                  Speed: Poor
-                  Body: Excellent
-                  Protection: Good
-                  Reference: Security Limo is a variant of the luxury car, with stronger materials, thicker plating about the passenger compartment, bullet-proof glass, and a higher protection value to those within. Seating is as for Luxury Cars.
-            Special Transport:
-              Reference:
-                Armored Car:
-                  Type:
-                    Road: *Road
-                  Control: Typical
-                  Speed: Typical
-                  Body: Remarkable
-                  Protection: Remarkable
-                  Reference: Armored Cars are favorite targets of criminals and normally sport a team of two guards in the front and an optional man inside. Armored Cars are also used for transporting powerful criminals who are under arrest.
-            Light Utility Vehicle:
-              Note: Primarily on-premises use.  Wilderness use.
-              Reference:
-                ATV:
-                  Type:
-                    Off-Road: *Off-Road
-                  Control: Remarkable
-                  Speed: Good
-                  Body: Good
-                  Protection: Typical
-                  Reference: ATV means All-Terrain Vehicle and is a catch-phrase for the wide variety of multiple-tired and treaded vehicles used both by ordinary citizens and secret subversive societies.
-            Security Interceptor-Cruiser:
-              Note: Fast patrol and response. On-premises security and escort. Pursuit. Highway travel.
-              Reference:
-                Police Car: &Police_Car
-                  Type:
-                    Road: *Road
-                  Control: Good
-                  Speed: Excellent
-                  Body: Typical
-                  Protection: Typical
-                  Reference: Police Cars are the vehicles of the constabulary, usually with a little more power under the hood and better-cared for than the standard sedan. Police cars seat 5 but often have a grill between the front and back seats to prevent the passengers from getting to the driver (and vice-versa).
-            Special Officer Transport:
-              Note: Special Officers use an unmarked variant.
-              Reference:
-                Police Car: *Police_Car
-            Security Transport:
-              Reference:
-                Police Van:
-                  Type:
-                    Road: *Road
-                  Control: Typical
-                  Speed: Good
-                  Body: Good
-                  Protection: Typical
-                  Reference: The Police Van is to the van as the Police Car is to the sedan. This vehicle often carries additional armament for teams in trouble, including Riot Guns and gas canisters. The back part of the van can carry up to 10 prisoners for short periods.
-            Crisis Response Vehicle:
-              Reference:
-                SWAT Van:
-                  Type:
-                    Road: *Road
-                  Control: Typical
-                  Speed: Good
-                  Body: Remarkable
-                  Protection: Excellent
-                  Reference: The SWAT in SWAT Van stands for Special Weapons And Tactics, and these babies are portable armories of ten riot guns, ten sniper rifles, ten flak jackets, and a wide supply of smoke, tear gas, and knock-out gas grenades (sorry, weapons and batteries not included in the purchase of the vehicle). Carries about ten people.
-            Executive Helicopter:
-              Note: Comfortable and luxurious
-              Reference:
-                Traffic Copter: &Traffic_Copter
-                  Type:
-                    Air: &Air Air vehicles travel mainly through the friendly skies, and include all forms of aircraft from gliders to the Concorde.
-                  Control: Good
-                  Speed: Excellent
-                  Body: Feeble
-                  Protection: Feeble
-                  Reference: Traffic Copters are fairly common in the airspace over American cities, and this type also includes private vehicles and medivac copters as well. Helicopters have VTOL ability (Vertical Take-off and Landing), and as such may drop to 0 speed without losing control.
-            Patrol Helicopter:
-              Note: Spotlights, cameras, thermal, loudspeakers, advanced comms, etc.
-              Reference:
-                Traffic Copter: *Traffic_Copter
-            Medevac Helicopter:
-              Note: Equipped as an ambulance
-              Reference:
-                Traffic Copter: *Traffic_Copter
-            Patrol Craft:
-              Reference:
-                Hovercraft:
-                  Type:
-                    GEV: GEV means Ground Effect Vehicle, which is basically the hovercraft. GEVs exhibit properties of both Air and Off-Road Vehicles, and as such deserve their own entry
-                  Control: Poor
-                  Speed: Excellent
-                  Body: Good
-                  Protection: Good
-                  Reference: The Hovercraft is the only notable mention of the Ground Effect Vehicle. This vehicle is neither fish nor fowl, as it rides on a cushion of air, handles as does an Air type, but goes out of control as an off-road vehicle. Hovercraft move at a maximum Speed of Good off road, over broken ground, or in stormy weather.
-            Utility Craft:
-              Reference:
-                Speedboat:
-                  Type:
-                    Water: &Water Water vehicles are boats of every description. from sailboats to carriers. Their main limitation is the danger of sinking. Submersible vehicles are those designed to travel underwater, and are represented by the submarine. Subs are similar to water vehicles in the danger of sinking.
-                  Control: Good
-                  Speed: Incredible
-                  Body: Typical
-                  Protection: Poor
-                  Reference: The Speedboat is the more streamlined, powerful version of the motorboat. It is used as a pleasure craft and also for missions requiring quick entrance and exit. Seats about 4 comfortably.
-            Rapid Response Craft:
-              Reference:
-                Jetski:
-                  Type:
-                    Water: *Water
-                  Control: Excellent
-                  Speed: Excellent
-                  Body: Good
-                  Protection: 0
-                  Reference: Jetskis are small one-man sea equivalents of the snowmobile. Some may be modified to carry weapons, and others have been modified to give flight and underwater abilities.
-            Emergency Medical Transport:
-              Reference:
-                Ambulance:
-                  Type:
-                    Road: *Road
-                  Control: Good
-                  Speed: Excellent
-                  Body: Good
-                  Protection: Good
-                  Reference: |
-                    An Ambulance is a van equipped with a more powerful engine and gear to handle most medical emergencies. Ambulances operate both in conjunction with hospitals and as separate Paramedic services. Driving Note: Ambulances, Fire Trucks, and Police Vehicles with their top-lights flashing have right of way over other vehicles.
-            Rescue Response Vehicle:
-              Reference:
-                Fire Truck:
-                  Type:
-                    Road: *Road
-                  Control: Typical
-                  Speed: Excellent
-                  Body: Good
-                  Protection: Typical
-                  Reference: |
-                    Fire Trucks are large trucks used to carry men and materials to fires. Each carries up to a dozen men, along with hose, hooks and ladders, nets, and fireproof suits. Note: Includes Fire Hoses, Hook and Ladder.
-            Hierax One: &Hierax
-              Note: Kept at LaGuardia (LGA)
-              Reference:
-                Corporate Jet:
-                  Type:
-                    Air: *Air
-                  Control: Typical
-                  Speed: Amazing
-                  Body: Feeble
-                  Protection: Typical
-                  Reference: Corporate Jets represent the more modern turbo-prop jets that more powerful corporations use for their top executives. Corporate Jets have a crew of two and may carry up to 20 people in comfort.
-            Hierax Two: *Hierax
-            Prototype Bipedal Vehicle:
-              Reference:
-                Walker:
-                  Type:
-                    Off-Road: *Off-Road
-                  Control: Good
-                  Speed: Good
-                  Body: Remarkable
-                  Protection: Remarkable
-                  Reference:  
-                    - The Walker is a curious form of off-road vehicle in that it does not have wheels or treads but rather two or more legs that simulate human or animal movement. Such devices are generally experimental and are used by organizations such as Hulkbusters. They are normally equipped with a stun cannon, as firing weapons with recoil (such as LAW or Light Artillery) would require a Control FEAT to prevent tipping over. Any attack on a walker vehicle requires a Control FEAT by the operator to determine whether it remains upright. Seats four to eight persons.
-                    - Shooting Weapons:
-                        Stun Cannon:
-                          Range: 10
-                          Rate: 1
-                          Shots: 10
-                          Material Strength: Remarkable
-                          Notes:
-                            - Two men to fire
-                            - One-man firing at -1CS to hit
-                            - Incredible Intensity stunning
-                            - Bursts (Affects up to 3 adjacent targets with one roll)
-                            - Power pack
-            Prototype Tunneling Vehicle:
-              Reference:
-                Borer:
-                  Type:
-                    Off-Road: *Off-Road
-                  Control: Poor
-                  Speed: Typical
-                  Body: Remarkable
-                  Protection: Remarkable
-                  Reference: The Borer is not really a land vehicle but a subterranean vehicle. It allows speedy travel through the underground. If moving at Poor speed, its passage leaves a tunnel that others may follow; otherwise, it leaves churned earth behind it. Villains who live deep within the Earth, such as Mole Man, use the Borer as standard equipment. Because of its construction, with the forward screw, the borer can make an Edged Attack for Incredible damage.
-  Headquarters:
-    Akropolis:
-      Description: |
-        A mid-rise office building attached to a warehouse and factory with a parking garage and some dockside space and rail access, located near the port and transit station in the Hudson Yards neighborhood of Manhattan, comprise the Varangian Guard, Incorporated headquarters compound, Akropolis. There are helipads, extensive communications antenna arrays, weather and atmospheric montiors, and solar panels atop each.
-
-        There is a perimeter wall with security stations that oversee the walkup, light vehicle, freight, and railyard entrances, as well as at the docks, whose piers are outside the perimeter. The entrances for Varangian Guard vehicles are separate from the others, and employees, visitors, and VIPs also have separate entrances for both foot and vehicle traffic.
-
-        The sidewalk and street and water outside the perimeter wall, the pier, railyard, the roof, and the grounds inside and the interiors and exteriors of the buildings themselves are always well-lit and watched by cameras with infra-red capability, recorded and monitored at the security station. The company employes certified and licensed doctors, paramedics, and firefighters who are located onsite as well.
-
-        There is ample exterior and covered parking inside the perimeter in the outside lots and attached parking garage for employees, visitors, and company vehicles, all of them separate and watched, in addition to the maintenance garages inside the warehouse building. There is special, reserved parking outside for emergency and government vehicles.
-      Administrative Building:
-        Description: Primary administrative building for the Varangian Guard leadership and support personnel.
+  Equipment:
+    Other Equipment:
+      Utility Drone:
         Reference:
-          Office Building, 8 floors:
-            Size:
-              Deluxe: &Deluxe Deluxe is the largest size, and is for heroes with several vehicle types, trophy rooms, and living quarters. It has 20 + areas spread through 3 or more floors.
-            Material Strength: Remarkable
-        Room Packages:
-          Basement:
-            Operations Center:
-              Communications Room:
-                Cost: Incredible
-                Reference: &Communications_Room |
-                  Cost: Remarkable Occupies one room. Includes chair, short-wave monitor, tap-in for computer networks, police band. At Incredible Cost includes national security alert equipment and visual display screens.
-            Security Office:
-              Crime Files Room:
-                Cost: Incredible
-                Reference: |
-                  Cost: Excellent Occupies one room. Basically a separate computer with a specialized task at information processing and retrieval. Used by large groups to keep track of former villains and modi operandi. Performs its task with Remarkable ability. Room cost includes terminal, chairs, lights.
-            Holding Cells:
-              Imprisonment Package:
-                Cost: Incredible
-                Note: Multiple
-                Reference: |
-                  Cost: Excellent Occupies one room. Contains standard restraining devices, including bars of Remarkable material strength. At Remarkable Cost, restraining devices made of Incredible Strength. At Incredible Cost, restraining devices at Amazing Strength and Excellent Strength inhibitor restraints.
-            Backup Data Center:
-              Computer Room:
-                Cost: Amazing
-                Reference: &Computer_Room |
-                  Cost: Remarkable Occupies one room. Includes computer itself and a terminal for access, or terminal and communication equipment for access to computer outside the building. This computer is capable of performing simple tasks (calculation, information retrieval, monitoring) with Excellent ability. Incredible Cost buys a computer with this at Remarkable ability. Computers with higher forecasting and processing abilities, such as the one running the old Baxter Building and artificial computer intelligences, are unique designs.
-            Medical and Forensic Laboratory:
-              Laboratory Package:
-                Cost: Amazing
-                Reference: &Laboratory_Package |
-                  Cost: Remarkable Occupies one or more rooms. Basic lab equipment: scales, sinks, common chemicals, microscope. At Incredible Cost include computer capable of analysis with incredible ability, or clean room (prevent germs from escaping lab). At Amazing Cost include both, plus poison analysis and serum dispenser (Excellent effects against known poisons only). Certain pieces, such as electron micro-probes and stellar mass detectors, may be purchased separately (in general, such items are Incredible Rank purchases).
-            Private Hospital:
-              Medical Package:
-                Cost: Amazing
-                Reference:  &Medical_Package |
-                  Cost: Remarkable Occupies one room. Equivalent of emergency room care, no heavy equipment, standard antidotes and medication. Incredible Cost: X-ray, clean room, operating room, pathology. (Additional rooms.) Amazing Cost: as above, plus cryogenics. Note: The Auto-doc and other life-saving devices are generally experimental on Earth. The one in the X-Men's possession is of Shi'ar hybrid technology, is one of the most powerful available, and is limited to Excellent healing ability.
-            Primary Power:
-              Power Room:
-                Cost: Amazing
-                Reference: &Power_Room |
-                  Cost: Remarkable Occupies one room. Buildings are generally assumed to draw their power from outside sources, with the resulting danger of blackouts and power overloads. Heroes who wish a back-up source or alternate source (say, to power a Monstrous-strength ray-gun) must install their own power supply. At this level, the generator purchased will provide a 12-hour supply of power. Incredible Cost brings a 24-hour supply of power and an automatic cut-in 2 rounds after power fails. Amazing Cost brings solar-powered cells, removing the need for external power in normal situations.
-            Backup Power:
-              Power Room:
-                Cost: Amazing
-                Reference: *Power_Room
-            Storage, Bathrooms, and Closets: &PSBC These are assumed in the cost of the building, according to its design. These rooms cost nothing, and no package exists other than what the heroes decide to stuff into the closets.
-            Security Package:
-              Cost: Remarkable
-              Location: All doors
-              Reference: &Security_Package |
-                Cost: Good — one Security package to a door or window. Occupies no space. Consists of hand-set burglar alarms on windows and doors, coupled with mechanical locks. At Excellent Cost: Automatic burglar alarms with computer-code or card identification system. At Remarkable Cost: Automatic burglar alarms with palm-print scan, can activate defense systems. At Incredible Cost: Full body scan with benign identification program as to hostility. Can activate defense systems.
-            Fire Protection Package:
-              Cost: Remarkable
-              Location: All Areas
-              Reference: &Fire_Protection_Package |
-               Cost: Excellent Occupies no space. Sprinkler system that may cover up to 10 rooms, provides Good protection from fire. Remarkable Cost: Foam-projectors that provide Excellent protection from fire, covers up to 10 rooms. Fire Protection Packages automatically activate on heat or smoke and must be modified to avoid extinguishing flaming heroes.
-            Defense Package:
-              Cost: Amazing
-              Location: All areas
-              Note:
-                - Multiple:  &Multiple_Defense
-                  - Laser: Energy
-                  - Concussive: Force
-                  - Stun: Stunning
-              Reference: &Defense_Package |
-                Cost: Excellent Will protect one or more areas. Pre-set defenses consisting of entangling tentacles or nets or lasers or stun rifles, or concussive rifles or pit traps, with the maximum of Remarkable Strength or Intensity. Remarkable Cost: Defenses activated by Security package, consists of one type as above of Incredible Strength. Incredible Cost: As above, intensities are of Amazing Strength. Multiple defense mechanisms may protect the same establishment (example, the WCA compound consists of net-filled pits, stun rifles disguised as trees, and a passive alarm system in the Security Package). Specialized defense packages may be designed.
-          Ground Floor:
-            Lobby:
-              Living Room Package:
-                Cost:
-                  Total: Incredible
-                  Base: Remarkable
-                Note:
-                  - &+1CS_High-Quality +1CS to Cost for high-quality Package
-                  - Multiple: Size
-                Reference: &Living_Room_Package |
-                  Cost: Good - Occupies one room. Consists of sofa, two easy chairs, two end tables, coffee tables, two lamps (ceiling table or floor). At Excellent Cost add television, stereo set-up, or piano. At Remarkable Cost add all three.
-            Auditorium:
-              Conference Room Package:
-                Cost:
-                  Total: Amazing
-                  Base: Incredible
-                Note: *+1CS_High-Quality
-                Reference: &Conference_Room_Package |
-                  *Cost: Remarkable* - Occupies one room. Contains material for assembling of heroes, or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs. Wood paneling available at *Incredible Cost*.
-            Conference One:
-              Conference Room Package:
-                Cost:
-                  Total: Amazing
-                  Base: Incredible
-                Note: *+1CS_High-Quality
-                Reference: *Conference_Room_Package
-            Reception Hall:
-              Trophy Room Package:
-                Cost:
-                  Total: Incredible
-                  Base: Remarkable
-                Note: *+1CS_High-Quality
-                Reference: |
-                  Cost: Excellent Occupies one room. Contains showcase, lighting, frames to display mementos, and may be used as a reception hall or gallery. At Remarkable Cost, contains capability to handle potentially dangerous exhibits at the Incredible level.
-            Reception Kitchen:
-              Kitchen Package:
-                Cost: Remarkable
-                Reference: &Kitchen_Package |
-                  Cost: Good - Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing. At Excellent Cost add refrigerator, dishwasher, or microwave, plus a fire extinguisher. At Remarkable Cost add all three and freezer.
-            Reception Dining:
-              Dining Room Package:
-                Cost:
-                  Total: Incredible
-                  Base: Remarkable
-                Note:
-                  - Multiple: Size
-                  - *+1CS_High-Quality
-                Reference: &Dining_Room_Package |
-                  Cost: Good - Occupies one room. Consists of table, four chairs, ceiling lamp. Excellent Cost add large table, bureau and four more chairs. Remarkable Cost add china cabinet, set of good china and sterling tableware.
-            Office Suite:
-              Office Package:
-                Cost: Remarkable
-                Reference: &Office_Package |
-                  Cost: Good - Occupies one or more rooms. Includes desk, three chairs, two lamps. At Excellent Cost doubles the material, adds file cabinet, typewriter. At Remarkable Cost, add computer terminal, double previous material, add hanging plants, decorative art.
-            Storage, Bathrooms, and Closets: *PSBC
-            Security Package:
-              Cost: Remarkable
-              Location: All doors and windows, perimeter
-              Reference: *Security_Package
-            Fire Protection Package:
-              Cost: Remarkable
-              Location: All Areas
-              Reference: *Fire_Protection_Package
-            Defense Package:
-              Cost: Amazing
-              Location: Perimeter and Exterior
-              Note: *Multiple_Defense
-          First Floor: &Office_Floor
-            Office Suite:
-              Office Package:
-                Cost: Remarkable
-              Note: Multiple
-              Reference: *Office_Package
-            Storage, Bathrooms, and Closets: *PSBC
-            Security Package:
-              Cost: Remarkable
-              Location: All doors and windows
-              Reference: *Security_Package
-            Fire Protection Package:
-              Cost: Remarkable
-              Location: All Areas
-              Reference: *Fire_Protection_Package
-          Second Floor: *Office_Floor
-          Third Floor: *Office_Floor
-          Fourth Floor: *Office_Floor
-          Fifth Floor:
-            Conference Rooms:
-              Conference Room Package:
-                Cost: Remarkable
-                Note: Multiple
-              Reference: *Conference_Room_Package
-            Employee Kitchen:
-              Kitchen Package:
-                Cost: Remarkable
-                Reference: *Kitchen_Package
-            Break Room:
-              Living Room Package:
-                Cost: Remarkable
-                Note:
-                  - Multiple: Size
-                Reference: *Living_Room_Package
-            Employee Lounge:
-              Rec. Room Package:
-                Cost: Remarkable
-                Reference: &Rec_Room_Package |
-                  Cost: Excellent Occupies one or more rooms. Consists of unmatched sofa and easy chairs, pool table or ping pong table or TV. At Remarkable Cost, contains all of the above, video and/or pinball machines (hot tub is optional, only in California). At Amazing Cost, has all of the above plus computer-assisted holographic entertainment projector.
-            Employee Gym:
-              Gym Package:
-                Cost: Incredible
-                Reference: &Gym_Package |
-                  Cost: Excellent Occupies one or more rooms. Consists of typical weight-lifting equipment, universal gym, lockers. At Remarkable Cost includes rings, even and uneven parallel bar, short horse. At Incredible Cost includes separate locker and steam rooms (two additional rooms), diagnostic displays. At Amazing Cost includes a boxing area, robotic opponents, and electronic-based weights capable of reaching 100 tons, and must occupy at least 3 areas.
-            Storage, Bathrooms, and Closets: *PSBC
-            Security Package:
-              Cost: Remarkable
-              Location: All doors and windows
-              Reference: *Security_Package
-            Fire Protection Package:
-              Cost: Remarkable
-              Location: All Areas
-              Reference: *Fire_Protection_Package
-          Sixth Floor:
-            Data Centers:
-              Computer Room:
-                Cost: Amazing
-                Note: Multiple
-                Reference: *Computer_Room
-            Office Suite:
-              Office Package:
-                Cost: Remarkable
-                Reference: *Office_Package
-            Storage, Bathrooms, and Closets: *PSBC
-            Security Package:
-              Cost: Remarkable
-              Location: All doors and windows, perimeter
-              Reference: *Security_Package
-            Fire Protection Package:
-              Cost: Remarkable
-              Location: All Areas
-              Reference: *Fire_Protection_Package
-          Seventh Floor:
-            Executive Floor Lobby:
-              Living Room Package:
-                Cost:
-                  Total: Amazing
-                  Base: Remarkable
-                  Note: &+2CS_High-Quality +2CS to Cost for extremely high-quality Package.
-                  Reference: *Living_Room_Package
-            Executive Conference Room:
-              Conference Room Package:
-                  Total: Monstrous
-                  Base: Incredible
-                  Note: *+2CS_High-Quality
-                  Reference: *Conference_Room_Package
-            Executive Office Suite:
-              Office Package:
-                Cost:
-                  Total: Amazing
-                  Base: Remarkable
-                  Note: *+2CS_High-Quality
-                  Reference: *Office_Package
-            Storage, Bathrooms, and Closets: *PSBC
-            Security Package:
-              Cost: Remarkable
-              Location: All doors and windows, roof access
-              Reference: *Security_Package
-            Fire Protection Package:
-              Cost: Remarkable
-              Location: All Areas
-              Reference: *Fire_Protection_Package
-          Roof: &Roof
-            Helicopter Maintenance:
-              Hangar Package:
-                Cost: Excellent
-                Vehicle: Traffic Copter
-                Reference: |
-                  Cost: Excellent Occupies one area per vehicle using that hangar. Servicing for a single air vehicle, including repair facilities. Each different vehicle requires its own hangar package.
-            Storage, Bathrooms, and Closets: *PSBC
-            Security Package:
-              Cost: Remarkable
-              Location: Roof access, hangar entrances
-              Reference: *Security_Package
-            Fire Protection Package:
-              Cost: Remarkable
-              Location: All interior areas, helipad
-              Reference: *Fire_Protection_Package
-            Defense Package:
-              Cost: Amazing
-              Location: All areas
-              Note:
-                - Multiple: *Multiple_Defense
-              Reference: *Defense_Package
-      Operations Building:
-        Description: Primary operations center for the Varangian Guard.  Includes barracks and crash bunks for security personnel, serves as dispatch, training facility, and fleet garage.
+          Standard Robot: The Standard Robot is only capable of simple tasks and has no special abilities other than to record what transpires before its recorders and perform simple tasks. The H.E.R.B.I.E. series was a modified form of the standard robot. All Standard robot abilities are Typical.
+      Security Drone:
         Reference:
-          Large Warehouse:
-            Size:
-              Deluxe: *Deluxe
-            Material Strength: Good
-        Room Packages:
-          Floor:
-            Dispatch:
-              Communications Room:
-                Cost: Incredible
-                Reference: *Communications_Room
-            Briefing Room:
-              Conference Room Package:
-                Cost: Remarkable
-                Reference: *Conference_Room_Package
-            Galley:
-              Kitchen Package:
-                Cost: Remarkable
-                Note:
-                  - Multiple: Size
-                Reference: *Kitchen_Package
-            Fleet Garage:
-              Garage Package:
-                Cost: Remarkable
-                Note:
-                  - Multiple: Size
-                Reference: &Garage_Package |
-                  Cost: Good Occupies one room. Servicing for a single ground vehicle, including repair facilities and fire extinguisher. Excellent Cost may service up to three ground vehicles, and Remarkable up to 12 ground vehicles.
-            Cafeteria:
-              Dining Room Package:
-                Cost: Excellent
-                Note:
-                  - Multiple: Size
-                Reference: *Dining_Room_Package
-            Lounge:
-              Rec. Room Package:
-                Cost: Remarkable
-                Note:
-                  - Multiple: Size
-                Reference: *Rec_Room_Package
-            Infirmary:
-              Medical Package:
-                Cost: Remarkable
-                Reference: *Medical_Package
-            Gym:
-              Gym Package:
-                Cost: Amazing
-                Note:
-                  - Multiple: Size
-                Reference: *Gym_Package
-            Training:
-              Danger Room:
-                Cost:
-                  Total: Unearthly
-                  Base: Amazing
-                Note: *+2CS_High-Quality
-                Reference: |
-                  Cost: Incredible Duplicates Remarkable Cost Gym package with additional active dangers and security systems. "Threats" may be of any general type, but no "threat" may exceed Incredible in strength, Intensity, or damage. Amazing Cost: as Incredible, with threats increased to Amazing strength, intensity, or damage. Some limited holographic illusion generation at the Excellent rank. This represents the danger room of the type originally possessed by the X-Men and now used by the Hellions. The current X-Men danger room is a unique hybrid design using Shi'ar technology and has holographic abilities that outshine those listed here.
-            Administrative Office:
-              Office Package:
-                Cost: Remarkable
-            Primary Power:
-              Power Room:
-                Cost: Amazing
-                Reference: *Power_Room
-            Backup Power:
-              Power Room:
-                Cost: Amazing
-                Reference: *Power_Room
-            Boat Maintenance:
-              Dock Package:
-                Cost: Excellent
-                Vehicle: Speedboat
-                Note: Multiple
-                Reference: &Dock_Package |
-                  Cost: Remarkable Occupies three areas per sea or sub vehicle. Servicing for a single sea or sub vehicle, including drydock facilities. Each sea or sub vehicle requires its own dock package.
-            Personal Watercraft Maintenance:
-              Dock Package:
-                Cost: Excellent
-                Vehicle: Jetski
-                Note: Multiple
-                Reference: *Dock_Package
-            Hovercraft Maintenance:
-              Dock Package:
-                Cost: Excellent
-                Vehicle: Hovercraft
-                Reference: *Dock_Package
-            Storage, Bathrooms, and Closets: *PSBC
-            Security Package:
-              Cost: Remarkable
-              Location: All doors and windows, roof access, perimeter
-              Reference: *Security_Package
-            Fire Protection Package:
-              Cost: Remarkable
-              Location: All Areas
-              Reference: *Fire_Protection_Package
-            Defense Package:
-              Cost: Amazing
-              Location: Perimeter and Exterior
-              Note: *Multiple_Defense
-              Reference: *Defense_Package
-          Roof: *Roof
-      Technical Building:
-        Description: Research and development and manufacturing and production all in one building.  Also has maintenance and repair facilities.
+          Sentry Robot: The Sentry Robot has a bit more programming and firepower. It is programmed to identify hostile threats (that is — anything not in its bank) and open fire. Sentry robots come equipped with Good Strength lasers, though some may be additionally armed. All sentry robot abilities are Good.
+      Specialist Drone:
         Reference:
-          Large Factory:
-            Size:
-              Deluxe: *Deluxe
-            Material Strength: Incredible
-        Room Packages:
-          Floor:
-            Production Floor:
-              Workshop Package:
-                Cost: Amazing
-                Note:
-                  - Multiple: Size
-                Reference: &Workshop_Package |
-                  Cost: Remarkable Occupies one or more rooms. Basic equipment for metal and woodworking: lathes, drills, saws and fire extinguisher. At Incredible Cost includes laser-guided instruments. At Amazing Cost includes all of the above and automatic processing materials (an automatic factory, in effect, for simple goods).
-            Research and Development:
-              Laboratory Package:
-                Cost: Amazing
-                Note:
-                  - Multiple: Size
-                Reference: *Laboratory_Package
-            Break Room:
-              Living Room Package:
-                Cost: Remarkable
-                Note:
-                  - Multiple: Size
-                Reference: *Living_Room_Package
-            Administrative Office:
-              Office Package:
-                Cost: Remarkable
-                Reference: *Office_Package
-            Primary Power:
-              Power Room:
-                Cost: Amazing
-                Reference: *Power_Room
-            Backup Power:
-              Power Room:
-                Cost: Amazing
-                Reference: *Power_Room
-            Garage:
-              Garage Package:
-                Cost: Remarkable
-                Note:
-                  - Multiple: Size
-                Reference: *Garage_Package
-            Storage, Bathrooms, and Closets: *PSBC
-            Security Package:
-              Cost: Remarkable
-              Location: All doors and windows, roof access, perimeter
-              Reference: *Security_Package
-            Fire Protection Package:
-              Cost: Remarkable
-              Location: All Areas
-              Reference: *Fire_Protection_Package
-            Defense Package:
-              Cost: Amazing
-              Location: Perimeter and Exterior
-              Note: *Multiple_Defense
-          Roof: *Roof
+          Talent Robot: The Talent Robot is a robot specifically designed for a certain purpose, and its programming reflects that purpose. The Avengers' fire-fighting robots or the robotic opponent the Black Knight uses are examples of talent robots. Such robots may have one ability at Remarkable level. All others are Excellent.
+    Vehicles:
+      Operations Vehicle:
+        Note: Primary patrol, response, and utility vehicle. Wilderness use. Lots of utility accessories.
+        Reference:
+          Jeep:
+            Type:
+              Off-Road: &Off-Road Off-Road vehicles are land vehicles designed to handle broken ground better than road vehicles. Some recreational vehicles and military equipment fall under this category.
+            Control: Good
+            Speed: Excellent
+            Body: Good
+            Protection: Poor
+            Reference: &Jeep The Pick-Up and Jeep are four-wheel drive off-road vehicles. Four-wheel drive does not prevent you from getting stuck; it only gets you stuck in worse places (quote by Dirtbuggy Doug Niles). The Jeep has been a workhorse for the Army for years and is only now being replaced by another vehicle with similar stats.
+      Operations Transport:
+        Note: Company car used by executives, employees on TDY, etc.
+        Reference:
+          Luxury Car:
+            Type:
+              Road: &Road Road vehicles are those designed primarily to be driven on relatively flat surfaces (like roads), and include most vehicles found in modern cities. Road vehicles suffer penalties for Control and Speed when off- road (like cutting through the park in your luxury lime)
+            Control: Poor
+            Speed: Good
+            Body: Poor
+            Protection: Poor
+            Reference: Luxury Cars are the gas-guzzling huge cars, ranging from mid-sized Cadillacs to monster limos with wet bars inside. Their big trouble is that they steer like rocks; they seat from 5 up to about 10 for the largest vehicles.
+      Heavy Utility Vehicle:
+        Note: Heavy transport, tow trucks, snowplows, etc.
+        Reference:
+          Heavy Truck: &Heavy_Truck
+            Type:
+              Road: *Off-Road
+            Control: Poor
+            Speed: Typical
+            Body: Excellent
+            Protection: Good
+            Reference: Heavy Trucks include dump trucks and other heavy construction equipment.
+      Construction and Repair Vehicles:
+        Note: Mixers, dump trucks, graders, asphalt trucks, utility bucket lifts, cranes, etc.
+        Reference:
+          Heavy Truck: *Heavy_Truck
+      Construction Equipment:
+        Note: Bulldozers, backhoes, end-loaders, etc.
+        Reference:
+          Bulldozer:
+            Type:
+              Road: *Off-Road
+            Control: Typical
+            Speed: Typical
+            Body: Excellent
+            Protection: Typical
+            Reference: A Bulldozer is another typical construction vehicle. The blade on the front makes a suitable battering ram and is made of Remarkable strength material.
+      Utility Vehicle:
+        Note: Local light freight pick-up, etc. Wilderness use.
+        Reference:
+          Pick-Up: &Pick-Up
+            Type:
+              Off-Road: *Off-Road
+            Control: Typical
+            Speed: Good
+            Body: Good
+            Protection: Typical
+            Reference: *Jeep
+      Maintenance Vehicle:
+        Note: Used by groundskeepers and maintenance crew.  Tool racks with appropriate equipment.
+        Reference:
+          Pick-Up: *Pick-Up
+      Grounds Maintenance Vehicle:
+        Note: Used by groundskeepers, tows light trailers, mows, edges, etc.
+        Reference:
+          Tractor: &Tractor
+            Type:
+              Off-Road: *Off-Road
+            Control: Good
+            Speed: Typical
+            Body: Good
+            Protection: Shift 0
+      Helicopter Tender:
+        Note: Light tractor for shuttling helicopters between hangars and helipads.
+        Reference:
+          Tractor: *Tractor
+      Personnel Transport:
+        Reference:
+          Van: &Van
+            Type:
+              Road: *Road
+            Control: Poor
+            Speed: Good
+            Body: Good
+            Protection: Good
+            Reference: Vans are large, box-like vehicles on a sedan wheelbase. They have the advantage of space (about 8 bodies), and the back may be covered to prevent unwanted eyes seeing in. Both Captain America and Punisher have modified vans.
+      Cargo Transport:
+        Reference:
+          Van: *Van
+      VIP Transport:
+        Reference:
+          Security Limo:
+            Type:
+              Road: *Road
+            Control: Typical
+            Speed: Poor
+            Body: Excellent
+            Protection: Good
+            Reference: Security Limo is a variant of the luxury car, with stronger materials, thicker plating about the passenger compartment, bullet-proof glass, and a higher protection value to those within. Seating is as for Luxury Cars.
+      Special Transport:
+        Reference:
+          Armored Car:
+            Type:
+              Road: *Road
+            Control: Typical
+            Speed: Typical
+            Body: Remarkable
+            Protection: Remarkable
+            Reference: Armored Cars are favorite targets of criminals and normally sport a team of two guards in the front and an optional man inside. Armored Cars are also used for transporting powerful criminals who are under arrest.
+      Light Utility Vehicle:
+        Note: Primarily on-premises use.  Wilderness use.
+        Reference:
+          ATV:
+            Type:
+              Off-Road: *Off-Road
+            Control: Remarkable
+            Speed: Good
+            Body: Good
+            Protection: Typical
+            Reference: ATV means All-Terrain Vehicle and is a catch-phrase for the wide variety of multiple-tired and treaded vehicles used both by ordinary citizens and secret subversive societies.
+      Security Interceptor-Cruiser:
+        Note: Fast patrol and response. On-premises security and escort. Pursuit. Highway travel.
+        Reference:
+          Police Car: &Police_Car
+            Type:
+              Road: *Road
+            Control: Good
+            Speed: Excellent
+            Body: Typical
+            Protection: Typical
+            Reference: Police Cars are the vehicles of the constabulary, usually with a little more power under the hood and better-cared for than the standard sedan. Police cars seat 5 but often have a grill between the front and back seats to prevent the passengers from getting to the driver (and vice-versa).
+      Special Officer Transport:
+        Note: Special Officers use an unmarked variant.
+        Reference:
+          Police Car: *Police_Car
+      Security Transport:
+        Reference:
+          Police Van:
+            Type:
+              Road: *Road
+            Control: Typical
+            Speed: Good
+            Body: Good
+            Protection: Typical
+            Reference: The Police Van is to the van as the Police Car is to the sedan. This vehicle often carries additional armament for teams in trouble, including Riot Guns and gas canisters. The back part of the van can carry up to 10 prisoners for short periods.
+      Crisis Response Vehicle:
+        Reference:
+          SWAT Van:
+            Type:
+              Road: *Road
+            Control: Typical
+            Speed: Good
+            Body: Remarkable
+            Protection: Excellent
+            Reference: The SWAT in SWAT Van stands for Special Weapons And Tactics, and these babies are portable armories of ten riot guns, ten sniper rifles, ten flak jackets, and a wide supply of smoke, tear gas, and knock-out gas grenades (sorry, weapons and batteries not included in the purchase of the vehicle). Carries about ten people.
+      Executive Helicopter:
+        Note: Comfortable and luxurious
+        Reference:
+          Traffic Copter: &Traffic_Copter
+            Type:
+              Air: &Air Air vehicles travel mainly through the friendly skies, and include all forms of aircraft from gliders to the Concorde.
+            Control: Good
+            Speed: Excellent
+            Body: Feeble
+            Protection: Feeble
+            Reference: Traffic Copters are fairly common in the airspace over American cities, and this type also includes private vehicles and medivac copters as well. Helicopters have VTOL ability (Vertical Take-off and Landing), and as such may drop to 0 speed without losing control.
+      Patrol Helicopter:
+        Note: Spotlights, cameras, thermal, loudspeakers, advanced comms, etc.
+        Reference:
+          Traffic Copter: *Traffic_Copter
+      Medevac Helicopter:
+        Note: Equipped as an ambulance
+        Reference:
+          Traffic Copter: *Traffic_Copter
+      Patrol Craft:
+        Reference:
+          Hovercraft:
+            Type:
+              GEV: GEV means Ground Effect Vehicle, which is basically the hovercraft. GEVs exhibit properties of both Air and Off-Road Vehicles, and as such deserve their own entry
+            Control: Poor
+            Speed: Excellent
+            Body: Good
+            Protection: Good
+            Reference: The Hovercraft is the only notable mention of the Ground Effect Vehicle. This vehicle is neither fish nor fowl, as it rides on a cushion of air, handles as does an Air type, but goes out of control as an off-road vehicle. Hovercraft move at a maximum Speed of Good off road, over broken ground, or in stormy weather.
+      Utility Craft:
+        Reference:
+          Speedboat:
+            Type:
+              Water: &Water Water vehicles are boats of every description. from sailboats to carriers. Their main limitation is the danger of sinking. Submersible vehicles are those designed to travel underwater, and are represented by the submarine. Subs are similar to water vehicles in the danger of sinking.
+            Control: Good
+            Speed: Incredible
+            Body: Typical
+            Protection: Poor
+            Reference: The Speedboat is the more streamlined, powerful version of the motorboat. It is used as a pleasure craft and also for missions requiring quick entrance and exit. Seats about 4 comfortably.
+      Rapid Response Craft:
+        Reference:
+          Jetski:
+            Type:
+              Water: *Water
+            Control: Excellent
+            Speed: Excellent
+            Body: Good
+            Protection: 0
+            Reference: Jetskis are small one-man sea equivalents of the snowmobile. Some may be modified to carry weapons, and others have been modified to give flight and underwater abilities.
+      Emergency Medical Transport:
+        Reference:
+          Ambulance:
+            Type:
+              Road: *Road
+            Control: Good
+            Speed: Excellent
+            Body: Good
+            Protection: Good
+            Reference: |
+              An Ambulance is a van equipped with a more powerful engine and gear to handle most medical emergencies. Ambulances operate both in conjunction with hospitals and as separate Paramedic services. Driving Note: Ambulances, Fire Trucks, and Police Vehicles with their top-lights flashing have right of way over other vehicles.
+      Rescue Response Vehicle:
+        Reference:
+          Fire Truck:
+            Type:
+              Road: *Road
+            Control: Typical
+            Speed: Excellent
+            Body: Good
+            Protection: Typical
+            Reference: |
+              Fire Trucks are large trucks used to carry men and materials to fires. Each carries up to a dozen men, along with hose, hooks and ladders, nets, and fireproof suits. Note: Includes Fire Hoses, Hook and Ladder.
+      Hierax One: &Hierax
+        Note: Kept at LaGuardia (LGA)
+        Reference:
+          Corporate Jet:
+            Type:
+              Air: *Air
+            Control: Typical
+            Speed: Amazing
+            Body: Feeble
+            Protection: Typical
+            Reference: Corporate Jets represent the more modern turbo-prop jets that more powerful corporations use for their top executives. Corporate Jets have a crew of two and may carry up to 20 people in comfort.
+      Hierax Two: *Hierax
+      Prototype Bipedal Vehicle:
+        Reference:
+          Walker:
+            Type:
+              Off-Road: *Off-Road
+            Control: Good
+            Speed: Good
+            Body: Remarkable
+            Protection: Remarkable
+            Reference:  
+              - The Walker is a curious form of off-road vehicle in that it does not have wheels or treads but rather two or more legs that simulate human or animal movement. Such devices are generally experimental and are used by organizations such as Hulkbusters. They are normally equipped with a stun cannon, as firing weapons with recoil (such as LAW or Light Artillery) would require a Control FEAT to prevent tipping over. Any attack on a walker vehicle requires a Control FEAT by the operator to determine whether it remains upright. Seats four to eight persons.
+              - Shooting Weapons:
+                  Stun Cannon:
+                    Range: 10
+                    Rate: 1
+                    Shots: 10
+                    Material Strength: Remarkable
+                    Notes:
+                      - Two men to fire
+                      - One-man firing at -1CS to hit
+                      - Incredible Intensity stunning
+                      - Bursts (Affects up to 3 adjacent targets with one roll)
+                      - Power pack
+      Prototype Tunneling Vehicle:
+        Reference:
+          Borer:
+            Type:
+              Off-Road: *Off-Road
+            Control: Poor
+            Speed: Typical
+            Body: Remarkable
+            Protection: Remarkable
+            Reference: The Borer is not really a land vehicle but a subterranean vehicle. It allows speedy travel through the underground. If moving at Poor speed, its passage leaves a tunnel that others may follow; otherwise, it leaves churned earth behind it. Villains who live deep within the Earth, such as Mole Man, use the Borer as standard equipment. Because of its construction, with the forward screw, the borer can make an Edged Attack for Incredible damage.
