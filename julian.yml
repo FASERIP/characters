@@ -1052,7 +1052,10 @@ Game:
                       Neurotoxin Dart:
                         Power: Neural Manipulation
                         Effect: Chosen form of Neural Manipulation power
-                      Gas Canister: &Gas_Canister
+                      Sleep Dart:
+                        Power: Sleep-Induced
+                        Effect: Effect of Power
+                      Smoke Canister: &Gas_Canister
                         Power: Spray
                         Effect: Feeble damage and obscures vision in area
                     Powers:
@@ -1069,6 +1072,13 @@ Game:
                             - Exaggeration: Nerve signals are actually amplified, causing the target to overact when attempting any movement.
 
                             Normally, a hero can select any of these effects. When creating the hero, the player can choose to specialize in one effect for a benefit of +2CS. Note: This Power only affects the voluntary muscles; it does not affect the autonomic nervous system which controls the heart, lungs, and other automatic bodily functions. The range and duration of this Power are determined by its rank. Suitable distances are shown on column A of the Range Table. The Power normally affects only a single person; affecting more causes a decrease in duration of -1CS per additional person. The target's mind and senses are unaffected by the Power: the victim knows full well what is happening (even if he doesn't know why it's happening to him). The Power can reach across the dimensional barriers if it is combined with some way of breaching the dimensions. It can function normally if both hero and target are within another dimension.
+                        Sleep-Induced: #L18
+                          Rank: Base Power Rank
+                          Note: *Missiles_or_Spray-Only
+                          Reference: &Sleep-Induced
+                            This is a nice, simple, straight-forward Power that is hardly ever used in any comic because it's not terribly dramatic. Nor is it exactly cricket. The hero has the ability to put any target into a deep sleep, from which he cannot awake while the Power is in effect. During this induced sleep, the target is completely helpless (see what I mean about not being cricket?). On the other hand, when you're facing 325 battle-crazed Skrulls, this Power can be really handy.
+
+                            The Power rank determines the range and duration of the Power. Relevant distances are shown on column A of the Range Table. It affects everyone within range. Sleep persists for 1-10 hours after the Power's duration. During that time, the victim can be awakened by anyone, but he'll wake up naturally in any case.
                       Energy Emission:
                         Fire Generation: #EE4
                           Rank: Base Power Rank
@@ -1117,6 +1127,9 @@ Game:
                       Neurotoxin:
                         Power: Neural Manipulation
                         Effect: Chosen form of Neural Manipulation power
+                      Knockout Gas:
+                        Power: Sleep-Induced
+                        Effect: Effect of Power
                       Gas Canister: *Gas_Canister
                     Powers:
                       Energy Control:
@@ -1129,6 +1142,10 @@ Game:
                           Rank: Base Power Rank
                           Note: *Missiles_or_Spray-Only
                           Reference: *Lifeform_Control
+                        Sleep-Induced: #L18
+                          Rank: Base Power Rank
+                          Note: *Missiles_or_Spray-Only
+                          Reference: *Sleep-Induced
                       Energy Emission:
                         Fire Generation: #EE4
                           Rank: Base Power Rank
