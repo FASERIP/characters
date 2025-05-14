@@ -275,6 +275,19 @@ Game:
 
                   Nemesis Powers include Energy, Magic, Psionic, and Power Detections and Resistance to Magic.
             Mental Enhancement:
+              Cosmic Awareness: #M7
+                Rank: Unearthly
+                Number: 100
+                Reference: |
+                  The hero is in tune with the entire scope of reality. He possesses a detached, omniscient viewpoint that allows him to explore the entire existence of a chosen subject. Unfortunately, this causes such a massive overload of superfluous information that the hero is hard pressed to sort it all out. The FEAT represents the hero's ability to recover a specific bit of information from all the effluvia. The more exact the required detail, the higher the difficulty. Discovering basic facts or locating any one on the Earth requires a green FEAT. Complex information or finding anyone within a star system requires a yellow FEAT. Secrets, weaknesses, arcane knowledge, and anything else the Judge wants to make difficult to find out requires a red FEAT.
+
+                  The Power can be used to automatically track any Class 1000 or higher Power within ten miles of the hero's position. In combat the Power raises the hero's own attacks +1CS by detecting the weak points in the opponent.
+
+                  The major drawback to this Power is that can lead to insanity, especially catatonic withdrawal, as the hero's Psyche is continually inundated by a flood of information. The Judge can determine the chance of temporary insanity by secretly making a Reason FEAT for the hero: a green, yellow, or red FEAT means the hero has retained all his marbles for another day. The Judge should make this check any time the hero uses the Power more than five times a day or a number equal to 10% of the Power rank number, whichever is higher. Because of this, caution is urged in the use of this Power. If the Power is somehow negated, the hero may also go into a state of shock or severe depression. Any mental problems the hero suffers can be cured by normal psychotherapy.
+
+                  The Optional Power is Hyper-Intelligence.
+
+                  The Nemesis is Emotion Control.
               Hyper-Intelligence: #M13
                 Reason: 
                   Rank: Unearthly
@@ -368,9 +381,9 @@ Game:
                 Number: 50
                 Total:
                   Rank: Class 1000
-                  Number: 1689
-                  Spread: 27
-                  Turns to Full Recovery: 34
+                  Number: 1789
+                  Spread: 28
+                  Turns to Full Recovery: 36
                 Reference: The hero can channel all his raw energy into a single burst of a chosen Ability or Power. All his Power and Ability rank numbers are totaled together. This rank number replaces the rank number for a chosen Power. Upon the completion of releasing the Power, all the hero's Abilities and Powers temporarily drop to Feeble. This Power's rank number is the total amount of lost points the hero can regain each turn. Points are divided evenly between all the depleted Abilities and Powers. (Okay, this isn't really a Power either. Roll again for an additional Power.)
             Other Powers: #From APB
               Body Alterations-Defensive:
@@ -411,7 +424,7 @@ Game:
               Marksmanship: &Marksmanship The character with this Talent gains a +1CS to hit with any distance weapon that requires line of sight to hit (the character could benefit when firing heavy artillery, but not when controlling a tele-guided missile). Such a weapon in the hands of a marksman does not suffer penalties to hit from range.
               Weapons Master: The character with this Talent gains a +1CS to hit with any weapon that requires a Fighting FEAT to hit.
               Weapons Specialist:
-                - The character with this Talent gains a +2CS with a single weapon of choice. This may be any type of weapon, missile, or melee. The character who is a weapon specialist will also increase his initiative when using this weapon by 1.
+                - &Weapons_Specialist The character with this Talent gains a +2CS with a single weapon of choice. This may be any type of weapon, missile, or melee. The character who is a weapon specialist will also increase his initiative when using this weapon by 1.
                 - Weapons:
                   - Club
                   - Sword
@@ -890,7 +903,7 @@ Game:
         Custom Equipment:
           Guardian Blaster:
             Model I: &Guardian_Blaster
-              Description: The Guardian Blaster Model I is a combination weapon with utility functions.  It fires handgun bullets, gyrojet rockets, canister rounds (including standard shotgun shells, or non-lethal shotgun loads), and plasma, laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher. It's an integrated combination of existing items.
+              Description: The Guardian Blaster Model I is a combination weapon with utility functions.  It fires handgun bullets with the precision of a match-grade target pistol, gyrojet rockets, canister rounds (including standard shotgun shells, or non-lethal shotgun loads, as well as grenadelike canisters), and laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher. It's an integrated combination of existing weapons (Variable Pistol, Target Pistol, Gyrojet Pistol, Laser Pistol, Concussion Pistol, Stun Pistol, Shotgun, Riot Gun) and items (Fire Extinguisher, Silencer, Sniper Sights, Infra-Red Sights, Flashlights—Normal and Halogen, Mace, Flare Gun).
               Count: 2
               Material Strength: Excellent
               Shooting Weapons:
@@ -899,7 +912,6 @@ Game:
                   Gyrojet: 5
                   Laser: 10
                   Concussion: 4
-                  Plasma: 7
                   Stun: 2
                   Shot, Canister: 3
                 Damage:
@@ -907,7 +919,6 @@ Game:
                   Gyrojet: 10
                   Laser: 10
                   Concussion: 10
-                  Plasma: 20
                   Stun: Fires a stunning beam of Typical Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns.
                   Shot: 15
                   Canister: As canister
@@ -916,7 +927,6 @@ Game:
                   Gyrojet: Shooting
                   Laser: Energy
                   Concussion: Force
-                  Plasma: Force
                   Stun: Typical Intensity stunning
                   Shot: Shooting
                   Canister: As canister
@@ -926,7 +936,6 @@ Game:
                   Gyrojet: 3
                   Laser: 10
                   Concussion: 5
-                  Plasma: 10
                   Stun: 10
                   Shot, Canister: 6
                 Notes:
@@ -960,7 +969,8 @@ Game:
                 Target Pistol: The Target Pistol is the most finely balanced and accurate of the pistols. The user of a target pistol suffers no penalty for range when firing with two hands
                 Variable Pistol: The Variable Pistol has an advantage in that it may be set in the field to a specific type of ammunition and changed according to need. Most handguns fire standard ammunition and must be modified to fire other types as well.
                 GyroJet Pistol: A GyroJet Pistol fires a miniature rocket, which may affect one or more targets according to ammunition type. Gyro-jets will only fire one type of ammunition, and gyrojet ammunition will not fit any other type of gun.
-                Laser Pistol, Concussion Pistol, Plasma Beam Handgun: The Laser Pistol, Concussion Pistol, and Plasma Beam Handgun are weapons used by high-tech spies and subversive organizations, including S.H.I.E.L.D. and A.I.M. All three types operate from power packs.
+                Laser Pistol: &Laser_Concussion The Laser Pistol, Concussion Pistol, and Plasma Beam Handgun are weapons used by high-tech spies and subversive organizations, including S.H.I.E.L.D. and A.I.M. All three types operate from power packs.
+                Concussion Pistol: &Laser_Concussion
                 Stun Pistol: The standard Stun Pistol fires a stunning beam of Typical Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns. It operates from a power pack.
                 Shotgun: The Shotgun fires bursts. It is often loaded with non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results).
                 Riot Gun: The Riot Gun is a smaller version of the shotgun and fires grenade-like missiles and canister shot (treat as grenades).
@@ -994,61 +1004,17 @@ Game:
                 Energy Emission:
                   Light Emission: #EE8
                     Rank: Base Power Rank
-                    Reference: &Light_Emission |
-                      The hero can emit powerful bursts of light do Power rank damage at rank range. The light may be of any nature:
+                    Reference:
+                      - &Light_Emission |
+                        The hero can emit powerful bursts of light do Power rank damage at rank range. The light may be of any nature:
 
-                      - Normal light in any color or intensity: the hero can light the area, dispel Shadow Powers, and temporarily blind targets.
-                      - Coherent Light (lasers) do rank level heat damage as they burn into targets. Lasers can also be used to carry information or to create holograms.
-                      - Optic blasts do rank level damage but rather than burn a target, they act as Kinetic Bolts.
+                        - Normal light in any color or intensity: the hero can light the area, dispel Shadow Powers, and temporarily blind targets.
+                        - Coherent Light (lasers) do rank level heat damage as they burn into targets. Lasers can also be used to carry information or to create holograms.
+                        - Optic blasts do rank level damage but rather than burn a target, they act as Kinetic Bolts.
 
-                      The player can raise the hero's rank upon creation by +2CS if he chooses specialization in a specific form of this Power.
-                  Plasma Generation: #EE10
-                    Rank: Base Power Rank
-                    Power Stunts:
-                      - Light: *Light_Emission
-                      - Heat: |
-                          The hero can generate pure heat that is not necessarily accompanied by light or flame by accelerating molecular motion. This permits the hero to do rank level effects over target materials. Some Power Stunts using pure heat include:
-
-                          - Causing the breakdown of molecular or even atomic bonds (Amazing and Unearthly FEATs, respectively).
-                          - Negating a target's magnetism
-                          - Negating a target's electrical conductivity.
-                          - Strengthening materials by heat-treating.
-                          - Changing local weather by heating the air: this can cause small cyclones and electrical storms.
-
-                          Because this Power uses pure heat, it can function in conditions that negate Flame Emission, like the absence of free Oxygen or the hero's being underwater. Beings who possess Thermal Vision or Abnormal Sensitivity can detect an infrared glow around, the hero and his target whenever he uses his Power. Heat Emission is the Nemesis of Cold Emission, Coldshaping, and Powers that use water. This Power gains +1CS when attacking those Powers and loses -1CS when being attacked by them.
-                      - Flame: *Fire_Generation
-                      - Hard Radiation: |
-                          This covers the dangerous section of the energy spectrum: ultraviolet light, x-rays, and alpha and beta particles, gamma rays, and the ever-popular "cosmic rays." The hero can project any of these types at Power rank range and damage. When creating the hero, the player can raise his rank +1CS by specializing in a particular type of hard radiation. For game purposes, we'll assume that the hero has total control over his own inherent radioactivity and possesses automatic safe-guards that prevent him from fatally contaminating the area each time he uses his Power. This Power is linked to Radiation Control: the player can exchange one of his other Powers for Radiation Control when creating the hero, if he so desires.
-                      - Magnetism: |
-                          The hero can generate intense magnetic force. The magnetic field may be centered on the hero's body or be projected at rank range. The field can affect anything susceptible to magnetism, attracting it with Power rank Strength. If the target itself is magnetic, the hero can attract it at +1CS or repel it at Power rank. The hero can induce magnetism into any materials that can sustain a magnetic field: these include ferrous materials, iron-bearing clays and plastics, and ferrous ores. The hero can do rank level damage to electronic devices by scrambling internal signals: this is especially effective against magnetic recordings and micro-chip dependent devices. This Power can affect other Powers. It can redirect Electrical Generation by a Typical Intensity FEAT if the other Power's rank is lower, a Remarkable Intensity FEAT if equal, and an Unearthly Intensity FEAT if the other Power is higher. It can disrupt Electric or Magnetic Control and Energy Sheath or Energy Body, if either are magnetic in nature.
-
-                          The Power has its drawbacks. It attracts some types of attacks if the hero is careless. Such attacks as Electrical Generation or anything using ferrous materials (knives, missiles) gain +2CS.
-
-                          This Power is its own primary Nemesis.
-                      - Electricity: |
-                          The hero can create electrical streams that can do Power rank damage. The hero can project the electricity through any conductive medium, such as air, water, or metal, at Power rank range. If the player chooses, the hero can gain +2CS to his damage by choosing to limit his range to contact only. In this case, the range can be extended by conducting the Power through solid conductors like metal. Electricity comes in various forms:
-
-                          - Static electricity causes magnetic attraction between objects and can disrupt electronic communications.
-                          - Lightning is sheer, raw, destructive power and by far the most popular form of this Power.
-                          - Alternating current is what our technology is driven by. This Power can either energize or overload normal electrical devices.
-                          - Direct current is what a battery produces. It can energize or overload devices that use DC power. It can also short out devices that use AC power.
-
-                          The hero can use any form at will or can raise his rank +1CS by specializing in a particular form. This Power automatically includes Power rank Resistance to Electricity: no FEAT is required to resist your own Power. This Power is linked to Electrical Control and Energy Sheath. When creating the hero, the player can exchange any randomly determined Powers for these if he so desires. Extreme heat reduces this Power's rank by the Intensity rank of the heat. Conversely, extreme cold increases the rank by the cold's Intensity rank. At Shift X level, the hero gains the ability to create a stream of conductive gas, thus allowing the Power to function even in a vacuum.
-                    Reference: |
-                      Plasma refers to here to a field of highly-charged particles. Common examples include the aurora borealis, the glow in a fluorescent tube, the Van Allen Belt, and the heart of a nuclear blast. Plasmas may be of any nature: fiery, magnetic, electrical, radioactive, or be of a previously unknown form of energy. This last group includes many super-powers, living energy fields, and beings who can transform themselves into pure energy.
-
-                      The hero can project Plasma fields at Power rank range. Due to the unique nature of this Power, it does damage on two levels. The primary level is brute force: the field does Power rank damage There are also side-effects based on the nature of each Plasma bolt. Plasma fields have two of the following side effects:
-
-                      - Light at -2CS level of illumination
-                      - Heat at -2CS damage
-                      - Flame at -2CS damage
-                      - Hard Radiation at -2CS damage
-                      - Magnetism at -2CS damage but full Power rank range
-                      - Electricity at -2CS damage.
-
-                      The hero initially possesses a single type of Plasma with two set side-effects that occur each time he uses his Power. Later he can develop other Plasmas with different side-effects as Power Stunts.
-
-                      Plasma is a Nemesis to the Powers of Energy Sheath and Energy Body. The hero gains +1CS when attacking either Power. Plasma's own Nemeses are Plasma Control and Power Control.
+                        The player can raise the hero's rank upon creation by +2CS if he chooses specialization in a specific form of this Power.
+                      - Kinetic Bolts:
+                          Reference: This is a crude form of M30/Telekinesis. The hero can strike a target with a surge of force at Power rank range and damage. The Kinetic Bolt can be shaped as desired by the hero. It can be a wide cylinder, or an incredibly fine needle. Its effect is the same as if the target had been struck by a solid object of equal material strength. This Power can affect only tangible materials. It includes Resistance to Kinetic Bolts, Kinetic Control, or Telekinesis. Optional Powers are Kinetic Control and Telekinesis, which are also the Nemeses.
                 Matter Conversion:
                   Disintegration: #MCo3
                     Rank: Base Power Rank
@@ -1080,15 +1046,15 @@ Game:
                       Incendiary:
                         Power: Fire Generation
                         Effect: Power Rank Energy Damage
-                      Plasma:
-                        Power: Plasma Generation
-                        Effect: Power Rank Force Damage
                       Flare:
                         Power: Light Emission
                         Effect: Emits light of any color at up to Power Rank Intensity.
                       Neurotoxin Dart:
                         Power: Neural Manipulation
                         Effect: Chosen form of Neural Manipulation power
+                      Gas Canister: &Gas_Canister
+                        Power: Spray
+                        Effect: Feeble damage and obscures vision in area
                     Powers:
                       Lifeform Control:
                         Neural Manipulation: #L12
@@ -1097,7 +1063,7 @@ Game:
                           Reference: &Lifeform_Control |
                             The hero can alter a target's neural activity. By changing nerve messages within the target's body, the hero can cause a variety of effects.
 
-                            - Disruption: The target's body loses all sensations: it falls to the ground, a limp, aumb mass of flesh.
+                            - Disruption: The target's body loses all sensations: it falls to the ground, a limp, numb mass of flesh.
                             - Paralysis: The target body becomes completely rigid. No chemical can counteract the paralysis while the Power is in effect.
                             - Seizure: The target's muscles spasm uncontrollably for as long as the Power is in effect.
                             - Exaggeration: Nerve signals are actually amplified, causing the target to overact when attempting any movement.
@@ -1151,12 +1117,13 @@ Game:
                       Neurotoxin:
                         Power: Neural Manipulation
                         Effect: Chosen form of Neural Manipulation power
+                      Gas Canister: *Gas_Canister
                     Powers:
                       Energy Control:
                         Fire Control: #EC10
                           Rank: Base Power Rank
                           Note: In conjunction with Spray only
-                          Reference: The hero can control existing flames, whether natural or Power-based. He can alter any factor involved in combustion without direct physical contact. The hero can increase or decrease the flame's Intensity up to his Power rank and reduce fire damage by his rank number. This Power includes Power rank Resistance to Fire and Heat. The most important aspect of this Power is enabling the hero to reshape flame into any form he desires. This can be used in a variety of Power stunts, as the hero develops numerous fiery constructs to perform miscellaneous deeds. Such fiery constructs do not act like normal flames. They emit less heat and consume less oxygen. Their fire doesn't spread past the outline of the constructs. In addition, they self-extinguish rapidly upon cessation of this Power. Optional Powers include Fire Generation, Thermal Control, Energy Sheath, and Energy Body.
+                          Reference: &Fire_Control The hero can control existing flames, whether natural or Power-based. He can alter any factor involved in combustion without direct physical contact. The hero can increase or decrease the flame's Intensity up to his Power rank and reduce fire damage by his rank number. This Power includes Power rank Resistance to Fire and Heat. The most important aspect of this Power is enabling the hero to reshape flame into any form he desires. This can be used in a variety of Power stunts, as the hero develops numerous fiery constructs to perform miscellaneous deeds. Such fiery constructs do not act like normal flames. They emit less heat and consume less oxygen. Their fire doesn't spread past the outline of the constructs. In addition, they self-extinguish rapidly upon cessation of this Power. Optional Powers include Fire Generation, Thermal Control, Energy Sheath, and Energy Body.
                       Lifeform Control:
                         Neural Manipulation: #L12
                           Rank: Base Power Rank
@@ -1620,7 +1587,6 @@ Game:
             Description: An ornate shortsword, styled as a gladius and decorated with precious metals, gems, and engraving.
             Reference:
               Knife: &Knife
-                Price: Feeble
                 Damage: 10
                 Type:
                   - Edged Attack
@@ -1630,24 +1596,20 @@ Game:
           Ceremonial Sword:
             Description: An ornate longsword, styled as a spatha and decorated with precious metals, gems, and engraving.
             Reference:
-              Sword:
-                Price: Poor
+              Sword: &Sword
                 Damage: 10
                 Type: Edged Attack
-                Material Strength:
-                  Rank: Excellent
+                Material Strength: Excellent
                 Reference: Swords are considered one-handed blade weapons with blades over 12 inches long. They are not normally thrown.
           Ceremonial Spear:
             Description: An ornate spear, styled as a short Kontárion, decorated with precious metals, gems, and engraving, bearing ribbons, banners, or guidons.
             Reference:
               Spear:
-                Price: *Feeble
                 Damage: 10
                 Type:
                   - Edged Attack
                   - Edged Throwing
-                Material Strength:
-                  Rank: *Good
+                Material Strength: Good
                 Reference: |
                   A Spear is considered as any thrusting blade with a handle over one foot long. It is normally thrown or wielded with two hands.
           Tactical Knife:
@@ -1818,7 +1780,7 @@ Game:
 
               If the Ethereal is a ghost, his form resembles an idealized version of his old body. The ghost's appearance is actually based on his self-image and thus reflects the ghost's attitude toward himself. This is why ghosts are usually either very beautiful (or handsome) or quite pathetic.
 
-              Ghosts are immune to most physical attacks with Intensities less than Unearthly. They are vulnerable to Mental and Magical attacks, especially by Powers that affect the spirit. Either Psi or Spirit Vampirism can destroy an Ethereal.
+              Ethereals are immune to most physical attacks with Intensities less than Unearthly. They are vulnerable to Mental and Magical attacks, especially by Powers that affect the spirit. Either Psi or Spirit Vampirism can destroy an Ethereal.
 
               While Ethereals are intangible on the Earth Dimension, they regain solidity in other Dimensions. In such realms Ethereals are vulnerable to all Powers except those that specifically affect Ethereals and other disembodied beings; these Powers are Spirit Summoning and Storage, Reincarnation, and Exorcism.
 
@@ -1832,68 +1794,78 @@ Game:
               - Spirit Vampirism completely destroys Ethereals. Psi-Vampirism destroys the self-image and reduces the Ethereal to a mindless Poltergeist.
               - At least one Contact can be a Spiritual Medium.
         Origin of Power:
-          Angels and Demons:
-            Creation: The hero was born in the form he now has, that of an adult who possesses Power and/or whatever the Body Type is. Most of the Artificial Body Types belong in this class. Examples include the android Human Torch, all robots, angels, demons, and deities.
-          Others: Varies
+          - Angels and Demons:
+              Creation: The hero was born in the form he now has, that of an adult who possesses Power and/or whatever the Body Type is. Most of the Artificial Body Types belong in this class. Examples include the android Human Torch, all robots, angels, demons, and deities.
+          - Others: Varies
         Weakness:
-          Angels and Demons:
-            Stimulus:
-              Psychological Weakness: |
-                A specific event, condition, or mental state has an adverse effect on the hero. This Stimulus directly affects the hero's mind; any resulting physical damage is psychosomatic in nature. That is, any physical damage results are due to the hero's instinctive belief in those results.
+          - Angels and Demons:
+              Stimulus:
+                Psychological Weakness: |
+                  A specific event, condition, or mental state has an adverse effect on the hero. This Stimulus directly affects the hero's mind; any resulting physical damage is psychosomatic in nature. That is, any physical damage results are due to the hero's instinctive belief in those results.
 
-                Examples include being physically bound, even if the hero could normally snap the binding material; facing a foe covered in a specific color; or feeling extremely confused.
+                  Examples include being physically bound, even if the hero could normally snap the binding material; facing a foe covered in a specific color; or feeling extremely confused.
 
-                Psychological Weaknesses can be temporarily overcome by an Unearthly Intensity Psyche FEAT. They can be permanently overcome by a Shift-Z Intensity Psyche FEAT.
-            Effect:
-              Power Negation: The hero's Powers cease to function when the hero is within 20 feet of the stimulus. The hero's Primary Abilities are also affected; these drop -1CS per 10 turns until a minimum rank of Typical is reached for all of them. If the. hero is beyond the 20 foot limit but tries to use his Powers to affect the Stimulus, certain uses of Power automatically fail. Any Power that directly acts on a target cannot affect a Stimulus. Only Powers that indirectly affect the Stimulus succeed, such as using brute force to lob missiles at the Stimulus.
-            Duration:
-              Continuous with Contact: As long as the hero remains within the effective range of the Stimulus, the Effect continues. When the hero is insulated or moved away from the Stimulus, the Effect immediately ceases. Lost Health points are returned at a rate of 2 per turn. If death has occurred, the hero now has the possibility of being revived.
-          Others: Varies
+                  Psychological Weaknesses can be temporarily overcome by an Unearthly Intensity Psyche FEAT. They can be permanently overcome by a Shift-Z Intensity Psyche FEAT.
+              Effect:
+                Power Negation: The hero's Powers cease to function when the hero is within 20 feet of the stimulus. The hero's Primary Abilities are also affected; these drop -1CS per 10 turns until a minimum rank of Typical is reached for all of them. If the. hero is beyond the 20 foot limit but tries to use his Powers to affect the Stimulus, certain uses of Power automatically fail. Any Power that directly acts on a target cannot affect a Stimulus. Only Powers that indirectly affect the Stimulus succeed, such as using brute force to lob missiles at the Stimulus.
+              Duration:
+                Continuous with Contact: As long as the hero remains within the effective range of the Stimulus, the Effect continues. When the hero is insulated or moved away from the Stimulus, the Effect immediately ceases. Lost Health points are returned at a rate of 2 per turn. If death has occurred, the hero now has the possibility of being revived.
+          - Others: Varies
       Abilities:
         Primary Abilities:
           Angels and Demons: Roll on Column 5 (Feeble-Monstrous), +1CS to Physical Abilities (Poor-Unearthly)
           Mineral Life: Roll on Column 2 (Feeble-Excellent)
           Ethereal: Roll on Column 1 (Feeble-Amazing)
           Others: Roll on Column 5 (Feeble-Monstrous)
+          All: Max Psyche equal to Julian's, usual maximum -1CS less than.  Julian does not summon Servants with greater Psyche than his own except under the most dire of circumstances, and equal only to meet a speciic need.
         Secondary Abilities:
           Health: 8-400
-          Karma: 6-235
+          Karma: 6-200
           Resources:
-            Gaseous Life: Shift 0
-            Others: Poor
+            - Gaseous Life: Shift 0
+            - Others: Poor
           Popularity:
-            Angel: Remarkable
-            Demon: Poor
-            Others: Good
+            - Angel: Remarkable
+            - Demon: Poor
+            - Others: Good
         Powers:
           Inherent:
             Angel:
               Fighting:
                 Weapons Creation: #F4
                   Rank: Excellent
-                  Specialization: Magic Sword
+                  Specialization:
+                    Specialized: true
+                    Specialization: 
+                      Magic Sword:
+                        Damage: 20
+                        Type: Edged Attack
+                        Material Strength: Unearthly
+                        Health Required: 3
+                        Reference:
+                          Sword: *Sword
                   Reference: |
-                    The hero can create any desired weapon out of thin air. The weapon can be of any design, size, and material. The size of the weapon is limited by its weight. The hero can only create in a single turn a maximum number of ounces equal to his Power rank number. Heavier weapons have to be assembled in pieces over a span of several turns. While the material strength of the created weapon is the same as that of a normally-manufactured weapon of the same type, its duration is much shorter. The lifespan of the weapon is determined at the time of creation. A Typical Intensity FEAT gives the weapon a lifespan of 100 turns times the hero's Reason rank number. On an Amazing Intensity FEAT, the weapon lasts for the hero's Reason rank number times 10,000 turns. Should he make an Unearthly Intensity FEAT, the weapon will be permanent.
+                      The hero can create any desired weapon out of thin air. The weapon can be of any design, size, and material. The size of the weapon is limited by its weight. The hero can only create in a single turn a maximum number of ounces equal to his Power rank number. Heavier weapons have to be assembled in pieces over a span of several turns. While the material strength of the created weapon is the same as that of a normally-manufactured weapon of the same type, its duration is much shorter. The lifespan of the weapon is determined at the time of creation. A Typical Intensity FEAT gives the weapon a lifespan of 100 turns times the hero's Reason rank number. On an Amazing Intensity FEAT, the weapon lasts for the hero's Reason rank number times 10,000 turns. Should he make an Unearthly Intensity FEAT, the weapon will be permanent.
 
-                    Each ounce of created matter temporarily costs the hero 1 Health point. All points lost in this manner are regained after 24 hours. Thus, the hero can only create a weapon weighing the number of ounces equal to his Health score in a single day.
+                      Each ounce of created matter temporarily costs the hero 1 Health point. All points lost in this manner are regained after 24 hours. Thus, the hero can only create a weapon weighing the number of ounces equal to his Health score in a single day.
 
-                    The hero must have-detailed knowledge of any weapon he wants to create. He can only store a limited number of weapons' designs in his memory. The total number of memory slots available to this Power equals the hero's Reason rank number. The player must keep a record of the weapons he can create. This list can be changed at any time. A green Reason FEAT gains the hero a new design. If no open memory slots are available, an old design is tossed away to make room for the new one.
+                      The hero must have-detailed knowledge of any weapon he wants to create. He can only store a limited number of weapons' designs in his memory. The total number of memory slots available to this Power equals the hero's Reason rank number. The player must keep a record of the weapons he can create. This list can be changed at any time. A green Reason FEAT gains the hero a new design. If no open memory slots are available, an old design is tossed away to make room for the new one.
 
-                    Normally, the Power is used to make facsimiles of existing weapons. The hero must make a detailed study of the weapon for at least 10 minutes before attempting a FEAT. Failure to make the FEAT means the hero must spend another 10 minutes studying the weapon before attempting another FEAT. Some weapons might be beyond the hero's comprehension, if the player has really bad luck when rolling the dice.
+                      Normally, the Power is used to make facsimiles of existing weapons. The hero must make a detailed study of the weapon for at least 10 minutes before attempting a FEAT. Failure to make the FEAT means the hero must spend another 10 minutes studying the weapon before attempting another FEAT. Some weapons might be beyond the hero's comprehension, if the player has really bad luck when rolling the dice.
 
-                    The hero can create new weapons based solely on his imagination and basic knowledge of weapons design. This requires intense concentration and a red Power rank FEAT.
+                      The hero can create new weapons based solely on his imagination and basic knowledge of weapons design. This requires intense concentration and a red Power rank FEAT.
 
-                    The newly created weapon has the same characteristics as a normally created one of its type. In the case of altered or imaginary weapons, the player and Judge should agree on a reasonable and playable set of characteristics for the weapon in question.
+                      The newly created weapon has the same characteristics as a normally created one of its type. In the case of altered or imaginary weapons, the player and Judge should agree on a reasonable and playable set of characteristics for the weapon in question.
 
-                    The Power includes versions of Elemental and Molecular Creation. Each element or compound takes up its own memory slot, just like the throwing daggers and broadswords that clutter the hero's mind. Such raw matter can be formed into any weapon's shape. This permits the hero to change the composition of any already-memorized designs. For example, if he has already memorized the design of an arrow and the nature of silver he can create both wood and steel arrows and silver arrows.
+                      The Power includes versions of Elemental and Molecular Creation. Each element or compound takes up its own memory slot, just like the throwing daggers and broadswords that clutter the hero's mind. Such raw matter can be formed into any weapon's shape. This permits the hero to change the composition of any already-memorized designs. For example, if he has already memorized the design of an arrow and the nature of silver he can create both wood and steel arrows and silver arrows.
 
-                    Weapons created materialize in the hero's hands.
+                      Weapons created materialize in the hero's hands.
 
-                    There is an exception to the rules thus far. When creating the hero, the player can choose to specialize in creating a single copy of a special weapon. In this case, the weight limit is raised from one ounce per Health point to one pound per Health point. Such special weapons are never permanent: Unearthly Intensity FEATs are treated the same as Amazing Intensity ones. One example of this option is Magik's Soulsword.
+                      There is an exception to the rules thus far. When creating the hero, the player can choose to specialize in creating a single copy of a special weapon. In this case, the weight limit is raised from one ounce per Health point to one pound per Health point. Such special weapons are never permanent: Unearthly Intensity FEATs are treated the same as Amazing Intensity ones. One example of this option is Magik's Soulsword.
 
-                    The Optional Power for this is a form of Martial Arts Supremacy that uses a special weapon, as in the option explained above.
+                      The Optional Power for this is a form of Martial Arts Supremacy that uses a special weapon, as in the option explained above.
 
-                    The Nemesis Power is True Invulnerability.
+                      The Nemesis Power is True Invulnerability.
             Demon:
               Energy Emission:
                 Fire Generation:
@@ -1904,14 +1876,130 @@ Game:
                 Resistances:
                   Invulnerability to Fire and Heat:
                     Reference:
-                      Resistance to Fire and Heat: All damage from fire and heat-based attacks is reduced by the Power rank number. Further. any fire of less than this Power rank has no effect on the hero. (Example -- the hero with a Resistance to Fire/Heat of Amazing (50) rank could walk through super-heated steam of Incredible (40) Intensity without ill effect.)
-                      Invulnerability: |
+                      Resistance to Fire and Heat: &Fire_and_Heat All damage from fire and heat-based attacks is reduced by the Power rank number. Further. any fire of less than this Power rank has no effect on the hero. (Example -- the hero with a Resistance to Fire/Heat of Amazing (50) rank could walk through super-heated steam of Incredible (40) Intensity without ill effect.)
+                      Invulnerability: &Invulnerability |
                         The hero with this Power is totally unaffected by one or more of the attack forms listed above. The initial choosing of Invulnerability counts as two choices, but every additional choice in Resistances may be changed to an Invulnerability. (Example -- A hero being generated picks up Invulnerability to Fire, counting it as two slots. She then gets another resistance, and chooses Resistance to Cold. She may then choose to be Invulnerable to Cold instead at no additional cost.)
 
                         Invulnerability means that the hero in question has a Class 1000 resistance to that attack form.
+            Gaseous Life:
+              Self-Alteration:
+                Alter Ego: #S2
+                  Reference: &Alter_Ego |
+                    The hero has two different forms. One is a normal, powerless being: the other is the powerful, heroic self. When creating the hero, the player has to create two different beings. The statistics for the primary self should be fairly routine (all physical abilities ranging from Feeble to Good). All bets are off for the heroic self. Something many people never consider is that the heroic self might be a relatively normal human, while the normal self is something a little lower on the evolutionary ladder. For example, you might try a character whose normal self is a mutant dog (why should humans have all the deviant fun?).
+
+                    The two selves never co-exist except under extraordinary circumstances. Possible causes of simultaneous existence include time warps, cloning, and Lifeform Creation. The two selves may even be separated for an extended time, such as what happened to Bruce Banner and the Hulk.
+
+                    The primary drawback to this Power is the uncontrolled reversion to the normal self, especially when it occurs during dire circumstances. For example, Mightiman is rescuing a sub from the ocean floor when he reverts to his other self, little Eddy Edwards. ("Can you say 'fish food?' Sure you can.")
+
+                    Variations include automatic or voluntary transformation, duration, and shared minds versus semi-independent mentalities.
             Energy Body:
-              Energy Control: &One_Relevant_Power One Power relevant to the type of energy of the Energy Body at Psyche Rank.
-              Energy Emission: *One_Relevant_Power
+              Energy Control: 
+                One of the following at Psyche Rank:
+                  - Coldshaping: #EC3
+                      Reference: |
+                        The hero can control any force that actively decreases the temperature of something else. This can be used to increase or decrease the Cold's Intensity by this Power's rank number. This function overlaps both Heat and Cold Generation but differs in that this Power cannot alter the natural temperature of a target or alter local temperatures to suit the hero's whims. There are two primary functions to this Power. The first is to counteract or supplement cold-based Powers. The hero can alter such Powers as soon as they are emitted from the target's body. Such powers can be increased or decreased by this Power's rank number. The hero can also redirect such Powers. This leads to the second primary function.
+
+                        The hero can shape fields of intense cold and produce useful results. Ice Generation is a form of this Power. The hero can create shapes of rapidly-formed ice that he can use in a variety of Power stunts. The hero can also develop variations on Ice Generation that use other materials present in his local atmosphere. Such substances include carbon dioxide (even more slippery than ice, and the fog can knock people out), nitrogen, oxygen (potentially dangerous since a concentration of it can make normal flames explode with +2CS damage), and the inert gases (an Amazing Intensity FEAT, since there are so few of these present in Earth's atmosphere-but on other planets, not so tough). Cold Generation is a Bonus Power.
+
+                        Optional Powers include Thermal Control, Condensation, Molding, and Body Coating.
+                  - Electrical Control: #EC5
+                      Reference: |
+                        The hero can control all forms of electricity, whether natural, artificial, or Power-based. He can control the Intensity and direction of electron streams and alter the conductivity of materials. He can shape electron streams into any desired form. This permits him to develop Power stunts based on lightning–constructs designed to perform certain tasks (shields, cages, barriers, etc.)
+
+                        The hero can increase or decrease the electricity's Intensity and reduce damage by his Power rank number. If the electricity is Power-related, then the target's Power rank determines the Intensity of the FEAT the hero must make to gain control.
+
+                        The hero has Power rank Resistance to Electrical Generation.
+
+                        Optional Powers include Electrical Generation, Energy Doppelganger, Energy Sheath, Energy Body, Carrier Wave, and Energy Path.
+
+                        Because electricity forms the basis for most of our technology, the hero can use his Power to remotely control any electrical device on a Good Intensity FEAT. More complex devices like computers require a more complex form of control and a Remarkable Intensity FEAT.
+                  - Fire Control:
+                      Reference: *Fire_Control
+                  - Light Control: #EC14
+                      Reference: |
+                        The hero can manipulate existing light. This can be visible, infrared, or ultraviolet light. The hero can alter the intensity, frequency (color, in other words), and coherence of light on a Good Intensity FEAT. The hero can actually change the direction of light and form crude holograms on a Remarkable Intensity FEAT. Such holograms are little more than clouds or single-color walls. The Power allows +1CS Resistance to Light-based Powers, since the hero can redirect or dispel them.
+
+                        Optional Powers include Light Generation, Energy Sheath, Carrier Wave, and Illusion Casting. The Nemesis is itself.
+                  - Shadowshaping: #EC18
+                      Reference: |
+                        This is not Darkforce Manipulation: that's handled elsewhere. This Power enables the hero to affect normal shadows and, indirectly, light as well. The hero can shift the location and size of normal shadows. He can form them into two-dimensional images that can do Power rank damage to real targets. The hero can also Remote Sense through these shadow-constructs. The hero can increase or decrease the Intensity of any shadow, whether natural or Power-based, by his Power rank number. This overlaps with Light Generation and Shadowcasting but differs in that either effect is possible and only existing shadows or shadow-related Powers are affected.
+
+                        The hero has the ability to see through any shadow as if it were a normally-lit area, provided its Intensity is less than or equal to his Power rank. This does not apply to Darkforce, however.
+
+                        This Power includes Power rank Resistance to shadow-based Powers.
+
+                        This has the Bonus Power of Shadowcasting.
+
+                        Optional Powers include Light Control, Energy Sheath, and Energy Body. In the last two cases, the hero resembles a living shadow.
+              Energy Emission: 
+                One of the following at Psyche Rank:
+                  - Cold Generation: #EE1
+                      Reference: |
+                        This Power is the pure form of Ice Generation and one it is often confused with. The hero can emit a field that decreases thermal energy and infrared radiation.
+
+                        The Power decreases the temperature of the target: the amount is determined both by a FEAT and the Power rank number. A Typical FEAT drops the temperature by 10x the rank number: a Remarkable FEAT drops it by 20x the rank number: and an Unearthly FEAT drops it by 40x the rank number. For example, a hero with Remarkable Cold Generation can lower a target's temperature by 300 (10x30) to 1200 (40x3O) degrees. The only limitation is that the temperature cannot drop lower than absolute zero (-273 degrees Celsius or -459.4 degrees Fahrenheit).
+
+                        The power has the side-effect of cooling the air between the hero and the target. Gases within that area may condense. Such by-products evaporate quickly after the Power ceases to operate.
+
+                        Cold Generation can be used to negate other sources of cold, whether Power-based, artificial, or environmental: its Power rank decreases the intensity of the affected cold. However, it cannot be used to raise the temperature of a frigid environment. The hero with this Power has Power rank level resistance to Cold in any form.
+
+                        Optional Powers include Coldshaping, Condensation, Solidification, and Molding. Nemeses include Heat Emission, Fire Generation, and Thermal Control.
+                  - Electrical Generation: #EE2
+                      Reference: |
+                        The hero can create electrical streams that can do Power rank damage. The hero can project the electricity through any conductive medium, such as air, water, or metal, at Power rank range. If the player chooses, the hero can gain +2CS to his damage by choosing to limit his range to contact only. In this case, the range can be extended by conducting the Power through solid conductors like metal. Electricity comes in various forms:
+
+                        Static electricity causes magnetic attraction between objects and can disrupt electronic communications.
+
+                        Lightning is sheer, raw, destructive power and by far the most popular form of this Power.
+
+                        Alternating current is what our technology is driven by. This Power can either energize or overload normal electrical devices.
+
+                        Direct current is what a battery produces. It can energize or overload devices that use DC power. It can also short out devices that use AC power.
+
+                        The hero can use any form at will or can raise his rank +1CS by specializing in a particular form. This Power automatically includes Power rank Resistance to Electricity: no FEAT is required to resist your own Power. This Power is linked to Electrical Control and Energy Sheath. When creating the hero, the player can exchange any randomly determined Powers for these if he so desires. Extreme heat reduces this Power's rank by the Intensity rank of the heat. Conversely, extreme cold increases the rank by the cold's Intensity rank. At Shift X level, the hero gains the ability to create a stream of conductive gas, thus allowing the Power to function even in a vacuum.
+                  - Fire Generation: *Fire_Generation
+                  - Light Emission: *Light_Emission
+                  - Shadowcasting: #EE12
+                      Reference: |
+                        The hero can emit a field that decreases light and radiation. The obscured energy's Intensity is lowered by the Power's rank taken as Intensity. The energy forms that can be affected by this Power are Light, Heat, Hard Radiation, Radiowaves, Energy Doppelgangers, and Energy Bodies.
+
+                        The hero possesses the ability to affect only Light when his Power is at Good rank. At each rank above Good, he gains the ability to affect another energy form in the following order: EX-Heat, RM-Hard Radiation, IN-Radiowaves, AM-Energy Doppelgangers, MN-Energy Bodies.
+
+                        This Power includes the ability to see clearly through his own natural or Power-created shadows of Intensity less that the hero's Power rank.
+
+                        The Power can disrupt Darkforce Manipulation on a Typical Intensity FEAT if its rank is higher than that of the Darkforce manipulator, Remarkable Intensity FEAT if they are equal, and Unearthly Intensity FEAT if the Power's rank is lower.
+
+                        Optional Powers include Shadowshaping and Darkforce Manipulation.
+
+                        The Nemesis is Light Emission.
+              Self Alteration:
+                Alter Ego: *Alter_Ego
+                Energy Body: #S13
+                  Rank: Health
+                  Reference: |
+                    The hero can transform his body into a coherent energy field that supports his lifeforce and is capable of controlled actions. The energy can be of any type (see the Energy Emission listings).
+
+                    When creating the character, the player determines the nature of the energy into which the hero can turn. The rank determines the number of possible energy types. The rank for each energy type is originally Good: this is modified by the Ability Modifier Table found on page 6 of the Player's Book. Each Power is rolled separately. Thus, a hero might have a Poor sound-form and an Incredible radiation-form. Damage to the Energy Body is the same as damage to the normal body. The Energy Body is subject to anything that would affect energy of its type. The hero makes a standard Resistance roll to determine such effects on the Energy Body. The hero may find himself confined in a storage field while in energy-form. If so, he must make a red FEAT to attempt to revert to normal. If he fails, he must escape in his energy form.
+
+                    The Energy Body is a relatively unlimited supply of that particular energy type. The hero can expend great amounts of it and still be able to return to normal. Completely depleting the Energy Body requires a red FEAT rolled by the Judge or an adversary. The hero can also ab s orb existing energy of his chosen type to replenish himself.
+
+                    This Power includes the relevant form of Energy Control and Emission for the purpose of controlling the energy within the body.
+            Ethereal:
+              Lifeform Control:
+                Mind Control: #L10
+                  Form:
+                    Possession: the target mind loses both control and consciousness.
+                  Reference: |
+                    The hero has the ability to directly control a target's mind through psionic Powers. The hero completely overrides the will and perhaps even the conscious mind of the target. There are four forms of Mind Control:
+
+                    - Puppetry: the target mind retains awareness but cannot control the body.
+                    - Possession: the target mind loses both control and consciousness.
+                    - Negation: the target mind is completely turned off: Mental Probes show that no mind exists in the target's body.
+                    - Magnification: The target mind is actually enhanced. The rank of the target's Reason, Intuition, and/or Psyche can be temporarily increased, up to the hero's Power rank.
+
+                    The Power rank determines the Intensity of the hero's control, the range at which he can establish and maintain that control, and the duration of the control.
+              Self Alteration:
+                Alter Ego: *Alter_Ego
             All:
               Other: 
                 Body Alterations—Defensive:
@@ -1927,9 +2015,14 @@ Game:
           Additional: Rolled (1-18)
         Talents:
           Inherent:
-            Mystic and Mental Skills:
-              Occult Lore: *Occult_Lore
-              Mystic Background: *Mystic_Background
+            Angel:
+              Weapon Skills:
+                Sharp Weapons: *Sharp_Weapons
+                Weapons Specialist: *Weapons_Specialist
+            All:
+              Mystic and Mental Skills:
+                Occult Lore: *Occult_Lore
+                Mystic Background: *Mystic_Background
           Additional: Rolled (0-8)
         Contacts: ~
         Magic:
