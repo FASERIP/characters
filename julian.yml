@@ -1912,11 +1912,6 @@ Game:
             Energy Body:
               Energy Control: &One_Relevant_Power One Power relevant to the type of energy of the Energy Body at Psyche Rank.
               Energy Emission: *One_Relevant_Power
-              Self-Alteration:
-                Energy Body: Relevant type of energy at Health Rank.
-              Other:
-                Resistances:
-                  Invulnerability: *One_Relevant_Power
             All:
               Other: 
                 Body Alterations—Defensive:
