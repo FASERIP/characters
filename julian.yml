@@ -1746,41 +1746,125 @@ Game:
       Reference: *Servant
       Origin:
         Physical Form:
-          Angels and Demons: |
-            These are magical beings from other planes of existence. They are both supernatural and corporeal in nature. The main difference between these types is their inherent personality. "Angels" are benevolent; "demons" are malevolent. Other than that, there isn't much difference.
+          - Angels and Demons: |
+              These are magical beings from other planes of existence. They are both supernatural and corporeal in nature. The main difference between these types is their inherent personality. "Angels" are benevolent; "demons" are malevolent. Other than that, there isn't much difference.
 
-            These beings resemble characters from various mythologies. This affects their Popularity. Angels gain +2CS while demons lose -2CS on their initial Popularity. These beings do not necessarily follow the popular traditional behavior patterns. A heroic demon might be fighting a personal war against other, even more evil beings. A crazed angel might be a villain, seeking to purify the Earth at any cost.
+              These beings resemble characters from various mythologies. This affects their Popularity. Angels gain +2CS while demons lose -2CS on their initial Popularity. These beings do not necessarily follow the popular traditional behavior patterns. A heroic demon might be fighting a personal war against other, even more evil beings. A crazed angel might be a villain, seeking to purify the Earth at any cost.
 
-            - Angels and Demons roll on Column 5.
-            - Angels and demons have no initial Contacts but will soon be sought out by groups who see them as symbols or tools.
-            - All Physical Abilities are raised +1CS.
-            - Such beings possess a Psychological Weakness that Negates their Power.
-            - Angels gain +2CS Popularity. Demons lose -2CS Popularity.
-            - Demons automatically possess Good Fire Generation and Specific Invulnerability to Heat and Fire.
-            - Angels automatically possess a specific form of Weapons Creation that produces a magical sword that does Excellent damage.
+              - Angels and Demons roll on Column 5.
+              - Angels and demons have no initial Contacts but will soon be sought out by groups who see them as symbols or tools.
+              - All Physical Abilities are raised +1CS.
+              - Such beings possess a Psychological Weakness that Negates their Power.
+              - Angels gain +2CS Popularity. Demons lose -2CS Popularity.
+              - Demons automatically possess Good Fire Generation and Specific Invulnerability to Heat and Fire.
+              - Angels automatically possess a specific form of Weapons Creation that produces a magical sword that does Excellent damage.
+          - Mineral Life: |
+              The body is composed of solid materials that normally do not sustain life. In fact, the body might not even have anything remotely resembling internal organs. In such cases, an internal examination would only reveal homogenous matter.
+
+              The body can be of any single element or compound or a mixture of anything the player can think of. Examples of Mineral Life include golems and Warlock (of the New Mutants).
+
+              Because Mineral Life is simpler, it is easier to feed and maintain. If food is needed, the Mineral Life can digest raw matter of its composition. Wounds can be bandaged by applications of the same matter as well. ("But Doctor, I'm not a bricklayer!")
+
+              Mineral Life is immune to all Poisons and Diseases that harm Normal Humans. Conversely, exotic poisons and diseases that do harm to Mineral Life do only Feeble damage to Normal Humans. Mineral Life is vulnerable to attacks with special effects on the body materials. For example, an iron golem is prone to rust.
+
+              - Mineral Life rolls on column 2.
+              - Initial Health is doubled.
+              - Movement rate is decreased -1CS.
+          - Liquid Life: |
+              You know that the Normal Human body is 68% liquid? Well, this type is 100% liquid. However, it is composed of special liquids that remain together. The fluid body can be of any viscosity from gelatinous to watery. It can move at will by flowing through other liquids or along surfaces. It can even climb vertical surfaces.
+
+              If the liquid life possesses Endurance and Psyche ranks of Excellent or better, the Fluid Body can form an erect simulation of a human body. This can "walk" by sliding along the ground.
+
+              Contrary to what you might think, a Fluid Body is actually dry to the touch. This is because none of the body's liquids leave the body unless deliberately secreted.
+
+              The Fluid Body can be housed in a naturally secreted sac or in an artificial container. This is determined by the player rolling such Powers as Armor, Body Armor, or Body Coating.
+
+              If the Fluid Body is frozen, the hero is immobilized until he can melt. He takes no damage from such an attack, although sacs or body containers might be shattered by the cold. Vaporization is a fatal act for most Fluid Bodies.
+
+              - Fluid Bodies roll on column 5.
+              - Fluid Bodies have a natural variation of Phasing that permits them to permeate any porous material.
+              - Fluid Bodies have no initial Contacts except their own race, if one exists.
+              - Because of the Fluid Bodies' control over their own fluids, it requires an Incredible Agility FEAT to drain off any part of the Fluid Body. Drained parts remain under the main body's control as long as they are within one area. Once beyond that limit, the drained liquid "dies" and becomes inert.
+              - Swallowing a Fluid Body can be a fatal act if the body so chooses. It can also result in a symbiosis if the Fluid Body takes a liking to the solid host.
+          - Gaseous Life: |
+              The body is completely composed of gases, vapors, smoke, and mist without any solid (or even liquid) components above the microscopic level. The Gas Body is a coherent cloud that retains its integrity even in the face of Amazing Intensity winds. Unlike normal clouds, the Gas Body can more at will in any direction and even penetrate liquids and permeable solids. However, it cannot freely move in a vacuum unless it possesses a Travel or Energy Power.
+
+              The Gas Body may be composed of a single element or compound or any sort of exotic mixture.
+
+              If the gaseous hero possesses a Shapechanging Power, Alter Ego, or Body Transformation-Self, the being can temporarily assume a human-like form.
+
+              Gas Bodies are immobilized if converted to liquid or solid forms but take no damage from this act. While gaseous, the being can freely expand or contract. Minimum size is one cubic foot. The maximum size can fill a volume equivalent to the average shopping mall.
+
+              - Gas Bodies roll on column 5.
+              - On Earth, Gas Bodies have zero Resources and no initial Contacts.
+              - The only way to destroy a Gas Body is to alter its composition through Powers like Matter Conversion and Matter Control.
+              - Inhaling a Gas Body can be a fatal act since the being's gases can prevent required gases from reaching the lungs.
+              - Gas Bodies can enter a symbiotic relationship with a solid being.
+              - Gas Bodies possess a natural form of Phasing that permits them to penetrate solids.
+          - Energy Body: |
+              The hero is a field of coherent energy. The basis for this can be any Energy form found in the Energy Emission and Control sections of this book. The Energy Body can move at will in any direction, even though spaces that lack a medium to transmit it. The Energy Body possesses an Intensity rank of its own; this is how the Health points apply to this being.
+
+              Energy Bodies follow the same characteristics as normal energy of the same type. They possess a special vulnerability to Plasma Control (-1CS Resistance). Energy Bodies can be contained within special storage batteries; this is the only way to immobilize these beings.
+
+              Energy Bodies composed of visible energy types can create a ghost-like image of a human. If the Energy Body possesses Alter Ego, Energy Solidification, or Lifeform Creation, it can form a solid facsimile of a human.
+
+              The only way to destroy an Energy Body is to completely Negate or solidify its energy.
+
+              Energy Beings roll on column 5.
+              Energy Beings have a Bonus Power of Energy Emission. Energy Control is an Optional Power.
+              Physical contact with an Energy Being does Feeble damage.
+          - Ethereal: |
+              The hero is an intangible, disembodied spirit. He can be a ghost who once possesses a mortal shell, or belong to a race that always exists in this form. An Ethereal can drift about in any direction he chooses, and can pass through solid matter without any effort. The visibility of an Ethereal varies according to his whim; he can be invisible, transparent, translucent, or opaque.
+
+              If the Ethereal is a ghost, his form resembles an idealized version of his old body. The ghost's appearance is actually based on his self-image and thus reflects the ghost's attitude toward himself. This is why ghosts are usually either very beautiful (or handsome) or quite pathetic.
+
+              Ghosts are immune to most physical attacks with Intensities less than Unearthly. They are vulnerable to Mental and Magical attacks, especially by Powers that affect the spirit. Either Psi or Spirit Vampirism can destroy an Ethereal.
+
+              While Ethereals are intangible on the Earth Dimension, they regain solidity in other Dimensions. In such realms Ethereals are vulnerable to all Powers except those that specifically affect Ethereals and other disembodied beings; these Powers are Spirit Summoning and Storage, Reincarnation, and Exorcism.
+
+              If the Ethereal once had a solid body, he might not necessarily have died to reach his current state. He might have become an Ethereal by being directly transformed from solidity to ethereality. Such transformations can be magical, scientific, Power-based, accidental, or deliberate. The Red Ghost is an example of a Normal Human directly transformed into an Ethereal as a result of a scientific mishap.
+
+              If the Ethereal possesses Alter Ego or Lifeform Creation, he can create a living body for himself. If he possesses Mental Domination, he can possess a human host.
+
+              - Ethereals roll on column 1. (They're about as altered as a human can be).
+              - Fighting rank is zero in the Earth Dimension, unless the Ethereal is fighting another Ethereal.
+              - Physical attacks have a decreased effect on Ethereals (-9CS).
+              - Spirit Vampirism completely destroys Ethereals. Psi-Vampirism destroys the self-image and reduces the Ethereal to a mindless Poltergeist.
+              - At least one Contact can be a Spiritual Medium.
         Origin of Power:
-          Creation: The hero was born in the form he now has, that of an adult who possesses Power and/or whatever the Body Type is. Most of the Artificial Body Types belong in this class. Examples include the android Human Torch, all robots, angels, demons, and deities.
+          Angels and Demons:
+            Creation: The hero was born in the form he now has, that of an adult who possesses Power and/or whatever the Body Type is. Most of the Artificial Body Types belong in this class. Examples include the android Human Torch, all robots, angels, demons, and deities.
+          Others: Varies
         Weakness:
-          Stimulus:
-            Psychological Weakness: |
-              A specific event, condition, or mental state has an adverse effect on the hero. This Stimulus directly affects the hero's mind; any resulting physical damage is psychosomatic in nature. That is, any physical damage results are due to the hero's instinctive belief in those results.
+          Angels and Demons:
+            Stimulus:
+              Psychological Weakness: |
+                A specific event, condition, or mental state has an adverse effect on the hero. This Stimulus directly affects the hero's mind; any resulting physical damage is psychosomatic in nature. That is, any physical damage results are due to the hero's instinctive belief in those results.
 
-              Examples include being physically bound, even if the hero could normally snap the binding material; facing a foe covered in a specific color; or feeling extremely confused.
+                Examples include being physically bound, even if the hero could normally snap the binding material; facing a foe covered in a specific color; or feeling extremely confused.
 
-              Psychological Weaknesses can be temporarily overcome by an Unearthly Intensity Psyche FEAT. They can be permanently overcome by a Shift-Z Intensity Psyche FEAT.
-          Effect:
-            Power Negation: The hero's Powers cease to function when the hero is within 20 feet of the stimulus. The hero's Primary Abilities are also affected; these drop -1CS per 10 turns until a minimum rank of Typical is reached for all of them. If the. hero is beyond the 20 foot limit but tries to use his Powers to affect the Stimulus, certain uses of Power automatically fail. Any Power that directly acts on a target cannot affect a Stimulus. Only Powers that indirectly affect the Stimulus succeed, such as using brute force to lob missiles at the Stimulus.
-          Duration:
-            Continuous with Contact: As long as the hero remains within the effective range of the Stimulus, the Effect continues. When the hero is insulated or moved away from the Stimulus, the Effect immediately ceases. Lost Health points are returned at a rate of 2 per turn. If death has occurred, the hero now has the possibility of being revived.
+                Psychological Weaknesses can be temporarily overcome by an Unearthly Intensity Psyche FEAT. They can be permanently overcome by a Shift-Z Intensity Psyche FEAT.
+            Effect:
+              Power Negation: The hero's Powers cease to function when the hero is within 20 feet of the stimulus. The hero's Primary Abilities are also affected; these drop -1CS per 10 turns until a minimum rank of Typical is reached for all of them. If the. hero is beyond the 20 foot limit but tries to use his Powers to affect the Stimulus, certain uses of Power automatically fail. Any Power that directly acts on a target cannot affect a Stimulus. Only Powers that indirectly affect the Stimulus succeed, such as using brute force to lob missiles at the Stimulus.
+            Duration:
+              Continuous with Contact: As long as the hero remains within the effective range of the Stimulus, the Effect continues. When the hero is insulated or moved away from the Stimulus, the Effect immediately ceases. Lost Health points are returned at a rate of 2 per turn. If death has occurred, the hero now has the possibility of being revived.
+          Others: Varies
       Abilities:
-        Primary Abilities: Roll on Column 5 (Feeble-Monstrous), +1CS to Physical Abilities (Poor-Unearthly)
+        Primary Abilities:
+          Angels and Demons: Roll on Column 5 (Feeble-Monstrous), +1CS to Physical Abilities (Poor-Unearthly)
+          Mineral Life: Roll on Column 2 (Feeble-Excellent)
+          Ethereal: Roll on Column 1 (Feeble-Amazing)
+          Others: Roll on Column 5 (Feeble-Monstrous)
         Secondary Abilities:
-          Health: 16-400
+          Health: 8-400
           Karma: 6-235
-          Resources: Poor
+          Resources:
+            Gaseous Life: Shift 0
+            Others: Poor
           Popularity:
             Angel: Remarkable
             Demon: Poor
+            Others: Good
         Powers:
           Inherent:
             Angel:
@@ -1815,12 +1899,7 @@ Game:
                 Fire Generation:
                   Rank: Good
                   Number: 10
-                  Reference: |
-                    The hero can project fire with Power rank damage and range. These flames have no apparent fuel source and spring from the hero as if he were a living fuel tank. Although the flames' fuel comes out of the proverbial nowhere, free oxygen must be present for the Power to function. If not, the hero can cause a single flame that lasts' only one turn, then fizzles out. At Shift X rank, the hero gains the ability to generate oxygen as well, permitting this Power to function under any conditions. When creating the hero, the player can choose the Powers of Flame Control, Energy Sheath, and Energy Body to fill any slots still open. For example, under the Ultimate system, the Human Torch possesses three powers: Fire Generation, Fire Control, and Energy Sheath.
-
-                    This has to be the most dangerous Power around. Heroes have to watch out for accidental firestorms. They also tend to consume all the oxygen in their location, making everyone pass out. Then there is the question of smoke and gases created by the hero's Flame Power. It makes me wonder what kind of ventilation system the Baxter Building has…
-
-                    Fire Generation is the opposing Power to Cold Emission, Coldshaping, and Powers that use water. This Power gains +1CS when fighting these Powers. It also loses -1CS when being attacked by those Powers
+                  Reference: *Fire_Generation
               Other:
                 Resistances:
                   Invulnerability to Fire and Heat:
@@ -1830,17 +1909,26 @@ Game:
                         The hero with this Power is totally unaffected by one or more of the attack forms listed above. The initial choosing of Invulnerability counts as two choices, but every additional choice in Resistances may be changed to an Invulnerability. (Example -- A hero being generated picks up Invulnerability to Fire, counting it as two slots. She then gets another resistance, and chooses Resistance to Cold. She may then choose to be Invulnerable to Cold instead at no additional cost.)
 
                         Invulnerability means that the hero in question has a Class 1000 resistance to that attack form.
-            Other: 
-              Body Alterations—Defensive:
-                Immortality:
-                  Reference: *Immortality
-              Magic:
-                Eldritch Bolts:
-                  Rank: Psyche
-                  Reference: *Eldritch_Bolts
-                Eldritch Shield:
-                  Rank: Psyche
-                  Reference: *Eldritch_Shield
+            Energy Body:
+              Energy Control: &One_Relevant_Power One Power relevant to the type of energy of the Energy Body at Psyche Rank.
+              Energy Emission: *One_Relevant_Power
+              Self-Alteration:
+                Energy Body: Relevant type of energy at Health Rank.
+              Other:
+                Resistances:
+                  Invulnerability: *One_Relevant_Power
+            All:
+              Other: 
+                Body Alterations—Defensive:
+                  Immortality:
+                    Reference: *Immortality
+                Magic:
+                  Eldritch Bolts:
+                    Rank: Psyche
+                    Reference: *Eldritch_Bolts
+                  Eldritch Shield:
+                    Rank: Psyche
+                    Reference: *Eldritch_Shield
           Additional: Rolled (1-18)
         Talents:
           Inherent:
