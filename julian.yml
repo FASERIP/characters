@@ -1795,7 +1795,7 @@ Game:
                     Rank: Incredible
                     Number: 40
                     Reference: *Teleportation
-          Notes: Inflicts Edged attack damage with claws but cannot score a Kill result against human targets. Moves 3 areas/turn.
+          Notes: Inflicts Edged attack damage with claws but cannot score a Kill result against human targets. Moves 2 areas/turn.
           Reference:
             Familiar: *Familiar
             Cat:
