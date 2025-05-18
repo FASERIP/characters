@@ -918,10 +918,10 @@ Character Sheet:
                   Demon:  *Monstrous
                   Deity:  *Monstrous
                   Ethereal:  *Monstrous
-                  Normal Human: *Incredible
+                  Normal Human: *Monstrous
                 Form:
                   Type: Spontaneous Creation
-                Note: New body will be Demon Aspect, and requires 1d100 Turns of exposure to Energy Source to regain ability to assume Deity Aspect.
+                Note: New body will reform in her Domain, and requires 1d100 Turns of exposure to Energy Source to regain ability to assume Deity Aspect after leaving the Domain.
                 Reference: &Serial_Immortality |
                   A character with this Power can suffer damage, get sick, age, and even die. None of it is permanent to the character, though. When the hero's body dies from any cause, the unique nature of his lifeforce enables it to transfer to a new body. He can also transfer some but not all of his Powers to the new body. The hero loses all Karma with the death of the old body. There are five forms of Serial Immortality, each with a different means of rebirth and Power transferral. The player must choose one of these methods, either selecting for himself or letting the die decide.
 
@@ -1131,9 +1131,9 @@ Character Sheet:
                     Turns Until Full Recovery: 51
                   Normal Human:
                     Rank: *Class-1000
-                    Number: 1014
+                    Number: 1029
                     Spread: 29
-                    Turns Until Full Recovery: 51
+                    Turns Until Full Recovery: 52
                 Note: Rank-less abilities not included. Focus itself is, but recovery is at full Rank.
                 Reference: &Focus |
                   The hero can channel all his raw energy into a single burst of a chosen Ability or Power. All his Power and Ability rank numbers are totaled together. This rank number replaces the rank number for a chosen Power. Upon the completion of releasing the Power, all the hero's Abilities and Powers temporarily drop to Feeble. This Power's rank number is the total amount of lost points the hero can regain each turn. Points are divided evenly between all the depleted Abilities and Powers. (Okay, this isn't really a Power either. Roll again for an additional Power.)
@@ -1362,7 +1362,7 @@ Character Sheet:
               Mystic Arts:
                 Doctor Stephen Strange: Sometimes Ally, Often Babysitter, Occasionally Parole Officer.
                 Wong: As Strange, but more longsuffering.
-                Clea: As Strange, but less tolerant.
+                Clea: As Strange, but less indulgent.
                 Satana Hellstrom: Complicated by relationship with Marduk Kurios.
                 Daimon Hellstrom: Complicated even more by relationship with Marduk Kurios.
                 Jennifer Kale: Ashtaret has difficulty distinguishing Jennifer from Zhered-Na.
@@ -1400,7 +1400,7 @@ Character Sheet:
               Cloak & Dagger: Non-member
           Magic:
             Character Type: Magic Wielder
-            Magic School: Specific Pantheon (Annunaki)
+            Magic School: Special Realm or Pantheon (Annunaki)
             Energy Use:
               All Energies: &All_Energies All Energies indicates that the character is able to use all of the spells.
             Rank: Master
@@ -1822,83 +1822,58 @@ Character Sheet:
           Ebon Staff of Ereshkigal:
             Material Strength:
               Rank: *Unearthly
-            Reference:
-              Club: &Club
-                Price: *Feeble
-                Damage: 10
-                Type:
-                  - Blunt Attack
-                  - Blunt Throwing
-                Material Strength:
-                  Rank: *Good
-                Reference: |
-                  Clubs are standard blunt weapons, including makeshift weapons such as chairs and tables.
-              Staff of Polar Power:
-                Polarized Magic Wielder: Umma Ušumgal
-                School: Specific Pantheon (Annunaki)
-                Energy Use:
-                  All Energies: *All_Energies
-                Rank: Master
-                Master: Ereshkigal
-                Reference: &Staff_of_Polar_Power |
-                  This is actually a class of staves. They can come in any shape or material and range in size from 4 to 8 feet long. A Staff of Polar Power polarizes the holder with the power of the master who created it. Therefore different powers and different levels of mastery are engrained into each staff and no two are alike. All Staves of Power allow the character to become pure energy for the purpose of floating through dimensions. In such form a character can move through dimensions at a rate of 5 dimensions per round and ignore all physical attacks. Another quality of most Staves of Power is their ability to absorb attack spells cast at them (see Magic Effects Table, Agility & Targeting). An Agility FEAT roll of a bull’s-eye indicates the character has intercepted the spell with his staff).
-
-                  This item offers the Judge a great opportunity to be creative and is a good item to improve a freshly generated character who is weak.
-            Spells:
-              Personal Energies:
-                Astral Projection:
-                  Rank: *Amazing
-                  Reference: *Astral_Projection
-                Resistance Aura:
-                  Rank: *Amazing
-                  Type: Solar
-                  Reference: *Resistance_Aura
-                Trance:
-                  Rank: *Amazing
-                  Reference: *Trance
-                Transformation:
-                  Rank: *Amazing
-                  Type: Darkforce
-                  Reference: *Transformation
-              Universal Energies:
-                Eldritch Beams/Bolts:
-                  Rank: *Amazing
-                  Type:
-                    - Darkforce Bolt
-                    - Disintegrating Bolt
-                  Note: Beams/bolts originate from the crystal on the end of the staff.
-                  Reference: *Eldritch_Beams-Bolts
-                Eldritch Blast:
-                  Rank: *Amazing
-                  Type: Darkforce
-                  Reference: *Eldritch_Blast
-                Eldritch Flames:
-                  Rank: *Amazing
-                  Reference: *Eldritch_Flames
-                Energy Control:
-                  Rank: *Amazing
-                  Type: Darkforce
-                  Reference: *Energy_Control
-                Fear:
-                  Rank: *Amazing
-                  Reference: *Fear
-                Revival:
-                  Rank: *Amazing
-                  Reference: *Revival
-                Shield-Aura:
-                  Rank: *Amazing
-                  Reference: *Shield-Aura
-                Vapors-Resist Death:
-                  Rank: *Amazing
-                  Reference: *Vapors-Resist_Death
-            Note:
-              - May be wielded as a Club, except its Material Strength is Unearthly
-              - Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
+            Type: Blunt Attack
+            Magic:
+              Spells:
+                Personal Energies:
+                  Astral Projection:
+                    Rank: *Amazing
+                    Reference: *Astral_Projection
+                  Resistance Aura:
+                    Rank: *Amazing
+                    Type: Solar
+                    Reference: *Resistance_Aura
+                  Trance:
+                    Rank: *Amazing
+                    Reference: *Trance
+                  Transformation:
+                    Rank: *Amazing
+                    Type: Darkforce
+                    Reference: *Transformation
+                Universal Energies:
+                  Eldritch Beams/Bolts:
+                    Rank: *Amazing
+                    Type:
+                      - Darkforce Bolt
+                      - Disintegrating Bolt
+                    Note: Beams/bolts originate from the crystal on the end of the staff.
+                    Reference: *Eldritch_Beams-Bolts
+                  Eldritch Blast:
+                    Rank: *Amazing
+                    Type: Darkforce
+                    Reference: *Eldritch_Blast
+                  Eldritch Flames:
+                    Rank: *Amazing
+                    Reference: *Eldritch_Flames
+                  Energy Control:
+                    Rank: *Amazing
+                    Type: Darkforce
+                    Reference: *Energy_Control
+                  Fear:
+                    Rank: *Amazing
+                    Reference: *Fear
+                  Shield-Aura:
+                    Rank: *Amazing
+                    Reference: *Shield-Aura
+                  Vapors-Resist Death:
+                    Rank: *Amazing
+                    Reference: *Vapors-Resist_Death
+            Note: Generally kept somewhere safe, secure, and obscure, and summoned with the Conjure Spell when needed.
             Description: |
               About six feet long and an inch and a half thick, this Staff of Polar Power is of solid, lightweight, smooth, black metal, and twisted along much of its length. It bears a prism of black crystal at one end, terminating in a tapered, blunted spike at the other. It bears an inscription, spiraling around its shaft: 𒋼𒀭𒅗𒆠𒊮𒀀𒍣𒆗𒂗𒂠𒁉𒇻𒋼𒍑𒅗𒇷𒅋𒍣𒆗𒂗𒂠𒅗𒆰𒈠𒀀𒆠𒍣𒆗𒂗𒂠𒁉𒀭𒅗𒋻𒅎𒁍𒀭𒂗𒈾𒈠𒂵𒉌 - "šu d.erkalla-ke₄ za-lam-e-ne bi-lu šu ul-ba-ke₄ za-lam-e-ne kalam-ma-ke₄ za-lam-e-ne-bi-in ka-ta in-du₁₁ d.en na-ma-gin₃" (Sumerian, roughly "This, the hand of Irkalla, shall touch all the living in their entirety, the living of the world, it shall seize them all. Thus it has been spoken. As the Lord decreed, so it shall be.") It was created and originally possessed by Umma Ušumgal, a Sumerian Master sorceress favored by Ereshkigal.
           Ruby Ring of Regency:
             Description: |
-              A relatively recent acquisition after Doctor Strange shattered the Ruby into shards, Ashtaret found a shard of the Ruby of Domination and had it set into a gold ring.
+              A relatively recent acquisition after Doctor Strange shattered the Ruby of omination into shards, Ashtaret found a small chip of it and had that set into a gold ring.
             Reference:
               Ruby of Domination:
                 Reference: &Ruby_of_Domination This large red, floating ruby (3 feet in diameter) was once used by Xandu in an attempt to make Earth's population mind-slaves. When Doctor Strange shattered it, little rubies were left on Earth from its shards. A character attempting the powers of Emotion Control, Mental Control, Mesmerism, or Mesmermechanism has a +1CS for success when focusing the power through one of these smaller Rubies of Domination.
@@ -1913,7 +1888,7 @@ Character Sheet:
               Familiar indicates a being that is very powerful magically and actively assists the hero. Two powers should be rolled randomly or selected by the Judge from the personal and universal energy lists for this familiar. In addition, the familiar is intelligent (Reason and Psyche at least Typical) and can communicate with its owner (the kind of communication is left to the Judge’s discretion). The form of the familiar can either be that of a normal animal (usually a cat) or an unusual type, such as a small dragon or other mythical creature. The familiar’s form is at the player’s discretion.
       Description:
         Encounter: |
-          In her domain, Ashtaret has a Retinue of four, a pair of Captains, six Minions, and a personal guard of thirteen Sentries.  With the Minions and Sentries for each Retainer and Captain, thats sixteen Minions, and seventeen Sentries.  And that's if Allatou isn't present with her own entourage.  That makes for a total of 5-6 Retinue, three Captains, 23-25 Minions, and 25-27 Sentries. She may have one of the Archivists with her as counsel or a Magitechnician present as a subject-matter expert, or both, as well, particularly in her court, or on an inspection.
+          In her domain, Ashtaret has a Retinue of four, a pair of Captains, six Minions, and a personal guard of thirteen Sentries.  With the Minions and Sentries for each Retainer and Captain, thats sixteen Minions, and seventeen Sentries.  And that's if Allatou isn't present with her own entourage.  That makes for a total of 5-6 Retinue, three Captains, 23-25 Minions, and 25-27 Sentries. She may have one of the Archivists with her as counsel or a Artificer present as a subject-matter expert, or both, as well, particularly in her court, or on an inspection.
 
           In Earth Dimension, she is alone or with only Allatou.
         Biography: |
@@ -2002,7 +1977,7 @@ Character Sheet:
             Base: *Incredible
             Note: +2CS to Cost for very high-quality package.
           Note:
-            - Constructed as thermae-style baths, the pools are supplied by volcanic hot springs, and do Good (10) heat damage per turn to anyone in them who lacks sufficient resistance to or protection from fire and heat.
+            - Constructed as thermae-style baths, the pools are supplied by volcanic hot springs, and do Poor (4) heat damage per turn to anyone in them who lacks sufficient resistance to, or protection from, fire and heat.
             - Considered "indoor" for purposes of Cost.
           Reference: &Pool_Package |
             *Cost: Remarkable outdoors, Incredible indoors* Occupies 2 or more areas, and extends 1 floor downward. Consists of standard Olympic swimming pool, diving boards, and sun room (alternately, sun roof which is retractable).
@@ -2101,7 +2076,7 @@ Character Sheet:
               Reference: &Black_Mirror |
                 This full length ebony oval of glass is surrounded by an ornate frame. While it has been called a mirror, it does not reflect. Instead, it is a legendary gateway to countless dimensions, to an infinite number of alternate Earths. A specific incantation is needed for each dimension. After speaking the incantation, the character speaking can simply pass through the mirror into the desired world. The mirror also exists on each dimension it opens into, so passage back and forth is easy, but only for those who know the right incantation.
         - Scrying Room:
-            Note: For the Satan-Sphere and Interdimensional Scanner this room has features similar to a combination of the Trophy Room and Conference Room features.
+            Note: For the Satan-Sphere athis room has features similar to a combination of the Trophy Room and Conference Room features.
             Satan-Sphere:
               Note:
                 - Ashtaret acquired this relatively recently among the aftermath and fallout of Doctor Strange's conflict with the Sons of Satannish.
@@ -2110,12 +2085,6 @@ Character Sheet:
                 This large (8 feet in diameter) fiery white sphere was last known to be owned by the cult Sons of Satannish. It acts in a manner similar to the Orb of Agamotto, locating that which the user desires to see and hear on Earth. The Satan-Sphere also allows a user who makes a successful Psyche FEAT roll to send spells through it at observed targets (the check must be made for each spell used, a failed roll means that the spell has been wasted). Even if the attack successfully goes through the Satan-Sphere the target can return the attack spell to the user if: a) the target is of a mastery level equal to or greater than the user; and b) the target succeeds in making a Yellow or Red Psyche FEAT roll.
 
                 The current whereabouts of the Satan-Sphere are unknown.
-            Interdimensional Scanner:
-              Note:
-                - This is a room-sized magical scrying device that functions the same as Bochs's technologucal Interdimensional Scanner described in Realms of Magic.
-                - It is occupies much of the scrying room in Ashtaret's domain.
-              Reference: |
-                While this is not a mystical item, it is used to monitor dimensional nexus and scan dimensions that are near Earth. This room-sized piece of high-tech equipment was designed by Roger Bochs, who first created Box of Alpha Flight fame. He was assisted in its creation by Shaman. Imaging of these dimensions is often hazy, showing only the outlines of larger creatures, structures, and so forth. It is with this device that the Alpha Flight team unwittingly brought the Incredible Hulk back to the Earth dimension from another dimension where Doctor Strange had banished him for the good of mankind, and the Hulk’s own sake. Any use of this device to scan and observe another dimension requires a successful Reason FEAT roll.
         - Throne Room for holding court has features similar to a combination of Conference Room and Office Package features. It features an enormous, ornate throne of basalt, obsidian, and iron.
         - Guest Bedrooms, of which there are many, feature subtle implementations of the Imprisonment Package as described. An Amazing Intensity feat is required to notice them when they are inactive.
         - Bedchambers are opulent but austere, matching the rest of the domain.
@@ -2137,7 +2106,7 @@ Character Sheet:
       Description: |
         A small, obscure, demiplanar pocket with nebulous dimensions and borders that straddles Hell Dimension and the Dimension of Dreams, with a readily accessible border with the Astral Plane, Ashtaret's domain is not strictly a structure or building, though there are areas that appear to be "inside," as well as "outside," and "underground." The substructure of "walls," "ceilings," "floors," and "the ground" are an ultrahard, impenetrable, basalt-like material. There is "weather" of sorts in the "sky" of the "outdoor" portions, and flying into it, away from the surface eventually leads to the Astral Plane. However, this is ultimately a one-way trip once the flyer has passed fully into the Astral, requiring a different mechanism to return. Strange and alien flora populate the courtyard gardens, infernal analogues of their counterparts on Earth, if any, but there is no fauna, the sky has neither birds nor otherwise, and there aren't even creatures to buzz and flit through the gardens like insects.
 
-        As Ashtaret satisfies her needs with Powers and Spells, the lair has few amenities although everything there is of opulent quality, as it primarily comprises places for Ashtaret to keep her Grimoires and other Mystic Texts, along with any treasures, prisoners, or other possessions, as well as a place for her to sit and hold court. The architecture and design are reminiscent of ancient Mesopotamian aesthetics, and the statuary and friezes and other elements, as well as the lighting and temperature, all respond subtly to her emotional state, changing their countenance or content to reflect her moods. The temperature, atmosphere, and other conditions are survivable, even livable, if not pleasant or comfortable, for humans, animals, and humanlike beings. There is no modern technology present, with amenities such as cooking, hot water, and lighting provided by hellfire and witchlight, running water from "natural" springs, and plumbing, drainage, and waste disposal by the void itself. Though indeed opulent in construction and ornamentation, it is also somewhat spare and spartan, empty and uninhabited save her herself and her Servants, robotic except for Allatou; she finds it stifling and boring to spend too much time there.
+        As Ashtaret satisfies her needs with Powers and Spells, the lair has few amenities although everything there is of opulent quality, as it primarily comprises places for Ashtaret to keep her Grimoires and other Mystic Texts, along with any treasures, prisoners, or other possessions, as well as a place for her to sit and hold court; what amenities exist are underutilized. The architecture and design are reminiscent of ancient Mesopotamian aesthetics, and the statuary and friezes and other elements, as well as the lighting and temperature, all respond subtly to her emotional state, changing their countenance or content to reflect her moods. The temperature, atmosphere, and other conditions are survivable, even livable, if not pleasant or comfortable, for humans, animals, and humanlike beings. There is no modern technology present, with amenities such as cooking, hot water, and lighting provided by hellfire and witchlight, running water from "natural" springs, and plumbing, drainage, and waste disposal by the void itself. Though indeed opulent in construction and ornamentation, it is also somewhat spare and spartan, empty and uninhabited save her herself, Allatou, and her summoned Servants; she finds it stifling and boring to spend too much time there.
   Supporting Cast:
     Allatou:
       Name: Allatou
@@ -2548,7 +2517,7 @@ Character Sheet:
                   Marduk Kurios: ~
           Magic:
             Character Type: Magic Wielder
-            Magic School: Specific Pantheon (Annunaki)
+            Magic School: Special Realm or Pantheon (Annunaki)
             Energy Use:
               All Energies: *All_Energies
             Rank: Adept
@@ -2641,7 +2610,7 @@ Character Sheet:
                       - Allatou
                 Magic: &Magic
                   Character Type: Magic Wielder
-                  Magic School: Specific Pantheon (Annunaki)
+                  Magic School: Special Realm or Pantheon (Annunaki)
                   Energy Use:
                     Personal and Universal Energies Only: Personal and Universal Energies Only means that the character can use spells listed as both Personal Energies and Universal Energies. The character’s spells will only be able to be utilized by tapping into either his personal energy or the energy of the universe around him.
                   Rank: Novice
@@ -2673,7 +2642,7 @@ Character Sheet:
                 Rank: *Poor
             Special Abilities:
               Equipment: May have incidental items related to role and purpose.
-          Encounter: Always work in pairs or teams of four for larger tasks, though there may work details of 6-12, or even up to 20 for major undertakings. If there are more than six Minions, there will be a pair of Sentries guarding them for every six Minions, with another pair if there are Magitechnicians as part of the work detail (1-4 of them, if any). There are 2-6 in each workplace room of the Archivists and Magitechnicians, one for each Captain, two for each Retainer, four for Allatou, including her entourage, for 7-9, and six for Ashtaret, making sixteen with her entourage included, 23-25 if Allatou and hers are present. They may move around the domain alone when off-duty.
+          Encounter: Always work in pairs or teams of four for larger tasks, though there may work details of 6-12, or even up to 20 for major undertakings. If there are more than six Minions, there will be a pair of Sentries guarding them for every six Minions, with another pair if there are Artificers as part of the work detail (1-4 of them, if any). There are 2-6 in each workplace room of the Archivists and Artificers, one for each Captain, two for each Retainer, four for Allatou, including her entourage, for 7-9, and six for Ashtaret, making sixteen with her entourage included, 23-25 if Allatou and hers are present. They may move around the domain alone when off-duty.
           Description: |
             Made from the lowliest demonic spirits, such as imps or dæmonettes, these Servants are the backbone of the workforce. They provide all of the menial and unskilled labor, running of errands, cleaning, and holding things under general supervision, and perform semi-skilled tasks under close supervision after proper instruction.
         Sentry:
@@ -2891,7 +2860,7 @@ Character Sheet:
               Encounter: In their workplaces, there are generally 2-6 per room, though they often move alone about the domain. A pair of Sentries are generally posted outside each of their workplace entrances. Each workplace room has 2-4 Minions as runners, menial labor, and unskilled general assistance.
               Reference: |
                 Librarian and sage that works in the Libraries and Trophy Rooms, cataloguing, organizing, researching, and preserving books and scrolls, including Mystic Texts and Grimoires, Magical Items, and other treasures.  Often dæmon spirits of forbidden or hidden knowledge or secrets.
-            Magitechnician:
+            Artificer:
               Enhanced Attribute: Reason
               Abilities:
                 Primary Abilities:
@@ -3057,7 +3026,7 @@ Character Sheet:
                 - Genrally overseen by Allatou and the Retinue, with Captains overseeing weapons, armor, and security work.
               Encounter: In their workplaces, there are generally 2-6 per room, though they often move alone about the domain. A pair of Sentries are generally posted outside each of their workplace entrances. Each workplace room has 2-4 Minions as runners, menial labor, and unskilled general assistance. A work detail requiring their involvement will generally feature 1-4 of them and likely have any number of Minions depending on the size of the task.  There will be a pair of Sentries watching them, and another pair of sentries for every 6 Minions.
               Reference: |
-                Alchemist and artificer that works in the Laboratories and Workshops, assisting with experiments, research, compounding, construction, and repairs. Particularly clever, crafty, deft, and resourceful spirits become this sort of Servant.
+                Alchemist and mechanician that works in the Laboratories and Workshops, assisting with experiments, research, compounding, construction, and repairs. Particularly clever, crafty, deft, and resourceful spirits become this sort of Servant.
             Captain:
               Abilities:
                 Primary Abilities:
@@ -3219,4 +3188,4 @@ Character Sheet:
                 - Enhanced Primary Attribute is Psyche
               Encounter: Generally have a pair of Sentries as an escort, along with them or posted outside the door. Each also has a pair of Minions. One or two accompany Allatou, Ashtaret has four.
               Reference: |
-                The Retinue comprise assistants, adjutants, deputies, and lieutenants who work with Allatou to ensure the smooth operation of Ashtaret's Domain, and serve as personal assistants to Ashtaret and Allatou, with whose authority they speak. They supervise the Minions, and coordinate with the Captains. In addition, they manage the Archivists' and Magitechnicians' projects on Allatou's behalf. Any given Retainer is as often as not made from a major demon or greater devil spirit, uniquely among the staff, though no minor demon lords or lesser archdevils approaching a peer of Allatou. Those that aren't drawn from those strata are still the most formidable of their minor demon and lesser devil kin.
+                The Retinue comprise assistants, adjutants, deputies, and lieutenants who work with Allatou to ensure the smooth operation of Ashtaret's Domain, and serve as personal assistants to Ashtaret and Allatou, with whose authority they speak. They supervise the Minions, and coordinate with the Captains. In addition, they manage the Archivists' and Artificers' projects on Allatou's behalf. Any given Retainer is as often as not made from a major demon or greater devil spirit, uniquely among the staff, though no minor demon lords or lesser archdevils approaching a peer of Allatou. Those that aren't drawn from those strata are still the most formidable of their minor demon and lesser devil kin.

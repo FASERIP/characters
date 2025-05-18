@@ -54,6 +54,10 @@ Game:
               Fatal: As in the above, the hero gets ill after the initial exposure to the Stimulus. However, the Health loss does not stop at zero. Death will eventually occur if Health and (subsequently) Endurance drop to zero during the Weakness Duration. The hero can be revived if proper medical attention is given, but only after his Health and Endurance have both reached zero.
             Duration:
               Permanent: The Stimulus does its full damage to the hero, even when exposure to the Stimulus has been interrupted. In this case, the Stimulus sets off a bodily self-destruction sequence that must continue to its full extent. In the case of Power Negation, the hero's Powers are permanently lost. Incapacitation results in the hero reaching zero Health points and lapsing into a coma lasting 1 -10 days. After that time, he may regain his Health at the normal rate. Fatal results in the death of the hero as both Health and Endurance drop to zero. The hero can be revived, however, and will eventually recover if revival occurs.
+      Description:
+        Biography: Born in Nicomedia in the year 380 in what was then the Eastern Roman Empire, Julian Hieronymus Constantine, then known as Ioulianós ó Nikomediátes, unlocked the secrets of the Philosopher's Stone in the early-mid Fifth Century, gaining immortality and eternal youth and health.  He has spent the centuries since honing his mind, body, and spirit to unprecedented levels, dedicating himself to the mastery of anything that has caught his attention along the way.  By the late 20th century, he is exorbitantly wealthy and well-connected along with his hyper-competence, due to incessant personal development and cultivation. Of human peak physicality, his mind is centuries since transcending all human limits.
+        Personality: Julian is, in a general sense, heroic, noble, valorous, and beneficient, although as a man well into his second millennium of life, having witnessed the rise and fall of many cultures, societies, and philosophies, and their values, his view is long and his perspective distant and somewhat detached.  What heroic and noble means to him reflects that perspective. He is gregarious, humorous, and charming, socially, although he prefers such socialization to be on his terms. He is disciplined, focused, and meticulous, as well as obsessive about his personal development—he devotes a considerable amount of his waking hours to that pursuit.
+        Appearance: Tall, long-limbed, broad-shouldered, and athletic, his olive skin, dark hair, strong, regal facial features, and piercing green eyes reflect his ancient Near-Eastern heritage, an ethnicity that no longer exists in that form among the entirety of humanity save himself.  When out of his armor, he tends to wear impeccable, tailored suits in neutral colors appropriate to the season, and quite a bit of jewelery with mystic or occult connotations, some of it as ancient as he is, or more.
       Abilities:
         Primary Abilities:
           Fighting:
@@ -257,7 +261,92 @@ Game:
                 Number: 50
                 Mechanism:
                   Chant: The hero needs to recite a series of words to manifest his Power. The Chant can be any length and form. Generally, the rank of the Effect determines the length of the Chant. The Chant lasts one turn for each ten points of the Power rank number. For example, a Chant of Incredible effect takes 4 turns.
-                Wards: []
+                Wards:
+                  Force Field vs. Emotion: | #D3
+                    This is the field-effect version of D11. The Field protects anyone within from attacks that are emotion-related or aimed at the Intuition, including Emotion Control, Hallucinations, and Domination. The Power's rank must be one rank higher than the hero's Intuition: if initially lower, the player should raise it to +1CS.
+                  Force Field vs. Energy Attack: | #D4
+                    This is the field-effect version of D12. The Field protects anything within from any emitted energy forms, whether natural, artificial, or Power-based. Such attacks include Light, Heat and Flame, Plasma, Hard Radiation, Electricity, Vibration, Sonics, Cold, and Kinetic Bolts (most of the Energy Emission category). Note that this Power overlaps D7. When creating the hero, the player can raise his rank +2CS by choosing a field that protects against a specific attack.
+                  Force Field vs. Magic: | #D5
+                    This is the, field-effect version of D13. The field protects anything within from magical attack whether mental or physical in orientation. Note that unlike D6, this Power rank can be lower than the Psyche, making the field less able to protect against certain types of Magic.
+                  Force Field vs. Mental Attack: | #D6
+                    This is the field-effect version of D14. The field protects anyone within from attacks aimed at the mind, neural system, and Psyche, including Psionics, and Neural Manipulation. It does not protect against emotion-based attacks (see D3) or magical attacks (see D5). The Power's rank must be one rank higher than the hero's Psyche: if initially lower, the player should raise it to the Psyche rank +1CS.
+                  Force Field vs. Physical Attack: | #D7
+                    This is a field-effect version of D15. The field protects anything within from such things as brute force, hostile environments, temperature extremes, hazardous chemicals, and airborne infection. Note that while this Power will prevent hostile environments from harming the hero, it does not provide life support materials. For example, this Power permits the hero to walk unharmed on the surface of Venus, provided he has his own oxygen supply.
+
+                    When creating the hero, the player can raise the Power rank +1CS by choosing a field that protects against a specific attack.
+                  Force Field vs. Power Manipulation: | #D8
+                    This is the field-effect version of D16. The field protects anyone within from any attacks that directly affect the hero's Powers, including Weakness Creation, Power Control, Power Domination, Magic Control, and Magician Domination.
+                  Force Field vs. Vampirism: | #D9
+                    This is the field-effect version of D17. The field protects anyone within from any vampiric-type attacks. This includes the forms of Psi-, Bio-, Energy, Magic, and Power Vampirism. When creating the hero, the player can raise the Power rank +1CS by choosing a field that protects against a specific attack.
+                  Lifeform Control:
+                    Exorcism: | #L5
+                      The hero can release a being from any external domination imposed by a third party. Such controls include Possession, Mental Domination, Serial Immortality, and Magic. If there's a control, this Power can break it. This Power rank is compared to that of the Power controlling the subject. A Typical Intensity FEAT can sever a lower ranking control Power. A Remarkable Intensity FEAT severs a controlling Power of equal rank, and an Amazing Intensity FEAT severs one of one or more ranks higher. Upon severing the being's control over the subject, that being is immediately teleported to its home dimension.
+
+                      This Power commonly appears as a spell used by sorcerers and holy men.
+
+                      The hero must be within 10' of the subject in order to perform the Exorcism.
+
+                      The hero can use this Power to resist the initial attempt by another to control him, but if this attempt fails (as per the FEATs listed above), he cannot Exorcise himself later.
+                    Force Field vs. Hostiles: | #L6
+                      The hero emits a psionic aura that repels any hostile lifeforms. The Power automatically probes the minds of anyone in the area and analyzes their intentions toward the hero. Anything harmful is repulsed, as if a Power rank material strength wall had risen between them. Neutral or friendly life is not affected by this field. Okay, I hear you asking: "What if somebody starts out friendly, but turns hostile after he's inside the field?" The answer is, he's catapulted harmlessly out of the field.
+
+                      Rank determines the size and material strength of the field. Appropriate ranges are shown on column A of the Range Table. The field can be breached by several means. Brute force always works. Mental Invisibility allows someone to bypass the field's sorting ability. The field is ineffective against cybernetic life.
+
+                      The field protects the hero from melee weapons or slugfest, but not from projected or missile weapons.
+                  Mental Enhancement:
+                    Clairaudience: | #M1
+                      The hero can "hear" distant sounds and voices despite any intervening distance or barriers. The Power is not hindered by factors that affect normal sound transmission, such as distance, time lag, muffling, distortion, or the absence of a transmitting medium. Because of this, Clairaudience has superior range over Hyper-Hearing. Only Clairaudience enables the hero to hear across a vacuum, for example.
+
+                      Unfortunately, Clairaudience can act as a pipeline to direct another's Psionic or Sonic attacks toward the hero. Because of this side-effect, the hero is -1CS to resist such attacks. These attacks need not even be aimed at the hero but might still affect the hero if the other Power is being used in the area the hero is spying upon.
+
+                      Example: Captain Tympanic is using his Power to eavesdrop on bankrobbers planning a heist. Unfortunately, Charmer appeared and used her Hypnotic Voice Power to capture the gang. Capt. Tympanic is caught in her spell as well.
+
+                      The ranges for Clairaudience are shown on column E of the Range Table. When the Power operates, it overrides the hero's natural hearing. Distant sounds are sensed at their original volume level. If the volume is too loud the hero can reduce it with a green FEAT. Faint sounds can be magnified by a yellow FEAT. The Power is normally a voluntary Power that musty be summoned. Sometimes it functions automatically: this can be the result of improper control, tampering by outside forces, or be triggered by sudden, dramatic events occurring to someone with whom the hero shares an emotional rapport. ("That was Lewis crying for help!")
+
+                      When using the Power to eavesdrop on another Clairaudient, that person may automatically sense the first Clairaudient's effort. This is determined by the Judge making a secret red FEAT based on the second hero's Power rank.
+
+                      The Optional Powers for this are Hyper-hearing, Clairvoyance, and Remote Sensing.
+
+                      The Nemesis for this is Force Field vs. Psionics.
+                    Clairvoyance: | #M2
+                      The hero can "see" distant sights without directly seeing it with his eyes. The hero receives a visual simulation of what he would see if he were actually present at the scene. The Power is not hindered by any of the factors that affect normal light transmission, such as distance, blockage, obscurement, and time lag. It can be used to see things that are impossible for a telescope or Telescopic Vision. For example, a Monstrous Clairvoyant could see current conditions inside a sealed room on the surface of Venus.
+
+                      The ranges for this Power are shown on Column E of the Range Table. When in use, the Power overrides normal vision. Normally the Power is consciously controlled. Sometimes it functions automatically. This can be the result of improper control, interference, or be triggered by sudden, dramatic events occurring to someone who whom the hero shares an emotional rapport. ("Oh no, Billy Jo fell off the bridge!") The Power can work against the hero if unwanted visions obscure the hero's sight or distract him at a crucial moment. For example, if Dr. Strange had a sudden flash while operating on a patient, a malpractice suit might be in order.
+
+                      When the Power is used to spy on another Clairvoyant, there is a possibility of that person detecting the use of the Power. The Judge makes a discreet Red FEAT based on the observed character's Power rank.
+
+                      Clairvoyance can function as a pipeline to draw light-based and Psionic attacks toward the hero. Such attacks may even affect him if they were aimed at something else within the area he is spying upon. The hero has -1CS resistance to such attacks.
+
+                      Clairvoyance can be used in conjunction with other Powers to increase the range at which those Powers can affect a target.
+
+                      Optional Powers include Clairaudience and Remote Sensing.
+
+                      The Nemesis is Force Field vs. Psionics.
+                    Remote Sensing: | #M26
+                      This is a catchall name for any Power that enables the hero to psionically extend the range of any sense. The senses include taste, smell, touch, balance (including gravity sensing), and temperature. The exceptions are sight and hearing, as these are already covered by the Powers of Clairvoyance and Clairaudience. The Power can also be used to extend the range of senses not present in Normal Humans, such as senses that detect Kirlian auras or magnetic fields. The player must choose a single sense to be extended by this Power. It must be a sense that is common to the hero's physical type.
+
+                      The taste/smell form can be useful in analyzing distant and possibly toxic substances. He can savor tastes and smells that might kill him if he were to directly experience them. ("Nerve gas smells like freshly baked cinnamon buns.") He can develop an extensive palate that permits him to identify substances by taste: a green Reason FEAT should suffice.
+
+                      The tactile form is good for identifying concealed or inaccessible shapes. Examples include the interior of a lock or a non-surgical examination of a patient. Again, a green Reason FEAT coupled with the hero's Talents should suffice.
+
+                      The range is determined by the Power rank. Maximum ranges are shown on column E of the Range Table.
+
+                      A drawback to this Power is that it acts as a funnel to direct Psionic attacks against the hero. Resistance is decreased -1CS because of this.
+
+                      Optional Powers include additional forms of this Power, Clairaudience, and Clairvoyance.
+
+                      The Nemesis is Mental Invisibility.
+                  Physical Enhancement:
+                    Self-Sustenance: | #P11
+                      The hero can survive indefinitely without consuming air, water, or food. Bodily wastes are internally recycled back into useable materials.
+
+                      Normally the hero would not need to replenish himself when his power reached its limit. He merely resumes normal consumption habits (breathe normally, eat a light snack, etc.). This is the permanent form of the power. The temporary form requires the hero to consume mass quantities at the expiration of the Power. ("That's the fifteenth steak you've eaten, Fred. How long did you say it's been since you ate last?") The required intake is one-quarter what the hero would normally have consumed during the time he was abstaining. The hero can raise his Power rank +1CS by opting for the temporary form.
+                    Suspended Animation: | #P13
+                      The hero can temporarily suspend all life functions and enter a death-like trance. The hero can later return to life and normal activity without harm. During this period, the hero's body can be subjected to normally fatal conditions and not suffer any, unless the body is actually damaged (say, a big rock fell on it). If this happens, the hero cannot return to life until the damage is repaired.
+
+                      Under normal conditions, the hero can consciously decide when to reawaken. This may be at the end of a predetermined length of time, or when certain conditions are met (like when his spaceship has air in it again). Otherwise, the hero must be stimulated into awakening by another person.
+
+                      Rank determines the maximum length of time the hero can suspend animation.
                 Reference: |
                   The Mage can create areas of latent Power in any desired location. The Ward is designated by a special substance or mark. The mage decides what specific Powers the Ward possesses and what the triggering stimulus will be. When that stimulus occurs, the Ward releases all its power is a single turn, generally in the direction of whatever created the stimulus.
 
@@ -490,6 +579,10 @@ Game:
             Professional:
               Law:
                 - Jennifer Walters, Esq.
+              Law Enforcement:
+                - Benjamin Ward
+                - Robert Abrams
+                - William S. Sessions
               Military:
                 - Casper Weinberger
               Business World:
@@ -534,14 +627,16 @@ Game:
                 - Topaz
                 - Satana Hellstrom
                 - Jennifer Kale
+                - Ilyana Rasputin
               Mythology:
-                - Thor Odinson
                 - Hercules Panhellenios
                 - Aphrodite Ourania
                 - Athena Parthenos
                 - Hephaestus Aetnaeus
                 - Hermes Diaktoros
                 - Hecate
+                - Thor Odinson
+                - Loki Laufeyson
           Magic:
             Character Type:
               Magic Wielder: &Magic_Wielder A character able to use spells. Such characters may also be called magicians, sorcerers, wizards, enchanters, etc.
@@ -786,7 +881,7 @@ Game:
         Sundries and Other Equipment:
           Personal Computer:
             Price: Excellent
-            Reference: The Personal Computer listed here is the type commonly available to most Americans and is a tool, not an artificial intelligence, unlike some more powerful computers. The personal computer may be considered to have Poor Reason for problem-solving, analysis, etc. as it is only as smart as the information placed inside it. At Excellent Cost, the user can get a modem that links his machine into a net with other machines.
+            Reference: &Personal_Computer The Personal Computer listed here is the type commonly available to most Americans and is a tool, not an artificial intelligence, unlike some more powerful computers. The personal computer may be considered to have Poor Reason for problem-solving, analysis, etc. as it is only as smart as the information placed inside it. At Excellent Cost, the user can get a modem that links his machine into a net with other machines.
           Purchased Suit or Tux: Multiple
           Mystic Texts: &Mystic_Texts  Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
         Magical Items:
@@ -799,6 +894,7 @@ Game:
             Description: |
               A richly-stained boxwood staff, bound and shod in gilt bronze: rings inlaid with blue paste glass along the shaft, a solar-motif finial cap bearing peridots, sunstones, and garnets, and a spike at the butt. The finial supports a gold icon of Sol Invictus in an adlocutio pose, palm foward, topping the staff.
             Material Strength: Excellent
+            Type: Blunt Attack
             Reference:
               Staff of Polar Power: |
                   This is actually a class of staves. They can come in any shape or material and range in size from 4 to 8 feet long. A Staff of Polar Power polarizes the holder with the power of the master who created it. Therefore different powers and different levels of mastery are engrained into each staff and no two are alike. All Staves of Power allow the character to become pure energy for the purpose of floating through dimensions. In such form a character can move through dimensions at a rate of 5 dimensions per round and ignore all physical attacks. Another quality of most Staves of Power is their ability to absorb attack spells cast at them (see Magic Effects Table, Agility & Targeting). An Agility FEAT roll of a bull’s-eye indicates the character has intercepted the spell with his staff).
@@ -900,88 +996,238 @@ Game:
           Leonidas:
             Reference:
               Familiar: &Familiar Familiar indicates a being that is very powerful magically and actively assists the hero. Two powers should be rolled randomly or selected by the Judge from the personal and universal energy lists for this familiar. In addition, the familiar is intelligent (Reason and Psyche at least Typical) and can communicate with its owner (the kind of communication is left to the Judge’s discretion). The form of the familiar can either be that of a normal animal (usually a cat) or an unusual type, such as a small dragon or other mythical creature. The familiar’s form is at the player’s discretion.
+          Interdimensional Scanner: While this is not a mystical item, it is used to monitor dimensional nexus and scan dimensions that are near Earth. This room-sized piece of high-tech equipment was designed by Roger Bochs, who first created Box of Alpha Flight fame. He was assisted in its creation by Shaman. Imaging of these dimensions is often hazy, showing only the outlines of larger creatures, structures, and so forth. It is with this device that the Alpha Flight team unwittingly brought the Incredible Hulk back to the Earth dimension from another dimension where Doctor Strange had banished him for the good of mankind, and the Hulk’s own sake. Any use of this device to scan and observe another dimension requires a successful Reason FEAT roll.
         Custom Equipment:
-          Guardian Blaster:
-            Model I: &Guardian_Blaster
-              Description: The Guardian Blaster Model I is a combination weapon with utility functions.  It fires handgun bullets with the precision of a match-grade target pistol, gyrojet rockets, canister rounds (including standard shotgun shells, or non-lethal shotgun loads, as well as grenadelike canisters), and laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher. It's an integrated combination of existing weapons (Variable Pistol, Target Pistol, Gyrojet Pistol, Laser Pistol, Concussion Pistol, Stun Pistol, Shotgun, Riot Gun) and items (Fire Extinguisher, Silencer, Sniper Sights, Infra-Red Sights, Flashlights—Normal and Halogen, Mace, Flare Gun).
-              Count: 2
-              Material Strength: Excellent
-              Shooting Weapons:
+          Guardian Integrated Multipurpose Weapon:
+            Model I:
+              Mk. α: &Guardian_Integrated_Multipurpose_Weapons_Model_I_Mkα
+                Description: |
+                  The Guardian Integrated Multipurpose Weapon Model I Mk. α, also known as the Guardian Blaster, is a handheld combination weapon with utility functions.  It fires handgun bullets with the precision of a match-grade target pistol with an integrated silencer, gyrojet rockets, shot shells, canister rounds, and laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher. Beam types are selectable on the fly from a power pack. Other weapons' ammunition are treated as types of ammunition that must be switched out and it can only load and fire one at a time, as does the Variable Pistol; the loading and firing mechanisms are in large part integral to the magazines. Other features such as the flare gun, fire extinguisher, and mace are all present together with everything else, but must be reloaded after a single use.
+                  
+                  It's an integrated combination of existing weapons (Variable Pistol, Target Pistol, Gyrojet Pistol, Laser Pistol, Concussion Pistol, Stun Pistol, Shotgun, Riot Gun) and items (Fire Extinguisher, Silencer, Sniper Sights, Infra-Red Sights, Flashlights—Normal and Halogen, Mace, Flare Gun).
+                Material Strength: Excellent
                 Range:
-                  Bullet: 5
+                  Handgun: 5
+                  Riot Gun: 2
                   Gyrojet: 5
                   Laser: 10
                   Concussion: 4
                   Stun: 2
-                  Shot, Canister: 3
                 Damage:
-                  Bullet: 6
+                  Handgun: 6
+                  Riot Gun:
+                    - 15
+                    - As canister
                   Gyrojet: 10
                   Laser: 10
                   Concussion: 10
                   Stun: Fires a stunning beam of Typical Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns.
-                  Shot: 15
-                  Canister: As canister
                 Type:
-                  Bullet: Shooting
+                  Handgun: Shooting
+                  Riot Gun:
+                    - Shooting
+                    - As canister
                   Gyrojet: Shooting
                   Laser: Energy
                   Concussion: Force
                   Stun: Typical Intensity stunning
-                  Shot: Shooting
-                  Canister: As canister
-                  Rate: 1
+                Rate: 1
                 Shots:
-                  Bullets: 9
+                  Handgun: 9
+                  Riot Gun: 6
                   Gyrojet: 3
-                  Laser: 10
-                  Concussion: 5
-                  Stun: 10
-                  Shot, Canister: 6
+                  Power Pack:
+                    Shots: 10
+                    Concussion:
+                      Max: 5
+                      Rate: 2 per Shot
                 Notes:
                   - One-Handed
-                  - Shot bursts, which affects up to three adjacent targets, with one roll made for all targets.
+                  - Riot Gun one-handed at -1CS
+                  - Riot Gun bursts, which affects up to three adjacent targets, with one roll made for all targets.
+                  - Riot Gun may loaded with non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results).
+              Mk. β: &Guardian_Integrated_Multipurpose_Weapons_Model_I_Mkβ
+                Description: |
+                  The Guardian Integrated Multipurpose Weapon Model I Mk. β is a longarm combination weapon with utility functions, essentially a larger version of the Mk. α.  It fires medium power and magnum power rifle bullets with the precision of a sniper rifle with an integrated silencer, shot shells, rockets, canister rounds, flammable liquid, and laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher.  Beam types are selectable on the fly from a power pack. Other weapons' ammunition are treated as types of ammunition that must be switched out and it can only load and fire one at a time, as does the Variable Pistol; the loading and firing mechanisms are in large part integral to the magazines. The flamethrower has a separate fuel source. Other features such as the flare gun, fire extinguisher, and mace are all present together with everything else, but must be reloaded after a single use.
+                
+                  It's an integrated combination of existing weapons (Variable Pistol, Sniper Rifle, Assault Rifle, Laser Rifle, Concussion Rifle, Stun Rifle, Shotgun, Riot Gun, LAW) and items (Fire Extinguisher, Silencer, Sniper Sights, Infra-Red Sights, Flashlights—Normal and Halogen, Mace, Flare Gun).
+                Material Strength: Excellent
+                Range:
+                  Sniper Rifle: 10
+                  Shotgun: 3
+                  LAW: 4
+                  Laser: 10
+                  Concussion: 7
+                  Stun: 5
+                  Flamethrower: 2
+                Damage:
+                  Assault Rifle: 10
+                  Sniper Rifle: 15
+                  Shotgun: 20
+                  LAW:
+                    - 40
+                    - As canister
+                  Laser: 20
+                  Concussion: 20
+                  Stun: Fires a stunning beam of Remarkable Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns.
+                  Flamethrower: 30
+                Type:
+                  Assault Rifle: Shooting
+                  Sniper Rile: Shooting
+                  Shotgun: Shooting
+                  Laser: Energy
+                  Concussion: Force
+                  Stun: Remarkable Intensity stunning
+                  Flamethrower: Energy
+                Rate:
+                  Assault Rifle: 2
+                  Sniper Rile: 1
+                  Shotgun: 1
+                  LAW: 1
+                  Laser: 1
+                  Concussion: 1
+                  Stun: 1
+                  Flamethrower: 1
+                Shots:
+                  Assault Rifle: 20
+                  Sniper Rifle: 4
+                  Shotgun: 6
+                  LAW: 6
+                  Power Pack:
+                    Shots: 20
+                    Concussion:
+                      Max: 12
+                      Rate: 1⅔ per Shot
+                  Flamethrower: 5
+                Notes:
+                  - Shotgun and flamethrower fire bursts, which affect up to three adjacent targets, with one roll made for all targets.
+                  - Shotgun may loaded with non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results).
+                  - Flamethrower scatters, which indicates all targets within one area of the target will be hit for that damage.
+              Mk. γ: &Guardian_Integrated_Multipurpose_Weapons_Model_I_Mkγ
+                Description: |
+                  The Guardian Integrated Multipurpose Weapon Model I Mk. γ is a vehicle mounted or crew-served combination weapon with utility functions, essentially a larger version of the Mk. β's beam system.  It laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity light system for illumination or blinding and a heavy-duty foam projector to extinguish fires or clear areas.  The Mk. γ must be stationary to fire, mounted on a sufficiently large vehicle or structure, or tripod.  Beam types are selectable on the fly from a power pack. The fire hose is present together with everything else, but must be reloaded after a single use if not hooked to a hydrant or similar water source.
+                
+                  It's an integrated combination of existing weapons (Laser Cannon, Concussion Cannon, Stun Cannon, Missile Launcher) and items (Fire Hose, Sniper Sights, Infra-Red Sights, Flashlights—Normal and Halogen).
+                Material Strength: Excellent
+                Range:
+                  Laser: 20
+                  Concussion: 15
+                  Stun: 10
+                  Missile Launcher: As Missile
+                Damage:
+                  Laser: 30
+                  Concussion: 40
+                  Stun: Fires a stunning beam of Incredible Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns.
+                  Missile Launcher: As missile
+                Type:
+                  Laser: Energy
+                  Concussion: Force
+                  Stun: Incredible Intensity stunning
+                  Missile Launcher: As missile
+                Rate:
+                  Laser: 1
+                  Concussion: 1
+                  Stun: 1
+                  Missile Launcher: 1
+                Shots:
+                  Power Pack: 10
+                  Missile Launcher: 10
+                Notes:
+                  - Stun, Laser, and Concussion Cannons fire bursts, which affect up to three adjacent targets, with one roll made for all targets.
+              Reference:
                 Ammunition:
                   Power Pack: Stun, concussion, and laser weapons operate from power packs and may not use other types of ammunition.
-                  Bullets:
-                    Standard: &Standard_Ammunition Damage listed for each weapon is for standard ammunition.
-                    Mercy Shot: There are several types of specialized ammunition, the first of which is Mercy Shot. Mercy bullets inflict no damage, but spread a Remarkable Intensity knock-out drug over the skin of the target. If the bullet inflicts damage to the target, the drug takes effect, knocking those affected out for 1-10 rounds.
-                    AP Shot: Armor-piercing bullets reduce the target's Body Armor by 2 CS (from Good to Poor, for example) for purposes of hitting and damage. This type of ammunition has no effect on force fields.
+                  Handgun:
+                    Standard: &Standard Damage listed for each weapon is for standard ammunition.
+                    Mercy Shot: &Mercy_Shot There are several types of specialized ammunition, the first of which is Mercy Shot. Mercy bullets inflict no damage, but spread a Remarkable Intensity knock-out drug over the skin of the target. If the bullet inflicts damage to the target, the drug takes effect, knocking those affected out for 1-10 rounds.
+                    AP Shot: &AP_Shot Armor-piercing bullets reduce the target's Body Armor by -2CS (from Good to Poor, for example) for purposes of hitting and damage. This type of ammunition has no effect on force fields.
                     Rubber Shot: Less lethal rubber bullets that inflict slugfest damage instead of shooting damage. Ignore Slam results when using rubber bullets.
                     Explosive Shot: &Explosive_Shot Explosive Shot inflicts twice the normal (listed) damage for the weapon. If the weapon fires bursts or scatters, all targets in the area are affected.
-                  Shot:
-                    Standard: *Standard_Ammunition
-                    Non-Lethal: Non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results).
-                  Canister Shot:
-                    - Canister shot is a special type of ammunition that may be loaded with various cartridges for different effects. Specify the type of canister desired when purchasing.
-                    - Gas Canisters: Gas Canisters contain Incredible Intensity Tear Gas. Cover one area.
-                    - Knock-Out Canisters: Knock-Out Can contain Remarkable Intensity Knock-Out gas. Cover one area.
-                    - Smoke Canisters: Smoke Canisters contain Excellent Intensity smoke. Cover one area.
-                    - Explosive Canisters: Explosive Canisters inflict double damage to all in target area, normal damage to all in adjacent areas.
-                    - Incendiary Canisters: Incendiary Canisters inflict 20 damage in fire (Energy), which burns at Excellent Intensity for 1-10 rounds.
+                  Sniper Rifle:
+                    Standard: *Standard
+                    AP Shot: *AP_Shot
+                  Assault Rifle:
+                    Standard: *Standard
+                    Mercy Shot: *Mercy_Shot
+                  Shotgun:
+                    Standard: *Standard
+                  Riot Gun:
+                    Standard: *Standard
+                    Canister Shot: &Canister_Shot
+                      Reference: Canister shot is a special type of ammunition that may be loaded with various cartridges for different effects. Specify the type of canister desired when purchasing.
+                      Canisters:
+                        - Gas Canisters: Gas Canisters contain Incredible Intensity Tear Gas. Cover one area.
+                        - Knock-Out Canisters: Knock-Out Can contain Remarkable Intensity Knock-Out gas. Cover one area.
+                        - Smoke Canisters: Smoke Canisters contain Excellent Intensity smoke. Cover one area.
+                        - Explosive Canisters: Explosive Canisters inflict double damage to all in target area, normal damage to all in adjacent areas.
+                        - Incendiary Canisters: Incendiary Canisters inflict 20 damage in fire (Energy), which burns at Excellent Intensity for 1-10 rounds.
                   Gyrojet:
-                    - Standard: Damage listed for each weapon is for standard ammunition.
-                    - Explosive Shot: *Explosive_Shot
-                    - Heat-Seeker Ammunition: &Heat-Seeker_Ammunition Heat-Seeker Ammunition seeks out the hottest source in line to the target. Will track the hottest source up to maximum of the weapon's range, and suffers no penalty for range. If several targets are of the same heat, then it will determine a target randomly. This ammunition type is only available for Gyro-Jet Pistols.
-                    - Explosive Heat-Seeker Ammunition:
+                    Standard: *Standard
+                    Explosive Shot: *Explosive_Shot
+                    Heat-Seeker Ammunition: &Heat-Seeker_Ammunition Heat-Seeker Ammunition seeks out the hottest source in line to the target. Will track the hottest source up to maximum of the weapon's range, and suffers no penalty for range. If several targets are of the same heat, then it will determine a target randomly. This ammunition type is only available for Gyro-Jet Pistols.
+                    Explosive Heat-Seeker Ammunition:
                       - Explosive Shot: *Explosive_Shot
                       - Heat-Seeker Ammunition: *Heat-Seeker_Ammunition
-                Target Pistol: The Target Pistol is the most finely balanced and accurate of the pistols. The user of a target pistol suffers no penalty for range when firing with two hands
-                Variable Pistol: The Variable Pistol has an advantage in that it may be set in the field to a specific type of ammunition and changed according to need. Most handguns fire standard ammunition and must be modified to fire other types as well.
-                GyroJet Pistol: A GyroJet Pistol fires a miniature rocket, which may affect one or more targets according to ammunition type. Gyro-jets will only fire one type of ammunition, and gyrojet ammunition will not fit any other type of gun.
-                Laser Pistol: &Laser_Concussion The Laser Pistol, Concussion Pistol, and Plasma Beam Handgun are weapons used by high-tech spies and subversive organizations, including S.H.I.E.L.D. and A.I.M. All three types operate from power packs.
-                Concussion Pistol: &Laser_Concussion
-                Stun Pistol: The standard Stun Pistol fires a stunning beam of Typical Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns. It operates from a power pack.
-                Shotgun: The Shotgun fires bursts. It is often loaded with non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results).
-                Riot Gun: The Riot Gun is a smaller version of the shotgun and fires grenade-like missiles and canister shot (treat as grenades).
-              Other Equipment:
-                Fire Extinguisher: Fire Extinguishers inflict no damage normally, but against fire are of Good Intensity (eliminate fire of Typical Intensity or less in the same area on a green FEAT, of Good Intensity on a yellow, and up to Excellent on a red). Against characters with flaming powers, such as the Human Torch, the extinguisher causes a FEAT roll against that Intensity to retain flame.
-                Silencer: The Silencer is a device that may be added to a pistol or rifle which inflicts damage on the Shooting table, excluding the gyro-jet and all lasers, stunning and concussion weapons. The silencer operates by dispersing the gases from the shot that creates the crack of the pistol. The target (and those around him or her) must make an Intuition FEAT to hear the shot and know its location.
-                Sniper Sights: Sniper Sights are built into the sniper rifle and the target pistol, and added to any other weapon eliminate the penalty for range for weapons. Using the sniper sight automatically has an initiative roll of 10 (last in the round). 
-                Infra-Red Sights: Infra-Red Sights are a modification similar to the sniper sight, may be used for any missile weapon. These sights permit the user to see up to 5 areas in the dark.
-                Flashlight: Flashlights are common to all readers. The normal flashlight is the type most common, with a plastic or metal body (Typical Intensity). The Halogen flashlight has a brighter bulb and more concentrated beam, and blinds with a more powerful Intensity (Remarkable Intensity). Normal flashlight has a range of two areas, the halogen three.
-                Mace: &Mace Mace is a small one-area weapon that shoots a mist of Typical Intensity tear gas at a single target adjacent to the user. It does not require an Agility FEAT to hit, though the target must make an Endurance FEAT to avoid the effects.
-                Flare Pistol: Flare Pistols fire a burning charge that lights the sky, either to provide illumination (lighting all areas within three) or as a signal device (fired 10 floors straight up). Used as a weapon, the device has a range of two areas and inflicts Good damage. The charge is incendiary and will ignite flammable material.
+                  LAW:
+                    Standard: *Standard
+                    AP Shot: *AP_Shot
+                    Canister Shot: *Canister_Shot
+                  Missile Launcher:
+                    Reference: |
+                      Missiles are expensive propositions. In addition to a missile launcher, the user must purchase the missile itself, the specific payload to be used, and the control system This restricts missiles to those who can afford or invent them.
+
+                      A missile without a control device will fly in a straight line to its target's location at the time of the firing, and hit those in that area on the Shift 0 column (individuals who are not choosy about their targets often do this while loading up on the explosives). Aircraft Bombs (like the type in old 8-52 movies) an missiles without control devices (the "launcher" is in the plane itself -they are "launched" straight down).
+                    Missiles:
+                      Standard Missiles: |
+                        Standard Missiles have Body: Excellent, Control: Remarkable, and Speed: Excellent.
+                      High-Tech Missiles: |
+                        High-Tech Missiles have Body: Excellent, Control: Incredible, and Speed: Excellent.
+                      High-Speed Missiles: |
+                        High-Speed Missiles have Body: Excellent, Control: Incredible, and Speed: Amazing.
+                    Control Systems:
+                      Wire-guided Control System: The missile is controlled by a wire leading from the tail of the missile. The Wire-guided missile has the Agility of the controller to hit. Severing the wires causes the missile to behave as if it has no control. Range of 10 areas, maximum, but no penalties for range.
+                      Tele-Guided Control System: The missile is guided by a camera in the nose of the missile, and the operator may be up to 5 miles away. Use the Control of the missile or the Agility of the controller (whichever is lower) to determine Control FEATs for this type of missile.
+                      Computer-Guided Control System: The missile is programmed internally for a specific target. Its ability to determine the target is considered Poor if multiple similar targets are available.
+                      Radio-Linked Control System: Also called a homing missile. The missile tracks on a specific wavelength, either directed from its point of firing or issuing from the target. Destruction of a tracer or cessation of the signal causes the missile to go out of control.
+                      Heat-Seeking Control System: This form of guidance will "lock on" to the highest flame source in its path (usually a jet-engine or flaming hero). The missile will only be sidetracked by a higher source of heat.
+                    Payloads:
+                      Standard Missile Payload: Standard Missile Payload inflicts 40 points EA damage to all in the target area.
+                      Concentrated Explosive Missile Payload: Concentrated Explosive Missile Payload inflicts 40 points EA damage to the target only.
+                      High Explosive Missile Payload: High Explosive Missile Payload inflicts 70 points EA damage to all in the target area, and 20 points to those in adjacent areas.
+                      Incendiary Missile Payload: Incendiary Missile Payload inflicts 40 points Energy damage to all in the area and burns for Good Intensity for each round afterward until put out.
+                      Gas Missile Payload:
+                        Reference: Gas Missile Payload contains Amazing Intensity tear or knock-out gas, which will affect all in the area.
+                        Tear Gas: &Tear_Gas Most tear gas is considered to be Typical intensity. Those failing the Endurance FEAT roll against this gas may take no actions other than movement until they leave the area, nor for one round after leaving that area.
+                        Knock-Out Gas: Knock-Out gas is listed in various Intensities, as it is a favorite device to knock out bad guys and good guys. Those in the same area as knock-out gas must make an Endurance FEAT or be knocked out for 1-10 rounds.
+                Shooting Weapons:
+                  Target Pistol: The Target Pistol is the most finely balanced and accurate of the pistols. The user of a target pistol suffers no penalty for range when firing with two hands
+                  Variable Pistol: The Variable Pistol has an advantage in that it may be set in the field to a specific type of ammunition and changed according to need. Most handguns fire standard ammunition and must be modified to fire other types as well.
+                  GyroJet Pistol: A GyroJet Pistol fires a miniature rocket, which may affect one or more targets according to ammunition type. Gyro-jets will only fire one type of ammunition, and gyrojet ammunition will not fit any other type of gun.
+                  Laser Pistol: &Laser_Concussion_Pistol The Laser Pistol, Concussion Pistol, and Plasma Beam Handgun are weapons used by high-tech spies and subversive organizations, including S.H.I.E.L.D. and A.I.M. All three types operate from power packs.
+                  Concussion Pistol: *Laser_Concussion_Pistol
+                  Stun Pistol: The standard Stun Pistol fires a stunning beam of Typical Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns. It operates from a power pack.
+                  Sniper Rifle: The Sniper Rifle, like the target pistol, suffers no penalty for firing up to maximum range.
+                  Assault Rifle: The Assault Rifle is the version of the rifle used by the military.
+                  Laser Rifle: &Laser_Stun_Concussion_Rifle The Laser, Stun, and Concussion Rifles are larger versions of their handgun equivalents. The stun rifle fires a beam of Remarkable Intensity. All use power packs.
+                  Stun Rifle: *Laser_Stun_Concussion_Rifle
+                  Concussion Rifle: *Laser_Stun_Concussion_Rifle
+                  Shotgun: The Shotgun is a one- or two-barreled weapon that fires bursts. It is often loaded with non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results). One or both barrels may be fired.
+                  Riot Gun: The Riot Gun is a smaller version of the shotgun and fires grenade-like missiles and canister shot (treat as grenades).
+                  LAW: LAW stands for Light Anti-tank Weapon, and is the replacement for the Bazooka on the battlefield. It requires one man to fire.
+                  Stun Cannon: &Stun_Concussion_Laser_Cannon Stun, Concussion, and Laser Cannons are the largest version of the pistols and rifles of the same name. They must be stationary to fire, and all rely on power packs. Stun cannon fires bursts of Incredible Intensity.
+                  Concussion Cannon: *Stun_Concussion_Laser_Cannon
+                  Laser Cannon: *Stun_Concussion_Laser_Cannon
+                  Flamethrower: The Flamethrower is a military weapon that shoots a jet of flaming jelly, affecting all targets in the area. The fire burns for Incredible (40) points damage the first round and continues to burn for 10 points damage each round until put out (for 1-10 rounds).
+                  Missile Launcher: The Missile Launcher is a military weapon that fires missiles (see Missiles) and may range from small launchers similar to the LAW to missile equivalents of the Heavy Artillery.
+                Other Equipment:
+                  Fire Extinguisher: Fire Extinguishers inflict no damage normally, but against fire are of Good Intensity (eliminate fire of Typical Intensity or less in the same area on a green FEAT, of Good Intensity on a yellow, and up to Excellent on a red). Against characters with flaming powers, such as the Human Torch, the extinguisher causes a FEAT roll against that Intensity to retain flame.
+                  Fire Hose: Fire Hoses have been used as riot control devices, and inflict 10 points Blunt Attack at a range of one area, and can be considered as firing bursts. Against fire and flaming characters, the water from a fire hose is considered Remarkable Intensity.
+                  Silencer: The Silencer is a device that may be added to a pistol or rifle which inflicts damage on the Shooting table, excluding the gyro-jet and all lasers, stunning and concussion weapons. The silencer operates by dispersing the gases from the shot that creates the crack of the pistol. The target (and those around him or her) must make an Intuition FEAT to hear the shot and know its location.
+                  Sniper Sights: Sniper Sights are built into the sniper rifle and the target pistol, and added to any other weapon eliminate the penalty for range for weapons. Using the sniper sight automatically has an initiative roll of 10 (last in the round). 
+                  Infra-Red Sights: Infra-Red Sights are a modification similar to the sniper sight, may be used for any missile weapon. These sights permit the user to see up to 5 areas in the dark.
+                  Flashlight: &Flashlight Flashlights are common to all readers. The normal flashlight is the type most common, with a plastic or metal body (Typical Intensity). The Halogen flashlight has a brighter bulb and more concentrated beam, and blinds with a more powerful Intensity (Remarkable Intensity). Normal flashlight has a range of two areas, the halogen three.
+                  Mace: &Mace Mace is a small one-area weapon that shoots a mist of Typical Intensity tear gas at a single target adjacent to the user. It does not require an Agility FEAT to hit, though the target must make an Endurance FEAT to avoid the effects.
+                  Flare Pistol: Flare Pistols fire a burning charge that lights the sky, either to provide illumination (lighting all areas within three) or as a signal device (fired 10 floors straight up). Used as a weapon, the device has a range of two areas and inflicts Good damage. The charge is incendiary and will ignite flammable material.
             Model II:
               Description: A sleek, futuristic device with extendable stock and forestock to transition between handgun to long gun form factors. It may be attached to the Sentinel Battlesuit Mk. 1's arm, becoming an integral part of the suit, or operate off grid power or a power pack as an energy source to be used as a standalone device for 10 uses of any power per Power Pack.
               Variants:
@@ -1016,145 +1262,130 @@ Game:
                       - Kinetic Bolts:
                           Reference: This is a crude form of M30/Telekinesis. The hero can strike a target with a surge of force at Power rank range and damage. The Kinetic Bolt can be shaped as desired by the hero. It can be a wide cylinder, or an incredibly fine needle. Its effect is the same as if the target had been struck by a solid object of equal material strength. This Power can affect only tangible materials. It includes Resistance to Kinetic Bolts, Kinetic Control, or Telekinesis. Optional Powers are Kinetic Control and Telekinesis, which are also the Nemeses.
                 Matter Creation:
-                  Missile Creation: #MCr5
-                    Rank: Base Power Rank
-                    Missiles:
-                      Stunning Missile:
-                        Power: ~
-                        Effect: Power Rank Intensity Stunning
-                      Incendiary:
-                        Power: Fire Generation
-                        Effect: Power Rank Energy Damage
-                      Flare:
-                        Power: Light Emission
-                        Effect: Emits light of any color at up to Power Rank Intensity.
-                      Neurotoxin Dart:
-                        Power: Neural Manipulation
-                        Effect: Chosen form of Neural Manipulation power
-                      Sleep Dart:
-                        Power: Sleep-Induced
-                        Effect: Effect of Power
-                      Smoke Canister: &Gas_Canister
-                        Power: Spray
-                        Effect: Feeble damage and obscures vision in area
-                    Powers:
-                      Lifeform Control:
-                        Neural Manipulation: #L12
-                          Rank: Base Power Rank
-                          Note: &Missiles_or_Spray-Only In conjunction with Missiles or Spray only
-                          Reference: &Lifeform_Control |
-                            The hero can alter a target's neural activity. By changing nerve messages within the target's body, the hero can cause a variety of effects.
+                  Base Powers:
+                    Missile Creation: #MCr5
+                      Rank: Base Power Rank
+                      Missiles:
+                        Stunning Missile:
+                          Power: ~
+                          Effect: Power Rank Intensity Stunning
+                        Incendiary Flare:
+                          Power: Fire Generation
+                          Effect: Power Rank Energy Damage.  Illuminates Power Rank Area, may be fired upwards Power Rank Range for signaling. Ignites flammable material with Power Rank Intensity.
+                        Neurotoxin Dart:
+                          Power: Neural Manipulation
+                          Effect: Chosen form of Neural Manipulation power to one target
+                        Sleep Dart:
+                          Power: Sleep-Induced
+                          Effect: Effect of Sleep-Induced Power to one target
+                        Smoke Canister: &Smoke_Canister
+                          Power: Spray
+                          Effect: Feeble damage and obscures vision in area
+                      Reference: |
+                        The hero can spontaneously create and launch projectiles. These are propelled to Power rank range. Missiles that simply slam into a target act as Stunning Missiles and inflict Stunning attacks of Power rank Intensity. If the hero has other Powers, these are combined with this Power to produce missiles with specific effects.
 
-                            - Disruption: The target's body loses all sensations: it falls to the ground, a limp, numb mass of flesh.
-                            - Paralysis: The target body becomes completely rigid. No chemical can counteract the paralysis while the Power is in effect.
-                            - Seizure: The target's muscles spasm uncontrollably for as long as the Power is in effect.
-                            - Exaggeration: Nerve signals are actually amplified, causing the target to overact when attempting any movement.
+                        - Nullifier: The Missile Power is combined with Power Control/Negation to produce missiles that inflict no direct damage but may nullify inborn or technological Powers with Power rank Intensity.
+                        - Sleep Darts-the Power is combined with Induced Sleep to create anesthetic darts.
+                        - Magnetic: The Power combines with Magnetism to produce missiles with Power rank Intensity Magnetism. These can do Power rank damage to magnetic recordings or delicate electronics, and can attract any iron in the target site (guns, for example).
+                        - Ghostcasters: The Power is combined with Illusion-casting to create missiles that emit a static hologram upon hitting the target site.
+                        - Vanishers: The Power is combined with Induced Teleportation to create missiles that teleport the target to a predetermined destination.
+                        - Energizer: Missiles are combined with Power Transference to give the target part of the hero's other Powers.
 
-                            Normally, a hero can select any of these effects. When creating the hero, the player can choose to specialize in one effect for a benefit of +2CS. Note: This Power only affects the voluntary muscles; it does not affect the autonomic nervous system which controls the heart, lungs, and other automatic bodily functions. The range and duration of this Power are determined by its rank. Suitable distances are shown on column A of the Range Table. The Power normally affects only a single person; affecting more causes a decrease in duration of -1CS per additional person. The target's mind and senses are unaffected by the Power: the victim knows full well what is happening (even if he doesn't know why it's happening to him). The Power can reach across the dimensional barriers if it is combined with some way of breaching the dimensions. It can function normally if both hero and target are within another dimension.
-                        Sleep-Induced: #L18
-                          Rank: Base Power Rank
-                          Note: *Missiles_or_Spray-Only
-                          Reference: &Sleep-Induced
-                            This is a nice, simple, straight-forward Power that is hardly ever used in any comic because it's not terribly dramatic. Nor is it exactly cricket. The hero has the ability to put any target into a deep sleep, from which he cannot awake while the Power is in effect. During this induced sleep, the target is completely helpless (see what I mean about not being cricket?). On the other hand, when you're facing 325 battle-crazed Skrulls, this Power can be really handy.
+                        Any Power in this book can be combined with this Power to create unique missiles for your character. When creating the character, the player should follow this guideline: If there is a way to combine external Powers with this Power, do it. Powers that are completely internal in their effects are exempted from this. This includes most of the Mental and Physical Enhancements and all of the Self Alterations and Detection Powers.
 
-                            The Power rank determines the range and duration of the Power. Relevant distances are shown on column A of the Range Table. It affects everyone within range. Sleep persists for 1-10 hours after the Power's duration. During that time, the victim can be awakened by anyone, but he'll wake up naturally in any case.
-                      Energy Emission:
-                        Fire Generation: #EE4
-                          Rank: Base Power Rank
-                          Note: *Missiles_or_Spray-Only
-                          Reference: &Fire_Generation |
-                            The hero can project fire with Power rank damage and range. These flames have no apparent fuel source and spring from the hero as if he were a living fuel tank. Although the flames' fuel comes out of the proverbial nowhere, free oxygen must be present for the Power to function. If not, the hero can cause a single flame that lasts' only one turn, then fizzles out. At Shift X rank, the hero gains the ability to generate oxygen as well, permitting this Power to function under any conditions. When creating the hero, the player can choose the Powers of Flame Control, Energy Sheath, and Energy Body to fill any slots still open. For example, under the Ultimate system, the Human Torch possesses three powers: Fire Generation, Fire Control, and Energy Sheath.
+                        If the character is High Tech, has rolled such Powers as Hyper-Invention or Weapons Tinkering, or possesses a magical device, then the Missile Powers should be combined into a device possessed by the hero. This may be an exotic gun, a wand, or any other bit of superheroic paraphernalia the player can imagine.
 
-                            This has to be the most dangerous Power around. Heroes have to watch out for accidental firestorms. They also tend to consume all the oxygen in their location, making everyone pass out. Then there is the question of smoke and gases created by the hero's Flame Power. It makes me wonder what kind of ventilation system the Baxter Building has…
+                        The hero has a finite ammo supply, even if he creates the missiles as he goes. The maximum number of Missiles the hero can create per hour is equal to the Power rank number. This prevents the cliché found in bad Westerns, whereby a lone cowboy holds off the entire Apache nation with a single sixshooter. This limit also applies to Technological versions of this Power, in that the gun/wand/whatever simply overheats from repeated use.
 
-                            Fire Generation is the opposing Power to Cold Emission, Coldshaping, and Powers that use water. This Power gains +1CS when fighting these Powers. It also loses -1CS when being attacked by those Powers.
-                    Reference: |
-                      The hero can spontaneously create and launch projectiles. These are propelled to Power rank range. Missiles that simply slam into a target act as Stunning Missiles and inflict Stunning attacks of Power rank Intensity. If the hero has other Powers, these are combined with this Power to produce missiles with specific effects.
+                        There are two Nemeses for this Power. If the Power is innate to the hero, Reflection stops it. If the Power is externalized in a weapon, Induced Teleportation works by removing the weapon from the hero's possession and giving it to the opponent.            
+                    Spray: #MCr7
+                      Rank: Base Power Rank
+                      Sprays:
+                        Spray:
+                          Power: ~
+                          Effect: Feeble damage by choking off the target's fresh air and reducing visibility by -2CS for anyone within the cloud.
+                        Accelerant:
+                          Power: Fire Control
+                          Effect: Increases effect of Fire up to Power Rank.
+                        Fire Suppression Foam:
+                          Power: Fire Control
+                          Effect:  Suppresses Fire up to Power Rank.
+                        Insulation:
+                          Power: Fire Control
+                          Effect: Power Rank Protection vs. Fire and Heat
+                        Napalm:
+                          Power: Fire Generation
+                          Effect: Power Rank Energy Damage
+                        Neurotoxin:
+                          Power: Neural Manipulation
+                          Effect: Chosen form of Neural Manipulation power
+                        Knockout Gas:
+                          Power: Sleep-Induced
+                          Effect: Effect of Power
+                        Smoke Canister: *Smoke_Canister
+                      Reference: |
+                        The hero can spontaneously create a directed cloud of gas, mist, or dust. The Spray has a range of up to one area. It has the basic properties of doing Feeble damage by choking off the target's fresh air and reducing visibility by -2CS for anyone within the cloud. The main purpose of Spray is combining it with other Powers, thereby producing unique Spray Powers for the hero. In all these cases, the range remains the same. Other factors, such as the nature and Intensity of effects, are determined by the Power that has been combined with Spray. Some possibilities include:
 
-                      - Nullifier: The Missile Power is combined with Power Control/Negation to produce missiles that inflict no direct damage but may nullify inborn or technological Powers with Power rank Intensity.
-                      - Sleep Darts-the Power is combined with Induced Sleep to create anesthetic darts.
-                      - Magnetic: The Power combines with Magnetism to produce missiles with Power rank Intensity Magnetism. These can do Power rank damage to magnetic recordings or delicate electronics, and can attract any iron in the target site (guns, for example).
-                      - Ghostcasters: The Power is combined with Illusion-casting to create missiles that emit a static hologram upon hitting the target site.
-                      - Vanishers: The Power is combined with Induced Teleportation to create missiles that teleport the target to a predetermined destination.
-                      - Energizer: Missiles are combined with Power Transference to give the target part of the hero's other Powers.
+                        - Hallucinogenic: The Spray is combined with Image Generation to produce vivid visual images in the target's mind; these, of course, have nothing to do with reality. The target's Fighting and Intuition drop -3CS.
+                        - Corrosion-proofing: The Spray combines with Catalytic Control to lessen corrosive attacks' Intensity by this Power rank number.
+                        - Insulation: The Spray combines with any Energy Control to produce a coating that protects any target from that form of Energy Emission. The insulation reduces the energy attack's Intensity rank by the Energy Control's rank number.
+                        - Healing Spray: This uses any of the more pleasant forms of Bio-Physical Control to produce a cloud that heals anyone in the target area who has taken damage up to -1CS.
+                        - Napalm: The Spray is combined with Fire Generation and does Power rank damage.
+                        - Freeze Cloud: The Spray combines with Cold Emission to do Power rank damage.
+                        - Shrink Dust: The Spray combines with Diminution to reduce the size of anything in the target area.
+                        - Booster Dust: The Spray combines with Power Control/Magnification to raise the Power ranks of everyone in the target area +1CS.
 
-                      Any Power in this book can be combined with this Power to create unique missiles for your character. When creating the character, the player should follow this guideline: If there is a way to combine external Powers with this Power, do it. Powers that are completely internal in their effects are exempted from this. This includes most of the Mental and Physical Enhancements and all of the Self Alterations and Detection Powers.
+                        Any Power in the Ultimate Powers Book can be combined with this Power to create unique Sprays for each character. When creating such characters, the player should follow this simple guideline: If you can figure out a way to combine externalized Powers with this one, do it. Powers that are completely internalized are exempt from this rule. This includes most of the Mental and Physical Enhancements and all of the Self Alterations and Detections.
 
-                      If the character is High Tech, has rolled such Powers as Hyper-Invention or Weapons Tinkering, or possesses a magical device, then the Missile Powers should be combined into a device possessed by the hero. This may be an exotic gun, a wand, or any other bit of superheroic paraphernalia the player can imagine.
+                        If a character is High Tech, has rolled such Powers as Hyper-Invention or Weapons Tinkering, or possesses a magical device, then the Spray Power should be incorporated into a device. This may be a gas gun, ring, horn, or any other piece of superheroic paraphernalia the player can imagine.
 
-                      The hero has a finite ammo supply, even if he creates the missiles as he goes. The maximum number of Missiles the hero can create per hour is equal to the Power rank number. This prevents the cliché found in bad Westerns, whereby a lone cowboy holds off the entire Apache nation with a single sixshooter. This limit also applies to Technological versions of this Power, in that the gun/wand/whatever simply overheats from repeated use.
+                        Example: The player rolls up the following Fire Generation, Elemental Conversion, Spontaneous Combustion, Spray, and Enchantment. She is a Humanoid, an Elf to be precise. She determines she is a magical character. The first three Powers readily combine with Spray. The player decides that the heroine possesses a magical flute which she built herself. Besides playing normal tunes, she knows three special melodies that create clouds which possess each of the first three Powers.
 
-                      There are two Nemeses for this Power. If the Power is innate to the hero, Reflection stops it. If the Power is externalized in a weapon, Induced Teleportation works by removing the weapon from the hero's possession and giving it to the opponent.            
-                  Spray: #MCr7
-                    Rank: Base Power Rank
-                    Sprays:
-                      Spray:
-                        Power: ~
-                        Effect: Feeble damage by choking off the target's fresh air and reducing visibility by -2CS for anyone within the cloud.
-                      Accelerant:
-                        Power: Fire Control
-                        Effect: Increases effect of Fire up to Power Rank.
-                      Fire Suppression Foam:
-                        Power: Fire Control
-                        Effect:  Suppresses Fire up to Power Rank.
-                      Insulation:
-                        Power: Fire Control
-                        Effect: Power Rank Protection vs. Fire and Heat
-                      Napalm:
-                        Power: Fire Generation
-                        Effect: Power Rank Energy Damage
-                      Neurotoxin:
-                        Power: Neural Manipulation
-                        Effect: Chosen form of Neural Manipulation power
-                      Knockout Gas:
-                        Power: Sleep-Induced
-                        Effect: Effect of Power
-                      Gas Canister: *Gas_Canister
-                    Powers:
-                      Energy Control:
-                        Fire Control: #EC10
-                          Rank: Base Power Rank
-                          Note: In conjunction with Spray only
-                          Reference: &Fire_Control The hero can control existing flames, whether natural or Power-based. He can alter any factor involved in combustion without direct physical contact. The hero can increase or decrease the flame's Intensity up to his Power rank and reduce fire damage by his rank number. This Power includes Power rank Resistance to Fire and Heat. The most important aspect of this Power is enabling the hero to reshape flame into any form he desires. This can be used in a variety of Power stunts, as the hero develops numerous fiery constructs to perform miscellaneous deeds. Such fiery constructs do not act like normal flames. They emit less heat and consume less oxygen. Their fire doesn't spread past the outline of the constructs. In addition, they self-extinguish rapidly upon cessation of this Power. Optional Powers include Fire Generation, Thermal Control, Energy Sheath, and Energy Body.
-                      Lifeform Control:
-                        Neural Manipulation: #L12
-                          Rank: Base Power Rank
-                          Note: *Missiles_or_Spray-Only
-                          Reference: *Lifeform_Control
-                        Sleep-Induced: #L18
-                          Rank: Base Power Rank
-                          Note: *Missiles_or_Spray-Only
-                          Reference: *Sleep-Induced
-                      Energy Emission:
-                        Fire Generation: #EE4
-                          Rank: Base Power Rank
-                          Note: *Missiles_or_Spray-Only
-                          Reference: *Fire_Generation
-                    Reference: |
-                      The hero can spontaneously create a directed cloud of gas, mist, or dust. The Spray has a range of up to one area. It has the basic properties of doing Feeble damage by choking off the target's fresh air and reducing visibility by -2CS for anyone within the cloud. The main purpose of Spray is combining it with other Powers, thereby producing unique Spray Powers for the hero. In all these cases, the range remains the same. Other factors, such as the nature and Intensity of effects, are determined by the Power that has been combined with Spray. Some possibilities include:
+                        The hero has a finite amount of Spray. The maximum number of Sprays the hero can create in a 24-hour period is equal to his Power rank number. This limit also applies to Technological or Magical versions of this Power; the gasgun/flute/whatever simply clogs up from repeated use.
 
-                      - Hallucinogenic: The Spray is combined with Image Generation to produce vivid visual images in the target's mind; these, of course, have nothing to do with reality. The target's Fighting and Intuition drop -3CS.
-                      - Corrosion-proofing: The Spray combines with Catalytic Control to lessen corrosive attacks' Intensity by this Power rank number.
-                      - Insulation: The Spray combines with any Energy Control to produce a coating that protects any target from that form of Energy Emission. The insulation reduces the energy attack's Intensity rank by the Energy Control's rank number.
-                      - Healing Spray: This uses any of the more pleasant forms of Bio-Physical Control to produce a cloud that heals anyone in the target area who has taken damage up to -1CS.
-                      - Napalm: The Spray is combined with Fire Generation and does Power rank damage.
-                      - Freeze Cloud: The Spray combines with Cold Emission to do Power rank damage.
-                      - Shrink Dust: The Spray combines with Diminution to reduce the size of anything in the target area.
-                      - Booster Dust: The Spray combines with Power Control/Magnification to raise the Power ranks of everyone in the target area +1CS.
+                        There are two Nemeses for this Power. If the Power is innate to the hero, then Reflection stops it. If the Power is externalized in a device, Induced Teleportation works be removing the device from the hero's possession and turning it over to the Nemesis.
+                  Linked Powers:
+                    Energy Control:
+                      Fire Control: #EC10
+                        Rank: Base Power Rank
+                        Note: In conjunction with Spray only
+                        Reference: &Fire_Control The hero can control existing flames, whether natural or Power-based. He can alter any factor involved in combustion without direct physical contact. The hero can increase or decrease the flame's Intensity up to his Power rank and reduce fire damage by his rank number. This Power includes Power rank Resistance to Fire and Heat. The most important aspect of this Power is enabling the hero to reshape flame into any form he desires. This can be used in a variety of Power stunts, as the hero develops numerous fiery constructs to perform miscellaneous deeds. Such fiery constructs do not act like normal flames. They emit less heat and consume less oxygen. Their fire doesn't spread past the outline of the constructs. In addition, they self-extinguish rapidly upon cessation of this Power. Optional Powers include Fire Generation, Thermal Control, Energy Sheath, and Energy Body.
+                    Energy Emission:
+                      Fire Generation: #EE4
+                        Rank: Base Power Rank
+                        Note: &Missiles_or_Spray-Only In conjunction with Missiles or Spray only
+                        Reference: &Fire_Generation |
+                          The hero can project fire with Power rank damage and range. These flames have no apparent fuel source and spring from the hero as if he were a living fuel tank. Although the flames' fuel comes out of the proverbial nowhere, free oxygen must be present for the Power to function. If not, the hero can cause a single flame that lasts' only one turn, then fizzles out. At Shift X rank, the hero gains the ability to generate oxygen as well, permitting this Power to function under any conditions. When creating the hero, the player can choose the Powers of Flame Control, Energy Sheath, and Energy Body to fill any slots still open. For example, under the Ultimate system, the Human Torch possesses three powers: Fire Generation, Fire Control, and Energy Sheath.
 
-                      Any Power in the Ultimate Powers Book can be combined with this Power to create unique Sprays for each character. When creating such characters, the player should follow this simple guideline: If you can figure out a way to combine externalized Powers with this one, do it. Powers that are completely internalized are exempt from this rule. This includes most of the Mental and Physical Enhancements and all of the Self Alterations and Detections.
+                          This has to be the most dangerous Power around. Heroes have to watch out for accidental firestorms. They also tend to consume all the oxygen in their location, making everyone pass out. Then there is the question of smoke and gases created by the hero's Flame Power. It makes me wonder what kind of ventilation system the Baxter Building has…
 
-                      If a character is High Tech, has rolled such Powers as Hyper-Invention or Weapons Tinkering, or possesses a magical device, then the Spray Power should be incorporated into a device. This may be a gas gun, ring, horn, or any other piece of superheroic paraphernalia the player can imagine.
+                          Fire Generation is the opposing Power to Cold Emission, Coldshaping, and Powers that use water. This Power gains +1CS when fighting these Powers. It also loses -1CS when being attacked by those Powers.
+                    Lifeform Control:
+                      Neural Manipulation: #L12
+                        Rank: Base Power Rank
+                        Note: *Missiles_or_Spray-Only
+                        Reference: |
+                          The hero can alter a target's neural activity. By changing nerve messages within the target's body, the hero can cause a variety of effects.
 
-                      Example: The player rolls up the following Fire Generation, Elemental Conversion, Spontaneous Combustion, Spray, and Enchantment. She is a Humanoid, an Elf to be precise. She determines she is a magical character. The first three Powers readily combine with Spray. The player decides that the heroine possesses a magical flute which she built herself. Besides playing normal tunes, she knows three special melodies that create clouds which possess each of the first three Powers.
+                          - Disruption: The target's body loses all sensations: it falls to the ground, a limp, numb mass of flesh.
+                          - Paralysis: The target body becomes completely rigid. No chemical can counteract the paralysis while the Power is in effect.
+                          - Seizure: The target's muscles spasm uncontrollably for as long as the Power is in effect.
+                          - Exaggeration: Nerve signals are actually amplified, causing the target to overact when attempting any movement.
 
-                      The hero has a finite amount of Spray. The maximum number of Sprays the hero can create in a 24-hour period is equal to his Power rank number. This limit also applies to Technological or Magical versions of this Power; the gasgun/flute/whatever simply clogs up from repeated use.
+                          Normally, a hero can select any of these effects. When creating the hero, the player can choose to specialize in one effect for a benefit of +2CS. Note: This Power only affects the voluntary muscles; it does not affect the autonomic nervous system which controls the heart, lungs, and other automatic bodily functions. The range and duration of this Power are determined by its rank. Suitable distances are shown on column A of the Range Table. The Power normally affects only a single person; affecting more causes a decrease in duration of -1CS per additional person. The target's mind and senses are unaffected by the Power: the victim knows full well what is happening (even if he doesn't know why it's happening to him). The Power can reach across the dimensional barriers if it is combined with some way of breaching the dimensions. It can function normally if both hero and target are within another dimension.
+                      Sleep-Induced: #L18
+                        Rank: Base Power Rank
+                        Note: *Missiles_or_Spray-Only
+                        Reference:
+                          This is a nice, simple, straight-forward Power that is hardly ever used in any comic because it's not terribly dramatic. Nor is it exactly cricket. The hero has the ability to put any target into a deep sleep, from which he cannot awake while the Power is in effect. During this induced sleep, the target is completely helpless (see what I mean about not being cricket?). On the other hand, when you're facing 325 battle-crazed Skrulls, this Power can be really handy.
 
-                      There are two Nemeses for this Power. If the Power is innate to the hero, then Reflection stops it. If the Power is externalized in a device, Induced Teleportation works be removing the device from the hero's possession and turning it over to the Nemesis.
+                          The Power rank determines the range and duration of the Power. Relevant distances are shown on column A of the Range Table. It affects everyone within range. Sleep persists for 1-10 hours after the Power's duration. During that time, the victim can be awakened by anyone, but he'll wake up naturally in any case.
                 Power Control:
                   Energy Source: #PC5
+                    Note: The Model II is able to operate continuously from a power source such as a Sentinel Battlesuit Model II, or a high voltage main or generator, or use a power pack.  
                     Source:
-                      - Sentinel Battlesuit Model II: Unlimited operation, but limited to Power Rank of variant, e.g. a Guardian Blaster Mk. 3 will only produce Mk. 2 Power Rank output connected to a Mk. 2 suit.
+                      - Sentinel Battlesuit Model II: Unlimited operation, but limited to Power Rank of variant, e.g. a Guardian Integrated Multipurpose Weapon Mk. 3 will only produce Mk. 2 Power Rank output connected to a Mk. 2 suit.
+                      - Grid Power: High voltage main unlimited operation as Mk. 2 Battlesuit
                       - Power Pack:
                           Uses:
                             Mk. 0: 20
@@ -1163,19 +1394,17 @@ Game:
                             Mk. 3: 8
                             Mk. 4: 6
                       - Power Rooms:
-                          Remarkable: 12 Power Packs before refuel
-                          Incredible: 24 Power Packs before refuel
-                          Amazing: 24 Power Packs/hour, +12 per +1CS Package Quality Cost Modifier
-                      - Grid Power: High voltage main as Mk. 2 Battlesuit
+                          Remarkable: Unlimited operation as Mk. 1 Battlesuit for 12 hours before refuel, Mk. 2 at +1CS Package Quality Cost Modifier, Mk. 3 at +1CS Package Quality Cost Modifier 
+                          Incredible: Unlimited operation as Mk. 1 Battlesuit for 24 hours before refuel, Mk. 2 at +1CS Package Quality Cost Modifier, Mk. 3 at +1CS Package Quality Cost Modifier
+                          Amazing: Unlimited operation as Mk. 1 Battlesuit, Mk. 2 at +1CS Package Quality Cost Modifier, Mk. 3 at +1CS Package Quality Cost Modifier
                     Reference: |
                       The hero draws his Powers from a special source that provides him with all the energy he can handle. As long as the hero can maintain his link with this source, he can continue to use his Powers. The nature of the source and its link varies with each hero. If the source is small enough, the hero may be required to carry it with him. If not, perhaps the hero needs to periodically return to the source or forge an ethereal Power cord that links him to his Source despite any intervening distance. The Judge and player need to work together to produce a playable source and link.
 
                       If the link is severed or the source destroyed, the Mage is left with a finite supply of energy left. The amount of raw Power left is the number of points equal to his Psyche rank. Each time he uses Power, he decreases the reservoir by that Power's rank number. Obviously, it is within the hero's best interests to renew his link or rebuild his source in as little time as possible.
 
                       As you are beginning to suspect, this isn't really a Power and is more of a restraint. You're right. If you roll this Power, go ahead and roll an additional Power.
-          Warden Staff: &Warden_Staff
-            Description: A telescoping/collapsible alloy pole with a retractable blade at the end. May be used as blunt (Club, Boomerang) or edged (Knife, Sword, Spear) weapons in either extended or collapsed positions, and thrown in any configuration. Two may connect end-to-end with the blades retracted to form a longer pole. A user with the Thrown Weapons or Throwing talents knows how to throw them so they arc or ricochet to return to their hands when thrown, whether they hit or miss, by making an Agility FEAT. A coiled spring and compressed air system allows the blade to be launched as if it were a crossbow or speargun. It's an integrated combination of existing items.
-            Count: 2
+          Warden Tactical Staff: &Warden_Tactical_Staff
+            Description: A telescoping/collapsible alloy pole with a retractable blade at the end. May be used as blunt (Club, Boomerang) or edged (Knife, Sword, Spear) weapons in either extended or collapsed positions, and thrown in any configuration. Two may connect end-to-end with the blades retracted to form a longer pole. A user with the Thrown Weapons or Throwing talents knows how to throw them so they arc or ricochet to return to their hands when thrown, whether they hit or miss, by making an Agility FEAT. A coiled spring and compressed air system allows the blade to be launched as if it were a crossbow or speargun. It's an integrated combination of existing items (Crossbow, Spear Gun, Knife, Spear, Club, Boomerang).
             Material Strength: Remarkable
             Shooting Weapons:
               Range: 3
@@ -1201,12 +1430,12 @@ Game:
               Description: A sleek, dark, armored suit consisting of para-aramids, meta-aramids, beta cloth, titanium mesh, silicone rubber, and high-impact ballistic plastic, it sports built-in functionality such as an integral air supply and respirator in its mask, and night-vision and polarized eye-protection in the goggles, as well as retractable inline wheels in the boots and compact rocket boosters on the back.  It's an integrated combination of existing items.
               Material Strength: Excellent
               Other Equipment:
-                Infra-red Goggles: &Infra-Red_Goggles Infra-Red Goggles are similar to infra-red sights; these permit normal vision up to 5 areas away in dimly lit areas.
-                Polarized Lenses: &Polarized_Lenses Polarized Lenses are goggles that provide Good resistance to light attacks. If exposed to a bright light, they darken for 1 round, then lighten to allow normal sight.
+                Infra-red Goggles: Infra-Red Goggles are similar to infra-red sights; these permit normal vision up to 5 areas away in dimly lit areas.
+                Polarized Lenses: Polarized Lenses are goggles that provide Good resistance to light attacks. If exposed to a bright light, they darken for 1 round, then lighten to allow normal sight.
                 Gas Mask: Allows the wearer to breathe and act normally in conditions of smoke, tear gas, or knock-out gas. It does not allow clear vision in these areas, however, only normal movement.
                 Flak Jacket: Flak Jackets are worn by police in special situations and by SWAT teams. These jackets provide Good protection from physical damage.
                 Beta Cloth: Beta-Cloth is a lightweight material worn by agents of S.H.I.E.L.D. It provides Typical protection from physical attacks, Excellent protection from heat and radiation.
-                Scuba Gear: Scuba Gear allows the wearer to breathe tanked air for 2 hours and, as such, dive to moderate depths in the ocean.
+                Scuba Gear: &Scuba_Gear Scuba Gear allows the wearer to breathe tanked air for 2 hours and, as such, dive to moderate depths in the ocean.
                 Roller Skates: Roller Skates are used by a variety of heroes from Dazzler to Iron Man. Standard skates allow the hero to move at the listed speed as if Endurance were three ranks higher.
                 Rocket Pack: Rocket Pack, worn either as a belt-pack or a backpack, allows the wearer to fly at Excellent speeds. All limitations on flight apply to the wearer, and Agility FEATs required are at one CS lower.
             Model II:
@@ -1333,8 +1562,11 @@ Game:
                     Protected Senses:
                       Rank: Base Power Rank
                       Reference: One or more of the hero's basic senses are protected from attack. The hero ignores potentially damaging attacks of less than the Power rank in intensity level. In many cases, this considers the effects of specially polarized goggles that prevent being suddenly blinded by high Intensity light. or earplugs or headgear that reduce the effects of sonic attacks.
-          Pathfinder: &Pathfinder
-            Description: An up-armored, high-performance four wheel drive vehicle, it has the speed, acceleration, and handling of a sports car, the off-road capability of a military vehicle, and the protection and durability of an armored vehicle. Features expected off-road functional accessories like winches, lights, compressed air, a welder/cutter, SSB CB, HAM, and PA, as well as police scanners, commerical/business band radio with encryption, car phone, spotlights, cameras, flashers, sirens, run flat tires, and ramming-capable grille guards. It's an integrated combination of existing items (Sports Car, Jeep, and Armored Car).
+          Pathfinder Tactical Utility Vehicle: &Pathfinder
+            Description: |
+              An up-armored, high-performance four wheel drive vehicle, The Pathfinder Tactical Utility Vehicle (TUV) has the speed, acceleration, and handling of a sports car, the off-road capability of a military vehicle, and the protection and durability of an armored vehicle. Features expected off-road functional accessories like winches, lights, onboard compressed air, hydraulic pump, generator, and welder-cutter, PTO, trail vise, communications suite featuring SSB CB, HAM, and commercial/business band radios, as well as police scanners, weather radio, world band radio, television, and satellite receivers, personal computer, and car phone, spotlights, cameras, flashers, PA, run flat tires with spare, and ramming-capable grille guards.  They carry pioneer tools, basic hand tools, basic air and power tools, road safety equipment, heavy-duty and high-lift jacks, basic survival gear, basic rescue gear, high angle gear, AED, field stretcher and backboard, oxygen, suction, and first aid and first responder gear. It can drop caltrops or release smoke behind it to dissuade pursuers. Optionally, a turret-mounted Guardian Integrated Multipurpose Weapon Model I Mk. γ may be installed, though this is not typical for daily operations. There are secure racks inside for Guardian IMW Model I Mks. α and β, along with ammunition and refills, and Warden Staves, two each up front, and optionally 4 in the back if there's no turret and magazine. In this base configuration, it seats 4 in inward-facing jump seats that fold securely out of the way. There are Remarkable Material Strength points to handcuff someone or strap down cargo or people to, and they generally carry various straps, chains, and cargo nets for various purposes. In general, Pathfinders are registered and plated as private ambulances, regardless of configuration, and if so, have police-band and other emergency band radios, siren, and red flashers in addition to white, amber, and green.
+              
+              It's an integrated combination of existing items (Sports Car, Jeep, and Armored Car, optionally Ambulance).
             Type:
               Off-Road: Off-Road vehicles are land vehicles designed to handle broken ground better than road vehicles. Some recreational vehicles and military equipment fall under this category.
             Control: Excellent
@@ -1342,18 +1574,93 @@ Game:
             Body: Remarkable
             Protection: Remarkable
             Reference:
-              - Sports Car: *Sports_Car
-              - Jeep: The Pick-Up and Jeep are four-wheel drive off-road vehicles. Four-wheel drive does not prevent you from getting stuck; it only gets you stuck in worse places (quote by Dirtbuggy Doug Niles). The Jeep has been a workhorse for the Army for years and is only now being replaced by another vehicle with similar stats.
-              - Armored Car: Armored Cars are favorite targets of criminals and normally sport a team of two guards in the front and an optional man inside. Armored Cars are also used for transporting powerful criminals who are under arrest.
-          Sentry Glasses: &Sentry_Glasses
-            Description: Indistinguishable from particularly fashionable and well-made, but otherwise normal sunglasses of the aviator variety, these glasses protect the wearer from intense brightness, flashes, and glare (Good protection (5 areas).
+              Vehicles:
+                Sports Car: *Sports_Car
+                Jeep: The Pick-Up and Jeep are four-wheel drive off-road vehicles. Four-wheel drive does not prevent you from getting stuck; it only gets you stuck in worse places (quote by Dirtbuggy Doug Niles). The Jeep has been a workhorse for the Army for years and is only now being replaced by another vehicle with similar stats.
+                Armored Car: &Armored_Car Armored Cars are favorite targets of criminals and normally sport a team of two guards in the front and an optional man inside. Armored Cars are also used for transporting powerful criminals who are under arrest.
+                Ambulance: &Ambulance |
+                  An Ambulance is a van equipped with a more powerful engine and gear to handle most medical emergencies. Ambulances operate both in conjunction with hospitals and as separate Paramedic services. Driving Note: Ambulances, Fire Trucks, and Police Vehicles with their top-lights flashing have right of way over other vehicles.
+              Other Weapons:
+                Smoke: Smoke, whether from fire or missiles, is usually considered to be of Excellent Intensity to see through. All FEATs performed while in a Smoke-filled area are at -2CS.
+              Other Equipment:
+                Caltrops: Caltrops are small, dart-like jacks that are scattered to avoid pursuit. They inflict Poor Edged Attack on those that step on them (but are non-lethal– no Kill results). For road and off-road vehicles that use tires, the caltrop acts as an Edged Attack of Excellent damage and immediately forces a Control FEAT.
+                Personal Computer: *Personal_Computer
+                Flashlight: *Flashlight
+              Custom Equipment:
+                Guardian Integrated Multipurpose Weapon Model I Mk. γ: *Guardian_Integrated_Multipurpose_Weapons_Model_I_Mkγ
+          Wayfinder Tactical Utility Watercraft: &Wayfinder
+            Description: |
+              The Wayfinder Tactical Utility Watercraft (TUW) is a nimble jet-powered submersible ship that can displace on or under the surface, deploy hydrofoils, or hover in ground effect as needed, combining the versatility of surface, subsurface, and amphibious operations with the protection and durability of an armored vehicle. There is just enough room on the rear deck of the Wayinder for a VTOL vehicle to land, (un)load, and takeoff, or to park a pair of vehicles on, and the means to secure them with Incredible Material Strength tiedown points. A small galley, cabins, laundry, and head with shower can support up to 4 people for long term operations, up to about 6-8 for a few days if the jump bunks in the hold are deployed, and can transport 10-15 short term, 20 if cramped into an empty hold and as many more crowded on deck in a pinch. The small cargo hold and smaller brig feature Incredible Material Strength points to handcuff someone or strap down cargo or people to, and they generally carry various straps, chains, and cargo nets for various purposes. Features expected off-grid, marine, and functional accessories like cranes, winches, and hoists, washdowns, solar panels, lights, onboard compressed air, hydraulic pump, generator, and welder-cutter, communications suite featuring marine band radios and an experimental INMARSAT phone, SSB CB, HAM, and commercial/business band radios, as well as police scanners, weather radio, world band radio, television, and satellite receivers, personal computer, and mobile phone, spotlights, cameras, flashers, PA. Marine, weather, and air traffic radars and navigational, sounding, side-scanning, upward-looking, and synthetic-aperture sonars provide constant awareness. Navigation includes Decca, LORAN, gyroscopic and magnetic compasses, and an experimental satellite navigation system, as well as a sophisticated autopilot.  They carry scuba gear, surface-supplied air diving pumps, dredging, salvage, and cargo-handling gear, life rafts, pioneer tools, basic hand tools, basic air and power tools, water safety equipment, basic and open water survival gear, basic and water rescue gear, AED, field stretchers and backboards, oxygen, suction, and first aid and first responder gear. It can release smoke behind it to dissuade pursuers or as a signal. Optionally, up to four turret-mounted Guardian Integrated Multipurpose Weapon Model I Mk. γ may be installed, though this is not typical for daily operations. There are secure racks inside for 10 sets of Guardian IMW Model I Mks. α and β, along with ammunition and refills, and Warden Staves.  In general, Wayfinders are registered as private water ambulances, regardless of configuration, and if so, have police-band and other emergency band radios, siren, and red flashers in addition to white, amber, and green.
+              
+              It's an integrated combination of existing items (Patrol Boat, Hydrofoil, Mini-Sub, Hovercraft, Armored Carrier, and Ambulance).
+            Type:
+              Water: Water vehicles are boats of every description. from sailboats to carriers. Their main limitation is the danger of sinking.
+              Sub: Submersible vehicles are those designed to travel underwater, and are represented by the submarine. Subs are similar to water vehicles in the danger of sinking.
+              GEV: &GEV GEV means Ground Effect Vehicle, which is basically the hovercraft. GEVs exhibit properties of both Air and Off-Road Vehicles, and as such deserve their own entry.
+            Control:
+              Water:
+                Displacement: Good
+                Hydrofoil: Typical
+              Sub: Excellent
+              GEV: Poor
+            Speed:
+              Water:
+                Displacement: Remarkable
+                Hydrofoil: Incredible
+              Sub: Good
+              GEV:
+                Smooth: Excellent
+                Rough: Good
+            Body: Incredible
+            Protection: Remarkable
             Reference:
-              Infra-Red Goggles: *Infra-Red_Goggles
-              Polarized Lenses: *Polarized_Lenses
-      Description:
-        Biography: Born in Nicomedia in the year 380 in what was then the Eastern Roman Empire, Julian Hieronymus Constantine, then known as Ioulianós ó Nikomediátes, unlocked the secrets of the Philosopher's Stone in the early-mid Fifth Century, gaining immortality and eternal youth and health.  He has spent the centuries since honing his mind, body, and spirit to unprecedented levels, dedicating himself to the mastery of anything that has caught his attention along the way.  By the late 20th century, he is exorbitantly wealthy and well-connected along with his hyper-competence, due to incessant personal development and cultivation. Of human peak physicality, his mind is centuries since transcending all human limits..
-        Personality: Julian is, in a general sense, heroic, noble, valorous, and beneficient, although as a man well into his second millennium of life, having witnessed the rise and fall of many cultures, societies, and philosophies, and their values, his view is long and his perspective distant and somewhat detached.  What heroic and noble means to him reflects that perspective. He is gregarious, humorous, and charming, socially, although he prefers such socialization to be on his terms. He is disciplined, focused, and meticulous, as well as obsessive about his personal development—he devotes a considerable amount of his waking hours to that pursuit.
-        Appearance: Tall, long-limbed, broad-shouldered, and athletic, his olive skin, dark hair, strong, regal facial features, and piercing green eyes reflect his ancient Near-Eastern heritage, an ethnicity that no longer exists in that form among the entirety of humanity save himself.  When out of his armor, he tends to wear impeccable, tailored suits in neutral colors appropriate to the season, and quite a bit of jewelery with mystic or occult connotations, some of it as ancient as he is, or more.
+              Vehicles:
+                Patrol Boat: The Patrol Boat includes those craft of the harbor patrol and Coast Guard, as well as small military craft. Most patrol boats are armed with one piece of light artillery, f-3 machine guns, and carry a crew of up to 10.
+                Hydrofoil: The Hydrofoil is among the fastest of watercraft. It attains its high speed by rising above the water on skis, reducing the drag from the boat in the water. The disadvantage is that any successful attack on the hydrofoil results in a Control FEAT to see if control is lost. If control is lost on a Hydrofoil at greater than Excellent speed, the craft will crash into the water.
+                Mini-Sub: Mini-subs are one- or two-man craft that may be launched from specially designed ships. These subs are faster and more maneuverable than the sub itself and are armed with missiles or laser rifles.
+                Hovercraft: The Hovercraft is the only notable mention of the Ground Effect Vehicle. This vehicle is neither fish nor fowl, as it rides on a cushion of air, handles as does an Air type, but goes out of control as an off-road vehicle. Hovercraft move at a maximum Speed of Good off road, over broken ground, or in stormy weather.
+                Ambulance: *Ambulance
+                Armored Carrier: The Armored Carrier is an armored troop-carrying vehicle (about 20 people maximum). The armored carrier operates on treads and carries two machine guns (lasers in some cases).
+              Other Weapons:
+                Smoke: Smoke, whether from fire or missiles, is usually considered to be of Excellent Intensity to see through. All FEATs performed while in a Smoke-filled area are at -2CS.
+              Other Equipment:
+                Personal Computer: *Personal_Computer
+                Flashlight: *Flashlight
+                Scuba: *Scuba_Gear
+              Custom Equipment:
+                Guardian Integrated Multipurpose Weapon Model I Mk. γ: *Guardian_Integrated_Multipurpose_Weapons_Model_I_Mkγ
+          Ranger Tactical Utility Aircraft: &Ranger
+            Description: |
+              The Ranger Tactical Utility Aircraft (TUA) is a sleek, nimble ducted-turbofan, thrust-vectoring VTOL aircraft that can operate in ground effect like a hovercraft as well. It has a crew of two to four, and can carry up to 6-8 in jump seats, or 10-12 crowded, with both side and tailgate hatches. The cargo deck features Remarkable Material Strength points to handcuff someone or strap down cargo or people to, and they generally carry various straps, chains, and cargo nets for various purposes. It can carry a vehicle or similar weight as a slung load. Features expected off-grid, aviation, and functional accessories like cranes, winches, and hoists, lights, onboard compressed air, hydraulic pump, generator, and welder-cutter, communications suite featuring aviation band and marine band radios, SSB CB, HAM, and commercial/business band radios, as well as police scanners, weather radio, world band radio, television, and satellite receivers, personal computer, and mobile phone, spotlights, cameras, flashers, PA. Navigational, weather, lookdown, and synthetic-aperture radars provide constant awareness. Navigation includes VORE, LORAN, gyroscopic and magnetic compasses, and an experimental satellite navigation system, as well as a sophisticated autopilot.  They carry cargo-handling gear, high-angle gear, life rafts, pioneer tools, basic hand tools, basic air and power tools, water safety equipment, basic and open water survival gear, basic and water rescue gear, AED, field stretchers and backboards, oxygen, suction, and first aid and first responder gear. Optionally, up to three turret-mounted Guardian Integrated Multipurpose Weapon Model I Mk. γ may be installed (nose and nacelles), though this is not typical for daily operations. There are secure racks inside for 10 sets of Guardian IMW Model I Mks. α and β, along with ammunition and refills, and Warden Staves.  In general, Wayfinders are registered as private airlift ambulances, regardless of configuration, and if so, have police-band and other emergency band radios, siren, and red flashers in addition to white, amber, and green.
+              
+              It's an integrated combination of existing items (Traffic Copter, Battle Copter, Corporate Jet, Hovercraft, Armored Car, and Ambulance).
+            Type:
+              Air: Air vehicles travel mainly through the friendly skies, and include all forms of aircraft from gliders to the Concorde.
+              GEV: *GEV
+            Control:
+              Air: Excellent
+              GEV: Poor
+            Speed:
+              Air: Amazing
+              GEV:
+                Smooth: Excellent
+                Rough: Good
+            Body: Incredible
+            Protection: Remarkable
+            Reference:
+              Vehicles:
+                Traffic Copter: Traffic Copters are fairly common in the airspace over American cities, and this type also includes private vehicles and medivac copters as well. Helicopters have VTOL ability (Vertical Take-off and Landing), and as such may drop to 0 speed without losing control.
+                Battle Copter: Battle Copters are heavy-duty versions of the Traffic Copter, can carry a squad of 15 men plus crew, and are armed with Machine Guns (alternately lasers). All Copters have VTOL abilities and may hover in place.
+                Corporate Jet: Corporate Jets represent the more modern turbo-prop jets that more powerful corporations use for their top executives. Corporate Jets have a crew of two and may carry up to 20 people in comfort.
+                Hovercraft: The Hovercraft is the only notable mention of the Ground Effect Vehicle. This vehicle is neither fish nor fowl, as it rides on a cushion of air, handles as does an Air type, but goes out of control as an off-road vehicle. Hovercraft move at a maximum Speed of Good off road, over broken ground, or in stormy weather.
+                Ambulance: *Ambulance
+                Armored Car: *Armored_Car
+              Other Equipment:
+                Personal Computer: *Personal_Computer
+                Flashlight: *Flashlight
+                Scuba: *Scuba_Gear
+              Custom Equipment:
+                Guardian Integrated Multipurpose Weapon Model I Mk. γ: *Guardian_Integrated_Multipurpose_Weapons_Model_I_Mkγ
   Supporting Cast:
     Leonidas:
       Description: A particularly large housecat most resembling a strikingly ancient- and wild-looking Oriental breed, somewhat like an oversized Egyptian Mau, with a black spotted silver tabby coat and brilliant green eyes. While still very much a cat in personality, it's tempered by intelligence and insight that's far above the human norm and over a millennium of existence in close contact with Julian Constantine, giving him a dry, witty, sarcastic detachment and studious, serious, somewhat pessimistic outlook.  Leonidas doesn't speak or use telepathy to communicate per se, but is exceptionally adept at making himself understood by others, as well as understanding them, regardless of language, the same as if he were conversing like any human. Leonidas has been with Julian since the latter began his sorcerous journey.
@@ -1497,7 +1804,7 @@ Game:
           Health: 24
           Notes: Cats include most ordinary house cats and small wild cats. They inflict Edged attack damage with their claws but cannot score a Kill result against human targets. They move 2 areas/turn.
     Varangos:
-      Description: Plural Varangoi. Elite operatives drawn from the highest echelons of special operations and intelligence work, screened for magical potential, Varangoi are the highly-paid, trusted bodyguards, proxies, agents, investigators, and fixers of their employer. When on duty but not in their Model I Guardian Battlesuit they generally wear the subdued, tailored suits worn by federal agents, plainclothes detectives, and bodyguards with their Guardian Blasters and collapsed Warden Staves discreetly concealed, or military fatigues and berets with their Blaster and collapsed Staff on their pistol belts alongside flashlights, knives, handcuffs, and mace, depending on the assignment, as well as their Sentry Glasses in either event. Varangoi also have a formal dress uniform, prominently featuring Byzantine and Norse motifs and styling over a modern military dress base, including a (functional) ceremonial sword and dagger (sometimes a spear) and a formal cape. They generally operate in pairs or multiples thereof, two to a Pathfinder unit. Within the organization, Varangos captains have the title "Akólouthos" (Follower). Some individuals may differ somewhat from these baseline stats.
+      Description: Plural Varangoi. Elite operatives drawn from the highest echelons of special operations and intelligence work, screened for magical potential, Varangoi are the highly-paid, trusted bodyguards, proxies, agents, investigators, and fixers of their employer. When on duty but not in their Model I Guardian Battlesuit they generally wear the subdued, tailored suits worn by federal agents, plainclothes detectives, and bodyguards with their Guardian Integrated Multipurpose Weapon Model I Mk. α and collapsed Warden Staff discreetly concealed, or military fatigues and berets or boonie caps with their Blaster and collapsed Staff on their pistol belts alongside flashlights, knives, handcuffs, and mace, depending on the assignment. If needed, they have a Guardian IMW Model I Mk. β, but this is usually kept in their Pathfinder until needed. Varangoi also have a formal dress uniform, prominently featuring Byzantine and Norse motifs and styling over a modern military dress base, including a (functional) ceremonial sword and dagger (sometimes a spear for bearing a guidon or banner) and a formal cape. They generally operate in pairs or multiples thereof, two each sharing a Pathfinder TUV unit for patrol and response (four to eight to a Wayfinder TUW for marine patrol and response). Within the organization, Varangos captains have the title "Akólouthos" (Follower). Some exceptional individuals may differ somewhat from these baseline stats.
       Note: Akólouthoi have the Leadership Talent.
       Origin: *Normal_Human_Self-Achievement
       Abilities:
@@ -1615,14 +1922,17 @@ Game:
           Handcuffs: Handcuffs are a standard restraining device used by the police forces of the world to prevent actions by criminals in custody. They are made of Excellent material.
           Flashlight: *Flashlight
           Mace: *Mace
+          Camera: Camera represents the standard photographer's tool. More expensive versions are available with higher definition. Camera accessories would include film (Feeble cost), flash (normal or halogen, as flashlight), and special lens, such as telephoto lens (Good cost).
         Custom Equipment:
-          Guardian Blaster: *Guardian_Blaster
-          Warden Staff: *Warden_Staff
-          Sentinel Battlesuit: *Sentinel_Battlesuit
-          Pathfinder: *Pathfinder
-          Sentry Glasses: *Sentry_Glasses
+          Guardian Integrated Multipurpose Weapon Model I Mk. α: *Guardian_Integrated_Multipurpose_Weapons_Model_I_Mkα
+          Guardian Integrated Multipurpose Weapon Model I Mk. β: *Guardian_Integrated_Multipurpose_Weapons_Model_I_Mkβ
+          Warden Tactical Staff: *Warden_Tactical_Staff
+          Sentinel Battlesuit Model I: *Sentinel_Battlesuit
+          Pathfinder Tactical Utility Vehicle: *Pathfinder
+          Wayfinder Tactical Utility Watercraft: *Wayfinder
+          Ranger Tactical Utility Aircraft: *Ranger
     Magos:
-      Description: Plural Magoi. Magoi are those disciples and apprentices of Julian Constantine truly walking the path of the Scientific Sorcerer. They're the closest circle of his proxies and agents, deputies serving as his eyes, hands, and mouths. Their ornate, Byzantine-styled ceremonial robes or mantles, featuring a mix of Greco-Roman and Nordic motifs, are usually worn over slickly tailored, designer suits, and their fingers, wrists, and necks bedecked with jewelry of arcane significance.  Within the organization, Varangian Magos have the title Mágistros (Magister, Master, Teacher). Some individuals may differ somewhat from these baseline stats.
+      Description: Plural Magoi. Magoi are those disciples and apprentices of Julian Constantine truly walking the path of the Scientific Sorcerer. They're the closest circle of his proxies and agents, deputies serving as his eyes, hands, and mouths. Their ornate, Byzantine-styled ceremonial robes or mantles, featuring a mix of Greco-Roman and Nordic motifs, are usually worn over slickly tailored, designer suits, and their fingers, wrists, and necks bedecked with jewelry of arcane significance.  Within the organization, Varangian Magos have the title Mágistros (Magister, Master, Teacher). Some exceptional individuals may differ somewhat from these baseline stats.
       Origin: *Normal_Human_Self-Achievement
       Abilities:
         Primary Abilities:
@@ -1970,16 +2280,6 @@ Game:
                         The Nemesis is Light Emission.
               Self Alteration:
                 Alter Ego: *Alter_Ego
-                Energy Body: #S13
-                  Rank: Health
-                  Reference: |
-                    The hero can transform his body into a coherent energy field that supports his lifeforce and is capable of controlled actions. The energy can be of any type (see the Energy Emission listings).
-
-                    When creating the character, the player determines the nature of the energy into which the hero can turn. The rank determines the number of possible energy types. The rank for each energy type is originally Good: this is modified by the Ability Modifier Table found on page 6 of the Player's Book. Each Power is rolled separately. Thus, a hero might have a Poor sound-form and an Incredible radiation-form. Damage to the Energy Body is the same as damage to the normal body. The Energy Body is subject to anything that would affect energy of its type. The hero makes a standard Resistance roll to determine such effects on the Energy Body. The hero may find himself confined in a storage field while in energy-form. If so, he must make a red FEAT to attempt to revert to normal. If he fails, he must escape in his energy form.
-
-                    The Energy Body is a relatively unlimited supply of that particular energy type. The hero can expend great amounts of it and still be able to return to normal. Completely depleting the Energy Body requires a red FEAT rolled by the Judge or an adversary. The hero can also ab s orb existing energy of his chosen type to replenish himself.
-
-                    This Power includes the relevant form of Energy Control and Emission for the purpose of controlling the energy within the body.
             Ethereal:
               Lifeform Control:
                 Mind Control: #L10
@@ -2025,7 +2325,21 @@ Game:
           Character Type:
             Magic Wielder: *Magic_Wielder
           Magic School:
-            Eclectic Magic: *Eclectic_Magic
+            Angel:
+              One of:
+                - Special Realm or Pantheon: &Special_Realm_or_Pantheon This is a school usually reserved for non-player characters, but can be the basis for a player character if carefully defined by a Judge. The magical teachings and spells come from the history of a Special Realm or Pantheon of the Marvel Universe (such as Asgard or Olympus). Bonuses for this type of magic would come with the use of items or spells developed by this pantheon or realm, and when at certain locations (Greece for the Olympian pantheon, etc.) Penalties would exist as items or locations that exist to destroy the specific pantheon or realm (an Asgardian character casting a spell while in the hostile realm of Muspelheim would have a -1CS penalty.
+                - Magic for Order: &Magic_for_Order This is the school to which Earth’s former Sorcerer Supreme, the Ancient One, and Earth’s current Sorcerer Supreme, Doctor Strange, belong. It is the most powerful “white” school of magic, striving for order and good by practicing an ascetic, disciplined approach that has its foundations deeply rooted in Eastern philosophy and magic. It is currently the strongest form of magic on Earth. The bonuses attached to this type of school are the various magical characters that Doctor Strange has managed to ally with over the years and the vast knowledge that Doctor Strange, and others of the same bent, can teach a good pupil. The penalties include Doctor Strange’s enemies, who are numerous and powerful.
+            Demon:
+              One of:
+                - Magic for Chaos: &Magic_for_Chaos This is a forbidden or dangerous type of magical school whose goal is to promote chaos, which will lead to an evil tyranny. One of the primary subschools of “chaotic” magic is one that follows the little-known archaic rituals and beliefs based on the existence of the Elder Gods. This type of magic is much more powerful in certain settings (such as ancient temples to the unknown gods) and with the use of “chaotic” magic artifacts. The vulnerability of “chaotic” magic is that it tends to attract “white” magic wielders or creatures who wish to negate it.
+                - Special Realm or Pantheon: *Special_Realm_or_Pantheon
+            Others:
+              One of:
+              - Magic for Chaos: *Magic_for_Chaos
+              - Magic for Order: *Magic_for_Order
+              - Faerie Magic: This school is based on the practices of the faerie, an ancient race of beings with supernatural powers who originated in an extradimensional world that borders upon Britain and Ireland on Earth. This magic school is similar to the Druidic school, except that a character in this school most likely possesses faerie blood. This makes him extremely powerful when wielding an ancient faerie artifact or in Britain or Ireland, but extremely vulnerable to iron or steel.
+              - Special Realm or Pantheon: *Special_Realm_or_Pantheon
+              - Eclectic Magic: *Eclectic_Magic
           Energy Use:
             Personal and Universal Energies Only: *Personal-Universal
           Rank:
@@ -2040,10 +2354,10 @@ Game:
     Greymount Manor:
       Description: A grand, stately, Beaux-Arts mansion in West Village along the waterfront, the palatial estate has a private courtyard with peristyle, ornate, gated porte-cochère and portico, and an attached carriage house that was converted to a vehicle garage in the 1920's with direct street access. Greymount Manor was constructed for Julian Constantine, finished in 1880, and he has owned it ever since.
       Reference:
-       Mansion (30+ rooms):
-        Size:
-          Deluxe: Deluxe is the largest size, and is for heroes with several vehicle types, trophy rooms, and living quarters. It has 20 + areas spread through 3 or more floors.
-        Material Strength: Excellent
+        Mansion (30+ rooms):
+          Size:
+            Deluxe: Deluxe is the largest size, and is for heroes with several vehicle types, trophy rooms, and living quarters. It has 20 + areas spread through 3 or more floors.
+          Material Strength: Excellent
       Room Packages:
         Living Room Package:
           Cost:
