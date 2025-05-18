@@ -2170,31 +2170,37 @@ Character Sheet:
               Ethereal: *Remarkable
               Normal Human: *Excellent
               Animal:
-                Cat: *Feeble
-                Lion: *Excellent
+                Cat: *Poor
+                Lion: *Remarkable
+                Note: +1CS from baseline statblock.
             Note: Ethereal Fighting is Shift 0 in Earth Dimension unless fighting other Ethereals.
           Agility:
             Rank:
               Demon: *Amazing
               Ethereal: *Amazing
               Normal Human: *Excellent
-              Animal: *Good
+              Animal:
+                Cat: *Excellent
+                Lion: *Excellent
+                Note: +1CS from baseline statblock.
           Strength:
             Rank:
               Demon: *Remarkable
               Ethereal: *Remarkable
               Normal Human: *Excellent
               Animal:
-                Cat: *Feeble
-                Lion: *Good
+                Cat: *Poor
+                Lion: *Excellent
+                Note: +1CS from baseline statblock.
           Endurance:
             Rank:
               Demon: *Amazing
               Ethereal: *Amazing
               Normal Human: *Excellent
               Animal:
-                Cat: *Good
-                Lion: *Excellent
+                Cat: *Excellent
+                Lion: *Remarkable
+                Note: +1CS from baseline statblock.
           Reason:
             Rank: *Remarkable
           Intuition:
@@ -2207,8 +2213,8 @@ Character Sheet:
             Ethereal: 160
             Normal Human: 80
             Animal:
-              Cat: 24
-              Lion: 60
+              Cat: 48
+              Lion: 100
           Karma:
             Demon: 90
             Ethereal: 90

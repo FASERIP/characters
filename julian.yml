@@ -20,7 +20,7 @@ Game:
   Hero:
     Julian Constantine:
       Name: Julian Constantine
-      Identity: Julian Hieronymus Constantine
+      Identity: Julian Constantine
       Secret: false
       Base of Operations: Manhattan
       Group Affiliation: ~
@@ -55,7 +55,7 @@ Game:
             Duration:
               Permanent: The Stimulus does its full damage to the hero, even when exposure to the Stimulus has been interrupted. In this case, the Stimulus sets off a bodily self-destruction sequence that must continue to its full extent. In the case of Power Negation, the hero's Powers are permanently lost. Incapacitation results in the hero reaching zero Health points and lapsing into a coma lasting 1 -10 days. After that time, he may regain his Health at the normal rate. Fatal results in the death of the hero as both Health and Endurance drop to zero. The hero can be revived, however, and will eventually recover if revival occurs.
       Description:
-        Biography: Born in Nicomedia in the year 380 in what was then the Eastern Roman Empire, Julian Hieronymus Constantine, then known as Ioulianós ó Nikomediátes, unlocked the secrets of the Philosopher's Stone in the early-mid Fifth Century, gaining immortality and eternal youth and health.  He has spent the centuries since honing his mind, body, and spirit to unprecedented levels, dedicating himself to the mastery of anything that has caught his attention along the way.  By the late 20th century, he is exorbitantly wealthy and well-connected along with his hyper-competence, due to incessant personal development and cultivation. Of human peak physicality, his mind is centuries since transcending all human limits.
+        Biography: Born in Nicomedia in the year 380 in what was then the Eastern Roman Empire, Julian Constantine, then known as Ioulianós ó Nikomediátes, unlocked the secrets of the Philosopher's Stone in the early-mid Fifth Century, gaining immortality and eternal youth and health.  He has spent the centuries since honing his mind, body, and spirit to unprecedented levels, dedicating himself to the mastery of anything that has caught his attention along the way.  By the late 20th century, he is exorbitantly wealthy and well-connected along with his hyper-competence, due to incessant personal development and cultivation. Of human peak physicality, his mind is centuries since transcending all human limits.
         Personality: Julian is, in a general sense, heroic, noble, valorous, and beneficient, although as a man well into his second millennium of life, having witnessed the rise and fall of many cultures, societies, and philosophies, and their values, his view is long and his perspective distant and somewhat detached.  What heroic and noble means to him reflects that perspective. He is gregarious, humorous, and charming, socially, although he prefers such socialization to be on his terms. He is disciplined, focused, and meticulous, as well as obsessive about his personal development—he devotes a considerable amount of his waking hours to that pursuit.
         Appearance: Tall, long-limbed, broad-shouldered, and athletic, his olive skin, dark hair, strong, regal facial features, and piercing green eyes reflect his ancient Near-Eastern heritage, an ethnicity that no longer exists in that form among the entirety of humanity save himself.  When out of his armor, he tends to wear impeccable, tailored suits in neutral colors appropriate to the season, and quite a bit of jewelery with mystic or occult connotations, some of it as ancient as he is, or more.
       Abilities:
@@ -1691,12 +1691,12 @@ Game:
               Fighting: Excellent
               Agility: Amazing
               Strength: Poor
-              Endurance: Excellent
+              Endurance: Remarkable
               Reason: Excellent
               Intuition: Remarkable
               Psyche: Incredible
             Secondary Abilities:
-              Health: 94
+              Health: 104
               Karma: 90
               Popularity: Excellent
               Resources: Shift 0
@@ -1795,7 +1795,7 @@ Game:
                     Rank: Incredible
                     Number: 40
                     Reference: *Teleportation
-          Notes: Inflicts Edged attack damage with claws but cannot score a Kill result against human targets. Moves 2 areas/turn.
+          Notes: Inflicts Edged attack damage with claws but cannot score a Kill result against human targets. Moves 3 areas/turn.
           Reference:
             Familiar: *Familiar
             Cat:
