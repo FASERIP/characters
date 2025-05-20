@@ -813,23 +813,23 @@ Character Sheet:
               Acrobatics: &Acrobatics The hero with this Talent is very limber and as such gains advantages when under attack. The hero has a +1CS when dodging, evading, and escaping.
               Tumbling: &Tumbling The hero with this Talent knows how to fall and land without undue injury. Individuals with this Talent may make an Agility FEAT to land feet-first after any fall that does not inflict damage.
             Professional Skills:
-              Medicine: The hero with this Talent has extensive knowledge of medicine and as such limited Talents in healing. In general, a character losing Endurance Ranks as the result of a lethal situation can have those losses stopped by any character checking on him. The individual with Medicine Talent may bring back characters that have reached the Shift 0 level up to 20 turns after they have reached that level. A character with this Talent may restore one rank of Endurance to a wounded character per week, in addition to natural healing. Finally, the character with Medicine as a Talent is +1CS on Reason FEATs that involve medical problems, medications, poisons, and surgery.
-              Law: The character with this Talent has an extensive background in law (the assumption being US Law, but this may vary according to the Judge's campaign). The hero may be a lawyer or capable of applying to pass the bar (Reason FEAT of Good Intensity). A character with Law as a Talent gains a +1CS to all FEAT rolls involving the law, including correct legal procedure. A character without Law gains no benefit to Reason FEATs, and in addition, will have to make Reason FEATs more often than a character with Law Talent.
+              Medicine: &Medicine The hero with this Talent has extensive knowledge of medicine and as such limited Talents in healing. In general, a character losing Endurance Ranks as the result of a lethal situation can have those losses stopped by any character checking on him. The individual with Medicine Talent may bring back characters that have reached the Shift 0 level up to 20 turns after they have reached that level. A character with this Talent may restore one rank of Endurance to a wounded character per week, in addition to natural healing. Finally, the character with Medicine as a Talent is +1CS on Reason FEATs that involve medical problems, medications, poisons, and surgery.
+              Law: &Law The character with this Talent has an extensive background in law (the assumption being US Law, but this may vary according to the Judge's campaign). The hero may be a lawyer or capable of applying to pass the bar (Reason FEAT of Good Intensity). A character with Law as a Talent gains a +1CS to all FEAT rolls involving the law, including correct legal procedure. A character without Law gains no benefit to Reason FEATs, and in addition, will have to make Reason FEATs more often than a character with Law Talent.
               Pilot: &Pilot The character with this Talent has a working knowledge of most aircraft and receives a +1CS for all FEAT rolls involving an aircraft that character is controlling (including Control FEATs, Agility FEATs, and Reason FEATs involving aircraft handling and design). A character with a background that would permit it (a hero who is an alien) may extend this Talent to spacecraft as well.
               Military: &Military The hero has had some dealings with one of the armed services. In military matters, the hero gets a +1CS to all FEAT rolls, and in addition may take a member of the armed services as a Contact.
-              Business/Finance: The hero is familiar with the world of business, corporate finance, and how money works. Initial resources are a minimum of Good, and the hero gains a +1CS for FEAT rolls dealing with money. The hero gains a Contact in the Professional category.
-              Engineering: |
+              Business/Finance: &Business-Finance The hero is familiar with the world of business, corporate finance, and how money works. Initial resources are a minimum of Good, and the hero gains a +1CS for FEAT rolls dealing with money. The hero gains a Contact in the Professional category.
+              Engineering: &Engineering |
                 Engineering includes all the varied types of that profession dedicated to the design of functional items: civil, chemical, mechanical, etc. A character with Engineering Talent gains a +1CS to all FEATs involving building things, including the Resource FEAT to determine if an object can be built.
               Criminology: &Criminology The hero with this Talent has an understanding of the criminal mind and behavior, either from studies or first-hand observation. The character with this Talent gains a +1CS on all Reason and Intuition FEATs involving criminal practices ("If I were a crook, where would I hide?"). The hero also gains a Contact in either the police or crime areas.
-              Psychiatry: The hero with this Talent has a background in studies of the mind and as such gains a +1CS on all FEATs involving the mind. This is a popular Talent with those heroes and villains with Mental Powers, and the character with these Talents gains a +1CS on FEATs involving Mental Control, Domination, Hypnosis, Emotion Control, and Mental Probe Powers.
+              Psychiatry: &Psychiatry The hero with this Talent has a background in studies of the mind and as such gains a +1CS on all FEATs involving the mind. This is a popular Talent with those heroes and villains with Mental Powers, and the character with these Talents gains a +1CS on FEATs involving Mental Control, Domination, Hypnosis, Emotion Control, and Mental Probe Powers.
               Detective/Espionage: &Detective-Espionage The hero with this Talent has been trained to notice small clues in solving crimes. The character with this Talent gains a +1CS to discover clues to a crime, and in addition gains a Contact in either crime, law enforcement, law, or espionage.
             Scientific Skills:
-              Chemistry: A +1CS on matters of chemistry, including developing new formulas, finding cures for inorganic poisons, and identifying chemicals by smell, touch, or taste.
-              Biology: A +1CS on matters of biology, including animal and plant identification, finding cures for organic poisons, and researching diseases and their cures.
-              Geology: A +1CS on matters involving the Earth, including volcanic activity, the geology of the surrounding land, types of rocks and their powers, and mineral identification.
-              Genetics: A +1CS on matters involving the genes, including creating new life forms, understanding mutants, and researching diseases.
+              Chemistry: &Chemistry A +1CS on matters of chemistry, including developing new formulas, finding cures for inorganic poisons, and identifying chemicals by smell, touch, or taste.
+              Biology: &Biology A +1CS on matters of biology, including animal and plant identification, finding cures for organic poisons, and researching diseases and their cures.
+              Geology: &Geology A +1CS on matters involving the Earth, including volcanic activity, the geology of the surrounding land, types of rocks and their powers, and mineral identification.
+              Genetics: &Genetics A +1CS on matters involving the genes, including creating new life forms, understanding mutants, and researching diseases.
               Archaeology: &Archaeology A +1CS on matters involving the past, including paleontology, historical records, and ancient myths and legends.
-              Physics: A +1CS on matters involving physics and astrophysics, including motion, flight, and the planets and stars.
+              Physics: &Physics A +1CS on matters involving physics and astrophysics, including motion, flight, and the planets and stars.
               Computers: &Computers A +1CS on matters involving computers, computer-controlled equipment, and artificial intelligences.
               Electronics: &Electronics A +1CS on matters involving electronic devices, including their creation and repair.
             Mystic and Mental Skills:
@@ -1641,24 +1641,24 @@ Character Sheet:
               Ammunition:
                 Power Pack: Stun, concussion, and laser weapons operate from power packs and may not use other types of ammunition.
                 Handgun:
-                  Standard: &Standard Damage listed for each weapon is for standard ammunition.
+                  Standard: &Standard_Ammunition Damage listed for each weapon is for standard ammunition.
                   Mercy Shot: &Mercy_Shot There are several types of specialized ammunition, the first of which is Mercy Shot. Mercy bullets inflict no damage, but spread a Remarkable Intensity knock-out drug over the skin of the target. If the bullet inflicts damage to the target, the drug takes effect, knocking those affected out for 1-10 rounds.
                   AP Shot: &AP_Shot Armor-piercing bullets reduce the target's Body Armor by -2CS (from Good to Poor, for example) for purposes of hitting and damage. This type of ammunition has no effect on force fields.
                   Rubber Shot: &Rubber_Shot Less lethal rubber bullets that inflict slugfest damage instead of shooting damage. Ignore Slam results when using rubber bullets.
                   Explosive Shot: &Explosive_Shot Explosive Shot inflicts twice the normal (listed) damage for the weapon. If the weapon fires bursts or scatters, all targets in the area are affected.
                 Sniper Rifle:
-                  Standard: *Standard
+                  Standard: *Standard_Ammunition
                   Mercy Shot: *Mercy_Shot
                   AP Shot: *AP_Shot
                   Rubber Shot: *Rubber_Shot
                   Explosive Shot: *Explosive_Shot
                 Assault Rifle:
-                  Standard: *Standard
+                  Standard: *Standard_Ammunition
                   Mercy Shot: *Mercy_Shot
                 Shotgun:
-                  Standard: *Standard
+                  Standard: *Standard_Ammunition
                 Riot Gun:
-                  Standard: *Standard
+                  Standard: *Standard_Ammunition
                   Canister Shot: &Canister_Shot
                     Reference: Canister shot is a special type of ammunition that may be loaded with various cartridges for different effects. Specify the type of canister desired when purchasing.
                     Canisters:
@@ -1668,14 +1668,14 @@ Character Sheet:
                       - Explosive Canisters: Explosive Canisters inflict double damage to all in target area, normal damage to all in adjacent areas.
                       - Incendiary Canisters: Incendiary Canisters inflict 20 damage in fire (Energy), which burns at Excellent Intensity for 1-10 rounds.
                 Gyrojet:
-                  Standard: *Standard
+                  Standard: *Standard_Ammunition
                   Explosive Shot: *Explosive_Shot
                   Heat-Seeker Ammunition: &Heat-Seeker_Ammunition Heat-Seeker Ammunition seeks out the hottest source in line to the target. Will track the hottest source up to maximum of the weapon's range, and suffers no penalty for range. If several targets are of the same heat, then it will determine a target randomly. This ammunition type is only available for Gyro-Jet Pistols.
                   Explosive Heat-Seeker Ammunition:
                     - Explosive Shot: *Explosive_Shot
                     - Heat-Seeker Ammunition: *Heat-Seeker_Ammunition
                 LAW:
-                  Standard: *Standard
+                  Standard: *Standard_Ammunition
                   AP Shot: *AP_Shot
                   Canister Shot: *Canister_Shot
                 Missile Launcher:
@@ -1712,13 +1712,13 @@ Character Sheet:
                 Laser Pistol: &Laser_Concussion_Pistol The Laser Pistol, Concussion Pistol, and Plasma Beam Handgun are weapons used by high-tech spies and subversive organizations, including S.H.I.E.L.D. and A.I.M. All three types operate from power packs.
                 Concussion Pistol: *Laser_Concussion_Pistol
                 Stun Pistol: The standard Stun Pistol fires a stunning beam of Typical Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns. It operates from a power pack.
-                Sniper Rifle: The Sniper Rifle, like the target pistol, suffers no penalty for firing up to maximum range.
-                Assault Rifle: The Assault Rifle is the version of the rifle used by the military.
+                Sniper Rifle: &Sniper_Rifle The Sniper Rifle, like the target pistol, suffers no penalty for firing up to maximum range.
+                Assault Rifle: &Assault_Rifle The Assault Rifle is the version of the rifle used by the military.
                 Laser Rifle: &Laser_Stun_Concussion_Rifle The Laser, Stun, and Concussion Rifles are larger versions of their handgun equivalents. The stun rifle fires a beam of Remarkable Intensity. All use power packs.
                 Stun Rifle: *Laser_Stun_Concussion_Rifle
                 Concussion Rifle: *Laser_Stun_Concussion_Rifle
                 Shotgun: The Shotgun is a one- or two-barreled weapon that fires bursts. It is often loaded with non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results). One or both barrels may be fired.
-                Riot Gun: The Riot Gun is a smaller version of the shotgun and fires grenade-like missiles and canister shot (treat as grenades).
+                Riot Gun: &Riot_Gun The Riot Gun is a smaller version of the shotgun and fires grenade-like missiles and canister shot (treat as grenades).
                 LAW: LAW stands for Light Anti-tank Weapon, and is the replacement for the Bazooka on the battlefield. It requires one man to fire.
                 Stun Cannon: &Stun_Concussion_Laser_Cannon Stun, Concussion, and Laser Cannons are the largest version of the pistols and rifles of the same name. They must be stationary to fire, and all rely on power packs. Stun cannon fires bursts of Incredible Intensity.
                 Concussion Cannon: *Stun_Concussion_Laser_Cannon
@@ -1755,7 +1755,7 @@ Character Sheet:
               Damage: 10
               Knife: &Knife_Ref A Knife is defined as any blade weapon with a blade up to 12 inches. It may be thrown as a thrown object.
               Spear: &Spear_Ref A Spear is considered as any thrusting blade with a handle over one foot long. It is normally thrown or wielded with two hands.
-              Club: Clubs are standard blunt weapons, including makeshift weapons such as chairs and tables.
+              Club: &Club Clubs are standard blunt weapons, including makeshift weapons such as chairs and tables.
               Boomerang: The Boomerang is a flat, curved throwing stick. Only a character with Throwing talent may cause a Boomerang to return to their hands.
         Vehicles:
           Convertible Sports Car:
@@ -2114,8 +2114,8 @@ Character Sheet:
               Material Strength: Excellent
               Other Equipment:
                 Infra-red Goggles: &Infra-Red_Goggles Infra-Red Goggles are similar to infra-red sights; these permit normal vision up to 5 areas away in dimly lit areas.
-                Polarized Lenses: &Polarized_Lenses Polarized Lenses are goggles that provide Good resistance to light attacks. If exposed to a bright light, they darken for 1 round, then lighten to allow normal sight.
-                Gas Mask: Allows the wearer to breathe and act normally in conditions of smoke, tear gas, or knock-out gas. It does not allow clear vision in these areas, however, only normal movement.
+                Polarized Lenses: Polarized Lenses are goggles that provide Good resistance to light attacks. If exposed to a bright light, they darken for 1 round, then lighten to allow normal sight.
+                Gas Mask: &Gas_Mask Allows the wearer to breathe and act normally in conditions of smoke, tear gas, or knock-out gas. It does not allow clear vision in these areas, however, only normal movement.
                 Flak Jacket: &Flak_Jacket Flak Jackets are worn by police in special situations and by SWAT teams. These jackets provide Good protection from physical damage.
                 Beta Cloth: Beta-Cloth is a lightweight material worn by agents of S.H.I.E.L.D. It provides Typical protection from physical attacks, Excellent protection from heat and radiation.
                 Scuba Gear: *Scuba_Gear
@@ -3154,7 +3154,7 @@ Character Sheet:
               Acrobatics: *Acrobatics
               Tumbling: *Tumbling
             Professional Skills:
-              Law Enforcement: The character with this Talent has a background with law-enforcement authorities. This Talent includes both Gun and Law Talents, and the character, if still a member of a law-enforcement agency, may legally carry a gun and make arrests.
+              Law Enforcement: &Law_Enforcement The character with this Talent has a background with law-enforcement authorities. This Talent includes both Gun and Law Talents, and the character, if still a member of a law-enforcement agency, may legally carry a gun and make arrests.
               Pilot: *Pilot
               Military: *Military
               Criminology: *Criminology
@@ -3204,11 +3204,11 @@ Character Sheet:
                     - Edged Attack
                     - Edged Throwing
                   Material Strength: Excellent
-                  Reference: A Knife is defined as any blade weapon with a blade up to 12 inches. It may be thrown as a thrown object.
+                  Reference: *Knife_Ref
             Ceremonial Sword:
               Description: An ornate longsword, styled as a spatha and decorated with precious metals, gems, and engraving.
               Reference:
-                Sword: &Sword
+                Sword:
                   Damage: 10
                   Type: Edged Attack
                   Material Strength: Excellent
@@ -3233,7 +3233,7 @@ Character Sheet:
             Arma Tactical Utility Aircraft: *Arma_TUA
           Other Equipment:
             Phylax Battlesuit Model I: *Phylax_Battlesuit
-            Handcuffs: Handcuffs are a standard restraining device used by the police forces of the world to prevent actions by criminals in custody. They are made of Excellent material.
+            Handcuffs: &Handcuffs Handcuffs are a standard restraining device used by the police forces of the world to prevent actions by criminals in custody. They are made of Excellent material.
             Flashlight: *Flashlight
             Mace: *Mace
             Camera: Camera represents the standard photographer's tool. More expensive versions are available with higher definition. Camera accessories would include film (Feeble cost), flash (normal or halogen, as flashlight), and special lens, such as telephoto lens (Good cost).
@@ -3320,14 +3320,14 @@ Character Sheet:
             Karma: 30
           Talents:
             Weapon Skills:
-              Blunt Weapons: &Blunt_Weapons Characters with this Talent gain a +1CS to hit when attacking with a weapon that resolves attacks on the Blunt Attacks column of the Battle Effects Table.
+              Blunt Weapons: *Blunt_Weapons
             Fighting Skills:
-              Martial Arts C: &Martial_Arts_C This form of martial arts concentrates on holds and escapes. The practitioner of this form gains a +1CS to his Strength for Grappling attacks (including damage), a +1CS to Strength for Escaping, and a +1CS to Agility for purposes of Dodging.
+              Martial Arts C: *Martial_Arts_C
             Professional Skills:
-              Military: &Military The hero has had some dealings with one of the armed services. In military matters, the hero gets a +1CS to all FEAT rolls, and in addition may take a member of the armed services as a Contact.
-              Law Enforcement: &Law_Enforcement The character with this Talent has a background with law-enforcement authorities. This Talent includes both Gun and Law Talents, and the character, if still a member of a law-enforcement agency, may legally carry a gun and make arrests.
+              Military: *Military
+              Law Enforcement: *Law_Enforcement
             Other Talents:
-              First Aid: &First_Aid The medicine Talent notes that the loss of Endurance ranks may be halted by someone checking on the dying character and administering some form of aid. The First Aid Talent grants the character this immediate halt to Endurance rank loss, the recovery of one rank immediately (one use only per situation), and in addition, the hero with this Talent can stabilize a dying character at Shift 0 Health up to 5 rounds after that character reaches that level.
+              First Aid: *First_Aid
         Equipment:
           Shooting Weapons:
             Handgun/Pistol: &Handgun-Pistol
@@ -3343,28 +3343,15 @@ Character Sheet:
               Notes:
                 - One-Handed
               Ammunition: 
-                Standard: &Standard_Ammunition Damage listed for each weapon is for standard ammunition.
+                Standard: *Standard_Ammunition
               Reference: The Handgun/Pistol is the next most common weapon, and like the cheap handgun, is easily concealed. A number of makes and models exist, noted by the different number of shots available. When the number is not predetermined (the text states a 9-shot pistol), assume the chambers hold 6 shots.
           Melee and Thrown Weapons:
-            Club: &Club
-              Price: Feeble
-              Damage: 10
-              Type:
-                - Blunt Attack
-                - Blunt Throwing
-              Material Strength: Good
-              Reference: Clubs are standard blunt weapons, including makeshift weapons such as chairs and tables.
-            Knife: &Knife
-              Price: Feeble
-              Damage: 10
-              Type:
-                - Edged Attack
-                - Edged Throwing
-              Material Strength: Excellent
+            Club: *Club
+            Knife: *Knife
           Other Gear:
-            Flashlight, Standard: &Flashlight Flashlights are common to all readers. The normal flashlight is the type most common, with a plastic or metal body (Typical Intensity). The Halogen flashlight has a brighter bulb and more concentrated beam, and blinds with a more powerful Intensity (Remarkable Intensity). Normal flashlight has a range of two areas, the halogen three.
-            Mace: &Mace Mace is a small one-area weapon that shoots a mist of Typical Intensity tear gas at a single target adjacent to the user. It does not require an Agility FEAT to hit, though the target must make an Endurance FEAT to avoid the effects.
-            Handcuffs: &Handcuffs Handcuffs are a standard restraining device used by the police forces of the world to prevent actions by criminals in custody. They are made of Excellent material.
+            Flashlight, Standard: *Flashlight
+            Mace: *Mace
+            Handcuffs: *Handcuffs
         Reference:
           Policeman:
             Abilities:
@@ -3382,7 +3369,7 @@ Character Sheet:
               Special Abilities:
                 Talents:
                   Professional Skills:
-                    Law Enforcement: The character with this Talent has a background with law-enforcement authorities. This Talent includes both Gun and Law Talents, and the character, if still a member of a law-enforcement agency, may legally carry a gun and make arrests.
+                    Law Enforcement: *Law_Enforcement
             Reference: Standard agent of law-enforcement. Walks a beat or patrols in a squad car. Equipment includes a billy club and handgun. May make arrests.
       Rapid Response Officer:
         Description: Members of the Varangian Guard's Crisis Rapid Response Team use improved SWAT operative stats and have the same base equipment as the uniformed guards, but additionally wear Flak Jackets and are armed with a Riot Gun, Assault Rifle, or Sniper Rifle depending on their role on their squad.  They have access to Gas Masks and Infra-Red Goggles as well.
@@ -3401,10 +3388,10 @@ Character Sheet:
           Talents:
             Weapon Skills:
               Blunt Weapons: *Blunt_Weapons
-              Marksmanship: &Marksmanship The character with this Talent gains a +1CS to hit with any distance weapon that requires line of sight to hit (the character could benefit when firing heavy artillery, but not when controlling a tele-guided missile). Such a weapon in the hands of a marksman does not suffer penalties to hit from range.
+              Marksmanship: *Marksmanship
             Fighting Skills:
               Martial Arts C: *Martial_Arts_C
-              Martial Arts E: This form of martial arts encourages quick striking to catch the opponent off-guard. Heroes with this form of Martial Arts are at a +1CS to initiative rolls in unarmed combat.
+              Martial Arts E: *Martial_Arts_E
             Professional Skills:
               Military: *Military
               Law Enforcement: *Law_Enforcement
@@ -3422,20 +3409,11 @@ Character Sheet:
                 Shots: 6
                 Material Strength: Excellent
                 Notes:
-                  - Bursts: Affect up to three adjacent targets, with one roll made for all targets.
                   - Fire one-handed at -1CS
                 Ammunition:
                   Standard: *Standard_Ammunition
-                  Canister Shot:
-                    - Canister shot is a special type of ammunition that may be loaded with various cartridges for different effects. Specify the type of canister desired when purchasing.
-                    - Gas Canisters: Gas Canisters contain Incredible Intensity Tear Gas. Cover one area.
-                    - Knock-Out Canisters: Knock-Out Can contain Remarkable Intensity Knock-Out gas. Cover one area.
-                    - Smoke Canisters: Smoke Canisters contain Excellent Intensity smoke. Cover one area.
-                    - Explosive Canisters: Explosive Canisters inflict double damage to all in target area, normal damage to all in adjacent areas.
-                    - Incendiary Canisters: Incendiary Canisters inflict 20 damage in fire (Energy), which burns at Excellent Intensity for 1-10 rounds.
-                Reference:
-                  - Riot Gun: The Riot Gun is a smaller version of the shotgun and fires grenade-like missiles and canister shot (treat as grenades).
-                  - Shotgun: The Shotgun fires bursts. It is often loaded with non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results).
+                  Canister Shot: *Canister_Shot
+                Reference: *Riot_Gun
               Sniper Rifle:
                 Range: 10
                 Damage: 15
@@ -3445,8 +3423,8 @@ Character Sheet:
                 Material Strength: Good
                 Ammunition:
                   Standard: *Standard_Ammunition
-                  AP Shot: Armor-piercing bullets reduce the target's Body Armor by 2 CS (from Good to Poor, for example) for purposes of hitting and damage. This type of ammunition has no effect on force fields.
-                Reference: The Sniper Rifle, like the target pistol, suffers no penalty for firing up to maximum range. It is used by criminals as well as the military.
+                  AP Shot: *AP_Shot
+                Reference: *Sniper_Rifle
               Assault Rifle:
                 Range: 7
                 Damage: 10
@@ -3457,17 +3435,17 @@ Character Sheet:
                 Notes: Military
                 Ammunition:
                   Standard: *Standard_Ammunition
-                Reference: The Assault Rifle is the version of the rifle used by the military.
+                Reference: *Assault_Rifle
           Melee and Thrown Weapons:
             Club: *Club
             Knife: *Knife
             Handcuffs: *Handcuffs
           Other Gear:
             Flashlight, Standard: *Flashlight
-            Infra-red Goggles: Infra-Red Goggles are similar to infra-red sights; these permit normal vision up to 5 areas away in dimly lit areas.
+            Infra-red Goggles: *Infra-Red_Goggles
             Mace: *Mace
-            Gas Mask: Allows the wearer to breathe and act normally in conditions of smoke, tear gas, or knock-out gas. It does not allow clear vision in these areas, however, only normal movement.
-            Flak Jacket: Flak Jackets are worn by police in special situations and by SWAT teams. These jackets provide Good protection from physical damage.
+            Gas Mask: *Gas_Mask
+            Flak Jacket: *Flak_Jacket
         Reference:
           Swat Operative:
             Abilities:
@@ -3512,8 +3490,8 @@ Character Sheet:
             Professional Skills:
               Military: *Military
               Law Enforcement: *Law_Enforcement
-              Criminology: &Criminology The hero with this Talent has an understanding of the criminal mind and behavior, either from studies or first-hand observation. The character with this Talent gains a +1CS on all Reason and Intuition FEATs involving criminal practices ("If I were a crook, where would I hide?"). The hero also gains a Contact in either the police or crime areas.
-              Detective/Espionage: &Detective-Espionage The hero with this Talent has been trained to notice small clues in solving crimes. The character with this Talent gains a +1CS to discover clues to a crime, and in addition gains a Contact in either crime, law enforcement, law, or espionage.
+              Criminology: *Criminology
+              Detective/Espionage: *Detective-Espionage
             Other Talents:
               First Aid: *First_Aid
         Equipment:
@@ -3658,15 +3636,15 @@ Character Sheet:
             Talents:
               Management:
                 Professional Skills:
-                  Law: &Law The character with this Talent has an extensive background in law (the assumption being US Law, but this may vary according to the Judge's campaign). The hero may be a lawyer or capable of applying to pass the bar (Reason FEAT of Good Intensity). A character with Law as a Talent gains a +1CS to all FEAT rolls involving the law, including correct legal procedure. A character without Law gains no benefit to Reason FEATs, and in addition, will have to make Reason FEATs more often than a character with Law Talent.
-                  Business/Finance: &Business-Finance The hero is familiar with the world of business, corporate finance, and how money works. Initial resources are a minimum of Good, and the hero gains a +1CS for FEAT rolls dealing with money. The hero gains a Contact in the Professional category.
+                  Law: *Law
+                  Business/Finance: *Business-Finance
                 Other Talents:
-                  Leadership: The hero with this Talent has the brains and understanding of a cohesive group, such that he is a benefit to the team. Any Karma Pool to which the character belongs receives a 50-point bonus, provided the character with this Talent is recognized as the "team leader." A Karma Pool may only have one recognized leader, though more than one character with Leadership may belong to one group. When the "Leader" of a group leaves, the 50 points are deducted from the Karma Pool, but the leader does not receive them for personal use (the bonus points only exist as a part of the pool)
+                  Leadership: *Leadership
               Pilot:
                 Professional Skills:
-                  Pilot: The character with this Talent has a working knowledge of most aircraft and receives a +1CS for all FEAT rolls involving an aircraft that character is controlling (including Control FEATs, Agility FEATs, and Reason FEATs involving aircraft handling and design). A character with a background that would permit it (a hero who is an alien) may extend this Talent to spacecraft as well.
+                  Pilot: *Pilot
                 Other Talents:
-                  Repair/Tinkering: &Repair-Tinkering The character with this Talent gains a +1CS to any Reason FEATs involving the repair and modification of existing items, but not the building of new items. This +1CS may be added to any other bonuses gained from other Talents, so that an Engineer with Tinkering Talent would gain a +2CS on repair.
+                  Repair/Tinkering: *Repair-Tinkering
               Accountant:
                 Professional Skills:
                   Business/Finance: *Business-Finance
@@ -3675,8 +3653,8 @@ Character Sheet:
                   Law: *Law
               Computer Specialist:
                 Scientific Skills:
-                  Computers: &Computers A +1CS on matters involving computers, computer-controlled equipment, and artificial intelligences.
-                  Electronics: &Electronics A +1CS on matters involving electronic devices, including their creation and repair.
+                  Computers: *Computers
+                  Electronics: *Electronics
                 Other Talents:
                   Repair/Tinkering: *Repair-Tinkering
               Maintenance:
@@ -3717,12 +3695,12 @@ Character Sheet:
             Special Abilities:
               Talents:
                 Professional Skills:
-                  Medicine: &Medicine The hero with this Talent has extensive knowledge of medicine and as such limited Talents in healing. In general, a character losing Endurance Ranks as the result of a lethal situation can have those losses stopped by any character checking on him. The individual with Medicine Talent may bring back characters that have reached the Shift 0 level up to 20 turns after they have reached that level. A character with this Talent may restore one rank of Endurance to a wounded character per week, in addition to natural healing. Finally, the character with Medicine as a Talent is +1CS on Reason FEATs that involve medical problems, medications, poisons, and surgery.
-                  Psychiatry: &Psychiatry The hero with this Talent has a background in studies of the mind and as such gains a +1CS on all FEATs involving the mind. This is a popular Talent with those heroes and villains with Mental Powers, and the character with these Talents gains a +1CS on FEATs involving Mental Control, Domination, Hypnosis, Emotion Control, and Mental Probe Powers.
+                  Medicine: *Medicine
+                  Psychiatry: *Psychiatry
                 Scientific Skills:
-                  Biology: &Biology A +1CS on matters of biology, including animal and plant identification, finding cures for organic poisons, and researching diseases and their cures.
-                  Chemistry: &Chemistry A +1CS on matters of chemistry, including developing new formulas, finding cures for inorganic poisons, and identifying chemicals by smell, touch, or taste.
-                  Genetics: &Genetics A +1CS on matters involving the genes, including creating new life forms, understanding mutants, and researching diseases.
+                  Biology: *Biology
+                  Chemistry: *Chemistry
+                  Genetics: *Genetics
                 Other Talents:
                   First Aid: *First_Aid
         Reference:
@@ -3804,16 +3782,15 @@ Character Sheet:
           Special Abilities:
             Talents:
               Professional Skills:
-                Engineering: |
-                Engineering includes all the varied types of that profession dedicated to the design of functional items: civil, chemical, mechanical, etc. A character with Engineering Talent gains a +1CS to all FEATs involving building things, including the Resource FEAT to determine if an object can be built.
+                Engineering: *Engineering
               Scientific Skills:
                 Any three of the following:
                   Biology: *Biology
                   Chemistry: *Chemistry
                   Genetics: *Genetics
-                  Physics: A +1CS on matters involving physics and astrophysics, including motion, flight, and the planets and stars.
-                  Geology: A +1CS on matters involving the Earth, including volcanic activity, the geology of the surrounding land, types of rocks and their powers, and mineral identification.
-                  Archaeology: A +1CS on matters involving the past, including paleontology, historical records, and ancient myths and legends.
+                  Physics: *Physics
+                  Geology: *Geology
+                  Archaeology: *Archaeology
                   Computers: *Computers
                   Electronics: *Electronics
               Other Talents:
