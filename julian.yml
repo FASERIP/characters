@@ -1153,236 +1153,238 @@ Game:
                     This spell also grants the caster knowledge of a tiny “personal dimension” where he can go with perfect accuracy and safety. This pocket dimension is only accessible from the caster’s home dimension and contains no dangerous creatures. There the caster can go for peace, solitude, and can even make it a home away from home. The caster can enter or leave his own little dimension once per day.
       Equipment:
         Shooting Weapons:
-          Phylax Integrated Multipurpose Weapon:
-            Model I:
-              Mk. 1: &Phylax_Integrated_Multipurpose_Weapons_Mk1
-                Description: |
-                  The Phylax Integrated Multipurpose Weapon Mk. 1, also known as the Phylax Blaster, is a handheld combination weapon with utility functions.  It fires handgun bullets with the precision of a match-grade target pistol with an integrated silencer, gyrojet rockets, shot shells, canister rounds, and laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher. Beam types are selectable on the fly from a power pack. Other weapons' ammunition are treated as types of ammunition that must be switched out and it can only load and fire one at a time, as does the Variable Pistol; the loading and firing mechanisms are in large part integral to the magazines. Other features such as the flare gun, fire extinguisher, and mace are all present together with everything else, but must be reloaded after a single use.
-                  
-                  It's an integrated combination of existing weapons (Variable Pistol, Target Pistol, Gyrojet Pistol, Laser Pistol, Concussion Pistol, Stun Pistol, Shotgun, Riot Gun) and items (Fire Extinguisher, Silencer, Sniper Sights, Infra-Red Sights, Flashlights—Normal and Halogen, Mace, Flare Gun).
-                Material Strength: Excellent
-                Range:
-                  Handgun: 5
-                  Riot Gun: 2
-                  Gyrojet: 5
-                  Laser: 10
-                  Concussion: 4
-                  Stun: 2
-                Damage:
-                  Handgun: 6
-                  Riot Gun:
-                    - 15
-                    - As canister
-                  Gyrojet: 10
-                  Laser: 10
-                  Concussion: 10
-                  Stun: Fires a stunning beam of Typical Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns.
-                Type:
-                  Handgun: Shooting
-                  Riot Gun:
-                    - Shooting
-                    - As canister
-                  Gyrojet: Shooting
-                  Laser: Energy
-                  Concussion: Force
-                  Stun: Typical Intensity stunning
-                Rate: 1
-                Shots:
-                  Handgun: 9
-                  Riot Gun: 6
-                  Gyrojet: 3
-                  Power Pack:
-                    Shots: 10
-                    Concussion:
-                      Max: 5
-                      Rate: 2 per Shot
-                Notes:
-                  - One-Handed
-                  - Riot Gun one-handed at -1CS
-                  - Riot Gun bursts, which affects up to three adjacent targets, with one roll made for all targets.
-                  - Riot Gun may loaded with non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results).
-              Mk. 2: &Phylax_Integrated_Multipurpose_Weapons_Mk2
-                Description: |
-                  The Phylax Integrated Multipurpose Weapon Mk. 2 is a longarm combination weapon with utility functions, essentially a larger version of the Mk. 1.  It fires medium power and magnum power rifle bullets with the precision of a sniper rifle with an integrated silencer, shot shells, rockets, canister rounds, flammable liquid, and laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher.  Beam types are selectable on the fly from a power pack. Other weapons' ammunition are treated as types of ammunition that must be switched out and it can only load and fire one at a time, as does the Variable Pistol; the loading and firing mechanisms are in large part integral to the magazines. The flamethrower has a separate fuel source. Other features such as the flare gun, fire extinguisher, and mace are all present together with everything else, but must be reloaded after a single use.
+          Phylax Integrated Multipurpose Weapon System:
+            Phylax Integrated Multipurpose Pistol: &Phylax_Integrated_Multipurpose_Pistol
+              Description: |
+                The Phylax Integrated Multipurpose Pistol, also known as the IMP, is a handheld combination weapon with utility functions.  It fires handgun bullets with the precision of a match-grade target pistol with an integrated silencer, gyrojet rockets, shot shells, canister rounds, and laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher. Beam types are selectable on the fly from a power pack. Other weapons' ammunition are treated as types of ammunition that must be switched out and it can only load and fire one at a time, as does the Variable Pistol; the loading and firing mechanisms are in large part integral to the magazines. Other features such as the flare gun, fire extinguisher, and mace are all present together with everything else, but must be reloaded after a single use.
                 
-                  It's an integrated combination of existing weapons (Variable Pistol, Sniper Rifle, Assault Rifle, Laser Rifle, Concussion Rifle, Stun Rifle, Shotgun, Riot Gun, LAW) and items (Fire Extinguisher, Silencer, Sniper Sights, Infra-Red Sights, Flashlights—Normal and Halogen, Mace, Flare Gun).
-                Material Strength: Excellent
-                Range:
-                  Sniper Rifle: 10
-                  Shotgun: 3
-                  LAW: 4
-                  Laser: 10
-                  Concussion: 7
-                  Stun: 5
-                  Flamethrower: 2
-                Damage:
-                  Assault Rifle: 10
-                  Sniper Rifle: 15
-                  Shotgun: 20
-                  LAW:
-                    - 40
-                    - As canister
-                  Laser: 20
-                  Concussion: 20
-                  Stun: Fires a stunning beam of Remarkable Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns.
-                  Flamethrower: 30
-                Type:
-                  Assault Rifle: Shooting
-                  Sniper Rile: Shooting
-                  Shotgun: Shooting
-                  Laser: Energy
-                  Concussion: Force
-                  Stun: Remarkable Intensity stunning
-                  Flamethrower: Energy
-                Rate:
-                  Assault Rifle: 2
-                  Sniper Rile: 1
-                  Shotgun: 1
-                  LAW: 1
-                  Laser: 1
-                  Concussion: 1
-                  Stun: 1
-                  Flamethrower: 1
-                Shots:
-                  Assault Rifle: 20
-                  Sniper Rifle: 4
-                  Shotgun: 6
-                  LAW: 6
-                  Power Pack:
-                    Shots: 20
-                    Concussion:
-                      Max: 12
-                      Rate: 1⅔ per Shot
-                  Flamethrower: 5
-                Notes:
-                  - Shotgun and flamethrower fire bursts, which affect up to three adjacent targets, with one roll made for all targets.
-                  - Shotgun may loaded with non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results).
-                  - Flamethrower scatters, which indicates all targets within one area of the target will be hit for that damage.
-              Mk. 3: &Phylax_Integrated_Multipurpose_Weapons_Mk3
-                Description: |
-                  The Phylax Integrated Multipurpose Weapon Mk. 3 is a vehicle mounted or crew-served combination weapon with utility functions, essentially a larger version of the Mk. 2's beam system.  It laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity light system for illumination or blinding and a heavy-duty foam projector to extinguish fires or clear areas.  The Mk. 3 must be stationary to fire, mounted on a sufficiently large vehicle or structure, or tripod.  Beam types are selectable on the fly from a power pack. The fire hose is present together with everything else, but must be reloaded after a single use if not hooked to a hydrant or similar water source.
-                
-                  It's an integrated combination of existing weapons (Laser Cannon, Concussion Cannon, Stun Cannon, Missile Launcher) and items (Fire Hose, Sniper Sights, Infra-Red Sights, Flashlights—Normal and Halogen).
-                Material Strength: Excellent
-                Range:
-                  Laser: 20
-                  Concussion: 15
-                  Stun: 10
-                  Missile Launcher: As Missile
-                Damage:
-                  Laser: 30
-                  Concussion: 40
-                  Stun: Fires a stunning beam of Incredible Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns.
-                  Missile Launcher: As missile
-                Type:
-                  Laser: Energy
-                  Concussion: Force
-                  Stun: Incredible Intensity stunning
-                  Missile Launcher: As missile
-                Rate:
-                  Laser: 1
-                  Concussion: 1
-                  Stun: 1
-                  Missile Launcher: 1
-                Shots:
-                  Power Pack: 10
-                  Missile Launcher: 10
-                Notes:
-                  - Stun, Laser, and Concussion Cannons fire bursts, which affect up to three adjacent targets, with one roll made for all targets.
-              Reference:
-                Ammunition:
-                  Power Pack: Stun, concussion, and laser weapons operate from power packs and may not use other types of ammunition.
-                  Handgun:
-                    Standard: &Standard Damage listed for each weapon is for standard ammunition.
-                    Mercy Shot: &Mercy_Shot There are several types of specialized ammunition, the first of which is Mercy Shot. Mercy bullets inflict no damage, but spread a Remarkable Intensity knock-out drug over the skin of the target. If the bullet inflicts damage to the target, the drug takes effect, knocking those affected out for 1-10 rounds.
-                    AP Shot: &AP_Shot Armor-piercing bullets reduce the target's Body Armor by -2CS (from Good to Poor, for example) for purposes of hitting and damage. This type of ammunition has no effect on force fields.
-                    Rubber Shot: Less lethal rubber bullets that inflict slugfest damage instead of shooting damage. Ignore Slam results when using rubber bullets.
-                    Explosive Shot: &Explosive_Shot Explosive Shot inflicts twice the normal (listed) damage for the weapon. If the weapon fires bursts or scatters, all targets in the area are affected.
-                  Sniper Rifle:
-                    Standard: *Standard
-                    AP Shot: *AP_Shot
-                  Assault Rifle:
-                    Standard: *Standard
-                    Mercy Shot: *Mercy_Shot
-                  Shotgun:
-                    Standard: *Standard
-                  Riot Gun:
-                    Standard: *Standard
-                    Canister Shot: &Canister_Shot
-                      Reference: Canister shot is a special type of ammunition that may be loaded with various cartridges for different effects. Specify the type of canister desired when purchasing.
-                      Canisters:
-                        - Gas Canisters: Gas Canisters contain Incredible Intensity Tear Gas. Cover one area.
-                        - Knock-Out Canisters: Knock-Out Can contain Remarkable Intensity Knock-Out gas. Cover one area.
-                        - Smoke Canisters: Smoke Canisters contain Excellent Intensity smoke. Cover one area.
-                        - Explosive Canisters: Explosive Canisters inflict double damage to all in target area, normal damage to all in adjacent areas.
-                        - Incendiary Canisters: Incendiary Canisters inflict 20 damage in fire (Energy), which burns at Excellent Intensity for 1-10 rounds.
-                  Gyrojet:
-                    Standard: *Standard
-                    Explosive Shot: *Explosive_Shot
-                    Heat-Seeker Ammunition: &Heat-Seeker_Ammunition Heat-Seeker Ammunition seeks out the hottest source in line to the target. Will track the hottest source up to maximum of the weapon's range, and suffers no penalty for range. If several targets are of the same heat, then it will determine a target randomly. This ammunition type is only available for Gyro-Jet Pistols.
-                    Explosive Heat-Seeker Ammunition:
-                      - Explosive Shot: *Explosive_Shot
-                      - Heat-Seeker Ammunition: *Heat-Seeker_Ammunition
-                  LAW:
-                    Standard: *Standard
-                    AP Shot: *AP_Shot
-                    Canister Shot: *Canister_Shot
-                  Missile Launcher:
-                    Reference: |
-                      Missiles are expensive propositions. In addition to a missile launcher, the user must purchase the missile itself, the specific payload to be used, and the control system This restricts missiles to those who can afford or invent them.
+                It's an integrated combination of existing weapons (Variable Pistol, Target Pistol, Gyrojet Pistol, Laser Pistol, Concussion Pistol, Stun Pistol, Shotgun, Riot Gun) and items (Fire Extinguisher, Silencer, Sniper Sights, Infra-Red Sights, Flashlights—Normal and Halogen, Mace, Flare Gun).
+              Material Strength: Excellent
+              Range:
+                Handgun: 5
+                Riot Gun: 2
+                Gyrojet: 5
+                Laser: 10
+                Concussion: 4
+                Stun: 2
+              Damage:
+                Handgun: 6
+                Riot Gun:
+                  - 15
+                  - As canister
+                Gyrojet: 10
+                Laser: 10
+                Concussion: 10
+                Stun: Fires a stunning beam of Typical Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns.
+              Type:
+                Handgun: Shooting
+                Riot Gun:
+                  - Shooting
+                  - As canister
+                Gyrojet: Shooting
+                Laser: Energy
+                Concussion: Force
+                Stun: Typical Intensity stunning
+              Rate: 1
+              Shots:
+                Handgun: 9
+                Riot Gun: 6
+                Gyrojet: 3
+                Power Pack:
+                  Shots: 10
+                  Concussion:
+                    Max: 5
+                    Rate: 2 per Shot
+              Notes:
+                - One-Handed
+                - Riot Gun one-handed at -1CS
+                - Riot Gun bursts, which affects up to three adjacent targets, with one roll made for all targets.
+                - Riot Gun may loaded with non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results).
+            Phylax Integrated Multipurpose Rifle: &Phylax_Integrated_Multipurpose_Rifle
+              Description: |
+                The Phylax Integrated Multipurpose Rifle is a longarm combination weapon with utility functions, essentially a larger version of the Mk. 1.  It fires medium power and magnum power rifle bullets with the precision of a sniper rifle with an integrated silencer, shot shells, rockets, canister rounds, flammable liquid, and laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher.  Beam types are selectable on the fly from a power pack. Other weapons' ammunition are treated as types of ammunition that must be switched out and it can only load and fire one at a time, as does the Variable Pistol; the loading and firing mechanisms are in large part integral to the magazines. The flamethrower has a separate fuel source. Other features such as the flare gun, fire extinguisher, and mace are all present together with everything else, but must be reloaded after a single use.
+              
+                It's an integrated combination of existing weapons (Variable Pistol, Sniper Rifle, Assault Rifle, Laser Rifle, Concussion Rifle, Stun Rifle, Shotgun, Riot Gun, LAW) and items (Fire Extinguisher, Silencer, Sniper Sights, Infra-Red Sights, Flashlights—Normal and Halogen, Mace, Flare Gun).
+              Material Strength: Excellent
+              Range:
+                Sniper Rifle: 10
+                Shotgun: 3
+                LAW: 4
+                Laser: 10
+                Concussion: 7
+                Stun: 5
+                Flamethrower: 2
+              Damage:
+                Assault Rifle: 10
+                Sniper Rifle: 15
+                Shotgun: 20
+                LAW:
+                  - 40
+                  - As canister
+                Laser: 20
+                Concussion: 20
+                Stun: Fires a stunning beam of Remarkable Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns.
+                Flamethrower: 30
+              Type:
+                Assault Rifle: Shooting
+                Sniper Rile: Shooting
+                Shotgun: Shooting
+                Laser: Energy
+                Concussion: Force
+                Stun: Remarkable Intensity stunning
+                Flamethrower: Energy
+              Rate:
+                Assault Rifle: 2
+                Sniper Rile: 1
+                Shotgun: 1
+                LAW: 1
+                Laser: 1
+                Concussion: 1
+                Stun: 1
+                Flamethrower: 1
+              Shots:
+                Assault Rifle: 20
+                Sniper Rifle: 4
+                Shotgun: 6
+                LAW: 6
+                Power Pack:
+                  Shots: 20
+                  Concussion:
+                    Max: 12
+                    Rate: 1⅔ per Shot
+                Flamethrower: 5
+              Notes:
+                - Shotgun and flamethrower fire bursts, which affect up to three adjacent targets, with one roll made for all targets.
+                - Shotgun may loaded with non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results).
+                - Flamethrower scatters, which indicates all targets within one area of the target will be hit for that damage.
+            Phylax Integrated Multipurpose Cannon: &Phylax_Integrated_Multipurpose_Cannon
+              Description: |
+                The Phylax Integrated Multipurpose Cannon is a vehicle mounted or crew-served combination weapon with utility functions, essentially a larger version of the Rifle's beam system.  It laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity light system for illumination or blinding and a heavy-duty foam projector to extinguish fires or clear areas.  The Cannon must be stationary to fire, mounted on a sufficiently large vehicle or structure, or tripod.  Beam types are selectable on the fly from a power pack. The fire hose is present together with everything else, but must be reloaded after a single use if not hooked to a hydrant or similar water source.
+              
+                It's an integrated combination of existing weapons (Laser Cannon, Concussion Cannon, Stun Cannon, Missile Launcher) and items (Fire Hose, Sniper Sights, Infra-Red Sights, Flashlights—Normal and Halogen).
+              Material Strength: Excellent
+              Range:
+                Laser: 20
+                Concussion: 15
+                Stun: 10
+                Missile Launcher: As Missile
+              Damage:
+                Laser: 30
+                Concussion: 40
+                Stun: Fires a stunning beam of Incredible Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns.
+                Missile Launcher: As missile
+              Type:
+                Laser: Energy
+                Concussion: Force
+                Stun: Incredible Intensity stunning
+                Missile Launcher: As missile
+              Rate:
+                Laser: 1
+                Concussion: 1
+                Stun: 1
+                Missile Launcher: 1
+              Shots:
+                Power Pack: 10
+                Missile Launcher: 10
+              Notes:
+                - Stun, Laser, and Concussion Cannons fire bursts, which affect up to three adjacent targets, with one roll made for all targets.
+            Reference:
+              Ammunition:
+                Power Pack: Stun, concussion, and laser weapons operate from power packs and may not use other types of ammunition.
+                Handgun:
+                  Standard: &Standard Damage listed for each weapon is for standard ammunition.
+                  Mercy Shot: &Mercy_Shot There are several types of specialized ammunition, the first of which is Mercy Shot. Mercy bullets inflict no damage, but spread a Remarkable Intensity knock-out drug over the skin of the target. If the bullet inflicts damage to the target, the drug takes effect, knocking those affected out for 1-10 rounds.
+                  AP Shot: &AP_Shot Armor-piercing bullets reduce the target's Body Armor by -2CS (from Good to Poor, for example) for purposes of hitting and damage. This type of ammunition has no effect on force fields.
+                  Rubber Shot: &Rubber_Shot Less lethal rubber bullets that inflict slugfest damage instead of shooting damage. Ignore Slam results when using rubber bullets.
+                  Explosive Shot: &Explosive_Shot Explosive Shot inflicts twice the normal (listed) damage for the weapon. If the weapon fires bursts or scatters, all targets in the area are affected.
+                Sniper Rifle:
+                  Standard: *Standard
+                  Mercy Shot: *Mercy_Shot
+                  AP Shot: *AP_Shot
+                  Rubber Shot: *Rubber_Shot
+                  Explosive Shot: *Explosive_Shot
+                Assault Rifle:
+                  Standard: *Standard
+                  Mercy Shot: *Mercy_Shot
+                Shotgun:
+                  Standard: *Standard
+                Riot Gun:
+                  Standard: *Standard
+                  Canister Shot: &Canister_Shot
+                    Reference: Canister shot is a special type of ammunition that may be loaded with various cartridges for different effects. Specify the type of canister desired when purchasing.
+                    Canisters:
+                      - Gas Canisters: Gas Canisters contain Incredible Intensity Tear Gas. Cover one area.
+                      - Knock-Out Canisters: Knock-Out Can contain Remarkable Intensity Knock-Out gas. Cover one area.
+                      - Smoke Canisters: Smoke Canisters contain Excellent Intensity smoke. Cover one area.
+                      - Explosive Canisters: Explosive Canisters inflict double damage to all in target area, normal damage to all in adjacent areas.
+                      - Incendiary Canisters: Incendiary Canisters inflict 20 damage in fire (Energy), which burns at Excellent Intensity for 1-10 rounds.
+                Gyrojet:
+                  Standard: *Standard
+                  Explosive Shot: *Explosive_Shot
+                  Heat-Seeker Ammunition: &Heat-Seeker_Ammunition Heat-Seeker Ammunition seeks out the hottest source in line to the target. Will track the hottest source up to maximum of the weapon's range, and suffers no penalty for range. If several targets are of the same heat, then it will determine a target randomly. This ammunition type is only available for Gyro-Jet Pistols.
+                  Explosive Heat-Seeker Ammunition:
+                    - Explosive Shot: *Explosive_Shot
+                    - Heat-Seeker Ammunition: *Heat-Seeker_Ammunition
+                LAW:
+                  Standard: *Standard
+                  AP Shot: *AP_Shot
+                  Canister Shot: *Canister_Shot
+                Missile Launcher:
+                  Reference: |
+                    Missiles are expensive propositions. In addition to a missile launcher, the user must purchase the missile itself, the specific payload to be used, and the control system This restricts missiles to those who can afford or invent them.
 
-                      A missile without a control device will fly in a straight line to its target's location at the time of the firing, and hit those in that area on the Shift 0 column (individuals who are not choosy about their targets often do this while loading up on the explosives). Aircraft Bombs (like the type in old 8-52 movies) an missiles without control devices (the "launcher" is in the plane itself -they are "launched" straight down).
-                    Missiles:
-                      Standard Missiles: |
-                        Standard Missiles have Body: Excellent, Control: Remarkable, and Speed: Excellent.
-                      High-Tech Missiles: |
-                        High-Tech Missiles have Body: Excellent, Control: Incredible, and Speed: Excellent.
-                      High-Speed Missiles: |
-                        High-Speed Missiles have Body: Excellent, Control: Incredible, and Speed: Amazing.
-                    Control Systems:
-                      Wire-guided Control System: The missile is controlled by a wire leading from the tail of the missile. The Wire-guided missile has the Agility of the controller to hit. Severing the wires causes the missile to behave as if it has no control. Range of 10 areas, maximum, but no penalties for range.
-                      Tele-Guided Control System: The missile is guided by a camera in the nose of the missile, and the operator may be up to 5 miles away. Use the Control of the missile or the Agility of the controller (whichever is lower) to determine Control FEATs for this type of missile.
-                      Computer-Guided Control System: The missile is programmed internally for a specific target. Its ability to determine the target is considered Poor if multiple similar targets are available.
-                      Radio-Linked Control System: Also called a homing missile. The missile tracks on a specific wavelength, either directed from its point of firing or issuing from the target. Destruction of a tracer or cessation of the signal causes the missile to go out of control.
-                      Heat-Seeking Control System: This form of guidance will "lock on" to the highest flame source in its path (usually a jet-engine or flaming hero). The missile will only be sidetracked by a higher source of heat.
-                    Payloads:
-                      Standard Missile Payload: Standard Missile Payload inflicts 40 points EA damage to all in the target area.
-                      Concentrated Explosive Missile Payload: Concentrated Explosive Missile Payload inflicts 40 points EA damage to the target only.
-                      High Explosive Missile Payload: High Explosive Missile Payload inflicts 70 points EA damage to all in the target area, and 20 points to those in adjacent areas.
-                      Incendiary Missile Payload: Incendiary Missile Payload inflicts 40 points Energy damage to all in the area and burns for Good Intensity for each round afterward until put out.
-                      Gas Missile Payload:
-                        Reference: Gas Missile Payload contains Amazing Intensity tear or knock-out gas, which will affect all in the area.
-                        Tear Gas: &Tear_Gas Most tear gas is considered to be Typical intensity. Those failing the Endurance FEAT roll against this gas may take no actions other than movement until they leave the area, nor for one round after leaving that area.
-                        Knock-Out Gas: Knock-Out gas is listed in various Intensities, as it is a favorite device to knock out bad guys and good guys. Those in the same area as knock-out gas must make an Endurance FEAT or be knocked out for 1-10 rounds.
-                Shooting Weapons:
-                  Target Pistol: The Target Pistol is the most finely balanced and accurate of the pistols. The user of a target pistol suffers no penalty for range when firing with two hands
-                  Variable Pistol: The Variable Pistol has an advantage in that it may be set in the field to a specific type of ammunition and changed according to need. Most handguns fire standard ammunition and must be modified to fire other types as well.
-                  GyroJet Pistol: A GyroJet Pistol fires a miniature rocket, which may affect one or more targets according to ammunition type. Gyro-jets will only fire one type of ammunition, and gyrojet ammunition will not fit any other type of gun.
-                  Laser Pistol: &Laser_Concussion_Pistol The Laser Pistol, Concussion Pistol, and Plasma Beam Handgun are weapons used by high-tech spies and subversive organizations, including S.H.I.E.L.D. and A.I.M. All three types operate from power packs.
-                  Concussion Pistol: *Laser_Concussion_Pistol
-                  Stun Pistol: The standard Stun Pistol fires a stunning beam of Typical Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns. It operates from a power pack.
-                  Sniper Rifle: The Sniper Rifle, like the target pistol, suffers no penalty for firing up to maximum range.
-                  Assault Rifle: The Assault Rifle is the version of the rifle used by the military.
-                  Laser Rifle: &Laser_Stun_Concussion_Rifle The Laser, Stun, and Concussion Rifles are larger versions of their handgun equivalents. The stun rifle fires a beam of Remarkable Intensity. All use power packs.
-                  Stun Rifle: *Laser_Stun_Concussion_Rifle
-                  Concussion Rifle: *Laser_Stun_Concussion_Rifle
-                  Shotgun: The Shotgun is a one- or two-barreled weapon that fires bursts. It is often loaded with non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results). One or both barrels may be fired.
-                  Riot Gun: The Riot Gun is a smaller version of the shotgun and fires grenade-like missiles and canister shot (treat as grenades).
-                  LAW: LAW stands for Light Anti-tank Weapon, and is the replacement for the Bazooka on the battlefield. It requires one man to fire.
-                  Stun Cannon: &Stun_Concussion_Laser_Cannon Stun, Concussion, and Laser Cannons are the largest version of the pistols and rifles of the same name. They must be stationary to fire, and all rely on power packs. Stun cannon fires bursts of Incredible Intensity.
-                  Concussion Cannon: *Stun_Concussion_Laser_Cannon
-                  Laser Cannon: *Stun_Concussion_Laser_Cannon
-                  Flamethrower: The Flamethrower is a military weapon that shoots a jet of flaming jelly, affecting all targets in the area. The fire burns for Incredible (40) points damage the first round and continues to burn for 10 points damage each round until put out (for 1-10 rounds).
-                  Missile Launcher: The Missile Launcher is a military weapon that fires missiles (see Missiles) and may range from small launchers similar to the LAW to missile equivalents of the Heavy Artillery.
-                Other Equipment:
-                  Fire Extinguisher: Fire Extinguishers inflict no damage normally, but against fire are of Good Intensity (eliminate fire of Typical Intensity or less in the same area on a green FEAT, of Good Intensity on a yellow, and up to Excellent on a red). Against characters with flaming powers, such as the Human Torch, the extinguisher causes a FEAT roll against that Intensity to retain flame.
-                  Fire Hose: Fire Hoses have been used as riot control devices, and inflict 10 points Blunt Attack at a range of one area, and can be considered as firing bursts. Against fire and flaming characters, the water from a fire hose is considered Remarkable Intensity.
-                  Silencer: The Silencer is a device that may be added to a pistol or rifle which inflicts damage on the Shooting table, excluding the gyro-jet and all lasers, stunning and concussion weapons. The silencer operates by dispersing the gases from the shot that creates the crack of the pistol. The target (and those around him or her) must make an Intuition FEAT to hear the shot and know its location.
-                  Sniper Sights: Sniper Sights are built into the sniper rifle and the target pistol, and added to any other weapon eliminate the penalty for range for weapons. Using the sniper sight automatically has an initiative roll of 10 (last in the round). 
-                  Infra-Red Sights: Infra-Red Sights are a modification similar to the sniper sight, may be used for any missile weapon. These sights permit the user to see up to 5 areas in the dark.
-                  Flashlight: &Flashlight Flashlights are common to all readers. The normal flashlight is the type most common, with a plastic or metal body (Typical Intensity). The Halogen flashlight has a brighter bulb and more concentrated beam, and blinds with a more powerful Intensity (Remarkable Intensity). Normal flashlight has a range of two areas, the halogen three.
-                  Mace: &Mace Mace is a small one-area weapon that shoots a mist of Typical Intensity tear gas at a single target adjacent to the user. It does not require an Agility FEAT to hit, though the target must make an Endurance FEAT to avoid the effects.
-                  Flare Pistol: Flare Pistols fire a burning charge that lights the sky, either to provide illumination (lighting all areas within three) or as a signal device (fired 10 floors straight up). Used as a weapon, the device has a range of two areas and inflicts Good damage. The charge is incendiary and will ignite flammable material.
+                    A missile without a control device will fly in a straight line to its target's location at the time of the firing, and hit those in that area on the Shift 0 column (individuals who are not choosy about their targets often do this while loading up on the explosives). Aircraft Bombs (like the type in old 8-52 movies) an missiles without control devices (the "launcher" is in the plane itself -they are "launched" straight down).
+                  Missiles:
+                    Standard Missiles: |
+                      Standard Missiles have Body: Excellent, Control: Remarkable, and Speed: Excellent.
+                    High-Tech Missiles: |
+                      High-Tech Missiles have Body: Excellent, Control: Incredible, and Speed: Excellent.
+                    High-Speed Missiles: |
+                      High-Speed Missiles have Body: Excellent, Control: Incredible, and Speed: Amazing.
+                  Control Systems:
+                    Wire-guided Control System: The missile is controlled by a wire leading from the tail of the missile. The Wire-guided missile has the Agility of the controller to hit. Severing the wires causes the missile to behave as if it has no control. Range of 10 areas, maximum, but no penalties for range.
+                    Tele-Guided Control System: The missile is guided by a camera in the nose of the missile, and the operator may be up to 5 miles away. Use the Control of the missile or the Agility of the controller (whichever is lower) to determine Control FEATs for this type of missile.
+                    Computer-Guided Control System: The missile is programmed internally for a specific target. Its ability to determine the target is considered Poor if multiple similar targets are available.
+                    Radio-Linked Control System: Also called a homing missile. The missile tracks on a specific wavelength, either directed from its point of firing or issuing from the target. Destruction of a tracer or cessation of the signal causes the missile to go out of control.
+                    Heat-Seeking Control System: This form of guidance will "lock on" to the highest flame source in its path (usually a jet-engine or flaming hero). The missile will only be sidetracked by a higher source of heat.
+                  Payloads:
+                    Standard Missile Payload: Standard Missile Payload inflicts 40 points EA damage to all in the target area.
+                    Concentrated Explosive Missile Payload: Concentrated Explosive Missile Payload inflicts 40 points EA damage to the target only.
+                    High Explosive Missile Payload: High Explosive Missile Payload inflicts 70 points EA damage to all in the target area, and 20 points to those in adjacent areas.
+                    Incendiary Missile Payload: Incendiary Missile Payload inflicts 40 points Energy damage to all in the area and burns for Good Intensity for each round afterward until put out.
+                    Gas Missile Payload:
+                      Reference: Gas Missile Payload contains Amazing Intensity tear or knock-out gas, which will affect all in the area.
+                      Tear Gas: &Tear_Gas Most tear gas is considered to be Typical intensity. Those failing the Endurance FEAT roll against this gas may take no actions other than movement until they leave the area, nor for one round after leaving that area.
+                      Knock-Out Gas: Knock-Out gas is listed in various Intensities, as it is a favorite device to knock out bad guys and good guys. Those in the same area as knock-out gas must make an Endurance FEAT or be knocked out for 1-10 rounds.
+              Shooting Weapons:
+                Target Pistol: The Target Pistol is the most finely balanced and accurate of the pistols. The user of a target pistol suffers no penalty for range when firing with two hands
+                Variable Pistol: The Variable Pistol has an advantage in that it may be set in the field to a specific type of ammunition and changed according to need. Most handguns fire standard ammunition and must be modified to fire other types as well.
+                GyroJet Pistol: A GyroJet Pistol fires a miniature rocket, which may affect one or more targets according to ammunition type. Gyro-jets will only fire one type of ammunition, and gyrojet ammunition will not fit any other type of gun.
+                Laser Pistol: &Laser_Concussion_Pistol The Laser Pistol, Concussion Pistol, and Plasma Beam Handgun are weapons used by high-tech spies and subversive organizations, including S.H.I.E.L.D. and A.I.M. All three types operate from power packs.
+                Concussion Pistol: *Laser_Concussion_Pistol
+                Stun Pistol: The standard Stun Pistol fires a stunning beam of Typical Intensity, and the target must make an Endurance FEAT or pass out for 1-10 turns. It operates from a power pack.
+                Sniper Rifle: The Sniper Rifle, like the target pistol, suffers no penalty for firing up to maximum range.
+                Assault Rifle: The Assault Rifle is the version of the rifle used by the military.
+                Laser Rifle: &Laser_Stun_Concussion_Rifle The Laser, Stun, and Concussion Rifles are larger versions of their handgun equivalents. The stun rifle fires a beam of Remarkable Intensity. All use power packs.
+                Stun Rifle: *Laser_Stun_Concussion_Rifle
+                Concussion Rifle: *Laser_Stun_Concussion_Rifle
+                Shotgun: The Shotgun is a one- or two-barreled weapon that fires bursts. It is often loaded with non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results). One or both barrels may be fired.
+                Riot Gun: The Riot Gun is a smaller version of the shotgun and fires grenade-like missiles and canister shot (treat as grenades).
+                LAW: LAW stands for Light Anti-tank Weapon, and is the replacement for the Bazooka on the battlefield. It requires one man to fire.
+                Stun Cannon: &Stun_Concussion_Laser_Cannon Stun, Concussion, and Laser Cannons are the largest version of the pistols and rifles of the same name. They must be stationary to fire, and all rely on power packs. Stun cannon fires bursts of Incredible Intensity.
+                Concussion Cannon: *Stun_Concussion_Laser_Cannon
+                Laser Cannon: *Stun_Concussion_Laser_Cannon
+                Flamethrower: The Flamethrower is a military weapon that shoots a jet of flaming jelly, affecting all targets in the area. The fire burns for Incredible (40) points damage the first round and continues to burn for 10 points damage each round until put out (for 1-10 rounds).
+                Missile Launcher: The Missile Launcher is a military weapon that fires missiles (see Missiles) and may range from small launchers similar to the LAW to missile equivalents of the Heavy Artillery.
+              Other Equipment:
+                Fire Extinguisher: Fire Extinguishers inflict no damage normally, but against fire are of Good Intensity (eliminate fire of Typical Intensity or less in the same area on a green FEAT, of Good Intensity on a yellow, and up to Excellent on a red). Against characters with flaming powers, such as the Human Torch, the extinguisher causes a FEAT roll against that Intensity to retain flame.
+                Fire Hose: Fire Hoses have been used as riot control devices, and inflict 10 points Blunt Attack at a range of one area, and can be considered as firing bursts. Against fire and flaming characters, the water from a fire hose is considered Remarkable Intensity.
+                Silencer: The Silencer is a device that may be added to a pistol or rifle which inflicts damage on the Shooting table, excluding the gyro-jet and all lasers, stunning and concussion weapons. The silencer operates by dispersing the gases from the shot that creates the crack of the pistol. The target (and those around him or her) must make an Intuition FEAT to hear the shot and know its location.
+                Sniper Sights: Sniper Sights are built into the sniper rifle and the target pistol, and added to any other weapon eliminate the penalty for range for weapons. Using the sniper sight automatically has an initiative roll of 10 (last in the round). 
+                Infra-Red Sights: Infra-Red Sights are a modification similar to the sniper sight, may be used for any missile weapon. These sights permit the user to see up to 5 areas in the dark.
+                Flashlight: &Flashlight Flashlights are common to all readers. The normal flashlight is the type most common, with a plastic or metal body (Typical Intensity). The Halogen flashlight has a brighter bulb and more concentrated beam, and blinds with a more powerful Intensity (Remarkable Intensity). Normal flashlight has a range of two areas, the halogen three.
+                Mace: &Mace Mace is a small one-area weapon that shoots a mist of Typical Intensity tear gas at a single target adjacent to the user. It does not require an Agility FEAT to hit, though the target must make an Endurance FEAT to avoid the effects.
+                Flare Pistol: Flare Pistols fire a burning charge that lights the sky, either to provide illumination (lighting all areas within three) or as a signal device (fired 10 floors straight up). Used as a weapon, the device has a range of two areas and inflicts Good damage. The charge is incendiary and will ignite flammable material.
         Melee and Thrown Weapons:
           Phylax Tactical Multipurpose Staff: &Phylax_Tactical_Multipurpose_Staff
             Description: A telescoping/collapsible alloy pole with a retractable blade at the end. May be used as blunt (Club, Boomerang) or edged (Knife, Sword, Spear) weapons in either extended or collapsed positions, and thrown in any configuration. Two may connect end-to-end with the blades retracted to create a vaulting pole allowing the user to clear one-story buildings. A user with the Thrown Weapons or Throwing talents knows how to throw them as blunt objects so they arc or ricochet to return to their hands when thrown, whether they hit or miss, by making an Agility FEAT. A coiled spring and compressed air system allows the blade to be launched as if it were a crossbow or speargun. It's an integrated combination of existing items (Crossbow, Spear Gun, Knife, Spear, Club, Boomerang). The other end fires a swing line into any adjacent area. Using this swing line, the user may swing up to 3 areas a turn.
@@ -1419,10 +1421,10 @@ Game:
             Reference:
               - Sports Car: &Sports_Car Sports Cars include most of the jazzy little numbers the detectives on TV zip around in. They have a higher safe speed and better control than the family car, but are made of lighter materials and more easily damaged. Sports cars carry two normally. three or four with crowding (the Trans Am back seat is not designed for the human form).
               - Convertible: A Convertible is a sedan with a top that folds down. With the top up, it has similar protection to a sedan. Include cars with T-top roofs as well in this category.
-          Arma:
-            Tactical Utility Vehicle Mk. 1: &Arma_Mk1
+          Arma Tactical Utility Vehicle System:
+            Tactical Utility Vehicle: &Arma_TUV
               Description: |
-                An up-armored, high-performance four wheel drive vehicle, The Arma Tactical Utility Vehicle (TUV) Mk. 1 has the speed, acceleration, and handling of a sports car, the off-road capability of a military vehicle, and the protection and durability of an armored vehicle. Features expected off-road functional accessories like winches, lights, onboard compressed air, hydraulic pump, generator, and welder-cutter, PTO, trail vise, communications suite featuring SSB CB, HAM, and commercial/business band radios, as well as police scanners, weather radio, world band radio, television, and satellite receivers, personal computer, and car phone, spotlights, cameras, flashers, PA, run flat tires with spare, and ramming-capable grille guards.  They carry pioneer tools, basic hand tools, basic air and power tools, road safety equipment, heavy-duty and high-lift jacks, basic survival gear, basic rescue gear, high angle gear, AED, field stretcher and backboard, oxygen, suction, and first aid and first responder gear. It can drop caltrops or release smoke behind it to dissuade pursuers. Optionally, a turret-mounted Phylax Integrated Multipurpose Weapon Mk. 3 may be installed, though this is not typical for daily operations. There are secure racks inside for Phylax IMW Mks. 1 and 2, along with ammunition and refills, and Phylax Staves, two each up front, and optionally 4 in the back if there's no turret and magazine. In this base configuration, it seats 4 in inward-facing jump seats that fold securely out of the way. There are Remarkable Material Strength points to handcuff someone or strap down cargo or people to, and they generally carry various straps, chains, and cargo nets for various purposes. In general, they are registered and plated as private ambulances, regardless of configuration, and if so, have police-band and other emergency band radios, siren, and red flashers in addition to white, amber, and green.
+                An up-armored, high-performance four wheel drive vehicle, The Arma Tactical Utility Vehicle has the speed, acceleration, and handling of a sports car, the off-road capability of a military vehicle, and the protection and durability of an armored vehicle. Features expected off-road functional accessories like winches, lights, onboard compressed air, hydraulic pump, generator, and welder-cutter, PTO, trail vise, communications suite featuring SSB CB, HAM, and commercial/business band radios, as well as police scanners, weather radio, world band radio, television, and satellite receivers, personal computer, and car phone, spotlights, cameras, flashers, PA, run flat tires with spare, and ramming-capable grille guards.  They carry pioneer tools, basic hand tools, basic air and power tools, road safety equipment, heavy-duty and high-lift jacks, basic survival gear, basic rescue gear, high angle gear, AED, field stretcher and backboard, oxygen, suction, and first aid and first responder gear. It can drop caltrops or release smoke behind it to dissuade pursuers. Optionally, a turret-mounted Phylax Integrated Multipurpose Cannon may be installed, though this is not typical for daily operations. There are secure racks inside for Phylax IM Pistols and Rifles, along with ammunition and refills, and Phylax Staves, two each up front, and optionally 4 in the back if there's no turret and magazine. In this base configuration, it seats 4 in inward-facing jump seats that fold securely out of the way. There are Remarkable Material Strength points to handcuff someone or strap down cargo or people to, and they generally carry various straps, chains, and cargo nets for various purposes. In general, they are registered and plated as private ambulances, regardless of configuration, and if so, have police-band and other emergency band radios, siren, and red flashers in addition to white, amber, and green.
                 
                 It's an integrated combination of existing items (Sports Car, Jeep, and Armored Car, optionally Ambulance).
               Type:
@@ -1445,10 +1447,10 @@ Game:
                   Personal Computer: *Personal_Computer
                   Flashlight: *Flashlight
                 Custom Equipment:
-                  Phylax Integrated Multipurpose Weapon Mk. 3: *Phylax_Integrated_Multipurpose_Weapons_Mk3
-            Mk. 2: &Arma_Mk2
+                  Phylax Integrated Multipurpose Cannon: *Phylax_Integrated_Multipurpose_Cannon
+            Tactical Utlity Watercraft: &Arma_TUW
               Description: |
-                The Arma Tactical Utility Watercraft Mk. 2 (TUW) is a nimble jet-powered submersible ship that can displace on or under the surface, deploy hydrofoils, or hover in ground effect as needed, combining the versatility of surface, subsurface, and amphibious operations with the protection and durability of an armored vehicle. There is just enough room on the rear deck of the Wayinder for a VTOL vehicle to land, (un)load, and takeoff, or to park a pair of vehicles on, and the means to secure them with Incredible Material Strength tiedown points. A small galley, cabins, laundry, and head with shower can support up to 4 people for long term operations, up to about 6-8 for a few days if the jump bunks in the hold are deployed, and can transport 10-15 short term, 20 if cramped into an empty hold and as many more crowded on deck in a pinch. The small cargo hold and smaller brig feature Incredible Material Strength points to handcuff someone or strap down cargo or people to, and they generally carry various straps, chains, and cargo nets for various purposes. Features expected off-grid, marine, and functional accessories like cranes, winches, and hoists, washdowns, solar panels, lights, onboard compressed air, hydraulic pump, generator, and welder-cutter, communications suite featuring marine band radios and an experimental INMARSAT phone, SSB CB, HAM, and commercial/business band radios, as well as police scanners, weather radio, world band radio, television, and satellite receivers, personal computer, and mobile phone, spotlights, cameras, flashers, PA. Marine, weather, and air traffic radars and navigational, sounding, side-scanning, upward-looking, and synthetic-aperture sonars provide constant awareness. Navigation includes Decca, LORAN, gyroscopic and magnetic compasses, and an experimental satellite navigation system, as well as a sophisticated autopilot.  They carry scuba gear, surface-supplied air diving pumps, dredging, salvage, and cargo-handling gear, life rafts, pioneer tools, basic hand tools, basic air and power tools, water safety equipment, basic and open water survival gear, basic and water rescue gear, AED, field stretchers and backboards, oxygen, suction, and first aid and first responder gear. It can release smoke behind it to dissuade pursuers or as a signal. Optionally, up to four turret-mounted Phylax Integrated Multipurpose Weapon Mk. 3 may be installed, though this is not typical for daily operations. There are secure racks inside for 10 sets of Phylax IMW Mks. 1 and 2, along with ammunition and refills, and Phylax Staves.  In general, they are registered as private water ambulances, regardless of configuration, and if so, have police-band and other emergency band radios, siren, and red flashers in addition to white, amber, and green.
+                The Arma Tactical Utility Watercraft (TUW) is a nimble jet-powered submersible ship that can displace on or under the surface, deploy hydrofoils, or hover in ground effect as needed, combining the versatility of surface, subsurface, and amphibious operations with the protection and durability of an armored vehicle. There is just enough room on the rear deck of the Wayinder for a VTOL vehicle to land, (un)load, and takeoff, or to park a pair of vehicles on, and the means to secure them with Incredible Material Strength tiedown points. A small galley, cabins, laundry, and head with shower can support up to 4 people for long term operations, up to about 6-8 for a few days if the jump bunks in the hold are deployed, and can transport 10-15 short term, 20 if cramped into an empty hold and as many more crowded on deck in a pinch. The small cargo hold and smaller brig feature Incredible Material Strength points to handcuff someone or strap down cargo or people to, and they generally carry various straps, chains, and cargo nets for various purposes. Features expected off-grid, marine, and functional accessories like cranes, winches, and hoists, washdowns, solar panels, lights, onboard compressed air, hydraulic pump, generator, and welder-cutter, communications suite featuring marine band radios and an experimental INMARSAT phone, SSB CB, HAM, and commercial/business band radios, as well as police scanners, weather radio, world band radio, television, and satellite receivers, personal computer, and mobile phone, spotlights, cameras, flashers, PA. Marine, weather, and air traffic radars and navigational, sounding, side-scanning, upward-looking, and synthetic-aperture sonars provide constant awareness. Navigation includes Decca, LORAN, gyroscopic and magnetic compasses, and an experimental satellite navigation system, as well as a sophisticated autopilot.  They carry scuba gear, surface-supplied air diving pumps, dredging, salvage, and cargo-handling gear, life rafts, pioneer tools, basic hand tools, basic air and power tools, water safety equipment, basic and open water survival gear, basic and water rescue gear, AED, field stretchers and backboards, oxygen, suction, and first aid and first responder gear. It can release smoke behind it to dissuade pursuers or as a signal. Optionally, up to four turret-mounted Phylax Integrated Multipurpose Cannon may be installed, though this is not typical for daily operations. There are secure racks inside for 10 sets of Phylax IM Pistols and Rifles, along with ammunition and refills, and Phylax Staves.  In general, they are registered as private water ambulances, regardless of configuration, and if so, have police-band and other emergency band radios, siren, and red flashers in addition to white, amber, and green.
                 
                 It's an integrated combination of existing items (Patrol Boat, Hydrofoil, Mini-Sub, Hovercraft, Armored Carrier, and Ambulance).
               Type:
@@ -1486,39 +1488,39 @@ Game:
                   Flashlight: *Flashlight
                   Scuba: *Scuba_Gear
                 Custom Equipment:
-                  Phylax Integrated Multipurpose Weapon Mk. 3: *Phylax_Integrated_Multipurpose_Weapons_Mk3
-            Mk. 3: &Arma_Mk3
-            Description: |
-              The Arma Tactical Utility Aircraft Mk. 3 (TUA) is a sleek, nimble ducted-turbofan, thrust-vectoring VTOL aircraft that can operate in ground effect like a hovercraft as well. It has a crew of two to four, and can carry up to 6-8 in jump seats, or 10-12 crowded, with both side and tailgate hatches. The cargo deck features Remarkable Material Strength points to handcuff someone or strap down cargo or people to, and they generally carry various straps, chains, and cargo nets for various purposes. It can carry a vehicle or similar weight as a slung load. Features expected off-grid, aviation, and functional accessories like cranes, winches, and hoists, lights, onboard compressed air, hydraulic pump, generator, and welder-cutter, communications suite featuring aviation band and marine band radios, SSB CB, HAM, and commercial/business band radios, as well as police scanners, weather radio, world band radio, television, and satellite receivers, personal computer, and mobile phone, spotlights, cameras, flashers, PA. Navigational, weather, lookdown, and synthetic-aperture radars provide constant awareness. Navigation includes VORE, LORAN, gyroscopic and magnetic compasses, and an experimental satellite navigation system, as well as a sophisticated autopilot.  They carry cargo-handling gear, high-angle gear, life rafts, pioneer tools, basic hand tools, basic air and power tools, water safety equipment, basic and open water survival gear, basic and water rescue gear, AED, field stretchers and backboards, oxygen, suction, and first aid and first responder gear. Optionally, up to three turret-mounted Phylax Integrated Multipurpose Weapon Mk. 3 may be installed (nose and nacelles), though this is not typical for daily operations. There are secure racks inside for 10 sets of Phylax IMW Mks. 1 and 2, along with ammunition and refills, and Phylax Staves.  In general, they are registered as private airlift ambulances, regardless of configuration, and if so, have police-band and other emergency band radios, siren, and red flashers in addition to white, amber, and green.
-              
-              It's an integrated combination of existing items (Traffic Copter, Battle Copter, Corporate Jet, Hovercraft, Armored Car, and Ambulance).
-            Type:
-              Air: Air vehicles travel mainly through the friendly skies, and include all forms of aircraft from gliders to the Concorde.
-              GEV: *GEV
-            Control:
-              Air: Excellent
-              GEV: Poor
-            Speed:
-              Air: Amazing
-              GEV:
-                Smooth: Excellent
-                Rough: Good
-            Body: Incredible
-            Protection: Remarkable
-            Reference:
-              Vehicles:
-                Traffic Copter: Traffic Copters are fairly common in the airspace over American cities, and this type also includes private vehicles and medivac copters as well. Helicopters have VTOL ability (Vertical Take-off and Landing), and as such may drop to 0 speed without losing control.
-                Battle Copter: Battle Copters are heavy-duty versions of the Traffic Copter, can carry a squad of 15 men plus crew, and are armed with Machine Guns (alternately lasers). All Copters have VTOL abilities and may hover in place.
-                Corporate Jet: Corporate Jets represent the more modern turbo-prop jets that more powerful corporations use for their top executives. Corporate Jets have a crew of two and may carry up to 20 people in comfort.
-                Hovercraft: The Hovercraft is the only notable mention of the Ground Effect Vehicle. This vehicle is neither fish nor fowl, as it rides on a cushion of air, handles as does an Air type, but goes out of control as an off-road vehicle. Hovercraft move at a maximum Speed of Good off road, over broken ground, or in stormy weather.
-                Ambulance: *Ambulance
-                Armored Car: *Armored_Car
-              Other Equipment:
-                Personal Computer: *Personal_Computer
-                Flashlight: *Flashlight
-                Scuba: *Scuba_Gear
-              Custom Equipment:
-                Phylax Integrated Multipurpose Weapon Mk. 3: *Phylax_Integrated_Multipurpose_Weapons_Mk3
+                  Phylax Integrated Multipurpose Cannon: *Phylax_Integrated_Multipurpose_Cannon
+            Tactical Utility Aircraft: &Arma_TUA
+              Description: |
+                The Arma Tactical Utility Aircraft (TUA) is a sleek, nimble ducted-turbofan, thrust-vectoring VTOL aircraft that can operate in ground effect like a hovercraft as well. It has a crew of two to four, and can carry up to 6-8 in jump seats, or 10-12 crowded, with both side and tailgate hatches. The cargo deck features Remarkable Material Strength points to handcuff someone or strap down cargo or people to, and they generally carry various straps, chains, and cargo nets for various purposes. It can carry a vehicle or similar weight as a slung load. Features expected off-grid, aviation, and functional accessories like cranes, winches, and hoists, lights, onboard compressed air, hydraulic pump, generator, and welder-cutter, communications suite featuring aviation band and marine band radios, SSB CB, HAM, and commercial/business band radios, as well as police scanners, weather radio, world band radio, television, and satellite receivers, personal computer, and mobile phone, spotlights, cameras, flashers, PA. Navigational, weather, lookdown, and synthetic-aperture radars provide constant awareness. Navigation includes VORE, LORAN, gyroscopic and magnetic compasses, and an experimental satellite navigation system, as well as a sophisticated autopilot.  They carry cargo-handling gear, high-angle gear, life rafts, pioneer tools, basic hand tools, basic air and power tools, water safety equipment, basic and open water survival gear, basic and water rescue gear, AED, field stretchers and backboards, oxygen, suction, and first aid and first responder gear. Optionally, up to three turret-mounted Phylax Integrated Multipurpose Cannon may be installed (nose and nacelles), though this is not typical for daily operations. There are secure racks inside for 10 sets of Phylax IM Pistols and Rifles, along with ammunition and refills, and Phylax Staves.  In general, they are registered as private airlift ambulances, regardless of configuration, and if so, have police-band and other emergency band radios, siren, and red flashers in addition to white, amber, and green.
+                
+                It's an integrated combination of existing items (Traffic Copter, Battle Copter, Corporate Jet, Hovercraft, Armored Car, and Ambulance).
+              Type:
+                Air: Air vehicles travel mainly through the friendly skies, and include all forms of aircraft from gliders to the Concorde.
+                GEV: *GEV
+              Control:
+                Air: Excellent
+                GEV: Poor
+              Speed:
+                Air: Amazing
+                GEV:
+                  Smooth: Excellent
+                  Rough: Good
+              Body: Incredible
+              Protection: Remarkable
+              Reference:
+                Vehicles:
+                  Traffic Copter: Traffic Copters are fairly common in the airspace over American cities, and this type also includes private vehicles and medivac copters as well. Helicopters have VTOL ability (Vertical Take-off and Landing), and as such may drop to 0 speed without losing control.
+                  Battle Copter: Battle Copters are heavy-duty versions of the Traffic Copter, can carry a squad of 15 men plus crew, and are armed with Machine Guns (alternately lasers). All Copters have VTOL abilities and may hover in place.
+                  Corporate Jet: Corporate Jets represent the more modern turbo-prop jets that more powerful corporations use for their top executives. Corporate Jets have a crew of two and may carry up to 20 people in comfort.
+                  Hovercraft: The Hovercraft is the only notable mention of the Ground Effect Vehicle. This vehicle is neither fish nor fowl, as it rides on a cushion of air, handles as does an Air type, but goes out of control as an off-road vehicle. Hovercraft move at a maximum Speed of Good off road, over broken ground, or in stormy weather.
+                  Ambulance: *Ambulance
+                  Armored Car: *Armored_Car
+                Other Equipment:
+                  Personal Computer: *Personal_Computer
+                  Flashlight: *Flashlight
+                  Scuba: *Scuba_Gear
+                Custom Equipment:
+                  Phylax Integrated Multipurpose Cannon: *Phylax_Integrated_Multipurpose_Cannon
         Headquarters:
           Greymount Manor:
             Description: A grand, stately, Beaux-Arts mansion in West Village along the waterfront, the palatial estate has a private courtyard with peristyle, ornate, gated porte-cochère and portico, and an attached carriage house that was converted to a vehicle garage in the 1920's with direct street access. Greymount Manor was constructed for Julian Constantine, finished in 1880, and he has owned it ever since.
@@ -1879,153 +1881,153 @@ Game:
                       The caster can dissipate the vapors at will. Once gone, by the caster’s will or at the end of the duration of spell, the character starts dying and must follow the procedure on page 11 of the MARVEL SUPER HEROES Game Battle Book.
 
                       If the character the caster is trying to save has been dead for over 2 rounds, but less than 3 hours, the caster can try to create a special, potent vapor which will have the same effect as described above. To create this special vapor requires the caster to make a spell rank FEAT roll and deduct one rank from his Psyche (for a week) whether he succeeds in the spell or not. The caster can keep attempting this spell, but must deduct the Psyche rank each time he tries. If his Psyche rank drops to Feeble or below, due to the exercising of this spell, he permanently loses a Psyche rank.
-          Familiar: &Familiar Familiar indicates a being that is very powerful magically and actively assists the hero. Two powers should be rolled randomly or selected by the Judge from the personal and universal energy lists for this familiar. In addition, the familiar is intelligent (Reason and Psyche at least Typical) and can communicate with its owner (the kind of communication is left to the Judge’s discretion). The form of the familiar can either be that of a normal animal (usually a cat) or an unusual type, such as a small dragon or other mythical creature. The familiar’s form is at the player’s discretion.
-          Interdimensional Scanner: While this is not a mystical item, it is used to monitor dimensional nexus and scan dimensions that are near Earth. This room-sized piece of high-tech equipment was designed by Roger Bochs, who first created Box of Alpha Flight fame. He was assisted in its creation by Shaman. Imaging of these dimensions is often hazy, showing only the outlines of larger creatures, structures, and so forth. It is with this device that the Alpha Flight team unwittingly brought the Incredible Hulk back to the Earth dimension from another dimension where Doctor Strange had banished him for the good of mankind, and the Hulk’s own sake. Any use of this device to scan and observe another dimension requires a successful Reason FEAT roll.
-      Supporting Cast:
-        Leonidas:
-          Description: A particularly large housecat most resembling a strikingly ancient- and wild-looking Oriental breed, somewhat like an oversized Egyptian Mau, with a black spotted silver tabby coat and brilliant green eyes. While still very much a cat in personality, it's tempered by intelligence and insight that's far above the human norm and over a millennium of existence in close contact with Julian Constantine, giving him a dry, witty, sarcastic detachment and studious, serious, somewhat pessimistic outlook.  Leonidas doesn't speak or use telepathy to communicate per se, but is exceptionally adept at making himself understood by others, as well as understanding them, regardless of language, the same as if he were conversing like any human. Leonidas has been with Julian since the latter began his sorcerous journey.
-          Origin:
-            Physical Form:
-              Animal: |
-                This is a catch-all category that includes fish, mammals, birds, reptiles, and the rest of Earth's fauna, in addition to aliens that do not fit into any other category. About the only example of this in the Marvel Universe is Lockheed, the dragon. Your campaign, on the other hand, might be filled with heroic Animals or really peculiar aliens (I'll fudge a little and include Lockjaw, the Inhumans' "dog" as an example of this).
+          Familiar:
+            Name: Leonidas
+            Description: A particularly large housecat most resembling a strikingly ancient- and wild-looking Oriental breed, somewhat like an oversized Egyptian Mau, with a black spotted silver tabby coat and brilliant green eyes. While still very much a cat in personality, that's tempered by intelligence and insight that's far above the human norm and over a millennium of existence in close contact with Julian Constantine, giving him a dry, witty, sarcastic detachment and studious, serious, somewhat pessimistic outlook.  Leonidas doesn't speak or use telepathy to communicate per se, but is exceptionally adept at making himself understood by others, as well as understanding them, regardless of language, the same as if he were conversing like any human. Leonidas has been with Julian since the latter began his sorcerous journey.
+            Origin:
+              Physical Form:
+                Animal: |
+                  This is a catch-all category that includes fish, mammals, birds, reptiles, and the rest of Earth's fauna, in addition to aliens that do not fit into any other category. About the only example of this in the Marvel Universe is Lockheed, the dragon. Your campaign, on the other hand, might be filled with heroic Animals or really peculiar aliens (I'll fudge a little and include Lockjaw, the Inhumans' "dog" as an example of this).
 
-                Animal PCs have three main types of backgrounds. One is that the animal is a mutant. Another is that the animal was altered in ways that gave his intelligence and Power. The last is the animal is a relatively normal member of a race of animals like him (Lockheed, for example). The player can determine this in the Origins of Power section and embellish it to the best of his ability.
+                  Animal PCs have three main types of backgrounds. One is that the animal is a mutant. Another is that the animal was altered in ways that gave his intelligence and Power. The last is the animal is a relatively normal member of a race of animals like him (Lockheed, for example). The player can determine this in the Origins of Power section and embellish it to the best of his ability.
 
-                Animals have to have a human Contact. People tend to see the human Contact as the animal's owner or trainer. People refuse initially to believe the animal is intelligent. Animals have very few legal rights, but they also have few responsibilities.
+                  Animals have to have a human Contact. People tend to see the human Contact as the animal's owner or trainer. People refuse initially to believe the animal is intelligent. Animals have very few legal rights, but they also have few responsibilities.
 
-                - Animals roll on column 1.
-                - Aliens in this category roll on column 5. Animals gain one less Power.
-                - Animals automatically have two Detection Powers at Good rank.
-                - Animals risk death or capture from people who are ignorant of the animal's true nature.
-                - Resources are zero unless the animal has attached himself to a human. In this case, the Resource rank is assigned to that human.
-            Origin of Power:
-              Endowment: The hero was given his Power by another being. This includes such diverse situations as being transformed (Tigra), being charged with Power (the Power Pack kids), and acquiring an item whose possession gives the hero Power (Black Knight, Vindicator).
-            Weakness: *Normal_Human_Weakness
-          Abilities:
-            Primary Abilities:
-              Fighting: Excellent
-              Agility: Amazing
-              Strength: Poor
-              Endurance: Remarkable
-              Reason: Excellent
-              Intuition: Remarkable
-              Psyche: Incredible
-            Secondary Abilities:
-              Health: 104
-              Karma: 90
-              Popularity: Excellent
-              Resources: Shift 0
-            Special Abilities:
-              Powers:
-                Ultimate Powers Book:
-                  Detection:
-                    Hypersensitive Hearing:
-                      Rank: Remarkable
-                      Number: 30
-                      Reference: The hero can detect extremely faint sounds and unusual frequencies. He can identify objects by the sounds they emit. Because of the sensitivity of the hero's hearing, he is more vulnerable to sonic attacks (which receive a +1CS against him).
-                    Hypersensitive Olfactory:
-                      Rank: Remarkable
-                      Number: 30
+                  - Animals roll on column 1.
+                  - Aliens in this category roll on column 5. Animals gain one less Power.
+                  - Animals automatically have two Detection Powers at Good rank.
+                  - Animals risk death or capture from people who are ignorant of the animal's true nature.
+                  - Resources are zero unless the animal has attached himself to a human. In this case, the Resource rank is assigned to that human.
+              Origin of Power:
+                Endowment: The hero was given his Power by another being. This includes such diverse situations as being transformed (Tigra), being charged with Power (the Power Pack kids), and acquiring an item whose possession gives the hero Power (Black Knight, Vindicator).
+              Weakness: *Normal_Human_Weakness
+            Abilities:
+              Primary Abilities:
+                Fighting: Excellent
+                Agility: Amazing
+                Strength: Poor
+                Endurance: Remarkable
+                Reason: Excellent
+                Intuition: Remarkable
+                Psyche: Incredible
+              Secondary Abilities:
+                Health: 104
+                Karma: 90
+                Popularity: Excellent
+                Resources: Shift 0
+              Special Abilities:
+                Powers:
+                  Ultimate Powers Book:
+                    Detection:
+                      Hypersensitive Hearing:
+                        Rank: Remarkable
+                        Number: 30
+                        Reference: The hero can detect extremely faint sounds and unusual frequencies. He can identify objects by the sounds they emit. Because of the sensitivity of the hero's hearing, he is more vulnerable to sonic attacks (which receive a +1CS against him).
+                      Hypersensitive Olfactory:
+                        Rank: Remarkable
+                        Number: 30
+                        Reference: |
+                          The hero can detect the presence of minute traces of substances and accurately identify them.
+
+                          This Power is continually functioning: the hero has learned to ignore unpleasant smells. If he loses his ability to mask out nasty odors, he'll be so distracted (and possibly sickened) by the intruding odors that he loses -1CS on Reason and Endurance.
+                      Tracking Ability:
+                        Rank: Remarkable
+                        Number: 30
+                        Reference: The hero can detect and follow the tracks left by a specific target. The hero can detect environmental and spatial disturbances with the result that at high ranks the hero can actually track across deep space.
+                  Advanced Player's Book:
+                    Body Alterations-Defensive:
+                      Immortality:
+                        Reference: *Immortality
+                Talents:
+                  Fighting Skills:
+                    Acrobatics: *Acrobatics
+                    Tumbling: *Tumbling
+                  Mystic and Mental Skills:
+                    Resist Domination: *Resist_Domination
+                    Occult Lore: *Occult_Lore
+                    Mystic Background: *Mystic_Background
+                Magic:
+                  Character Type:
+                    Magic Wielder: *Magic_Wielder
+                  Magic School:
+                    Eclectic Magic: &Eclectic_Magic This is an unorganized school of magic, that is, it follows no one school of philosophy but is a hodge-podge of “get-as-get-can” magic. It is considered neutral magic. Many of those who “dabble” in magic, and are not up to the level of a Marvel super hero, usually wind up with this type of magic. A spell learned here, an enchantment discovered there, makes up the whole of their philosophy. The bonus with this is that there is very little to bind the character (enemies, rituals, obligations, etc.), the penalty with this type of magic is that there is no one to learn from in a complete and comprehensive manner; thus advancement can be very slow.
+                  Energy Use:
+                    Personal and Universal Energies Only: &Personal-Universal Personal and Universal Energies Only means that the character can use spells listed as both Personal Energies and Universal Energies. The character’s spells will only be able to be utilized by tapping into either his personal energy or the energy of the universe around him.
+                  Rank:
+                    Adept: |
+                      The character possesses at least 8 spells. He has a spell rank of at least Excellent in all of them and Incredible or better in at least two of them. He spends more time adventuring than he spends with his master, though he is still at his master’s beck and call. His studying of the writings of the ancient arts gleans him more information than if he were a novice or disciple.
+
+                      This is the lowest rank at which a sorcerer could normally gain special attention from dimensional beings (see the Entreaty FEAT Roll Table and the Casting Shifts Table in Book 1.
+                  Master: ~
+                  Spells:
+                  Personal Energies:
+                    Admittance:
+                      Rank: Incredible
+                      Number: 40
+                      Reference: *Admittance
+                    Apparition:
+                      Rank: Incredible
+                      Number: 40
+                      Reference: *Apparition
+                    Invisibility:
+                      Rank: Incredible
+                      Number: 40
+                      Reference: *Invisibility
+                    Luck:
+                      Rank: Incredible
+                      Number: 40
+                      Reference:  The caster can disrupt probability fields so that very unlikely events can occur, somewhat like creating his own luck. For example, he could cause a table to collapse or a machine to tip over. He can not cause something to happen if that event is impossible; tables can not be created from nothing, and machines just can’t cease to exist. When the caster uses his spell, the player describes exactly what effect is wanted, and the Judge decides whether or not that effect is within the spell’s power and assigns an appropriate FEAT color. To use the spell the caster must make a successful spell rank FEAT roll. If the caster is trying to alter probabilities around magic materials or energies, such as magical artifacts or temples, apply a -2CS to the spell rank when making the FEAT roll.
+                    Sensing-Evil:
+                      Rank: Incredible
+                      Number: 40
+                      Reference: *Sensing-Evil
+                    Sensing-Mystical Detection:
+                      Rank: Incredible
+                      Number: 40
+                      Reference: *Sensing-Mystical_Detection
+                  Universal Energies:
+                    Fear:
+                      Rank: Incredible
+                      Number: 40
                       Reference: |
-                        The hero can detect the presence of minute traces of substances and accurately identify them.
+                        This spell affects all targets in the area of effect. The spell releases an unreasoning fear from the target’s mind. All targets are allowed a Psyche FEAT roll to resist the effect (see the Magic Effects Table). If the target misses the roll, the frightened character wants nothing more than to run away and hide (all his actions while afraid are at -2CS). The victim will try to avoid, or if necessary attack, anyone attempting to stop or restrain him. The character can only perform actions (including spellcasting) that will help him to escape. The victim always flees away from the attacker, even if he cannot see the caster. After the first three rounds of being afraid, and every other round after that, if need be, the frightened character is allowed a Psyche FEAT roll to regain his composure. Once made, it will still take him a full round to get complete control of himself.
 
-                        This Power is continually functioning: the hero has learned to ignore unpleasant smells. If he loses his ability to mask out nasty odors, he'll be so distracted (and possibly sickened) by the intruding odors that he loses -1CS on Reason and Endurance.
-                    Tracking Ability:
-                      Rank: Remarkable
-                      Number: 30
-                      Reference: The hero can detect and follow the tracks left by a specific target. The hero can detect environmental and spatial disturbances with the result that at high ranks the hero can actually track across deep space.
-                Advanced Player's Book:
-                  Body Alterations-Defensive:
-                    Immortality:
-                      Reference: *Immortality
-              Talents:
-                Fighting Skills:
-                  Acrobatics: *Acrobatics
-                  Tumbling: *Tumbling
-                Mystic and Mental Skills:
-                  Resist Domination: *Resist_Domination
-                  Occult Lore: *Occult_Lore
-                  Mystic Background: *Mystic_Background
-              Magic:
-              Character Type:
-                Magic Wielder: *Magic_Wielder
-              Magic School:
-                Eclectic Magic: &Eclectic_Magic This is an unorganized school of magic, that is, it follows no one school of philosophy but is a hodge-podge of “get-as-get-can” magic. It is considered neutral magic. Many of those who “dabble” in magic, and are not up to the level of a Marvel super hero, usually wind up with this type of magic. A spell learned here, an enchantment discovered there, makes up the whole of their philosophy. The bonus with this is that there is very little to bind the character (enemies, rituals, obligations, etc.), the penalty with this type of magic is that there is no one to learn from in a complete and comprehensive manner; thus advancement can be very slow.
-              Energy Use:
-                Personal and Universal Energies Only: &Personal-Universal Personal and Universal Energies Only means that the character can use spells listed as both Personal Energies and Universal Energies. The character’s spells will only be able to be utilized by tapping into either his personal energy or the energy of the universe around him.
-              Rank:
-                Adept: |
-                  The character possesses at least 8 spells. He has a spell rank of at least Excellent in all of them and Incredible or better in at least two of them. He spends more time adventuring than he spends with his master, though he is still at his master’s beck and call. His studying of the writings of the ancient arts gleans him more information than if he were a novice or disciple.
+                        Though the caster must maintain a high degree of concentration on this spell to keep the target afraid (no attacks or other spellcasting allowed), he does not know when the character breaks the spell. Only when the target attacks the caster or otherwise acts contrary to a state of fear does the caster realize he no longer influences the target.
+                    Forgetfulness:
+                      Rank: Incredible
+                      Number: 40
+                      Reference: |
+                        The caster can magically effect other characters’ minds and cause them to forget events. This is usually used by heroic magic wielders to protect innocent bystanders from the awesome psychic shock caused by some of the sights to be seen during magical combat, etc. It is also used by most magic wielding characters to protect their secret identities. Evil magicians may also use this spell to cover up their trail or their crimes. The duration of the spell is permanent (unless another sorcerer uses a Revival spell of at least equal spell rank to break the spell of Forgetfulness). The number of people that can be ensorcelled by the spell depends on the spell rank: Good = 1 person; Excellent = up to 5 people; Remarkable = everyone in 1 area; Incredible = everyone in a square mile; Amazing = everyone in 100 square miles; Monstrous = everyone on the planet; Unearthly everyone in one dimension; Class 1000 everyone in all dimensions.
 
-                  This is the lowest rank at which a sorcerer could normally gain special attention from dimensional beings (see the Entreaty FEAT Roll Table and the Casting Shifts Table in Book 1.
-              Master: ~
-              Spells:
-                Personal Energies:
-                  Admittance:
-                    Rank: Incredible
-                    Number: 40
-                    Reference: *Admittance
-                  Apparition:
-                    Rank: Incredible
-                    Number: 40
-                    Reference: *Apparition
-                  Invisibility:
-                    Rank: Incredible
-                    Number: 40
-                    Reference: *Invisibility
-                  Luck:
-                    Rank: Incredible
-                    Number: 40
-                    Reference:  The caster can disrupt probability fields so that very unlikely events can occur, somewhat like creating his own luck. For example, he could cause a table to collapse or a machine to tip over. He can not cause something to happen if that event is impossible; tables can not be created from nothing, and machines just can’t cease to exist. When the caster uses his spell, the player describes exactly what effect is wanted, and the Judge decides whether or not that effect is within the spell’s power and assigns an appropriate FEAT color. To use the spell the caster must make a successful spell rank FEAT roll. If the caster is trying to alter probabilities around magic materials or energies, such as magical artifacts or temples, apply a -2CS to the spell rank when making the FEAT roll.
-                  Sensing-Evil:
-                    Rank: Incredible
-                    Number: 40
-                    Reference: *Sensing-Evil
-                  Sensing-Mystical Detection:
-                    Rank: Incredible
-                    Number: 40
-                    Reference: *Sensing-Mystical_Detection
-                Universal Energies:
-                  Fear:
-                    Rank: Incredible
-                    Number: 40
-                    Reference: |
-                      This spell affects all targets in the area of effect. The spell releases an unreasoning fear from the target’s mind. All targets are allowed a Psyche FEAT roll to resist the effect (see the Magic Effects Table). If the target misses the roll, the frightened character wants nothing more than to run away and hide (all his actions while afraid are at -2CS). The victim will try to avoid, or if necessary attack, anyone attempting to stop or restrain him. The character can only perform actions (including spellcasting) that will help him to escape. The victim always flees away from the attacker, even if he cannot see the caster. After the first three rounds of being afraid, and every other round after that, if need be, the frightened character is allowed a Psyche FEAT roll to regain his composure. Once made, it will still take him a full round to get complete control of himself.
+                        Any character with a Psyche equal to or greater than the caster’s may make a Psyche FEAT roll to reduce the effects of the spell. Magic wielding characters have a +2CS for this FEAT roll. A green result means that vague recollections of the event sometimes surface in the character’s memory. A yellow result means that the character knows most of the highlights of the event, but cannot remember who cast the spell of forgetfulness. A red result means that the character can remember everything.
+                    Static Field:
+                      Rank: Incredible
+                      Number: 40
+                      Reference: |
+                        The caster can set up an invisible static field with his magical energy. This field, which blankets his area of effect, disrupts television, radio, CB, walkie-talkie, and other broadcasting devices. It also disrupts all closed-circuited monitoring security systems and scanners, most computer systems, robotic “brains”, and any other highly sophisticated electronic devices. The field moves with the caster and once an item is outside the field, it works as before.
 
-                      Though the caster must maintain a high degree of concentration on this spell to keep the target afraid (no attacks or other spellcasting allowed), he does not know when the character breaks the spell. Only when the target attacks the caster or otherwise acts contrary to a state of fear does the caster realize he no longer influences the target.
-                  Forgetfulness:
-                    Rank: Incredible
-                    Number: 40
-                    Reference: |
-                      The caster can magically effect other characters’ minds and cause them to forget events. This is usually used by heroic magic wielders to protect innocent bystanders from the awesome psychic shock caused by some of the sights to be seen during magical combat, etc. It is also used by most magic wielding characters to protect their secret identities. Evil magicians may also use this spell to cover up their trail or their crimes. The duration of the spell is permanent (unless another sorcerer uses a Revival spell of at least equal spell rank to break the spell of Forgetfulness). The number of people that can be ensorcelled by the spell depends on the spell rank: Good = 1 person; Excellent = up to 5 people; Remarkable = everyone in 1 area; Incredible = everyone in a square mile; Amazing = everyone in 100 square miles; Monstrous = everyone on the planet; Unearthly everyone in one dimension; Class 1000 everyone in all dimensions.
-
-                      Any character with a Psyche equal to or greater than the caster’s may make a Psyche FEAT roll to reduce the effects of the spell. Magic wielding characters have a +2CS for this FEAT roll. A green result means that vague recollections of the event sometimes surface in the character’s memory. A yellow result means that the character knows most of the highlights of the event, but cannot remember who cast the spell of forgetfulness. A red result means that the character can remember everything.
-                  Static Field:
-                    Rank: Incredible
-                    Number: 40
-                    Reference: |
-                      The caster can set up an invisible static field with his magical energy. This field, which blankets his area of effect, disrupts television, radio, CB, walkie-talkie, and other broadcasting devices. It also disrupts all closed-circuited monitoring security systems and scanners, most computer systems, robotic “brains”, and any other highly sophisticated electronic devices. The field moves with the caster and once an item is outside the field, it works as before.
-
-                      Any attack that uses broadcast power, such as a maser (microwave), must punch through the field first. Treat the spell rank as body armor for purposes of defense.
-                  Teleportation:
-                    Rank: Incredible
-                    Number: 40
-                    Reference: *Teleportation
-          Notes: Inflicts Edged attack damage with claws but cannot score a Kill result against human targets. Moves 3 areas/turn.
-          Reference:
-            Familiar: *Familiar
-            Cat:
-              Fighting: Feeble
-              Agility: Good
-              Strength: Feeble
-              Endurance: Good
-              Reason: Feeble
-              Intuition: Typical
-              Psyche: Feeble
-              Health: 24
-              Notes: Cats include most ordinary house cats and small wild cats. They inflict Edged attack damage with their claws but cannot score a Kill result against human targets. They move 2 areas/turn.
+                        Any attack that uses broadcast power, such as a maser (microwave), must punch through the field first. Treat the spell rank as body armor for purposes of defense.
+                    Teleportation:
+                      Rank: Incredible
+                      Number: 40
+                      Reference: *Teleportation
+            Notes: Inflicts Edged attack damage with claws but cannot score a Kill result against human targets. Moves 3 areas/turn.
+            Reference:
+              Familiar: Familiar indicates a being that is very powerful magically and actively assists the hero. Two powers should be rolled randomly or selected by the Judge from the personal and universal energy lists for this familiar. In addition, the familiar is intelligent (Reason and Psyche at least Typical) and can communicate with its owner (the kind of communication is left to the Judge’s discretion). The form of the familiar can either be that of a normal animal (usually a cat) or an unusual type, such as a small dragon or other mythical creature. The familiar’s form is at the player’s discretion.
+              Cat:
+                Fighting: Feeble
+                Agility: Good
+                Strength: Feeble
+                Endurance: Good
+                Reason: Feeble
+                Intuition: Typical
+                Psyche: Feeble
+                Health: 24
+                Notes: Cats include most ordinary house cats and small wild cats. They inflict Edged attack damage with their claws but cannot score a Kill result against human targets. They move 2 areas/turn.
+            Interdimensional Scanner: While this is not a mystical item, it is used to monitor dimensional nexus and scan dimensions that are near Earth. This room-sized piece of high-tech equipment was designed by Roger Bochs, who first created Box of Alpha Flight fame. He was assisted in its creation by Shaman. Imaging of these dimensions is often hazy, showing only the outlines of larger creatures, structures, and so forth. It is with this device that the Alpha Flight team unwittingly brought the Incredible Hulk back to the Earth dimension from another dimension where Doctor Strange had banished him for the good of mankind, and the Hulk’s own sake. Any use of this device to scan and observe another dimension requires a successful Reason FEAT roll.
+      Supporting Cast:
         Varangos:
-          Description: Plural Varangoi. Elite operatives drawn from the highest echelons of special operations and intelligence work, screened for magical potential, Varangoi are the highly-paid, trusted bodyguards, proxies, agents, investigators, and fixers of their employer. When on duty but not in their Phylax Battlesuit they generally wear the subdued, tailored suits worn by federal agents, plainclothes detectives, and bodyguards with their Phylax Integrated Multipurpose Weapon Mk. 1 and collapsed Phylax Staff discreetly concealed, or military fatigues and berets or boonie caps with their Blaster and collapsed Staff on their pistol belts alongside flashlights, knives, handcuffs, and mace, depending on the assignment. If needed, they have a Phylax IMW Mk. 2, but this is usually kept in their vehicle until needed. Varangoi also have a formal dress uniform, prominently featuring Byzantine and Norse motifs and styling over a modern military dress base, including a (functional) ceremonial sword and dagger (sometimes a spear for bearing a guidon or banner) and a formal cape. They generally operate in pairs or multiples thereof, two each sharing a Arma Mk. 1 TUV or Mk. 3 TUA unit for patrol and response, four to eight to a Mk. 2 TUW for marine patrol and response. Within the organization, Varangos captains have the title "Akólouthos" (Follower). Some exceptional individuals may differ somewhat from these baseline stats.
+          Description: Plural Varangoi. Elite operatives drawn from the highest echelons of special operations and intelligence work, screened for magical potential, Varangoi are the highly-paid, trusted bodyguards, proxies, agents, investigators, and fixers of their employer. When on duty but not in their Phylax Battlesuit they generally wear the subdued, tailored suits worn by federal agents, plainclothes detectives, and bodyguards with their Phylax Integrated Multipurpose Pistol and collapsed Phylax Staff discreetly concealed, or military fatigues and berets or boonie caps with their IMP and collapsed Staff on their pistol belts alongside flashlights, knives, handcuffs, and mace, depending on the assignment. If needed, they have a Phylax Integrated Multipurpose Rifle, but this is usually kept in their vehicle until needed. Varangoi also have a formal dress uniform, prominently featuring Byzantine and Norse motifs and styling over a modern military dress base, including a (functional) ceremonial sword and dagger (sometimes a spear for bearing a guidon or banner) and a formal cape. They generally operate in pairs or multiples thereof, two each sharing a Arma TUV or TUA unit for patrol and response, four to eight to an arma TUW for marine patrol and response. Within the organization, Varangos captains have the title "Akólouthos" (Follower). Some exceptional individuals may differ somewhat from these baseline stats.
           Note: Akólouthoi have the Leadership Talent.
           Origin: *Normal_Human_Self-Achievement
           Abilities:
@@ -2105,8 +2107,8 @@ Game:
               Spells: Any 1-4 spells from the Personal Energies or Universal Energies lists at Psyche Rank.
           Equipment:
             Shooting Weapons:
-              Phylax Integrated Multipurpose Weapon Mk. 1: *Phylax_Integrated_Multipurpose_Weapons_Mk1
-              Phylax Integrated Multipurpose Weapon Mk. 2: *Phylax_Integrated_Multipurpose_Weapons_Mk2
+              Phylax Integrated Multipurpose Pistol: *Phylax_Integrated_Multipurpose_Pistol
+              Phylax Integrated Multipurpose Rifle: *Phylax_Integrated_Multipurpose_Rifle
             Melee and Thrown Weapons:
               Phylax Tactical Multipurpose Staff: *Phylax_Tactical_Multipurpose_Staff
               Ceremonial Dagger:
@@ -2142,9 +2144,9 @@ Game:
                 Description: A short, sturdy, locking folding knife easily opened with one hand, has a sharp point and partially serrated blade and back.
                 Reference: *Knife
             Vehicles:
-              Arma Tactical Utility Vehicle Mk. 1: *Arma_Mk1
-              Arma Tactical Utility Vehicle Mk. 2: *Arma_Mk2
-              Arma Tactical Utility Vehicle Mk. 3: *Arma_Mk3
+              Arma Tactical Utility Vehicle: *Arma_TUV
+              Arma Tactical Utility Watercraft: *Arma_TUW
+              Arma Tactical Utility Aircraft: *Arma_TUA
             Other Equipment:
               Phylax Battlesuit Model I: *Phylax_Battlesuit
               Handcuffs: Handcuffs are a standard restraining device used by the police forces of the world to prevent actions by criminals in custody. They are made of Excellent material.
