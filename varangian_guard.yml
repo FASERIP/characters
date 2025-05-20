@@ -1,0 +1,1267 @@
+---
+Character Sheet:
+  Game System:
+    Name: Marvel Super Heroes RPG
+    Edition: Advanced
+    Publisher: TSR, Inc.
+    Year: 1986
+    Reference: Reference Fields are the full text of a reference from the relevant book, sometimes edited for relevance or clarity.
+    Books:
+      - Advanced  Book
+      - Advanced Judge's Book
+      - Ultimate Powers Book
+      - Realms of Magic
+      - Weapons Locker
+  Campaign:
+    Continuity: Earth-1986
+    Era:
+      Start: 1986
+      End: 1993
+  Hero Team:
+    The Varangian Guard:
+      Name: Varangian Guard, Incorporated
+      Base of Operations: Manhattan
+      Resources:
+        Rank: Unearthly
+        Number: 100
+        Reference: Major country, mega-corporation (United States, Soviet Union)
+      Description: 
+        Executive Director and Chairman of the Board: Julian Constantine
+        Established: 1980
+        Status: Nonprofit Corporation
+        Missions:
+          - Security
+          - Crime Prevention
+          - Private Investigation
+          - Intelligence Gathering and Analysis
+          - Secure Transport
+          - Logistics Management
+          - Counterintelligence
+          - Civil Affairs and Psychological Operations
+          - Paramilitary Services
+          - Protective Services
+          - Risk Analysis and Management
+          - Management Consulting
+          - Project Management
+          - Quantitative and Statistical Analysis
+          - Research and Development
+          - Software Engineering and Development
+          - Municipal Infrastructure Engineering
+          - Environmental Engineering
+          - Civil Engineering
+          - Public Utility Construction and Repair
+          - Emergency Management
+          - Emergency Communications
+          - Emergency Medical Services
+          - Ambulance and Medical Transport Services
+          - Search and Rescue
+          - Motorist Assistance
+          - Tourist Assistance
+          - Wrecker and Towing
+          - General Information and Assistance to the Public
+          - Self Defense, Safety, First Aid, and Disaster Preparedness and other Community Education
+          - Neighborhood and Highway Cleanup
+          - Charitable Grants
+          - Scholarship Fund
+          - Hero and Hero Group Endorsement
+          - Trap, Neuter, Release
+          - (Unofficially) Backup, Cover, Quick Response, Transporation, Logistics, Legal, Medical, and other support to street-level heroes.
+          - (Unofficially) Analysis of captured supervillain paraphenalia, technology, and artifacts.
+          - (Unofficially) Getting kittens out of trees, helping old ladies across the street, and handing out candy to kids.
+        Funding:
+          Funding Type: Private
+          Revenue Sources:
+            - Endowment
+            - Licensing and commercializing patents
+            - Merchandise sales
+            - Charitable donations
+            - Grants
+            - Investments
+            - Fundraising
+            - Beneficiary
+            - Gifts in kind
+            - Volunteerism
+          Rate Schedule: All services are rendered pro bono.
+    Headquarters:
+      Akropolis:
+        Description: |
+          A mid-rise office building attached to a warehouse and factory with a parking garage and some dockside space and rail access, located near the port and transit station in the Hudson Yards neighborhood of Manhattan, comprise the Varangian Guard, Incorporated headquarters compound, Akropolis. There are helipads, extensive communications antenna arrays, weather and atmospheric montiors, and solar panels atop each.
+
+          There is a perimeter wall with security stations that oversee the walkup, light vehicle, freight, and railyard entrances, as well as at the docks, whose piers are outside the perimeter. The entrances for Varangian Guard vehicles are separate from the others, and employees, visitors, and VIPs also have separate entrances for both foot and vehicle traffic.
+
+          The sidewalk and street and water outside the perimeter wall, the pier, railyard, the roof, and the grounds inside and the interiors and exteriors of the buildings themselves are always well-lit and watched by cameras with infra-red capability, recorded and monitored at the security station. The company employes certified and licensed doctors, paramedics, and firefighters who are located onsite as well.
+
+          There is ample exterior and covered parking inside the perimeter in the outside lots and attached parking garage for employees, visitors, and company vehicles, all of them separate and watched, in addition to the maintenance garages inside the warehouse building. There is special, reserved parking outside for emergency and government vehicles.
+        Administrative Building:
+          Description: Primary administrative building for the Varangian Guard leadership and support personnel.
+          Reference:
+            Office Building, 8 floors:
+              Size:
+                Deluxe: *Deluxe
+              Material Strength: Remarkable
+          Room Packages:
+            Basement:
+              Operations Center:
+                Communications Room:
+                  Cost: Incredible
+                  Reference: *Communications_Room
+              Security Office:
+                Crime Files Room:
+                  Cost: Incredible
+                  Reference: |
+                    Cost: Excellent Occupies one room. Basically a separate computer with a specialized task at information processing and retrieval. Used by large groups to keep track of former villains and modi operandi. Performs its task with Remarkable ability. Room cost includes terminal, chairs, lights.
+              Holding Cells:
+                Imprisonment Package:
+                  Cost: Incredible
+                  Note: Multiple
+                  Reference: |
+                    Cost: Excellent Occupies one room. Contains standard restraining devices, including bars of Remarkable material strength. At Remarkable Cost, restraining devices made of Incredible Strength. At Incredible Cost, restraining devices at Amazing Strength and Excellent Strength inhibitor restraints.
+              Backup Data Center:
+                Computer Room:
+                  Cost: Amazing
+                  Reference: *Computer_Room
+              Medical and Forensic Laboratory:
+                Laboratory Package:
+                  Cost: Amazing
+                  Reference: *Laboratory_Package
+              Private Hospital:
+                Medical Package:
+                  Cost: Amazing
+                  Reference:  &Medical_Package |
+                    Cost: Remarkable Occupies one room. Equivalent of emergency room care, no heavy equipment, standard antidotes and medication. Incredible Cost: X-ray, clean room, operating room, pathology. (Additional rooms.) Amazing Cost: as above, plus cryogenics. Note: The Auto-doc and other life-saving devices are generally experimental on Earth. The one in the X-Men's possession is of Shi'ar hybrid technology, is one of the most powerful available, and is limited to Excellent healing ability.
+              Primary Power:
+                Power Room:
+                  Cost: Amazing
+                  Reference: *Power_Room
+              Backup Power:
+                Power Room:
+                  Cost: Amazing
+                  Reference: *Power_Room
+              Storage, Bathrooms, and Closets: *PSBC
+              Security Package:
+                Cost: Remarkable
+                Location: All doors
+                Reference: *Security_Package
+              Fire Protection Package:
+                Cost: Remarkable
+                Location: All Areas
+                Reference: *Fire_Protection_Package
+              Defense Package:
+                Cost: Amazing
+                Location: All areas
+                Note:
+                  - Multiple:  &Multiple_Defense
+                    - Laser: Energy
+                    - Concussive: Force
+                    - Stun: Stunning
+                Reference: *Defense_Package
+            Ground Floor:
+              Lobby:
+                Living Room Package:
+                  Cost:
+                    Total: Incredible
+                    Base: Remarkable
+                  Note:
+                    - &+1CS_High-Quality +1CS to Cost for high-quality Package
+                    - Multiple: Size
+                  Reference: *Living_Room_Package
+              Auditorium:
+                Conference Room Package:
+                  Cost:
+                    Total: Amazing
+                    Base: Incredible
+                  Note: *+1CS_High-Quality
+                  Reference: *Conference_Room_Package
+              Conference One:
+                Conference Room Package:
+                  Cost:
+                    Total: Amazing
+                    Base: Incredible
+                  Note: *+1CS_High-Quality
+                  Reference: *Conference_Room_Package
+              Reception Hall:
+                Trophy Room Package:
+                  Cost:
+                    Total: Incredible
+                    Base: Remarkable
+                  Note: *+1CS_High-Quality
+                  Reference: *Trophy_Room_Package
+              Reception Kitchen:
+                Kitchen Package:
+                  Cost: Remarkable
+                  Reference: *Kitchen_Package
+              Reception Dining:
+                Dining Room Package:
+                  Cost:
+                    Total: Incredible
+                    Base: Remarkable
+                  Note:
+                    - Multiple: Size
+                    - *+1CS_High-Quality
+                  Reference: *Dining_Room_Package
+              Office Suite:
+                Office Package:
+                  Cost: Remarkable
+                  Reference: *Office_Package
+              Storage, Bathrooms, and Closets: *PSBC
+              Security Package:
+                Cost: Remarkable
+                Location: All doors and windows, perimeter
+                Reference: *Security_Package
+              Fire Protection Package:
+                Cost: Remarkable
+                Location: All Areas
+                Reference: *Fire_Protection_Package
+              Defense Package:
+                Cost: Amazing
+                Location: Perimeter and Exterior
+                Note: *Multiple_Defense
+            First Floor: &Office_Floor
+              Office Suite:
+                Office Package:
+                  Cost: Remarkable
+                Note: Multiple
+                Reference: *Office_Package
+              Storage, Bathrooms, and Closets: *PSBC
+              Security Package:
+                Cost: Remarkable
+                Location: All doors and windows
+                Reference: *Security_Package
+              Fire Protection Package:
+                Cost: Remarkable
+                Location: All Areas
+                Reference: *Fire_Protection_Package
+            Second Floor: *Office_Floor
+            Third Floor: *Office_Floor
+            Fourth Floor: *Office_Floor
+            Fifth Floor:
+              Conference Rooms:
+                Conference Room Package:
+                  Cost: Remarkable
+                  Note: Multiple
+                Reference: *Conference_Room_Package
+              Employee Kitchen:
+                Kitchen Package:
+                  Cost: Remarkable
+                  Reference: *Kitchen_Package
+              Break Room:
+                Living Room Package:
+                  Cost: Remarkable
+                  Note:
+                    - Multiple: Size
+                  Reference: *Living_Room_Package
+              Employee Lounge:
+                Rec. Room Package:
+                  Cost: Remarkable
+                  Reference: *Rec-Room_Package
+              Employee Gym:
+                Gym Package:
+                  Cost: Incredible
+                  Reference: *Gym_Package
+              Storage, Bathrooms, and Closets: *PSBC
+              Security Package:
+                Cost: Remarkable
+                Location: All doors and windows
+                Reference: *Security_Package
+              Fire Protection Package:
+                Cost: Remarkable
+                Location: All Areas
+                Reference: *Fire_Protection_Package
+            Sixth Floor:
+              Data Centers:
+                Computer Room:
+                  Cost: Amazing
+                  Note: Multiple
+                  Reference: *Computer_Room
+              Office Suite:
+                Office Package:
+                  Cost: Remarkable
+                  Reference: *Office_Package
+              Storage, Bathrooms, and Closets: *PSBC
+              Security Package:
+                Cost: Remarkable
+                Location: All doors and windows, perimeter
+                Reference: *Security_Package
+              Fire Protection Package:
+                Cost: Remarkable
+                Location: All Areas
+                Reference: *Fire_Protection_Package
+            Seventh Floor:
+              Executive Floor Lobby:
+                Living Room Package:
+                  Cost:
+                    Total: Amazing
+                    Base: Remarkable
+                    Note: &+2CS_High-Quality +2CS to Cost for extremely high-quality Package.
+                    Reference: *Living_Room_Package
+              Executive Conference Room:
+                Conference Room Package:
+                    Total: Monstrous
+                    Base: Incredible
+                    Note: *+2CS_High-Quality
+                    Reference: *Conference_Room_Package
+              Executive Office Suite:
+                Office Package:
+                  Cost:
+                    Total: Amazing
+                    Base: Remarkable
+                    Note: *+2CS_High-Quality
+                    Reference: *Office_Package
+              Storage, Bathrooms, and Closets: *PSBC
+              Security Package:
+                Cost: Remarkable
+                Location: All doors and windows, roof access
+                Reference: *Security_Package
+              Fire Protection Package:
+                Cost: Remarkable
+                Location: All Areas
+                Reference: *Fire_Protection_Package
+            Roof: &Roof
+              Helicopter Maintenance:
+                Hangar Package:
+                  Cost: Excellent
+                  Vehicle: Traffic Copter
+                  Reference: *Traffic_Copter
+              Storage, Bathrooms, and Closets: *PSBC
+              Security Package:
+                Cost: Remarkable
+                Location: Roof access, hangar entrances
+                Reference: *Security_Package
+              Fire Protection Package:
+                Cost: Remarkable
+                Location: All interior areas, helipad
+                Reference: *Fire_Protection_Package
+              Defense Package:
+                Cost: Amazing
+                Location: All areas
+                Note:
+                  - Multiple: *Multiple_Defense
+                Reference: *Defense_Package
+        Operations Building:
+          Description: Primary operations center for the Varangian Guard.  Includes barracks and crash bunks for security personnel, serves as dispatch, training facility, and fleet garage.
+          Reference:
+            Large Warehouse:
+              Size:
+                Deluxe: *Deluxe
+              Material Strength: Good
+          Room Packages:
+            Floor:
+              Dispatch:
+                Communications Room:
+                  Cost: Incredible
+                  Reference: *Communications_Room
+              Briefing Room:
+                Conference Room Package:
+                  Cost: Remarkable
+                  Reference: *Conference_Room_Package
+              Galley:
+                Kitchen Package:
+                  Cost: Remarkable
+                  Note:
+                    - Multiple: Size
+                  Reference: *Kitchen_Package
+              Fleet Garage:
+                Garage Package:
+                  Cost: Remarkable
+                  Note:
+                    - Multiple: Size
+                  Reference: *Garage_Package
+              Cafeteria:
+                Dining Room Package:
+                  Cost: Excellent
+                  Note:
+                    - Multiple: Size
+                  Reference: *Dining_Room_Package
+              Lounge:
+                Rec. Room Package:
+                  Cost: Remarkable
+                  Note:
+                    - Multiple: Size
+                  Reference: *Rec-Room_Package
+              Infirmary:
+                Medical Package:
+                  Cost: Remarkable
+                  Reference: *Medical_Package
+              Gym:
+                Gym Package:
+                  Cost: Amazing
+                  Note:
+                    - Multiple: Size
+                  Reference: *Gym_Package
+              Training:
+                Danger Room:
+                  Cost:
+                    Total: Unearthly
+                    Base: Amazing
+                  Note: *+2CS_High-Quality
+                  Reference: |
+                    Cost: Incredible Duplicates Remarkable Cost Gym package with additional active dangers and security systems. "Threats" may be of any general type, but no "threat" may exceed Incredible in strength, Intensity, or damage. Amazing Cost: as Incredible, with threats increased to Amazing strength, intensity, or damage. Some limited holographic illusion generation at the Excellent rank. This represents the danger room of the type originally possessed by the X-Men and now used by the Hellions. The current X-Men danger room is a unique hybrid design using Shi'ar technology and has holographic abilities that outshine those listed here.
+              Administrative Office:
+                Office Package:
+                  Cost: Remarkable
+              Primary Power:
+                Power Room:
+                  Cost: Amazing
+                  Reference: *Power_Room
+              Backup Power:
+                Power Room:
+                  Cost: Amazing
+                  Reference: *Power_Room
+              Boat Maintenance:
+                Dock Package:
+                  Cost: Excellent
+                  Vehicle: Speedboat
+                  Note: Multiple
+                  Reference: &Dock_Package |
+                    Cost: Remarkable Occupies three areas per sea or sub vehicle. Servicing for a single sea or sub vehicle, including drydock facilities. Each sea or sub vehicle requires its own dock package.
+              Personal Watercraft Maintenance:
+                Dock Package:
+                  Cost: Excellent
+                  Vehicle: Jetski
+                  Note: Multiple
+                  Reference: *Dock_Package
+              Hovercraft Maintenance:
+                Dock Package:
+                  Cost: Excellent
+                  Vehicle: Hovercraft
+                  Reference: *Dock_Package
+              Storage, Bathrooms, and Closets: *PSBC
+              Security Package:
+                Cost: Remarkable
+                Location: All doors and windows, roof access, perimeter
+                Reference: *Security_Package
+              Fire Protection Package:
+                Cost: Remarkable
+                Location: All Areas
+                Reference: *Fire_Protection_Package
+              Defense Package:
+                Cost: Amazing
+                Location: Perimeter and Exterior
+                Note: *Multiple_Defense
+                Reference: *Defense_Package
+            Roof: *Roof
+        Technical Building:
+          Description: Research and development and manufacturing and production all in one building.  Also has maintenance and repair facilities.
+          Reference:
+            Large Factory:
+              Size:
+                Deluxe: *Deluxe
+              Material Strength: Incredible
+          Room Packages:
+            Floor:
+              Production Floor:
+                Workshop Package:
+                  Cost: Amazing
+                  Note:
+                    - Multiple: Size
+                  Reference: *Workshop_Package
+              Research and Development:
+                Laboratory Package:
+                  Cost: Amazing
+                  Note:
+                    - Multiple: Size
+                  Reference: *Laboratory_Package
+              Break Room:
+                Living Room Package:
+                  Cost: Remarkable
+                  Note:
+                    - Multiple: Size
+                  Reference: *Living_Room_Package
+              Administrative Office:
+                Office Package:
+                  Cost: Remarkable
+                  Reference: *Office_Package
+              Primary Power:
+                Power Room:
+                  Cost: Amazing
+                  Reference: *Power_Room
+              Backup Power:
+                Power Room:
+                  Cost: Amazing
+                  Reference: *Power_Room
+              Garage:
+                Garage Package:
+                  Cost: Remarkable
+                  Note:
+                    - Multiple: Size
+                  Reference: *Garage_Package
+              Storage, Bathrooms, and Closets: *PSBC
+              Security Package:
+                Cost: Remarkable
+                Location: All doors and windows, roof access, perimeter
+                Reference: *Security_Package
+              Fire Protection Package:
+                Cost: Remarkable
+                Location: All Areas
+                Reference: *Fire_Protection_Package
+              Defense Package:
+                Cost: Amazing
+                Location: Perimeter and Exterior
+                Note: *Multiple_Defense
+            Roof: *Roof
+    Equipment:
+      Other Equipment:
+        Utility Drone:
+          Reference:
+            Standard Robot: *Standard_Robot
+        Security Drone:
+          Reference:
+            Sentry Robot: *Sentry_Robot
+        Specialist Drone:
+          Reference:
+            Talent Robot: *Talent_Robot
+      Vehicles:
+        Operations Vehicle:
+          Note: Primary patrol, response, and utility vehicle. Wilderness use. Lots of utility accessories.
+          Reference:
+            Jeep:
+              Type:
+                Off-Road: *Off-Road
+              Control: Good
+              Speed: Excellent
+              Body: Good
+              Protection: Poor
+              Reference: *Jeep-Pickup
+        Operations Transport:
+          Note: Company car used by executives, employees on TDY, etc.
+          Reference:
+            Luxury Car: *Luxury_Car
+        Heavy Utility Vehicle:
+          Note: Heavy transport, tow trucks, snowplows, etc.
+          Reference:
+            Heavy Truck: &Heavy_Truck
+              Type:
+                Road: *Off-Road
+              Control: Poor
+              Speed: Typical
+              Body: Excellent
+              Protection: Good
+              Reference: Heavy Trucks include dump trucks and other heavy construction equipment.
+        Construction and Repair Vehicles:
+          Note: Mixers, dump trucks, graders, asphalt trucks, utility bucket lifts, cranes, etc.
+          Reference:
+            Heavy Truck: *Heavy_Truck
+        Construction Equipment:
+          Note: Bulldozers, backhoes, end-loaders, etc.
+          Reference:
+            Bulldozer:
+              Type:
+                Road: *Off-Road
+              Control: Typical
+              Speed: Typical
+              Body: Excellent
+              Protection: Typical
+              Reference: A Bulldozer is another typical construction vehicle. The blade on the front makes a suitable battering ram and is made of Remarkable strength material.
+        Utility Vehicle:
+          Note: Local light freight pick-up, etc. Wilderness use.
+          Reference:
+            Pick-Up: &Pick-Up
+              Type:
+                Off-Road: *Off-Road
+              Control: Typical
+              Speed: Good
+              Body: Good
+              Protection: Typical
+              Reference: *Jeep-Pickup
+        Maintenance Vehicle:
+          Note: Used by groundskeepers and maintenance crew.  Tool racks with appropriate equipment.
+          Reference:
+            Pick-Up: *Jeep-Pickup
+        Grounds Maintenance Vehicle:
+          Note: Used by groundskeepers, tows light trailers, mows, edges, etc.
+          Reference:
+            Tractor: &Tractor
+              Type:
+                Off-Road: *Off-Road
+              Control: Good
+              Speed: Typical
+              Body: Good
+              Protection: Shift 0
+        Helicopter Tender:
+          Note: Light tractor for shuttling helicopters between hangars and helipads.
+          Reference:
+            Tractor: *Tractor
+        Personnel Transport:
+          Reference:
+            Van: &Van
+              Type:
+                Road: *Road
+              Control: Poor
+              Speed: Good
+              Body: Good
+              Protection: Good
+              Reference: Vans are large, box-like vehicles on a sedan wheelbase. They have the advantage of space (about 8 bodies), and the back may be covered to prevent unwanted eyes seeing in. Both Captain America and Punisher have modified vans.
+        Cargo Transport:
+          Reference:
+            Van: *Van
+        VIP Transport:
+          Reference:
+            Security Limo: *Security_Limo
+        Special Transport:
+          Reference:
+            Armored Car:
+              Type:
+                Road: *Road
+              Control: Typical
+              Speed: Typical
+              Body: Remarkable
+              Protection: Remarkable
+              Reference: *Armored_Car
+        Light Utility Vehicle:
+          Note: Primarily on-premises use.  Wilderness use.
+          Reference:
+            ATV:
+              Type:
+                Off-Road: *Off-Road
+              Control: Remarkable
+              Speed: Good
+              Body: Good
+              Protection: Typical
+              Reference: ATV means All-Terrain Vehicle and is a catch-phrase for the wide variety of multiple-tired and treaded vehicles used both by ordinary citizens and secret subversive societies.
+        Security Interceptor-Cruiser:
+          Note: Fast patrol and response. On-premises security and escort. Pursuit. Highway travel.
+          Reference:
+            Police Car: &Police_Car
+              Type:
+                Road: *Road
+              Control: Good
+              Speed: Excellent
+              Body: Typical
+              Protection: Typical
+              Reference: Police Cars are the vehicles of the constabulary, usually with a little more power under the hood and better-cared for than the standard sedan. Police cars seat 5 but often have a grill between the front and back seats to prevent the passengers from getting to the driver (and vice-versa).
+        Special Officer Transport:
+          Note: Special Officers use an unmarked variant.
+          Reference:
+            Police Car: *Police_Car
+        Security Transport:
+          Reference:
+            Police Van:
+              Type:
+                Road: *Road
+              Control: Typical
+              Speed: Good
+              Body: Good
+              Protection: Typical
+              Reference: The Police Van is to the van as the Police Car is to the sedan. This vehicle often carries additional armament for teams in trouble, including Riot Guns and gas canisters. The back part of the van can carry up to 10 prisoners for short periods.
+        Crisis Response Vehicle:
+          Reference:
+            SWAT Van:
+              Type:
+                Road: *Road
+              Control: Typical
+              Speed: Good
+              Body: Remarkable
+              Protection: Excellent
+              Reference: The SWAT in SWAT Van stands for Special Weapons And Tactics, and these babies are portable armories of ten riot guns, ten sniper rifles, ten flak jackets, and a wide supply of smoke, tear gas, and knock-out gas grenades (sorry, weapons and batteries not included in the purchase of the vehicle). Carries about ten people.
+        Executive Helicopter:
+          Note: Comfortable and luxurious
+          Reference:
+            Traffic Copter: *Traffic_Copter
+        Patrol Helicopter:
+          Note: Spotlights, cameras, thermal, loudspeakers, advanced comms, etc.
+          Reference:
+            Traffic Copter: *Traffic_Copter
+        Medevac Helicopter:
+          Note: Equipped as an ambulance
+          Reference:
+            Traffic Copter: *Traffic_Copter
+        Patrol Craft:
+          Reference:
+            Hovercraft:
+              Type:
+                GEV: *GEV
+              Control: Poor
+              Speed: Excellent
+              Body: Good
+              Protection: Good
+              Reference: *Hovercraft
+        Utility Craft:
+          Reference:
+            Speedboat: *Speedboat
+        Rapid Response Craft:
+          Reference:
+            Jetski:
+              Type:
+                Water: *Water
+              Control: Excellent
+              Speed: Excellent
+              Body: Good
+              Protection: 0
+              Reference: Jetskis are small one-man sea equivalents of the snowmobile. Some may be modified to carry weapons, and others have been modified to give flight and underwater abilities.
+        Emergency Medical Transport:
+          Reference:
+            Ambulance:
+              Type:
+                Road: *Road
+              Control: Good
+              Speed: Excellent
+              Body: Good
+              Protection: Good
+              Reference: *Ambulance
+        Rescue Response Vehicle:
+          Reference:
+            Fire Truck:
+              Type:
+                Road: *Road
+              Control: Typical
+              Speed: Excellent
+              Body: Good
+              Protection: Typical
+              Reference: |
+                Fire Trucks are large trucks used to carry men and materials to fires. Each carries up to a dozen men, along with hose, hooks and ladders, nets, and fireproof suits. Note: Includes Fire Hoses, Hook and Ladder.
+        Hierax One: &Hierax
+          Note: Kept at LaGuardia (LGA)
+          Reference:
+            Corporate Jet:
+              Type:
+                Air: *Air
+              Control: Typical
+              Speed: Amazing
+              Body: Feeble
+              Protection: Typical
+              Reference: *Corporate_Jet
+        Hierax Two: *Hierax
+        Prototype Bipedal Vehicle:
+          Reference:
+            Walker:
+              Type:
+                Off-Road: *Off-Road
+              Control: Good
+              Speed: Good
+              Body: Remarkable
+              Protection: Remarkable
+              Reference:  
+                - The Walker is a curious form of off-road vehicle in that it does not have wheels or treads but rather two or more legs that simulate human or animal movement. Such devices are generally experimental and are used by organizations such as Hulkbusters. They are normally equipped with a stun cannon, as firing weapons with recoil (such as LAW or Light Artillery) would require a Control FEAT to prevent tipping over. Any attack on a walker vehicle requires a Control FEAT by the operator to determine whether it remains upright. Seats four to eight persons.
+                - Shooting Weapons:
+                    Stun Cannon:
+                      Range: 10
+                      Rate: 1
+                      Shots: 10
+                      Material Strength: Remarkable
+                      Notes:
+                        - Two men to fire
+                        - One-man firing at -1CS to hit
+                        - Incredible Intensity stunning
+                        - Bursts (Affects up to 3 adjacent targets with one roll)
+                        - Power pack
+        Prototype Tunneling Vehicle:
+          Reference:
+            Borer:
+              Type:
+                Off-Road: *Off-Road
+              Control: Poor
+              Speed: Typical
+              Body: Remarkable
+              Protection: Remarkable
+              Reference: The Borer is not really a land vehicle but a subterranean vehicle. It allows speedy travel through the underground. If moving at Poor speed, its passage leaves a tunnel that others may follow; otherwise, it leaves churned earth behind it. Villains who live deep within the Earth, such as Mole Man, use the Borer as standard equipment. Because of its construction, with the forward screw, the borer can make an Edged Attack for Incredible damage.
+    Personnel:
+      Security Officer:
+        Description: Varangian Guard, Inc. Security Officers use improved Policeman stats and are equipped with a handgun, club, handcuffs, flashlight, and mace.
+        Abilities:
+          Primary Abilities:
+            Fighting: Excellent
+            Agility: Excellent
+            Strength: Good
+            Endurance: Excellent
+            Reason: Good
+            Intuition: Good
+            Psyche: Good
+          Secondary Abilities:
+            Health: 70
+            Karma: 30
+          Talents:
+            Weapon Skills:
+              Blunt Weapons: *Blunt_Weapons
+            Fighting Skills:
+              Martial Arts C: *Martial_Arts_C
+            Professional Skills:
+              Military: *Military
+              Law Enforcement: *Law_Enforcement
+            Other Talents:
+              First Aid: *First_Aid
+        Equipment:
+          Shooting Weapons:
+            Handgun/Pistol: &Handgun-Pistol
+              Range: 3
+              Damage: 10
+              Type: Shooting
+              Rate: 1
+              Shots:
+                - 6
+                - 8
+                - 9
+              Material Strength: Excellent
+              Notes:
+                - One-Handed
+              Ammunition: 
+                Standard: *Standard_Ammunition
+              Reference: The Handgun/Pistol is the next most common weapon, and like the cheap handgun, is easily concealed. A number of makes and models exist, noted by the different number of shots available. When the number is not predetermined (the text states a 9-shot pistol), assume the chambers hold 6 shots.
+          Melee and Thrown Weapons:
+            Club: *Club
+            Knife: *Knife
+          Other Gear:
+            Flashlight, Standard: *Flashlight
+            Mace: *Mace
+            Handcuffs: *Handcuffs
+        Reference:
+          Policeman:
+            Abilities:
+              Primary Abilities:
+                Fighting: Good
+                Agility: Good
+                Strength: Typical
+                Endurance: Good
+                Reason: Typical
+                Intuition: Typical
+                Psyche: Typical
+              Secondary Abilities:
+                Health: 32
+                Karma: 18
+              Special Abilities:
+                Talents:
+                  Professional Skills:
+                    Law Enforcement: *Law_Enforcement
+            Reference: Standard agent of law-enforcement. Walks a beat or patrols in a squad car. Equipment includes a billy club and handgun. May make arrests.
+      Rapid Response Officer:
+        Description: Members of the Varangian Guard's Crisis Rapid Response Team use improved SWAT operative stats and have the same base equipment as the uniformed guards, but additionally wear Flak Jackets and are armed with a Riot Gun, Assault Rifle, or Sniper Rifle depending on their role on their squad.  They have access to Gas Masks and Infra-Red Goggles as well.
+        Abilities:
+          Primary Abilities:
+            Fighting: Excellent
+            Agility: Excellent
+            Strength: Good
+            Endurance: Excellent
+            Reason: Good
+            Intuition: Good
+            Psyche: Excellent
+          Secondary Abilities:
+            Health: 70
+            Karma: 40
+          Talents:
+            Weapon Skills:
+              Blunt Weapons: *Blunt_Weapons
+              Marksmanship: *Marksmanship
+            Fighting Skills:
+              Martial Arts C: *Martial_Arts_C
+              Martial Arts E: *Martial_Arts_E
+            Professional Skills:
+              Military: *Military
+              Law Enforcement: *Law_Enforcement
+            Other Talents:
+              First Aid: *First_Aid
+        Equipment:
+          Shooting Weapons:
+            Handgun: *Handgun-Pistol
+            One of the Following:
+              Riot Gun:
+                Range: 2
+                Damage: 15
+                Type: Shooting
+                Rate: 1
+                Shots: 6
+                Material Strength: Excellent
+                Notes:
+                  - Fire one-handed at -1CS
+                Ammunition:
+                  Standard: *Standard_Ammunition
+                  Canister Shot: *Canister_Shot
+                Reference: *Riot_Gun
+              Sniper Rifle:
+                Range: 10
+                Damage: 15
+                Type: Shooting
+                Rate: 1
+                Shots: 4
+                Material Strength: Good
+                Ammunition:
+                  Standard: *Standard_Ammunition
+                  AP Shot: *AP_Shot
+                Reference: *Sniper_Rifle
+              Assault Rifle:
+                Range: 7
+                Damage: 10
+                Type: Shooting
+                Rate: 2
+                Shots: 20
+                Material Strength: Good
+                Notes: Military
+                Ammunition:
+                  Standard: *Standard_Ammunition
+                Reference: *Assault_Rifle
+          Melee and Thrown Weapons:
+            Club: *Club
+            Knife: *Knife
+            Handcuffs: *Handcuffs
+          Other Gear:
+            Flashlight, Standard: *Flashlight
+            Infra-red Goggles: *Infra-Red_Goggles
+            Mace: *Mace
+            Gas Mask: *Gas_Mask
+            Flak Jacket: *Flak_Jacket
+        Reference:
+          Swat Operative:
+            Abilities:
+              Primary Abilities:
+                Fighting: Excellent
+                Agility: Good
+                Strength: Good
+                Endurance: Typical
+                Reason: Typical
+                Intuition: Typical
+                Psyche: Good
+              Secondary Abilities:
+                Health: 46
+                Karma: 22
+              Special Abilities:
+                Talents:
+                  Weapons Skills:
+                    Marksmanship: *Marksmanship
+                  Professional Skills:
+                    Law Enforcement: *Law_Enforcement
+            Reference: Special Weapons and Tactics teams are attached to most modern police forces to handle volatile situations. Members wear flak jackets for protection and are expected to fight under dangerous conditions. In dealing with super-powered opponents, some SWAT teams are equipped with mechanical exoskeletons and nullifying restraints.
+      Special Officer:
+        Description: The Varangian Guard's plainclothes security and investigatos use improved Federal Agents stats, and are equipped with handguns and handcuffs
+        Abilities:
+          Primary Abilities:
+            Fighting: Excellent
+            Agility: Excellent
+            Strength: Good
+            Endurance: Excellent
+            Reason: Excellent
+            Intuition: Excellent
+            Psyche: Excellent
+          Secondary Abilities:
+            Health: 70
+            Karma: 60
+          Talents:
+            Weapon Skills:
+              Blunt Weapons: *Blunt_Weapons
+              Marksmanship: *Marksmanship
+            Fighting Skills:
+              Martial Arts C: *Martial_Arts_C
+            Professional Skills:
+              Military: *Military
+              Law Enforcement: *Law_Enforcement
+              Criminology: *Criminology
+              Detective/Espionage: *Detective-Espionage
+            Other Talents:
+              First Aid: *First_Aid
+        Equipment:
+          Handgun: *Handgun-Pistol
+          Handcuffs: *Handcuffs
+        Reference:
+          Federal Agent:
+            Abilities:
+              Primary Abilities:
+                Fighting: Good
+                Agility: Excellent
+                Strength: Good
+                Endurance: Good
+                Reason: Good
+                Intuition: Good
+                Psyche: Good
+              Secondary Abilities:
+                Health: 50
+                Karma: 30
+              Special Abilities:
+                Talents:
+                  Professional Skills:
+                    Law Enforcement: *Law_Enforcement
+                    Marksmanship: *Marksmanship
+            Reference: Federal agents include investigative agents of the FBI, CIA, OSS, KGB, and other alphabetized agencies. They normally carry handguns, but generally in the field they act in an information-gathering capacity.
+      Medical Responder:
+        Description: The Varangian Guard's emergency medical services use improved Paramedic stats.
+        Abilities:
+          Primary Abilities:
+            Fighting: Typical
+            Agility: Good
+            Strength: Good
+            Endurance: Excellent
+            Reason: Excellent
+            Intuition: Good
+            Psyche: Good
+          Secondary Abilities:
+            Health: 46
+            Karma: 40
+          Talents:
+            Professional Skills:
+              Military: *Military
+            Other Talents:
+              First Aid: *First_Aid
+        Reference:
+          Paramedic:
+            Abilities:
+              Primary Abilities:
+                Fighting: Poor
+                Agility: Typical
+                Strength: Typical
+                Endurance: Good
+                Reason: Good
+                Intuition: Typical
+                Psyche: Typical
+              Secondary Abilities:
+                Health: 26
+                Karma: 22
+              Special Abilities:
+                Talents:
+                  Other Talents:
+                    First Aid: *First_Aid
+            Reference: Paramedics operate out of ambulances equipped with medication and other life-support equipment. Their job is to get the sick and injured to the hospital in stable (or better) condition. They carry oxygen, a power saw, and a hydraulic jack winch.
+      Rescue Responder:
+        Description: The Varangian Guard's Firefighting and Search and Rescue personnel use improved Fire-Fighter stats.
+        Note: 
+        Abilities:
+          Primary Abilities:
+            Fighting: Good
+            Agility: Good
+            Strength: Excellent
+            Endurance: Excellent
+            Reason: Good
+            Intuition: Excellent
+            Psyche: Good
+          Secondary Abilities:
+            Health: 70
+            Karma: 40
+          Talents:
+            Other Talents:
+              First Aid: *First_Aid
+        Equipment:
+        Reference:
+          Fire-Fighter:
+            Abilities:
+              Primary Abilities:
+                Fighting: Typical
+                Agility: Typical
+                Strength: Good
+                Endurance: Excellent
+                Reason: Typical
+                Intuition: Good
+                Psyche: Typical
+              Secondary Abilities:
+                Health: 42
+                Karma: 22
+              Special Abilities:
+                Talents:
+                  Other Talents:
+                    First Aid: *First_Aid
+            Reference: Fire-fighters arrive on the scene of a fire with fire trucks and other equipment, including fire hoses, extinguishers, asbestos suits, and other protective gear.
+      Employee:
+        Description: The various employees of Varangian Guard, Inc. use improved Businessman stats, depending on their speciality.
+        Note: Their abilities are generally self-evident (a pilot will always have Pilot Talent, a computer specialist Computer Talent).
+        Abilities:
+          Primary Abilities:
+            Fighting: Typical
+            Agility:
+              Base: Good
+            Note:
+            Reference: 
+              Pilot: Excellent
+            Strength:
+              Base: Typical
+              Labor: Good
+            Endurance:
+              Base: Good
+              Labor: Excellent
+            Reason:
+              Base: Good
+              Management: Excellent
+              Technical: Excellent
+            Intuition:
+              Base: Good
+              Pilot: Excellent
+              Management: Excellent
+            Psyche:
+              Base: Good
+              Pilot: Excellent
+              Management: Excellent
+          Secondary Abilities:
+            Health:
+              Base: 32
+              Pilot: 36
+              Labor: 46
+            Karma:
+              Base: 30
+              Pilot: 50
+              Management: 60
+              Technical: 40
+          Special Abilities:
+            Talents:
+              Management:
+                Professional Skills:
+                  Law: *Law
+                  Business/Finance: *Business-Finance
+                Other Talents:
+                  Leadership: *Leadership
+              Pilot:
+                Professional Skills:
+                  Pilot: *Pilot
+                Other Talents:
+                  Repair/Tinkering: *Repair-Tinkering
+              Accountant:
+                Professional Skills:
+                  Business/Finance: *Business-Finance
+              Paralegal:
+                Professional Skills:
+                  Law: *Law
+              Computer Specialist:
+                Scientific Skills:
+                  Computers: *Computers
+                  Electronics: *Electronics
+                Other Talents:
+                  Repair/Tinkering: *Repair-Tinkering
+              Maintenance:
+                Other Talents:
+                  Repair/Tinkering: *Repair-Tinkering
+        Reference:
+          Businessman:
+            Abilities:
+              Primary Abilities:
+                Fighting: Poor
+                Agility: Typical
+                Strength: Typical
+                Endurance: Typical
+                Reason: Typical
+                Intuition: Typical
+                Psyche: Typical
+              Secondary Abilities:
+                Health: 22
+                Karma: 18
+              Special Abilities:
+                Talents: Varies
+            Reference: Your typical New Yorker (or San Franciscan or Clevelander). Standard human stats. Good for crowds or endangered passers-by. Includes politicians, secretaries, ice cream vendors, and the entire spectrum of normal everyday people.
+      Physician:
+        Description: The Varangian Guard's medical professionals use improved Doctor stats.
+        Note:
+          Abilities:
+            Primary Abilities:
+              Fighting: Typical
+              Agility: Good
+              Strength: Typical
+              Endurance: Good
+              Reason: Remarkable
+              Intuition: Excellent
+              Psyche: Excellent
+            Secondary Abilities:
+              Health: 32
+              Karma: 70
+            Special Abilities:
+              Talents:
+                Professional Skills:
+                  Medicine: *Medicine
+                  Psychiatry: *Psychiatry
+                Scientific Skills:
+                  Biology: *Biology
+                  Chemistry: *Chemistry
+                  Genetics: *Genetics
+                Other Talents:
+                  First Aid: *First_Aid
+        Reference:
+          Doctor:
+            Abilities:
+              Primary Abilities:
+                Fighting: Poor
+                Agility: Good
+                Strength: Typical
+                Endurance: Good
+                Reason: Good
+                Intuition: Good
+                Psyche: Good
+              Secondary Abilities:
+                Health: 30
+                Karma: 30
+              Special Abilities:
+                Talents:
+                  Professional Skills:
+                    Medicine: *Medicine
+            Reference: Doctors are the conventional method of stopping loss of Endurance in critically wounded characters, as well as taking care of diseases and illness. There are diseases that are beyond present technology to cure, though, and the special problems of super-powered individuals may require equally specialized treatments.
+      Counsel:
+        Description: Varangian Guard, Inc. corporate counsel use improved Lawyer stats.
+        Note:
+          Abilities:
+            Primary Abilities:
+              Fighting: Typical
+              Agility: Good
+              Strength: Typical
+              Endurance: Good
+              Reason: Excellent
+              Intuition: Remarkable
+              Psyche: Excellent
+            Secondary Abilities:
+              Health: 32
+              Karma: 70
+            Special Abilities:
+              Talents:
+                Professional Skills:
+                  Law: *Law
+                  Business/Finance: *Business-Finance
+                  Criminology: *Criminology
+                  Psychiatry: *Psychiatry
+                  Detective/Espionage: *Detective-Espionage
+        Reference:
+          Lawyer:
+            Abilities:
+              Primary Abilities:
+                Fighting: Poor
+                Agility: Typical
+                Strength: Typical
+                Endurance: Typical
+                Reason: Typical
+                Intuition: Good
+                Psyche: Typical
+              Secondary Abilities:
+                Health: 22
+                Karma: 22
+              Special Abilities:
+                Talents:
+                  Professional Skills:
+                    Law: *Law
+            Reference: |
+              Most hero organizations (and a bunch of villains as well) have a lawyer on retainer: that is, they pay the man to be around when they need representation in court. The Avengers and Fantastic Four both used the services of Murdock and Nelson, until that operation folded. Hiring a lawyer is an Excellent cost, though there are avenues available to those who cannot afford this.
+      Researcher:
+        Descripton: The scientists, engineers, and other research and development personnel of Varangian Guard, Inc. use improved Scientist stats.
+        Note:
+          Primary Abilities:
+            Fighting: Typical
+            Agility: Good
+            Strength: Typical
+            Endurance: Good
+            Reason: Remarkable
+            Intuition: Remarkable
+            Psyche: Good
+          Secondary Abilities:
+            Health: 32
+            Karma: 70
+          Special Abilities:
+            Talents:
+              Professional Skills:
+                Engineering: *Engineering
+              Scientific Skills:
+                Any three of the following:
+                  Biology: *Biology
+                  Chemistry: *Chemistry
+                  Genetics: *Genetics
+                  Physics: *Physics
+                  Geology: *Geology
+                  Archaeology: *Archaeology
+                  Computers: *Computers
+                  Electronics: *Electronics
+              Other Talents:
+                Languages: The character with this Talent has a natural understanding of languages. The character gains 1 additional language at start, and may add other languages at half the cost of a Talent (500 points regardless of who teaches it). Characters without the Languages Talent must gain this Talent first to learn other languages. The gaining of additional languages assumes someone is available to teach these languages. A Player character with this Talent does not have to assign a language at start, but may fill one in later as need be.
+                Repair/Tinkering: *Repair-Tinkering
+        Reference:
+          Scientist:
+            Abilities:
+              Primary Abilities:
+                Fighting: Poor
+                Agility: Typical
+                Strength: Poor
+                Endurance: Typical
+                Reason: Excellent
+                Intuition: Good
+                Psyche: Typical
+              Secondary Abilities:
+                Health: 20
+                Karma: 36
+              Special Abilities:
+                Talents:
+                  Scientific: Any one Scientific Talent
+            Reference: The above stats are for the typical scientist to be found in a research institution or on a college campus. There are specialists in their fields that have higher Reason abilities, but they are generally loners, usually because their advancements are so far beyond the bounds of modern science, or their pet theories are ridiculed, that they reject the establishment. (Many super-powered villains got their start in this fashion.)
