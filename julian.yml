@@ -2394,6 +2394,198 @@ Character Sheet:
                 Health: 24
                 Notes: Cats include most ordinary house cats and small wild cats. They inflict Edged attack damage with their claws but cannot score a Kill result against human targets. They move 2 areas/turn.
             Interdimensional Scanner: While this is not a mystical item, it is used to monitor dimensional nexus and scan dimensions that are near Earth. This room-sized piece of high-tech equipment was designed by Roger Bochs, who first created Box of Alpha Flight fame. He was assisted in its creation by Shaman. Imaging of these dimensions is often hazy, showing only the outlines of larger creatures, structures, and so forth. It is with this device that the Alpha Flight team unwittingly brought the Incredible Hulk back to the Earth dimension from another dimension where Doctor Strange had banished him for the good of mankind, and the Hulk’s own sake. Any use of this device to scan and observe another dimension requires a successful Reason FEAT roll.
+  Supporting Cast:
+      Varangos:
+        Description: Plural Varangoi. Elite operatives drawn from the highest echelons of special operations and intelligence work, screened for magical potential, Varangoi are the highly-paid, trusted bodyguards, proxies, agents, investigators, and fixers of their employer. When on duty but not in their Phylax Battlesuit they generally wear the subdued, tailored suits worn by federal agents, plainclothes detectives, and bodyguards with their Phylax Integrated Multipurpose Pistol and collapsed Phylax Staff discreetly concealed, or military fatigues and berets or boonie caps with their IMP and collapsed Staff on their pistol belts alongside flashlights, knives, handcuffs, and mace, depending on the assignment. If needed, they have a Phylax Integrated Multipurpose Rifle, but this is usually kept in their vehicle until needed. Varangoi also have a formal dress uniform, prominently featuring Byzantine and Norse motifs and styling over a modern military dress base, including a (functional) ceremonial sword and dagger (sometimes a spear for bearing a guidon or banner) and a formal cape. They generally operate in pairs or multiples thereof, two each sharing a Arma TUV or TUA unit for patrol and response, four to eight to an arma TUW for marine patrol and response. Within the organization, Varangos captains have the title "Akólouthos" (Follower). Some exceptional individuals may differ somewhat from these baseline stats.
+        Note: Akólouthoi have the Leadership Talent.
+        Origin: *Normal_Human_Self-Achievement
+        Abilities:
+          Primary Abilities:
+            Fighting: Remarkable
+            Agility: Remarkable
+            Strength: Excellent
+            Endurance: Remarkable
+            Reason: Excellent
+            Intuition: Remarkable
+            Psyche: Excellent
+          Secondary Abilities:
+            Health: 110
+            Karma: 70
+            Resources: Excellent
+            Popularity: Excellent
+          Powers:
+            Advanced Player's Book:
+              Magic:
+                Eldritch Bolts:
+                  Rank: Psyche
+                  Reference: *Eldritch_Bolts
+                Eldritch Shield:
+                  Rank: Psyche
+                  Reference: *Eldritch_Shield
+          Talents:
+            Weapons Skills:
+              Guns: *Guns
+              Blunt Weapons: *Blunt_Weapons
+              Sharp Weapons: *Sharp_Weapons
+              Marksman: *Marksmanship
+            Fighting Skills:
+              Martial Arts A: *Martial_Arts_A
+              Martial Arts B: *Martial_Arts_B
+              Martial Arts C: *Martial_Arts_C
+              Martial Arts E: *Martial_Arts_E
+              Acrobatics: *Acrobatics
+              Tumbling: *Tumbling
+            Professional Skills:
+              Law Enforcement: &Law_Enforcement The character with this Talent has a background with law-enforcement authorities. This Talent includes both Gun and Law Talents, and the character, if still a member of a law-enforcement agency, may legally carry a gun and make arrests.
+              Pilot: *Pilot
+              Military: *Military
+              Criminology: *Criminology
+              Detective/Espionage: *Detective-Espionage
+            Scientific Skills:
+              Computer: *Computers
+              Electronics: *Electronics
+            Mystic and Mental Skills:
+              Resist Domination: *Resist_Domination
+              Occult Lore: *Occult_Lore
+              Mystic Background: *Mystic_Background
+            Other Talents:
+              Languages: *Languages
+              First Aid: *First_Aid
+              Repair/Tinkering: *Repair-Tinkering
+              Leadership:
+                Note: Akólouthoi only.
+                Reference: *Leadership
+          Contacts:
+            Professional:
+              - One Military contact from Military Talent
+              - One Law Enforcement or Crime contact from the Criminology Talent
+              - One Crime, Law Enforcement, Law, or Espionage contact from the Detective/Espionage Talent
+          Magic:
+            Character Type:
+              Magic Wielder: *Magic_Wielder
+            Magic School:
+              Scientific Magic: *Scientific_Magic
+            Energy Use:
+              Personal and Universal Energies Only: *Personal-Universal
+            Rank:
+              Novice: *Novice
+            Master: Julian Constantine
+            Spells: Any 1-4 spells from the Personal Energies or Universal Energies lists at Psyche Rank.
+        Equipment:
+          Shooting Weapons:
+            Phylax Integrated Multipurpose Pistol: *Phylax_Integrated_Multipurpose_Pistol
+            Phylax Integrated Multipurpose Rifle: *Phylax_Integrated_Multipurpose_Rifle
+          Melee and Thrown Weapons:
+            Phylax Tactical Multipurpose Staff: *Phylax_Tactical_Multipurpose_Staff
+            Ceremonial Dagger:
+              Description: An ornate shortsword, styled as a gladius and decorated with precious metals, gems, and engraving.
+              Reference:
+                Knife: &Knife
+                  Damage: 10
+                  Type:
+                    - Edged Attack
+                    - Edged Throwing
+                  Material Strength: Excellent
+                  Reference: *Knife_Ref
+            Ceremonial Sword:
+              Description: An ornate longsword, styled as a spatha and decorated with precious metals, gems, and engraving.
+              Reference:
+                Sword:
+                  Damage: 10
+                  Type: Edged Attack
+                  Material Strength: Excellent
+                  Reference: Swords are considered one-handed blade weapons with blades over 12 inches long. They are not normally thrown.
+            Ceremonial Spear:
+              Description: An ornate spear, styled as a short Kontárion, decorated with precious metals, gems, and engraving, bearing ribbons, banners, or guidons.
+              Reference:
+                Spear:
+                  Damage: 10
+                  Type:
+                    - Edged Attack
+                    - Edged Throwing
+                  Material Strength: Good
+                  Reference: |
+                    A Spear is considered as any thrusting blade with a handle over one foot long. It is normally thrown or wielded with two hands.
+            Tactical Knife:
+              Description: A short, sturdy, locking folding knife easily opened with one hand, has a sharp point and partially serrated blade and back.
+              Reference: *Knife
+          Vehicles:
+            Arma Tactical Utility Vehicle: *Arma_TUV
+            Arma Tactical Utility Watercraft: *Arma_TUW
+            Arma Tactical Utility Aircraft: *Arma_TUA
+          Other Equipment:
+            Phylax Battlesuit Model I: *Phylax_Battlesuit
+            Handcuffs: &Handcuffs Handcuffs are a standard restraining device used by the police forces of the world to prevent actions by criminals in custody. They are made of Excellent material.
+            Flashlight: *Flashlight
+            Mace: *Mace
+            Camera: Camera represents the standard photographer's tool. More expensive versions are available with higher definition. Camera accessories would include film (Feeble cost), flash (normal or halogen, as flashlight), and special lens, such as telephoto lens (Good cost).
+      Magos:
+        Description: Plural Magoi. Magoi are those disciples and apprentices of Julian Constantine truly walking the path of the Scientific Sorcerer. They're the closest circle of his proxies and agents, deputies serving as his eyes, hands, and mouths. Their ornate, Byzantine-styled ceremonial robes or mantles, featuring a mix of Greco-Roman and Nordic motifs, are usually worn over slickly tailored, designer suits, and their fingers, wrists, and necks bedecked with jewelry of arcane significance.  Within the organization, Varangian Magos have the title Mágistros (Magister, Master, Teacher),  with the senior among them titled Kýrios (Lord). Some exceptional individuals may differ somewhat from these baseline stats.
+        Origin: *Normal_Human_Self-Achievement
+        Abilities:
+          Primary Abilities:
+            Fighting: Good
+            Agility: Good
+            Strength: Good
+            Endurance: Excellent
+            Reason: Remarkable
+            Intuition: Incredible
+            Psyche: Remarkable
+          Secondary Abilities:
+            Health: 50
+            Karma: 100
+            Resources: Excellent
+            Popularity: Excellent
+          Powers:
+            Advanced Player's Book:
+              Magic:
+                Eldritch Bolts:
+                  Rank: Psyche
+                  Reference: *Eldritch_Bolts
+                Eldritch Shield:
+                  Rank: Psyche
+                  Reference: *Eldritch_Shield
+          Talents:
+            Scientific Skills:
+              Archaeology: *Archaeology
+            Mystic and Mental Skills:
+              Trance: *Trance
+              Mesmerism and Hypnosis: *Mesmerism_and_Hypnosis
+              Resist Domination: *Resist_Domination
+              Occult Lore: *Occult_Lore
+              Mystic Background: *Mystic_Background
+            Other Talents:
+              Languages: *Languages
+            Magic Wielder Talents:
+              Any Three of the Following:
+                - Bibliophile: *Bibliophile 
+                - Chronicler of Magic: *Chronicler_of_Magic
+                - Demonologist: *Demonologist
+                - Occultist: *Occultist
+                - Runesmith: *Runesmith
+                - Scholar of Antiquities: *Scholar_of_Antiquities
+                - Theoginist: *Theoginist
+                - Zoologist of Magic: *Zoologist_of_Magic
+          Magic:
+            Character Type:
+              Magic Wielder: *Magic_Wielder
+            Magic School:
+              Scientific Magic: *Scientific_Magic
+            Energy Use:
+              Personal and Universal Energies Only: *Personal-Universal
+            Rank:
+              Disciple: *Disciple
+            Master: Julian Constantine
+            Spells:  Any 5-8 spells from the Personal Energies or Universal Energies lists at Psyche Rank.
+        Equipment:
+        Vehicles:
+          Luxury Car: *Luxury_Car
+        Salaries Sundries and Other Equipment:
+          Purchased Suit or Tux: Multiple
+          Mystic Texts: *Mystic_Texts
+        Magical Items:
+          Grimoire: *Grimoire
+          Additional: 0-4 rolled, with Spells from the Personal Energies or Universal Energies lists at Psyche rank.
   Hero Team:
     The Varangian Guard:
       Name: Varangian Guard, Incorporated
@@ -3132,197 +3324,6 @@ Character Sheet:
               Protection: Remarkable
               Reference: The Borer is not really a land vehicle but a subterranean vehicle. It allows speedy travel through the underground. If moving at Poor speed, its passage leaves a tunnel that others may follow; otherwise, it leaves churned earth behind it. Villains who live deep within the Earth, such as Mole Man, use the Borer as standard equipment. Because of its construction, with the forward screw, the borer can make an Edged Attack for Incredible damage.
     Personnel:
-      Varangos:
-        Description: Plural Varangoi. Elite operatives drawn from the highest echelons of special operations and intelligence work, screened for magical potential, Varangoi are the highly-paid, trusted bodyguards, proxies, agents, investigators, and fixers of their employer. When on duty but not in their Phylax Battlesuit they generally wear the subdued, tailored suits worn by federal agents, plainclothes detectives, and bodyguards with their Phylax Integrated Multipurpose Pistol and collapsed Phylax Staff discreetly concealed, or military fatigues and berets or boonie caps with their IMP and collapsed Staff on their pistol belts alongside flashlights, knives, handcuffs, and mace, depending on the assignment. If needed, they have a Phylax Integrated Multipurpose Rifle, but this is usually kept in their vehicle until needed. Varangoi also have a formal dress uniform, prominently featuring Byzantine and Norse motifs and styling over a modern military dress base, including a (functional) ceremonial sword and dagger (sometimes a spear for bearing a guidon or banner) and a formal cape. They generally operate in pairs or multiples thereof, two each sharing a Arma TUV or TUA unit for patrol and response, four to eight to an arma TUW for marine patrol and response. Within the organization, Varangos captains have the title "Akólouthos" (Follower). Some exceptional individuals may differ somewhat from these baseline stats.
-        Note: Akólouthoi have the Leadership Talent.
-        Origin: *Normal_Human_Self-Achievement
-        Abilities:
-          Primary Abilities:
-            Fighting: Remarkable
-            Agility: Remarkable
-            Strength: Excellent
-            Endurance: Remarkable
-            Reason: Excellent
-            Intuition: Remarkable
-            Psyche: Excellent
-          Secondary Abilities:
-            Health: 110
-            Karma: 70
-            Resources: Excellent
-            Popularity: Excellent
-          Powers:
-            Advanced Player's Book:
-              Magic:
-                Eldritch Bolts:
-                  Rank: Psyche
-                  Reference: *Eldritch_Bolts
-                Eldritch Shield:
-                  Rank: Psyche
-                  Reference: *Eldritch_Shield
-          Talents:
-            Weapons Skills:
-              Guns: *Guns
-              Blunt Weapons: *Blunt_Weapons
-              Sharp Weapons: *Sharp_Weapons
-              Marksman: *Marksmanship
-            Fighting Skills:
-              Martial Arts A: *Martial_Arts_A
-              Martial Arts B: *Martial_Arts_B
-              Martial Arts C: *Martial_Arts_C
-              Martial Arts E: *Martial_Arts_E
-              Acrobatics: *Acrobatics
-              Tumbling: *Tumbling
-            Professional Skills:
-              Law Enforcement: &Law_Enforcement The character with this Talent has a background with law-enforcement authorities. This Talent includes both Gun and Law Talents, and the character, if still a member of a law-enforcement agency, may legally carry a gun and make arrests.
-              Pilot: *Pilot
-              Military: *Military
-              Criminology: *Criminology
-              Detective/Espionage: *Detective-Espionage
-            Scientific Skills:
-              Computer: *Computers
-              Electronics: *Electronics
-            Mystic and Mental Skills:
-              Resist Domination: *Resist_Domination
-              Occult Lore: *Occult_Lore
-              Mystic Background: *Mystic_Background
-            Other Talents:
-              Languages: *Languages
-              First Aid: *First_Aid
-              Repair/Tinkering: *Repair-Tinkering
-              Leadership:
-                Note: Akólouthoi only.
-                Reference: *Leadership
-          Contacts:
-            Professional:
-              - One Military contact from Military Talent
-              - One Law Enforcement or Crime contact from the Criminology Talent
-              - One Crime, Law Enforcement, Law, or Espionage contact from the Detective/Espionage Talent
-          Magic:
-            Character Type:
-              Magic Wielder: *Magic_Wielder
-            Magic School:
-              Scientific Magic: *Scientific_Magic
-            Energy Use:
-              Personal and Universal Energies Only: *Personal-Universal
-            Rank:
-              Novice: *Novice
-            Master: Julian Constantine
-            Spells: Any 1-4 spells from the Personal Energies or Universal Energies lists at Psyche Rank.
-        Equipment:
-          Shooting Weapons:
-            Phylax Integrated Multipurpose Pistol: *Phylax_Integrated_Multipurpose_Pistol
-            Phylax Integrated Multipurpose Rifle: *Phylax_Integrated_Multipurpose_Rifle
-          Melee and Thrown Weapons:
-            Phylax Tactical Multipurpose Staff: *Phylax_Tactical_Multipurpose_Staff
-            Ceremonial Dagger:
-              Description: An ornate shortsword, styled as a gladius and decorated with precious metals, gems, and engraving.
-              Reference:
-                Knife: &Knife
-                  Damage: 10
-                  Type:
-                    - Edged Attack
-                    - Edged Throwing
-                  Material Strength: Excellent
-                  Reference: *Knife_Ref
-            Ceremonial Sword:
-              Description: An ornate longsword, styled as a spatha and decorated with precious metals, gems, and engraving.
-              Reference:
-                Sword:
-                  Damage: 10
-                  Type: Edged Attack
-                  Material Strength: Excellent
-                  Reference: Swords are considered one-handed blade weapons with blades over 12 inches long. They are not normally thrown.
-            Ceremonial Spear:
-              Description: An ornate spear, styled as a short Kontárion, decorated with precious metals, gems, and engraving, bearing ribbons, banners, or guidons.
-              Reference:
-                Spear:
-                  Damage: 10
-                  Type:
-                    - Edged Attack
-                    - Edged Throwing
-                  Material Strength: Good
-                  Reference: |
-                    A Spear is considered as any thrusting blade with a handle over one foot long. It is normally thrown or wielded with two hands.
-            Tactical Knife:
-              Description: A short, sturdy, locking folding knife easily opened with one hand, has a sharp point and partially serrated blade and back.
-              Reference: *Knife
-          Vehicles:
-            Arma Tactical Utility Vehicle: *Arma_TUV
-            Arma Tactical Utility Watercraft: *Arma_TUW
-            Arma Tactical Utility Aircraft: *Arma_TUA
-          Other Equipment:
-            Phylax Battlesuit Model I: *Phylax_Battlesuit
-            Handcuffs: &Handcuffs Handcuffs are a standard restraining device used by the police forces of the world to prevent actions by criminals in custody. They are made of Excellent material.
-            Flashlight: *Flashlight
-            Mace: *Mace
-            Camera: Camera represents the standard photographer's tool. More expensive versions are available with higher definition. Camera accessories would include film (Feeble cost), flash (normal or halogen, as flashlight), and special lens, such as telephoto lens (Good cost).
-      Magos:
-        Description: Plural Magoi. Magoi are those disciples and apprentices of Julian Constantine truly walking the path of the Scientific Sorcerer. They're the closest circle of his proxies and agents, deputies serving as his eyes, hands, and mouths. Their ornate, Byzantine-styled ceremonial robes or mantles, featuring a mix of Greco-Roman and Nordic motifs, are usually worn over slickly tailored, designer suits, and their fingers, wrists, and necks bedecked with jewelry of arcane significance.  Within the organization, Varangian Magos have the title Mágistros (Magister, Master, Teacher),  with the senior among them titled Kýrios (Lord). Some exceptional individuals may differ somewhat from these baseline stats.
-        Origin: *Normal_Human_Self-Achievement
-        Abilities:
-          Primary Abilities:
-            Fighting: Good
-            Agility: Good
-            Strength: Good
-            Endurance: Excellent
-            Reason: Remarkable
-            Intuition: Incredible
-            Psyche: Remarkable
-          Secondary Abilities:
-            Health: 50
-            Karma: 100
-            Resources: Excellent
-            Popularity: Excellent
-          Powers:
-            Advanced Player's Book:
-              Magic:
-                Eldritch Bolts:
-                  Rank: Psyche
-                  Reference: *Eldritch_Bolts
-                Eldritch Shield:
-                  Rank: Psyche
-                  Reference: *Eldritch_Shield
-          Talents:
-            Scientific Skills:
-              Archaeology: *Archaeology
-            Mystic and Mental Skills:
-              Trance: *Trance
-              Mesmerism and Hypnosis: *Mesmerism_and_Hypnosis
-              Resist Domination: *Resist_Domination
-              Occult Lore: *Occult_Lore
-              Mystic Background: *Mystic_Background
-            Other Talents:
-              Languages: *Languages
-            Magic Wielder Talents:
-              Any Three of the Following:
-                - Bibliophile: *Bibliophile 
-                - Chronicler of Magic: *Chronicler_of_Magic
-                - Demonologist: *Demonologist
-                - Occultist: *Occultist
-                - Runesmith: *Runesmith
-                - Scholar of Antiquities: *Scholar_of_Antiquities
-                - Theoginist: *Theoginist
-                - Zoologist of Magic: *Zoologist_of_Magic
-          Magic:
-            Character Type:
-              Magic Wielder: *Magic_Wielder
-            Magic School:
-              Scientific Magic: *Scientific_Magic
-            Energy Use:
-              Personal and Universal Energies Only: *Personal-Universal
-            Rank:
-              Disciple: *Disciple
-            Master: Julian Constantine
-            Spells:  Any 5-8 spells from the Personal Energies or Universal Energies lists at Psyche Rank.
-        Equipment:
-        Vehicles:
-          Luxury Car: *Luxury_Car
-        Salaries Sundries and Other Equipment:
-          Purchased Suit or Tux: Multiple
-          Mystic Texts: *Mystic_Texts
-        Magical Items:
-          Grimoire: *Grimoire
-          Additional: 0-4 rolled, with Spells from the Personal Energies or Universal Energies lists at Psyche rank.
       Security Officer:
         Description: Varangian Guard, Inc. Security Officers use improved Policeman stats and are equipped with a handgun, club, handcuffs, flashlight, and mace.
         Abilities:
