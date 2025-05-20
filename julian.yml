@@ -1175,8 +1175,6 @@ Character Sheet:
                                         Type: Edged Attack
                                         Material Strength: Unearthly
                                         Health Required: 3
-                                        Reference:
-                                          Sword: *Sword
                                   Reference: |
                                       The hero can create any desired weapon out of thin air. The weapon can be of any design, size, and material. The size of the weapon is limited by its weight. The hero can only create in a single turn a maximum number of ounces equal to his Power rank number. Heavier weapons have to be assembled in pieces over a span of several turns. While the material strength of the created weapon is the same as that of a normally-manufactured weapon of the same type, its duration is much shorter. The lifespan of the weapon is determined at the time of creation. A Typical Intensity FEAT gives the weapon a lifespan of 100 turns times the hero's Reason rank number. On an Amazing Intensity FEAT, the weapon lasts for the hero's Reason rank number times 10,000 turns. Should he make an Unearthly Intensity FEAT, the weapon will be permanent.
 
@@ -1370,14 +1368,20 @@ Character Sheet:
                             - Magic for Order: *Magic_for_Order
                             - Faerie Magic: This school is based on the practices of the faerie, an ancient race of beings with supernatural powers who originated in an extradimensional world that borders upon Britain and Ireland on Earth. This magic school is similar to the Druidic school, except that a character in this school most likely possesses faerie blood. This makes him extremely powerful when wielding an ancient faerie artifact or in Britain or Ireland, but extremely vulnerable to iron or steel.
                             - Special Realm or Pantheon: *Special_Realm_or_Pantheon
-                            - Eclectic Magic: *Eclectic_Magic
+                            - Eclectic Magic: &Eclectic_Magic This is an unorganized school of magic, that is, it follows no one school of philosophy but is a hodge-podge of “get-as-get-can” magic. It is considered neutral magic. Many of those who “dabble” in magic, and are not up to the level of a Marvel super hero, usually wind up with this type of magic. A spell learned here, an enchantment discovered there, makes up the whole of their philosophy. The bonus with this is that there is very little to bind the character (enemies, rituals, obligations, etc.), the penalty with this type of magic is that there is no one to learn from in a complete and comprehensive manner; thus advancement can be very slow.
                         Energy Use:
-                          Personal and Universal Energies Only: *Personal-Universal
+                          Personal and Universal Energies Only: &Personal-Universal Personal and Universal Energies Only means that the character can use spells listed as both Personal Energies and Universal Energies. The character’s spells will only be able to be utilized by tapping into either his personal energy or the energy of the universe around him.
                         Rank:
                           Min:
-                            Novice: *Novice
+                            Novice: &Novice |
+                              This character knows fewer than five spells or has less than an Amazing spell rank in at least two spells. He is spending most of his time with his master (when not practicing what he has learned on villains). He can study tomes and scrolls and even perform magic found therein, but he cannot yet learn spells on his own (spells that he has read in a tome or on a scroll must be studied each time he uses them—he cannot commit them to memory.)
+
+                              Novices are usually ignored by the more powerful dimensional entities. A novice using a Dimensional Entreaty spell uses his magic as normal, but no FEAT roll is necessary to determine if the entity entreated will be affronted by the entreaty and take action. The dimensional entity feels that it is an investment in the future, but the character is currently beneath his total consideration. A novice can, however, provoke a hostile reaction from extradimensional entities by abusing their power—using it in ways the entity would not normally approve of (see “Abusing Dimensional Entreaties” in the “HOW SPELLS ARE CAST” section in the Manual of Magic.
                           Max:
-                            Disciple: *Disciple
+                            Disciple: &Disciple |
+                              The character possesses at least 5 spells or has at least an Amazing rank in all of his spells. He assists the master in some of his rituals, but is spending more time adventuring than a novice. He may learn new spells from his master’s written works.
+
+                              Disciples, like novices, are usually ignored by the more powerful dimensional entities. A disciple using a Dimensional Entreaty spell uses his magic as normal, but no FEAT roll is necessary to determine if the entity entreated will be affronted by the entreaty and take action. The dimensional entity feels that it is an investment in the future, but the character is currently beneath his total consideration. A disciple can, however, provoke a hostile reaction from extra-dimensional entities by abusing their power-using it in ways the entity would not normally approve of (see “Abusing Dimensional Entreaties” in the “HOW SPELLS ARE CAST” section in the Manual of Magic.)
                         Master: ~
                         Spells: Any two spells from the Personal Energies or Universal Energies lists at Psyche Rank.
                     Equipment: Varies
@@ -1789,7 +1793,7 @@ Character Sheet:
                   Smoke: Smoke, whether from fire or missiles, is usually considered to be of Excellent Intensity to see through. All FEATs performed while in a Smoke-filled area are at -2CS.
                 Other Equipment:
                   Caltrops: Caltrops are small, dart-like jacks that are scattered to avoid pursuit. They inflict Poor Edged Attack on those that step on them (but are non-lethal– no Kill results). For road and off-road vehicles that use tires, the caltrop acts as an Edged Attack of Excellent damage and immediately forces a Control FEAT.
-                  Personal Computer: *Personal_Computer
+                  Personal Computer: &Personal_Computer The Personal Computer listed here is the type commonly available to most Americans and is a tool, not an artificial intelligence, unlike some more powerful computers. The personal computer may be considered to have Poor Reason for problem-solving, analysis, etc. as it is only as smart as the information placed inside it. At Excellent Cost, the user can get a modem that links his machine into a net with other machines.
                   Flashlight: *Flashlight
                 Custom Equipment:
                   Phylax Integrated Multipurpose Cannon: *Phylax_Integrated_Multipurpose_Cannon
@@ -1823,7 +1827,7 @@ Character Sheet:
                   Patrol Boat: The Patrol Boat includes those craft of the harbor patrol and Coast Guard, as well as small military craft. Most patrol boats are armed with one piece of light artillery, 1-3 machine guns, and carry a crew of up to 10.
                   Hydrofoil: The Hydrofoil is among the fastest of watercraft. It attains its high speed by rising above the water on skis, reducing the drag from the boat in the water. The disadvantage is that any successful attack on the hydrofoil results in a Control FEAT to see if control is lost. If control is lost on a Hydrofoil at greater than Excellent speed, the craft will crash into the water.
                   Mini-Sub: Mini-subs are one- or two-man craft that may be launched from specially designed ships. These subs are faster and more maneuverable than the sub itself and are armed with missiles or laser rifles.
-                  Hovercraft: The Hovercraft is the only notable mention of the Ground Effect Vehicle. This vehicle is neither fish nor fowl, as it rides on a cushion of air, handles as does an Air type, but goes out of control as an off-road vehicle. Hovercraft move at a maximum Speed of Good off road, over broken ground, or in stormy weather.
+                  Hovercraft: &Hovercraft The Hovercraft is the only notable mention of the Ground Effect Vehicle. This vehicle is neither fish nor fowl, as it rides on a cushion of air, handles as does an Air type, but goes out of control as an off-road vehicle. Hovercraft move at a maximum Speed of Good off road, over broken ground, or in stormy weather.
                   Ambulance: *Ambulance
                   Armored Carrier: The Armored Carrier is an armored troop-carrying vehicle (about 20 people maximum). The armored carrier operates on treads and carries two machine guns (lasers in some cases).
                 Other Weapons:
@@ -1831,7 +1835,7 @@ Character Sheet:
                 Other Equipment:
                   Personal Computer: *Personal_Computer
                   Flashlight: *Flashlight
-                  Scuba: *Scuba_Gear
+                  Scuba: &Scuba_Gear Scuba Gear allows the wearer to breathe tanked air for 2 hours and, as such, dive to moderate depths in the ocean.
                 Custom Equipment:
                   Phylax Integrated Multipurpose Cannon: *Phylax_Integrated_Multipurpose_Cannon
             Tactical Utility Aircraft: &Arma_TUA
@@ -1840,7 +1844,7 @@ Character Sheet:
                 
                 It's an integrated combination of existing items (Traffic Copter, Battle Copter, Corporate Jet, Hovercraft, Armored Car, and Ambulance).
               Type:
-                Air: Air vehicles travel mainly through the friendly skies, and include all forms of aircraft from gliders to the Concorde.
+                Air: &Air Air vehicles travel mainly through the friendly skies, and include all forms of aircraft from gliders to the Concorde.
                 GEV: *GEV
               Control:
                 Air: Excellent
@@ -1854,10 +1858,10 @@ Character Sheet:
               Protection: Remarkable
               Reference:
                 Vehicles:
-                  Traffic Copter: Traffic Copters are fairly common in the airspace over American cities, and this type also includes private vehicles and medivac copters as well. Helicopters have VTOL ability (Vertical Take-off and Landing), and as such may drop to 0 speed without losing control.
+                  Traffic Copter: &Traffic_Copter_Ref Traffic Copters are fairly common in the airspace over American cities, and this type also includes private vehicles and medivac copters as well. Helicopters have VTOL ability (Vertical Take-off and Landing), and as such may drop to 0 speed without losing control.
                   Battle Copter: Battle Copters are heavy-duty versions of the Traffic Copter, can carry a squad of 15 men plus crew, and are armed with Machine Guns (alternately lasers). All Copters have VTOL abilities and may hover in place.
-                  Corporate Jet: Corporate Jets represent the more modern turbo-prop jets that more powerful corporations use for their top executives. Corporate Jets have a crew of two and may carry up to 20 people in comfort.
-                  Hovercraft: The Hovercraft is the only notable mention of the Ground Effect Vehicle. This vehicle is neither fish nor fowl, as it rides on a cushion of air, handles as does an Air type, but goes out of control as an off-road vehicle. Hovercraft move at a maximum Speed of Good off road, over broken ground, or in stormy weather.
+                  Corporate Jet: &Corporate_Jet Corporate Jets represent the more modern turbo-prop jets that more powerful corporations use for their top executives. Corporate Jets have a crew of two and may carry up to 20 people in comfort.
+                  Hovercraft: *Hovercraft
                   Ambulance: *Ambulance
                   Armored Car: *Armored_Car
                 Other Equipment:
@@ -1885,7 +1889,7 @@ Character Sheet:
             Reference:
               Mansion (30+ rooms):
                 Size:
-                  Deluxe: Deluxe is the largest size, and is for heroes with several vehicle types, trophy rooms, and living quarters. It has 20 + areas spread through 3 or more floors.
+                  Deluxe: &Deluxe Deluxe is the largest size, and is for heroes with several vehicle types, trophy rooms, and living quarters. It has 20 + areas spread through 3 or more floors.
                 Material Strength: Excellent
             Room Packages:
               Living Room Package:
@@ -1906,7 +1910,7 @@ Character Sheet:
                     - Medium:
                       - Piano
                       - Stereo
-                Reference: |
+                Reference: &Living_Room_Package |
                   Cost: Good - Occupies one room. Consists of sofa, two easy chairs, two end tables, coffee tables, two lamps (ceiling table or floor). At Excellent Cost add television, stereo set-up, or piano. At Remarkable Cost add all three.
               Dining Room Package:
                 Cost:
@@ -1917,14 +1921,14 @@ Character Sheet:
                   - Multiple:
                     - Size
                     - Number
-                Reference: |
+                Reference: &Dining_Room_Package |
                   Cost: Good - Occupies one room. Consists of table, four chairs, ceiling lamp. Excellent Cost add large table, bureau and four more chairs. Remarkable Cost add china cabinet, set of good china and sterling tableware.
               Kitchen Package:
                 Cost:
                   Total: Amazing
                   Base: Remarkable
                 Note: *+2CS_High-Quality
-                Reference: |
+                Reference: &Kitchen_Package |
                   Cost: Good - Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing. At Excellent Cost add refrigerator, dishwasher, or microwave, plus a fire extinguisher. At Remarkable Cost add all three and freezer.
               Library Package:
                 Cost:
@@ -1933,35 +1937,35 @@ Character Sheet:
                 Note:
                   - *+2CS_High-Quality
                   - Multiple: Size
-                Reference: |
+                Reference: &Library_Package |
                   Cost: Excellent - Occupies one room. Consists of two easy chairs, table, desk, straight chair, and up to five bookcases on general subjects (texts readily available, and including encyclopedias, world histories, and atlases). At Remarkable Cost adds globe, microfiche or microfilm reader, computer terminal (only useful if building has computer room or is linked up to computer). Special or rare volumes, such as the Book of the Vishanti, the Necronomicon, or Amazing Fantasy #15, would have to be obtained separately.
               Office Package:
                 Cost:
                   Total: Amazing
                   Base: Remarkable
                 Note: *+2CS_High-Quality
-                Reference: |
+                Reference: &Office_Package |
                   Cost: Good - Occupies one or more rooms. Includes desk, three chairs, two lamps. At Excellent Cost doubles the material, adds file cabinet, typewriter. At Remarkable Cost, add computer terminal, double previous material, add hanging plants, decorative art.
               Rec-Room Package:
                 Cost:
                   Total: Amazing
                   Base: Remarkable
                 Note: *+2CS_High-Quality
-                Reference: |
+                Reference: &Rec-Room_Package |
                   Cost: Excellent Occupies one or more rooms. Consists of unmatched sofa and easy chairs, pool table or ping pong table or TV. At Remarkable Cost, contains all of the above, video and/or pinball machines (hot tub is optional, only in California). At Amazing Cost, has all of the above plus computer-assisted holographic entertainment projector.
               Gym Package:
                 Cost:
                   Total: Unearthly
                   Base: Amazing
                 Note: *+2CS_High-Quality
-                Reference: |
+                Reference: &Gym_Package |
                   Cost: Excellent Occupies one or more rooms. Consists of typical weight-lifting equipment, universal gym, lockers. At Remarkable Cost includes rings, even and uneven parallel bar, short horse. At Incredible Cost includes separate locker and steam rooms (two additional rooms), diagnostic displays. At Amazing Cost includes a boxing area, robotic opponents, and electronic-based weights capable of reaching 100 tons, and must occupy at least 3 areas.
               Communications Room:
                 Cost:
                   Total: Monstrous
                   Base: Incredible
                 Note: *+2CS_High-Quality
-                Reference: |
+                Reference: &Communications_Room |
                   Cost: Remarkable Occupies one room. Includes chair, short-wave monitor, tap-in for computer networks, police band. At Incredible Cost includes national security alert equipment and visual display screens.
               Trophy Room Package:
                 Cost:
@@ -1970,56 +1974,56 @@ Character Sheet:
                 Note: 
                   - *+2CS_High-Quality
                   - Multiple
-                Reference: |
+                Reference: &Trophy_Room_Package |
                   Cost: Excellent Occupies one room. Contains showcase, lighting, frames to display mementos, and may be used as a reception hall or gallery. At Remarkable Cost, contains capability to handle potentially dangerous exhibits at the Incredible level.
               Garage Package:
                 Cost:
                   Total: Amazing
                   Base: Remarkable
                 Note: *+2CS_High-Quality
-                Reference: |
+                Reference: &Garage_Package |
                   Cost: Good Occupies one room. Servicing for a single ground vehicle, including repair facilities and fire extinguisher. Excellent Cost may service up to three ground vehicles, and Remarkable up to 12 ground vehicles.
               Workshop Package:
                 Cost:
                   Total: Unearthly
                   Base: Amazing
                 Note: *+2CS_High-Quality
-                Reference: |
+                Reference: &Workshop_Package |
                   Cost: Remarkable Occupies one or more rooms. Basic equipment for metal and woodworking: lathes, drills, saws and fire extinguisher. At Incredible Cost includes laser-guided instruments. At Amazing Cost includes all of the above and automatic processing materials (an automatic factory, in effect, for simple goods).
               Laboratory Package:
                 Cost:
                   Total: Unearthly
                   Base: Amazing
                 Note: *+2CS_High-Quality
-                Reference: |
+                Reference: &Laboratory_Package |
                   Cost: Remarkable Occupies one or more rooms. Basic lab equipment: scales, sinks, common chemicals, microscope. At Incredible Cost include computer capable of analysis with incredible ability, or clean room (prevent germs from escaping lab). At Amazing Cost include both, plus poison analysis and serum dispenser (Excellent effects against known poisons only). Certain pieces, such as electron micro-probes and stellar mass detectors, may be purchased separately (in general, such items are Incredible Rank purchases).
               Power Room:
                 Cost: Amazing
-                Reference: |
+                Reference: &Power_Room |
                   Cost: Remarkable Occupies one room. Buildings are generally assumed to draw their power from outside sources, with the resulting danger of blackouts and power overloads. Heroes who wish a back-up source or alternate source (say, to power a Monstrous-strength ray-gun) must install their own power supply. At this level, the generator purchased will provide a 12-hour supply of power. Incredible Cost brings a 24-hour supply of power and an automatic cut-in 2 rounds after power fails. Amazing Cost brings solar-powered cells, removing the need for external power in normal situations.
               Computer Room:
                 Cost:
                   Total: Monstrous
                   Base: Incredible
                 Note: *+2CS_High-Quality
-                Reference: |
+                Reference: &Computer_Room |
                   Cost: Remarkable Occupies one room. Includes computer itself and a terminal for access, or terminal and communication equipment for access to computer outside the building. This computer is capable of performing simple tasks (calculation, information retrieval, monitoring) with Excellent ability. Incredible Cost buys a computer with this at Remarkable ability. Computers with higher forecasting and processing abilities, such as the one running the old Baxter Building and artificial computer intelligences, are unique designs.
               Conference Room Package:
                 Cost:
                   Total: Monstrous
                   Base: Incredible
                 Note: *+2CS_High-Quality
-                Reference: |
+                Reference: &Conference_Room_Package |
                   Cost: Remarkable Occupies one room. Contains material for assembling of heroes or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs. Wood paneling available at Incredible Cost.
               Security Package:
                 Cost:  Remarkable
                 Note: All interior areas, all doors and windows, garage and cellar entrances, roof.
-                Reference: |
+                Reference: &Security_Package |
                   Cost: Good — one Security package to a door or window. Occupies no space. Consists of hand-set burglar alarms on windows and doors, coupled with mechanical locks. At Excellent Cost: Automatic burglar alarms with computer-code or card identification system. At Remarkable Cost: Automatic burglar alarms with palm-print scan, can activate defense systems. At Incredible Cost: Full body scan with benign identification program as to hostility. Can activate defense systems.
               Fire Protection Package:
                 Cost: Remarkable
                 Note: All interior areas, exterior walls, roof.
-                Reference: |
+                Reference: &Fire_Protection_Package |
                   Cost: Excellent Occupies no space. Sprinkler system that may cover up to 10 rooms, provides Good protection from fire. Remarkable Cost: Foam-projectors that provide Excellent protection from fire, covers up to 10 rooms. Fire Protection Packages automatically activate on heat or smoke and must be modified to avoid extinguishing flaming heroes.
               Defense Package:
                 Cost: Incredible
@@ -2029,9 +2033,9 @@ Character Sheet:
                     - Concussive: Force
                     - Stun: Stunning
                   - All interior areas, roof, and curtilage.
-                Reference: |
+                Reference: &Defense_Package |
                   Cost: Excellent Will protect one or more areas. Pre-set defenses consisting of entangling tentacles or nets or lasers or stun rifles, or concussive rifles or pit traps, with the maximum of Remarkable Strength or Intensity. Remarkable Cost: Defenses activated by Security package, consists of one type as above of Incredible Strength. Incredible Cost: As above, intensities are of Amazing Strength. Multiple defense mechanisms may protect the same establishment (example, the WCA compound consists of net-filled pits, stun rifles disguised as trees, and a passive alarm system in the Security Package). Specialized defense packages may be designed.
-              Porches, storage, bathrooms, and closets: These are assumed in the cost of the building, according to its design. These rooms cost nothing, and no package exists other than what the heroes decide to stuff into the closets.
+              Porches, storage, bathrooms, and closets: &PSBC These are assumed in the cost of the building, according to its design. These rooms cost nothing, and no package exists other than what the heroes decide to stuff into the closets.
               Equipment:
           Equipment:
             Vehicles:
@@ -2043,7 +2047,7 @@ Character Sheet:
                 Body: Poor
                 Protection: Poor
                 Reference: Luxury Cars are the gas-guzzling huge cars, ranging from mid-sized Cadillacs to monster limos with wet bars inside. Their big trouble is that they steer like rocks; they seat from 5 up to about 10 for the largest vehicles.
-              Security Limo:
+              Security Limo: &Security_Limo
                 Type:
                   Road: *Road
                 Control: Typical
@@ -2051,25 +2055,25 @@ Character Sheet:
                 Body: Excellent
                 Protection: Good
                 Reference: Security Limo is a variant of the luxury car, with stronger materials, thicker plating about the passenger compartment, bullet-proof glass, and a higher protection value to those within. Seating is as for Luxury Cars.
-              Pickup Truck:
-                Type: *Off-Road
+              Pickup Truck: &Pickup_Truck
+                Type: &Off-Road Off-Road vehicles are land vehicles designed to handle broken ground better than road vehicles. Some recreational vehicles and military equipment fall under this category.
                 Control: Typical
                 Speed: Good
                 Body: Good
                 Protection: Typical
-                Reference: *Jeep
-              Traffic Copter:
+                Reference: &Jeep-Pickup The Pick-Up and Jeep are four-wheel drive off-road vehicles. Four-wheel drive does not prevent you from getting stuck; it only gets you stuck in worse places (quote by Dirtbuggy Doug Niles). The Jeep has been a workhorse for the Army for years and is only now being replaced by another vehicle with similar stats.
+              Traffic Copter: &Traffic_Copter
                 Type:
-                  Air: Air vehicles travel mainly through the friendly skies, and include all forms of aircraft from gliders to the Concorde.
+                  Air: *Air
                 Control: Good
                 Speed: Excellent
                 Body: Feeble
                 Protection: Feeble
-                Reference: Traffic Copters are fairly common in the airspace over American cities, and this type also includes private vehicles and medivac copters as well. Helicopters have VTOL ability (Vertical Take-off and Landing), and as such may drop to 0 speed without losing control.
+                Reference: *Traffic_Copter_Ref
                 Note: Kept at West 30th St. Heliport
               Yacht:
                 Type:
-                  Water: Water vehicles are boats of every description. from sailboats to carriers. Their main limitation is the danger of sinking.
+                  Water: &Water Water vehicles are boats of every description. from sailboats to carriers. Their main limitation is the danger of sinking.
                 Control: Typical
                 Speed: Good
                 Body: Typical
@@ -2077,7 +2081,7 @@ Character Sheet:
                 Reference: The Yacht is the large pleasure craft version of the motorboat. Most yachts can carry up to 10 people in comfort and have all the comforts of home.
                 Note: Kept at the New York Yacht Club
                 Tender:
-                  Speedboat:
+                  Speedboat: &Speedboat
                     Type: *Water
                     Control: Good
                     Speed: Incredible
@@ -2085,9 +2089,9 @@ Character Sheet:
                     Protection: Poor
                     Reference: The Speedboat is the more streamlined, powerful version of the motorboat. It is used as a pleasure craft and also for missions requiring quick entrance and exit. Seats about 4 comfortably.
             Salaries Sundries and Other Equipment:
-              Standard Robot: The Standard Robot is only capable of simple tasks and has no special abilities other than to record what transpires before its recorders and perform simple tasks. The H.E.R.B.I.E. series was a modified form of the standard robot. All Standard robot abilities are Typical.
-              Sentry Robot: The Sentry Robot has a bit more programming and firepower. It is programmed to identify hostile threats (that is — anything not in its bank) and open fire. Sentry robots come equipped with Good Strength lasers, though some may be additionally armed. All sentry robot abilities are Good.
-              Talent Robot: The Talent Robot is a robot specifically designed for a certain purpose, and its programming reflects that purpose. The Avengers' fire-fighting robots or the robotic opponent the Black Knight uses are examples of talent robots. Such robots may have one ability at Remarkable level. All others are Excellent.
+              Standard Robot: &Standard_Robot The Standard Robot is only capable of simple tasks and has no special abilities other than to record what transpires before its recorders and perform simple tasks. The H.E.R.B.I.E. series was a modified form of the standard robot. All Standard robot abilities are Typical.
+              Sentry Robot: &Sentry_Robot The Sentry Robot has a bit more programming and firepower. It is programmed to identify hostile threats (that is — anything not in its bank) and open fire. Sentry robots come equipped with Good Strength lasers, though some may be additionally armed. All sentry robot abilities are Good.
+              Talent Robot: &Talent_Robot The Talent Robot is a robot specifically designed for a certain purpose, and its programming reflects that purpose. The Avengers' fire-fighting robots or the robotic opponent the Black Knight uses are examples of talent robots. Such robots may have one ability at Remarkable level. All others are Excellent.
               Salaries:
                 Reference: Salaries represent the payment of the listed services. Their abilities are generally self- evident (a pilot will always have pilot ability, a computer specialist computer talent). The listing for number of workers are for general numbers of people, whether construction workers, office employees, or security guards.
                 Staff:
@@ -2102,19 +2106,19 @@ Character Sheet:
         Sundries and Other Equipment:
           Personal Computer:
             Price: Excellent
-            Reference: &Personal_Computer The Personal Computer listed here is the type commonly available to most Americans and is a tool, not an artificial intelligence, unlike some more powerful computers. The personal computer may be considered to have Poor Reason for problem-solving, analysis, etc. as it is only as smart as the information placed inside it. At Excellent Cost, the user can get a modem that links his machine into a net with other machines.
+            Reference: *Personal_Computer
           Purchased Suit or Tux: Multiple
           Mystic Texts: &Mystic_Texts  Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
           Phylax Battlesuit: &Phylax_Battlesuit
               Description: A sleek, dark, armored suit consisting of para-aramids, meta-aramids, beta cloth, titanium mesh, silicone rubber, and high-impact ballistic plastic, it sports built-in functionality such as an integral air supply and respirator in its mask, and night-vision and polarized eye-protection in the goggles, as well as retractable inline wheels in the boots and compact rocket boosters on the back.  It's an integrated combination of existing items.
               Material Strength: Excellent
               Other Equipment:
-                Infra-red Goggles: Infra-Red Goggles are similar to infra-red sights; these permit normal vision up to 5 areas away in dimly lit areas.
-                Polarized Lenses: Polarized Lenses are goggles that provide Good resistance to light attacks. If exposed to a bright light, they darken for 1 round, then lighten to allow normal sight.
+                Infra-red Goggles: &Infra-Red_Goggles Infra-Red Goggles are similar to infra-red sights; these permit normal vision up to 5 areas away in dimly lit areas.
+                Polarized Lenses: &Polarized_Lenses Polarized Lenses are goggles that provide Good resistance to light attacks. If exposed to a bright light, they darken for 1 round, then lighten to allow normal sight.
                 Gas Mask: Allows the wearer to breathe and act normally in conditions of smoke, tear gas, or knock-out gas. It does not allow clear vision in these areas, however, only normal movement.
-                Flak Jacket: Flak Jackets are worn by police in special situations and by SWAT teams. These jackets provide Good protection from physical damage.
+                Flak Jacket: &Flak_Jacket Flak Jackets are worn by police in special situations and by SWAT teams. These jackets provide Good protection from physical damage.
                 Beta Cloth: Beta-Cloth is a lightweight material worn by agents of S.H.I.E.L.D. It provides Typical protection from physical attacks, Excellent protection from heat and radiation.
-                Scuba Gear: &Scuba_Gear Scuba Gear allows the wearer to breathe tanked air for 2 hours and, as such, dive to moderate depths in the ocean.
+                Scuba Gear: *Scuba_Gear
                 Roller Skates: Roller Skates are used by a variety of heroes from Dazzler to Iron Man. Standard skates allow the hero to move at the listed speed as if Endurance were three ranks higher.
                 Rocket Pack: Rocket Pack, worn either as a belt-pack or a backpack, allows the wearer to fly at Excellent speeds. All limitations on flight apply to the wearer, and Agility FEATs required are at one CS lower.
         Magical Items:
@@ -2130,9 +2134,9 @@ Character Sheet:
             Material Strength: Excellent
             Type: Blunt Attack
             Reference: |
-                  This is actually a class of staves. They can come in any shape or material and range in size from 4 to 8 feet long. A Staff of Polar Power polarizes the holder with the power of the master who created it. Therefore different powers and different levels of mastery are engrained into each staff and no two are alike. All Staves of Power allow the character to become pure energy for the purpose of floating through dimensions. In such form a character can move through dimensions at a rate of 5 dimensions per round and ignore all physical attacks. Another quality of most Staves of Power is their ability to absorb attack spells cast at them (see Magic Effects Table, Agility & Targeting). An Agility FEAT roll of a bull’s-eye indicates the character has intercepted the spell with his staff).
+              This is actually a class of staves. They can come in any shape or material and range in size from 4 to 8 feet long. A Staff of Polar Power polarizes the holder with the power of the master who created it. Therefore different powers and different levels of mastery are engrained into each staff and no two are alike. All Staves of Power allow the character to become pure energy for the purpose of floating through dimensions. In such form a character can move through dimensions at a rate of 5 dimensions per round and ignore all physical attacks. Another quality of most Staves of Power is their ability to absorb attack spells cast at them (see Magic Effects Table, Agility & Targeting). An Agility FEAT roll of a bull’s-eye indicates the character has intercepted the spell with his staff).
 
-                  This item offers the Judge a great opportunity to be creative and is a good item to improve a freshly generated character who is weak.
+              This item offers the Judge a great opportunity to be creative and is a good item to improve a freshly generated character who is weak.
             Magic:
               Spells:
                 Personal Energies:
@@ -2295,9 +2299,9 @@ Character Sheet:
                   Character Type:
                     Magic Wielder: *Magic_Wielder
                   Magic School:
-                    Eclectic Magic: &Eclectic_Magic This is an unorganized school of magic, that is, it follows no one school of philosophy but is a hodge-podge of “get-as-get-can” magic. It is considered neutral magic. Many of those who “dabble” in magic, and are not up to the level of a Marvel super hero, usually wind up with this type of magic. A spell learned here, an enchantment discovered there, makes up the whole of their philosophy. The bonus with this is that there is very little to bind the character (enemies, rituals, obligations, etc.), the penalty with this type of magic is that there is no one to learn from in a complete and comprehensive manner; thus advancement can be very slow.
+                    Eclectic Magic: *Eclectic_Magic
                   Energy Use:
-                    Personal and Universal Energies Only: &Personal-Universal Personal and Universal Energies Only means that the character can use spells listed as both Personal Energies and Universal Energies. The character’s spells will only be able to be utilized by tapping into either his personal energy or the energy of the universe around him.
+                    Personal and Universal Energies Only: *Personal-Universal
                   Rank:
                     Adept: |
                       The character possesses at least 8 spells. He has a spell rank of at least Excellent in all of them and Incredible or better in at least two of them. He spends more time adventuring than he spends with his master, though he is still at his master’s beck and call. His studying of the writings of the ancient arts gleans him more information than if he were a novice or disciple.
@@ -2451,15 +2455,14 @@ Character Sheet:
           Reference:
             Office Building, 8 floors:
               Size:
-                Deluxe: &Deluxe Deluxe is the largest size, and is for heroes with several vehicle types, trophy rooms, and living quarters. It has 20 + areas spread through 3 or more floors.
+                Deluxe: *Deluxe
               Material Strength: Remarkable
           Room Packages:
             Basement:
               Operations Center:
                 Communications Room:
                   Cost: Incredible
-                  Reference: &Communications_Room |
-                    Cost: Remarkable Occupies one room. Includes chair, short-wave monitor, tap-in for computer networks, police band. At Incredible Cost includes national security alert equipment and visual display screens.
+                  Reference: *Communications_Room
               Security Office:
                 Crime Files Room:
                   Cost: Incredible
@@ -2474,13 +2477,11 @@ Character Sheet:
               Backup Data Center:
                 Computer Room:
                   Cost: Amazing
-                  Reference: &Computer_Room |
-                    Cost: Remarkable Occupies one room. Includes computer itself and a terminal for access, or terminal and communication equipment for access to computer outside the building. This computer is capable of performing simple tasks (calculation, information retrieval, monitoring) with Excellent ability. Incredible Cost buys a computer with this at Remarkable ability. Computers with higher forecasting and processing abilities, such as the one running the old Baxter Building and artificial computer intelligences, are unique designs.
+                  Reference: *Computer_Room
               Medical and Forensic Laboratory:
                 Laboratory Package:
                   Cost: Amazing
-                  Reference: &Laboratory_Package |
-                    Cost: Remarkable Occupies one or more rooms. Basic lab equipment: scales, sinks, common chemicals, microscope. At Incredible Cost include computer capable of analysis with incredible ability, or clean room (prevent germs from escaping lab). At Amazing Cost include both, plus poison analysis and serum dispenser (Excellent effects against known poisons only). Certain pieces, such as electron micro-probes and stellar mass detectors, may be purchased separately (in general, such items are Incredible Rank purchases).
+                  Reference: *Laboratory_Package
               Private Hospital:
                 Medical Package:
                   Cost: Amazing
@@ -2489,23 +2490,20 @@ Character Sheet:
               Primary Power:
                 Power Room:
                   Cost: Amazing
-                  Reference: &Power_Room |
-                    Cost: Remarkable Occupies one room. Buildings are generally assumed to draw their power from outside sources, with the resulting danger of blackouts and power overloads. Heroes who wish a back-up source or alternate source (say, to power a Monstrous-strength ray-gun) must install their own power supply. At this level, the generator purchased will provide a 12-hour supply of power. Incredible Cost brings a 24-hour supply of power and an automatic cut-in 2 rounds after power fails. Amazing Cost brings solar-powered cells, removing the need for external power in normal situations.
+                  Reference: *Power_Room
               Backup Power:
                 Power Room:
                   Cost: Amazing
                   Reference: *Power_Room
-              Storage, Bathrooms, and Closets: &PSBC These are assumed in the cost of the building, according to its design. These rooms cost nothing, and no package exists other than what the heroes decide to stuff into the closets.
+              Storage, Bathrooms, and Closets: *PSBC
               Security Package:
                 Cost: Remarkable
                 Location: All doors
-                Reference: &Security_Package |
-                  Cost: Good — one Security package to a door or window. Occupies no space. Consists of hand-set burglar alarms on windows and doors, coupled with mechanical locks. At Excellent Cost: Automatic burglar alarms with computer-code or card identification system. At Remarkable Cost: Automatic burglar alarms with palm-print scan, can activate defense systems. At Incredible Cost: Full body scan with benign identification program as to hostility. Can activate defense systems.
+                Reference: *Security_Package
               Fire Protection Package:
                 Cost: Remarkable
                 Location: All Areas
-                Reference: &Fire_Protection_Package |
-                  Cost: Excellent Occupies no space. Sprinkler system that may cover up to 10 rooms, provides Good protection from fire. Remarkable Cost: Foam-projectors that provide Excellent protection from fire, covers up to 10 rooms. Fire Protection Packages automatically activate on heat or smoke and must be modified to avoid extinguishing flaming heroes.
+                Reference: *Fire_Protection_Package
               Defense Package:
                 Cost: Amazing
                 Location: All areas
@@ -2514,8 +2512,7 @@ Character Sheet:
                     - Laser: Energy
                     - Concussive: Force
                     - Stun: Stunning
-                Reference: &Defense_Package |
-                  Cost: Excellent Will protect one or more areas. Pre-set defenses consisting of entangling tentacles or nets or lasers or stun rifles, or concussive rifles or pit traps, with the maximum of Remarkable Strength or Intensity. Remarkable Cost: Defenses activated by Security package, consists of one type as above of Incredible Strength. Incredible Cost: As above, intensities are of Amazing Strength. Multiple defense mechanisms may protect the same establishment (example, the WCA compound consists of net-filled pits, stun rifles disguised as trees, and a passive alarm system in the Security Package). Specialized defense packages may be designed.
+                Reference: *Defense_Package
             Ground Floor:
               Lobby:
                 Living Room Package:
@@ -2525,16 +2522,14 @@ Character Sheet:
                   Note:
                     - &+1CS_High-Quality +1CS to Cost for high-quality Package
                     - Multiple: Size
-                  Reference: &Living_Room_Package |
-                    Cost: Good - Occupies one room. Consists of sofa, two easy chairs, two end tables, coffee tables, two lamps (ceiling table or floor). At Excellent Cost add television, stereo set-up, or piano. At Remarkable Cost add all three.
+                  Reference: *Living_Room_Package
               Auditorium:
                 Conference Room Package:
                   Cost:
                     Total: Amazing
                     Base: Incredible
                   Note: *+1CS_High-Quality
-                  Reference: &Conference_Room_Package |
-                    *Cost: Remarkable* - Occupies one room. Contains material for assembling of heroes, or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs. Wood paneling available at *Incredible Cost*.
+                  Reference: *Conference_Room_Package
               Conference One:
                 Conference Room Package:
                   Cost:
@@ -2548,13 +2543,11 @@ Character Sheet:
                     Total: Incredible
                     Base: Remarkable
                   Note: *+1CS_High-Quality
-                  Reference: |
-                    Cost: Excellent Occupies one room. Contains showcase, lighting, frames to display mementos, and may be used as a reception hall or gallery. At Remarkable Cost, contains capability to handle potentially dangerous exhibits at the Incredible level.
+                  Reference: *Trophy_Room_Package
               Reception Kitchen:
                 Kitchen Package:
                   Cost: Remarkable
-                  Reference: &Kitchen_Package |
-                    Cost: Good - Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing. At Excellent Cost add refrigerator, dishwasher, or microwave, plus a fire extinguisher. At Remarkable Cost add all three and freezer.
+                  Reference: *Kitchen_Package
               Reception Dining:
                 Dining Room Package:
                   Cost:
@@ -2563,13 +2556,11 @@ Character Sheet:
                   Note:
                     - Multiple: Size
                     - *+1CS_High-Quality
-                  Reference: &Dining_Room_Package |
-                    Cost: Good - Occupies one room. Consists of table, four chairs, ceiling lamp. Excellent Cost add large table, bureau and four more chairs. Remarkable Cost add china cabinet, set of good china and sterling tableware.
+                  Reference: *Dining_Room_Package
               Office Suite:
                 Office Package:
                   Cost: Remarkable
-                  Reference: &Office_Package |
-                    Cost: Good - Occupies one or more rooms. Includes desk, three chairs, two lamps. At Excellent Cost doubles the material, adds file cabinet, typewriter. At Remarkable Cost, add computer terminal, double previous material, add hanging plants, decorative art.
+                  Reference: *Office_Package
               Storage, Bathrooms, and Closets: *PSBC
               Security Package:
                 Cost: Remarkable
@@ -2620,13 +2611,11 @@ Character Sheet:
               Employee Lounge:
                 Rec. Room Package:
                   Cost: Remarkable
-                  Reference: &Rec_Room_Package |
-                    Cost: Excellent Occupies one or more rooms. Consists of unmatched sofa and easy chairs, pool table or ping pong table or TV. At Remarkable Cost, contains all of the above, video and/or pinball machines (hot tub is optional, only in California). At Amazing Cost, has all of the above plus computer-assisted holographic entertainment projector.
+                  Reference: *Rec-Room_Package
               Employee Gym:
                 Gym Package:
                   Cost: Incredible
-                  Reference: &Gym_Package |
-                    Cost: Excellent Occupies one or more rooms. Consists of typical weight-lifting equipment, universal gym, lockers. At Remarkable Cost includes rings, even and uneven parallel bar, short horse. At Incredible Cost includes separate locker and steam rooms (two additional rooms), diagnostic displays. At Amazing Cost includes a boxing area, robotic opponents, and electronic-based weights capable of reaching 100 tons, and must occupy at least 3 areas.
+                  Reference: *Gym_Package
               Storage, Bathrooms, and Closets: *PSBC
               Security Package:
                 Cost: Remarkable
@@ -2690,8 +2679,7 @@ Character Sheet:
                 Hangar Package:
                   Cost: Excellent
                   Vehicle: Traffic Copter
-                  Reference: |
-                    Cost: Excellent Occupies one area per vehicle using that hangar. Servicing for a single air vehicle, including repair facilities. Each different vehicle requires its own hangar package.
+                  Reference: *Traffic_Copter
               Storage, Bathrooms, and Closets: *PSBC
               Security Package:
                 Cost: Remarkable
@@ -2735,8 +2723,7 @@ Character Sheet:
                   Cost: Remarkable
                   Note:
                     - Multiple: Size
-                  Reference: &Garage_Package |
-                    Cost: Good Occupies one room. Servicing for a single ground vehicle, including repair facilities and fire extinguisher. Excellent Cost may service up to three ground vehicles, and Remarkable up to 12 ground vehicles.
+                  Reference: *Garage_Package
               Cafeteria:
                 Dining Room Package:
                   Cost: Excellent
@@ -2748,7 +2735,7 @@ Character Sheet:
                   Cost: Remarkable
                   Note:
                     - Multiple: Size
-                  Reference: *Rec_Room_Package
+                  Reference: *Rec-Room_Package
               Infirmary:
                 Medical Package:
                   Cost: Remarkable
@@ -2825,8 +2812,7 @@ Character Sheet:
                   Cost: Amazing
                   Note:
                     - Multiple: Size
-                  Reference: &Workshop_Package |
-                    Cost: Remarkable Occupies one or more rooms. Basic equipment for metal and woodworking: lathes, drills, saws and fire extinguisher. At Incredible Cost includes laser-guided instruments. At Amazing Cost includes all of the above and automatic processing materials (an automatic factory, in effect, for simple goods).
+                  Reference: *Workshop_Package
               Research and Development:
                 Laboratory Package:
                   Cost: Amazing
@@ -2875,36 +2861,29 @@ Character Sheet:
       Other Equipment:
         Utility Drone:
           Reference:
-            Standard Robot: The Standard Robot is only capable of simple tasks and has no special abilities other than to record what transpires before its recorders and perform simple tasks. The H.E.R.B.I.E. series was a modified form of the standard robot. All Standard robot abilities are Typical.
+            Standard Robot: *Standard_Robot
         Security Drone:
           Reference:
-            Sentry Robot: The Sentry Robot has a bit more programming and firepower. It is programmed to identify hostile threats (that is — anything not in its bank) and open fire. Sentry robots come equipped with Good Strength lasers, though some may be additionally armed. All sentry robot abilities are Good.
+            Sentry Robot: *Sentry_Robot
         Specialist Drone:
           Reference:
-            Talent Robot: The Talent Robot is a robot specifically designed for a certain purpose, and its programming reflects that purpose. The Avengers' fire-fighting robots or the robotic opponent the Black Knight uses are examples of talent robots. Such robots may have one ability at Remarkable level. All others are Excellent.
+            Talent Robot: *Talent_Robot
       Vehicles:
         Operations Vehicle:
           Note: Primary patrol, response, and utility vehicle. Wilderness use. Lots of utility accessories.
           Reference:
             Jeep:
               Type:
-                Off-Road: &Off-Road Off-Road vehicles are land vehicles designed to handle broken ground better than road vehicles. Some recreational vehicles and military equipment fall under this category.
+                Off-Road: *Off-Road
               Control: Good
               Speed: Excellent
               Body: Good
               Protection: Poor
-              Reference: &Jeep The Pick-Up and Jeep are four-wheel drive off-road vehicles. Four-wheel drive does not prevent you from getting stuck; it only gets you stuck in worse places (quote by Dirtbuggy Doug Niles). The Jeep has been a workhorse for the Army for years and is only now being replaced by another vehicle with similar stats.
+              Reference: *Jeep-Pickup
         Operations Transport:
           Note: Company car used by executives, employees on TDY, etc.
           Reference:
-            Luxury Car:
-              Type:
-                Road: &Road Road vehicles are those designed primarily to be driven on relatively flat surfaces (like roads), and include most vehicles found in modern cities. Road vehicles suffer penalties for Control and Speed when off- road (like cutting through the park in your luxury lime)
-              Control: Poor
-              Speed: Good
-              Body: Poor
-              Protection: Poor
-              Reference: Luxury Cars are the gas-guzzling huge cars, ranging from mid-sized Cadillacs to monster limos with wet bars inside. Their big trouble is that they steer like rocks; they seat from 5 up to about 10 for the largest vehicles.
+            Luxury Car: *Luxury_Car
         Heavy Utility Vehicle:
           Note: Heavy transport, tow trucks, snowplows, etc.
           Reference:
@@ -2941,11 +2920,11 @@ Character Sheet:
               Speed: Good
               Body: Good
               Protection: Typical
-              Reference: *Jeep
+              Reference: *Jeep-Pickup
         Maintenance Vehicle:
           Note: Used by groundskeepers and maintenance crew.  Tool racks with appropriate equipment.
           Reference:
-            Pick-Up: *Pick-Up
+            Pick-Up: *Jeep-Pickup
         Grounds Maintenance Vehicle:
           Note: Used by groundskeepers, tows light trailers, mows, edges, etc.
           Reference:
@@ -2975,14 +2954,7 @@ Character Sheet:
             Van: *Van
         VIP Transport:
           Reference:
-            Security Limo:
-              Type:
-                Road: *Road
-              Control: Typical
-              Speed: Poor
-              Body: Excellent
-              Protection: Good
-              Reference: Security Limo is a variant of the luxury car, with stronger materials, thicker plating about the passenger compartment, bullet-proof glass, and a higher protection value to those within. Seating is as for Luxury Cars.
+            Security Limo: *Security_Limo
         Special Transport:
           Reference:
             Armored Car:
@@ -2992,7 +2964,7 @@ Character Sheet:
               Speed: Typical
               Body: Remarkable
               Protection: Remarkable
-              Reference: Armored Cars are favorite targets of criminals and normally sport a team of two guards in the front and an optional man inside. Armored Cars are also used for transporting powerful criminals who are under arrest.
+              Reference: *Armored_Car
         Light Utility Vehicle:
           Note: Primarily on-premises use.  Wilderness use.
           Reference:
@@ -3042,14 +3014,7 @@ Character Sheet:
         Executive Helicopter:
           Note: Comfortable and luxurious
           Reference:
-            Traffic Copter: &Traffic_Copter
-              Type:
-                Air: &Air Air vehicles travel mainly through the friendly skies, and include all forms of aircraft from gliders to the Concorde.
-              Control: Good
-              Speed: Excellent
-              Body: Feeble
-              Protection: Feeble
-              Reference: Traffic Copters are fairly common in the airspace over American cities, and this type also includes private vehicles and medivac copters as well. Helicopters have VTOL ability (Vertical Take-off and Landing), and as such may drop to 0 speed without losing control.
+            Traffic Copter: *Traffic_Copter
         Patrol Helicopter:
           Note: Spotlights, cameras, thermal, loudspeakers, advanced comms, etc.
           Reference:
@@ -3062,22 +3027,15 @@ Character Sheet:
           Reference:
             Hovercraft:
               Type:
-                GEV: GEV means Ground Effect Vehicle, which is basically the hovercraft. GEVs exhibit properties of both Air and Off-Road Vehicles, and as such deserve their own entry
+                GEV: *GEV
               Control: Poor
               Speed: Excellent
               Body: Good
               Protection: Good
-              Reference: The Hovercraft is the only notable mention of the Ground Effect Vehicle. This vehicle is neither fish nor fowl, as it rides on a cushion of air, handles as does an Air type, but goes out of control as an off-road vehicle. Hovercraft move at a maximum Speed of Good off road, over broken ground, or in stormy weather.
+              Reference: *Hovercraft
         Utility Craft:
           Reference:
-            Speedboat:
-              Type:
-                Water: &Water Water vehicles are boats of every description. from sailboats to carriers. Their main limitation is the danger of sinking. Submersible vehicles are those designed to travel underwater, and are represented by the submarine. Subs are similar to water vehicles in the danger of sinking.
-              Control: Good
-              Speed: Incredible
-              Body: Typical
-              Protection: Poor
-              Reference: The Speedboat is the more streamlined, powerful version of the motorboat. It is used as a pleasure craft and also for missions requiring quick entrance and exit. Seats about 4 comfortably.
+            Speedboat: *Speedboat
         Rapid Response Craft:
           Reference:
             Jetski:
@@ -3097,8 +3055,7 @@ Character Sheet:
               Speed: Excellent
               Body: Good
               Protection: Good
-              Reference: |
-                An Ambulance is a van equipped with a more powerful engine and gear to handle most medical emergencies. Ambulances operate both in conjunction with hospitals and as separate Paramedic services. Driving Note: Ambulances, Fire Trucks, and Police Vehicles with their top-lights flashing have right of way over other vehicles.
+              Reference: *Ambulance
         Rescue Response Vehicle:
           Reference:
             Fire Truck:
@@ -3120,7 +3077,7 @@ Character Sheet:
               Speed: Amazing
               Body: Feeble
               Protection: Typical
-              Reference: Corporate Jets represent the more modern turbo-prop jets that more powerful corporations use for their top executives. Corporate Jets have a crew of two and may carry up to 20 people in comfort.
+              Reference: *Corporate_Jet
         Hierax Two: *Hierax
         Prototype Bipedal Vehicle:
           Reference:
@@ -3229,10 +3186,7 @@ Character Sheet:
             Energy Use:
               Personal and Universal Energies Only: *Personal-Universal
             Rank:
-              Novice: &Novice |
-                This character knows fewer than five spells or has less than an Amazing spell rank in at least two spells. He is spending most of his time with his master (when not practicing what he has learned on villains). He can study tomes and scrolls and even perform magic found therein, but he cannot yet learn spells on his own (spells that he has read in a tome or on a scroll must be studied each time he uses them—he cannot commit them to memory.)
-
-                Novices are usually ignored by the more powerful dimensional entities. A novice using a Dimensional Entreaty spell uses his magic as normal, but no FEAT roll is necessary to determine if the entity entreated will be affronted by the entreaty and take action. The dimensional entity feels that it is an investment in the future, but the character is currently beneath his total consideration. A novice can, however, provoke a hostile reaction from extradimensional entities by abusing their power—using it in ways the entity would not normally approve of (see “Abusing Dimensional Entreaties” in the “HOW SPELLS ARE CAST” section in the Manual of Magic.
+              Novice: *Novice
             Master: Julian Constantine
             Spells: Any 1-4 spells from the Personal Energies or Universal Energies lists at Psyche Rank.
         Equipment:
@@ -3338,10 +3292,7 @@ Character Sheet:
             Energy Use:
               Personal and Universal Energies Only: *Personal-Universal
             Rank:
-              Disciple: &Disciple |
-                The character possesses at least 5 spells or has at least an Amazing rank in all of his spells. He assists the master in some of his rituals, but is spending more time adventuring than a novice. He may learn new spells from his master’s written works.
-
-                Disciples, like novices, are usually ignored by the more powerful dimensional entities. A disciple using a Dimensional Entreaty spell uses his magic as normal, but no FEAT roll is necessary to determine if the entity entreated will be affronted by the entreaty and take action. The dimensional entity feels that it is an investment in the future, but the character is currently beneath his total consideration. A disciple can, however, provoke a hostile reaction from extra-dimensional entities by abusing their power-using it in ways the entity would not normally approve of (see “Abusing Dimensional Entreaties” in the “HOW SPELLS ARE CAST” section in the Manual of Magic.)
+              Disciple: *Disciple
             Master: Julian Constantine
             Spells:  Any 5-8 spells from the Personal Energies or Universal Energies lists at Psyche Rank.
         Equipment:
