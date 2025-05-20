@@ -209,7 +209,7 @@ Character Sheet:
                   Exorcism: #L5
                     Rank: Amazing
                     Number: 50
-                    Reference: |
+                    Reference: &Exorcism |
                       The hero can release a being from any external domination imposed by a third party. Such controls include Possession, Mental Domination, Serial Immortality, and Magic. If there's a control, this Power can break it. This Power rank is compared to that of the Power controlling the subject. A Typical Intensity FEAT can sever a lower ranking control Power. A Remarkable Intensity FEAT severs a controlling Power of equal rank, and an Amazing Intensity FEAT severs one of one or more ranks higher. Upon severing the being's control over the subject, that being is immediately teleported to its home dimension.
 
                       This Power commonly appears as a spell used by sorcerers and holy men.
@@ -281,14 +281,7 @@ Character Sheet:
                       Force Field vs. Vampirism: | #D9
                         This is the field-effect version of D17. The field protects anyone within from any vampiric-type attacks. This includes the forms of Psi-, Bio-, Energy, Magic, and Power Vampirism. When creating the hero, the player can raise the Power rank +1CS by choosing a field that protects against a specific attack.
                       Lifeform Control:
-                        Exorcism: | #L5
-                          The hero can release a being from any external domination imposed by a third party. Such controls include Possession, Mental Domination, Serial Immortality, and Magic. If there's a control, this Power can break it. This Power rank is compared to that of the Power controlling the subject. A Typical Intensity FEAT can sever a lower ranking control Power. A Remarkable Intensity FEAT severs a controlling Power of equal rank, and an Amazing Intensity FEAT severs one of one or more ranks higher. Upon severing the being's control over the subject, that being is immediately teleported to its home dimension.
-
-                          This Power commonly appears as a spell used by sorcerers and holy men.
-
-                          The hero must be within 10' of the subject in order to perform the Exorcism.
-
-                          The hero can use this Power to resist the initial attempt by another to control him, but if this attempt fails (as per the FEATs listed above), he cannot Exorcise himself later.
+                        Exorcism: *Exorcism
                         Force Field vs. Hostiles: | #L6
                           The hero emits a psionic aura that repels any hostile lifeforms. The Power automatically probes the minds of anyone in the area and analyzes their intentions toward the hero. Anything harmful is repulsed, as if a Power rank material strength wall had risen between them. Neutral or friendly life is not affected by this field. Okay, I hear you asking: "What if somebody starts out friendly, but turns hostile after he's inside the field?" The answer is, he's catapulted harmlessly out of the field.
 
@@ -349,6 +342,33 @@ Character Sheet:
                           Under normal conditions, the hero can consciously decide when to reawaken. This may be at the end of a predetermined length of time, or when certain conditions are met (like when his spaceship has air in it again). Otherwise, the hero must be stimulated into awakening by another person.
 
                           Rank determines the maximum length of time the hero can suspend animation.
+                      Power Control:
+                        Control: #PC1
+                        Form:
+                          - Magnification/Reduction
+                          - Negation
+                        Reference: |
+                          The hero can alter the behavior of pure Power, whether it is in a raw or applied state. The hero can control the actions of any Powers within his range and capability. If the Power is free of a living super-being's body, that Power's rank determines what Intensity FEAT is required. If the Power is internalized within a living super-being, the necessary FEAT is determined by that being's Psyche. If Control is achieved, it affects the entire rank of that Power.
+
+                          The range at which the hero can exert control is determined by his own Power rank number. Distances are shown on Column A of the Range Table.
+
+                          The Macro-Power can affect either a specific type of Power within a specific area, regardless of how many superbeings are affected, or all the Powers possessed by a specific being. The duration of the Control lasts a maximum number of minutes equal to the Power rank number. After the expiration of the Control, it must be reestablished. This can be done indefinitely.
+
+                          Control is normally directed in a straight line. If the hero wishes an area effect, the sphere he creates has a radius equal to -4CS range. For example, Excellent Control can be exerted on a target six areas away or be contracted into a field that only surrounds the hero's body.
+
+                          There are three forms of Control. At least one form must be chosen when the hero is created. This is initially at full strength. If the player wants the hero to have more forms, each additional form decreases all Control ranks by -1CS.
+
+                          | Die Roll | Form                    |
+                          | :------: | ----------------------- |
+                          | 01-40    | Manipulation            |
+                          | 41-70    | Magnification/Reduction |
+                          | 71-00    | Negation                |
+                          - Manipulation: The hero can alter the flow and application of Power. He can change the direction of a Power with a green FEAT. He can alter the effects of a Power by a yellow FEAT. He can completely change the nature of a Power by a red FEAT. The hero need not actually possess the Power that the old one was transformed into, but the new one should be something harmless to both combatants.
+                          - Magnification/Reduction: The hero can either increase or decrease the rank of the affected Power by his Macro-Power's rank number. Unfortunately, the one thing the hero cannot affect his own powers' ranks.
+                          - Negation: The hero can completely dispel any Powers within his range.
+                          Things affected by Powers revert to their original states. Super-beings are reduced to Normal Humans (or whatever). The worst effect is on beings who need Power to physically survive. To them, the loss of Power is damaging and possibly fatal.
+
+                          Undesired Control can be avoided by Dodging a directed attack, moving out of the Control's range, or by the use of such Powers as this one, Force Field vs. Power Manipulation, and Resistance to Power Manipulation. Successful resistance means the would-be victim retains his Powers, at least for now.
                     Reference: |
                       The Mage can create areas of latent Power in any desired location. The Ward is designated by a special substance or mark. The mage decides what specific Powers the Ward possesses and what the triggering stimulus will be. When that stimulus occurs, the Ward releases all its power is a single turn, generally in the direction of whatever created the stimulus.
 
