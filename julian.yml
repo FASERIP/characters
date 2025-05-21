@@ -55,41 +55,34 @@ Character Sheet:
             Duration:
               Permanent: The Stimulus does its full damage to the hero, even when exposure to the Stimulus has been interrupted. In this case, the Stimulus sets off a bodily self-destruction sequence that must continue to its full extent. In the case of Power Negation, the hero's Powers are permanently lost. Incapacitation results in the hero reaching zero Health points and lapsing into a coma lasting 1 -10 days. After that time, he may regain his Health at the normal rate. Fatal results in the death of the hero as both Health and Endurance drop to zero. The hero can be revived, however, and will eventually recover if revival occurs.
       Description:
-        Biography: Born in Nicomedia in the year 380 in what was then the Eastern Roman Empire, Julian Constantine, then known as Ioulianós ó Nikomediátes, unlocked the secrets of the Philosopher's Stone in the early-mid Fifth Century, gaining immortality and eternal youth and health.  He has spent the centuries since honing his mind, body, and spirit to unprecedented levels, dedicating himself to the mastery of anything that has caught his attention along the way.  By the late 20th century, he is exorbitantly wealthy and well-connected along with his hyper-competence, due to incessant personal development and cultivation. Of human peak physicality, his mind is centuries since transcending all human limits.
-        Personality: Julian is, in a general sense, heroic, noble, valorous, and beneficient, although as a man well into his second millennium of life, having witnessed the rise and fall of many cultures, societies, and philosophies, and their values, his view is long and his perspective distant and somewhat detached.  What heroic and noble means to him reflects that perspective. He is gregarious, humorous, and charming, socially, although he prefers such socialization to be on his terms. He is disciplined, focused, and meticulous, as well as obsessive about his personal development—he devotes a considerable amount of his waking hours to that pursuit.
-        Appearance: Tall, long-limbed, broad-shouldered, and athletic, his olive skin, dark hair, strong, regal facial features, and piercing green eyes reflect his ancient Near-Eastern heritage, an ethnicity that no longer exists in that form among the entirety of humanity save himself.  When out of his armor, he tends to wear impeccable, tailored suits in neutral colors appropriate to the season, and quite a bit of jewelery with mystic or occult connotations, some of it as ancient as he is, or more.
+        Biography: Born in Nicomedia in the year 380 in what was then the Eastern Roman Empire, Julian Constantine, then known as Ioulianós ó Nikomediátes, unlocked the secrets of the Philosopher's Stone in the early-mid Fifth Century, gaining immortality and eternal youth and health. He has spent the centuries since honing his mind, body, and spirit to unprecedented levels, dedicating himself to the mastery of anything that has caught his attention along the way. By the late 20th century, he is exorbitantly wealthy and well-connected along with his hyper-competence, due to incessant personal development and cultivation. Of human peak physicality, his mind is centuries since transcending all human limits.
+        Personality: Julian is, in a general sense, heroic, noble, valorous, and beneficient, although as a man well into his second millennium of life, having witnessed the rise and fall of many cultures, societies, and philosophies, and their values, his view is long and his perspective distant and somewhat detached. What heroic and noble means to him reflects that perspective. He is gregarious, humorous, and charming, socially, although he prefers such socialization to be on his terms. He is disciplined, focused, and meticulous, as well as obsessive about his personal development—he devotes a considerable amount of his waking hours to that pursuit.
+        Appearance: Tall, long-limbed, broad-shouldered, and athletic, his olive skin, dark hair, strong, regal facial features, and piercing green eyes reflect his ancient Near-Eastern heritage, an ethnicity that no longer exists in that form among the entirety of humanity save himself. When out of his armor, he tends to wear impeccable, tailored suits in neutral colors appropriate to the season, and quite a bit of jewelery with mystic or occult connotations, some of it as ancient as he is, or more.
       Abilities:
         Primary Abilities:
           Fighting:
             Rank: Amazing
-            Number: 50
             Reference: Maximum human potential (Captain America, Silver Surfer)
             Martial Supremacy: +Power Rank Number to Martial Arts
           Agility:
             Rank: Incredible
-            Number: 40
             Reference: Olympic gymnast (Captain America, Daredevil)
           Strength:
             Rank: Excellent
-            Number: 20
             Reference: Able to press up to 800 lbs. Maximum human ability (Captain America)
           Endurance:
             Rank: Remarkable
-            Number: 30
             Reference: Intensive exercise (Captain America, Cyclops)
           Reason:
             Rank: Amazing
-            Number: 50
             Reference: Create leading-edge technologies, such as stardrive or time travel (Mister Fantastic, Doctor Doom)
             Hyper Intelligence: +Power Rank CS (Max Shift-Z) for Power Rank Number minutes first use, -1CS duration per use
           Intuition:
             Rank: Incredible
-            Number: 40
             Reference: Strong empathic sense; gut feeling (Captain America, Doctor Doom)
             Hyper Intelligence: +Power Rank CS (Max Shift-Z) for Power Rank Number minutes, -1CS duration per use
           Psyche:
             Rank: Amazing
-            Number: 50
             Reference: Indomitable willpower (Marvel Girl, Doctor Doom)
             Psi-Screen: +1CS to resist mental attacks from Resist Domination Talent
         Secondary Abilities:
@@ -97,11 +90,9 @@ Character Sheet:
           Karma: 140
           Resources: 
             Rank: Amazing
-            Number: 50
             Reference: Large corporation, small country (Doctor Doom, Mandarin, A.I.M.)
           Popularity:
             Rank: Excellent
-            Number: 20
             Reference: (Captain Marvel, Iron Man, Shaman, Silver Surfer)
         Special Abilities:
           Powers:
@@ -110,7 +101,6 @@ Character Sheet:
                 Defensive:
                   Resistance to Magic Attacks: #D13
                     Rank: Amazing
-                    Number: 50
                     Reference: |
                       The hero has increased resistance to magic based attacks, whether physical or mental in orientation. Unlike D11 and D14, this Power rank can be lower than the Psyche rank, making the hero more vulnerable to some types of magic.
 
@@ -118,11 +108,9 @@ Character Sheet:
                   Resistance to Physical Attacks: #D15
                     Toxins:
                       Rank: Incredible
-                      Number: 40
                       Reference: This Power rank is always a minimum of one rank greater than the hero's Endurance rank (if the random roll sets this Power as less than this stated minimum, it is raised to Endurance rank +1CS). This rank is used instead of Endurance for all FEATs involving poison, and is not reduced by damage or effects of poison. Failing a FEAT with this Power will mean Endurance drops by one rank, but this Power rank does not drop. It will be used next turn at its normal level for determining further effects.
                     Disease:
                       Rank: Incredible
-                      Number: 40
                       Reference: The individual with this resistance is less susceptible to disease than other heroes with the same Endurance. Included are common diseases, as well as the effects of biological warfare and vampirism. The individual's rank in this Power is no less than one rank above the individual's Endurance. (Any roll of less than that rank should be raised to the Endurance Rank +1CS.)
                     Reference: |
                       The hero has increased resistance to any physical attack. This includes brute force, chemical weapons, biochemicals, disease, hostile environments, and temperature extremes. The hero can ignore any physical attacks with Intensities less than. the Power rank, and may reduce damage from higher level attacks by the Power rank number.
@@ -131,21 +119,18 @@ Character Sheet:
                 Detection:
                   Environmental Awareness: #DT5
                     Rank: Incredible
-                    Number: 40
                     Reference: |
                       Range column B. The hero has increased sensitivity to conditions in, disturbances in, and influences on the environment. The hero automatically maintains full knowledge of current conditions in his surroundings. This awareness extends to such factors as weather, chemicals, movement, and life.
 
                       The rank determines the range to which the awareness extends: exceeding it requires a FEAT (+1CS, green; +2CS, yellow; +3CS, red). The hero can gain +1CS by linking his Health to the environment. In this symbiosis, harm to the environment is reflected in the hero's physical welfare.
                   Extradimensional Detection: #DT5
                     Rank: Incredible
-                    Number: 40
                     Reference: |
                       The hero can sense across the dimensional barrier and see things existing in other dimensions.
 
                       A list of some of the dimensions in the Marvel Universe is found in Realms of Magic. These include Asgard, the Astral Plane, Avalon, the Dark Dimension, the Demon Dimension, etc. The power rank number equals the number of different dimensions into which the hero can see.
                   Life Detection: #DT9
                     Rank: Incredible
-                    Number: 40
                     Reference: |
                       Range column B. The hero can detect the presence of life and identify the nature of that life. The hero can probe a specific target for more detailed physiological data on a red FEAT.
 
@@ -154,7 +139,6 @@ Character Sheet:
                       This is one of the Powers that can function as "Mutant Detection."
                   Magic Detection: #DT10
                     Rank: Incredible
-                    Number: 40
                     Reference: |
                       The hero can detect and identify magic and its effects. The Power can detect both magic in actual use and in potential. As such, this is another way to detect mutants, although it cannot differentiate them from normal magic-users.
 
@@ -176,7 +160,6 @@ Character Sheet:
                 Fighting:
                   Martial Supremacy: #F2
                     Rank: Amazing
-                    Number: 50
                     Reference: &Martial_Supremacy |
                       In the MARVEL SUPER HEROES game system Fighting is considered an Ability, not a Power. However, this Power increases a hero's already-mastered Martial Arts (a Talent in the game system) to dramatically higher levels and allows him to perform actions that would otherwise be impossible, like splitting a battleship in two with a single karate chop.
 
@@ -201,7 +184,6 @@ Character Sheet:
                       The Nemesis Power is Martial Arts Supremacy of one rank higher than that possessed by the hero.
                   Weapons Tinkering: #F5
                     Rank: Unearthly
-                    Number: 100
                     Reference: |
                       The hero can devise and assemble any weapon that can be made with the available materials. By means of a red FEAT, the hero can even improvise a means of creating unavailable materials (adamantium, for example). Provided he has the resources, the hero can assemble a functional copy of any weapon. As to what weapons he can make, use the Resource costs listed in the Hardware section of the  Book (pages 42-46). Compare the Power's rank with the cost of the desired weapon. Equal or lower cost weapons can be created on a green FEAT. A cost of one to three levels higher requires a yellow FEAT. A cost of four to six levels higher requires a red FEAT. If the cost of the desired weapon is more than six levels higher than the hero's Power rank, it is an impossible FEAT.
 
@@ -222,7 +204,6 @@ Character Sheet:
                 Lifeform Control:
                   Exorcism: #L5
                     Rank: Amazing
-                    Number: 50
                     Reference: &Exorcism |
                       The hero can release a being from any external domination imposed by a third party. Such controls include Possession, Mental Domination, Serial Immortality, and Magic. If there's a control, this Power can break it. This Power rank is compared to that of the Power controlling the subject. A Typical Intensity FEAT can sever a lower ranking control Power. A Remarkable Intensity FEAT severs a controlling Power of equal rank, and an Amazing Intensity FEAT severs one of one or more ranks higher. Upon severing the being's control over the subject, that being is immediately teleported to its home dimension.
 
@@ -233,7 +214,6 @@ Character Sheet:
                       The hero can use this Power to resist the initial attempt by another to control him, but if this attempt fails (as per the FEATs listed above), he cannot Exorcise himself later.
                   Summoning: #L20
                     Rank: Amazing
-                    Number: 50
                     Reference: |
                       The hero can summon and control extra-dimensional, corporeal beings. Such beings are commonly called "demons" but may be of any nature or disposition.
 
@@ -247,7 +227,6 @@ Character Sheet:
                 Magic:
                   Enchantment: #MG1
                     Rank: Amazing
-                    Number: 50
                     Mechanism:
                       Alchemy: The hero can achieve a specific Effect by following a recipe that combines arcane or even commonplace substances in a special procedure. The resulting substance possesses enough Power to attempt the desired Effect. The length of preparation time and the cost of the ingredients increases with the rank of the Effect. Prep time is one turn per each ten points of the Power rank number. The ingredients cost an amount of Resource points equal to 10% of the Effect's rank. For example, an Effect of Shift Y rank would require materials of Excellent cost stirred together for 20 turns.
                     Reference: |
@@ -274,7 +253,6 @@ Character Sheet:
                       Nemeses include Force Field vs. Magic, Resistance to Magic, Magic Control, or Magic Domination.
                   Warding: #MG13
                     Rank: Amazing
-                    Number: 50
                     Mechanism:
                       Chant: The hero needs to recite a series of words to manifest his Power. The Chant can be any length and form. Generally, the rank of the Effect determines the length of the Chant. The Chant lasts one turn for each ten points of the Power rank number. For example, a Chant of Incredible effect takes 4 turns.
                     Wards:
@@ -402,7 +380,6 @@ Character Sheet:
                 Mental Enhancement:
                   Cosmic Awareness: #M7
                     Rank: Incredible
-                    Number: 40
                     Reference: |
                       The hero is in tune with the entire scope of reality. He possesses a detached, omniscient viewpoint that allows him to explore the entire existence of a chosen subject. Unfortunately, this causes such a massive overload of superfluous information that the hero is hard pressed to sort it all out. The FEAT represents the hero's ability to recover a specific bit of information from all the effluvia. The more exact the required detail, the higher the difficulty. Discovering basic facts or locating any one on the Earth requires a green FEAT. Complex information or finding anyone within a star system requires a yellow FEAT. Secrets, weaknesses, arcane knowledge, and anything else the Judge wants to make difficult to find out requires a red FEAT.
 
@@ -416,11 +393,9 @@ Character Sheet:
                   Hyper-Intelligence: #M13
                     Reason: 
                       Rank: Unearthly
-                      Number: 100
                       Type: Intermittent
                     Intuition:
                       Rank: Unearthly
-                      Number: 100
                       Type: Intermittent
                     Reference: |
                       Normally a character's Intelligence is determined in the Character Generation Process. However, the research for the Ultimate Powers Book showed that extreme levels of Intelligence can be a Power in its own right. Examples include The Leader and the late Soviet scientist known only as Gargoyle. The hyper-intelligent character is a genius of awesome potential. He can quickly master new subjects, retain that knowledge indefinitely, and easily succeed in any mental endeavor.
@@ -440,7 +415,6 @@ Character Sheet:
                       The Nemesis is Mind Drain.
                   Hyper-Invention: #M14
                     Rank: Unearthly
-                    Number: 100
                     Reference: |
                       This is a special form of Hyper-intelligence that is common enough to merit its own classification. It is a permanent enhancement of the hero's overall intelligence that is channeled into the field of mechanical design and engineering. The hero is an Edison-like genius who take existing materials and technologies and use them to create new devices or applied technologies. He can repair previously operational devices, even if the device was of an unknown type.
 
@@ -457,7 +431,6 @@ Character Sheet:
                       Nemeses are Mental Duplication and Mind Drain.
                   Iron Will: #M16
                     Rank: Unearthly
-                    Number: 100
                     Reference: |
                       The hero has complete conscious control over his mind and body. By using his Iron Will, the hero can temporarily halt the damage done by mental or physical attacks: he can even postpone his own death.
 
@@ -466,7 +439,6 @@ Character Sheet:
                       Example: Sunstone is battling the Marauders and not doing too well. He possesses Incredible Iron Will and has 100 Health points. Harpoon hits him with a Slayspear: this does 40 points of damage. Iron Will absorbs it all but immediately reconverts it to a loss of 20 Health points. Sabertooth slashes and gnaws Sunstone for 60 points. Iron Will only absorbs the first 40, then immediately converts it. Health now stands at 40 points. Malice attempts to Possess Sunstone: Iron Will fends off the mental attack but at a cost of another 38 points. Sunstone decides discretion is better than valor and flees. Scalphunter fires at the retreating figure and inflicts thirty more points of damage. Sunstone heads for the best-equipped hospital in the area. He manages to maintain his self-control until he is actually in the operating room, then he passes out as wounds suddenly appear across his body.
                   Linguistics: #M17
                     Rank: Unearthly
-                    Number: 100
                     Reference: &Linguistics |
                       This is a specialized form of Hyper-intelligence. The hero has the ability to rapidly learn any language if sufficient material is available for him to work with. Once the language is mastered, the hero is fluent in that language, provided he is physically capable of communicating in it.
 
@@ -483,7 +455,6 @@ Character Sheet:
                       The Nemesis is Mind Drain.
                   Total Memory: #M33
                     Rank: Unearthly
-                    Number: 100
                     Reference: &Total_Memory |
                       The hero has the ability to remember anything that he has ever experienced. This could be a book he's read, the faces of everyone he saw on Tuesday, what birth was like, and so on. The accuracy of his recall is his Power rank number treated as a percentage. Feeble is 2%, Excellent is 20%, and so on to automatic accuracy at Unearthly rank or above.
 
@@ -503,7 +474,6 @@ Character Sheet:
                 Power Control:
                   Focus: #PC7
                     Rank: Amazing
-                    Number: 50
                     Total:
                       Rank: Class 1000
                       Number: 1849
@@ -529,12 +499,10 @@ Character Sheet:
                 Magic:
                   Eldritch Bolts:
                     Rank: Amazing
-                    Number: 50
                     Reference: &Eldritch_Bolts |
                       Eldritch Bolt is a bolt of magical power, and includes all manner of spells such as Doctor Strange's Bolt of Bedevilment. The range is as determined in the spell range table, and damage is equal to the Power rank, with the following difference: the bolt may reduce Health or Karma values (in the latter case, the target's effectively out of luck). If the bolt attacks Health, treat it as a Force attack.
                   Eldritch Shield:
                     Rank: Amazing
-                    Number: 50
                     Reference: &Eldritch_Shield |
                       The Eldritch Shield is a shield of mystical energy that provides the caster with mystical Body Armor equal to the caster's rank number. This is also proof against magical attacks or those attacks which arise from magic.
 
@@ -672,7 +640,7 @@ Character Sheet:
                             Effect: Power Rank Intensity Stunning
                           Incendiary Flare:
                             Power: Fire Generation
-                            Effect: Power Rank Energy Damage.  Illuminates Power Rank Area, may be fired upwards Power Rank Range for signaling. Ignites flammable material with Power Rank Intensity.
+                            Effect: Power Rank Energy Damage. Illuminates Power Rank Area, may be fired upwards Power Rank Range for signaling. Ignites flammable material with Power Rank Intensity.
                           Neurotoxin Dart:
                             Power: Neural Manipulation
                             Effect: Chosen form of Neural Manipulation power to one target
@@ -698,7 +666,7 @@ Character Sheet:
 
                           The hero has a finite ammo supply, even if he creates the missiles as he goes. The maximum number of Missiles the hero can create per hour is equal to the Power rank number. This prevents the cliché found in bad Westerns, whereby a lone cowboy holds off the entire Apache nation with a single sixshooter. This limit also applies to Technological versions of this Power, in that the gun/wand/whatever simply overheats from repeated use.
 
-                          There are two Nemeses for this Power. If the Power is innate to the hero, Reflection stops it. If the Power is externalized in a weapon, Induced Teleportation works by removing the weapon from the hero's possession and giving it to the opponent.            
+                          There are two Nemeses for this Power. If the Power is innate to the hero, Reflection stops it. If the Power is externalized in a weapon, Induced Teleportation works by removing the weapon from the hero's possession and giving it to the opponent.           
                       Spray: #MCr7
                         Rank: Psyche
                         Energy: Universal
@@ -807,7 +775,7 @@ Character Sheet:
                         As you are beginning to suspect, this isn't really a Power and is more of a restraint. You're right. If you roll this Power, go ahead and roll an additional Power.
                     Focus: #PC7
                       Rank: Psyche
-                      Note: Total comprises battlesuit Powers and Primary Abilities of Fighting, Agility, Strength, and Endurance as Feeble + Column Shift.  Only battlesuit Powers and Abilities drop to Feeble, and receive points distributed. Physical Abilities will be normal if battlesuit is removed.  It is independent of inherent Focus Power.
+                      Note: Total comprises battlesuit Powers and Primary Abilities of Fighting, Agility, Strength, and Endurance as Feeble + Column Shift. Only battlesuit Powers and Abilities drop to Feeble, and receive points distributed. Physical Abilities will be normal if battlesuit is removed. It is independent of inherent Focus Power.
                       Reference: *Focus
                 Advanced Player's Book:
                   Senses:
@@ -983,11 +951,9 @@ Character Sheet:
               Personal Energies:
                 Admittance:
                   Rank: Amazing
-                  Number: 50
                   Reference: &Admittance The caster can direct enchanted energy at any locked door or container and it will easily open for him, no matter how many locks it has or how big or intricate they are, if his spell rank FEAT roll is successful.
                 Apparition:
                   Rank: Amazing
-                  Number: 50
                   Reference: &Apparition |
                     The caster can mystically make his body non-corporeal and become an apparition. (This should not be confused with Astral Projection, as that power takes the caster to another dimension and he is invisible to most characters in this dimension.) Once the spell is cast, the caster need not concentrate upon his state to remain an apparition. As an apparition, the caster can still move, speak, cast spells, and perform most other normal actions. His movement rate is the same as if he were corporeal, but he can walk on air, sink through floors, climb up elevations as if he were climbing stairs, etc.
 
@@ -998,7 +964,6 @@ Character Sheet:
                     Judge’s Note: If the player wishes to make a concentrated effort at creating a character who appears like a ghost, striking fear and terror into criminal hearts, then the Judge should keep this effect in mind when the caster walks through a wall, drops through a ceiling, etc. and faces anyone. A character encountering this apparition, especially for the first time, must make a Psyche FEAT roll (see Magic Effects Table) or react as described in the Fear power. There is a price the caster has to pay for this extra “power”, however. This frightening effect on people only works if the caster is not famous, thus cutting off his Popularity and some sources of Karma gain. He must remain relatively reclusive and unknown so the criminal element does not recognize him.
                 Astral Projection:
                   Rank: Amazing
-                  Number: 50
                   Reference: |
                     The caster can separate his astral self-the sheath of his life essence-from his physical self and travel through space unbound by physical laws while retaining human consciousness. The astral form (also sometimes called the ethereal form or the ectoplasmic form) is invisible, intangible, and incapable of being harmed except by the most powerful magic or by opponents who are themselves in astral form. If the caster wishes to project his astral self while under duress, during a combat or while he is being mentally attacked, he must make his spell rank FEAT roll.
 
@@ -1015,19 +980,16 @@ Character Sheet:
                     Time alteration spells cast from the astral plane work within the physical plane, but do not affect the astral plane.
                 Enchanted Eye:
                   Rank: Amazing
-                  Number: 50
                   Reference: |
                     The caster creates an enchanted eye when he wishes. The caster can automatically summon the enchanted eye for one round only. A successful spell rank FEAT roll brings the eye forth for the full duration of the spell. It can only see as far as sight normally would, but can penetrate darkness (real or magical), show the caster mystical existences (such as astral projections, invisible magical objects, mystical shields, and so on), and see through illusions. The caster is mentally linked with the eye and sees everything it sees.
 
                     The enchanted eye is a separate magical creation capable of flight. Its movement rate is the same as that of the caster. The maximum distance it can be be separate from the caster is based on the spell rank (for example, 12 areas for Amazing rank.) The eye can be attacked physically or magically; the eye has Health points equal to the caster’s Psyche and any FEAT roll the eye is required to make use the caster’s appropriate ability rank. The caster is not affected by any damage suffered by the enchanted eye.
                 Healing:
                   Rank: Amazing
-                  Number: 50
                   Reference: |
                     This spell gives the caster such complete control over his bodily functions that he can heal himself by use of personal or dimensional energy. Use the spell rank number instead of his Endurance rank number to determine the maximum amount of damage healed. The caster can only perform this once per day, in addition to his normal healing rate.
                 Invisibility:
                   Rank: Amazing
-                  Number: 50
                   Reference: &Invisibility |
                     This spell makes the caster invisible to others. Any item on the caster’s person and anyone holding hands with him (and willing to be affected) also becomes invisible as long as they remain in contact with him. This spell cannot turn an unwilling creature invisible.
 
@@ -1036,14 +998,12 @@ Character Sheet:
                     Note: an invisible person can be located by persons with superhuman hearing or sense of smell, or by detection powers and devices that do not depend on sight.
                 Learning:
                   Rank: Amazing
-                  Number: 50
                   Reference: |
                     This spell is used to give the caster an advantage in combat. It enables him to quickly learn from his mistakes. After this spell is cast the caster must fight his opponent for three consecutive rounds (normal combat, magical combat, astral combat, etc.). When the three rounds have passed the caster suddenly has insight into his opponent’s methods of combat and receives a +1CS when fighting that opponent during this encounter only. The duration and area of effect listed on the Magical Limits Table do not apply for this spell.
 
                     If combat is interrupted but later resumed and the Judge is not sure whether to consider it one continual encounter or two separate encounters, the spell still applies if the caster makes a successful spell rank FEAT roll.
                 Levitation:
                   Rank: Amazing
-                  Number: 50
                   Reference: |
                     This spell enables the caster to mystically rise into the air. A successful spell rank FEAT roll is required. No further FEAT rolls are needed unless the caster descends to the ground, and then want to levitate again during the duration of the spell. The maximum altitude a levitating character can reach is 1 area at Good rank, with an additional 2 areas for every spell rank above Good (thus, a caster with a Remarkable Levitation spell can reach an altitude of 5 areas). The movement speed (rising or descending) per round is 1 area for a character with Good Psyche with an additional area for each Psyche rank above Good. The character cannot use this spell to lift any weight greater than his normal clothing and equipment. This spell affects the caster only.
 
@@ -1052,7 +1012,6 @@ Character Sheet:
                     This spell should not be mistaken for the ability to fly (see the Flight spell). Levitation only allows vertical movement. Sideways movement is only achievable by the levitating character pulling himself along an object. A levitating character cannot create forward momentum to affect the direction of his ascent. It is always straight up. While wind has no affect on a floating caster’s ascent direction, it can slow him down if the Judge feels it is strong enough.
                 Mental Barrier:
                   Rank: Amazing
-                  Number: 50
                   Reference: |
                     This spell creates a magical invisible headgear which does not hinder the caster’s normal senses. It allows the caster to know when someone is trying to intrude on his thoughts, magically attack his mind through mesmerism, illusion, etc. It does not indicate who is doing the attacking or intruding, nor does it reveal what spell is being used.
 
@@ -1063,7 +1022,6 @@ Character Sheet:
                     The Judge should make sure this spell is not abused. A character who constantly has the barrier up will become easily exhausted and can even suffer Psyche loss due to the mind damaging effects of trying to always be mentally protected. The maximum safe duration rank is Excellent.
                 Servant:
                   Rank: Amazing
-                  Number: 50
                   Reference: &Servant |
                     The caster can summon forth his own, personal servant to do his bidding. This servant will require quite a bit of Judge’s discretion as to its nature, abilities, spell, etc.
 
@@ -1442,40 +1400,33 @@ Character Sheet:
                         Grimoire: *Grimoire
                 Sensing-Danger:
                   Rank: Amazing
-                  Number: 50
                   Reference: The caster can scan the area of spell using mystic waves that will warn him of danger. If this spell rank is higher than the caster’s Intuition rank, use this spell rank when the caster makes Intuition FEAT rolls. If the spell rank is lower than the caster’s Intuition, increase his Intuition by one level when making Intuition FEAT checks.
                 Sensing-Evil:
                   Rank: Amazing
-                  Number: 50
                   Reference: &Sensing-Evil |
                     The caster can mystically sense the presence of great evil in his area of spell. This includes the presence of evil creatures (demons, evil magic wielders, super villains bent on destruction, etc.), artifacts of evil design or exceptionally evil deeds. This spell is automatic (FEAT rolls are not needed). As the caster gets closer to the source of the evil emanations, his sensing gets stronger. Thus, he can usually root out the evil if he goes looking for it.
 
                     If the spell duration is permanent, the spell functions constantly, even when the caster is asleep.
                 Sensing-Fields:
                   Rank: Amazing
-                  Number: 50
                   Reference: |
                     The caster can magically detect the presence of force fields, magical or otherwise in the area of effect. The caster must make a successful yellow FEAT to detect fields smaller than man-sized at ranges greater than five areas. At ranges of a mile or more, the caster must make a successful red FEAT to detect fields smaller than building-sized.
 
                     Unlike some of the other sensing spells, this spell does not require a great deal of concentration.
                 Sensing-Identity:
                   Rank: Amazing
-                  Number: 50
                   Reference: The caster can mystically scan the mind of anybody he can see within his area of spell and determine that person’s true identity. If the target is another magic wielder or a character with mental powers of any kind, he is allowed a Psyche FEAT roll to resist the probe. If the resistance FEAT roll is successful, he is unaffected.
                 Sensing-Mystical Detection:
                   Rank: Amazing
-                  Number: 50
                   Reference: &Sensing-Mystical_Detection |
                     The caster is sensitive to the use of magic. He can detect magic use and its specific source within the area of effect. Among the specific things he can detect are: magicians casting spells, magical items that are being used or that have a protective spell cast on them, magical portals, and magical creatures.
 
                     Unlike some sensing spells, this spell does not require a great deal of concentration.
                 Tongues:
                   Rank: Amazing
-                  Number: 50
                   Reference: The caster mystically alters his senses so he can read, write, speak, and hear unknown language spoken or written in his presence. The area of effect has no significance with this spell. If the language is native to his world, no FEAT roll is needed. If the language is an alien one, he must make a successful spell rank FEAT roll to be able to comprehend it.
                 Trance:
                   Rank: Amazing
-                  Number: 50
                   Reference: |
                     The caster has two options with this spell, he can mystically slow down or speed up his metabolism.
 
@@ -1487,7 +1438,6 @@ Character Sheet:
               Universal Energies:
                 Conjure:
                   Rank: Amazing
-                  Number: 50
                   Reference: &Conjure |
                     This spell is used to teleport an item, plant, creature or character from its current location to the caster’s location. This spell can even restore a broken or decayed item to its original form while in the act of teleporting.
 
@@ -1502,14 +1452,12 @@ Character Sheet:
                     The conjuration of the body of a dead character is far beyond the abilities of any caster who does not have an Unearthly spell rank in this spell. The conjure spell only summons or recreates the physical body; however, if the dead character’s astral form survives (see the Astral Projection spell), it can reanimate the body, restoring it to true life.
                 Healing-Others:
                   Rank: Amazing
-                  Number: 50
                   Reference: &Healing_Others |
                     The caster can magically heal other characters by using universal or dimensional energy. The caster must touch the character for two consecutive rounds after casting the spell. A successful spell rank FEAT roll is required. The, maximum amount of damage that can be healed per person is the spell rank number. Any individual character can only be healed once per day by a specific caster. The number of different characters the caster can heal per day is equal to the spell rank number divided by 10 (round fractions up). If the player so desires, this spell could be used to heal a creature instead of a character.
 
                     The healing is complete, including the mending of broken bones and torn cartilage. The spell is also effective against disease.
                 Illusion:
                   Rank: Amazing
-                  Number: 50
                   Reference: |
                     This spell creates an illusion in the mind of creatures within the area of effect. The player whose character is using this spell must describe it to the Judge. The illusion looks, sounds, and smells the way it would if it were real, but cannot cause damage. Since the illusion exists only in the mind of the targets, no one outside the area of effect can see it. All characters in the area of effect see the same illusion. The caster must concentrate on the illusion for the entire duration of its existence to be believable.
 
@@ -1520,7 +1468,6 @@ Character Sheet:
                     If the illusion is of something silly, confusing, or extremely contradictory, then the Judge should secretly roll an Intuition check for those affected to disbelieve it.
                 Revival:
                   Rank: Amazing
-                  Number: 50
                   Reference: &Revival |
                     The spell counters the effects of other spells that preventing a character from acting or thinking with complete control. Spells that can be countered by a Revival spell include Mesmerism, Emotion Control, Confusion, Fear, Illusion, Charm, Mental Control, Paralyze, Forgetfulness, and the like.
 
@@ -1529,7 +1476,6 @@ Character Sheet:
                     A Revival spell can only be used against a specific spell enthralling a specific character once a day.
                 Teleportation:
                   Rank: Amazing
-                  Number: 50
                   Reference: &Teleportation |
                     The caster can channel his Universal or Dimensional energy into a special type of movement that allows him to travel instantaneously from one spot to another without physically crossing any of the space between. The caster can teleport as far as his area of effect allows. If the caster is familiar with the location he is teleporting to, or is able to see it, then he need make no FEAT roll. If he is attempting to teleport into an unknown location he must make a spell rank FEAT roll. A failed roll means he could not complete the movement and was “bumped” back to his original point of departure.
 
@@ -1539,14 +1485,12 @@ Character Sheet:
               Dimensional Energies:
                 Environmental Independence:
                   Rank: Amazing
-                  Number: 50
                   Reference: |
                     The caster can surround himself with an aura of magic that maintains a livable environment for him. He does not need to sleep, eat, drink, or breathe, but can if he wants to. He feels no non-magical cold or heat and can survive in outer space, under water, within the earth, in hostile atmospheres, etc. This spell does not provide protection from or immunity to attack, but it does allow the caster to survive in conditions where survival would normally be impossible. The area of spell is usually just around the caster himself, though the aura can contain an additional character for every rank of the caster’s Psyche above Remarkable.
 
                     This is a particularly long-lived spell, often used by magic wielders stranded in hostile circumstances or alien dimensions. The duration of this spell is left to the Judge, as different conditions and circumstances (time passage in other dimensions for example) can affect the duration. It is suggested that the caster receive a +3CS on the duration of the spell. (For example, the spell would have a Unearthly duration for a caster with an Incredible spell rank.) An Unearthly duration means that the spell lasts indefinitely, usually until the caster escapes from the hostile conditions that caused him to cast the spell.
                 Dimensional Aperture:
                   Rank: Amazing
-                  Number: 50
                   Reference: |
                     This spell causes a temporary opening in the dimension’s fabric, allowing the caster to cross from one dimension to another. Look for the section on Dimensions in the Miscellany of Mysticism for more detail. The caster can automatically open a portal to a dimension with which he is familiar, but opening a portal to an unfamiliar dimension requires a successful spell rank FEAT roll. If a FEAT roll is required, failure indicates that the caster cannot enter the desired dimension that day A beginning caster who does not really know one dimension from another can stumble into any one of them at random.
 
@@ -1560,7 +1504,7 @@ Character Sheet:
           Phylax Integrated Multipurpose Weapon System:
             Phylax Integrated Multipurpose Pistol: &Phylax_Integrated_Multipurpose_Pistol
               Description: |
-                The Phylax Integrated Multipurpose Pistol, also known as the IMP, is a handheld combination weapon with utility functions.  It fires handgun bullets with the precision of a match-grade target pistol with an integrated silencer, gyrojet rockets, shot shells, canister rounds, and laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher. Beam types are selectable on the fly from a power pack. Other weapons' ammunition are treated as types of ammunition that must be switched out and it can only load and fire one at a time, as does the Variable Pistol; the loading and firing mechanisms are in large part integral to the magazines. Other features such as the flare gun, fire extinguisher, and mace are all present together with everything else, but must be reloaded after a single use.
+                The Phylax Integrated Multipurpose Pistol, also known as the IMP, is a handheld combination weapon with utility functions. It fires handgun bullets with the precision of a match-grade target pistol with an integrated silencer, gyrojet rockets, shot shells, canister rounds, and laser, concussion, and stun beams. It features integral optics that are night-vision capable. Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher. Beam types are selectable on the fly from a power pack. Other weapons' ammunition are treated as types of ammunition that must be switched out and it can only load and fire one at a time, as does the Variable Pistol; the loading and firing mechanisms are in large part integral to the magazines. Other features such as the flare gun, fire extinguisher, and mace are all present together with everything else, but must be reloaded after a single use.
                 
                 It's an integrated combination of existing weapons (Variable Pistol, Target Pistol, Gyrojet Pistol, Laser Pistol, Concussion Pistol, Stun Pistol, Shotgun, Riot Gun) and items (Fire Extinguisher, Silencer, Sniper Sights, Infra-Red Sights, Flashlights—Normal and Halogen, Mace, Flare Gun).
               Material Strength: Excellent
@@ -1606,7 +1550,7 @@ Character Sheet:
                 - Riot Gun may loaded with non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results).
             Phylax Integrated Multipurpose Rifle: &Phylax_Integrated_Multipurpose_Rifle
               Description: |
-                The Phylax Integrated Multipurpose Rifle is a longarm combination weapon with utility functions, essentially a larger version of the Pistol.  It fires medium power and magnum power rifle bullets with the precision of a sniper rifle with an integrated silencer, shot shells, rockets, canister rounds, flammable liquid, and laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher.  Beam types are selectable on the fly from a power pack. Other weapons' ammunition are treated as types of ammunition that must be switched out and it can only load and fire one at a time, as does the Variable Pistol; the loading and firing mechanisms are in large part integral to the magazines. The flamethrower has a separate fuel source. Other features such as the flare gun, fire extinguisher, and mace are all present together with everything else, but must be reloaded after a single use.
+                The Phylax Integrated Multipurpose Rifle is a longarm combination weapon with utility functions, essentially a larger version of the Pistol. It fires medium power and magnum power rifle bullets with the precision of a sniper rifle with an integrated silencer, shot shells, rockets, canister rounds, flammable liquid, and laser, concussion, and stun beams. It features integral optics that are night-vision capable. Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher. Beam types are selectable on the fly from a power pack. Other weapons' ammunition are treated as types of ammunition that must be switched out and it can only load and fire one at a time, as does the Variable Pistol; the loading and firing mechanisms are in large part integral to the magazines. The flamethrower has a separate fuel source. Other features such as the flare gun, fire extinguisher, and mace are all present together with everything else, but must be reloaded after a single use.
               
                 It's an integrated combination of existing weapons (Variable Pistol, Sniper Rifle, Assault Rifle, Laser Rifle, Concussion Rifle, Stun Rifle, Shotgun, Riot Gun, LAW) and items (Fire Extinguisher, Silencer, Sniper Sights, Infra-Red Sights, Flashlights—Normal and Halogen, Mace, Flare Gun).
               Material Strength: Excellent
@@ -1663,7 +1607,7 @@ Character Sheet:
                 - Flamethrower scatters, which indicates all targets within one area of the target will be hit for that damage.
             Phylax Integrated Multipurpose Cannon: &Phylax_Integrated_Multipurpose_Cannon
               Description: |
-                The Phylax Integrated Multipurpose Cannon is a vehicle mounted or crew-served combination weapon with utility functions, essentially a larger version of the Rifle's beam system.  It laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity light system for illumination or blinding and a heavy-duty foam projector to extinguish fires or clear areas.  The Cannon must be stationary to fire, mounted on a sufficiently large vehicle or structure, or tripod.  Beam types are selectable on the fly from a power pack. The fire hose is present together with everything else, but must be reloaded after a single use if not hooked to a hydrant or similar water source.
+                The Phylax Integrated Multipurpose Cannon is a vehicle mounted or crew-served combination weapon with utility functions, essentially a larger version of the Rifle's beam system. It laser, concussion, and stun beams. It features integral optics that are night-vision capable. Additionally, it has utility features comprising a standard intensity and high intensity light system for illumination or blinding and a heavy-duty foam projector to extinguish fires or clear areas. The Cannon must be stationary to fire, mounted on a sufficiently large vehicle or structure, or tripod. Beam types are selectable on the fly from a power pack. The fire hose is present together with everything else, but must be reloaded after a single use if not hooked to a hydrant or similar water source.
               
                 It's an integrated combination of existing weapons (Laser Cannon, Concussion Cannon, Stun Cannon, Missile Launcher) and items (Fire Hose, Sniper Sights, Infra-Red Sights, Flashlights—Normal and Halogen).
               Material Strength: Excellent
@@ -1828,7 +1772,7 @@ Character Sheet:
           Arma Tactical Utility Vehicle System:
             Tactical Utility Vehicle: &Arma_TUV
               Description: |
-                An up-armored, high-performance four wheel drive vehicle, The Arma Tactical Utility Vehicle has the speed, acceleration, and handling of a sports car, the off-road capability of a military vehicle, and the protection and durability of an armored vehicle. Features expected off-road functional accessories like winches, lights, onboard compressed air, hydraulic pump, generator, and welder-cutter, PTO, trail vise, communications suite featuring SSB CB, HAM, and commercial/business band radios, as well as police scanners, weather radio, world band radio, television, and satellite receivers, personal computer, and car phone, spotlights, cameras, flashers, PA, run flat tires with spare, and ramming-capable grille guards.  They carry pioneer tools, basic hand tools, basic air and power tools, road safety equipment, heavy-duty and high-lift jacks, basic survival gear, basic rescue gear, high angle gear, AED, field stretcher and backboard, oxygen, suction, and first aid and first responder gear. It can drop caltrops or release smoke behind it to dissuade pursuers. Optionally, a turret-mounted Phylax Integrated Multipurpose Cannon may be installed, though this is not typical for daily operations. There are secure racks inside for Phylax IM Pistols and Rifles, along with ammunition and refills, and Phylax Staves, two each up front, and optionally 4 in the back if there's no turret and magazine. In this base configuration, it seats 4 in inward-facing jump seats that fold securely out of the way. There are Remarkable Material Strength points to handcuff someone or strap down cargo or people to, and they generally carry various straps, chains, and cargo nets for various purposes. In general, they are registered and plated as private ambulances, regardless of configuration, and if so, have police-band and other emergency band radios, siren, and red flashers in addition to white, amber, and green.
+                An up-armored, high-performance four wheel drive vehicle, The Arma Tactical Utility Vehicle has the speed, acceleration, and handling of a sports car, the off-road capability of a military vehicle, and the protection and durability of an armored vehicle. Features expected off-road functional accessories like winches, lights, onboard compressed air, hydraulic pump, generator, and welder-cutter, PTO, trail vise, communications suite featuring SSB CB, HAM, and commercial/business band radios, as well as police scanners, weather radio, world band radio, television, and satellite receivers, personal computer, and car phone, spotlights, cameras, flashers, PA, run flat tires with spare, and ramming-capable grille guards. They carry pioneer tools, basic hand tools, basic air and power tools, road safety equipment, heavy-duty and high-lift jacks, basic survival gear, basic rescue gear, high angle gear, AED, field stretcher and backboard, oxygen, suction, and first aid and first responder gear. It can drop caltrops or release smoke behind it to dissuade pursuers. Optionally, a turret-mounted Phylax Integrated Multipurpose Cannon may be installed, though this is not typical for daily operations. There are secure racks inside for Phylax IM Pistols and Rifles, along with ammunition and refills, and Phylax Staves, two each up front, and optionally 4 in the back if there's no turret and magazine. In this base configuration, it seats 4 in inward-facing jump seats that fold securely out of the way. There are Remarkable Material Strength points to handcuff someone or strap down cargo or people to, and they generally carry various straps, chains, and cargo nets for various purposes. In general, they are registered and plated as private ambulances, regardless of configuration, and if so, have police-band and other emergency band radios, siren, and red flashers in addition to white, amber, and green.
                 
                 It's an integrated combination of existing items (Sports Car, Jeep, and Armored Car, optionally Ambulance).
               Type:
@@ -1854,7 +1798,7 @@ Character Sheet:
                   Phylax Integrated Multipurpose Cannon: *Phylax_Integrated_Multipurpose_Cannon
             Tactical Utlity Watercraft: &Arma_TUW
               Description: |
-                The Arma Tactical Utility Watercraft (TUW) is a nimble jet-powered submersible ship that can displace on or under the surface, deploy hydrofoils, or hover in ground effect as needed, combining the versatility of surface, subsurface, and amphibious operations with the protection and durability of an armored vehicle. There is just enough room on the rear deck of the Arma TUW for a VTOL vehicle to land, (un-)load, and takeoff, or to park a pair of vehicles on, and the means to secure them with Incredible Material Strength tiedown points. A small galley, cabins, laundry, and head with shower can support up to 4 people for long term operations, up to about 6-8 for a few days if the jump bunks in the hold are deployed, and can transport 10-15 short term, 20 if cramped into an empty hold and as many more crowded on deck in a pinch. The small cargo hold and smaller brig feature Incredible Material Strength points to handcuff someone or strap down cargo or people to, and they generally carry various straps, chains, and cargo nets for various purposes. Features expected off-grid, marine, and functional accessories like cranes, winches, and hoists, washdowns, solar panels, lights, onboard compressed air, hydraulic pump, generator, and welder-cutter, communications suite featuring marine band radios and an experimental INMARSAT phone, SSB CB, HAM, and commercial/business band radios, as well as police scanners, weather radio, world band radio, television, and satellite receivers, personal computer, and mobile phone, spotlights, cameras, flashers, PA. Marine, weather, and air traffic radars and navigational, sounding, side-scanning, upward-looking, and synthetic-aperture sonars provide constant awareness. Navigation includes Decca, LORAN, gyroscopic and magnetic compasses, and an experimental satellite navigation system, as well as a sophisticated autopilot.  They carry scuba gear, surface-supplied air diving pumps, dredging, salvage, and cargo-handling gear, life rafts, pioneer tools, basic hand tools, basic air and power tools, water safety equipment, basic and open water survival gear, basic and water rescue gear, AED, field stretchers and backboards, oxygen, suction, and first aid and first responder gear. It can release smoke behind it to dissuade pursuers or as a signal. Optionally, up to four turret-mounted Phylax Integrated Multipurpose Cannon may be installed, though this is not typical for daily operations. There are secure racks inside for 10 sets of Phylax IM Pistols and Rifles, along with ammunition and refills, and Phylax Staves.  In general, they are registered as private water ambulances, regardless of configuration, and if so, have police-band and other emergency band radios, siren, and red flashers in addition to white, amber, and green.
+                The Arma Tactical Utility Watercraft (TUW) is a nimble jet-powered submersible ship that can displace on or under the surface, deploy hydrofoils, or hover in ground effect as needed, combining the versatility of surface, subsurface, and amphibious operations with the protection and durability of an armored vehicle. There is just enough room on the rear deck of the Arma TUW for a VTOL vehicle to land, (un-)load, and takeoff, or to park a pair of vehicles on, and the means to secure them with Incredible Material Strength tiedown points. A small galley, cabins, laundry, and head with shower can support up to 4 people for long term operations, up to about 6-8 for a few days if the jump bunks in the hold are deployed, and can transport 10-15 short term, 20 if cramped into an empty hold and as many more crowded on deck in a pinch. The small cargo hold and smaller brig feature Incredible Material Strength points to handcuff someone or strap down cargo or people to, and they generally carry various straps, chains, and cargo nets for various purposes. Features expected off-grid, marine, and functional accessories like cranes, winches, and hoists, washdowns, solar panels, lights, onboard compressed air, hydraulic pump, generator, and welder-cutter, communications suite featuring marine band radios and an experimental INMARSAT phone, SSB CB, HAM, and commercial/business band radios, as well as police scanners, weather radio, world band radio, television, and satellite receivers, personal computer, and mobile phone, spotlights, cameras, flashers, PA. Marine, weather, and air traffic radars and navigational, sounding, side-scanning, upward-looking, and synthetic-aperture sonars provide constant awareness. Navigation includes Decca, LORAN, gyroscopic and magnetic compasses, and an experimental satellite navigation system, as well as a sophisticated autopilot. They carry scuba gear, surface-supplied air diving pumps, dredging, salvage, and cargo-handling gear, life rafts, pioneer tools, basic hand tools, basic air and power tools, water safety equipment, basic and open water survival gear, basic and water rescue gear, AED, field stretchers and backboards, oxygen, suction, and first aid and first responder gear. It can release smoke behind it to dissuade pursuers or as a signal. Optionally, up to four turret-mounted Phylax Integrated Multipurpose Cannon may be installed, though this is not typical for daily operations. There are secure racks inside for 10 sets of Phylax IM Pistols and Rifles, along with ammunition and refills, and Phylax Staves. In general, they are registered as private water ambulances, regardless of configuration, and if so, have police-band and other emergency band radios, siren, and red flashers in addition to white, amber, and green.
                 
                 It's an integrated combination of existing items (Patrol Boat, Hydrofoil, Mini-Sub, Hovercraft, Armored Carrier, and Ambulance).
               Type:
@@ -1895,7 +1839,7 @@ Character Sheet:
                   Phylax Integrated Multipurpose Cannon: *Phylax_Integrated_Multipurpose_Cannon
             Tactical Utility Aircraft: &Arma_TUA
               Description: |
-                The Arma Tactical Utility Aircraft (TUA) is a sleek, nimble ducted-turbofan, thrust-vectoring VTOL aircraft that can operate in ground effect like a hovercraft as well. It has a crew of two to four, and can carry up to 6-8 in jump seats, or 10-12 crowded, with both side and tailgate hatches. The cargo deck features Remarkable Material Strength points to handcuff someone or strap down cargo or people to, and they generally carry various straps, chains, and cargo nets for various purposes. It can carry a vehicle or similar weight as a slung load. Features expected off-grid, aviation, and functional accessories like cranes, winches, and hoists, lights, onboard compressed air, hydraulic pump, generator, and welder-cutter, communications suite featuring aviation band and marine band radios, SSB CB, HAM, and commercial/business band radios, as well as police scanners, weather radio, world band radio, television, and satellite receivers, personal computer, and mobile phone, spotlights, cameras, flashers, PA. Navigational, weather, lookdown, and synthetic-aperture radars provide constant awareness. Navigation includes VORE, LORAN, gyroscopic and magnetic compasses, and an experimental satellite navigation system, as well as a sophisticated autopilot.  They carry cargo-handling gear, high-angle gear, life rafts, pioneer tools, basic hand tools, basic air and power tools, water safety equipment, basic and open water survival gear, basic and water rescue gear, AED, field stretchers and backboards, oxygen, suction, and first aid and first responder gear. Optionally, up to three turret-mounted Phylax Integrated Multipurpose Cannon may be installed (nose and nacelles), though this is not typical for daily operations. There are secure racks inside for 10 sets of Phylax IM Pistols and Rifles, along with ammunition and refills, and Phylax Staves.  In general, they are registered as private airlift ambulances, regardless of configuration, and if so, have police-band and other emergency band radios, siren, and red flashers in addition to white, amber, and green.
+                The Arma Tactical Utility Aircraft (TUA) is a sleek, nimble ducted-turbofan, thrust-vectoring VTOL aircraft that can operate in ground effect like a hovercraft as well. It has a crew of two to four, and can carry up to 6-8 in jump seats, or 10-12 crowded, with both side and tailgate hatches. The cargo deck features Remarkable Material Strength points to handcuff someone or strap down cargo or people to, and they generally carry various straps, chains, and cargo nets for various purposes. It can carry a vehicle or similar weight as a slung load. Features expected off-grid, aviation, and functional accessories like cranes, winches, and hoists, lights, onboard compressed air, hydraulic pump, generator, and welder-cutter, communications suite featuring aviation band and marine band radios, SSB CB, HAM, and commercial/business band radios, as well as police scanners, weather radio, world band radio, television, and satellite receivers, personal computer, and mobile phone, spotlights, cameras, flashers, PA. Navigational, weather, lookdown, and synthetic-aperture radars provide constant awareness. Navigation includes VORE, LORAN, gyroscopic and magnetic compasses, and an experimental satellite navigation system, as well as a sophisticated autopilot. They carry cargo-handling gear, high-angle gear, life rafts, pioneer tools, basic hand tools, basic air and power tools, water safety equipment, basic and open water survival gear, basic and water rescue gear, AED, field stretchers and backboards, oxygen, suction, and first aid and first responder gear. Optionally, up to three turret-mounted Phylax Integrated Multipurpose Cannon may be installed (nose and nacelles), though this is not typical for daily operations. There are secure racks inside for 10 sets of Phylax IM Pistols and Rifles, along with ammunition and refills, and Phylax Staves. In general, they are registered as private airlift ambulances, regardless of configuration, and if so, have police-band and other emergency band radios, siren, and red flashers in addition to white, amber, and green.
                 
                 It's an integrated combination of existing items (Traffic Copter, Battle Copter, Corporate Jet, Hovercraft, Armored Car, and Ambulance).
               Type:
@@ -2165,7 +2109,7 @@ Character Sheet:
           Purchased Suit or Tux: Multiple
           Mystic Texts: &Mystic_Texts  Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
           Phylax Battlesuit: &Phylax_Battlesuit
-              Description: A sleek, dark, armored suit consisting of para-aramids, meta-aramids, beta cloth, titanium mesh, silicone rubber, and high-impact ballistic plastic, it sports built-in functionality such as an integral air supply and respirator in its mask, and night-vision and polarized eye-protection in the goggles, as well as retractable inline wheels in the boots and compact rocket boosters on the back.  It's an integrated combination of existing items.
+              Description: A sleek, dark, armored suit consisting of para-aramids, meta-aramids, beta cloth, titanium mesh, silicone rubber, and high-impact ballistic plastic, it sports built-in functionality such as an integral air supply and respirator in its mask, and night-vision and polarized eye-protection in the goggles, as well as retractable inline wheels in the boots and compact rocket boosters on the back. It's an integrated combination of existing items.
               Material Strength: Excellent
               Other Equipment:
                 Infra-red Goggles: &Infra-Red_Goggles Infra-Red Goggles are similar to infra-red sights; these permit normal vision up to 5 areas away in dimly lit areas.
@@ -2197,7 +2141,6 @@ Character Sheet:
                 Personal Energies:
                   Resistance Aura:
                     Rank: Amazing
-                    Number: 50
                     Type:
                       Solar: Resistance to sun stroke, sunburn, light attacks, and solar radiation.
                       Heat and Flame: Resistance to fire, flames, and natural or artificial heat sources.
@@ -2218,7 +2161,6 @@ Character Sheet:
                 Universal Energies:
                   Eldritch Beams/Bolts:
                     Rank: Amazing
-                    Number: 50
                     Type:
                       Light Bolt: This bolt causes damage through intense light. The bolt is golden.
                       Fire Bolt: This bolt causes fire and heat damage and is a reddish line of flame.
@@ -2237,7 +2179,6 @@ Character Sheet:
                         - Sonic Bolt: This bolt causes damage through sonic disruption, nerve damage, etc.
                   Energy Control:
                     Rank: Amazing
-                    Number: 50
                     Type:
                       Solar: A hero with this spell can redirect, magnify, or diminish the natural light in the area of the spell. A blinding flash can cause damage in that area equal to the spell rank number and temporarily blind a victim. A light barrier does not defend against damage, but no one can see through it and it scares off unintelligent animals and creatures.
                     Reference: |
@@ -2261,16 +2202,13 @@ Character Sheet:
                         - Sonics: This spell can amplify sound in an area to the point where everyone except the caster is temporarily deafened. This is particularly distracting for magic wielders using dimensional spells and incantations (successful yellow Psyche FEAT roll required to cast a dimensional spell; see Distractions in the MAGIC USE AND COMBAT Section). The caster can also reverse the effect to completely “dampen” an area so that no sound can be heard whatsoever, including sonic weapons.
                   Healing-Others:
                     Rank: Amazing
-                    Number: 50
                     Reference: *Healing_Others
                   Shield-Aura:
                     Rank: Amazing
-                    Number: 50
                     Reference: The caster surrounds himself or another character with a shining aura that acts as body armor against all forms of attack. It does not hinder the caster in any way. An aura shield has an armor rank equal to the spell rank -1CS. If it is hit by an attack with a higher power rank it is shattered and disappears, though no damage reaches the caster during that round. Only one aura shield can surround a character at any given time.
                   Vapors-Resist Death:
                     Rank: Amazing
-                    Number: 50
-                    Reference: &Vapors-Resist_Death |
+                    Reference: |
                       The caster can conjure forth magical vapors, which pour out from around his feet, hands, or just suddenly begin to swirl in the air (caster’s discretion). These vapors will only cover one individual the caster chooses within the area of spell. This character must be dying or dead for no more than 2 rounds when the spell is cast. These extremely powerful vapors will bring the character up to 0 Health points and keep him there (if he has died) or will freeze him at the level of his current Health and Endurance. This “freezing” of the character will last for the duration of effect and allows for time to treat his wounds or the condition which is killing him (taking him to a hospital, applying spells that heal, etc.)
 
                       Once applied, these vapors wrap the target in a black, swirling shroud. The target remains unconscious while in the vapors.
@@ -2281,7 +2219,7 @@ Character Sheet:
           Familiar:
             Reference: Familiar indicates a being that is very powerful magically and actively assists the hero. Two powers should be rolled randomly or selected by the Judge from the personal and universal energy lists for this familiar. In addition, the familiar is intelligent (Reason and Psyche at least Typical) and can communicate with its owner (the kind of communication is left to the Judge’s discretion). The form of the familiar can either be that of a normal animal (usually a cat) or an unusual type, such as a small dragon or other mythical creature. The familiar’s form is at the player’s discretion.
             Leonidas:
-              Description: A particularly large housecat most resembling a strikingly ancient- and wild-looking Oriental breed, somewhat like an oversized Egyptian Mau, with a black spotted silver tabby coat and brilliant green eyes. While still very much a cat in personality, that's tempered by intelligence and insight that's far above the human norm and over a millennium of existence in close contact with Julian Constantine, giving him a dry, witty, sarcastic detachment and studious, serious, somewhat pessimistic outlook.  Leonidas doesn't speak or use telepathy to communicate per se, but is exceptionally adept at making himself understood by others, as well as understanding them, regardless of language, the same as if he were conversing like any human. Leonidas has been with Julian since the latter began his sorcerous journey.
+              Description: A particularly large housecat most resembling a strikingly ancient- and wild-looking Oriental breed, somewhat like an oversized Egyptian Mau, with a black spotted silver tabby coat and brilliant green eyes. While still very much a cat in personality, that's tempered by intelligence and insight that's far above the human norm and over a millennium of existence in close contact with Julian Constantine, giving him a dry, witty, sarcastic detachment and studious, serious, somewhat pessimistic outlook. Leonidas doesn't speak or use telepathy to communicate per se, but is exceptionally adept at making himself understood by others, as well as understanding them, regardless of language, the same as if he were conversing like any human. Leonidas has been with Julian since the latter began his sorcerous journey.
               Origin:
                 Physical Form:
                   Animal: |
@@ -2319,18 +2257,15 @@ Character Sheet:
                       Detection:
                         Hypersensitive Hearing:
                           Rank: Remarkable
-                          Number: 30
                           Reference: The hero can detect extremely faint sounds and unusual frequencies. He can identify objects by the sounds they emit. Because of the sensitivity of the hero's hearing, he is more vulnerable to sonic attacks (which receive a +1CS against him).
                         Hypersensitive Olfactory:
                           Rank: Remarkable
-                          Number: 30
                           Reference: |
                             The hero can detect the presence of minute traces of substances and accurately identify them.
 
                             This Power is continually functioning: the hero has learned to ignore unpleasant smells. If he loses his ability to mask out nasty odors, he'll be so distracted (and possibly sickened) by the intruding odors that he loses -1CS on Reason and Endurance.
                         Tracking Ability:
                           Rank: Remarkable
-                          Number: 30
                           Reference: The hero can detect and follow the tracks left by a specific target. The hero can detect environmental and spatial disturbances with the result that at high ranks the hero can actually track across deep space.
                     Advanced Player's Book:
                       Body Alterations-Defensive:
@@ -2361,53 +2296,43 @@ Character Sheet:
                     Personal Energies:
                       Admittance:
                         Rank: Incredible
-                        Number: 40
                         Reference: *Admittance
                       Apparition:
                         Rank: Incredible
-                        Number: 40
                         Reference: *Apparition
                       Invisibility:
                         Rank: Incredible
-                        Number: 40
                         Reference: *Invisibility
                       Luck:
                         Rank: Incredible
-                        Number: 40
                         Reference:  The caster can disrupt probability fields so that very unlikely events can occur, somewhat like creating his own luck. For example, he could cause a table to collapse or a machine to tip over. He can not cause something to happen if that event is impossible; tables can not be created from nothing, and machines just can’t cease to exist. When the caster uses his spell, the player describes exactly what effect is wanted, and the Judge decides whether or not that effect is within the spell’s power and assigns an appropriate FEAT color. To use the spell the caster must make a successful spell rank FEAT roll. If the caster is trying to alter probabilities around magic materials or energies, such as magical artifacts or temples, apply a -2CS to the spell rank when making the FEAT roll.
                       Sensing-Evil:
                         Rank: Incredible
-                        Number: 40
                         Reference: *Sensing-Evil
                       Sensing-Mystical Detection:
                         Rank: Incredible
-                        Number: 40
                         Reference: *Sensing-Mystical_Detection
                     Universal Energies:
                       Fear:
                         Rank: Incredible
-                        Number: 40
                         Reference: |
                           This spell affects all targets in the area of effect. The spell releases an unreasoning fear from the target’s mind. All targets are allowed a Psyche FEAT roll to resist the effect (see the Magic Effects Table). If the target misses the roll, the frightened character wants nothing more than to run away and hide (all his actions while afraid are at -2CS). The victim will try to avoid, or if necessary attack, anyone attempting to stop or restrain him. The character can only perform actions (including spellcasting) that will help him to escape. The victim always flees away from the attacker, even if he cannot see the caster. After the first three rounds of being afraid, and every other round after that, if need be, the frightened character is allowed a Psyche FEAT roll to regain his composure. Once made, it will still take him a full round to get complete control of himself.
 
                           Though the caster must maintain a high degree of concentration on this spell to keep the target afraid (no attacks or other spellcasting allowed), he does not know when the character breaks the spell. Only when the target attacks the caster or otherwise acts contrary to a state of fear does the caster realize he no longer influences the target.
                       Forgetfulness:
                         Rank: Incredible
-                        Number: 40
                         Reference: |
                           The caster can magically effect other characters’ minds and cause them to forget events. This is usually used by heroic magic wielders to protect innocent bystanders from the awesome psychic shock caused by some of the sights to be seen during magical combat, etc. It is also used by most magic wielding characters to protect their secret identities. Evil magicians may also use this spell to cover up their trail or their crimes. The duration of the spell is permanent (unless another sorcerer uses a Revival spell of at least equal spell rank to break the spell of Forgetfulness). The number of people that can be ensorcelled by the spell depends on the spell rank: Good = 1 person; Excellent = up to 5 people; Remarkable = everyone in 1 area; Incredible = everyone in a square mile; Amazing = everyone in 100 square miles; Monstrous = everyone on the planet; Unearthly everyone in one dimension; Class 1000 everyone in all dimensions.
 
                           Any character with a Psyche equal to or greater than the caster’s may make a Psyche FEAT roll to reduce the effects of the spell. Magic wielding characters have a +2CS for this FEAT roll. A green result means that vague recollections of the event sometimes surface in the character’s memory. A yellow result means that the character knows most of the highlights of the event, but cannot remember who cast the spell of forgetfulness. A red result means that the character can remember everything.
                       Static Field:
                         Rank: Incredible
-                        Number: 40
                         Reference: |
                           The caster can set up an invisible static field with his magical energy. This field, which blankets his area of effect, disrupts television, radio, CB, walkie-talkie, and other broadcasting devices. It also disrupts all closed-circuited monitoring security systems and scanners, most computer systems, robotic “brains”, and any other highly sophisticated electronic devices. The field moves with the caster and once an item is outside the field, it works as before.
 
                           Any attack that uses broadcast power, such as a maser (microwave), must punch through the field first. Treat the spell rank as body armor for purposes of defense.
                       Teleportation:
                         Rank: Incredible
-                        Number: 40
                         Reference: *Teleportation
               Notes: Inflicts Edged attack damage with claws but cannot score a Kill result against human targets. Moves 3 areas/turn.
               Reference:
@@ -2551,7 +2476,7 @@ Character Sheet:
           Mace: *Mace
           Camera: Camera represents the standard photographer's tool. More expensive versions are available with higher definition. Camera accessories would include film (Feeble cost), flash (normal or halogen, as flashlight), and special lens, such as telephoto lens (Good cost).
     Magos:
-        Description: Plural Magoi. Magoi are those disciples and apprentices of Julian Constantine truly walking the path of the Scientific Sorcerer. They're the closest circle of his proxies and agents, deputies serving as his eyes, hands, and mouths. Their ornate, Byzantine-styled ceremonial robes or mantles, featuring a mix of Greco-Roman and Nordic motifs, are usually worn over slickly tailored, designer suits, and their fingers, wrists, and necks bedecked with jewelry of arcane significance.  Within the organization, Varangian Magos have the title Mágistros (Magister, Master, Teacher),  with the senior among them titled Kýrios (Lord). Some exceptional individuals may differ somewhat from these baseline stats.
+        Description: Plural Magoi. Magoi are those disciples and apprentices of Julian Constantine truly walking the path of the Scientific Sorcerer. They're the closest circle of his proxies and agents, deputies serving as his eyes, hands, and mouths. Their ornate, Byzantine-styled ceremonial robes or mantles, featuring a mix of Greco-Roman and Nordic motifs, are usually worn over slickly tailored, designer suits, and their fingers, wrists, and necks bedecked with jewelry of arcane significance. Within the organization, Varangian Magos have the title Mágistros (Magister, Master, Teacher),  with the senior among them titled Kýrios (Lord). Some exceptional individuals may differ somewhat from these baseline stats.
         Origin: *Normal_Human_Self-Achievement
         Abilities:
           Primary Abilities:
@@ -2627,7 +2552,6 @@ Character Sheet:
       Base of Operations: Manhattan
       Resources:
         Rank: Unearthly
-        Number: 100
         Reference: Major country, mega-corporation (United States, Soviet Union)
       Description: 
         Executive Director and Chairman of the Board: Julian Constantine
@@ -2942,7 +2866,7 @@ Character Sheet:
                   - Multiple: *Multiple_Defense
                 Reference: *Defense_Package
         Operations Building:
-          Description: Primary operations center for the Varangian Guard.  Includes barracks and crash bunks for security personnel, serves as dispatch, training facility, and fleet garage.
+          Description: Primary operations center for the Varangian Guard. Includes barracks and crash bunks for security personnel, serves as dispatch, training facility, and fleet garage.
           Reference:
             Large Warehouse:
               Size:
@@ -3045,7 +2969,7 @@ Character Sheet:
                 Reference: *Defense_Package
             Roof: *Roof
         Technical Building:
-          Description: Research and development and manufacturing and production all in one building.  Also has maintenance and repair facilities.
+          Description: Research and development and manufacturing and production all in one building. Also has maintenance and repair facilities.
           Reference:
             Large Factory:
               Size:
@@ -3168,7 +3092,7 @@ Character Sheet:
               Protection: Typical
               Reference: *Jeep-Pickup
         Maintenance Vehicle:
-          Note: Used by groundskeepers and maintenance crew.  Tool racks with appropriate equipment.
+          Note: Used by groundskeepers and maintenance crew. Tool racks with appropriate equipment.
           Reference:
             Pick-Up: *Jeep-Pickup
         Grounds Maintenance Vehicle:
@@ -3212,7 +3136,7 @@ Character Sheet:
               Protection: Remarkable
               Reference: *Armored_Car
         Light Utility Vehicle:
-          Note: Primarily on-premises use.  Wilderness use.
+          Note: Primarily on-premises use. Wilderness use.
           Reference:
             ATV:
               Type:
@@ -3427,7 +3351,7 @@ Character Sheet:
                     Law Enforcement: *Law_Enforcement
             Reference: Standard agent of law-enforcement. Walks a beat or patrols in a squad car. Equipment includes a billy club and handgun. May make arrests.
       Rapid Response Officer:
-        Description: Members of the Varangian Guard's Crisis Rapid Response Team use improved SWAT operative stats and have the same base equipment as the uniformed guards, but additionally wear Flak Jackets and are armed with a Riot Gun, Assault Rifle, or Sniper Rifle depending on their role on their squad.  They have access to Gas Masks and Infra-Red Goggles as well.
+        Description: Members of the Varangian Guard's Crisis Rapid Response Team use improved SWAT operative stats and have the same base equipment as the uniformed guards, but additionally wear Flak Jackets and are armed with a Riot Gun, Assault Rifle, or Sniper Rifle depending on their role on their squad. They have access to Gas Masks and Infra-Red Goggles as well.
         Abilities:
           Primary Abilities:
             Fighting: Excellent
