@@ -2180,16 +2180,8 @@ Character Sheet:
                     The visual effects that accompany teleporting (vapors rising, flash of light, slow fade out, etc.) are up to the player.
       Equipment:
         Salaries Sundries and Other Equipment:
-          Respectable Clothing:
-            Price: Typical
-            Note: Daily wardrobes of Normal Human cover identities. More basic, casual, off-the-shelf, or mundane than what is created with Artifact Creation, Molecular Creation, and Molding (high fashion, valuable accessories, etc.). Vintage clothing highly represented.
-          Original Art:
-            Price: Good
-            Note: Decorations and objets d'art, particularly in higher-end residences.
-          Mystic Texts:
-            Price: Incredible
-            Reference: |
-              Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
+          Respectable Clothing: Daily wardrobes of Normal Human cover identities. More basic, casual, off-the-shelf, or mundane than what is created with Artifact Creation, Molecular Creation, and Molding (high fashion, valuable accessories, etc.). Vintage clothing highly represented.
+          Mystic Texts: Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
         Headquarters:
           Ashtaret's Domain:
             Type: Special
@@ -2300,13 +2292,12 @@ Character Sheet:
                   - Defensive systems are magical in nature, rather than technological. Beams originate from gems over doorframes or archways, statue mouths and eyes, floating orbs, etc.
                   - Defensive Weapons:
                     Intensity: Amazing
-                    Material Strength:
-                      Rank: Amazing
+                    Material Strength: Amazing
                     Range: 20
                     Rate: 1
                     Note:
                       - Emitters may fire one of 3 types of beams per turn, a single target or a Burst.
-                      - Bursts may affect up to 3 adjacent targets with a single roll.
+                      - Beams burst, affecting up to 3 adjacent targets with a single roll.
                       - Intensity is the effective Fighting, Agility, or Strength for any attacks or FEATs, as well as Range.
                       - Material Strength is the effective Endurance for any FEATs.
                       - Stunning requires Enduance FEAT vs Intensity or pass out for 1-10 turns
@@ -2317,7 +2308,6 @@ Character Sheet:
                       Concussion Beam: Force
                       Laser Beam: Energy
                       Tentacle:
-                        - Stunning
                         - Blunt Attack
                         - Grappling
                         - Grabbing
@@ -2345,7 +2335,6 @@ Character Sheet:
                   *Cost: Excellent* - Occupies one room. Contains standard restraining devices, including bars of Remarkable material strength. At Remarkable Cost*, restraining devices made of Incredible Strength. At Incredible Cost*, restraining devices at Amazing Strength and Excellent Strength inhibitor restraints.
             Note:
               - Descriptions are references from the Ultimate Player's Book chapter on Headquarters, and exemplary, rather than canonical, functionally or qualitatively generally equivalent to the contents of the extraplanar domain by comparison to 1980's Manhattan, rather than literal descriptions.
-              - There are no Fire Protection Packages, as everything native to the domain is invulnerable to fire. Books are otherwise protected.
               - Ashtaret is continuously in Deity Aspect while in this dimension. She may choose to appear in another Aspect when leaving her domain, without triggering either the Changeling penalty timer or requiring an Energy Depletion recharge.
               - Considered Ashtaret's personal pocket dimension per Dimensional Aperture Spell.
               - Base Cost is the version selected, Value is based on quality CS shifts, not different versions.
