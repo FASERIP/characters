@@ -131,10 +131,6 @@ Character Sheet:
                 Type: Power Negation
                 Reference: |
                   The hero's Powers cease to function when the hero is within 20 feet of the stimulus. The hero's Primary Abilities are also affected; these drop -1CS per 10 turns until a minimum rank of Typical is reached for all of them. If the. hero is beyond the 20 foot limit but tries to use his Powers to affect the Stimulus, certain uses of Power automatically fail. Any Power that directly acts on a target cannot affect a Stimulus. Only Powers that indirectly affect the Stimulus succeed, such as using brute force to lob missiles at the Stimulus.
-                Shift-Z:
-                  Name: Shift-Z
-                  Number: 500
-                  Abbreviation: ShZ
             Duration: &Continuous_with_Contact
               Type: Continuous with Contact
               Reference: |
@@ -206,65 +202,48 @@ Character Sheet:
         Primary Abilities:
           Fighting:
             Rank:
-              Demon: &Remarkable
-                Name: Remarkable
-                Number: 30
-                Abbreviation: Rm
-              Deity: &Incredible
+              Demon: Remarkable
+              Deity: Incredible
                 Name: Incredible
-                Number: 40
-                Abbreviation: In
-              Ethereal: &Excellent
-                Name: Excellent
-                Number: 20
-                Abbreviation: Ex
-              Normal Human: *Excellent
+              Ethereal: Excellent
+              Normal Human: Excellent
             Note: Ethereal has Shift 0 Fighting in Earth Dimension unless fighting another Ethereal.
           Agility:
             Rank:
-              Demon: &Amazing
-                Name: Amazing
-                Number: 50
-                Abbreviation: Am
-              Deity: &Monstrous
-                Name: Monstrous
-                Number: 75
-                Abbreviation: Mn
-              Ethereal: *Amazing
-              Normal Human: *Excellent
+              Demon: Amazing
+              Deity: Monstrous
+              Ethereal: Amazing
+              Normal Human: Excellent
           Strength:
             Rank:
-              Demon: *Remarkable
-              Deity: *Incredible
-              Ethereal: *Excellent
-              Normal Human: *Excellent
+              Demon: Remarkable
+              Deity: Incredible
+              Ethereal: Excellent
+              Normal Human: Excellent
           Endurance:
             Rank:
-              Demon: *Monstrous
-              Deity: &Unearthly
-                Name: Unearthly
-                Number: 100
-                Abbreviation: Un
-              Ethereal: *Amazing
-              Normal Human: *Excellent
+              Demon: Monstrous
+              Deity: Unearthly
+              Ethereal: Amazing
+              Normal Human: Excellent
           Reason:
             Rank:
-              Demon: *Incredible
-              Deity: *Monstrous
-              Ethereal: *Incredible
-              Normal Human: *Incredible
+              Demon: Incredible
+              Deity: Monstrous
+              Ethereal: Incredible
+              Normal Human: Incredible
           Intuition:
             Rank:
-              Demon: *Monstrous
-              Deity: *Unearthly
-              Ethereal: *Monstrous
-              Normal Human: *Monstrous
+              Demon: Monstrous
+              Deity: Unearthly
+              Ethereal: Monstrous
+              Normal Human: Monstrous
           Psyche:
             Rank:
-              Demon: *Monstrous
-              Deity: *Unearthly
-              Ethereal: *Monstrous
-              Normal Human: *Monstrous
+              Demon: Monstrous
+              Deity: Unearthly
+              Ethereal: Monstrous
+              Normal Human: Monstrous
         Secondary Abilities:
           Health:
             Demon: 185
@@ -278,16 +257,10 @@ Character Sheet:
             Normal Human: 190
           Resources:
             Rank:
-              Demon: &Poor
-                Name: Poor
-                Number: 4
-                Abbreviation: Pr
-              Deity: *Poor
-              Ethereal: *Poor
-              Normal Human: &Typical
-                Name: Typical
-                Number: 6
-                Abbreviation: Ty
+              Demon: Poor
+              Deity: Poor
+              Ethereal: Poor
+              Normal Human: Typical
             Note:
               - Aliens (including Demons, Deities, and the like) have Poor (4) starting Resources.
               - Normal Human Resources represent the average Resources of a Normal Human cover identity. May optionally vary from Poor (4) to Incredible (40) if rolled on Ability Modifier Table for that cover identity.
@@ -297,15 +270,12 @@ Character Sheet:
             Normal Human: 60
           Popularity:
             Rank:
-              Demon: *Poor
+              Demon: Poor
               Deity:
-                Public: *Remarkable
-                Established Religions: &Shift_0
-                  Name: Shift 0
-                  Number: 0
-                  Abbreviation: Sh0
-              Ethereal: *Poor
-              Normal Human: *Typical
+                Public: Remarkable
+                Established Religions: Shift 0
+              Ethereal: Poor
+              Normal Human: Typical
             Note:
               - Base starting Popularity is 10.
               - Public identities have +10 starting Popularity.
@@ -321,12 +291,9 @@ Character Sheet:
               Defensive:
                 Resistance to Emotion Attacks:
                   Rank:
-                    Demon: *Unearthly
-                    Deity: &Shift-X
-                      Name: Shift-X
-                      Number: 150
-                      Abbreviation: ShX
-                    Ethereal: *Unearthly
+                    Demon: Unearthly
+                    Deity: Shift-X
+                    Ethereal: Unearthly
                   Note:
                     - Minimum Psyche +1CS.
                     - Normal Human Aspect has Psyche +1CS resistance from the Resist Domination Talent, as do other Aspects if Power is not functioning.
@@ -337,28 +304,17 @@ Character Sheet:
                 Resistance to Energy Attacks:
                   Cold:
                     Rank:
-                      Demon: *Excellent
-                      Deity: *Monstrous
-                      Normal Human: &Feeble
-                        Name: Feeble
-                        Number: 2
-                        Abbreviation: Fe
+                      Demon: Excellent
+                      Deity: Monstrous
+                      Normal Human: Feeble
                     Note: The Rank available to Normal Human Aspect is just enough to ignore inclement weather without appropriate clothing.
                   Electricity:
                     Rank:
-                      Demon: &Good
-                        Name: Good
-                        Number: 10
-                        Abbreviation: Gd
-                      Deity: *Monstrous
+                      Demon: Good
+                      Deity: Monstrous
                   Fire and Heat:
                     Rank:
-                      Demon: &Class-1000
-                        Name: Class-1000
-                        Number: 1000
-                        Abbreviation: CL1000
-                      Deity: *Class-1000
-                      Normal Human: *Feeble
+                      Normal Human: Feeble
                       Note: The Rank available to Normal Human Aspect is just enough to ignore inclement weather without appropriate clothing.
                   Note:
                     - Specific Invulnerability to Heat and Flame is inherent to all Demon Physical Form characters.
@@ -369,19 +325,19 @@ Character Sheet:
                     Note that this Power overlaps D15. The hero can ignore attacks with Intensities less than his Power rank and may reduce higher level attacks by his Power rank number. When creating the hero, the player can raise his rank +1CS by choosing to specialize in a specific Energy Resistance. For example, the Player's Book contains listings for Resistance to Fire and Heat, Cold, Electricity, and Radiation.
                 Resistance to Magic Attacks:
                   Rank:
-                    Demon: *Incredible
-                    Deity: *Monstrous
-                    Ethereal: *Amazing
-                    Normal Human: *Excellent
+                    Demon: Incredible
+                    Deity: Monstrous
+                    Ethereal: Amazing
+                    Normal Human: Excellent
                   Reference: |
                     The hero has increased resistance to magic based attacks, whether physical or mental in orientation. Unlike D11 and D14, this Power rank can be lower than the Psyche rank, making the hero more vulnerable to some types of magic.
 
                     The hero can ignore any magic whose rank is less than this Power's rank and can reduce higher level attacks by the Power rank number.
                 Resistance to Mental Attacks:
                   Rank:
-                    Demon: *Unearthly
-                    Deity: *Shift-X
-                    Ethereal: *Unearthly
+                    Demon: Unearthly
+                    Deity: Shift-X
+                    Ethereal: Unearthly
                   Note:
                     - Minimum Psyche +1CS.
                     - Normal Human Aspect has Psyche +1CS resistance from the Resist Domination Talent, as do other Aspects if Power is not functioning.
@@ -390,18 +346,18 @@ Character Sheet:
                 Resistance to Physical Attacks:
                   Toxins:
                     Rank:
-                      Demon: *Monstrous
-                      Deity: *Unearthly
-                      Normal Human: *Good
+                      Demon: Monstrous
+                      Deity: Unearthly
+                      Normal Human: Good
                   Disease:
                     Rank:
-                      Demon: *Monstrous
-                      Deity: *Unearthly
-                      Normal Human: *Remarkable
+                      Demon: Monstrous
+                      Deity: Unearthly
+                      Normal Human: Remarkable
                   Corrosives:
                     Rank:
-                      Demon: *Remarkable
-                      Deity: *Monstrous
+                      Demon: Remarkable
+                      Deity: Monstrous
                   Note:
                     - All Physical attacks vs Ethereal Aspect have -9CS penalty, equivalent to Unearthly Resistance.
                   Reference: &Resistance_to_Physical_Attacks |
@@ -410,20 +366,20 @@ Character Sheet:
                     When creating the hero, the player can raise the Power rank +1CS by choosing to specialize in a specific Physical Resistance. For example, the Player's Book contains listings for Resistances to Fire and Heat, Corrosives, and Disease.
                 Resistance to Power Manipulation:
                   Rank:
-                    Demon: *Monstrous
-                    Deity: *Unearthly
-                    Ethereal: *Monstrous
-                    Normal Human: *Remarkable
+                    Demon: Monstrous
+                    Deity: Unearthly
+                    Ethereal: Monstrous
+                    Normal Human: Remarkable
                   Reference: |
                     The hero has increased resistance to attacks that directly affect the hero's Powers. Such attacks include Weakness Creation, Power Control, Power Domination, Magic Control, and Magician Domination.
 
                     The hero can ignore any attack who rank is less than this Power rank. He may reduce the effectiveness of the higher level attacks by the Power rank number.
                 Resistance to Vampirism:
                   Rank:
-                    Demon: *Monstrous
-                    Deity: *Unearthly
-                    Ethereal: *Monstrous
-                    Normal Human: *Remarkable
+                    Demon: Monstrous
+                    Deity: Unearthly
+                    Ethereal: Monstrous
+                    Normal Human: Remarkable
                   Reference: |
                     The hero has increased resistance to any vampiric-type attacks. Such attacks include forms of Psi-, Bio-, Energy, Magic, and Power Vampirism.
 
@@ -433,35 +389,35 @@ Character Sheet:
               Detection:
                 Environmental Awareness:
                   Rank:
-                    Demon: *Incredible
-                    Deity: *Monstrous
-                    Normal Human: *Remarkable
+                    Demon: Incredible
+                    Deity: Monstrous
+                    Normal Human: Remarkable
                   Reference: &Environmental_Awareness |
                     Range column B. The hero has increased sensitivity to conditions in, disturbances in, and influences on the environment. The hero automatically maintains full knowledge of current conditions in his surroundings. This awareness extends to such factors as weather, chemicals, movement, and life.
 
                     The rank determines the range to which the awareness extends: exceeding it requires a FEAT (+1CS, green; +2CS, yellow; +3CS, red). The hero can gain +1CS by linking his Health to the environment. In this symbiosis, harm to the environment is reflected in the hero's physical welfare.
                 Extradimensional Detection:
                   Rank:
-                    Demon: *Excellent
-                    Deity: *Monstrous
-                    Ethereal: *Remarkable
+                    Demon: Excellent
+                    Deity: Monstrous
+                    Ethereal: Remarkable
                   Reference: &Extradimensional_Detection |
                     The hero can sense across the dimensional barrier and see things existing in other dimensions.
 
                     A list of some of the dimensions in the Marvel Universe is found in Realms of Magic. These include Asgard, the Astral Plane, Avalon, the Dark Dimension, the Demon Dimension, etc. The power rank number equals the number of different dimensions into which the hero can see.
                 Hypersensitive Touch:
                   Rank:
-                    Demon: *Remarkable
-                    Deity: *Remarkable
-                    Normal Human: *Good
+                    Demon: Remarkable
+                    Deity: Remarkable
+                    Normal Human: Good
                   Reference: |
                     The hero possesses an Enhanced sense of touch that permits him to detect extremely fine surface details and to identify materials by their surface "feel."
                 Life Detection:
                   Rank:
-                    Demon: *Amazing
-                    Ethereal: *Amazing
-                    Deity: *Monstrous
-                    Normal Human: *Remarkable
+                    Demon: Amazing
+                    Ethereal: Amazing
+                    Deity: Monstrous
+                    Normal Human: Remarkable
                   Reference:  &Life_Detection |
                     Range column B. The hero can detect the presence of life and identify the nature of that life. The hero can probe a specific target for more detailed physiological data on a red FEAT.
 
@@ -470,18 +426,18 @@ Character Sheet:
                     This is one of the Powers that can function as "Mutant Detection."
                 Magic Detection:
                   Rank:
-                    Demon: *Amazing
-                    Ethereal: *Amazing
-                    Deity: *Monstrous
-                    Normal Human: *Excellent
+                    Demon: Amazing
+                    Ethereal: Amazing
+                    Deity: Monstrous
+                    Normal Human: Excellent
                   Reference: &Magic_Detection |
                     The hero can detect and identify magic and its effects. The Power can detect both magic in actual use and in potential. As such, this is another way to detect mutants, although it cannot differentiate them from normal magic-users.
 
                     The hero can identify the past use of magic (a green FEAT), a yellow FEAT identifies the magic-user, and a red FEAT identifies the actual spell.
                 Thermal Vision:
                   Rank:
-                    Demon: *Amazing
-                    Deity: *Monstrous
+                    Demon: Amazing
+                    Deity: Monstrous
                   Form: Deliberate
                   Reference: &Thermal_Vision |
                     The hero can see infrared light and heat images. This allows the hero to see in the dark, perceive temperature differences (especially those left by a living person's contact with an object), and partially see through solids. In the last case, the hero can only see the heat patterns of objects touching the other side of the barrier.
@@ -489,7 +445,7 @@ Character Sheet:
                     With practice, the hero can judge the temperature of a target by its thermal color. The hero has an increased risk of being blinded by strong heat sources, even those that don't affect normal vision (-1CS). Thermal vision may be a consciously-activated mode or the hero's normal means of vision.
                 True Sight:
                   Rank:
-                    Deity: *Monstrous
+                    Deity: Monstrous
                   Reference: |
                     The hero can see the correct image of a target, despite any attempts at concealment or disguise. This Power can penetrate any means of hiding something's true nature, whether physical, psionic, illusionary, or power-based.
 
@@ -498,9 +454,9 @@ Character Sheet:
                     Range is limited to one area unless the Power is coupled with a Power that extends his vision (Telescopic Vision, for example). The Power may be automatic or deliberate. If automatic, the hero gains +1CS but loses -2CS from his Psyche rank.
                 Weakness Detection:
                   Rank:
-                    Demon: *Amazing
-                    Deity: *Monstrous
-                    Ethereal: *Incredible
+                    Demon: Amazing
+                    Deity: Monstrous
+                    Ethereal: Incredible
                   Reference: |
                     The hero can detect flaws and stress points in a target. This doesn't guarantee he can exploit this knowledge, though.
 
@@ -508,9 +464,9 @@ Character Sheet:
               Energy Control:
                 Darkforce Manipulation:
                   Rank:
-                    Demon: *Incredible
-                    Ethereal: *Incredible
-                    Deity: *Monstrous
+                    Demon: Incredible
+                    Ethereal: Incredible
+                    Deity: Monstrous
                   Power Stunts:
                     - Blunt attack damage at Power rank.
                     - Shadowcasting of Power rank Intensity darkness over a maximum of three areas.
@@ -525,14 +481,14 @@ Character Sheet:
                     The Darkforce is as yet undefined in the Marvel Universe. For your game's purposes, you might simply treat it as an other-dimensional power source that fills its own entire pocket dimension. That definition will work in or out of the official Marvel Universe.
                 Fire Control:
                   Rank:
-                    Demon: *Good
+                    Demon: Good
                   Reference: &Fire_Control |
                     The hero can control existing flames, whether natural or Power-based. He can alter any factor involved in combustion without direct physical contact. The hero can increase or decrease the flame's Intensity up to his Power rank and reduce fire damage by his rank number. This Power includes Power rank Resistance to Fire and Heat. The most important aspect of this Power is enabling the hero to reshape flame into any form he desires. This can be used in a variety of Power stunts, as the hero develops numerous fiery constructs to perform miscellaneous deeds. Such fiery constructs do not act like normal flames. They emit less heat and consume less oxygen. Their fire doesn't spread past the outline of the constructs. In addition, they self-extinguish rapidly upon cessation of this Power. Optional Powers include Fire Generation, Thermal Control, Energy Sheath, and Energy Body.
                 Shadowshaping:
                   Rank:
-                    Demon: *Amazing
-                    Deity: *Amazing
-                    Ethereal: *Amazing
+                    Demon: Amazing
+                    Deity: Amazing
+                    Ethereal: Amazing
                   Reference: |
                     This is not Darkforce Manipulation: that's handled elsewhere. This Power enables the hero to affect normal shadows and, indirectly, light as well. The hero can shift the location and size of normal shadows. He can form them into two-dimensional images that can do Power rank damage to real targets. The hero can also Remote Sense through these shadow-constructs. The hero can increase or decrease the Intensity of any shadow, whether natural or Power-based, by his Power rank number. This overlaps with Light Generation and Shadowcasting but differs in that either effect is possible and only existing shadows or shadow-related Powers are affected.
 
@@ -546,7 +502,7 @@ Character Sheet:
               Energy Emission:
                 Fire Generation:
                   Rank:
-                    Demon: *Good
+                    Demon: Good
                   Note: Inherent to all Demon Physical Form Characters.
                   Reference: &Fire_Generation |
                     The hero can project fire with Power rank damage and range. These flames have no apparent fuel source and spring from the hero as if he were a living fuel tank. Although the flames' fuel comes out of the proverbial nowhere, free oxygen must be present for the Power to function. If not, the hero can cause a single flame that lasts' only one turn, then fizzles out. At Shift X rank, the hero gains the ability to generate oxygen as well, permitting this Power to function under any conditions. When creating the hero, the player can choose the Powers of Flame Control, Energy Sheath, and Energy Body to fill any slots still open. For example, under the Ultimate system, the Human Torch possesses three powers: Fire Generation, Fire Control, and Energy Sheath.
@@ -556,14 +512,14 @@ Character Sheet:
                     Fire Generation is the opposing Power to Cold Emission, Coldshaping, and Powers that use water. This Power gains +1CS when fighting these Powers. It also loses -1CS when being attacked by those Powers
                 Kinetic Bolt:
                   Rank:
-                    Ethereal: *Remarkable
+                    Ethereal: Remarkable
                   Reference: &Kinetic_Bolt |
                     This is a crude form of M30/Telekinesis. The hero can strike a target with a surge of force at Power rank range and damage. The Kinetic Bolt can be shaped as desired by the hero. It can be a wide cylinder, or an incredibly fine needle. Its effect is the same as if the target had been struck by a solid object of equal material strength. This Power can affect only tangible materials. It includes Resistance to Kinetic Bolts, Kinetic Control, or Telekinesis. Optional Powers are Kinetic Control and Telekinesis, which are also the Nemeses.
                 Shadowcasting:
                   Rank:
-                    Demon: *Remarkable
-                    Deity: *Remarkable
-                    Ethereal: *Remarkable
+                    Demon: Remarkable
+                    Deity: Remarkable
+                    Ethereal: Remarkable
                   Reference: |
                     The hero can emit a field that decreases light and radiation. The obscured energy's Intensity is lowered by the Power's rank taken as Intensity. The energy forms that can be affected by this Power are Light, Heat, Hard Radiation, Radiowaves, Energy Doppelgangers, and Energy Bodies.
 
@@ -579,7 +535,7 @@ Character Sheet:
               Fighting:
                 Natural Weaponry:
                   Rank:
-                    Demon: *Good
+                    Demon: Good
                   Type: Claws (Edged Attack)
                   Reference: &Natural_Weaponry |
                     The hero's body contains special anatomical features that can function as weapons. These may be of any nature and can be external, internal, or retractable. If these are damaged the hero suffers as if they were normal body parts.
@@ -592,9 +548,9 @@ Character Sheet:
               Illusionary:
                 Illusion-Casting:
                   Rank:
-                    Demon: *Incredible
-                    Deity: *Incredible
-                    Ethereal: *Incredible
+                    Demon: Incredible
+                    Deity: Incredible
+                    Ethereal: Incredible
                   Reference: &Illusion-Casting |
                     The hero can create realistic holographic images that have apparent solidity. These Illusions can be mechanically detected and recorded by such means as photography or television. That separates this Power from the psionic, image-generating Power called Hallucinations, which produces images directly in the target's mind and cannot affect mechanical senses.
 
@@ -656,7 +612,7 @@ Character Sheet:
               Lifeform Control:
                 Biophysical Control:
                   Rank:
-                    Deity: *Monstrous
+                    Deity: Monstrous
                   Forms:
                     - Healing
                     - Regeneration
@@ -685,8 +641,8 @@ Character Sheet:
                     The Nemesis is either Immortality or Serial Immortality.
                 Exorcism:
                   Rank:
-                    Deity: *Monstrous
-                    Normal Human: *Remarkable
+                    Deity: Monstrous
+                    Normal Human: Remarkable
                   Reference: |
                     The hero can release a being from any external domination imposed by a third party. Such controls include Possession, Mental Domination, Serial Immortality, and Magic. If there's a control, this Power can break it. This Power rank is compared to that of the Power controlling the subject. A Typical Intensity FEAT can sever a lower ranking control Power. A Remarkable Intensity FEAT severs a controlling Power of equal rank, and an Amazing Intensity FEAT severs one of one or more ranks higher. Upon severing the being's control over the subject, that being is immediately teleported to its home dimension.
 
@@ -697,9 +653,9 @@ Character Sheet:
                     The hero can use this Power to resist the initial attempt by another to control him, but if this attempt fails (as per the FEATs listed above), he cannot Exorcise himself later.
                 Hypnotic Control:
                   Rank:
-                    Demon: *Amazing
-                    Deity: *Amazing
-                    Ethereal: *Amazing
+                    Demon: Amazing
+                    Deity: Amazing
+                    Ethereal: Amazing
                   Note: Normal Human Aspect uses the Hypnosis and Mesmerism Talent instead at Reason Rank, as do other Aspects if Power is not functioning.
                   Reference: |
                     This is a Talent in the Advanced Set. The hero can dominate a target's behavior and actions by implanting commands, not by direct psionic control. The Hypnotic command may pertain to current conditions or lie dormant until triggered by future conditions (post-hypnotic suggestion). Hypnotic controls come in two forms:
@@ -709,7 +665,7 @@ Character Sheet:
                     The Intensity and duration of a Hypnotic Control are determined by the Power rank. In the case of post-hypnotic Suggestions, duration does not include the time prior to activation of the suggestion, but only the time the suggestion is actually in force.
                 Mind Control:
                   Rank:
-                    Ethereal: *Incredible
+                    Ethereal: Incredible
                   Form: Possession
                   Reference: &Mind_Control |
                     The hero has the ability to directly control a target's mind through psionic Powers. The hero completely overrides the will and perhaps even the conscious mind of the target. There are four forms of Mind Control:
@@ -719,18 +675,18 @@ Character Sheet:
                     The Power rank determines the Intensity of the hero's control, the range at which he can establish and maintain that control, and the duration of the control.
                 Sleep-Induced:
                   Rank:
-                    Demon: *Excellent
-                    Ethereal: *Remarkable
+                    Demon: Excellent
+                    Ethereal: Remarkable
                   Reference: |
                     This is a nice, simple, straight-forward Power that is hardly ever used in any comic because it's not terribly dramatic. Nor is it exactly cricket. The hero has the ability to put any target into a deep sleep, from which he cannot awake while the Power is in effect. During this induced sleep, the target is completely helpless (see what I mean about not being cricket?). On the other hand, when you're facing 325 battle-crazed Skrulls, this Power can be really handy.
 
                     The Power rank determines the range and duration of the Power. Relevant distances are shown on column A of the Range Table. It affects everyone within range. Sleep persists for 1-10 hours after the Power's duration. During that time, the victim can be awakened by anyone, but he'll wake up naturally in any case.
                 Summoning:
                   Rank:
-                    Demon: *Amazing
-                    Deity: *Amazing
-                    Ethereal: *Incredible
-                    Normal Human: *Remarkable
+                    Demon: Amazing
+                    Deity: Amazing
+                    Ethereal: Incredible
+                    Normal Human: Remarkable
                   Reference: |
                     The hero can summon and control extra-dimensional, corporeal beings. Such beings are commonly called "demons" but may be of any nature or disposition.
 
@@ -744,8 +700,8 @@ Character Sheet:
               Matter Control:
                 Molding:
                   Rank:
-                    Demon: *Excellent
-                    Deity: *Incredible
+                    Demon: Excellent
+                    Deity: Incredible
                   Reference: |
                     The hero can shape any solid material into any desired shape. The shaped material retains its original chemical nature. If the target is living, its internal anatomy is rearranged in such a way that permits life to continue without loss of Health. The new shape can be of any complexity; even intricate machines can be created if the proper materials are available. The newly-Molded target can be Animated, even if the original material or the current shape is normally incapable of movement. This movement is accomplished by the simple act of continually re-Molding the target (think of it in terms of stop-motion animation).
 
@@ -765,8 +721,8 @@ Character Sheet:
               Matter Conversion:
                 Molecular Conversion:
                   Rank:
-                    Demon: *Remarkable
-                    Deity: *Amazing
+                    Demon: Remarkable
+                    Deity: Amazing
                   Reference: |
                     The hero can transform any material into a desired compound. This Power is an enhanced version of Elemental Conversion. Whereas that Power could only create a single specified element, this Power can create a number of elements simultaneously and arrange them in a desired molecular configuration. The matter to be converted can be composed of any element, compound, or combination thereof. The elements that result can be any of the hundred-odd natural, artificial, and mythical elements. The compounds they form can likewise be real or mythical. An example of a fictional compound is the alloy Adamantium, a steel alloy that only exists in the Marvel Universe. Mythical compounds or compounds that incorporate a mythical element (like Vibranium) require a red FEAT to create. Note: it has never been established whether Vibranium is an element or a compound; while I choose to refer to Vibranium as an element, Judges are free to decide for themselves whether it is an element or a compound in their campaign. Most other compounds require either a green or yellow FEAT to create. The more complex a compound's formula is, the harder it is to create. As a rule of thumb, a compound whose molecules incorporate from two to twenty atoms can be created by a green FEAT. A compound with molecules of from twenty-one to one hundred atoms, or alloys of various compounds, requires a yellow FEAT; examples include hydrocarbons. More complex molecules or alloys require a red FEAT; examples include polymers, proteins, and other compounds essential to life. Obviously, playing this Power requires knowledge of basic chemistry. At the least the player must have a crib sheet filled with various useful compounds and their formulas.
 
@@ -788,9 +744,9 @@ Character Sheet:
               Matter Creation:
                 Artifact Creation:
                   Rank:
-                    Demon: *Incredible
-                    Deity: *Monstrous
-                    Normal Human: *Excellent
+                    Demon: Incredible
+                    Deity: Monstrous
+                    Normal Human: Excellent
                   Reference: |
                     The hero can create a desired object from virtually nothing. The artifact can be of any substance, and is limited to being composed of a single piece. Although the Power can create facsimiles of more complex construction, close examination reveals that all the smaller pieces are fused together. However, the hero can create complex items by forming them one piece at a time.
 
@@ -817,8 +773,8 @@ Character Sheet:
                     The Nemesis Powers are Disintegration and Mental Domination, especially induced Amnesia.
                 Molecular Creation:
                   Rank:
-                    Demon: *Remarkable
-                    Deity: *Amazing
+                    Demon: Remarkable
+                    Deity: Amazing
                   Reference: |
                     This is a more powerful form of Elemental Creation. The hero can form several elements simultaneously and form them into any desired compound. The hero can form this on any target within one area. He can create in one turn a number of ounces equal to his Power rank number. For example, at Poor rank he could form only four ounces in one turn. The durability of the newly created compound is determined by a FEAT at the time of creation. A green FEAT gives the material a span of a number of turns equal to 100 times the hero's Reason rank number. A yellow FEAT raises the multiplier to 10,000, and on a red FEAT the material is permanent.
 
@@ -834,7 +790,7 @@ Character Sheet:
               Mental Enhancement:
                 Cosmic Awareness:
                   Rank:
-                    Deity: *Monstrous
+                    Deity: Monstrous
                   Reference: |
                     The hero is in tune with the entire scope of reality. He possesses a detached, omniscient viewpoint that allows him to explore the entire existence of a chosen subject. Unfortunately, this causes such a massive overload of superfluous information that the hero is hard pressed to sort it all out. The FEAT represents the hero's ability to recover a specific bit of information from all the effluvia. The more exact the required detail, the higher the difficulty. Discovering basic facts or locating any one on the Earth requires a green FEAT. Complex information or finding anyone within a star system requires a yellow FEAT. Secrets, weaknesses, arcane knowledge, and anything else the Judge wants to make difficult to find out requires a red FEAT.
 
@@ -847,9 +803,9 @@ Character Sheet:
                     The Nemesis is Emotion Control.
                 Dreamtravel:
                   Rank:
-                    Demon: *Monstrous
-                    Deity: *Monstrous
-                    Ethereal: *Monstrous
+                    Demon: Monstrous
+                    Deity: Monstrous
+                    Ethereal: Monstrous
                   Reference: |
                     The hero can actually enter into the short-lived pocket dimensions created by a person's dreams and nightmares. These dreamworlds are outside the boundaries of normal reality and exist solely as a reflection of the dreamer's imagination.
 
@@ -864,10 +820,10 @@ Character Sheet:
                     The Optional Power is a form of Telepathy limited to dreamers.
                 Empathy:
                   Rank:
-                    Demon: *Monstrous
-                    Deity: *Monstrous
-                    Ethereal: *Monstrous
-                    Normal Human: *Remarkable
+                    Demon: Monstrous
+                    Deity: Monstrous
+                    Ethereal: Monstrous
+                    Normal Human: Remarkable
                   Reference: |
                     The hero can detect the surface emotions of others. The hero can detect the target's emotional state and further refine that knowledge to discover the target's physical state, surroundings, and location, insofar as these have an influence on the emotions. He can transmit his own emotional state but he cannot impose this on others (that requires Emotion Control).
 
@@ -878,7 +834,7 @@ Character Sheet:
                     The Nemeses are Mental Invisibility and either Force Field or Resistance to Psionics.
                 Iron Will:
                   Rank:
-                    Normal Human: *Remarkable
+                    Normal Human: Remarkable
                   Reference: &Iron_Will |
                     The hero has complete conscious control over his mind and body. By using his Iron Will, the hero can temporarily halt the damage done by mental or physical attacks: he can even postpone his own death.
 
@@ -886,7 +842,7 @@ Character Sheet:
 
                     Example: Sunstone is battling the Marauders and not doing too well. He possesses Incredible Iron Will and has 100 Health points. Harpoon hits him with a Slayspear: this does 40 points of damage. Iron Will absorbs it all but immediately reconverts it to a loss of 20 Health points. Sabertooth slashes and gnaws Sunstone for 60 points. Iron Will only absorbs the first 40, then immediately converts it. Health now stands at 40 points. Malice attempts to Possess Sunstone: Iron Will fends off the mental attack but at a cost of another 38 points. Sunstone decides discretion is better than valor and flees. Scalphunter fires at the retreating figure and inflicts thirty more points of damage. Sunstone heads for the best-equipped hospital in the area. He manages to maintain his self-control until he is actually in the operating room, then he passes out as wounds suddenly appear across his body.
                 Linguistics:
-                  Rank: *Monstrous
+                  Rank: Monstrous
                   Reference: &Linguistics |
                     This is a specialized form of Hyper-intelligence. The hero has the ability to rapidly learn any language if sufficient material is available for him to work with. Once the language is mastered, the hero is fluent in that language, provided he is physically capable of communicating in it.
 
@@ -903,9 +859,9 @@ Character Sheet:
                     The Nemesis is Mind Drain.
                 Mental Probe:
                   Rank:
-                    Demon: *Excellent
-                    Deity: *Incredible
-                    Ethereal: *Remarkable
+                    Demon: Excellent
+                    Deity: Incredible
+                    Ethereal: Remarkable
                     Reference: |
                       The hero can telepathically probe a living mind or a psionic phenomenon to gain a detailed analysis of the target. Living minds can be searched for specific images and thoughts, although the hero must have a basic idea beforehand of what she is looking for. The target mind is allowed to make a Psyche FEAT to resist a Mental Probe. This is automatic, even if the target mind is initially unaware if the attempted probe. If resistance is successful, the probe is rejected with a headache-like backlash that prevents the hero from trying to probe that target again for 24 hours. A side-effect of the Power is that the target's Psyche may temporarily drop -1CS for 24 hours as a result of fending off the probe. This potential loss is determined by a second Psyche FEAT made after the initial resistance. A successful probe reveals only information known by the target.
 
@@ -916,10 +872,10 @@ Character Sheet:
                       Optional Powers include Telepathy and Sensory Link. The Nemesis is Mental Invisibility.
                 Serial Immortality:
                   Rank:
-                    Demon:  *Monstrous
-                    Deity:  *Monstrous
-                    Ethereal:  *Monstrous
-                    Normal Human: *Monstrous
+                    Demon:  Monstrous
+                    Deity:  Monstrous
+                    Ethereal:  Monstrous
+                    Normal Human: Monstrous
                   Form:
                     Type: Spontaneous Creation
                   Note: New body will reform in her Domain, and requires 1d100 Turns of exposure to Energy Source to regain ability to assume Deity Aspect after leaving the Domain.
@@ -937,9 +893,9 @@ Character Sheet:
                     The Nemesis is Exorcism.
                 Telekinesis:
                   Rank:
-                    Demon: *Good
-                    Deity: *Incredible
-                    Ethereal: *Incredible
+                    Demon: Good
+                    Deity: Incredible
+                    Ethereal: Incredible
                   Reference: &Telekinesis |
                     The hero can handle material objects without having to make direct or indirect physical contact (pushing or blowing, for example). The hero can perform any action that could be accomplished using normal Strength. The Power rank serves as an equivalent for the Strength rank. Most Telekinetics ("TKs") visualize their Power in terms of an amorphous arm extending from the body. This leads to a curious psychological handicap in that most TKs cannot lift their own bodies. Only rare examples like Marvel Girl have overcome this bit of irrationality.
 
@@ -952,7 +908,7 @@ Character Sheet:
                     Nemesis is either Force Field vs. Psionics or Gravity Manipulation.
                 Telelocation:
                   Rank:
-                    Deity: *Monstrous
+                    Deity: Monstrous
                   Reference: |
                     The hero can Psionically locate a chosen target. This differs from normal Tracking in that no physical or sensory contact, however tenuous, is required. Consequently, the Power is not hampered by the concealment, erasure, or absence of the target's "scent." Telelocation can operate over immense distances. The only factors that can hinder the Power are those that diminish any Psionic activity.
 
@@ -965,9 +921,9 @@ Character Sheet:
                     The Nemesis is Mental Invisibility.
                 Telepathy:
                   Rank:
-                    Demon: *Remarkable
-                    Deity: *Amazing
-                    Ethereal: *Remarkable
+                    Demon: Remarkable
+                    Deity: Amazing
+                    Ethereal: Remarkable
                   Reference: &Telepathy |
                     The hero can communicate on a direct mind-to-mind basis. This is automatic with willing minds or Psyches with ranks lower than the Power rank. Equal Psyche ranks require a yellow FEAT. Minds with mental Powers or some form of Psionic defense require a red FEAT. Uncooperative beings with Psyches exceeding the Power rank are impossible FEATs.
 
@@ -981,7 +937,7 @@ Character Sheet:
 
                     The Nemesis is Resistance to Psionics.
                 Total Memory:
-                  Rank: *Monstrous
+                  Rank: Monstrous
                   Reference: &Total_Memory |
                     The hero has the ability to remember anything that he has ever experienced. This could be a book he's read, the faces of everyone he saw on Tuesday, what birth was like, and so on. The accuracy of his recall is his Power rank number treated as a percentage. Feeble is 2%, Excellent is 20%, and so on to automatic accuracy at Unearthly rank or above.
 
@@ -1001,7 +957,7 @@ Character Sheet:
               Physical Enhancement:
                 Body Resistance:
                   Rank:
-                    Demon: *Remarkable
+                    Demon: Remarkable
                   Reference: &Body_Resistance |
                     This is the form Body Armor most heroes want. The hero's body is composed of apparently normal flesh. However, the tissue of capable of withstanding major damage without showing any effects. The resistance covers physical and energy attacks only.
 
@@ -1012,9 +968,9 @@ Character Sheet:
                     An Optional Power is Regeneration.
                 Hypnotic Voice:
                   Rank:
-                    Demon: *Incredible
-                    Deity: *Incredible
-                    Ethereal: *Incredible
+                    Demon: Incredible
+                    Deity: Incredible
+                    Ethereal: Incredible
                   Reference: |
                     The hero possesses a voice whose intrinsic qualities permit a hypnotic domination of the target's conscious and subconscious thoughts. The bulk of the hero's commands are sub-verbal in nature (it's not what she says, but how she says it).
 
@@ -1029,8 +985,8 @@ Character Sheet:
                     The Power cannot control someone who cannot hear it. Deaf persons or those with altered senses are immune. Soundproofing, loud noises, and simply getting out of range are effective tactics against the Power. The Power has -1CS effect on non-humans. (When creating the hero, the player can raise the Power rank +1CS by limiting its effect to members of the opposite sex. For example, Lorelei can only affect men.)
                 Pheromones:
                   Rank:
-                    Demon: *Amazing
-                    Deity: *Amazing
+                    Demon: Amazing
+                    Deity: Amazing
                   Type: Deliberate
                   Reference: |
                     This is an aerosol version of Hypnotic Control. The hero's body can create and emit chemicals capable of altering a target's behavior. These chemicals vaporize instantly on contact with air and are received by the target's nose. The complexity of the commands can vary with the rank of the Power. The hero can readily affect anyone within twenty feet of him. The Power rank decreases -1CS with each additional twenty feet.
@@ -1040,8 +996,8 @@ Character Sheet:
                     When the hero is created, the player must decide whether the Power functions automatically or deliberately. The automatic form lowers the Power rank -2CS.
                 Self-Revival:
                   Rank:
-                    Demon: *Monstrous
-                    Deity: *Monstrous
+                    Demon: Monstrous
+                    Deity: Monstrous
                   Note: Normal Human and Ethereal Aspects use only Serial Immortality instead, as does a destroyed body in other Aspects (less than one quarter of body remaining), or FEAT fails.
                   Reference: |
                     The hero's Power is so strong that it can repair fatal damage and actually return the hero to life. The power functions despite the absence of life in the body. It repairs the major damage and replaces lost tissues at the same rate as Regeneration above. When the body is returned to minimum life sustaining condition, the hero comes back to life. This occurs despite any intervening time in which the hero was dead: from the hero's point of view, no time has passed.
@@ -1054,8 +1010,8 @@ Character Sheet:
                       The hero can rapidly recover from any wound. Cuts quickly close and disease symptoms disappear. The hero heals at an accelerated rate equal to the Power rank number times the normal amount of time. For example, a Typical rank can heal six times as fast as normal, an Unearthly rank heals at a hundredfold rate, and so on. With time, the hero can regrow large areas of lost tissue, especially severed limbs. Lost limbs or organs require a red FEAT. It cannot repair losses that resulted in the hero's death unless the hero is revived. If such a fatal loss and subsequent revival occurs, the hero requires life-support equipment to give his Power time to function.
                 Self-Sustenance:
                   Rank:
-                    Demon: *Monstrous
-                    Deity: *Monstrous
+                    Demon: Monstrous
+                    Deity: Monstrous
                   Type: Permanent
                   Reference: &Self-Sustenance |
                     The hero can survive indefinitely without consuming air, water, or food. Bodily wastes are internally recycled back into useable materials.
@@ -1063,16 +1019,16 @@ Character Sheet:
                     Normally the hero would not need to replenish himself when his power reached its limit. He merely resumes normal consumption habits (breathe normally, eat a light snack, etc.). This is the permanent form of the power. The temporary form requires the hero to consume mass quantities at the expiration of the Power. ("That's the fifteenth steak you've eaten, Fred. How long did you say it's been since you ate last?") The required intake is one-quarter what the hero would normally have consumed during the time he was abstaining. The hero can raise his Power rank +1CS by opting for the temporary form.
                 Stealth:
                   Rank:
-                    Demon: *Remarkable
-                    Deity: *Remarkable
-                    Normal Human: *Good
+                    Demon: Remarkable
+                    Deity: Remarkable
+                    Normal Human: Good
                   Reference: &Stealth |
                     The hero can move in ways that cannot be detected, whether while moving or if subjected to later tracking. When the hero uses Stealth, his rank is subtracted from the efforts of those detecting him.
 
                     Example: Shadowfox has Excellent Stealth. He cannot be detected by Typical means (that is less than Shift-0). Unfortunately, it's Wolverine who's tracking him with Monstrous ability. Shadowfox's Stealth lowers Wolverine's chance of finding him to merely Good.
                 True Invulnerability:
                   Rank:
-                    Deity: *Monstrous
+                    Deity: Monstrous
                   Reference: |
                     This is a combination of Resistances and Body Armor. The hero is immune to any physi cal harm, up to his rank's limit. The immunity includes the following resistances: fire, heat, cold, electricity, radiation, corrosives, disease, poison, brute force, sonics, and kinetic bolts. The rank of the Invulnerability reduces the rank of the attack form.
 
@@ -1083,20 +1039,16 @@ Character Sheet:
                     The hero's appearance is not affected by this power; he appears to be a normal member of his race.
                 Vocal Control:
                   Rank:
-                    Demon: *Amazing
-                    Deity: *Amazing
-                    Ethereal: *Amazing
+                    Demon: Amazing
+                    Deity: Amazing
+                    Ethereal: Amazing
                   Reference: |
                     This might be considered a Talent rather than a Power, but here goes anyway.
 
                     The hero has total control over his own voice and can use it to duplicate any desired voice of sound. The accuracy of the simulated sound is 100% within the Power's limit (determined by rank) on a green FEAT. Exceeding the limit requires a higher FEAT. The hero can imitate Sonic Powers that will have most of the effectiveness of the original. The rank for such mimicked Powers is -1CS of the original's rank.
               Power Control:
                 Energy Source:
-                  Rank: &Unranked
-                    Name: Unranked
-                    Number: .nan
-                    Abbreviation: N/A
-                  Type:
+                  Source:
                     - Hell Dimension
                     - Dimension of Dreams
                     - Ashtaret's Demiplanar Pocket Domain
@@ -1110,28 +1062,23 @@ Character Sheet:
                     As you are beginning to suspect, this isn't really a Power and is more of a restraint. You're right. If you roll this Power, go ahead and roll an additional Power.
                 Focus:
                   Rank:
-                    Demon: *Monstrous
-                    Deity: *Unearthly
-                    Normal Human: *Excellent
+                    Demon: Monstrous
+                    Deity: Unearthly
+                    Normal Human: Excellent
                   Total:
                     Demon:
-                      Rank:
-                        Name: Class-3000
-                        Number: 3000
-                        Abbreviation: CL3000
-                      Number: 3615
-                      Spread: 57
+                      Rank: Class-1000
+                      Number: 1615
+                      Spread: 55
                       Turns Until Full Recovery: 49
                     Deity:
                       Rank:
-                        Name: Class-5000
-                        Number: 5000
-                        Abbreviation: CL5000
-                      Number: 5090
-                      Spread: 62
+                        Name: Class-3000
+                      Number: 3090
+                      Spread: 60
                       Turns Until Full Recovery: 51
                     Normal Human:
-                      Rank: *Class-1000
+                      Rank: Class-1000
                       Number: 1029
                       Spread: 29
                       Turns Until Full Recovery: 52
@@ -1141,15 +1088,15 @@ Character Sheet:
               Self Alteration:
                 Imitation-Face Changer:
                   Rank:
-                    Normal Human: *Remarkable
+                    Normal Human: Remarkable
                   Reference: &Imitation-Face_Changer |
                     The hero can change his superficial appearance but cannot alter his basic form or dimensions. The hero has conscious control over the movement and placement of muscles, cartilage, and minor bones (nose, fingers, cheeks) and can alter the color and appearance of his skin and hair.
 
                     The hero can use this Power to assume any human appearance, provided the desired shape roughly matches his own. Examples: A child could imitate other children, midgets, and dwarves. A thin man could not imitate Sydney Greenstreet.
                 Imitation-Human Changeling:
                   Rank:
-                    Demon: *Monstrous
-                    Deity: *Monstrous
+                    Demon: Monstrous
+                    Deity: Monstrous
                   Note: Base appearance of both Normal Human and Ethereal Aspects is prior form taken before assuming that aspect.
                   Reference: |
                     The hero can change his superficial appearance but cannot alter his basic form or dimensions. The hero has conscious control over the movement and placement of muscles, cartilage, and minor bones (nose, fingers, cheeks) and can alter the color and appearance of his skin and hair.
@@ -1157,8 +1104,8 @@ Character Sheet:
                     The hero can use this Power to assume any human appearance, provided the desired shape roughly matches his own. Examples: A child could imitate other children, midgets, and dwarves. A thin man could not imitate Sydney Greenstreet.
                 Invisibility:
                   Rank:
-                    Demon: *Remarkable
-                    Deity: *Remarkable
+                    Demon: Remarkable
+                    Deity: Remarkable
                   Type: Physics
                   Reference: |
                     With this Power a hero can render himself undetectable by normal, consciously willed sight. There are four very different means of accomplishing this effect. Each form has unique characteristics regarding such factors as the area made invisible, protection against light-based attacks, mechanical detection, and detection by other means.
@@ -1169,16 +1116,16 @@ Character Sheet:
               Travel:
                 Dimension Travel:
                   Rank:
-                    Demon: *Monstrous
-                    Deity: *Monstrous
-                    Ethereal: *Monstrous
+                    Demon: Monstrous
+                    Deity: Monstrous
+                    Ethereal: Monstrous
                   Reference: |
                     The hero can travel into a number of other Dimensions. Transit to a random dimension normally occurs automatically but the Power is weakened by adrenaline. If the hero is in any kind of precarious situation, he must make a Power rank FEAT. He must also make a FEAT if he is trying to appear in a specific dimension or alternate timeline. Specific locations in the other dimension require a red FEAT. The return trip is easier. Returning to a random location on the homeworld is automatic. Returning to a familiar spot on the homeworld is a yellow FEAT.
 
                     The hero initially has two dimensions he can travel to, his home and one other realm. Additional dimensions can be reached by developing the trips as Power stunts or by dropping the affinity that permits effortless travel to either of the two original dimensions. ("What do you mean, you don't remember how to get back to Earth?")
                 Gateway:
                   Rank:
-                    Deity: *Monstrous
+                    Deity: Monstrous
                   Note: Other aspects use Darkforce Manipulation Power Stunt or Dimensional Aperture Spell.
                   Reference: |
                     The hero can travel to any point in space, time, or other dimensions by traveling along bridges she creates herself. She can travel along a bridge from her current location to a location in space (a green FEAT), time (a yellow FEAT), and other dimensions (a red FEAT). The destination of each Gateway is a fixed point in space but the departure end always moves with the hero.
@@ -1194,7 +1141,7 @@ Character Sheet:
                     Gateways deal with size and not mass. The hero can transport a black hole as long as it's small enough. The maximum size of a Gateway is the number of square feet equal to the Power rank number. For example, a Feeble rank creates a two square foot Gateway that most people could just barely squeeze through. The Gateway forms within ten feet of the hero. It can maintain its existence for as long as the hero concentrates on it or until he passes through it.
                 Teleport Others:
                   Rank:
-                    Deity: *Monstrous
+                    Deity: Monstrous
                   Reference: |
                     The hero can make any target except his own body vanish and instantly reappear at a distant site. The target does not physically cross the intervening distance and is unaffected by most physical barriers. Column E of the Range Table shows the maximum distance the hero can Teleport a passenger.
 
@@ -1215,7 +1162,7 @@ Character Sheet:
                     Optional Powers include Teleport Self and Clairvoyance.
                 Teleport Self:
                   Rank:
-                    Deity: *Monstrous
+                    Deity: Monstrous
                   Note: Other aspects use Teleportation Spell.
                   Reference: |
                     The hero can vanish at one location and instantly reappear at a distant site. He does not physically. cross the intervening distance and is not affected by most physical barriers. Column E of the Range Table shows the maximum distance a hero can Teleport. Teleportation always occurs, but the hero must make a Power FEAT to see how well he makes the trip. Failure means he arrives disoriented and cannot take any actions the following turn.
@@ -1229,7 +1176,7 @@ Character Sheet:
                     The Optional Powers are Teleport Others and Clairvoyance.
                 True Flight:
                   Rank:
-                    Deity: *Unearthly
+                    Deity: Unearthly
                   Note: Other Aspects use Darkforce Manipulation Power Stunts or the Flight Spell (Ethereal form already has 3-dimensional movement).
                   Reference: |
                     The hero can fly through air and space without an apparent means of propulsion. This is the most desired Power in the history of the world. The Power rank determines the maximum speed the hero can attain in a specific condition. There are three mediums in which a hero can fly. The slowest form of Flight occurs when the hero torpedoes through the water at the Water Movement rate. Faster speed occurs when the hero flies through the air at the Air Movement rate. The fastest flight occurs when the hero is free of any hindering atmospheric friction: this is the Space Movement rate. Acceleration occurs at a rate of +1CS per turn. Deceleration occurs at -2CS per turn.
@@ -1244,18 +1191,26 @@ Character Sheet:
 
                     The Nemesis is Gravity Manipulation.
             Advanced Player's Book:
+              Resistances:
+                Invulnerability to Fire and Heat: &Invulnerability_to_Fire_and_Heat
+                  Reference:
+                    Resistance to Fire and Heat: All damage from fire and heat-based attacks is reduced by the Power rank number. Further. any fire of less than this Power rank has no effect on the hero. (Example -- the hero with a Resistance to Fire/Heat of Amazing (50) rank could walk through super-heated steam of Incredible (40) Intensity without ill effect.)
+                    Invulnerability: &Invulnerability |
+                      The hero with this Power is totally unaffected by one or more of the attack forms listed above. The initial choosing of Invulnerability counts as two choices, but every additional choice in Resistances may be changed to an Invulnerability. (Example -- A hero being generated picks up Invulnerability to Fire, counting it as two slots. She then gets another resistance, and chooses Resistance to Cold. She may then choose to be Invulnerable to Cold instead at no additional cost.)
+
+                      Invulnerability means that the hero in question has a Class 1000 resistance to that attack form.
               Body Alterations-Defensive:
-                Immortality: *Unranked
-                Reference: &Immortality |
-                  The character with this Power does not age or die in a normal fashion. Now, before you all run out and grab this Power for your young hero, note the fine print. The hero can still suffer loss of Endurance ranks as the result of wounds, poisons, and damages, but if the results call for perishing. then the character is left at Shift 0 Endurance but does not die. The character cannot move or act until Endurance reaches Feeble, however. so throwing an Immortal character into an active volcano will keep him out of the way for a while. (He cannot heal while taking damage.)
+                Immortality:
+                  Reference: &Immortality |
+                    The character with this Power does not age or die in a normal fashion. Now, before you all run out and grab this Power for your young hero, note the fine print. The hero can still suffer loss of Endurance ranks as the result of wounds, poisons, and damages, but if the results call for perishing. then the character is left at Shift 0 Endurance but does not die. The character cannot move or act until Endurance reaches Feeble, however. so throwing an Immortal character into an active volcano will keep him out of the way for a while. (He cannot heal while taking damage.)
 
-                  If Endurance reaches Shift 0, or the character otherwise dies, the immortal character loses all Karma, including that set aside for advancement. The character may be out of luck, but at least he has his Health. If an immortal character is part of a Karma pool, then an amount of Karma is subtracted as if the character had left the group. This is done each time the immortal character becomes "dead."
+                    If Endurance reaches Shift 0, or the character otherwise dies, the immortal character loses all Karma, including that set aside for advancement. The character may be out of luck, but at least he has his Health. If an immortal character is part of a Karma pool, then an amount of Karma is subtracted as if the character had left the group. This is done each time the immortal character becomes "dead."
 
-                  This Power does not have a Power rank. It counts as two Powers for any hero who takes it, unless the character is alien in origin, in which case the cost is normal (this reflects that a large number of extradimensional aliens are effectively immortal).
+                    This Power does not have a Power rank. It counts as two Powers for any hero who takes it, unless the character is alien in origin, in which case the cost is normal (this reflects that a large number of extradimensional aliens are effectively immortal).
 
-                  An immortal character's body will slowly regenerate lost parts and heal. so that short of atomizing the remains and spreading that collection of atoms through a large portion of space, the immortal character will return at some point in the future.
+                    An immortal character's body will slowly regenerate lost parts and heal. so that short of atomizing the remains and spreading that collection of atoms through a large portion of space, the immortal character will return at some point in the future.
 
-                  Immortality is applicable to the Earth Dimension only (including all planets of this dimension). An immortal character in another dimension—such as Asgard or Olympus, but excluding variant or divergent earths-does not age, but may be killed normally while in that dimension.
+                    Immortality is applicable to the Earth Dimension only (including all planets of this dimension). An immortal character in another dimension—such as Asgard or Olympus, but excluding variant or divergent earths-does not age, but may be killed normally while in that dimension.
           Talents:
             Weapon Skills: []
             Fighting Skills:
@@ -1410,11 +1365,11 @@ Character Sheet:
             Spells:
               Personal Energies:
                 Admittance:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: |
                     The caster can direct enchanted energy at any locked door or container and it will easily open for him, no matter how many locks it has or how big or intricate they are, if his spell rank FEAT roll is successful.
                 Apparition:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: |
                     The caster can mystically make his body non-corporeal and become an apparition. (This should not be confused with Astral Projection, as that power takes the caster to another dimension and he is invisible to most characters in this dimension.) Once the spell is cast, the caster need not concentrate upon his state to remain an apparition. As an apparition, the caster can still move, speak, cast spells, and perform most other normal actions. His movement rate is the same as if he were corporeal, but he can walk on air, sink through floors, climb up elevations as if he were climbing stairs, etc.
 
@@ -1424,7 +1379,7 @@ Character Sheet:
 
                     Judge’s Note:If the player wishes to make a concentrated effort at creating a character who appears like a ghost, striking fear and terror into criminal hearts, then the Judge should keep this effect in mind when the caster walks through a wall, drops through a ceiling, etc. and faces anyone. A character encountering this apparition, especially for the first time, must make a Psyche FEAT roll (see Magic Effects Table) or react as described in the Fear power. There is a price the caster has to pay for this extra “power”, however. This frightening effect on people only works if the caster is not famous, thus cutting off his Popularity and some sources of Karma gain. He must remain relatively reclusive and unknown so the criminal element does not recognize him.
                 Astral Projection:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: &Astral_Projection |
                     The caster can separate his astral self-the sheath of his life essence-from his physical self and travel through space unbound by physical laws while retaining human consciousness. The astral form (also sometimes called the ethereal form or the ectoplasmic form) is invisible, intangible, and incapable of being harmed except by the most powerful magic or by opponents who are themselves in astral form. If the caster wishes to project his astral self while under duress, during a combat or while he is being mentally attacked, he must make his spell rank FEAT roll.
 
@@ -1440,31 +1395,31 @@ Character Sheet:
 
                     Time alteration spells cast from the astral plane work within the physical plane, but do not affect the astral plane.
                 Empathy:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: |
                     The caster can magically sense another character or group’s strong emotions (not thoughts). This spell not only allows the character to gain a general impression of the mood and intentions of individuals or groups, it also allows him to broadcast his emotions to an individual or group. Broadcasting emotional attitudes like friendship, love, caution, helpfulness, and so forth can sometimes prove invaluable in clearing up a misunderstanding. The character cannot broadcast these emotions unless he truly feels them. These feelings should help dictate his actions. Only one attempt at it can be made per encounter. By using this spell, especially on animals, the caster can sense whether the target is deathly afraid, slightly afraid, in love, full of hate, etc. and the object of their hate, love, fear, and so on.
                 Enchanted Eye:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: |
                     The caster creates an enchanted eye when he wishes. The caster can automatically summon the enchanted eye for one round only. A successful spell rank FEAT roll brings the eye forth for the full duration of the spell. It can only see as far as sight normally would, but can penetrate darkness (real or magical), show the caster mystical existences (such as astral projections, invisible magical objects, mystical shields, and so on), and see through illusions. The caster is mentally linked with the eye and sees everything it sees.
 
                     The enchanted eye is a separate magical creation capable of flight. Its movement rate is the same as that of the caster. The maximum distance it can be be separate from the caster is based on the spell rank (for example, 12 areas for Amazing rank.) The eye can be attacked physically or magically; the eye has Health points equal to the caster’s Psyche and any FEAT roll the eye is required to make use the caster’s appropriate ability rank. The caster is not affected by any damage suffered by the enchanted eye.
                 Flaw:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: |
                     The caster weaves a mystical tendril around an object and sees the stress points, fracture planes, or weaknesses inherent in the item. The object must be natural, not magical. If this spell is used successfully, the caster can use a magical energy attack (bolt, blast, etc.), and shatter the object if he gets a Bull’s-Eye result using a Targeting attack (see the Magic Effects Table), even if the object’s material rank is up to three ranks higher than the spell rank. Note; This spell cannot be used to shatter Class 1000 materials unless the caster’s spell rank is also Class 1000.)
                 Flight:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: |
                     With this spell, the caster can magically fly. The spell rank and Psyche of the caster determines how fast he can fly. Consult theMagical Flight Speed     Table, below to determine the movement rate. The normal rate is the speed the character usually flies. If he wishes to achieve top rate flight he must make a Psyche FEAT roll every 5 rounds. A failed roll simply drops the caster’s speed back to normal.
 
                     The caster must make a successful spell rank FEAT roll to perform intricate flight maneuvers, fight while aloft, or perform other magic while aloft. The form of flight that the individual player character has (wings that magically appear, magic control of wind, or simply mystical flight) is up to the player.
                 Foretelling:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: |
                     The caster can mystically predict the actions of anyone he has studied (defined as observed for at least 10 rounds). This foretelling is short-term only. If he makes a successful spell rank FEAT roll the caster does not have to decide what to do in that round until after the opponent(s) have declared their actions, no matter who has the initiative.
                 Gramarye:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: |
                     The caster has the ability to magically learn information from an item, The caster must make a successful spell rank FEAT roll to learn anything from the item (if the item is of an unfamiliar alien design, the Judge can apply a -1CS to the spell rank).
 
@@ -1474,11 +1429,11 @@ Character Sheet:
 
                     This spell is increased or diminished if the item is magical. If the magic is of the same school as the caster, he receives a +2CS. If the magic is not of the same school as the caster, he receives a -1CS. If the magic is of a school hostile to the caster, he suffers an additional -1CS.
                 Healing:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: |
                     This spell gives the caster such complete control over his bodily functions that he can heal himself by use of personal or dimensional energy. Use the spell rank number instead of his Endurance rank number to determine the maximum amount of damage healed. The caster can only perform this once per day, in addition to his normal healing rate.
                 Image Projection:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: |
                     The caster can direct his magical energy to form an identical image of himself. For every round he makes a successful spell rank FEAT roll, the image will perform as he desires, thoroughly convincing most characters that the image is the caster. This belief is somewhat like the Illusion spell and should be treated as an illusion for the purposes of combat or touching the image.
 
@@ -1486,7 +1441,7 @@ Character Sheet:
 
                     The creation of more than one image is possible, but it requires a successful Psyche FEAT roll by the caster for every image made and each image requires a successful spell rank FEAT roll by the caster for each round he is commanding them. The maximum number of images a caster can create during the use of this spell is the spell rank divided by 10 (round fractions up).
                 Invisibility:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: |
                     This spell makes the caster invisible to others. Any item on the caster’s person and anyone holding hands with him (and willing to be affected) also becomes invisible as long as they remain in contact with him. This spell cannot turn an unwilling creature invisible.
 
@@ -1494,13 +1449,13 @@ Character Sheet:
 
                     Note: an invisible person can be located by persons with superhuman hearing or sense of smell, or by detection powers and devices that do not depend on sight.
                 Learning:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: |
                     This spell is used to give the caster an advantage in combat. It enables him to quickly learn from his mistakes. After this spell is cast the caster must fight his opponent for three consecutive rounds (normal combat, magical combat, astral combat, etc.). When the three rounds have passed the caster suddenly has insight into his opponent’s methods of combat and receives a +1CS when fighting that opponent during this encounter only. The duration and area of effect listed on the Magical Limits Table do not apply for this spell.
 
                     If combat is interrupted but later resumed and the Judge is not sure whether to consider it one continual encounter or two separate encounters, the spell still applies if the caster makes a successful spell rank FEAT roll.
                 Levitation:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: |
                     This spell enables the caster to mystically rise into the air. A successful spell rank FEAT roll is required. No further FEAT rolls are needed unless the caster descends to the ground, and then want to levitate again during the duration of the spell. The maximum altitude a levitating character can reach is 1 area at Good rank, with an additional 2 areas for every spell rank above Good (thus, a caster with a Remarkable Levitation spell can reach an altitude of 5 areas). The movement speed (rising or descending) per round is 1 area for a character with Good Psyche with an additional area for each Psyche rank above Good. The character cannot use this spell to lift any weight greater than his normal clothing and equipment. This spell affects the caster only.
 
@@ -1508,15 +1463,15 @@ Character Sheet:
 
                     This spell should not be mistaken for the ability to fly (see the Flight spell). Levitation only allows vertical movement. Sideways movement is only achievable by the levitating character pulling himself along an object. A levitating character cannot create forward momentum to affect the direction of his ascent. It is always straight up. While wind has no affect on a floating caster’s ascent direction, it can slow him down if the Judge feels it is strong enough.
                 Luck:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: |
                     The caster can disrupt probability fields so that very unlikely events can occur, somewhat like creating his own luck. For example, he could cause a table to collapse or a machine to tip over. He can not cause something to happen if that event is impossible; tables can not be created from nothing, and machines just can’t cease to exist. When the caster uses his spell, the player describes exactly what effect is wanted, and the Judge decides whether or not that effect is within the spell’s power and assigns an appropriate FEAT color. To use the spell the caster must make a successful spell rank FEAT roll. If the caster is trying to alter probabilities around magic materials or energies, such as magical artifacts or temples, apply a -2CS to the spell rank when making the FEAT roll.
                 Manipulation:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: |
                     This spell creates invisible magic tendrils that can manipulate materials. “Soft” materials, like organic tissue and fabric are easily manipulated while “hard” inorganic materials require a successful spell rank FEAT roll. No material can be manipulated if its Material Strength rank is greater than the spell rank. The caster can easily manipulate the hair or clothing of another character, causing them to constrict or bind the target (Strength for grappling would equal the spell rank). If the caster is attempting to affect organic tissues or muscles in another creature, the caster must make a successful Psyche FEAT roll. If successful, the victim must make an Endurance FEAT roll or suffer damage equal to this spell rank. The spell can only be used on one target at a time.
                 Mental Barrier:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: |
                     This spell creates a magical invisible headgear which does not hinder the caster’s normal senses. It allows the caster to know when someone is trying to intrude on his thoughts, magically attack his mind through mesmerism, illusion, etc. It does not indicate who is doing the attacking or intruding, nor does it reveal what spell is being used.
 
@@ -1526,7 +1481,7 @@ Character Sheet:
 
                     The Judge should make sure this spell is not abused. A character who constantly has the barrier up will become easily exhausted and can even suffer Psyche loss due to the mind damaging effects of trying to always be mentally protected. The maximum safe duration rank is Excellent.
                 Resistance Aura:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: &Resistance_Aura |
                     The caster surrounds himself with an invisible magical aura that protects him against a specific type of hostile environment or condition. The spell rank is treated as body armor against the hostile effect.
 
@@ -1534,7 +1489,7 @@ Character Sheet:
 
                     - **Solar:** Resistance to sun stroke, sunburn, light attacks, and solar radiation.
                 Servant:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: |
                     The caster can summon forth his own, personal servant to do his bidding. This servant will require quite a bit of Judge’s discretion as to its nature, abilities, spell, etc.
 
@@ -1599,47 +1554,47 @@ Character Sheet:
                       Primary Abilities:
                         Fighting:
                           Rank:
-                            Demon: *Remarkable
-                            Ethereal: *Remarkable
-                            Normal Human: *Excellent
+                            Demon: Remarkable
+                            Ethereal: Remarkable
+                            Normal Human: Excellent
                             Animal:
-                              Cat: *Poor
-                              Lion: *Remarkable
+                              Cat: Poor
+                              Lion: Remarkable
                               Note: +1CS from baseline statblock.
                           Note: Ethereal Fighting is Shift 0 in Earth Dimension unless fighting other Ethereals.
                         Agility:
                           Rank:
-                            Demon: *Amazing
-                            Ethereal: *Amazing
-                            Normal Human: *Excellent
+                            Demon: Amazing
+                            Ethereal: Amazing
+                            Normal Human: Excellent
                             Animal:
-                              Cat: *Excellent
-                              Lion: *Excellent
+                              Cat: Excellent
+                              Lion: Excellent
                               Note: +1CS from baseline statblock.
                         Strength:
                           Rank:
-                            Demon: *Remarkable
-                            Ethereal: *Remarkable
-                            Normal Human: *Excellent
+                            Demon: Remarkable
+                            Ethereal: Remarkable
+                            Normal Human: Excellent
                             Animal:
-                              Cat: *Poor
-                              Lion: *Excellent
+                              Cat: Poor
+                              Lion: Excellent
                               Note: +1CS from baseline statblock.
                         Endurance:
                           Rank:
-                            Demon: *Amazing
-                            Ethereal: *Amazing
-                            Normal Human: *Excellent
+                            Demon: Amazing
+                            Ethereal: Amazing
+                            Normal Human: Excellent
                             Animal:
-                              Cat: *Excellent
-                              Lion: *Remarkable
+                              Cat: Excellent
+                              Lion: Remarkable
                               Note: +1CS from baseline statblock.
                         Reason:
-                          Rank: *Remarkable
+                          Rank: Remarkable
                         Intuition:
-                          Rank: *Remarkable
+                          Rank: Remarkable
                         Psyche:
-                          Rank: *Remarkable
+                          Rank: Remarkable
                       Secondary Abilities:
                         Health:
                           Demon: 160
@@ -1655,16 +1610,16 @@ Character Sheet:
                           Animal: 80
                         Popularity:
                           Rank:
-                            Demon: *Poor
-                            Ethereal: *Poor
-                            Normal Human: *Typical
-                            Animal: *Excellent
+                            Demon: Poor
+                            Ethereal: Poor
+                            Normal Human: Typical
+                            Animal: Excellent
                         Resources:
                           Rank:
-                            Demon: *Good
-                            Ethereal: *Good
-                            Normal Human: *Good
-                            Animal: *Shift_0
+                            Demon: Good
+                            Ethereal: Good
+                            Normal Human: Good
+                            Animal: Shift_0
                           Note:
                             - Animals have Shift 0 Resources unless attached to an owner's Resources.
                             - Business/Finance Talent grants minimum Resources of Good.
@@ -1676,79 +1631,78 @@ Character Sheet:
                               Resistance to Energy Attacks:
                                 Cold:
                                   Rank:
-                                    Demon: *Remarkable
-                                    Normal Human: *Feeble
-                                    Animal: *Good
+                                    Demon: Remarkable
+                                    Normal Human: Feeble
+                                    Animal: Good
                                 Fire and Heat:
                                   Rank:
-                                    Demon: *Class-1000
-                                    Normal Human: *Feeble
-                                    Animal: *Typical
+                                    Normal Human: Feeble
+                                    Animal: Typical
                                 Reference: *Resistance_to_Energy_Attacks
                               Resistance to Physical Attacks:
                                 Disease:
                                   Rank:
-                                    Demon: *Amazing
-                                    Normal Human: *Excellent
-                                    Animal: *Excellent
+                                    Demon: Amazing
+                                    Normal Human: Excellent
+                                    Animal: Excellent
                                 Toxins:
                                   Rank:
-                                    Demon: *Amazing
-                                    Normal Human: *Excellent
-                                    Animal: *Excellent
+                                    Demon: Amazing
+                                    Normal Human: Excellent
+                                    Animal: Excellent
                                 Reference: *Resistance_to_Physical_Attacks
                             Detection:
                               Environmental Awareness:
                                 Rank:
-                                  Demon: *Excellent
-                                  Animal: *Excellent
+                                  Demon: Excellent
+                                  Animal: Excellent
                                 Reference: *Environmental_Awareness
                               Extradimensional Detection:
                                 Rank:
-                                  Demon: *Good
-                                  Ethereal: *Excellent
-                                  Animal: *Good
+                                  Demon: Good
+                                  Ethereal: Excellent
+                                  Animal: Good
                                 Reference: *Extradimensional_Detection
                               Hypersensitive Hearing:
                                 Rank:
-                                  Animal: *Remarkable
+                                  Animal: Remarkable
                                 Reference: |
                                   The hero can detect extremely faint sounds and unusual frequencies. He can identify objects by the sounds they emit. Because of the sensitivity of the hero's hearing, he is more vulnerable to sonic attacks (which receive a +1CS against him).
                               Hypersensitive Olfactory:
                                 Rank:
-                                  Animal: *Remarkable
+                                  Animal: Remarkable
                                 Reference: |
                                   The hero can detect the presence of minute traces of substances and accurately identify them.
 
                                   This Power is continually functioning: the hero has learned to ignore unpleasant smells. If he loses his ability to mask out nasty odors, he'll be so distracted (and possibly sickened) by the intruding odors that he loses -1CS on Reason and Endurance.
                               Life Detection:
                                 Rank:
-                                  Demon: *Excellent
-                                  Ethereal: *Excellent
-                                  Animal: *Remarkable
+                                  Demon: Excellent
+                                  Ethereal: Excellent
+                                  Animal: Remarkable
                                 Reference: *Life_Detection
                               Magic Detection:
                                 Rank:
-                                  Demon: *Remarkable
-                                  Ethereal: *Remarkable
-                                  Normal Human: *Excellent
-                                  Animal: *Excellent
+                                  Demon: Remarkable
+                                  Ethereal: Remarkable
+                                  Normal Human: Excellent
+                                  Animal: Excellent
                                 Reference: *Magic_Detection
                               Thermal Vision:
                                 Rank:
-                                  Demon: *Remarkable
-                                  Animal: *Remarkable
+                                  Demon: Remarkable
+                                  Animal: Remarkable
                                 Reference: *Thermal_Vision
                               Tracking Ability:
                                 Rank:
-                                  Animal: *Remarkable
+                                  Animal: Remarkable
                                 Reference: |
                                   The hero can detect and follow the tracks left by a specific target. The hero can detect environmental and spatial disturbances with the result that at high ranks the hero can actually track across deep space.
                             Energy Control:
                               Darkforce Manipulation:
                                 Rank:
-                                  Demon: *Remarkable
-                                  Ethereal: *Remarkable
+                                  Demon: Remarkable
+                                  Ethereal: Remarkable
                                 Power Stunts:
                                   - Blunt attack damage at Power rank.
                                   - Shadowcasting of Power rank Intensity darkness over a maximum of three areas.
@@ -1758,21 +1712,21 @@ Character Sheet:
                                 Reference: *Darkforce_Manipulation
                               Fire Control:
                                 Rank:
-                                  Demon: *Good
+                                  Demon: Good
                                 Reference: *Fire_Control
                             Energy Emission:
                               Fire Generation:
                                 Rank:
-                                  Demon: *Good
+                                  Demon: Good
                                 Reference: *Fire_Generation
                               Kinetic Bolt:
                                 Rank:
-                                  Ethereal: *Remarkable
+                                  Ethereal: Remarkable
                                 Reference: *Kinetic_Bolt
                             Fighting:
                               Natural Weaponry:
                                 Rank:
-                                  Demon: *Good
+                                  Demon: Good
                                 Type:
                                   - Claws (Edged Attack)
                                 Note: Animal Aspects attack on Edged Attack column naturally, without a Power.
@@ -1780,68 +1734,65 @@ Character Sheet:
                             Illusionary:
                               Illusion-Casting:
                                 Rank:
-                                  Demon: *Remarkable
-                                  Ethereal: *Remarkable
+                                  Demon: Remarkable
+                                  Ethereal: Remarkable
                                 Reference: *Illusion-Casting
                             Lifeform Control:
                               Mind Control:
                                 Rank:
-                                  Ethereal: *Remarkable
+                                  Ethereal: Remarkable
                                 Form:
                                   Type: Possession
                                 Reference: *Mind_Control
                             Mental Enhancement:
                               Iron Will:
                                 Rank:
-                                  Normal Human: *Remarkable
-                                  Animal: *Remarkable
+                                  Normal Human: Remarkable
+                                  Animal: Remarkable
                                 Reference: *Iron_Will
                               Linguistics:
-                                Rank: *Remarkable
+                                Rank: Remarkable
                                 Reference: *Linguistics
                               Telekinesis:
                                 Rank:
-                                  Demon: *Good
-                                  Ethereal: *Remarkable
+                                  Demon: Good
+                                  Ethereal: Remarkable
                                 Reference: *Telekinesis
                               Telepathy:
                                 Rank:
-                                  Demon: *Remarkable
-                                  Ethereal: *Remarkable
+                                  Demon: Remarkable
+                                  Ethereal: Remarkable
                                 Reference: *Telepathy
                               Total Memory:
-                                Rank: *Remarkable
+                                Rank: Remarkable
                                 Reference: *Total_Memory
                             Physical Enhancement:
                               Body Resistance:
                                 Rank:
-                                  Demon: *Excellent
+                                  Demon: Excellent
                                 Reference: *Body_Resistance
                               Self-Sustenance:
                                 Rank:
-                                  Demon: *Monstrous
+                                  Demon: Monstrous
                                 Type: Permanent
                                 Reference: *Self-Sustenance
                               Stealth:
                                 Rank:
-                                  Animal: *Excellent
+                                  Animal: Excellent
                                 Reference: *Stealth
                             Power Control:
                               Focus:
                                 Ranks:
-                                  Demon: *Amazing
-                                  Normal Human: *Good
+                                  Demon: Amazing
+                                  Normal Human: Good
                                 Totals:
                                   Demon:
-                                    Rank: Class-1000
-                                    Number: 1825
-                                    Spread: 26
-                                    Turns to Full Recovery: 37
+                                    Rank: Shift-Z
+                                    Number: 825
+                                    Spread: 24
+                                    Turns to Full Recovery: 17
                                   Normal Human:
-                                    Rank:
-                                      Name: Shift-Y
-                                      Number: 225
-                                      Abbreviation: ShY
+                                    Rank: Shift-Y
                                     Number: 354
                                     Spread: 17
                                     Turns to Full Recovery: 36
@@ -1849,24 +1800,22 @@ Character Sheet:
                             Self Alteration:
                               Imitation-Face Changer:
                                 Rank:
-                                  Normal Human: *Excellent
+                                  Normal Human: Excellent
                                 Reference: *Imitation-Face_Changer
                           Advanced Player's Book:
                             Body Alterations-Defensive:
-                              Immortality:
-                                Rank: *Unranked
-                                Reference: *Immortality
+                              Immortality: *Immortality
                             Magic:
                               Eldritch Bolts:
                                 Rank:
-                                  Demon: *Remarkable
-                                  Normal Human: *Remarkable
+                                  Demon: Remarkable
+                                  Normal Human: Remarkable
                                 Reference: |
                                   Eldritch Bolt is a bolt of magical power, and includes all manner of spells such as Doctor Strange's Bolt of Bedevilment. The range is as determined in the spell range table, and damage is equal to the Power rank, with the following difference: the bolt may reduce Health or Karma values (in the latter case, the target's effectively out of luck). If the bolt attacks Health, treat it as a Force attack.
                               Eldritch Shield:
                                 Rank:
-                                  Demon: *Remarkable
-                                  Normal Human: *Remarkable
+                                  Demon: Remarkable
+                                  Normal Human: Remarkable
                                 Reference: |
                                   The Eldritch Shield is a shield of mystical energy that provides the caster with mystical Body Armor equal to the caster's rank number. This is also proof against magical attacks or those attacks which arise from magic.
 
@@ -1890,7 +1839,7 @@ Character Sheet:
                             Archaeology:
                               Reference: *Archaeology
                             Computers:
-                              Reference: &Computers |
+                              Reference: |
                                 A +1CS on matters involving computers, computer-controlled equipment, and artificial intelligences.
                           Mystic and Mental Skills:
                             Trance:
@@ -1917,7 +1866,7 @@ Character Sheet:
                                 - Religion
                                 - Art
                             Leadership:
-                              Reference: &Leadership |
+                              Reference: |
                                 The hero with this Talent has the brains and understanding of a cohesive group, such that he is a benefit to the team. Any Karma Pool to which the character belongs receives a 50-point bonus, provided the character with this Talent is recognized as the "team leader." A Karma Pool may only have one recognized leader, though more than one character with Leadership may belong to one group. When the "Leader" of a group leaves, the 50 points are deducted from the Karma Pool, but the leader does not receive them for personal use (the bonus points only exist as a part of the pool).
                           Magic Wielder Talents:
                             Bibliophile:
@@ -1967,27 +1916,27 @@ Character Sheet:
                           Spells:
                             Personal Energies:
                               Healing:
-                                Reference: *Amazing
+                                Reference: Amazing
                               Trance:
-                                Reference: *Amazing
+                                Reference: Amazing
                             Universal Energies:
                               Conjure:
-                                Reference: *Amazing
+                                Reference: Amazing
                               Curse:
-                                Reference: *Amazing
+                                Reference: Amazing
                               Fear:
-                                Reference: *Amazing
+                                Reference: Amazing
                               Healing-Others:
-                                Reference: *Amazing
+                                Reference: Amazing
                               Illusion:
-                                Reference: *Amazing
+                                Reference: Amazing
                               Vapors-Obscurity:
-                                Reference: *Amazing
+                                Reference: Amazing
                               Vapors-Sleep:
-                                Reference: *Amazing
+                                Reference: Amazing
                             Dimensional Energies:
                               Dimensional Aperture:
-                                Reference: *Amazing
+                                Reference: Amazing
                     Equipment: []
                     Description:
                       Biography: |
@@ -1997,51 +1946,51 @@ Character Sheet:
                       Appearance: |
                         A tall, slender woman with a decidedly devilish mien, with dark bronze-olive skin, long, spiraling black curls, and deep amber eyes. Her typical appearance in human form is much the same, less the devilishness.
                 Sensing-Danger:
-                  Rank: *Amazing
-                  Reference: &Sensing-Danger |
+                  Rank: Amazing
+                  Reference: |
                     The caster can scan the area of spell using mystic waves that will warn him of danger. If this spell rank is higher than the caster’s Intuition rank, use this spell rank when the caster makes Intuition FEAT rolls. If the spell rank is lower than the caster’s Intuition, increase his Intuition by one level when making Intuition FEAT checks.
                 Sensing-Evil:
-                  Rank: *Amazing
-                  Reference: &Sensing-Evil |
+                  Rank: Amazing
+                  Reference: |
                     The caster can mystically sense the presence of great evil in his area of spell. This includes the presence of evil creatures (demons, evil magic wielders, super villains bent on destruction, etc.), artifacts of evil design or exceptionally evil deeds. This spell is automatic (FEAT rolls are not needed). As the caster gets closer to the source of the evil emanations, his sensing gets stronger. Thus, he can usually root out the evil if he goes looking for it.
 
                     If the spell duration is permanent, the spell functions constantly, even when the caster is asleep.
                 Sensing-Fields:
-                  Rank: *Amazing
-                  Reference: &Sensing-Fields |
+                  Rank: Amazing
+                  Reference: |
                     The caster can magically detect the presence of force fields, magical or otherwise in the area of effect. The caster must make a successful yellow FEAT to detect fields smaller than man-sized at ranges greater than five areas. At ranges of a mile or more, the caster must make a successful red FEAT to detect fields smaller than building-sized.
 
                     Unlike some of the other sensing spells, this spell does not require a great deal of concentration.
                 Sensing-Identity:
-                  Rank: *Amazing
-                  Reference: &Sensing-Identity |
+                  Rank: Amazing
+                  Reference: |
                     The caster can mystically scan the mind of anybody he can see within his area of spell and determine that person’s true identity. If the target is another magic wielder or a character with mental powers of any kind, he is allowed a Psyche FEAT roll to resist the probe. If the resistance FEAT roll is successful, he is unaffected.
                 Sensing-Mystical Detection:
-                  Rank: *Amazing
-                  Reference: &Sensing-Mystical_Detection |
+                  Rank: Amazing
+                  Reference: |
                     The caster is sensitive to the use of magic. He can detect magic use and its specific source within the area of effect. Among the specific things he can detect are: magicians casting spells, magical items that are being used or that have a protective spell cast on them, magical portals, and magical creatures.
 
                     Unlike some sensing spells, this spell does not require a great deal of concentration.
                 Shield-Great:
-                  Rank: *Amazing
-                  Reference: &Shield-Great |
+                  Rank: Amazing
+                  Reference: |
                     This shield protects an area. Unlike the other shields, the great shield is immobile and the caster assigns it to a fixed position when he casts it. The size of the great shield can be anywhere from the size of an individual shield up to a plane that is 1 area wide and 3 stories tall. It can be located anywhere within the area of effect, but the caster must see the location to place it. The great shield has an armor rank equal to the spell rank +2CS. It is usually transparent, but strange runes can be seen scrawled around the edge. If it is struck by an attack with a higher power rank it is shattered and disappears, though no damage penetrates it to harm the caster during that round.
 
                     A caster can have only one great shield in effect at any time.
                 Shield-Individual:
-                  Rank: *Amazing
-                  Reference: &Shield-Individual |
+                  Rank: Amazing
+                  Reference: |
                     The caster create a sorcerous shield to protect himself. The shield has an armor rank equal to the spell rank. This shield is usually invisible to all but magic wielders and can be projected out away from the caster’s outstretched hand a few feet. The caster moves the shield to block attacks. If the caster is attacked from a number of sources at once the shield will only protect him from one attack. If the caster is surprised, or if the attacking character succeeds in targeting a magical beam or bolt as a bull’s-eye, it means the caster could not move his shield fast enough to deflect the attack. If the shield is hit by an attack with a higher spell rank it shatters, though no damage penetrates it to harm the caster during that round.
 
                     The caster can also use this spell to encircle himself with four weaker shields (armor rank equalling the spell rank -1CS).
 
                     If any of the shields are broken, the remainder are unaffected. The caster cannot leave the circle of shields until they dissipate or are destroyed.
                 Tongues:
-                  Rank: *Amazing
-                  Reference: &Tongues |
+                  Rank: Amazing
+                  Reference: |
                     The caster mystically alters his senses so he can read, write, speak, and hear unknown language spoken or written in his presence. The area of effect has no significance with this spell. If the language is native to his world, no FEAT roll is needed. If the language is an alien one, he must make a successful spell rank FEAT roll to be able to comprehend it.
                 Trance:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: &Trance |
                     The caster has two options with this spell, he can mystically slow down or speed up his metabolism.
 
@@ -2051,26 +2000,26 @@ Character Sheet:
 
                     Once the character has started his mystical trance he cannot move or do any action except concentrate. He can come out of the trance whenever he desires, but it takes 2 rounds for his body to return to full consciousness.
                 Transformation:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: &Transformation |
                     The caster can, upon a successful spell rank FEAT roll, magically turn his body into another substance, retaining his own shape. There is a 15% chance that this spell is the type that can transform the caster into any substance he wishes. Otherwise the caster must pick one of the transformations listed below. In his altered form, the caster may assume the properties of that material: water flows, energy travels at the speed of light, fire ignites flammable materials, and so on. If the form is solid or sonic, the caster can use its material rank as body armor.
                     - Darkforce. A caster who transforms himself into the Darkforce can drain Health points equal to the spell rank by touching or enveloping the victim. This requires the use of dimensional energy.
               Universal Energies:
                 Charm:
-                  Rank: *Amazing
-                  Reference: &Charm |
+                  Rank: Amazing
+                  Reference: |
                     The caster creates a pleasant aura about himself, charming opponents in the area of effect. Every opponent in the area is allowed a Psyche FEAT roll (see Magic Effects Table). If the target is affected, he will quickly change his mind about attacking the caster because “there is just something about him he likes”; if the Psyche FEAT result is “No Effect”, the target is not even aware that the caster tried to charm him. A charmed target will not attack the caster, but will attack another opponent, if one is available. The caster cannot give orders of any kind to a charmed character; the spell is not a form of mental control.
 
                     A charmed target is allowed to make a Psyche FEAT roll each round to attempt to break the charm. Each charmed opponent must break the charm on his own; he cannot be persuaded that he is charmed by friends, although a counterspell cast by a friend might break the charm. Unless the charm is broken, it will remain in effect for the duration of the spell, even if the caster leaves. A charmed character will not remember that he has been charmed once the spell expires.
 
                     If the caster attacks an opponent charmed by his spell, the spell is automatically broken, and the target retains full memories of being charmed and remembers who is responsible.
                 Confusion:
-                  Rank: *Amazing
-                  Reference: &Confusion |
+                  Rank: Amazing
+                  Reference: |
                     The effects of this spell are unpredictable, but can be devastating. When it is cast, all targets within the area of effect receive a Psyche FEAT roll to avoid the effect. If a target fails the roll, he is affected by the confusion. The Judge rolls a die for each affected target and checksConfusion Results, to see how each is affected. The duration is 1-10 rounds, rather than the normal duration associated with the spell rank.
                 Conjure:
-                  Rank: *Amazing
-                  Reference: &Conjure |
+                  Rank: Amazing
+                  Reference: |
                     This spell is used to teleport an item, plant, creature or character from its current location to the caster’s location. This spell can even restore a broken or decayed item to its original form while in the act of teleporting.
 
                     If conjuring a trivial item, plant, or harmless animal, the caster need make no FEAT roll, it simply appears.
@@ -2083,8 +2032,8 @@ Character Sheet:
 
                     The conjuration of the body of a dead character is far beyond the abilities of any caster who does not have an Unearthly spell rank in this spell. The conjure spell only summons or recreates the physical body; however, if the dead character’s astral form survives (see the Astral Projection spell), it can reanimate the body, restoring it to true life.
                 Curse:
-                  Rank: *Amazing
-                  Reference: &Curse |
+                  Rank: Amazing
+                  Reference: |
                     With this spell, the caster can weave an enchanted curse around an opponent. If the spell rank FEAT roll is successful, the curse will remain with the opponent for the duration of effect. The duration of this spell is unusual; a curse cannot exceed Amazing duration (one month), even if the caster’s spell rank exceeds Amazing.
 
                     When a curse is attempted, the target can avoid it by making a successful Psyche FEAT roll. If the curse takes effect, the victim can make one Psyche FEAT roll per day to attempt to break it; a successful FEAT roll means the curse is broken. The target will not know who attacked him, regardless of whether or not the curse is successfully cast.
@@ -2093,7 +2042,7 @@ Character Sheet:
 
                     The Judge can decide to allow curses that have different effects instead of column shifts, such as: temporary aging; warts and boils; etc., but no curse can cause the death of a character.
                 Eldritch Beams/Bolts:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: &Eldritch_Beams-Bolts |
                     This spell unleashes a magical beam or bolt causing damage equal to the spell rank (a beam is a continuous line of energy, a bolt is an interrupted line of energy). A beam or bolt (hereafter referred to as bolt) affects only one target in the target area. When this spell is obtained, the player should roll a die to see where the bolts originate. The bolts will issue forth from the character’s: 1-4 = Hands; 5-8 = Eyes; 9 = Chest; 10 = Forehead. The type of bolt the character uses will be one of the following, which the player chooses with the approval of the Judge.
 
@@ -2104,17 +2053,17 @@ Character Sheet:
 
                       If the material rank is equal to or less than the spell rank, the target is disintegrated. Small objects (fist-sized, for example) can be destroyed automatically. Destroying man-sized objects requires a successful yellow spell rank FEAT roll. Destroying larger objects (like a vehicle) requires a successful red FEAT roll. If the target is an object of no importance, the Judge can waive the FEAT roll and rule that the item is automatically destroyed.
                 Eldritch Blast:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: &Eldritch_Blast |
                     This spell unleashes a magical blast, causing damage equal to the spell rank to everything in the target area. In addition, the blast has a chance to slam or stun anyone within the target area (see the Magic Effects Table under Power Rank-Blasting). The caster’s Psyche is reduced to Typical for an hour afterwards and he will pass out for 1-10 rounds unless he makes a successful Endurance FEAT roll. The type of blast used by the character is decided by the Judge and player when the character obtains the spell (see Eldritch Beams/Bolts for possible types).
 
                     The spell rank determines the amount of damage done by the blast, but the area of effect when the spell is obtained has a maximum rank of Excellent (one area), even if the caster’s actual spell rank is higher. The area of effect can be increased through experience, but can never exceed the spell rank. Furthermore, this spell has a maximum limit of Amazing rank for its area of effect.
                 Eldritch Flames:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: &Eldritch_Flames |
                     The caster summons forth sorcerous flames that cause damage equal to their spell rank every round a character passes through them. A spell rank FEAT roll is required to bring them forth. The flames are summoned forth in a fixed location, designated by the caster, and cannot be moved. The flames are used as a fiery wall to block movement into or out of the target area. They extend along one side of the target area chosen by the caster and can be any height chosen by the caster, from a few feet to three stories. The wall of flames can be slightly bent by the caster to accommodate structures and obstacles. No more than three walls can ever be maintained by the caster at any one time.
                 Energy Control:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: &Energy_Control |
                     The caster can use his personal, universal, or dimensional energy to control another type of nonmagical energy (not personal, universal, or dimensional). This energy manipulation requires a successful spell rank FEAT roll. Only one type of energy can be chosen by a beginning caster, but with advancement he may learn to control other forms of energy.
 
@@ -2128,34 +2077,34 @@ Character Sheet:
 
                     - **Darkforce:** The Darkforce is a semisentient force from another dimension. It can be used to black out an area so completely that even infravision does not work. It cannot be used as a weapon outside of the area the character is occupying, but within that area anyone enveloped by the Darkforce (except the caster) loses Health points equal to the caster’s spell rank number each round. Controlling the Darkforce requires that the caster use dimensional energy; this form of control is not available to casters who cannot use dimensional energy.
                 Fear:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: &Fear |
                     This spell affects all targets in the area of effect. The spell releases an unreasoning fear from the target’s mind. All targets are allowed a Psyche FEAT roll to resist the effect (see the Magic Effects Table). If the target misses the roll, the frightened character wants nothing more than to run away and hide (all his actions while afraid are at -2CS). The victim will try to avoid, or if necessary attack, anyone attempting to stop or restrain him. The character can only perform actions (including spellcasting) that will help him to escape. The victim always flees away from the attacker, even if he cannot see the caster. After the first three rounds of being afraid, and every other round after that, if need be, the frightened character is allowed a Psyche FEAT roll to regain his composure. Once made, it will still take him a full round to get complete control of himself.
 
                     Though the caster must maintain a high degree of concentration on this spell to keep the target afraid (no attacks or other spellcasting allowed), he does not know when the character breaks the spell. Only when the target attacks the caster or otherwise acts contrary to a state of fear does the caster realize he no longer influences the target.
                 Forgetfulness:
-                  Rank: *Amazing
-                  Reference: &Forgetfulness |
+                  Rank: Amazing
+                  Reference: |
                     The caster can magically effect other characters’ minds and cause them to forget events. This is usually used by heroic magic wielders to protect innocent bystanders from the awesome psychic shock caused by some of the sights to be seen during magical combat, etc. It is also used by most magic wielding characters to protect their secret identities. Evil magicians may also use this spell to cover up their trail or their crimes. The duration of the spell is permanent (unless another sorcerer uses a Revival spell of at least equal spell rank to break the spell of Forgetfulness). The number of people that can be ensorcelled by the spell depends on the spell rank: Good = 1 person; Excellent = up to 5 people; Remarkable = everyone in I area; Incredible = everyone in a square mile; Amazing = everyone in 100 square miles; Monstrous = everyone on the planet; Unearthly everyone in one dimension; Class 1000 everyone in all dimensions.
 
                     Any character with a Psyche equal to or greater than the caster’s may make a Psyche FEAT roll to reduce the effects of the spell. Magic wielding characters have a +2CS for this FEAT roll. A green result means that vague recollections of the event sometimes surface in the character’s memory. A yellow result means that the character knows most of the highlights of the event, but cannot remember who cast the spell of forgetfulness. A red result means that the character can remember everything.
                 Glamor:
-                  Rank: *Amazing
-                  Reference: &Glamor |
+                  Rank: Amazing
+                  Reference: |
                     The caster can conjure up flashing lights and swirling colors, which distract and confuse opponents. The caster can cause them to appear anywhere within sight in the area of effect. Any characters in that area must make a Psyche FEAT roll; if the FEAT is successful, the target is unaffected. If the roll fails, the target suffers an unfavorable 1 CS on all his actions (plus or minus 1 CS depending on whatever is unfavorable to the target).
 
                     If the caster desires, he can try and target the glamor on a specific character; this requires a successful targeting Agility bull’s-eye FEAT roll. If successful, the target suffers an unfavorable 2 CS, but the spell effects that target only
 
                     Once established the glamor cannot be moved out of the area or exact location it was cast upon. Glamor has no effect on the caster.
                 Healing-Others:
-                  Rank: *Amazing
-                  Reference: &Healing-Others |
+                  Rank: Amazing
+                  Reference: |
                     The caster can magically heal other characters by using universal or dimensional energy. The caster must touch the character for two consecutive rounds after casting the spell. A successful spell rank FEAT roll is required. The, maximum amount of damage that can be healed per person is the spell rank number. Any individual character can only be healed once per day by a specific caster. The number of different characters the caster can heal per day is equal to the spell rank number divided by 10 (round fractions up). If the player so desires, this spell could be used to heal a creature instead of a character.
 
                     The healing is complete, including the mending of broken bones and torn cartilage. The spell is also effective against disease.
                 Illusion:
-                  Rank: *Amazing
-                  Reference: &Illusion |
+                  Rank: Amazing
+                  Reference: |
                     This spell creates an illusion in the mind of creatures within the area of effect. The player whose character is using this spell must describe it to the Judge. The illusion looks, sounds, and smells the way it would if it were real, but cannot cause damage. Since the illusion exists only in the mind of the targets, no one outside the area of effect can see it. All characters in the area of effect see the same illusion. The caster must concentrate on the illusion for the entire duration of its existence to be believable.
 
                     Each character seeing the illusion may make a Psyche FEAT roll to disbelieve it at the beginning of the illusion and every other round after that. If the FEAT roll is successful, the illusion fades from his mind. Other characters with illusion creating powers, whether magical, mutant, or whatever, receive a +2 Column Shift to their attempts to disbelieve. An unaffected character cannot persuade an affected character of the illusion’s true nature.
@@ -2164,49 +2113,49 @@ Character Sheet:
 
                     If the illusion is of something silly, confusing, or extremely contradictory, then the Judge should secretly roll an Intuition check for those affected to disbelieve it.
                 Mesmerism:
-                  Rank: *Amazing
-                  Reference: &Mesmerism |
+                  Rank: Amazing
+                  Reference: |
                     This is a basic magical form of hypnotism that permits the caster to communicate with and command specific creatures of less than human intelligence. To communicate with a creature requires a successful Psyche FEAT roll. Commanding a creature is possible only if the caster’s spell rank is greater than the creature’s Endurance rank, and also requires a successful spell rank FEAT roll.
 
                     The target must be able to see the caster to be affected by this spell. If the caster is affected by an attack in the round he casts this spell, the mesmerism is automatically broken.
 
                     When this spell is obtained, the caster will be able to mesmerize only one specific type of animal: mammals, birds, reptiles, amphibians, fish, insects, etc. As he becomes experienced he can learn how to mesmerize other types (Judge’s discretion).
                 Paralyze:
-                  Rank: *Amazing
-                  Reference: &Paralyze |
+                  Rank: Amazing
+                  Reference: |
                     This spell creates a magical tendril that attacks the target’s mind, making him unable to move. If the caster’s spell rank FEAT roll is unsuccessful, the target will not even suspect he has been attacked. It the caster’s spell rank FEAT roll is successful, the target is allowed a Psyche FEAT roll to resist. If the target’s resistance roll is successful, he is unaffected but knows that he has been attacked. If the target’s resistance roll is unsuccessful, he becomes completely paralyzed for a number of rounds equal to the roll of one die, plus 2 additional rounds. A paralyzed character cannot move or speak, but he can see, hear, smell, and use mental spells (it he has any). Only a creature with a brain (including cyborgs) can be paralyzed. Medical treatment cannot cure magical paralysis.
                 Revival:
-                  Rank: *Amazing
-                  Reference: &Revival |
+                  Rank: Amazing
+                  Reference: |
                     The spell counters the effects of other spells that preventing a character from acting or thinking with complete control. Spells that can be countered by a Revival spell include Mesmerism, Emotion Control, Confusion, Fear, Illusion, Charm, Mental Control, Paralyze, Forgetfulness, and the like.
 
                     If the spell rank of the Revival spell is stronger than the spell rank of the controlling spell, then the controlling spell is automatically broken. If the spell ranks are equal, a successful spell rank FEAT roll is needed to break the spell. If the holding spell is a higher spell rank than the Revival spell, then the caster must make a successful spell rank FEAT roll to break the spell subtracting as many ranks from his spell’s normal spell rank as the holding spell exceeds it.
 
                     A Revival spell can only be used against a specific spell enthralling a specific character once a day.
                 Shield-Aura:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: &Shield-Aura |
                     The caster surrounds himself or another character with a shining aura that acts as body armor against all forms of attack. It does not hinder the caster in any way. An aura shield has an armor rank equal to the spell rank -1CS. If it is hit by an attack with a higher power rank it is shattered and disappears, though no damage reaches the caster during that round. Only one aura shield can surround a character at any given time.
                 Teleportation:
-                  Rank: *Amazing
-                  Reference: &Teleportation |
+                  Rank: Amazing
+                  Reference: |
                     The caster can channel his Universal or Dimensional energy into a special type of movement that allows him to travel instantaneously from one spot to another without physically crossing any of the space between. The caster can teleport as far as his area of effect allows. If the caster is familiar with the location he is teleporting to, or is able to see it, then he need make no FEAT roll. If he is attempting to teleport into an unknown location he must make a spell rank FEAT roll. A failed roll means he could not complete the movement and was “bumped” back to his original point of departure.
 
                     If a caster tries teleporting into a solid object (because he is unaware of its presence) he must make an Endurance FEAT roll; if this roll fails, he materializes outside the object but suffers damage equal to the material rank of the object. The character is automatically slammed (1 area) and may be stunned (make a FEAT roll for exact result).
 
                     The visual effects that accompany teleporting (vapors rising, flash of light, slow fade out, etc.) are up to the player.
                 Trap:
-                  Rank: *Amazing
-                  Reference: &Trap |
+                  Rank: Amazing
+                  Reference: |
                     The caster uses this spell it he expects to be mentally attacked (magical or otherwise). Once set, the trap will last for 5 rounds (ignore the normal duration of spell) or until the character is successfully struck by a magical mental attack or other form of mental probe. When this happens, the caster must make a spell rank FEAT roll. If he succeeds, the caster’s stored magical Universal or Dimensional energy lashes out, causing damage to the attacker’s mind that is equal to the trap’s spell rank. If he fails, the attack against the caster will be successful, but apply a -2CS to the spell rank of the hostile spell.
                 Vapors-Obscurity:
-                  Rank: *Amazing
-                  Reference: &Vapors-Obscurity |
+                  Rank: Amazing
+                  Reference: |
                     The caster can conjure forth magical vapors, which pour out from around his feet, hands, or just suddenly begin to swirl in the air (caster’s discretion). The vapors resemble dense smoke of a color specified by the caster. They fill the area he is occupying in one round. The caster can continue to fill areas at a rate of one per round until some or all of his area of effect is full. These vapors prevent anyone from seeing the caster, and even radar, sonar, and infrared devices cannot penetrate them. The caster, on the other hand, can see through the vapors perfectly.
 
                     The effect that the vapors have on combat is to provide the caster with a +1CS when striking an opponent who is in the vapors and to penalize the opponent with a -2CS Shift for striking at the caster, while the opponent is in the vapors.
                 Vapors-Resist Death:
-                  Rank: *Amazing
+                  Rank: Amazing
                   Reference: &Vapors-Resist_Death |
                     The caster can conjure forth magical vapors, which pour out from around his feet, hands, or just suddenly begin to swirl in the air (caster’s discretion). These vapors will only cover one individual the caster chooses within the area of spell. This character must be dying or dead for no more than 2 rounds when the spell is cast. These extremely powerful vapors will bring the character up to 0 Health points and keep him there (if he has died) or will freeze him at the level of his current Health and Endurance. This “freezing” of the character will last for the duration of effect and allows for time to treat his wounds or the condition which is killing him (taking him to a hospital, applying spells that heal, etc.)
 
@@ -2216,21 +2165,21 @@ Character Sheet:
 
                     If the character the caster is trying to save has been dead for over 2 rounds, but less than 3 hours, the caster can try to create a special, potent vapor which will have the same effect as described above. To create this special vapor requires the caster to make a spell rank FEAT roll and deduct one rank from his Psyche (for a week) whether he succeeds in the spell or not. The caster can keep attempting this spell, but must deduct the Psyche rank each time he tries. If his Psyche rank drops to Feeble or below, due to the exercising of this spell, he permanently loses a Psyche rank.
                 Vapors-Sleep:
-                  Rank: *Amazing
-                  Reference: &Vapors-Sleep |
+                  Rank: Amazing
+                  Reference: |
                     The caster can conjure forth magical vapors, which pour out from around his feet, hands, or just suddenly begin to swirl in the air (caster’s discretion). These vapors resemble soft, billowy, white clouds and will only cover the caster’s immediate area (if the spell rank is Good or less) or the caster’s area and one adjacent area of his choice (if the spell rank is Excellent of better). The vapors are not of sufficient density to affect anyone’s vision.
 
                     Everyone but the caster who is in the vaporous area(s) must make an Endurance FEAT roll or fall asleep for 1-10 rounds plus an additional 2 rounds. Loud noises, being nudged, and other “awakening” conditions will arouse the characters affected. These vapors only last for one round, then dissipate.
               Dimensional Energies:
                 Environmental Independence:
-                  Rank: *Amazing
-                  Reference: &Environmental_Independence |
+                  Rank: Amazing
+                  Reference: |
                     The caster can surround himself with an aura of magic that maintains a livable environment for him. He does not need to sleep, eat, drink, or breathe, but can if he wants to. He feels no non-magical cold or heat and can survive in outer space, under water, within the earth, in hostile atmospheres, etc. This spell does not provide protection from or immunity to attack, but it does allow the caster to survive in conditions where survival would normally be impossible. The area of spell is usually just around the caster himself, though the aura can contain an additional character for every rank of the caster’s Psyche above Remarkable.
 
                     This is a particularly long-lived spell, often used by magic wielders stranded in hostile circumstances or alien dimensions. The duration of this spell is left to the Judge, as different conditions and circumstances (time passage in other dimensions for example) can affect the duration. It is suggested that the caster receive a +3CS on the duration of the spell. (For example, the spell would have a Unearthly duration for a caster with an Incredible spell rank.) An Unearthly duration means that the spell lasts indefinitely, usually until the caster escapes from the hostile conditions that caused him to cast the spell.
                 Dimensional Aperture:
-                  Rank: *Amazing
-                  Reference: &Dimensional_Aperture |
+                  Rank: Amazing
+                  Reference: |
                     This spell causes a temporary opening in the dimension’s fabric, allowing the caster to cross from one dimension to another. Look for the section on Dimensions in the Miscellany of Mysticism for more detail. The caster can automatically open a portal to a dimension with which he is familiar, but opening a portal to an unfamiliar dimension requires a successful spell rank FEAT roll. If a FEAT roll is required, failure indicates that the caster cannot enter the desired dimension that day A beginning caster who does not really know one dimension from another can stumble into any one of them at random.
 
                     A spellcaster who is in a familiar foreign dimension can automatically return to his home dimension. However, if the caster is in an unfamiliar dimension or if his mind has been affected by traveling in a sanity-bending or sanity-threatening dimension, the caster must make a successful spell rank FEAT roll to locate the dimensional position of his home dimension. This roll to return is only allowed once per week. However, the caster can enter another random dimension and try to go home from there.
@@ -2239,22 +2188,22 @@ Character Sheet:
 
                     This spell also grants the caster knowledge of a tiny “personal dimension” where he can go with perfect accuracy and safety. This pocket dimension is only accessible from the caster’s home dimension and contains no dangerous creatures. There the caster can go for peace, solitude, and can even make it a home away from home. The caster can enter or leave his own little dimension once per day.
                 Link:
-                  Rank: *Amazing
-                  Reference: &Link |
+                  Rank: Amazing
+                  Reference: |
                     The caster can link his mind with other, willing magic wielders, thus giving him additional power. Up to four magic wielders can be linked in this manner. For every magic wielder linked to his mind, the caster gains a +1CS to the spell rank of any spell he casts, up to a maximum of Shift X rank. (Exception: this spell cannot increase the rank or effects of Link spells.) If the spell involves a range factor, the range is increased to that of the shifted spell rank. If the spell inflicts damage, the area of effect and the spell rank is shifted, for purposes of FEAT rolls, but damage is increased by 10 points (not 1 rank) for each additional mind linked. (For example, if three magic wielders are linked to a caster with an Incredible rank in Eldritch Crystals, he would receive a +3CS for the area of effect and chance of a successful spell rank FEAT roll, but any damage caused would be 70 points, not 100.
 
                     Only the caster who initiates the Link spell can perform any actions. All other magic wielders who are linked must remain in place and concentrate. If the caster they are linked to sustains damage, they absorb one-tenth of that damage too, rounded down. The link also increases the caster’s Psyche for resistance to mental attack. For every additional mind linked, apply a +1CS to the caster’s Psyche when defending against mental attack.
 
                     The link is automatically broken if the caster is rendered unconscious or if he loses control of his own mind (due to Confusion spells, Fear spells, Mental Control spells, etc.)
                 Shield-Multiple:
-                  Rank: *Amazing
-                  Reference: &Shield-Multiple |
+                  Rank: Amazing
+                  Reference: |
                     This spell uses extradimensional energies to create a Multiple Shield. It is identical to an Individual Shield, except that there are actually multiple shields behind the one that appears. For every spell rank above Good, the caster has another Shield that immediately appears when the previous shield has been shattered. For example, a caster with a Remarkable spell rank has three Individual Shields, one right behind the other to protect him.
 
                     If the outermost shield is struck by an attack that is at least two ranks higher than the shield rank, one or more inner shields are also broken; if the attack is 2 ranks higher, a second shield is broken, at 3 ranks higher, a third shield, and so on. No damage will reach the caster in the round the last shield is broken.
                 Teleportation:
-                  Rank: *Amazing
-                  Reference: &Teleportation |
+                  Rank: Amazing
+                  Reference: |
                     The caster can channel his Universal or Dimensional energy into a special type of movement that allows him to travel instantaneously from one spot to another without physically crossing any of the space between. The caster can teleport as far as his area of effect allows. If the caster is familiar with the location he is teleporting to, or is able to see it, then he need make no FEAT roll. If he is attempting to teleport into an unknown location he must make a spell rank FEAT roll. A failed roll means he could not complete the movement and was “bumped” back to his original point of departure.
 
                     If a caster tries teleporting into a solid object (because he is unaware of its presence) he must make an Endurance FEAT roll; if this roll fails, he materializes outside the object but suffers damage equal to the material rank of the object. The character is automatically slammed (1 area) and may be stunned (make a FEAT roll for exact result).
@@ -2263,130 +2212,127 @@ Character Sheet:
       Equipment:
         Salaries Sundries and Other Equipment:
           Respectable Clothing:
-            Price: *Typical
+            Price: Typical
             Note: Daily wardrobes of Normal Human cover identities. More basic, casual, off-the-shelf, or mundane than what is created with Artifact Creation, Molecular Creation, and Molding (high fashion, valuable accessories, etc.). Vintage clothing highly represented.
           Original Art:
-            Price: *Good
+            Price: Good
             Note: Decorations and objets d'art, particularly in higher-end residences.
-          Mystic Texts: &Mystic_Texts
-            Price: *Incredible
+          Mystic Texts:
+            Price: Incredible
             Reference: |
               Mystic Texts is a blanket term for those less-powerful magical books that mages acquire to aid them in their work.
         Headquarters:
           Ashtaret's Domain:
             Type: Special
-            Cost: &Beyond
-              Name: Beyond
-              Number: .inf
-              Abbreviation: B
+            Cost: Beyond
             Size: Deluxe
             Material Strength:
-              Rank: *Unearthly
+              Rank: Unearthly
             Room Packages:
               Living Room Package:
                 Cost:
-                  Total: *Remarkable
-                  Base: *Good
+                  Total: Remarkable
+                  Base: Good
                   Note: +2CS to Cost for very high-quality package.
                 Note:
                   - Represents antechambers and waiting areas outside offices and conference rooms, rather than lounges or living areas; not comfortable or homey.
                   - Sofas and chairs are basalt benches and cathedra.
-                Reference: &Living_Room_Package |
-                  *Cost: Good* - Occupies one room. Consists of sofa, two easy chairs, two end tables, coffee tables, two lamps (ceiling table or floor). At *Excellent Cost* add television, stereo set-up, or piano. At *Remarkable Cost* add all three.
+                Reference: |
+                  *Cost: Good* - Occupies one room. Consists of sofa, two easy chairs, two end tables, coffee tables, two lamps (ceiling table or floor). At Excellent Cost* add television, stereo set-up, or piano. At Remarkable Cost* add all three.
               Dining Room Package:
                 Cost:
-                  Total: *Amazing
-                  Base: *Remarkable
+                  Total: Amazing
+                  Base: Remarkable
                   Note: +2CS to Cost for very high-quality package.
                 Note:
                   - Multiple.
                   - Any "silverware" is actually a dark, lightweight, highly durable, unidentifiable metal rather than sterling, and "china" is basalt or obsidian rather than porcelain.
-                Reference: &Dining_Room_Package |
-                  *Cost: Good* - Occupies one room. Consists of table, four chairs, ceiling lamp. *Excellent Cost* add large table, bureau and four more chairs. *Remarkable Cost* add china cabinet, set of good china and sterling tableware.
+                Reference: |
+                  *Cost: Good* - Occupies one room. Consists of table, four chairs, ceiling lamp. Excellent Cost* add large table, bureau and four more chairs. Remarkable Cost* add china cabinet, set of good china and sterling tableware.
               Kitchen Package:
                 Cost:
-                  Total: *Remarkable
-                  Base: *Good
+                  Total: Remarkable
+                  Base: Good
                   Note: +2CS to Cost for very high-quality package.
                 Note: Stoves, ovens, hearths, hot water, etc. are powered by hellfire or vulcanism. Running water is provided by "natural" springs.
-                Reference: &Kitchen_Package |
-                  *Cost: Good* - Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing. At *Excellent Cost* add refrigerator, dishwasher, or microwave, plus a fire extinguisher. At *Remarkable Cost* add all three and freezer.
+                Reference: |
+                  *Cost: Good* - Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing. At Excellent Cost* add refrigerator, dishwasher, or microwave, plus a fire extinguisher. At Remarkable Cost* add all three and freezer.
               Library Package:
                 Cost:
-                  Total: *Incredible
-                  Base: *Excellent
+                  Total: Incredible
+                  Base: Excellent
                   Note: +2CS to Cost for very high-quality package.
                 Note: Multiple.
-                Reference: &Library_Package |
-                  *Cost: Excellent* - Occupies one room. Consists of two easy chairs, table, desk, straight chair, and up to five bookcases on general subjects (texts readily available, and including encyclopedias, world histories, and atlases). At *Remarkable Cost* adds globe, microfiche or microfilm reader, computer terminal (only useful if building has computer room or is linked up to computer). Special or rare volumes, such as the Book of the Vishanti, the Necronomicon, or Amazing Fantasy \#15, would have to be obtained separately.
+                Reference: |
+                  *Cost: Excellent* - Occupies one room. Consists of two easy chairs, table, desk, straight chair, and up to five bookcases on general subjects (texts readily available, and including encyclopedias, world histories, and atlases). At Remarkable Cost* adds globe, microfiche or microfilm reader, computer terminal (only useful if building has computer room or is linked up to computer). Special or rare volumes, such as the Book of the Vishanti, the Necronomicon, or Amazing Fantasy \#15, would have to be obtained separately.
               Workshop Package:
                 Cost:
-                  Total: *Amazing
-                  Base: *Remarkable
+                  Total: Amazing
+                  Base: Remarkable
                   Note: +2CS to Cost for very high-quality package.
                 Note: A traditional workshop for various wood, metal, stone, and clay trades, without modern technology. Features a forge and anvil.
-                Reference: &Workshop_Package |
-                  *Cost: Remarkable* - Occupies one or more rooms. Basic equipment for metal and woodworking: lathes, drills, saws and fire extinguisher. At *Incredible Cost* includes laser-guided instruments. At *Amazing Cost* includes all of the above and automatic processing materials (an automatic factory, in effect, for simple goods).
+                Reference: |
+                  *Cost: Remarkable* - Occupies one or more rooms. Basic equipment for metal and woodworking: lathes, drills, saws and fire extinguisher. At Incredible Cost* includes laser-guided instruments. At Amazing Cost* includes all of the above and automatic processing materials (an automatic factory, in effect, for simple goods).
               Laboratory Package:
                 Cost:
-                  Total: *Amazing
-                  Base: *Remarkable
+                  Total: Amazing
+                  Base: Remarkable
                   Note: +2CS to Cost for very high-quality package.
                 Note: An expansive, exsquisitely-appointed alchemical laboratory in the classical style, with no modern technology.
-                Reference: &Laboratory_Package |
-                  *Cost: Remarkable* - Occupies one or more rooms. Basic lab equipment: scales, sinks, common chemicals, microscope. At *Incredible Cost* include computer capable of analysis with incredible ability, or clean room (prevent germs from escaping lab). At *Amazing Cost* include both, plus poison analysis and serum dispenser (Excellent effects against known poisons only). Certain pieces, such as electron micro-probes and stellar mass detectors, may be purchased separately (in general, such items are Incredible Rank purchases).
+                Reference: |
+                  *Cost: Remarkable* - Occupies one or more rooms. Basic lab equipment: scales, sinks, common chemicals, microscope. At Incredible Cost* include computer capable of analysis with incredible ability, or clean room (prevent germs from escaping lab). At Amazing Cost* include both, plus poison analysis and serum dispenser (Excellent effects against known poisons only). Certain pieces, such as electron micro-probes and stellar mass detectors, may be purchased separately (in general, such items are Incredible Rank purchases).
               Office Package:
                 Cost:
-                  Total: *Remarkable
-                  Base: *Good
+                  Total: Remarkable
+                  Base: Good
                   Note: +2CS to Cost for very high-quality package.
                 Note: Multiple.
-                Reference: &Office_Package |
-                  *Cost: Good* - Occupies one or more rooms. Includes desk, three chairs, two lamps. At *Excellent Cost* doubles the material, adds file cabinet, typewriter. At *Remarkable Cost*, add computer terminal, double previous material, add hanging plants, decorative art.
+                Reference: |
+                  *Cost: Good* - Occupies one or more rooms. Includes desk, three chairs, two lamps. At Excellent Cost* doubles the material, adds file cabinet, typewriter. At Remarkable Cost*, add computer terminal, double previous material, add hanging plants, decorative art.
               Pool Package:
                 Cost:
-                  Total: *Monstrous
-                  Base: *Incredible
+                  Total: Monstrous
+                  Base: Incredible
                   Note: +2CS to Cost for very high-quality package.
                 Note:
                   - Constructed as thermae-style baths, the pools are supplied by volcanic hot springs, and do Poor (4) heat damage per turn to anyone in them who lacks sufficient resistance to, or protection from, fire and heat.
                   - Considered "indoor" for purposes of Cost.
-                Reference: &Pool_Package |
+                Reference: |
                   *Cost: Remarkable outdoors, Incredible indoors* Occupies 2 or more areas, and extends 1 floor downward. Consists of standard Olympic swimming pool, diving boards, and sun room (alternately, sun roof which is retractable).
               Conference Room Package:
                 Cost:
-                  Total: *Amazing
-                  Base: *Remarkable
+                  Total: Amazing
+                  Base: Remarkable
                   Note: +2CS to Cost for very high-quality package.
                 Note:
                   - Multiple.
                   - At least one in each format.
                   - One is set up as a chapel of sorts.
-                Reference: &Conference_Room_Package |
-                  *Cost: Remarkable* - Occupies one room. Contains material for assembling of heroes, or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs. Wood paneling available at *Incredible Cost*.
+                Reference: |
+                  *Cost: Remarkable* - Occupies one room. Contains material for assembling of heroes, or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs. Wood paneling available at Incredible Cost*.
               Security Packages:
                 Cost:
-                  Total: *Monstrous
-                  Base: *Incredible
+                  Total: Monstrous
+                  Base: Incredible
                   Note: +2CS to Cost for very high-quality package.
                 Note:
                   - Multiple for ubiquity.
                   - Security systems are magical in nature, rather than technological. Comprises wards, scrying sensors, arcane locks, etc.
                   - Alarms telepathically alert Ashtaret and Allatou, irrespective of distance or dimension.
                   - Ashtaret and Allatou may telepathically activate and deactivate alarms, and lock and unlock locks, irrespective of distance or dimesion.
-                Reference: &Security_Packages |
-                  *Cost: Good* — one Security package to a door or window. Occupies no space. Consists of hand-set burglar alarms on windows and doors, coupled with mechanical locks. At *Excellent Cost:* Automatic burglar alarms with computer-code or card identification system. At *Remarkable Cost:* Automatic burglar alarms with palm-print scan, can activate defense systems. At *Incredible Cost:* Full body scan with benign identification program as to hostility. Can activate defense systems.
+                Reference: |
+                  *Cost: Good* — one Security package to a door or window. Occupies no space. Consists of hand-set burglar alarms on windows and doors, coupled with mechanical locks. At Excellent Cost:* Automatic burglar alarms with computer-code or card identification system. At Remarkable Cost:* Automatic burglar alarms with palm-print scan, can activate defense systems. At Incredible Cost:* Full body scan with benign identification program as to hostility. Can activate defense systems.
               Defense Package:
                 Cost:
-                  Total: *Monstrous
-                  Base: *Incredible
+                  Total: Monstrous
+                  Base: Incredible
                 Note:
                   - Multiple for effects.
                   - Defensive systems are magical in nature, rather than technological. Beams originate from gems over doorframes or archways, statue mouths and eyes, floating orbs, etc.
                   - Defensive Weapons:
-                    Intensity: *Amazing
+                    Intensity: Amazing
                     Material Strength:
-                      Rank: *Amazing
+                      Rank: Amazing
                     Range: 20
                     Rate: 1
                     Note:
@@ -2406,30 +2352,28 @@ Character Sheet:
                         - Blunt Attack
                         - Grappling
                         - Grabbing
-                Reference: &Defense_Package |
-                  *Cost: Excellent* - Will protect one or more areas. Pre-set defenses consisting of entangling tentacles or nets or lasers or stun rifles, or concussive rifles or pit traps, with the maximum of Remarkable Strength or Intensity. *Remarkable Cost:* Defenses activated by Security package, consists of one type as above of Incredible Strength. *Incredible Cost:* As above, intensities are of Amazing Strength. Multiple defense mechanisms may protect the same establishment (example, the WCA compound consists of net-filled pits, stun rifles disguised as trees, and a passive alarm system in the Security Package). Specialized defense packages may be designed.
+                Reference: |
+                  *Cost: Excellent* - Will protect one or more areas. Pre-set defenses consisting of entangling tentacles or nets or lasers or stun rifles, or concussive rifles or pit traps, with the maximum of Remarkable Strength or Intensity. Remarkable Cost:* Defenses activated by Security package, consists of one type as above of Incredible Strength. Incredible Cost:* As above, intensities are of Amazing Strength. Multiple defense mechanisms may protect the same establishment (example, the WCA compound consists of net-filled pits, stun rifles disguised as trees, and a passive alarm system in the Security Package). Specialized defense packages may be designed.
               Porches, storage, bathrooms, and closets:
-                Cost:
-                  Rank: *Unranked
-                Note: Running water and other expected amenities are magical or natural, rather than technological. Porches are colonnaded peristyles and loggia around courtyards, as there are no outside entrances.
-                Reference: &PSBC |
+                Note: Running water, plumbing, fountains, and other expected amenities are magical or natural, rather than technological. Porches are colonnaded peristyles and loggia around courtyards, as there are no outside entrances.
+                Reference: |
                   These are assumed in the cost of the building, according to its design. These rooms cost nothing, and no package exists other than what the heroes decide to stuff into the closets.
               Trophy Room Package:
                 Cost:
-                  Total: *Amazing
-                  Base: *Remarkable
+                  Total: Amazing
+                  Base: Remarkable
                   Note: +2CS to Cost for very high-quality package.
                 Note: Multiple.
                 Reference: |
-                  *Cost: Excellent* - Occupies one room. Contains showcase, lighting, frames to display mementos, and may be used as a reception half or gallery. At *Remarkable Cost*, contains capability to handle potentially dangerous exhibits at the Incredible level.
+                  *Cost: Excellent* - Occupies one room. Contains showcase, lighting, frames to display mementos, and may be used as a reception half or gallery. At Remarkable Cost*, contains capability to handle potentially dangerous exhibits at the Incredible level.
               Imprisonment Package:
                 Cost:
-                  Total: *Monstrous
-                  Base: *Incredible
+                  Total: Monstrous
+                  Base: Incredible
                   Note: +2CS to Cost for very high-quality package.
                 Note: Multiple.
                 Reference: |
-                  *Cost: Excellent* - Occupies one room. Contains standard restraining devices, including bars of Remarkable material strength. At *Remarkable Cost*, restraining devices made of Incredible Strength. At *Incredible Cost*, restraining devices at Amazing Strength and Excellent Strength inhibitor restraints.
+                  *Cost: Excellent* - Occupies one room. Contains standard restraining devices, including bars of Remarkable material strength. At Remarkable Cost*, restraining devices made of Incredible Strength. At Incredible Cost*, restraining devices at Amazing Strength and Excellent Strength inhibitor restraints.
             Note:
               - Descriptions are references from the Ultimate Player's Book chapter on Headquarters, and exemplary, rather than canonical, functionally or qualitatively generally equivalent to the contents of the extraplanar domain by comparison to 1980's Manhattan, rather than literal descriptions.
               - There are no Fire Protection Packages, as everything native to the domain is invulnerable to fire. Books are otherwise protected.
@@ -2488,7 +2432,7 @@ Character Sheet:
             Description: |
               About six feet long and an inch and a half thick, this Staff of Polar Power is of solid, lightweight, smooth, black metal, and twisted along much of its length. It bears a prism of black crystal at one end, terminating in a tapered, blunted spike at the other. It bears an inscription, spiraling around its shaft: 𒋼𒀭𒅗𒆠𒊮𒀀𒍣𒆗𒂗𒂠𒁉𒇻𒋼𒍑𒅗𒇷𒅋𒍣𒆗𒂗𒂠𒅗𒆰𒈠𒀀𒆠𒍣𒆗𒂗𒂠𒁉𒀭𒅗𒋻𒅎𒁍𒀭𒂗𒈾𒈠𒂵𒉌 - "šu d.erkalla-ke₄ za-lam-e-ne bi-lu šu ul-ba-ke₄ za-lam-e-ne kalam-ma-ke₄ za-lam-e-ne-bi-in ka-ta in-du₁₁ d.en na-ma-gin₃" (Sumerian, roughly "This, the hand of Irkalla, shall touch all the living in their entirety, the living of the world, it shall seize them all. Thus it has been spoken. As the Lord decreed, so it shall be.") It was created and originally possessed by Umma Ušumgal, a Sumerian Master sorceress favored by Ereshkigal.
             Material Strength:
-              Rank: *Unearthly
+              Rank: Unearthly
             Type: Blunt Attack
             Reference: |
               This is actually a class of staves. They can come in any shape or material and range in size from 4 to 8 feet long. A Staff of Polar Power polarizes the holder with the power of the master who created it. Therefore different powers and different levels of mastery are engrained into each staff and no two are alike. All Staves of Power allow the character to become pure energy for the purpose of floating through dimensions. In such form a character can move through dimensions at a rate of 5 dimensions per round and ignore all physical attacks. Another quality of most Staves of Power is their ability to absorb attack spells cast at them (see Magic Effects Table, Agility & Targeting). An Agility FEAT roll of a bull’s-eye indicates the character has intercepted the spell with his staff).
@@ -2498,46 +2442,46 @@ Character Sheet:
               Spells:
                 Personal Energies:
                   Astral Projection:
-                    Rank: *Amazing
+                    Rank: Amazing
                     Reference: *Astral_Projection
                   Resistance Aura:
-                    Rank: *Amazing
+                    Rank: Amazing
                     Type: Solar
                     Reference: *Resistance_Aura
                   Trance:
-                    Rank: *Amazing
+                    Rank: Amazing
                     Reference: *Trance
                   Transformation:
-                    Rank: *Amazing
+                    Rank: Amazing
                     Type: Darkforce
                     Reference: *Transformation
                 Universal Energies:
                   Eldritch Beams/Bolts:
-                    Rank: *Amazing
+                    Rank: Amazing
                     Type:
                       - Darkforce Bolt
                       - Disintegrating Bolt
                     Note: Beams/bolts originate from the crystal on the end of the staff.
                     Reference: *Eldritch_Beams-Bolts
                   Eldritch Blast:
-                    Rank: *Amazing
+                    Rank: Amazing
                     Type: Darkforce
                     Reference: *Eldritch_Blast
                   Eldritch Flames:
-                    Rank: *Amazing
+                    Rank: Amazing
                     Reference: *Eldritch_Flames
                   Energy Control:
-                    Rank: *Amazing
+                    Rank: Amazing
                     Type: Darkforce
                     Reference: *Energy_Control
                   Fear:
-                    Rank: *Amazing
+                    Rank: Amazing
                     Reference: *Fear
                   Shield-Aura:
-                    Rank: *Amazing
+                    Rank: Amazing
                     Reference: *Shield-Aura
                   Vapors-Resist Death:
-                    Rank: *Amazing
+                    Rank: Amazing
                     Reference: *Vapors-Resist_Death
           Ruby Ring of Regency:
             Description: |
