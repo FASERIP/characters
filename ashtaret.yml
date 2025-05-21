@@ -179,7 +179,7 @@ Character Sheet:
               Reference: |
                 As in the above, the hero gets ill after the initial exposure to the Stimulus. However, the Health loss does not stop at zero. Death will eventually occur if Health and (subsequently) Endurance drop to zero during the Weakness Duration. The hero can be revived if proper medical attention is given, but only after his Health and Endurance have both reached zero.
             Duration: *Permanent
-            Conditions: Exposure to dangerous energies or toxic substances causes loss of Health and Endurance. May heal as normal after exposure ceases.
+            Conditions: Exposure to sufficient amounts of toxic substances or sufficiently intense dangerous energies causes loss of Health and Endurance.
             Note: This Weakness simply reflects how dangerous substances and energy like poison, fire, radiation, electricity, etc. affect Normal Humans.
           All Aspects:
             Deity Rule:
@@ -2537,7 +2537,7 @@ Character Sheet:
 
           Ruby Ring of Regency:
             Description: |
-              A relatively recent acquisition after Doctor Strange shattered the Ruby of omination into shards, Ashtaret found a small chip of it and had that set into a gold ring.
+              A relatively recent acquisition after Doctor Strange shattered the Ruby of Domination into shards, Ashtaret found a small chip of it and had that set into a gold ring.
             Reference:
               Ruby of Domination:
                 Reference: &Ruby_of_Domination This large red, floating ruby (3 feet in diameter) was once used by Xandu in an attempt to make Earth's population mind-slaves. When Doctor Strange shattered it, little rubies were left on Earth from its shards. A character attempting the powers of Emotion Control, Mental Control, Mesmerism, or Mesmermechanism has a +1CS for success when focusing the power through one of these smaller Rubies of Domination.
