@@ -159,11 +159,25 @@ Character Sheet:
                       The hero can detect and identify magic and its effects. The Power can detect both magic in actual use and in potential. As such, this is another way to detect mutants, although it cannot differentiate them from normal magic-users.
 
                       The hero can identify the past use of magic (a green FEAT), a yellow FEAT identifies the magic-user, and a red FEAT identifies the actual spell.
+                  True Sight: #DT20
+                    Rank: Incredible
+                    Reference: |
+                      The hero can see the correct image of a target, despite any attempts at concealment or disguise. This Power can penetrate any means of hiding something's true nature, whether physical, psionic, illusionary, or power-based.
+
+                      True Sight can penetrate any disguise at or below its rank. A green FEAT is required at +1CS; a yellow FEAT at +2CS; and a red FEAT at +3CS.
+
+                      Range is limited to one area unless the Power is coupled with a Power that extends his vision (Telescopic Vision, for example). The Power may be automatic or deliberate. If automatic, the hero gains +1CS but loses -2CS from his Psyche rank.
+                  Weakness Detection: #DT22
+                    Rank: Incredible
+                    Reference: |
+                      The hero can detect flaws and stress points in a target. This doesn't guarantee he can exploit this knowledge, though.
+
+                      The rank determines the types of weaknesses he can detect. Good or below: physical weakness only. Excellent to Amazing: mental and physical weaknesses. Monstrous and above: mental physical, and Power-based weaknesses.
                 Fighting:
                   Martial Supremacy: #F2
                     Rank: Amazing
                     Number: 50
-                    Reference: |
+                    Reference: &Martial_Supremacy |
                       In the MARVEL SUPER HEROES game system Fighting is considered an Ability, not a Power. However, this Power increases a hero's already-mastered Martial Arts (a Talent in the game system) to dramatically higher levels and allows him to perform actions that would otherwise be impossible, like splitting a battleship in two with a single karate chop.
 
                       Martial Arts as explained in the Advanced Set falls into five categories labeled A through E for simplicity's sake:
@@ -387,8 +401,8 @@ Character Sheet:
                       Nemesis Powers include Energy, Magic, Psionic, and Power Detections and Resistance to Magic.
                 Mental Enhancement:
                   Cosmic Awareness: #M7
-                    Rank: Unearthly
-                    Number: 100
+                    Rank: Incredible
+                    Number: 40
                     Reference: |
                       The hero is in tune with the entire scope of reality. He possesses a detached, omniscient viewpoint that allows him to explore the entire existence of a chosen subject. Unfortunately, this causes such a massive overload of superfluous information that the hero is hard pressed to sort it all out. The FEAT represents the hero's ability to recover a specific bit of information from all the effluvia. The more exact the required detail, the higher the difficulty. Discovering basic facts or locating any one on the Earth requires a green FEAT. Complex information or finding anyone within a star system requires a yellow FEAT. Secrets, weaknesses, arcane knowledge, and anything else the Judge wants to make difficult to find out requires a red FEAT.
 
@@ -453,7 +467,7 @@ Character Sheet:
                   Linguistics: #M17
                     Rank: Unearthly
                     Number: 100
-                    Reference: |
+                    Reference: &Linguistics |
                       This is a specialized form of Hyper-intelligence. The hero has the ability to rapidly learn any language if sufficient material is available for him to work with. Once the language is mastered, the hero is fluent in that language, provided he is physically capable of communicating in it.
 
                       The number of languages a hero is currently fluent in is limited to the Power rank number. For example, Doug Ramsey's Incredible rank enables him to retain fluency in up to forty languages at a time. When a hero exceeds that limit, he begins to forget a previously mastered language. This will usually be some obscure tongue the hero has had little use for, like Basic Otter or Mephitish.
@@ -470,7 +484,7 @@ Character Sheet:
                   Total Memory: #M33
                     Rank: Unearthly
                     Number: 100
-                    Reference: |
+                    Reference: &Total_Memory |
                       The hero has the ability to remember anything that he has ever experienced. This could be a book he's read, the faces of everyone he saw on Tuesday, what birth was like, and so on. The accuracy of his recall is his Power rank number treated as a percentage. Feeble is 2%, Excellent is 20%, and so on to automatic accuracy at Unearthly rank or above.
 
                       The color FEAT reflects the nature of the memory being sought. Green FEATs involve personal memories. Yellow FEATs involve learning experiences. Red FEATs involve unconsciously gained information, such as the faces of everyone the hero saw on Tuesday.
@@ -492,9 +506,9 @@ Character Sheet:
                     Number: 50
                     Total:
                       Rank: Class 1000
-                      Number: 1789
-                      Spread: 28
-                      Turns to Full Recovery: 36
+                      Number: 1849
+                      Spread: 30
+                      Turns to Full Recovery: 37
                     Reference: &Focus The hero can channel all his raw energy into a single burst of a chosen Ability or Power. All his Power and Ability rank numbers are totaled together. This rank number replaces the rank number for a chosen Power. Upon the completion of releasing the Power, all the hero's Abilities and Powers temporarily drop to Feeble. This Power's rank number is the total amount of lost points the hero can regain each turn. Points are divided evenly between all the depleted Abilities and Powers. (Okay, this isn't really a Power either. Roll again for an additional Power.)
               Advanced Player's Book:
                 Body Alterations-Defensive:
@@ -860,7 +874,7 @@ Character Sheet:
               Occult Lore: &Occult_Lore The character with this Talent has a knowledge of magical societies, antiquities, runes, and a general understanding of forgotten lore. The character gains a +1CS to Reason FEATs involving items of a magical nature.
               Mystic Background: &Mystic_Background In the Marvel Universe, all humankind has the potential for developing magical Powers. This "Talent" shows that the character has some background with magical forces. Heroes may have derived their powers from these forces if they choose this Talent. A character with this Talent may have Magical Powers, with the approval of the Judge. If the Judge allows magical player characters, then any of the initial Powers created may be spells, and should be noted as deriving from Personal, Universal, or Dimensional energies.
             Other Talents:
-              Artist: The character with an artist background creates works of art, either for himself or for sale to others. This includes painting, sculpting, and writing. A single work takes 1-10 weeks, and upon completion grants the artist Karma points equal to 10 times the number of weeks. The character must allocate some time daily at his work.
+              Artist: &Artist The character with an artist background creates works of art, either for himself or for sale to others. This includes painting, sculpting, and writing. A single work takes 1-10 weeks, and upon completion grants the artist Karma points equal to 10 times the number of weeks. The character must allocate some time daily at his work.
               Languages: &Languages The character with this Talent has a natural understanding of languages. The character gains 1 additional language at start, and may add other languages at half the cost of a Talent (500 points regardless of who teaches it). Characters without the Languages Talent must gain this Talent first to learn other languages. The gaining of additional languages assumes someone is available to teach these languages. A Player character with this Talent does not have to assign a language at start, but may fill one in later as need be.
               First Aid: &First_Aid The medicine Talent notes that the loss of Endurance ranks may be halted by someone checking on the dying character and administering some form of aid. The First Aid Talent grants the character this immediate halt to Endurance rank loss, the recovery of one rank immediately (one use only per situation), and in addition, the hero with this Talent can stabilize a dying character at Shift 0 Health up to 5 rounds after that character reaches that level.
               Repair/Tinkering: &Repair-Tinkering The character with this Talent gains a +1CS to any Reason FEATs involving the repair and modification of existing items, but not the building of new items. This +1CS may be added to any other bonuses gained from other Talents, so that an Engineer with Tinkering Talent would gain a +2CS on repair.
@@ -1056,265 +1070,80 @@ Character Sheet:
                     The servant’s abilities are generated as for any other character. The Judge then gives it two spells, and gives it an origin appropriate to the character it serves. Various types of magical servants exist, including jinn, demons, familiars, ghosts, and the like. The servant is obedient, helpful, and useful. The caster can automatically talk to or otherwise communicate with the servant.
 
                     This spell cannot use human beings as servants.
-                  Servants:
-                    Description: Summoned by by Julian's use of the Servant spell. Their nature, celestial, infernal, elemental, or spirit, as well as Abilities, Powers, Talents, and Spells depend on the purpose of their summoning, as the individual selected is tailored to their intended role.
+                  Eve:
+                    Description: Summoned by by Julian's use of the Servant spell, Eve is a homunculus created from an Angelic spirit and a Demonic spirit incarnated in an alchemical protoplasm body.
                     Origin:
                       Physical Form:
-                        - Angels and Demons: |
-                            These are magical beings from other planes of existence. They are both supernatural and corporeal in nature. The main difference between these types is their inherent personality. "Angels" are benevolent; "demons" are malevolent. Other than that, there isn't much difference.
+                        Compound Form:
+                          Reference: |
+                            The hero's body contains aspects of two or more of the preceding Body Types. As such, it possesses a mixture of the advantages and disadvantages of each type.
 
-                            These beings resemble characters from various mythologies. This affects their Popularity. Angels gain +2CS while demons lose -2CS on their initial Popularity. These beings do not necessarily follow the popular traditional behavior patterns. A heroic demon might be fighting a personal war against other, even more evil beings. A crazed angel might be a villain, seeking to purify the Earth at any cost.
+                            The Combination of advantage and disadvantage is unique to each Compound.
 
-                            - Angels and Demons roll on Column 5.
-                            - Angels and demons have no initial Contacts but will soon be sought out by groups who see them as symbols or tools.
-                            - All Physical Abilities are raised +1CS.
-                            - Such beings possess a Psychological Weakness that Negates their Power.
-                            - Angels gain +2CS Popularity. Demons lose -2CS Popularity.
-                            - Demons automatically possess Good Fire Generation and Specific Invulnerability to Heat and Fire.
-                            - Angels automatically possess a specific form of Weapons Creation that produces a magical sword that does Excellent damage.
-                        - Mineral Life: |
-                            The body is composed of solid materials that normally do not sustain life. In fact, the body might not even have anything remotely resembling internal organs. In such cases, an internal examination would only reveal homogenous matter.
+                            When creating a Compound character, the player first generates the number of Body Types combined in his character, then the actual types, using the Body Type Table above. The next step is determining the advantages and disadvantages are retained by the compound.
 
-                            The body can be of any single element or compound or a mixture of anything the player can think of. Examples of Mineral Life include golems and Warlock (of the New Mutants).
+                            The artificial Body Types lend themselves especially well to creating Compounds. All such Compounds are automatically Cyborgs.
 
-                            Because Mineral Life is simpler, it is easier to feed and maintain. If food is needed, the Mineral Life can digest raw matter of its composition. Wounds can be bandaged by applications of the same matter as well. ("But Doctor, I'm not a bricklayer!")
+                            - Compounds only roll on a single column, determined by the A/D percentage.
+                            - Most Compounds are unique individuals. Due to their peculiar nature, they do nor easily reproduce.
+                            - Genetic offspring, including clones, possess only a single aspect.
+                          Forms:
+                            Android: |
+                              These are artificially created organic beings. An android is made of laboratory-created protoplasm and grows to maturity in an artificial womb. More intricately made Androids can actually interbreed with Normal Humans. One example is the Vision. Androids generally resemble the race that created them; alien androids can be any shape.
 
-                            Mineral Life is immune to all Poisons and Diseases that harm Normal Humans. Conversely, exotic poisons and diseases that do harm to Mineral Life do only Feeble damage to Normal Humans. Mineral Life is vulnerable to attacks with special effects on the body materials. For example, an iron golem is prone to rust.
+                              - Androids roll on column 4 of the Random Ranks Table.
+                              - Popularity is initially lowered -1CS. Androids may raise any one Ability +1CS. Androids gain one Power.
+                              - Androids have at least one Contact, the lab tech or scientist who created them.
+                            Angels and Demons: |
+                              These are magical beings from other planes of existence. They are both supernatural and corporeal in nature. The main difference between these types is their inherent personality. "Angels" are benevolent; "demons" are malevolent. Other than that, there isn't much difference.
 
-                            - Mineral Life rolls on column 2.
-                            - Initial Health is doubled.
-                            - Movement rate is decreased -1CS.
-                        - Liquid Life: |
-                            You know that the Normal Human body is 68% liquid? Well, this type is 100% liquid. However, it is composed of special liquids that remain together. The fluid body can be of any viscosity from gelatinous to watery. It can move at will by flowing through other liquids or along surfaces. It can even climb vertical surfaces.
+                              These beings resemble characters from various mythologies. This affects their Popularity. Angels gain +2CS while demons lose -2CS on their initial Popularity. These beings do not necessarily follow the popular traditional behavior patterns. A heroic demon might be fighting a personal war against other, even more evil beings. A crazed angel might be a villain, seeking to purify the Earth at any cost.
 
-                            If the liquid life possesses Endurance and Psyche ranks of Excellent or better, the Fluid Body can form an erect simulation of a human body. This can "walk" by sliding along the ground.
-
-                            Contrary to what you might think, a Fluid Body is actually dry to the touch. This is because none of the body's liquids leave the body unless deliberately secreted.
-
-                            The Fluid Body can be housed in a naturally secreted sac or in an artificial container. This is determined by the player rolling such Powers as Armor, Body Armor, or Body Coating.
-
-                            If the Fluid Body is frozen, the hero is immobilized until he can melt. He takes no damage from such an attack, although sacs or body containers might be shattered by the cold. Vaporization is a fatal act for most Fluid Bodies.
-
-                            - Fluid Bodies roll on column 5.
-                            - Fluid Bodies have a natural variation of Phasing that permits them to permeate any porous material.
-                            - Fluid Bodies have no initial Contacts except their own race, if one exists.
-                            - Because of the Fluid Bodies' control over their own fluids, it requires an Incredible Agility FEAT to drain off any part of the Fluid Body. Drained parts remain under the main body's control as long as they are within one area. Once beyond that limit, the drained liquid "dies" and becomes inert.
-                            - Swallowing a Fluid Body can be a fatal act if the body so chooses. It can also result in a symbiosis if the Fluid Body takes a liking to the solid host.
-                        - Gaseous Life: |
-                            The body is completely composed of gases, vapors, smoke, and mist without any solid (or even liquid) components above the microscopic level. The Gas Body is a coherent cloud that retains its integrity even in the face of Amazing Intensity winds. Unlike normal clouds, the Gas Body can more at will in any direction and even penetrate liquids and permeable solids. However, it cannot freely move in a vacuum unless it possesses a Travel or Energy Power.
-
-                            The Gas Body may be composed of a single element or compound or any sort of exotic mixture.
-
-                            If the gaseous hero possesses a Shapechanging Power, Alter Ego, or Body Transformation-Self, the being can temporarily assume a human-like form.
-
-                            Gas Bodies are immobilized if converted to liquid or solid forms but take no damage from this act. While gaseous, the being can freely expand or contract. Minimum size is one cubic foot. The maximum size can fill a volume equivalent to the average shopping mall.
-
-                            - Gas Bodies roll on column 5.
-                            - On Earth, Gas Bodies have zero Resources and no initial Contacts.
-                            - The only way to destroy a Gas Body is to alter its composition through Powers like Matter Conversion and Matter Control.
-                            - Inhaling a Gas Body can be a fatal act since the being's gases can prevent required gases from reaching the lungs.
-                            - Gas Bodies can enter a symbiotic relationship with a solid being.
-                            - Gas Bodies possess a natural form of Phasing that permits them to penetrate solids.
-                        - Energy Body: |
-                            The hero is a field of coherent energy. The basis for this can be any Energy form found in the Energy Emission and Control sections of this book. The Energy Body can move at will in any direction, even though spaces that lack a medium to transmit it. The Energy Body possesses an Intensity rank of its own; this is how the Health points apply to this being.
-
-                            Energy Bodies follow the same characteristics as normal energy of the same type. They possess a special vulnerability to Plasma Control (-1CS Resistance). Energy Bodies can be contained within special storage batteries; this is the only way to immobilize these beings.
-
-                            Energy Bodies composed of visible energy types can create a ghost-like image of a human. If the Energy Body possesses Alter Ego, Energy Solidification, or Lifeform Creation, it can form a solid facsimile of a human.
-
-                            The only way to destroy an Energy Body is to completely Negate or solidify its energy.
-
-                            Energy Beings roll on column 5.
-                            Energy Beings have a Bonus Power of Energy Emission. Energy Control is an Optional Power.
-                            Physical contact with an Energy Being does Feeble damage.
-                        - Ethereal: |
-                            The hero is an intangible, disembodied spirit. He can be a ghost who once possesses a mortal shell, or belong to a race that always exists in this form. An Ethereal can drift about in any direction he chooses, and can pass through solid matter without any effort. The visibility of an Ethereal varies according to his whim; he can be invisible, transparent, translucent, or opaque.
-
-                            If the Ethereal is a ghost, his form resembles an idealized version of his old body. The ghost's appearance is actually based on his self-image and thus reflects the ghost's attitude toward himself. This is why ghosts are usually either very beautiful (or handsome) or quite pathetic.
-
-                            Ethereals are immune to most physical attacks with Intensities less than Unearthly. They are vulnerable to Mental and Magical attacks, especially by Powers that affect the spirit. Either Psi or Spirit Vampirism can destroy an Ethereal.
-
-                            While Ethereals are intangible on the Earth Dimension, they regain solidity in other Dimensions. In such realms Ethereals are vulnerable to all Powers except those that specifically affect Ethereals and other disembodied beings; these Powers are Spirit Summoning and Storage, Reincarnation, and Exorcism.
-
-                            If the Ethereal once had a solid body, he might not necessarily have died to reach his current state. He might have become an Ethereal by being directly transformed from solidity to ethereality. Such transformations can be magical, scientific, Power-based, accidental, or deliberate. The Red Ghost is an example of a Normal Human directly transformed into an Ethereal as a result of a scientific mishap.
-
-                            If the Ethereal possesses Alter Ego or Lifeform Creation, he can create a living body for himself. If he possesses Mental Domination, he can possess a human host.
-
-                            - Ethereals roll on column 1. (They're about as altered as a human can be).
-                            - Fighting rank is zero in the Earth Dimension, unless the Ethereal is fighting another Ethereal.
-                            - Physical attacks have a decreased effect on Ethereals (-9CS).
-                            - Spirit Vampirism completely destroys Ethereals. Psi-Vampirism destroys the self-image and reduces the Ethereal to a mindless Poltergeist.
-                            - At least one Contact can be a Spiritual Medium.
+                              - Angels and Demons roll on Column 5.
+                              - Angels and Demons have no initial Contacts but will soon be sought out by groups who see them as symbols or tools.
+                              - All Physical Abilities are raised +1CS.
+                              - Such beings possess a Psychological Weakness that Negates their Power.
+                              - Angels gain +2CS Popularity. Demons lose -2CS Popularity.
+                              - Demons automatically possess Good Fire Generation and Specific Invulnerability to Heat and Fire.
+                              - Angels automatically possess a specific form of Weapons Creation that produces a magical sword that does Excellent damage.
                       Origin of Power:
-                        - Angels and Demons:
-                            Creation: The hero was born in the form he now has, that of an adult who possesses Power and/or whatever the Body Type is. Most of the Artificial Body Types belong in this class. Examples include the android Human Torch, all robots, angels, demons, and deities.
-                        - Others: Varies
+                        Creation: The hero was born in the form he now has, that of an adult who possesses Power and/or whatever the Body Type is. Most of the Artificial Body Types belong in this class. Examples include the android Human Torch, all robots, angels, demons, and deities.
                       Weakness:
-                        - Angels and Demons:
-                            Stimulus:
-                              Psychological Weakness: |
-                                A specific event, condition, or mental state has an adverse effect on the hero. This Stimulus directly affects the hero's mind; any resulting physical damage is psychosomatic in nature. That is, any physical damage results are due to the hero's instinctive belief in those results.
+                        Stimulus:
+                          Psychological Weakness: |
+                            A specific event, condition, or mental state has an adverse effect on the hero. This Stimulus directly affects the hero's mind; any resulting physical damage is psychosomatic in nature. That is, any physical damage results are due to the hero's instinctive belief in those results.
 
-                                Examples include being physically bound, even if the hero could normally snap the binding material; facing a foe covered in a specific color; or feeling extremely confused.
+                            Examples include being physically bound, even if the hero could normally snap the binding material; facing a foe covered in a specific color; or feeling extremely confused.
 
-                                Psychological Weaknesses can be temporarily overcome by an Unearthly Intensity Psyche FEAT. They can be permanently overcome by a Shift-Z Intensity Psyche FEAT.
-                            Effect:
-                              Power Negation: The hero's Powers cease to function when the hero is within 20 feet of the stimulus. The hero's Primary Abilities are also affected; these drop -1CS per 10 turns until a minimum rank of Typical is reached for all of them. If the. hero is beyond the 20 foot limit but tries to use his Powers to affect the Stimulus, certain uses of Power automatically fail. Any Power that directly acts on a target cannot affect a Stimulus. Only Powers that indirectly affect the Stimulus succeed, such as using brute force to lob missiles at the Stimulus.
-                            Duration:
-                              Continuous with Contact: As long as the hero remains within the effective range of the Stimulus, the Effect continues. When the hero is insulated or moved away from the Stimulus, the Effect immediately ceases. Lost Health points are returned at a rate of 2 per turn. If death has occurred, the hero now has the possibility of being revived.
-                        - Others: Varies
+                            Psychological Weaknesses can be temporarily overcome by an Unearthly Intensity Psyche FEAT. They can be permanently overcome by a Shift-Z Intensity Psyche FEAT.
+                        Effect:
+                          Power Negation: The hero's Powers cease to function when the hero is within 20 feet of the stimulus. The hero's Primary Abilities are also affected; these drop -1CS per 10 turns until a minimum rank of Typical is reached for all of them. If the. hero is beyond the 20 foot limit but tries to use his Powers to affect the Stimulus, certain uses of Power automatically fail. Any Power that directly acts on a target cannot affect a Stimulus. Only Powers that indirectly affect the Stimulus succeed, such as using brute force to lob missiles at the Stimulus.
+                        Duration:
+                          Continuous with Contact: As long as the hero remains within the effective range of the Stimulus, the Effect continues. When the hero is insulated or moved away from the Stimulus, the Effect immediately ceases. Lost Health points are returned at a rate of 2 per turn. If death has occurred, the hero now has the possibility of being revived.
                     Abilities:
                       Primary Abilities:
-                        Angels and Demons: Roll on Column 5 (Feeble-Monstrous), +1CS to Physical Abilities (Poor-Unearthly)
-                        Mineral Life: Roll on Column 2 (Feeble-Excellent)
-                        Ethereal: Roll on Column 1 (Feeble-Amazing)
-                        Others: Roll on Column 5 (Feeble-Monstrous)
-                        All: Max Psyche equal to Julian's, usual maximum -1CS less than.  Julian does not summon Servants with greater Psyche than his own except under the most dire of circumstances, and equal only to meet a speciic need.
+                        Fighting: Amazing
+                        Agility: Amazing
+                        Strength: Incredible
+                        Endurance: Unearthly
+                        Reason: Incredible
+                        Intuition: Incredible
+                        Psyche: Incredible
                       Secondary Abilities:
-                        Health: 8-400
-                        Karma: 6-200
-                        Resources:
-                          - Gaseous Life: Shift 0
-                          - Others: Poor
-                        Popularity:
-                          - Angel: Remarkable
-                          - Demon: Poor
-                          - Others: Good
-                      Powers:
-                        Inherent:
-                          Angel:
-                            Ultimate Powers Book:
-                              Fighting:
-                                Weapons Creation: #F4
-                                  Rank: Excellent
-                                  Specialization:
-                                    Specialized: true
-                                    Specialization: 
-                                      Magic Sword:
-                                        Damage: 20
-                                        Type: Edged Attack
-                                        Material Strength: Unearthly
-                                        Health Required: 3
-                                  Reference: |
-                                      The hero can create any desired weapon out of thin air. The weapon can be of any design, size, and material. The size of the weapon is limited by its weight. The hero can only create in a single turn a maximum number of ounces equal to his Power rank number. Heavier weapons have to be assembled in pieces over a span of several turns. While the material strength of the created weapon is the same as that of a normally-manufactured weapon of the same type, its duration is much shorter. The lifespan of the weapon is determined at the time of creation. A Typical Intensity FEAT gives the weapon a lifespan of 100 turns times the hero's Reason rank number. On an Amazing Intensity FEAT, the weapon lasts for the hero's Reason rank number times 10,000 turns. Should he make an Unearthly Intensity FEAT, the weapon will be permanent.
-
-                                      Each ounce of created matter temporarily costs the hero 1 Health point. All points lost in this manner are regained after 24 hours. Thus, the hero can only create a weapon weighing the number of ounces equal to his Health score in a single day.
-
-                                      The hero must have-detailed knowledge of any weapon he wants to create. He can only store a limited number of weapons' designs in his memory. The total number of memory slots available to this Power equals the hero's Reason rank number. The player must keep a record of the weapons he can create. This list can be changed at any time. A green Reason FEAT gains the hero a new design. If no open memory slots are available, an old design is tossed away to make room for the new one.
-
-                                      Normally, the Power is used to make facsimiles of existing weapons. The hero must make a detailed study of the weapon for at least 10 minutes before attempting a FEAT. Failure to make the FEAT means the hero must spend another 10 minutes studying the weapon before attempting another FEAT. Some weapons might be beyond the hero's comprehension, if the player has really bad luck when rolling the dice.
-
-                                      The hero can create new weapons based solely on his imagination and basic knowledge of weapons design. This requires intense concentration and a red Power rank FEAT.
-
-                                      The newly created weapon has the same characteristics as a normally created one of its type. In the case of altered or imaginary weapons, the player and Judge should agree on a reasonable and playable set of characteristics for the weapon in question.
-
-                                      The Power includes versions of Elemental and Molecular Creation. Each element or compound takes up its own memory slot, just like the throwing daggers and broadswords that clutter the hero's mind. Such raw matter can be formed into any weapon's shape. This permits the hero to change the composition of any already-memorized designs. For example, if he has already memorized the design of an arrow and the nature of silver he can create both wood and steel arrows and silver arrows.
-
-                                      Weapons created materialize in the hero's hands.
-
-                                      There is an exception to the rules thus far. When creating the hero, the player can choose to specialize in creating a single copy of a special weapon. In this case, the weight limit is raised from one ounce per Health point to one pound per Health point. Such special weapons are never permanent: Unearthly Intensity FEATs are treated the same as Amazing Intensity ones. One example of this option is Magik's Soulsword.
-
-                                      The Optional Power for this is a form of Martial Arts Supremacy that uses a special weapon, as in the option explained above.
-
-                                      The Nemesis Power is True Invulnerability.
-                          Demon:
-                            Ultimate Powers Book:
-                              Energy Emission:
-                                Fire Generation:
-                                  Rank: Good
-                                  Number: 10
-                                  Reference: *Fire_Generation
-                            Advanced Player's Book:
-                              Resistances:
-                                Invulnerability to Fire and Heat:
-                                  Reference:
-                                    Resistance to Fire and Heat: &Fire_and_Heat All damage from fire and heat-based attacks is reduced by the Power rank number. Further. any fire of less than this Power rank has no effect on the hero. (Example -- the hero with a Resistance to Fire/Heat of Amazing (50) rank could walk through super-heated steam of Incredible (40) Intensity without ill effect.)
-                                    Invulnerability: &Invulnerability |
-                                      The hero with this Power is totally unaffected by one or more of the attack forms listed above. The initial choosing of Invulnerability counts as two choices, but every additional choice in Resistances may be changed to an Invulnerability. (Example -- A hero being generated picks up Invulnerability to Fire, counting it as two slots. She then gets another resistance, and chooses Resistance to Cold. She may then choose to be Invulnerable to Cold instead at no additional cost.)
-
-                                      Invulnerability means that the hero in question has a Class 1000 resistance to that attack form.
-                          Gaseous Life:
-                            Ultimate Powers Book:
-                              Self-Alteration:
-                                Alter Ego: #S2
-                                  Reference: &Alter_Ego |
-                                    The hero has two different forms. One is a normal, powerless being: the other is the powerful, heroic self. When creating the hero, the player has to create two different beings. The statistics for the primary self should be fairly routine (all physical abilities ranging from Feeble to Good). All bets are off for the heroic self. Something many people never consider is that the heroic self might be a relatively normal human, while the normal self is something a little lower on the evolutionary ladder. For example, you might try a character whose normal self is a mutant dog (why should humans have all the deviant fun?).
-
-                                    The two selves never co-exist except under extraordinary circumstances. Possible causes of simultaneous existence include time warps, cloning, and Lifeform Creation. The two selves may even be separated for an extended time, such as what happened to Bruce Banner and the Hulk.
-
-                                    The primary drawback to this Power is the uncontrolled reversion to the normal self, especially when it occurs during dire circumstances. For example, Mightiman is rescuing a sub from the ocean floor when he reverts to his other self, little Eddy Edwards. ("Can you say 'fish food?' Sure you can.")
-
-                                    Variations include automatic or voluntary transformation, duration, and shared minds versus semi-independent mentalities.
-                          Energy Body:
-                            Ultimate Powers Book:
-                              Energy Control:
-                                One of the following at Psyche Rank:
-                                  - Coldshaping: #EC3
-                                      Reference: |
-                                        The hero can control any force that actively decreases the temperature of something else. This can be used to increase or decrease the Cold's Intensity by this Power's rank number. This function overlaps both Heat and Cold Generation but differs in that this Power cannot alter the natural temperature of a target or alter local temperatures to suit the hero's whims. There are two primary functions to this Power. The first is to counteract or supplement cold-based Powers. The hero can alter such Powers as soon as they are emitted from the target's body. Such powers can be increased or decreased by this Power's rank number. The hero can also redirect such Powers. This leads to the second primary function.
-
-                                        The hero can shape fields of intense cold and produce useful results. Ice Generation is a form of this Power. The hero can create shapes of rapidly-formed ice that he can use in a variety of Power stunts. The hero can also develop variations on Ice Generation that use other materials present in his local atmosphere. Such substances include carbon dioxide (even more slippery than ice, and the fog can knock people out), nitrogen, oxygen (potentially dangerous since a concentration of it can make normal flames explode with +2CS damage), and the inert gases (an Amazing Intensity FEAT, since there are so few of these present in Earth's atmosphere-but on other planets, not so tough). Cold Generation is a Bonus Power.
-
-                                        Optional Powers include Thermal Control, Condensation, Molding, and Body Coating.
-                                  - Electrical Control: #EC5
-                                      Reference: |
-                                        The hero can control all forms of electricity, whether natural, artificial, or Power-based. He can control the Intensity and direction of electron streams and alter the conductivity of materials. He can shape electron streams into any desired form. This permits him to develop Power stunts based on lightning–constructs designed to perform certain tasks (shields, cages, barriers, etc.)
-
-                                        The hero can increase or decrease the electricity's Intensity and reduce damage by his Power rank number. If the electricity is Power-related, then the target's Power rank determines the Intensity of the FEAT the hero must make to gain control.
-
-                                        The hero has Power rank Resistance to Electrical Generation.
-
-                                        Optional Powers include Electrical Generation, Energy Doppelganger, Energy Sheath, Energy Body, Carrier Wave, and Energy Path.
-
-                                        Because electricity forms the basis for most of our technology, the hero can use his Power to remotely control any electrical device on a Good Intensity FEAT. More complex devices like computers require a more complex form of control and a Remarkable Intensity FEAT.
-                                  - Fire Control:
-                                      Reference: *Fire_Control
-                                  - Light Control: #EC14
-                                      Reference: |
-                                        The hero can manipulate existing light. This can be visible, infrared, or ultraviolet light. The hero can alter the intensity, frequency (color, in other words), and coherence of light on a Good Intensity FEAT. The hero can actually change the direction of light and form crude holograms on a Remarkable Intensity FEAT. Such holograms are little more than clouds or single-color walls. The Power allows +1CS Resistance to Light-based Powers, since the hero can redirect or dispel them.
-
-                                        Optional Powers include Light Generation, Energy Sheath, Carrier Wave, and Illusion Casting. The Nemesis is itself.
-                                  - Shadowshaping: #EC18
-                                      Reference: |
-                                        This is not Darkforce Manipulation: that's handled elsewhere. This Power enables the hero to affect normal shadows and, indirectly, light as well. The hero can shift the location and size of normal shadows. He can form them into two-dimensional images that can do Power rank damage to real targets. The hero can also Remote Sense through these shadow-constructs. The hero can increase or decrease the Intensity of any shadow, whether natural or Power-based, by his Power rank number. This overlaps with Light Generation and Shadowcasting but differs in that either effect is possible and only existing shadows or shadow-related Powers are affected.
-
-                                        The hero has the ability to see through any shadow as if it were a normally-lit area, provided its Intensity is less than or equal to his Power rank. This does not apply to Darkforce, however.
-
-                                        This Power includes Power rank Resistance to shadow-based Powers.
-
-                                        This has the Bonus Power of Shadowcasting.
-
-                                        Optional Powers include Light Control, Energy Sheath, and Energy Body. In the last two cases, the hero resembles a living shadow.
-                              Energy Emission: 
-                                One of the following at Psyche Rank:
-                                  - Cold Generation: #EE1
-                                      Reference: |
-                                        This Power is the pure form of Ice Generation and one it is often confused with. The hero can emit a field that decreases thermal energy and infrared radiation.
-
-                                        The Power decreases the temperature of the target: the amount is determined both by a FEAT and the Power rank number. A Typical FEAT drops the temperature by 10x the rank number: a Remarkable FEAT drops it by 20x the rank number: and an Unearthly FEAT drops it by 40x the rank number. For example, a hero with Remarkable Cold Generation can lower a target's temperature by 300 (10x30) to 1200 (40x3O) degrees. The only limitation is that the temperature cannot drop lower than absolute zero (-273 degrees Celsius or -459.4 degrees Fahrenheit).
-
-                                        The power has the side-effect of cooling the air between the hero and the target. Gases within that area may condense. Such by-products evaporate quickly after the Power ceases to operate.
-
-                                        Cold Generation can be used to negate other sources of cold, whether Power-based, artificial, or environmental: its Power rank decreases the intensity of the affected cold. However, it cannot be used to raise the temperature of a frigid environment. The hero with this Power has Power rank level resistance to Cold in any form.
-
-                                        Optional Powers include Coldshaping, Condensation, Solidification, and Molding. Nemeses include Heat Emission, Fire Generation, and Thermal Control.
-                                  - Electrical Generation: #EE2
-                                      Reference: |
-                                        The hero can create electrical streams that can do Power rank damage. The hero can project the electricity through any conductive medium, such as air, water, or metal, at Power rank range. If the player chooses, the hero can gain +2CS to his damage by choosing to limit his range to contact only. In this case, the range can be extended by conducting the Power through solid conductors like metal. Electricity comes in various forms:
-
-                                        Static electricity causes magnetic attraction between objects and can disrupt electronic communications.
-
-                                        Lightning is sheer, raw, destructive power and by far the most popular form of this Power.
-
-                                        Alternating current is what our technology is driven by. This Power can either energize or overload normal electrical devices.
-
-                                        Direct current is what a battery produces. It can energize or overload devices that use DC power. It can also short out devices that use AC power.
-
-                                        The hero can use any form at will or can raise his rank +1CS by specializing in a particular form. This Power automatically includes Power rank Resistance to Electricity: no FEAT is required to resist your own Power. This Power is linked to Electrical Control and Energy Sheath. When creating the hero, the player can exchange any randomly determined Powers for these if he so desires. Extreme heat reduces this Power's rank by the Intensity rank of the heat. Conversely, extreme cold increases the rank by the cold's Intensity rank. At Shift X level, the hero gains the ability to create a stream of conductive gas, thus allowing the Power to function even in a vacuum.
-                                  - Fire Generation: *Fire_Generation
-                                  - Light Emission: *Light_Emission
-                                  - Shadowcasting: #EE12
-                                      Reference: |
+                        Health: 240
+                        Karma: 120
+                        Resources: Poor
+                        Popularity: Good
+                      Special Abilities:
+                        Powers:
+                          Ultimate Powers Book:
+                            Energy Control:
+                              Darkforce Manipulation: #EC4
+                                Rank: Incredible
+                                Power Stunts: 
+                                  - Blunt attack damage at Power rank.
+                                  - Shadowcasting of Power rank Intensity darkness over a maximum of three areas:
+                                      Shadowcasting: &Shadowcasting |
                                         The hero can emit a field that decreases light and radiation. The obscured energy's Intensity is lowered by the Power's rank taken as Intensity. The energy forms that can be affected by this Power are Light, Heat, Hard Radiation, Radiowaves, Energy Doppelgangers, and Energy Bodies.
 
                                         The hero possesses the ability to affect only Light when his Power is at Good rank. At each rank above Good, he gains the ability to affect another energy form in the following order: EX-Heat, RM-Hard Radiation, IN-Radiowaves, AM-Energy Doppelgangers, MN-Energy Bodies.
@@ -1326,85 +1155,291 @@ Character Sheet:
                                         Optional Powers include Shadowshaping and Darkforce Manipulation.
 
                                         The Nemesis is Light Emission.
-                              Self Alteration:
-                                Alter Ego: *Alter_Ego
-                          Ethereal:
-                            Ultimate Powers Book:
-                              Lifeform Control:
-                                Mind Control: #L10
-                                  Form:
-                                    Possession: the target mind loses both control and consciousness.
+                                  - Flight at -1CS speed:
+                                      True Flight: | #T21
+                                        The hero can fly through air and space without an apparent means of propulsion. This is the most desired Power in the history of the world. The Power rank determines the maximum speed the hero can attain in a specific condition. There are three mediums in which a hero can fly. The slowest form of Flight occurs when the hero torpedoes through the water at the Water Movement rate. Faster speed occurs when the hero flies through the air at the Air Movement rate. The fastest flight occurs when the hero is free of any hindering atmospheric friction: this is the Space Movement rate. Acceleration occurs at a rate of +1CS per turn. Deceleration occurs at -2CS per turn.
+
+                                        The hero's maneuverability is determined by his Agility. The hero may be able to surpass light speed but if he has Feeble Agility he is going to need a wide turning radius.
+
+                                        True Flight includes as a side effect Power rank resistance to atmospheric friction and lungs adapted to breathe high velocity wind. It does not include the ability to breathe water or survive the rigors of outer space.
+
+                                        When creating the hero, the player can define the Power in any way that is consistent with the character or his equipment.
+
+                                        Optional Powers include Body Resistance, Armor Skin, Self-Sustenance, and Telekinesis.
+
+                                        The Nemesis is Gravity Manipulation.
+                                  - Gateway: | #T6
+                                        The hero can travel to any point in space, time, or other dimensions by traveling along bridges she creates herself. She can travel along a bridge from her current location to a location in space (a green FEAT), time (a yellow FEAT), and other dimensions (a red FEAT). The destination of each Gateway is a fixed point in space but the departure end always moves with the hero.
+
+                                        A bridge to another location in space is created by a FEAT. A green FEAT creates a spatial bridge. The maximum distance the target can be from the hero at the time the bridge is created is shown on column E of the Range Table. A Gateway through time is created by a yellow FEAT. The maximum distance into the past or future the Power can initially reach is the number of centuries equal to the Power rank number. Gateways into other dimensions or alternate timelines require a red FEAT. The transdimensional bridges are initially limited to reaching only one dimension. Additional dimensions require development as Power Stunts. Once created, the bridge functions no matter how far the hero is in space, time, or the Multiverse.
+
+                                        The hero has a finite number of locations she can bridge to. Once the hero has established the bridge, she always returns to it when creating that type of Gateway. The maximum number of dif ferent Gateways the hero can create is equal to the Power rank number. Shortly after gaining this Power, the hero should create at least half of her possible Gateways. More can be added at any time. If the hero exceeds her limit, a previously established bridge is replaced by the hero is trying to add.
+
+                                        Example: Gatekeeper has Good rank. She can establish up to ten bridges. She establishes Gateways to her home, her team's headquarters at the Avengers Minnesota mansion, her ex-boyfriend's timesharing condo in Jamaica, the bottom of the Atlantic, geosynchronous orbit 22,400 miles above Minnesota, the crater of an active volcano in Iceland, the prisoner processing area of Ryker's Island Federal Prison, Tahiti in the year 1287, the surface of Lake Michigan (twenty miles east of Milwaukee), and Death Valley. The need arises for a bridge to an alternate Earth. Gatekeeper concentrates on establishing the link: making the red FEAT takes her most of the day. Later she realizes that she can't hop over to Jamaica any more. Oh well, she'd hadn't been there with Wilford since he'd gotten married.
+
+                                        Gateways automatically transport willing passengers. The Power can be used to catch and transport unwilling passengers (like foes or rampaging water buffaloes) by means of an Agility FEAT. The would-be transportee is allowed to resist in any way he can.
+
+                                        Gateways deal with size and not mass. The hero can transport a black hole as long as it's small enough. The maximum size of a Gateway is the number of square feet equal to the Power rank number. For example, a Feeble rank creates a two square foot Gateway that most people could just barely squeeze through. The Gateway forms within ten feet of the hero. It can maintain its existence for as long as the hero concentrates on it or until he passes through it.
+                                  - Energy Solidification: | #EC7
+                                      The hero can transform energy into a matrix that simulates solid matter. This matrix may be any shape the hero desires, although greater complexity requires a higher Intensity FEAT to create. For example, simple solids can be formed by a Feeble FEAT. Animated forms require a Typical FEAT. Likenesses and simple machinery require an Incredible FEAT. The energy matrix possesses Strength equal to the Power rank. It continues to exist for a duration determined by the hero's Psyche. After that time, the matrix harmlessly dissipates. Some of the uses for this Power include:
+
+                                      Forming cages or barriers.
+
+                                      Forming servants to perform desired tasks.
+
+                                      Creating Body Armor to protect and enhance the hero's abilities.
+
+                                      At high levels, the hero can build semi-permanent structures at will.
+
+                                      Pieces that are "broken off" from the matrix immediately revert to their original energy form, doing -4CS damage to the vandal. Optional Powers include any Energy Emission or Energy Control Power.
+                                Reference: |
+                                  This is a Power that is unique to campaigns using the Marvel Universe. It does not apply to campaigns set in other parts of the Multiverse.
+
+                                  The hero can generate and control the extra-dimensional energy-form known as "Darkforce." This resembles a tangible, impenetrable shadow and possesses several unique characteristics that the hero can use to develop Power Stunts:
+
+                                  - Blunt attack damage at Power rank.
+                                  - Shadowcasting of Power rank Intensity darkness over a maximum of three areas.
+                                  - Flight at -1CS speed.
+                                  - Gateway.
+                                  - Energy Solidification.
+
+                                  The Darkforce is as yet undefined in the Marvel Universe. For your game's purposes, you might simply treat it as an other-dimensional power source that fills its own entire pocket dimension. That definition will work in or out of the official Marvel Universe.
+                              Fire Control: #EC10
+                                Rank: Good
+                                Reference: *Fire_Control
+                              Light Control: #EC14
+                                Rank: Incredible
+                                Reference: |
+                                  The hero can manipulate existing light. This can be visible, infrared, or ultraviolet light. The hero can alter the intensity, frequency (color, in other words), and coherence of light on a Good Intensity FEAT. The hero can actually change the direction of light and form crude holograms on a Remarkable Intensity FEAT. Such holograms are little more than clouds or single-color walls. The Power allows +1CS Resistance to Light-based Powers, since the hero can redirect or dispel them.
+
+                                  Optional Powers include Light Generation, Energy Sheath, Carrier Wave, and Illusion Casting. The Nemesis is itself.
+                              Shadowshaping:
+                                Rank: Incredible
+                                Reference: |
+                                  This is not Darkforce Manipulation: that's handled elsewhere. This Power enables the hero to affect normal shadows and, indirectly, light as well. The hero can shift the location and size of normal shadows. He can form them into two-dimensional images that can do Power rank damage to real targets. The hero can also Remote Sense through these shadow-constructs. The hero can increase or decrease the Intensity of any shadow, whether natural or Power-based, by his Power rank number. This overlaps with Light Generation and Shadowcasting but differs in that either effect is possible and only existing shadows or shadow-related Powers are affected.
+
+                                  The hero has the ability to see through any shadow as if it were a normally-lit area, provided its Intensity is less than or equal to his Power rank. This does not apply to Darkforce, however.
+
+                                  This Power includes Power rank Resistance to shadow-based Powers.
+
+                                  This has the Bonus Power of Shadowcasting.
+
+                                  Optional Powers include Light Control, Energy Sheath, and Energy Body. In the last two cases, the hero resembles a living shadow.
+                            Energy Emission:
+                              Fire Generation:
+                                Rank: Good
+                                Reference: *Fire_Generation
+                              Light Emission:
+                                Rank: Incredible
+                                Reference: *Light_Emission
+                              Shadowcasting: #EE12
+                                Reference: *Shadowcasting
+                            Fighting:
+                              Martial Supremacy: #F2
+                                Rank: Amazing
+                                Reference: *Martial_Supremacy
+                              Weapons Creation: #F4
+                                Rank: Excellent
+                                Specialization:
+                                  Specialized: true
+                                  Specialization: 
+                                    Magic Sword:
+                                      Damage: 20
+                                      Type: Edged Attack
+                                      Material Strength: Unearthly
+                                      Health Required: 3
+                                Reference: |
+                                    The hero can create any desired weapon out of thin air. The weapon can be of any design, size, and material. The size of the weapon is limited by its weight. The hero can only create in a single turn a maximum number of ounces equal to his Power rank number. Heavier weapons have to be assembled in pieces over a span of several turns. While the material strength of the created weapon is the same as that of a normally-manufactured weapon of the same type, its duration is much shorter. The lifespan of the weapon is determined at the time of creation. A Typical Intensity FEAT gives the weapon a lifespan of 100 turns times the hero's Reason rank number. On an Amazing Intensity FEAT, the weapon lasts for the hero's Reason rank number times 10,000 turns. Should he make an Unearthly Intensity FEAT, the weapon will be permanent.
+
+                                    Each ounce of created matter temporarily costs the hero 1 Health point. All points lost in this manner are regained after 24 hours. Thus, the hero can only create a weapon weighing the number of ounces equal to his Health score in a single day.
+
+                                    The hero must have-detailed knowledge of any weapon he wants to create. He can only store a limited number of weapons' designs in his memory. The total number of memory slots available to this Power equals the hero's Reason rank number. The player must keep a record of the weapons he can create. This list can be changed at any time. A green Reason FEAT gains the hero a new design. If no open memory slots are available, an old design is tossed away to make room for the new one.
+
+                                    Normally, the Power is used to make facsimiles of existing weapons. The hero must make a detailed study of the weapon for at least 10 minutes before attempting a FEAT. Failure to make the FEAT means the hero must spend another 10 minutes studying the weapon before attempting another FEAT. Some weapons might be beyond the hero's comprehension, if the player has really bad luck when rolling the dice.
+
+                                    The hero can create new weapons based solely on his imagination and basic knowledge of weapons design. This requires intense concentration and a red Power rank FEAT.
+
+                                    The newly created weapon has the same characteristics as a normally created one of its type. In the case of altered or imaginary weapons, the player and Judge should agree on a reasonable and playable set of characteristics for the weapon in question.
+
+                                    The Power includes versions of Elemental and Molecular Creation. Each element or compound takes up its own memory slot, just like the throwing daggers and broadswords that clutter the hero's mind. Such raw matter can be formed into any weapon's shape. This permits the hero to change the composition of any already-memorized designs. For example, if he has already memorized the design of an arrow and the nature of silver he can create both wood and steel arrows and silver arrows.
+
+                                    Weapons created materialize in the hero's hands.
+
+                                    There is an exception to the rules thus far. When creating the hero, the player can choose to specialize in creating a single copy of a special weapon. In this case, the weight limit is raised from one ounce per Health point to one pound per Health point. Such special weapons are never permanent: Unearthly Intensity FEATs are treated the same as Amazing Intensity ones. One example of this option is Magik's Soulsword.
+
+                                    The Optional Power for this is a form of Martial Arts Supremacy that uses a special weapon, as in the option explained above.
+
+                                    The Nemesis Power is True Invulnerability.
+                            Mental Enhancement:
+                              Linguistics: #M17
+                                Rank: Unearthly
+                                Reference: *Linguistics
+                              Total Memory: #33
+                                Rank: Unearthly
+                                Reference: *Total_Memory
+                              Physical Enhancement:
+                                Body Resistance: #P2
+                                  Rank: Amazing
+                                  Reference: 
+                                    This is the form of Body Armor most heroes want. The hero's body is composed of apparently normal flesh. However, the tissue of capable of withstanding major damage without showing any effects. The resistance covers physical and energy attacks only.
+
+                                    The Intensity rank number of the attack is reduced by this Power's rank number. The remaining Intensity is the actual damage the hero suffers.
+
+                                    While the hero's skin shows the effects of the tremendous abuse it suffers, at least it heals quickly. The Power enables the epidermis to heal at a tenfold rate.
+
+                                    An Optional Power is Regeneration.
+                                Regeneration: #P9
+                                  Rank: Amazing
+                                  Reference: The hero can rapidly recover from any wound. Cuts quickly close and disease symptoms disappear. The hero heals at an accelerated rate equal to the Power rank number times the normal amount of time. For example, a Typical rank can heal six times as fast as normal, an Unearthly rank heals at a hundredfold rate, and so on. With time, the hero can regrow large areas of lost tissue, especially severed limbs. Lost limbs or organs require a red FEAT. It cannot repair losses that resulted in the hero's death unless the hero is revived. If such a fatal loss and subsequent revival occurs, the hero requires life-support equipment to give his Power time to function.
+                                Self-Sustenance: #P11
+                                  Rank: Unearthly
+                                  Form: Permanent
                                   Reference: |
-                                    The hero has the ability to directly control a target's mind through psionic Powers. The hero completely overrides the will and perhaps even the conscious mind of the target. There are four forms of Mind Control:
+                                    The hero can survive indefinitely without consuming air, water, or food. Bodily wastes are internally recycled back into useable materials.
 
-                                    - Puppetry: the target mind retains awareness but cannot control the body.
-                                    - Possession: the target mind loses both control and consciousness.
-                                    - Negation: the target mind is completely turned off: Mental Probes show that no mind exists in the target's body.
-                                    - Magnification: The target mind is actually enhanced. The rank of the target's Reason, Intuition, and/or Psyche can be temporarily increased, up to the hero's Power rank.
+                                    Normally the hero would not need to replenish himself when his power reached its limit. He merely resumes normal consumption habits (breathe normally, eat a light snack, etc.). This is the permanent form of the power. The temporary form requires the hero to consume mass quantities at the expiration of the Power. ("That's the fifteenth steak you've eaten, Fred. How long did you say it's been since you ate last?") The required intake is one-quarter what the hero would normally have consumed during the time he was abstaining. The hero can raise his Power rank +1CS by opting for the temporary form.
+                              Power Control:
+                                Residual Absorption: #PC12
+                                  Rank: Incredible
+                                  Reference: 
+                                    The hero can duplicate a Power by absorbing the traces left behind whenever a Power is used. The residue may be in anything that was near or the target of a Power's emission.
 
-                                    The Power rank determines the Intensity of the hero's control, the range at which he can establish and maintain that control, and the duration of the control.
-                              Self Alteration:
-                                Alter Ego: *Alter_Ego
-                          All:
-                            Advanced Player's Book: 
-                              Body Alterations—Defensive:
-                                Immortality:
-                                  Reference: *Immortality
-                              Magic:
-                                Eldritch Bolts:
-                                  Rank: Psyche
-                                  Reference: *Eldritch_Bolts
-                                Eldritch Shield:
-                                  Rank: Psyche
-                                  Reference: *Eldritch_Shield
-                        Additional: Rolled (1-18)
-                      Talents:
-                        Inherent:
-                          Angel:
-                            Weapon Skills:
-                              Sharp Weapons: *Sharp_Weapons
-                              Weapons Specialist: *Weapons_Specialist
-                          All:
-                            Mystic and Mental Skills:
-                              Occult Lore: *Occult_Lore
-                              Mystic Background: *Mystic_Background
-                        Additional: Rolled (0-8)
-                      Contacts: ~
-                      Magic:
-                        Character Type:
+                                    The Power rank determines what the rank is for any Powers created in this way. The duration of the borrowed Powers is determined by the hero's Reason. A green Reason FEAT gives a duration equal to the Reason rank times 100 turns. A yellow FEAT raises that to 10,000 turns times the Reason rank number. A red FEAT increases that to permanence.
+
+                                    The average amount of residue bearing material is about the size of a breadloaf. It is completely drained after a single use.
+                              Self-Alteration:
+                                Energy Body: #S13
+                                  Rank: Incredible
+                                  Energy Types:
+                                    Fire: Good
+                                    Light: Incredible
+                                    Shadow: Incredible
+                                  Reference: |
+                                    The hero can transform his body into a coherent energy field that supports his lifeforce and is capable of controlled actions. The energy can be of any type (see the Energy Emission listings).
+
+                                    When creating the character, the player determines the nature of the energy into which the hero can turn. The rank determines the number of possible energy types. The rank for each energy type is originally Good: this is modified by the Ability Modifier Table found on page 6 of the Player's Book. Each Power is rolled separately. Thus, a hero might have a Poor sound-form and an Incredible radiation-form. Damage to the Energy Body is the same as damage to the normal body. The Energy Body is subject to anything that would affect energy of its type. The hero makes a standard Resistance roll to determine such effects on the Energy Body. The hero may find himself confined in a storage field while in energy-form. If so, he must make a red FEAT to attempt to revert to normal. If he fails, he must escape in his energy form.
+
+                                    The Energy Body is a relatively unlimited supply of that particular energy type. The hero can expend great amounts of it and still be able to return to normal. Completely depleting the Energy Body requires a red FEAT rolled by the Judge or an adversary. The hero can also ab s orb existing energy of his chosen type to replenish himself.
+
+                                    This Power includes the relevant form of Energy Control and Emission for the purpose of controlling the energy within the body.
+                                Energy Sheath: #S14
+                                  Rank: Incredible
+                                  Energy Types:
+                                    Fire: Good
+                                    Light: Incredible
+                                    Shadow: Incredible
+                                  Reference: |
+                                    The hero can surround himself with an energy field. This field provides protection, life support, and a means of manifesting the hero's other Powers. The energy field can be of any type (see the Energy Emission section for available types). Each energy field has its own characteristics that affect the ways the hero can use the Power.
+
+                                    Only one Energy Sheath can be used at a time. The hero may possess several possible Energy Sheathes. The original rank for each is Good: this can be modified by the Ability Modifier Table on page 6 in the Player's Book. Each Power is rolled separately. Thus a hero might possess a Poor Sonic Sheath and an Incredible Vibration Sheath.
+
+                                    Damage to the Sheath does not affect the hero's Health. If the Sheath is destroyed, the hero. must make a red FEAT to regain it. Possible ways of destroying a Sheath include Energy Control and Conversion, Power Control, and Magic. When the hero is using this Power, he has a special vulnerability to Energy Control and Conversion Powers that can affect his type of Energy Sheath (-2CS). However, he also has +2CS Resistance to attacks using the same energy form as his Sheath. For the duration of the Sheath, it is assumed to be made of an infinite supply of that energy. (Otherwise, the character bookkeeping would be a nightmare. "Let's see, if I throw a fireball, that's gonna cost five minutes of power...")
+
+                                    When creating the hero, the player can opt to replace one of the other Powers with a Transportation Power. The player can also replace other Powers with the appropriate Energy Emission and Control Powers, if he so chooses.
+                          Advanced Player's Book:
+                            Resistances:
+                              Invulnerability to Fire and Heat:
+                                Reference:
+                                  Resistance to Fire and Heat: All damage from fire and heat-based attacks is reduced by the Power rank number. Further. any fire of less than this Power rank has no effect on the hero. (Example -- the hero with a Resistance to Fire/Heat of Amazing (50) rank could walk through super-heated steam of Incredible (40) Intensity without ill effect.)
+                                  Invulnerability: &Invulnerability |
+                                    The hero with this Power is totally unaffected by one or more of the attack forms listed above. The initial choosing of Invulnerability counts as two choices, but every additional choice in Resistances may be changed to an Invulnerability. (Example -- A hero being generated picks up Invulnerability to Fire, counting it as two slots. She then gets another resistance, and chooses Resistance to Cold. She may then choose to be Invulnerable to Cold instead at no additional cost.)
+
+                                    Invulnerability means that the hero in question has a Class 1000 resistance to that attack form.
+                              Invulnerability to Toxins:
+                                Reference:
+                                  Resistance to Toxins: This Power rank is always a minimum of one rank greater than the hero's Endurance rank (if the random roll sets this Power as less than this stated minimum, it is raised to Endurance rank +1CS). This rank is used instead of Endurance for all FEATs involving poison, and is not reduced by damage or effects of poison. Failing a FEAT with this Power will mean Endurance drops by one rank, but this Power rank does not drop. It will be used next turn at its normal level for determining further effects.
+                                  Invulnerability: *Invulnerability
+                              Invulnerability to Emotion Attacks:
+                                Reference:
+                                  Resistance to Emotion Attacks: This Power rank will be no less than one rank higher than the character's initial Intuition, and should be raised to that rank +1CS if a lower rank is rolled. Any Emotion-related attacks that affect the Intuition, including illusions, emotion-control, and dominance must overcome this rank as opposed to the Intuition of the individual.
+                                  Invulnerability: *Invulnerability
+                              Invulnerability to Mental Attacks:
+                                Reference:
+                                  Resistance to Mental Attacks: This resistance is similar to that of resistance to emotion attacks, but is used against attacks that affect the Psyche from psionic (but not magical) sources. This Power rank will be no less than one rank higher than the individual's Psyche, and should be raised to that rank +1CS if a lower rank is rolled.
+                                  Invulnerability: *Invulnerability
+                              Invulnerability to Disease:
+                                Reference:
+                                  Resistance to Disease: The individual with this resistance is less susceptible to disease than other heroes with the same Endurance. Included are common diseases, as well as the effects of biological warfare and vampirism. The individual's rank in this Power is no less than one rank above the individual's Endurance. (Any roll of less than that rank should be raised to the Endurance Rank +1CS.)
+                                  Invulnerability: *Invulnerability
+                              Resistance to Cold:
+                                Rank:
+                                Reference: All damage from cold-based attacks is reduced by the Power rank number. Further, ice and cold of less than this Power rank may be ignored. Physical items made of ice may still affect the hero. A hero with Resistance to Cold would not be easily frozen by Iceman, but could still be hit with a club made of ice.
+                              Resistance to Radiation:
+                                Rank:
+                                Reference: |
+                                  All damage resulting from radiation-based attacks, including but not limited to X-rays, alpha and beta particles, and gamma rays, is reduced by the Power rank number. Most non-concussive energy rays used by super- powered individuals may be so reduced (i.e.: this resistance would provide protection from Captain Marvel in X-ray form. but not from Radioactive Man's force-based attacks). Any radiation of a lower Intensity than the hero's Power rank has no effect on the hero.
+                            Body Alterations—Defensive:
+                              Immortality:
+                                Reference: *Immortality
+                            Magic:
+                              Eldritch Bolts:
+                                Rank: Incredible
+                                Reference: *Eldritch_Bolts
+                              Eldritch Shield:
+                                Rank: Incredible
+                                Reference: *Eldritch_Shield
+                        Talents:
+                          Weapon Skills:
+                            Sharp Weapons: *Sharp_Weapons
+                            Weapons Specialist:
+                              Weapon: Sword
+                              Reference: *Weapons_Specialist
+                          Fighting Skills:
+                            Martial Arts A: *Martial_Arts_A
+                            Tumbling: *Tumbling
+                            Acrobatics: *Acrobatics
+                          Scientific Skills:
+                            Archaeology: *Archaeology
+                          Mystic and Mental Skills:
+                            Resist Domination: *Resist_Domination
+                            Occult Lore: *Occult_Lore
+                            Mystic Background: *Mystic_Background
+                          Other Talents:
+                            Artist: *Artist
+                            Languages: *Languages
+                            First Aid: *First_Aid
+                            Performer: *Performer
+                            Repair/Tinkering: *Repair-Tinkering
+                          Magic Wielder Talents:
+                            Bibliophile: *Bibliophile
+                            Demonologist: *Demonologist
+                            Theoginist: *Theoginist
+                        Contacts:
+                          Mystic:
+                            Mystic Arts:
+                              - Julian Constantine
+                        Magic:
                           Magic Wielder: *Magic_Wielder
-                        Magic School:
-                          Angel:
-                            One of:
-                              - Special Realm or Pantheon: &Special_Realm_or_Pantheon This is a school usually reserved for non-player characters, but can be the basis for a player character if carefully defined by a Judge. The magical teachings and spells come from the history of a Special Realm or Pantheon of the Marvel Universe (such as Asgard or Olympus). Bonuses for this type of magic would come with the use of items or spells developed by this pantheon or realm, and when at certain locations (Greece for the Olympian pantheon, etc.) Penalties would exist as items or locations that exist to destroy the specific pantheon or realm (an Asgardian character casting a spell while in the hostile realm of Muspelheim would have a -1CS penalty.
-                              - Magic for Order: &Magic_for_Order This is the school to which Earth’s former Sorcerer Supreme, the Ancient One, and Earth’s current Sorcerer Supreme, Doctor Strange, belong. It is the most powerful “white” school of magic, striving for order and good by practicing an ascetic, disciplined approach that has its foundations deeply rooted in Eastern philosophy and magic. It is currently the strongest form of magic on Earth. The bonuses attached to this type of school are the various magical characters that Doctor Strange has managed to ally with over the years and the vast knowledge that Doctor Strange, and others of the same bent, can teach a good pupil. The penalties include Doctor Strange’s enemies, who are numerous and powerful.
-                          Demon:
-                            One of:
-                              - Magic for Chaos: &Magic_for_Chaos This is a forbidden or dangerous type of magical school whose goal is to promote chaos, which will lead to an evil tyranny. One of the primary subschools of “chaotic” magic is one that follows the little-known archaic rituals and beliefs based on the existence of the Elder Gods. This type of magic is much more powerful in certain settings (such as ancient temples to the unknown gods) and with the use of “chaotic” magic artifacts. The vulnerability of “chaotic” magic is that it tends to attract “white” magic wielders or creatures who wish to negate it.
-                              - Special Realm or Pantheon: *Special_Realm_or_Pantheon
-                          Others:
-                            One of:
-                            - Magic for Chaos: *Magic_for_Chaos
-                            - Magic for Order: *Magic_for_Order
-                            - Faerie Magic: This school is based on the practices of the faerie, an ancient race of beings with supernatural powers who originated in an extradimensional world that borders upon Britain and Ireland on Earth. This magic school is similar to the Druidic school, except that a character in this school most likely possesses faerie blood. This makes him extremely powerful when wielding an ancient faerie artifact or in Britain or Ireland, but extremely vulnerable to iron or steel.
-                            - Special Realm or Pantheon: *Special_Realm_or_Pantheon
-                            - Eclectic Magic: &Eclectic_Magic This is an unorganized school of magic, that is, it follows no one school of philosophy but is a hodge-podge of “get-as-get-can” magic. It is considered neutral magic. Many of those who “dabble” in magic, and are not up to the level of a Marvel super hero, usually wind up with this type of magic. A spell learned here, an enchantment discovered there, makes up the whole of their philosophy. The bonus with this is that there is very little to bind the character (enemies, rituals, obligations, etc.), the penalty with this type of magic is that there is no one to learn from in a complete and comprehensive manner; thus advancement can be very slow.
-                        Energy Use:
-                          Personal and Universal Energies Only: &Personal-Universal Personal and Universal Energies Only means that the character can use spells listed as both Personal Energies and Universal Energies. The character’s spells will only be able to be utilized by tapping into either his personal energy or the energy of the universe around him.
-                        Rank:
-                          Min:
-                            Novice: &Novice |
-                              This character knows fewer than five spells or has less than an Amazing spell rank in at least two spells. He is spending most of his time with his master (when not practicing what he has learned on villains). He can study tomes and scrolls and even perform magic found therein, but he cannot yet learn spells on his own (spells that he has read in a tome or on a scroll must be studied each time he uses them—he cannot commit them to memory.)
-
-                              Novices are usually ignored by the more powerful dimensional entities. A novice using a Dimensional Entreaty spell uses his magic as normal, but no FEAT roll is necessary to determine if the entity entreated will be affronted by the entreaty and take action. The dimensional entity feels that it is an investment in the future, but the character is currently beneath his total consideration. A novice can, however, provoke a hostile reaction from extradimensional entities by abusing their power—using it in ways the entity would not normally approve of (see “Abusing Dimensional Entreaties” in the “HOW SPELLS ARE CAST” section in the Manual of Magic.
-                          Max:
-                            Disciple: &Disciple |
-                              The character possesses at least 5 spells or has at least an Amazing rank in all of his spells. He assists the master in some of his rituals, but is spending more time adventuring than a novice. He may learn new spells from his master’s written works.
-
-                              Disciples, like novices, are usually ignored by the more powerful dimensional entities. A disciple using a Dimensional Entreaty spell uses his magic as normal, but no FEAT roll is necessary to determine if the entity entreated will be affronted by the entreaty and take action. The dimensional entity feels that it is an investment in the future, but the character is currently beneath his total consideration. A disciple can, however, provoke a hostile reaction from extra-dimensional entities by abusing their power-using it in ways the entity would not normally approve of (see “Abusing Dimensional Entreaties” in the “HOW SPELLS ARE CAST” section in the Manual of Magic.)
-                        Master: ~
-                        Spells: Any two spells from the Personal Energies or Universal Energies lists at Psyche Rank.
-                    Equipment: Varies
+                          Magic School: *Scientific_Magic
+                          Energy Use:
+                            Personal and Universal Energies Only: &Personal-Universal Personal and Universal Energies Only means that the character can use spells listed as both Personal Energies and Universal Energies. The character’s spells will only be able to be utilized by tapping into either his personal energy or the energy of the universe around him.
+                          Rank:
+                            Disciple: *Adept
+                          Master: Julian Constantine
+                          Spells:
+                            Personal Energies:
+                              Sensing-Evil:
+                                Rank: Incredible
+                                Reference: *Sensing-Evil
+                              Sensing-Mystical Detection:
+                                Rank: Incredible
+                                Reference: *Sensing-Mystical_Detection
+                            Universal Energies:
+                              Conjure:
+                                Rank: Incredible
+                                Reference: *Conjure
+                              Healing-Others:
+                                Rank: Incredible
+                                Reference: *Healing_Others
+                              Revival:
+                                Rank: Incredible
+                                Reference: *Revival
+                              Vapors-Resist Death:
+                                Rank: Incredible
+                                Reference: *Vapors-Resist_Death
+                    Equipment:
+                      Magical Items:
+                        Grimoire: *Grimoire
                 Sensing-Danger:
                   Rank: Amazing
                   Number: 50
@@ -1453,7 +1488,7 @@ Character Sheet:
                 Conjure:
                   Rank: Amazing
                   Number: 50
-                  Reference: |
+                  Reference: &Conjure |
                     This spell is used to teleport an item, plant, creature or character from its current location to the caster’s location. This spell can even restore a broken or decayed item to its original form while in the act of teleporting.
 
                     If conjuring a trivial item, plant, or harmless animal, the caster need make no FEAT roll, it simply appears.
@@ -1468,7 +1503,7 @@ Character Sheet:
                 Healing-Others:
                   Rank: Amazing
                   Number: 50
-                  Reference: |
+                  Reference: &Healing_Others |
                     The caster can magically heal other characters by using universal or dimensional energy. The caster must touch the character for two consecutive rounds after casting the spell. A successful spell rank FEAT roll is required. The, maximum amount of damage that can be healed per person is the spell rank number. Any individual character can only be healed once per day by a specific caster. The number of different characters the caster can heal per day is equal to the spell rank number divided by 10 (round fractions up). If the player so desires, this spell could be used to heal a creature instead of a character.
 
                     The healing is complete, including the mending of broken bones and torn cartilage. The spell is also effective against disease.
@@ -1486,7 +1521,7 @@ Character Sheet:
                 Revival:
                   Rank: Amazing
                   Number: 50
-                  Reference: |
+                  Reference: &Revival |
                     The spell counters the effects of other spells that preventing a character from acting or thinking with complete control. Spells that can be countered by a Revival spell include Mesmerism, Emotion Control, Confusion, Fear, Illusion, Charm, Mental Control, Paralyze, Forgetfulness, and the like.
 
                     If the spell rank of the Revival spell is stronger than the spell rank of the controlling spell, then the controlling spell is automatically broken. If the spell ranks are equal, a successful spell rank FEAT roll is needed to break the spell. If the holding spell is a higher spell rank than the Revival spell, then the caster must make a successful spell rank FEAT roll to break the spell subtracting as many ranks from his spell’s normal spell rank as the holding spell exceeds it.
@@ -1571,7 +1606,7 @@ Character Sheet:
                 - Riot Gun may loaded with non-lethal cartridges (such as rock salt) that will not inflict Killing damage (ignore Kill results).
             Phylax Integrated Multipurpose Rifle: &Phylax_Integrated_Multipurpose_Rifle
               Description: |
-                The Phylax Integrated Multipurpose Rifle is a longarm combination weapon with utility functions, essentially a larger version of the Mk. 1.  It fires medium power and magnum power rifle bullets with the precision of a sniper rifle with an integrated silencer, shot shells, rockets, canister rounds, flammable liquid, and laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher.  Beam types are selectable on the fly from a power pack. Other weapons' ammunition are treated as types of ammunition that must be switched out and it can only load and fire one at a time, as does the Variable Pistol; the loading and firing mechanisms are in large part integral to the magazines. The flamethrower has a separate fuel source. Other features such as the flare gun, fire extinguisher, and mace are all present together with everything else, but must be reloaded after a single use.
+                The Phylax Integrated Multipurpose Rifle is a longarm combination weapon with utility functions, essentially a larger version of the Pistol.  It fires medium power and magnum power rifle bullets with the precision of a sniper rifle with an integrated silencer, shot shells, rockets, canister rounds, flammable liquid, and laser, concussion, and stun beams. It features integral optics that are night-vision capable.  Additionally, it has utility features comprising a standard intensity and high intensity flashlight system for illumination or blinding, a foam projector to extinguish fires, tear gas spray, and a flare launcher.  Beam types are selectable on the fly from a power pack. Other weapons' ammunition are treated as types of ammunition that must be switched out and it can only load and fire one at a time, as does the Variable Pistol; the loading and firing mechanisms are in large part integral to the magazines. The flamethrower has a separate fuel source. Other features such as the flare gun, fire extinguisher, and mace are all present together with everything else, but must be reloaded after a single use.
               
                 It's an integrated combination of existing weapons (Variable Pistol, Sniper Rifle, Assault Rifle, Laser Rifle, Concussion Rifle, Stun Rifle, Shotgun, Riot Gun, LAW) and items (Fire Extinguisher, Silencer, Sniper Sights, Infra-Red Sights, Flashlights—Normal and Halogen, Mace, Flare Gun).
               Material Strength: Excellent
@@ -1819,7 +1854,7 @@ Character Sheet:
                   Phylax Integrated Multipurpose Cannon: *Phylax_Integrated_Multipurpose_Cannon
             Tactical Utlity Watercraft: &Arma_TUW
               Description: |
-                The Arma Tactical Utility Watercraft (TUW) is a nimble jet-powered submersible ship that can displace on or under the surface, deploy hydrofoils, or hover in ground effect as needed, combining the versatility of surface, subsurface, and amphibious operations with the protection and durability of an armored vehicle. There is just enough room on the rear deck of the Wayinder for a VTOL vehicle to land, (un)load, and takeoff, or to park a pair of vehicles on, and the means to secure them with Incredible Material Strength tiedown points. A small galley, cabins, laundry, and head with shower can support up to 4 people for long term operations, up to about 6-8 for a few days if the jump bunks in the hold are deployed, and can transport 10-15 short term, 20 if cramped into an empty hold and as many more crowded on deck in a pinch. The small cargo hold and smaller brig feature Incredible Material Strength points to handcuff someone or strap down cargo or people to, and they generally carry various straps, chains, and cargo nets for various purposes. Features expected off-grid, marine, and functional accessories like cranes, winches, and hoists, washdowns, solar panels, lights, onboard compressed air, hydraulic pump, generator, and welder-cutter, communications suite featuring marine band radios and an experimental INMARSAT phone, SSB CB, HAM, and commercial/business band radios, as well as police scanners, weather radio, world band radio, television, and satellite receivers, personal computer, and mobile phone, spotlights, cameras, flashers, PA. Marine, weather, and air traffic radars and navigational, sounding, side-scanning, upward-looking, and synthetic-aperture sonars provide constant awareness. Navigation includes Decca, LORAN, gyroscopic and magnetic compasses, and an experimental satellite navigation system, as well as a sophisticated autopilot.  They carry scuba gear, surface-supplied air diving pumps, dredging, salvage, and cargo-handling gear, life rafts, pioneer tools, basic hand tools, basic air and power tools, water safety equipment, basic and open water survival gear, basic and water rescue gear, AED, field stretchers and backboards, oxygen, suction, and first aid and first responder gear. It can release smoke behind it to dissuade pursuers or as a signal. Optionally, up to four turret-mounted Phylax Integrated Multipurpose Cannon may be installed, though this is not typical for daily operations. There are secure racks inside for 10 sets of Phylax IM Pistols and Rifles, along with ammunition and refills, and Phylax Staves.  In general, they are registered as private water ambulances, regardless of configuration, and if so, have police-band and other emergency band radios, siren, and red flashers in addition to white, amber, and green.
+                The Arma Tactical Utility Watercraft (TUW) is a nimble jet-powered submersible ship that can displace on or under the surface, deploy hydrofoils, or hover in ground effect as needed, combining the versatility of surface, subsurface, and amphibious operations with the protection and durability of an armored vehicle. There is just enough room on the rear deck of the Arma TUW for a VTOL vehicle to land, (un-)load, and takeoff, or to park a pair of vehicles on, and the means to secure them with Incredible Material Strength tiedown points. A small galley, cabins, laundry, and head with shower can support up to 4 people for long term operations, up to about 6-8 for a few days if the jump bunks in the hold are deployed, and can transport 10-15 short term, 20 if cramped into an empty hold and as many more crowded on deck in a pinch. The small cargo hold and smaller brig feature Incredible Material Strength points to handcuff someone or strap down cargo or people to, and they generally carry various straps, chains, and cargo nets for various purposes. Features expected off-grid, marine, and functional accessories like cranes, winches, and hoists, washdowns, solar panels, lights, onboard compressed air, hydraulic pump, generator, and welder-cutter, communications suite featuring marine band radios and an experimental INMARSAT phone, SSB CB, HAM, and commercial/business band radios, as well as police scanners, weather radio, world band radio, television, and satellite receivers, personal computer, and mobile phone, spotlights, cameras, flashers, PA. Marine, weather, and air traffic radars and navigational, sounding, side-scanning, upward-looking, and synthetic-aperture sonars provide constant awareness. Navigation includes Decca, LORAN, gyroscopic and magnetic compasses, and an experimental satellite navigation system, as well as a sophisticated autopilot.  They carry scuba gear, surface-supplied air diving pumps, dredging, salvage, and cargo-handling gear, life rafts, pioneer tools, basic hand tools, basic air and power tools, water safety equipment, basic and open water survival gear, basic and water rescue gear, AED, field stretchers and backboards, oxygen, suction, and first aid and first responder gear. It can release smoke behind it to dissuade pursuers or as a signal. Optionally, up to four turret-mounted Phylax Integrated Multipurpose Cannon may be installed, though this is not typical for daily operations. There are secure racks inside for 10 sets of Phylax IM Pistols and Rifles, along with ammunition and refills, and Phylax Staves.  In general, they are registered as private water ambulances, regardless of configuration, and if so, have police-band and other emergency band radios, siren, and red flashers in addition to white, amber, and green.
                 
                 It's an integrated combination of existing items (Patrol Boat, Hydrofoil, Mini-Sub, Hovercraft, Armored Carrier, and Ambulance).
               Type:
@@ -2227,12 +2262,7 @@ Character Sheet:
                   Healing-Others:
                     Rank: Amazing
                     Number: 50
-                    Type:
-                      Solar: A hero with this spell can redirect, magnify, or diminish the natural light in the area of the spell. A blinding flash can cause damage in that area equal to the spell rank number and temporarily blind a victim. A light barrier does not defend against damage, but no one can see through it and it scares off unintelligent animals and creatures.
-                    Reference: |
-                      The caster can magically heal other characters by using universal or dimensional energy. The caster must touch the character for two consecutive rounds after casting the spell. A successful spell rank FEAT roll is required. The, maximum amount of damage that can be healed per person is the spell rank number. Any individual character can only be healed once per day by a specific caster. The number of different characters the caster can heal per day is equal to the spell rank number divided by 10 (round fractions up). If the player so desires, this spell could be used to heal a creature instead of a character.
-
-                      The healing is complete, including the mending of broken bones and torn cartilage. The spell is also effective against disease.
+                    Reference: *Healing_Others
                   Shield-Aura:
                     Rank: Amazing
                     Number: 50
@@ -2240,9 +2270,7 @@ Character Sheet:
                   Vapors-Resist Death:
                     Rank: Amazing
                     Number: 50
-                    Type:
-                      Solar: A hero with this spell can redirect, magnify, or diminish the natural light in the area of the spell. A blinding flash can cause damage in that area equal to the spell rank number and temporarily blind a victim. A light barrier does not defend against damage, but no one can see through it and it scares off unintelligent animals and creatures.
-                    Reference: |
+                    Reference: &Vapors-Resist_Death |
                       The caster can conjure forth magical vapors, which pour out from around his feet, hands, or just suddenly begin to swirl in the air (caster’s discretion). These vapors will only cover one individual the caster chooses within the area of spell. This character must be dying or dead for no more than 2 rounds when the spell is cast. These extremely powerful vapors will bring the character up to 0 Health points and keep him there (if he has died) or will freeze him at the level of his current Health and Endurance. This “freezing” of the character will last for the duration of effect and allows for time to treat his wounds or the condition which is killing him (taking him to a hospital, applying spells that heal, etc.)
 
                       Once applied, these vapors wrap the target in a black, swirling shroud. The target remains unconscious while in the vapors.
@@ -2251,149 +2279,149 @@ Character Sheet:
 
                       If the character the caster is trying to save has been dead for over 2 rounds, but less than 3 hours, the caster can try to create a special, potent vapor which will have the same effect as described above. To create this special vapor requires the caster to make a spell rank FEAT roll and deduct one rank from his Psyche (for a week) whether he succeeds in the spell or not. The caster can keep attempting this spell, but must deduct the Psyche rank each time he tries. If his Psyche rank drops to Feeble or below, due to the exercising of this spell, he permanently loses a Psyche rank.
           Familiar:
-            Name: Leonidas
-            Description: A particularly large housecat most resembling a strikingly ancient- and wild-looking Oriental breed, somewhat like an oversized Egyptian Mau, with a black spotted silver tabby coat and brilliant green eyes. While still very much a cat in personality, that's tempered by intelligence and insight that's far above the human norm and over a millennium of existence in close contact with Julian Constantine, giving him a dry, witty, sarcastic detachment and studious, serious, somewhat pessimistic outlook.  Leonidas doesn't speak or use telepathy to communicate per se, but is exceptionally adept at making himself understood by others, as well as understanding them, regardless of language, the same as if he were conversing like any human. Leonidas has been with Julian since the latter began his sorcerous journey.
-            Origin:
-              Physical Form:
-                Animal: |
-                  This is a catch-all category that includes fish, mammals, birds, reptiles, and the rest of Earth's fauna, in addition to aliens that do not fit into any other category. About the only example of this in the Marvel Universe is Lockheed, the dragon. Your campaign, on the other hand, might be filled with heroic Animals or really peculiar aliens (I'll fudge a little and include Lockjaw, the Inhumans' "dog" as an example of this).
+            Reference: Familiar indicates a being that is very powerful magically and actively assists the hero. Two powers should be rolled randomly or selected by the Judge from the personal and universal energy lists for this familiar. In addition, the familiar is intelligent (Reason and Psyche at least Typical) and can communicate with its owner (the kind of communication is left to the Judge’s discretion). The form of the familiar can either be that of a normal animal (usually a cat) or an unusual type, such as a small dragon or other mythical creature. The familiar’s form is at the player’s discretion.
+            Leonidas:
+              Description: A particularly large housecat most resembling a strikingly ancient- and wild-looking Oriental breed, somewhat like an oversized Egyptian Mau, with a black spotted silver tabby coat and brilliant green eyes. While still very much a cat in personality, that's tempered by intelligence and insight that's far above the human norm and over a millennium of existence in close contact with Julian Constantine, giving him a dry, witty, sarcastic detachment and studious, serious, somewhat pessimistic outlook.  Leonidas doesn't speak or use telepathy to communicate per se, but is exceptionally adept at making himself understood by others, as well as understanding them, regardless of language, the same as if he were conversing like any human. Leonidas has been with Julian since the latter began his sorcerous journey.
+              Origin:
+                Physical Form:
+                  Animal: |
+                    This is a catch-all category that includes fish, mammals, birds, reptiles, and the rest of Earth's fauna, in addition to aliens that do not fit into any other category. About the only example of this in the Marvel Universe is Lockheed, the dragon. Your campaign, on the other hand, might be filled with heroic Animals or really peculiar aliens (I'll fudge a little and include Lockjaw, the Inhumans' "dog" as an example of this).
 
-                  Animal PCs have three main types of backgrounds. One is that the animal is a mutant. Another is that the animal was altered in ways that gave his intelligence and Power. The last is the animal is a relatively normal member of a race of animals like him (Lockheed, for example). The player can determine this in the Origins of Power section and embellish it to the best of his ability.
+                    Animal PCs have three main types of backgrounds. One is that the animal is a mutant. Another is that the animal was altered in ways that gave his intelligence and Power. The last is the animal is a relatively normal member of a race of animals like him (Lockheed, for example). The player can determine this in the Origins of Power section and embellish it to the best of his ability.
 
-                  Animals have to have a human Contact. People tend to see the human Contact as the animal's owner or trainer. People refuse initially to believe the animal is intelligent. Animals have very few legal rights, but they also have few responsibilities.
+                    Animals have to have a human Contact. People tend to see the human Contact as the animal's owner or trainer. People refuse initially to believe the animal is intelligent. Animals have very few legal rights, but they also have few responsibilities.
 
-                  - Animals roll on column 1.
-                  - Aliens in this category roll on column 5. Animals gain one less Power.
-                  - Animals automatically have two Detection Powers at Good rank.
-                  - Animals risk death or capture from people who are ignorant of the animal's true nature.
-                  - Resources are zero unless the animal has attached himself to a human. In this case, the Resource rank is assigned to that human.
-              Origin of Power:
-                Endowment: The hero was given his Power by another being. This includes such diverse situations as being transformed (Tigra), being charged with Power (the Power Pack kids), and acquiring an item whose possession gives the hero Power (Black Knight, Vindicator).
-              Weakness: *Normal_Human_Weakness
-            Abilities:
-              Primary Abilities:
-                Fighting: Excellent
-                Agility: Amazing
-                Strength: Poor
-                Endurance: Remarkable
-                Reason: Excellent
-                Intuition: Remarkable
-                Psyche: Incredible
-              Secondary Abilities:
-                Health: 104
-                Karma: 90
-                Popularity: Excellent
-                Resources: Shift 0
-              Special Abilities:
-                Powers:
-                  Ultimate Powers Book:
-                    Detection:
-                      Hypersensitive Hearing:
-                        Rank: Remarkable
-                        Number: 30
-                        Reference: The hero can detect extremely faint sounds and unusual frequencies. He can identify objects by the sounds they emit. Because of the sensitivity of the hero's hearing, he is more vulnerable to sonic attacks (which receive a +1CS against him).
-                      Hypersensitive Olfactory:
-                        Rank: Remarkable
-                        Number: 30
+                    - Animals roll on column 1.
+                    - Aliens in this category roll on column 5. Animals gain one less Power.
+                    - Animals automatically have two Detection Powers at Good rank.
+                    - Animals risk death or capture from people who are ignorant of the animal's true nature.
+                    - Resources are zero unless the animal has attached himself to a human. In this case, the Resource rank is assigned to that human.
+                Origin of Power:
+                  Endowment: The hero was given his Power by another being. This includes such diverse situations as being transformed (Tigra), being charged with Power (the Power Pack kids), and acquiring an item whose possession gives the hero Power (Black Knight, Vindicator).
+                Weakness: *Normal_Human_Weakness
+              Abilities:
+                Primary Abilities:
+                  Fighting: Excellent
+                  Agility: Amazing
+                  Strength: Poor
+                  Endurance: Remarkable
+                  Reason: Excellent
+                  Intuition: Remarkable
+                  Psyche: Incredible
+                Secondary Abilities:
+                  Health: 104
+                  Karma: 90
+                  Popularity: Excellent
+                  Resources: Shift 0
+                Special Abilities:
+                  Powers:
+                    Ultimate Powers Book:
+                      Detection:
+                        Hypersensitive Hearing:
+                          Rank: Remarkable
+                          Number: 30
+                          Reference: The hero can detect extremely faint sounds and unusual frequencies. He can identify objects by the sounds they emit. Because of the sensitivity of the hero's hearing, he is more vulnerable to sonic attacks (which receive a +1CS against him).
+                        Hypersensitive Olfactory:
+                          Rank: Remarkable
+                          Number: 30
+                          Reference: |
+                            The hero can detect the presence of minute traces of substances and accurately identify them.
+
+                            This Power is continually functioning: the hero has learned to ignore unpleasant smells. If he loses his ability to mask out nasty odors, he'll be so distracted (and possibly sickened) by the intruding odors that he loses -1CS on Reason and Endurance.
+                        Tracking Ability:
+                          Rank: Remarkable
+                          Number: 30
+                          Reference: The hero can detect and follow the tracks left by a specific target. The hero can detect environmental and spatial disturbances with the result that at high ranks the hero can actually track across deep space.
+                    Advanced Player's Book:
+                      Body Alterations-Defensive:
+                        Immortality:
+                          Reference: *Immortality
+                  Talents:
+                    Fighting Skills:
+                      Acrobatics: *Acrobatics
+                      Tumbling: *Tumbling
+                    Mystic and Mental Skills:
+                      Resist Domination: *Resist_Domination
+                      Occult Lore: *Occult_Lore
+                      Mystic Background: *Mystic_Background
+                  Magic:
+                    Character Type:
+                      Magic Wielder: *Magic_Wielder
+                    Magic School:
+                      Eclectic Magic: This is an unorganized school of magic, that is, it follows no one school of philosophy but is a hodge-podge of “get-as-get-can” magic. It is considered neutral magic. Many of those who “dabble” in magic, and are not up to the level of a Marvel super hero, usually wind up with this type of magic. A spell learned here, an enchantment discovered there, makes up the whole of their philosophy. The bonus with this is that there is very little to bind the character (enemies, rituals, obligations, etc.), the penalty with this type of magic is that there is no one to learn from in a complete and comprehensive manner; thus advancement can be very slow.
+                    Energy Use:
+                      Personal and Universal Energies Only: *Personal-Universal
+                    Rank:
+                      Adept: |
+                        The character possesses at least 8 spells. He has a spell rank of at least Excellent in all of them and Incredible or better in at least two of them. He spends more time adventuring than he spends with his master, though he is still at his master’s beck and call. His studying of the writings of the ancient arts gleans him more information than if he were a novice or disciple.
+
+                        This is the lowest rank at which a sorcerer could normally gain special attention from dimensional beings (see the Entreaty FEAT Roll Table and the Casting Shifts Table in Book 1.
+                    Master: ~
+                    Spells:
+                    Personal Energies:
+                      Admittance:
+                        Rank: Incredible
+                        Number: 40
+                        Reference: *Admittance
+                      Apparition:
+                        Rank: Incredible
+                        Number: 40
+                        Reference: *Apparition
+                      Invisibility:
+                        Rank: Incredible
+                        Number: 40
+                        Reference: *Invisibility
+                      Luck:
+                        Rank: Incredible
+                        Number: 40
+                        Reference:  The caster can disrupt probability fields so that very unlikely events can occur, somewhat like creating his own luck. For example, he could cause a table to collapse or a machine to tip over. He can not cause something to happen if that event is impossible; tables can not be created from nothing, and machines just can’t cease to exist. When the caster uses his spell, the player describes exactly what effect is wanted, and the Judge decides whether or not that effect is within the spell’s power and assigns an appropriate FEAT color. To use the spell the caster must make a successful spell rank FEAT roll. If the caster is trying to alter probabilities around magic materials or energies, such as magical artifacts or temples, apply a -2CS to the spell rank when making the FEAT roll.
+                      Sensing-Evil:
+                        Rank: Incredible
+                        Number: 40
+                        Reference: *Sensing-Evil
+                      Sensing-Mystical Detection:
+                        Rank: Incredible
+                        Number: 40
+                        Reference: *Sensing-Mystical_Detection
+                    Universal Energies:
+                      Fear:
+                        Rank: Incredible
+                        Number: 40
                         Reference: |
-                          The hero can detect the presence of minute traces of substances and accurately identify them.
+                          This spell affects all targets in the area of effect. The spell releases an unreasoning fear from the target’s mind. All targets are allowed a Psyche FEAT roll to resist the effect (see the Magic Effects Table). If the target misses the roll, the frightened character wants nothing more than to run away and hide (all his actions while afraid are at -2CS). The victim will try to avoid, or if necessary attack, anyone attempting to stop or restrain him. The character can only perform actions (including spellcasting) that will help him to escape. The victim always flees away from the attacker, even if he cannot see the caster. After the first three rounds of being afraid, and every other round after that, if need be, the frightened character is allowed a Psyche FEAT roll to regain his composure. Once made, it will still take him a full round to get complete control of himself.
 
-                          This Power is continually functioning: the hero has learned to ignore unpleasant smells. If he loses his ability to mask out nasty odors, he'll be so distracted (and possibly sickened) by the intruding odors that he loses -1CS on Reason and Endurance.
-                      Tracking Ability:
-                        Rank: Remarkable
-                        Number: 30
-                        Reference: The hero can detect and follow the tracks left by a specific target. The hero can detect environmental and spatial disturbances with the result that at high ranks the hero can actually track across deep space.
-                  Advanced Player's Book:
-                    Body Alterations-Defensive:
-                      Immortality:
-                        Reference: *Immortality
-                Talents:
-                  Fighting Skills:
-                    Acrobatics: *Acrobatics
-                    Tumbling: *Tumbling
-                  Mystic and Mental Skills:
-                    Resist Domination: *Resist_Domination
-                    Occult Lore: *Occult_Lore
-                    Mystic Background: *Mystic_Background
-                Magic:
-                  Character Type:
-                    Magic Wielder: *Magic_Wielder
-                  Magic School:
-                    Eclectic Magic: *Eclectic_Magic
-                  Energy Use:
-                    Personal and Universal Energies Only: *Personal-Universal
-                  Rank:
-                    Adept: |
-                      The character possesses at least 8 spells. He has a spell rank of at least Excellent in all of them and Incredible or better in at least two of them. He spends more time adventuring than he spends with his master, though he is still at his master’s beck and call. His studying of the writings of the ancient arts gleans him more information than if he were a novice or disciple.
+                          Though the caster must maintain a high degree of concentration on this spell to keep the target afraid (no attacks or other spellcasting allowed), he does not know when the character breaks the spell. Only when the target attacks the caster or otherwise acts contrary to a state of fear does the caster realize he no longer influences the target.
+                      Forgetfulness:
+                        Rank: Incredible
+                        Number: 40
+                        Reference: |
+                          The caster can magically effect other characters’ minds and cause them to forget events. This is usually used by heroic magic wielders to protect innocent bystanders from the awesome psychic shock caused by some of the sights to be seen during magical combat, etc. It is also used by most magic wielding characters to protect their secret identities. Evil magicians may also use this spell to cover up their trail or their crimes. The duration of the spell is permanent (unless another sorcerer uses a Revival spell of at least equal spell rank to break the spell of Forgetfulness). The number of people that can be ensorcelled by the spell depends on the spell rank: Good = 1 person; Excellent = up to 5 people; Remarkable = everyone in 1 area; Incredible = everyone in a square mile; Amazing = everyone in 100 square miles; Monstrous = everyone on the planet; Unearthly everyone in one dimension; Class 1000 everyone in all dimensions.
 
-                      This is the lowest rank at which a sorcerer could normally gain special attention from dimensional beings (see the Entreaty FEAT Roll Table and the Casting Shifts Table in Book 1.
-                  Master: ~
-                  Spells:
-                  Personal Energies:
-                    Admittance:
-                      Rank: Incredible
-                      Number: 40
-                      Reference: *Admittance
-                    Apparition:
-                      Rank: Incredible
-                      Number: 40
-                      Reference: *Apparition
-                    Invisibility:
-                      Rank: Incredible
-                      Number: 40
-                      Reference: *Invisibility
-                    Luck:
-                      Rank: Incredible
-                      Number: 40
-                      Reference:  The caster can disrupt probability fields so that very unlikely events can occur, somewhat like creating his own luck. For example, he could cause a table to collapse or a machine to tip over. He can not cause something to happen if that event is impossible; tables can not be created from nothing, and machines just can’t cease to exist. When the caster uses his spell, the player describes exactly what effect is wanted, and the Judge decides whether or not that effect is within the spell’s power and assigns an appropriate FEAT color. To use the spell the caster must make a successful spell rank FEAT roll. If the caster is trying to alter probabilities around magic materials or energies, such as magical artifacts or temples, apply a -2CS to the spell rank when making the FEAT roll.
-                    Sensing-Evil:
-                      Rank: Incredible
-                      Number: 40
-                      Reference: *Sensing-Evil
-                    Sensing-Mystical Detection:
-                      Rank: Incredible
-                      Number: 40
-                      Reference: *Sensing-Mystical_Detection
-                  Universal Energies:
-                    Fear:
-                      Rank: Incredible
-                      Number: 40
-                      Reference: |
-                        This spell affects all targets in the area of effect. The spell releases an unreasoning fear from the target’s mind. All targets are allowed a Psyche FEAT roll to resist the effect (see the Magic Effects Table). If the target misses the roll, the frightened character wants nothing more than to run away and hide (all his actions while afraid are at -2CS). The victim will try to avoid, or if necessary attack, anyone attempting to stop or restrain him. The character can only perform actions (including spellcasting) that will help him to escape. The victim always flees away from the attacker, even if he cannot see the caster. After the first three rounds of being afraid, and every other round after that, if need be, the frightened character is allowed a Psyche FEAT roll to regain his composure. Once made, it will still take him a full round to get complete control of himself.
+                          Any character with a Psyche equal to or greater than the caster’s may make a Psyche FEAT roll to reduce the effects of the spell. Magic wielding characters have a +2CS for this FEAT roll. A green result means that vague recollections of the event sometimes surface in the character’s memory. A yellow result means that the character knows most of the highlights of the event, but cannot remember who cast the spell of forgetfulness. A red result means that the character can remember everything.
+                      Static Field:
+                        Rank: Incredible
+                        Number: 40
+                        Reference: |
+                          The caster can set up an invisible static field with his magical energy. This field, which blankets his area of effect, disrupts television, radio, CB, walkie-talkie, and other broadcasting devices. It also disrupts all closed-circuited monitoring security systems and scanners, most computer systems, robotic “brains”, and any other highly sophisticated electronic devices. The field moves with the caster and once an item is outside the field, it works as before.
 
-                        Though the caster must maintain a high degree of concentration on this spell to keep the target afraid (no attacks or other spellcasting allowed), he does not know when the character breaks the spell. Only when the target attacks the caster or otherwise acts contrary to a state of fear does the caster realize he no longer influences the target.
-                    Forgetfulness:
-                      Rank: Incredible
-                      Number: 40
-                      Reference: |
-                        The caster can magically effect other characters’ minds and cause them to forget events. This is usually used by heroic magic wielders to protect innocent bystanders from the awesome psychic shock caused by some of the sights to be seen during magical combat, etc. It is also used by most magic wielding characters to protect their secret identities. Evil magicians may also use this spell to cover up their trail or their crimes. The duration of the spell is permanent (unless another sorcerer uses a Revival spell of at least equal spell rank to break the spell of Forgetfulness). The number of people that can be ensorcelled by the spell depends on the spell rank: Good = 1 person; Excellent = up to 5 people; Remarkable = everyone in 1 area; Incredible = everyone in a square mile; Amazing = everyone in 100 square miles; Monstrous = everyone on the planet; Unearthly everyone in one dimension; Class 1000 everyone in all dimensions.
-
-                        Any character with a Psyche equal to or greater than the caster’s may make a Psyche FEAT roll to reduce the effects of the spell. Magic wielding characters have a +2CS for this FEAT roll. A green result means that vague recollections of the event sometimes surface in the character’s memory. A yellow result means that the character knows most of the highlights of the event, but cannot remember who cast the spell of forgetfulness. A red result means that the character can remember everything.
-                    Static Field:
-                      Rank: Incredible
-                      Number: 40
-                      Reference: |
-                        The caster can set up an invisible static field with his magical energy. This field, which blankets his area of effect, disrupts television, radio, CB, walkie-talkie, and other broadcasting devices. It also disrupts all closed-circuited monitoring security systems and scanners, most computer systems, robotic “brains”, and any other highly sophisticated electronic devices. The field moves with the caster and once an item is outside the field, it works as before.
-
-                        Any attack that uses broadcast power, such as a maser (microwave), must punch through the field first. Treat the spell rank as body armor for purposes of defense.
-                    Teleportation:
-                      Rank: Incredible
-                      Number: 40
-                      Reference: *Teleportation
-            Notes: Inflicts Edged attack damage with claws but cannot score a Kill result against human targets. Moves 3 areas/turn.
-            Reference:
-              Familiar: Familiar indicates a being that is very powerful magically and actively assists the hero. Two powers should be rolled randomly or selected by the Judge from the personal and universal energy lists for this familiar. In addition, the familiar is intelligent (Reason and Psyche at least Typical) and can communicate with its owner (the kind of communication is left to the Judge’s discretion). The form of the familiar can either be that of a normal animal (usually a cat) or an unusual type, such as a small dragon or other mythical creature. The familiar’s form is at the player’s discretion.
-              Cat:
-                Fighting: Feeble
-                Agility: Good
-                Strength: Feeble
-                Endurance: Good
-                Reason: Feeble
-                Intuition: Typical
-                Psyche: Feeble
-                Health: 24
-                Notes: Cats include most ordinary house cats and small wild cats. They inflict Edged attack damage with their claws but cannot score a Kill result against human targets. They move 2 areas/turn.
-            Interdimensional Scanner: While this is not a mystical item, it is used to monitor dimensional nexus and scan dimensions that are near Earth. This room-sized piece of high-tech equipment was designed by Roger Bochs, who first created Box of Alpha Flight fame. He was assisted in its creation by Shaman. Imaging of these dimensions is often hazy, showing only the outlines of larger creatures, structures, and so forth. It is with this device that the Alpha Flight team unwittingly brought the Incredible Hulk back to the Earth dimension from another dimension where Doctor Strange had banished him for the good of mankind, and the Hulk’s own sake. Any use of this device to scan and observe another dimension requires a successful Reason FEAT roll.
+                          Any attack that uses broadcast power, such as a maser (microwave), must punch through the field first. Treat the spell rank as body armor for purposes of defense.
+                      Teleportation:
+                        Rank: Incredible
+                        Number: 40
+                        Reference: *Teleportation
+              Notes: Inflicts Edged attack damage with claws but cannot score a Kill result against human targets. Moves 3 areas/turn.
+              Reference:
+                Cat:
+                  Fighting: Feeble
+                  Agility: Good
+                  Strength: Feeble
+                  Endurance: Good
+                  Reason: Feeble
+                  Intuition: Typical
+                  Psyche: Feeble
+                  Health: 24
+                  Notes: Cats include most ordinary house cats and small wild cats. They inflict Edged attack damage with their claws but cannot score a Kill result against human targets. They move 2 areas/turn.
+          Interdimensional Scanner: While this is not a mystical item, it is used to monitor dimensional nexus and scan dimensions that are near Earth. This room-sized piece of high-tech equipment was designed by Roger Bochs, who first created Box of Alpha Flight fame. He was assisted in its creation by Shaman. Imaging of these dimensions is often hazy, showing only the outlines of larger creatures, structures, and so forth. It is with this device that the Alpha Flight team unwittingly brought the Incredible Hulk back to the Earth dimension from another dimension where Doctor Strange had banished him for the good of mankind, and the Hulk’s own sake. Any use of this device to scan and observe another dimension requires a successful Reason FEAT roll.
   Supporting Cast:
     Varangos:
       Description: Plural Varangoi. Elite operatives drawn from the highest echelons of special operations and intelligence work, screened for magical potential, Varangoi are the highly-paid, trusted bodyguards, proxies, agents, investigators, and fixers of their employer. When on duty but not in their Phylax Battlesuit they generally wear the subdued, tailored suits worn by federal agents, plainclothes detectives, and bodyguards with their Phylax Integrated Multipurpose Pistol and collapsed Phylax Staff discreetly concealed, or military fatigues and berets or boonie caps with their IMP and collapsed Staff on their pistol belts alongside flashlights, knives, handcuffs, and mace, depending on the assignment. If needed, they have a Phylax Integrated Multipurpose Rifle, but this is usually kept in their vehicle until needed. Varangoi also have a formal dress uniform, prominently featuring Byzantine and Norse motifs and styling over a modern military dress base, including a (functional) ceremonial sword and dagger (sometimes a spear for bearing a guidon or banner) and a formal cape. They generally operate in pairs or multiples thereof, two each sharing a Arma TUV or TUA unit for patrol and response, four to eight to an arma TUW for marine patrol and response. Within the organization, Varangos captains have the title "Akólouthos" (Follower). Some exceptional individuals may differ somewhat from these baseline stats.
@@ -2468,7 +2496,10 @@ Character Sheet:
           Energy Use:
             Personal and Universal Energies Only: *Personal-Universal
           Rank:
-            Novice: *Novice
+            Novice: |
+              This character knows fewer than five spells or has less than an Amazing spell rank in at least two spells. He is spending most of his time with his master (when not practicing what he has learned on villains). He can study tomes and scrolls and even perform magic found therein, but he cannot yet learn spells on his own (spells that he has read in a tome or on a scroll must be studied each time he uses them—he cannot commit them to memory.)
+
+              Novices are usually ignored by the more powerful dimensional entities. A novice using a Dimensional Entreaty spell uses his magic as normal, but no FEAT roll is necessary to determine if the entity entreated will be affronted by the entreaty and take action. The dimensional entity feels that it is an investment in the future, but the character is currently beneath his total consideration. A novice can, however, provoke a hostile reaction from extradimensional entities by abusing their power—using it in ways the entity would not normally approve of (see “Abusing Dimensional Entreaties” in the “HOW SPELLS ARE CAST” section in the Manual of Magic.
           Master: Julian Constantine
           Spells: Any 1-4 spells from the Personal Energies or Universal Energies lists at Psyche Rank.
       Equipment:
@@ -2536,53 +2567,57 @@ Character Sheet:
             Karma: 100
             Resources: Excellent
             Popularity: Excellent
-          Powers:
-            Advanced Player's Book:
-              Magic:
-                Eldritch Bolts:
-                  Rank: Psyche
-                  Reference: *Eldritch_Bolts
-                Eldritch Shield:
-                  Rank: Psyche
-                  Reference: *Eldritch_Shield
-          Talents:
-            Scientific Skills:
-              Archaeology: *Archaeology
-            Mystic and Mental Skills:
-              Trance: *Trance
-              Mesmerism and Hypnosis: *Mesmerism_and_Hypnosis
-              Resist Domination: *Resist_Domination
-              Occult Lore: *Occult_Lore
-              Mystic Background: *Mystic_Background
-            Other Talents:
-              Languages: *Languages
-            Magic Wielder Talents:
-              Any Three of the Following:
-                - Bibliophile: *Bibliophile 
-                - Chronicler of Magic: *Chronicler_of_Magic
-                - Demonologist: *Demonologist
-                - Occultist: *Occultist
-                - Runesmith: *Runesmith
-                - Scholar of Antiquities: *Scholar_of_Antiquities
-                - Theoginist: *Theoginist
-                - Zoologist of Magic: *Zoologist_of_Magic
-          Magic:
-            Character Type:
-              Magic Wielder: *Magic_Wielder
-            Magic School:
-              Scientific Magic: *Scientific_Magic
-            Energy Use:
-              Personal and Universal Energies Only: *Personal-Universal
-            Rank:
-              Disciple: *Disciple
-            Master: Julian Constantine
-            Spells:  Any 5-8 spells from the Personal Energies or Universal Energies lists at Psyche Rank.
-        Equipment:
-        Vehicles:
-          Luxury Car: *Luxury_Car
-        Salaries Sundries and Other Equipment:
-          Purchased Suit or Tux: Multiple
-          Mystic Texts: *Mystic_Texts
-        Magical Items:
-          Grimoire: *Grimoire
-          Additional: 0-4 rolled, with Spells from the Personal Energies or Universal Energies lists at Psyche rank.
+          Special Abilities:
+            Powers:
+              Advanced Player's Book:
+                Magic:
+                  Eldritch Bolts:
+                    Rank: Psyche
+                    Reference: *Eldritch_Bolts
+                  Eldritch Shield:
+                    Rank: Psyche
+                    Reference: *Eldritch_Shield
+            Talents:
+              Scientific Skills:
+                Archaeology: *Archaeology
+              Mystic and Mental Skills:
+                Trance: *Trance
+                Mesmerism and Hypnosis: *Mesmerism_and_Hypnosis
+                Resist Domination: *Resist_Domination
+                Occult Lore: *Occult_Lore
+                Mystic Background: *Mystic_Background
+              Other Talents:
+                Languages: *Languages
+              Magic Wielder Talents:
+                Any Three of the Following:
+                  - Bibliophile: *Bibliophile 
+                  - Chronicler of Magic: *Chronicler_of_Magic
+                  - Demonologist: *Demonologist
+                  - Occultist: *Occultist
+                  - Runesmith: *Runesmith
+                  - Scholar of Antiquities: *Scholar_of_Antiquities
+                  - Theoginist: *Theoginist
+                  - Zoologist of Magic: *Zoologist_of_Magic
+            Magic:
+              Character Type:
+                Magic Wielder: *Magic_Wielder
+              Magic School:
+                Scientific Magic: *Scientific_Magic
+              Energy Use:
+                Personal and Universal Energies Only: *Personal-Universal
+              Rank:
+                Disciple: |
+                  The character possesses at least 5 spells or has at least an Amazing rank in all of his spells. He assists the master in some of his rituals, but is spending more time adventuring than a novice. He may learn new spells from his master’s written works.
+
+                  Disciples, like novices, are usually ignored by the more powerful dimensional entities. A disciple using a Dimensional Entreaty spell uses his magic as normal, but no FEAT roll is necessary to determine if the entity entreated will be affronted by the entreaty and take action. The dimensional entity feels that it is an investment in the future, but the character is currently beneath his total consideration. A disciple can, however, provoke a hostile reaction from extra-dimensional entities by abusing their power-using it in ways the entity would not normally approve of (see “Abusing Dimensional Entreaties” in the “HOW SPELLS ARE CAST” section in the Manual of Magic.)
+              Master: Julian Constantine
+              Spells:  Any 5-8 spells from the Personal Energies or Universal Energies lists at Psyche Rank.
+          Equipment:
+            Vehicles:
+              Luxury Car: *Luxury_Car
+            Salaries Sundries and Other Equipment:
+              Purchased Suit or Tux: Multiple
+              Mystic Texts: *Mystic_Texts
+            Magical Items:
+              Grimoire: *Grimoire
+              Additional: 0-4 rolled, with Spells from the Personal Energies or Universal Energies lists at Psyche rank.
