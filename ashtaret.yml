@@ -22,29 +22,27 @@ Character Sheet:
       Name: Ashtaret
       Identity: Ashtaret
       Secret:
-        Identity:
-          Demon: false
-          Deity: false
-          Ethereal: false
-          Normal Human: true
-        Note: Normal Human Aspects may have appropriate cover identities.
+        Demon: false
+        Deity: false
+        Ethereal: false
+        Normal Human: true
       Base of Operations: Manhattan
       Group Affiliation: ~
       Age: Timeless
       Origin:
         Physical Form:
           Changeling: &Changeling |
-              The hero can transform into any of a number of possible Body Types. Each Body Type aspect of the Changeling possesses its regular advantages and disadvantages which apply only when the hero is in that particular form.
+            The hero can transform into any of a number of possible Body Types. Each Body Type aspect of the Changeling possesses its regular advantages and disadvantages which apply only when the hero is in that particular form.
 
-              What powers the hero possesses are assigned to any and all of his Aspects. Each Aspect must have one Power which is unique to it, a Power no other Aspect has.
+            What powers the hero possesses are assigned to any and all of his Aspects. Each Aspect must have one Power which is unique to it, a Power no other Aspect has.
 
-              The hero can transform himself from one Aspect to another in 10 turns. During this time, no Powers can function and all Primary Abilities temporarily drop -2CS.
+            The hero can transform himself from one Aspect to another in 10 turns. During this time, no Powers can function and all Primary Abilities temporarily drop -2CS.
 
-              Changeling is similar to the Power of Alter Ego. If the player rolls that Power while creating a Changeling character, he can discard it and roll another Power.
+            Changeling is similar to the Power of Alter Ego. If the player rolls that Power while creating a Changeling character, he can discard it and roll another Power.
 
-              - Changelings roll on column 5, regardless of what the various Aspects would roll on.
-              - If while in one Aspect the hero loses all Health points, he can save his life by making a red Psyche FEAT. Success means he lives, but permanently loses the ability to transform into that Aspect.
-              - Powers can be assigned to any or all Aspects. Each Aspect must have a unique Power not shared with other Aspects.
+            - Changelings roll on column 5, regardless of what the various Aspects would roll on.
+            - If while in one Aspect the hero loses all Health points, he can save his life by making a red Psyche FEAT. Success means he lives, but permanently loses the ability to transform into that Aspect.
+            - Powers can be assigned to any or all Aspects. Each Aspect must have a unique Power not shared with other Aspects.
           Aspects:
             Demon: &Demon |
               These are magical beings from other planes of existence. They are both supernatural and corporeal in nature. The main difference between these types is their inherent personality. "Angels" are benevolent; "demons" are malevolent. Other than that, there isn't much difference.
@@ -117,11 +115,11 @@ Character Sheet:
             Conditions: Hallowed Ground
             Note: &Hallowed_Ground_Annunaki_Exception Sites consecrated to the Annunaki (including Ashtaret and Allatou) do not trigger this Weakness.
           Ethereal: &Weakness_Ethereal
-              Stimulus: *Psychological_Weakness
-              Effect: Special
-              Duration: *Continuous_with_Contact
-              Conditions: Hallowed Ground
-              Note: Sites consecrated to the Annunaki (including Ashtaret and Allatou) do not trigger this Weakness.
+            Stimulus: *Psychological_Weakness
+            Effect: Special
+            Duration: *Continuous_with_Contact
+            Conditions: Hallowed Ground
+            Note: *Hallowed_Ground_Annunaki_Exception
           Deity:
             Stimulus:
               Type: Energy Depletion
@@ -161,11 +159,10 @@ Character Sheet:
               Stimulus: Special
               Effect: Special
               Duration: Special
-              Conditions: Attempting to change Aspects.
-              Note:
-                - Assuming Deity Aspect requires a Red result on a Psyche FEAT from Normal Human Aspect at start of turn, Yellow from Demon and Ethereal Aspects. Requires a Red result on Psyche FEAT from Demon Aspect if subject to Hallowed Ground Weakness.
+              Conditions:
+                - Assuming Deity Aspect requires a Red result on a Psyche FEAT from Normal Human Aspect at start of turn, Yellow from Demon and Ethereal Aspects. Requires a Red result on Psyche FEAT if subject to Hallowed Ground Weakness.
                 - Assuming Demon or Ethereal Aspect is impossible if Aspect would be subject to Hallowed Ground Weakness.
-                - Assuming Normal Human Aspect requires a Yellow result on a Psyche FEAT from Demon Aspect if subject to Hallowed Ground Weakness.
+                - Assuming Normal Human Aspect requires a Yellow result on a Psyche FEAT if subject to Hallowed Ground Weakness.
                 - Failed FEAT to assume an Aspect requires 1d10 turns until retrying is possible.
                 - Any remaining duration is lost if Deity Aspect transformation ends prematurely. Recharge required to assume Deity Aspect afterwards, irrespective of remaining duration, unless in contact with an Energy Source.
       Abilities:
@@ -1465,11 +1462,10 @@ Character Sheet:
                     Name: Allatou
                     Identity: Allatou
                     Secret:
-                      Identity:
-                        Demon: false
-                        Ethereal: false
-                        Normal Human: true
-                        Animal: false
+                      Demon: false
+                      Ethereal: false
+                      Normal Human: true
+                      Animal: false
                     Base of Operations: Manhattan
                     Group Affiliation: ~
                     Age: Timeless
@@ -1510,8 +1506,7 @@ Character Sheet:
                             Stimulus: Special
                             Effect: Special
                             Duration: Special
-                            Conditions: Attempting to change Aspects.
-                            Note:
+                            Conditions:
                               - Assuming Demon or Ethereal Aspect is impossible if Aspect would be subject to Hallowed Ground Weakness.
                               - Assuming Normal Human Aspect requires a Yellow result on a Psyche FEAT from Demon Aspect if subject to Hallowed Ground Weakness.
                               - Failed FEAT to assume an Aspect requires 1d10 turns until retrying is possible.
