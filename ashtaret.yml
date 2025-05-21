@@ -33,8 +33,7 @@ Character Sheet:
       Age: Timeless
       Origin:
         Physical Form:
-          Type: Changeling
-          Reference: &Changeling |
+          Changeling: &Changeling |
               The hero can transform into any of a number of possible Body Types. Each Body Type aspect of the Changeling possesses its regular advantages and disadvantages which apply only when the hero is in that particular form.
 
               What powers the hero possesses are assigned to any and all of his Aspects. Each Aspect must have one Power which is unique to it, a Power no other Aspect has.
@@ -46,97 +45,77 @@ Character Sheet:
               - Changelings roll on column 5, regardless of what the various Aspects would roll on.
               - If while in one Aspect the hero loses all Health points, he can save his life by making a red Psyche FEAT. Success means he lives, but permanently loses the ability to transform into that Aspect.
               - Powers can be assigned to any or all Aspects. Each Aspect must have a unique Power not shared with other Aspects.
-          Note:
-            - Not all Powers are available in every aspect. An aspect will have a Rank in a Power if it is available. A Rank given with no Aspects is available to all Aspects.
-            - Continuously in Deity Aspect while in Ashtaret's Domain. May choose to appear in another Aspect when leaving that dimension, without triggering either the Changeling penalty timer or requiring an Energy Depletion recharge.
-            - Everything nonliving Ashtaret is wearing or carrying becomes Ethereal along with her when she changes into that Aspect.
           Aspects:
-            - &Demon
-              Type: Demon
-              Reference: |
-                These are magical beings from other planes of existence. They are both supernatural and corporeal in nature. The main difference between these types is their inherent personality. "Angels" are benevolent; "demons" are malevolent. Other than that, there isn't much difference.
+            Demon: &Demon |
+              These are magical beings from other planes of existence. They are both supernatural and corporeal in nature. The main difference between these types is their inherent personality. "Angels" are benevolent; "demons" are malevolent. Other than that, there isn't much difference.
 
-                These beings resemble characters from various mythologies. This affects their Popularity. Angels gain +2CS while demons lose -2CS on their initial Popularity. These beings do not necessarily follow the popular traditional behavior patterns. A heroic demon might be fighting a personal war against other, even more evil beings. A crazed angel might be a villain, seeking to purify the Earth at any cost.
+              These beings resemble characters from various mythologies. This affects their Popularity. Angels gain +2CS while demons lose -2CS on their initial Popularity. These beings do not necessarily follow the popular traditional behavior patterns. A heroic demon might be fighting a personal war against other, even more evil beings. A crazed angel might be a villain, seeking to purify the Earth at any cost.
 
-                - Demons roll on Column 5.
-                - Demons have no initial Contacts but will soon be sought out by groups who see them as symbols or tools.
-                - All Physical Abilities are raised +1CS.
-                - Such beings possess a Psychological Weakness that Negates their Power.
-                - Demons lose -2CS Popularity.
-                - Demons automatically possess Good Fire Generation and Specific Invulnerability to Heat and Fire.
-            - Type: Deity
-              Reference: |
-                This is an "Entity of Great Power" — or rather, was such a being. The deity was an actual god, demigod, or close relative who was actually worshipped at some point in the past. Now his powers have waned because the religion which was devoted to him is no longer practiced. His followers have disappeared into the annals of history. Thor is an example of such a being.
+              - Demons roll on Column 5.
+              - Demons have no initial Contacts but will soon be sought out by groups who see them as symbols or tools.
+              - All Physical Abilities are raised +1CS.
+              - Such beings possess a Psychological Weakness that Negates their Power.
+              - Demons lose -2CS Popularity.
+              - Demons automatically possess Good Fire Generation and Specific Invulnerability to Heat and Fire.
+            Deity: |
+              This is an "Entity of Great Power" — or rather, was such a being. The deity was an actual god, demigod, or close relative who was actually worshipped at some point in the past. Now his powers have waned because the religion which was devoted to him is no longer practiced. His followers have disappeared into the annals of history. Thor is an example of such a being.
 
-                Now he is a god-on-Earth and locked into a mortal shell. He is still a formidable being, though. Deities have increased ranks in all their primary abilities and cannot really die in the Earth Dimension unless the slayer is another deity. Each deity has a home dimension; on that plane the deity loses his special protection from death.
+              Now he is a god-on-Earth and locked into a mortal shell. He is still a formidable being, though. Deities have increased ranks in all their primary abilities and cannot really die in the Earth Dimension unless the slayer is another deity. Each deity has a home dimension; on that plane the deity loses his special protection from death.
 
-                Deities are usable as player characters. The Marvel Universe includes Asgardians, Olympians, and deities from a host of other pantheons. Both Thor and Hercules are members of the Avengers. Snowbird, daughter of an Inuit goddess, is a member of Alpha Flight. The thing that permits their playability is their diminished Power. Once Odin formed the Earth from the blood and bones of a slain Ice Giant, but he can't do things like that anymore.
+              Deities are usable as player characters. The Marvel Universe includes Asgardians, Olympians, and deities from a host of other pantheons. Both Thor and Hercules are members of the Avengers. Snowbird, daughter of an Inuit goddess, is a member of Alpha Flight. The thing that permits their playability is their diminished Power. Once Odin formed the Earth from the blood and bones of a slain Ice Giant, but he can't do things like that anymore.
 
-                There are three reasons a deity might be found on Earth. One is that his Powers have diminished to such a point that the Earth Dimension is the only place he can survive. The second is that he has been sent to the Earth Dimension by other, more powerful Deities. Both Thor and Snowbird are in this category. The third reason is that the deity is bored with timeless infinity and is slumming it on Earth as a way of generating excitement. Hercules fits this bill.
+              There are three reasons a deity might be found on Earth. One is that his Powers have diminished to such a point that the Earth Dimension is the only place he can survive. The second is that he has been sent to the Earth Dimension by other, more powerful Deities. Both Thor and Snowbird are in this category. The third reason is that the deity is bored with timeless infinity and is slumming it on Earth as a way of generating excitement. Hercules fits this bill.
 
-                Actually, there is also a fourth reason. The deity might be on Earth seeking Power, whether by regaining worshippers or establishing a portal between Earth and his home dimension. However, for game purposes, this reason is restricted to NPC deities who are acting as villains in your campaign.
+              Actually, there is also a fourth reason. The deity might be on Earth seeking Power, whether by regaining worshippers or establishing a portal between Earth and his home dimension. However, for game purposes, this reason is restricted to NPC deities who are acting as villains in your campaign.
 
-                - Deities roll on Column 5.
-                - All primary abilities are raised +2CS.
-                - Deities automatically possess at least one Travel Power.
-                - Deities gain two additional Powers.
-                - Deities have increased Popularity (+2CS) with the public but zero Popularity with the hierarchy of the major established Earth religions.
-                - Deities eventually attract any remaining living worshippers they still have. All of these people serve as Contacts. A deity PC who abuses his worshippers faces a stiff Karma penalty.
-                - Deities are honor-bound not to actively promote a religion based on themselves. Deity PCs who try this lose -1CS from all their Abilities and Powers.
-            - &Ethereal
-              Type: Ethereal
-              Note:
-                - All Physical attacks vs Ethereal Aspect have -9CS penalty, equivalent to Unearthly Resistance.
-                - Every nonliving thing worn or carried also becomes Ethereal when assuming Etheral Aspect until dropped.
-              Reference: |
-                The hero is an intangible, disembodied spirit. He can be a ghost who once possesses a mortal shell, or belong to a race that always exists in this form. An Ethereal can drift about in any direction he chooses, and can pass through solid matter without any effort. The visibility of an Ethereal varies according to his whim; he can be invisible, transparent, translucent, or opaque.
+              - Deities roll on Column 5.
+              - All primary abilities are raised +2CS.
+              - Deities automatically possess at least one Travel Power.
+              - Deities gain two additional Powers.
+              - Deities have increased Popularity (+2CS) with the public but zero Popularity with the hierarchy of the major established Earth religions.
+              - Deities eventually attract any remaining living worshippers they still have. All of these people serve as Contacts. A deity PC who abuses his worshippers faces a stiff Karma penalty.
+              - Deities are honor-bound not to actively promote a religion based on themselves. Deity PCs who try this lose -1CS from all their Abilities and Powers.
+            Ethereal: &Ethereal |
+              The hero is an intangible, disembodied spirit. He can be a ghost who once possesses a mortal shell, or belong to a race that always exists in this form. An Ethereal can drift about in any direction he chooses, and can pass through solid matter without any effort. The visibility of an Ethereal varies according to his whim; he can be invisible, transparent, translucent, or opaque.
 
-                If the Ethereal is a ghost, his form resembles an idealized version of his old body. The ghost's appearance is actually based on his self-image and thus reflects the ghost's attitude toward himself. This is why ghosts are usually either very beautiful (or handsome) or quite pathetic.
+              If the Ethereal is a ghost, his form resembles an idealized version of his old body. The ghost's appearance is actually based on his self-image and thus reflects the ghost's attitude toward himself. This is why ghosts are usually either very beautiful (or handsome) or quite pathetic.
 
-                Ghosts are immune to most physical attacks with Intensities less than Unearthly. They are vulnerable to Mental and Magical attacks, especially by Powers that affect the spirit. Either Psi or Spirit Vampirism can destroy an Ethereal.
+              Ghosts are immune to most physical attacks with Intensities less than Unearthly. They are vulnerable to Mental and Magical attacks, especially by Powers that affect the spirit. Either Psi or Spirit Vampirism can destroy an Ethereal.
 
-                While Ethereals are intangible on the Earth Dimension, they regain solidity in other Dimensions. In such realms Ethereals are vulnerable to all Powers except those that specifically affect Ethereals and other disembodied beings; these Powers are Spirit Summoning and Storage, Reincarnation, and Exorcism.
+              While Ethereals are intangible on the Earth Dimension, they regain solidity in other Dimensions. In such realms Ethereals are vulnerable to all Powers except those that specifically affect Ethereals and other disembodied beings; these Powers are Spirit Summoning and Storage, Reincarnation, and Exorcism.
 
-                If the Ethereal once had a solid body, he might not necessarily have died to reach his current state. He might have become an Ethereal by being directly transformed from solidity to ethereality. Such transformations can be magical, scientific, Power-based, accidental, or deliberate. The Red Ghost is an example of a Normal Human directly transformed into an Ethereal as a result of a scientific mishap.
+              If the Ethereal once had a solid body, he might not necessarily have died to reach his current state. He might have become an Ethereal by being directly transformed from solidity to ethereality. Such transformations can be magical, scientific, Power-based, accidental, or deliberate. The Red Ghost is an example of a Normal Human directly transformed into an Ethereal as a result of a scientific mishap.
 
-                If the Ethereal possesses Alter Ego or Lifeform Creation, he can create a living body for himself. If he possesses Mental Domination, he can possess a human host.
+              If the Ethereal possesses Alter Ego or Lifeform Creation, he can create a living body for himself. If he possesses Mental Domination, he can possess a human host.
 
-                - Ethereals roll on column 1. (They're about as altered as a human can be).
-                - Fighting rank is zero in the Earth Dimension, unless the Ethereal is fighting another Ethereal.
-                - Physical attacks have a decreased effect on Ethereals (-9CS).
-                - Spirit Vampirism completely destroys Ethereals. Psi-Vampirism destroys the self-image and reduces the Ethereal to a mindless Poltergeist.
-                - At least one Contact can be a Spiritual Medium.
-            - &Normal_Human
-              Type: Normal Human
-              Reference: |
-                The body is completely normal and possesses no detectable abnormalities. Any Powers the hero possesses have left no visible mark on the body.
+              - Ethereals roll on column 1. (They're about as altered as a human can be).
+              - Fighting rank is zero in the Earth Dimension, unless the Ethereal is fighting another Ethereal.
+              - Physical attacks have a decreased effect on Ethereals (-9CS).
+              - Spirit Vampirism completely destroys Ethereals. Psi-Vampirism destroys the self-image and reduces the Ethereal to a mindless Poltergeist.
+              - At least one Contact can be a Spiritual Medium.
+            Normal Human: &Normal_Human |
+              The body is completely normal and possesses no detectable abnormalities. Any Powers the hero possesses have left no visible mark on the body.
 
-                - Random ranks are rolled on Column 2 of the Random Ranks Table.
-                - Resources are increased +1CS.
-        Origin of Power: &Creation
-          Type: Creation
-          Reference: |
+              - Random ranks are rolled on Column 2 of the Random Ranks Table.
+              - Resources are increased +1CS.
+        Origin of Power:
+          Creation: &Creation |
             The hero was born in the form he now has, that of an adult who possesses Power and/or whatever the Body Type is. Most of the Artificial Body Types belong in this class. Examples include the android Human Torch, all robots, angels, demons, and deities.
         Weakness:
           Demon: &Weakness_Demon
-            Stimulus: &Psychological_Weakness
-              Type: Psychological Weakness
-              Reference: |
+            Stimulus: 
+              Psychological Weakness: &Psychological_Weakness |
                 A specific event, condition, or mental state has an adverse effect on the hero. This Stimulus directly affects the hero's mind; any resulting physical damage is psychosomatic in nature. That is, any physical damage results are due to the hero's instinctive belief in those results.
 
                 Examples include being physically bound, even if the hero could normally snap the binding material; facing a foe covered in a specific color; or feeling extremely confused.
 
                 Psychological Weaknesses can be temporarily overcome by an Unearthly Intensity Psyche FEAT. They can be permanently overcome by a Shift-Z Intensity Psyche FEAT.
               Effect:
-                Type: Power Negation
-                Reference: |
-                  The hero's Powers cease to function when the hero is within 20 feet of the stimulus. The hero's Primary Abilities are also affected; these drop -1CS per 10 turns until a minimum rank of Typical is reached for all of them. If the. hero is beyond the 20 foot limit but tries to use his Powers to affect the Stimulus, certain uses of Power automatically fail. Any Power that directly acts on a target cannot affect a Stimulus. Only Powers that indirectly affect the Stimulus succeed, such as using brute force to lob missiles at the Stimulus.
-            Duration: &Continuous_with_Contact
-              Type: Continuous with Contact
-              Reference: |
-                As long as the hero remains within the effective range of the Stimulus, the Effect continues. When the hero is insulated or moved away from the Stimulus, the Effect immediately ceases. Lost Health points are returned at a rate of 2 per turn. If death has occurred, the hero now has the possibility of being revived.
+                Power Negation: The hero's Powers cease to function when the hero is within 20 feet of the stimulus. The hero's Primary Abilities are also affected; these drop -1CS per 10 turns until a minimum rank of Typical is reached for all of them. If the. hero is beyond the 20 foot limit but tries to use his Powers to affect the Stimulus, certain uses of Power automatically fail. Any Power that directly acts on a target cannot affect a Stimulus. Only Powers that indirectly affect the Stimulus succeed, such as using brute force to lob missiles at the Stimulus.
+            Duration:
+              Continuous with Contact: &Continuous_with_Contact As long as the hero remains within the effective range of the Stimulus, the Effect continues. When the hero is insulated or moved away from the Stimulus, the Effect immediately ceases. Lost Health points are returned at a rate of 2 per turn. If death has occurred, the hero now has the possibility of being revived.
             Conditions: Hallowed Ground
-            Note: Sites consecrated to the Annunaki (including Ashtaret and Allatou) do not trigger this Weakness.
+            Note: &Hallowed_Ground_Annunaki_Exception Sites consecrated to the Annunaki (including Ashtaret and Allatou) do not trigger this Weakness.
           Ethereal: &Weakness_Ethereal
               Stimulus: *Psychological_Weakness
               Effect: Special
@@ -149,31 +128,22 @@ Character Sheet:
               Reference: |
                 The hero has a finite energy supply that permits him to manifest Power. This energy must be periodically renewed by means of rest, food, Energy Absorption, Energy Vampirism, or simply making contact with a source of that energy. If the hero's energy level drops too low, dire Effects result.
             Effect: Special
-            Duration: &Permanent
-              Type: Permanent
-              Reference: |
-                The Stimulus does its full damage to the hero, even when exposure to the Stimulus has been interrupted. In this case, the Stimulus sets off a bodily self-destruction sequence that must continue to its full extent. In the case of Power Negation, the hero's Powers are permanently lost. Incapacitation results in the hero reaching zero Health points and lapsing into a coma lasting 1 -10 days. After that time, he may regain his Health at the normal rate. Fatal results in the death of the hero as both Health and Endurance drop to zero. The hero can be revived, however, and will eventually recover if revival occurs.
+            Duration:
+              Permanent: &Permanent The Stimulus does its full damage to the hero, even when exposure to the Stimulus has been interrupted. In this case, the Stimulus sets off a bodily self-destruction sequence that must continue to its full extent. In the case of Power Negation, the hero's Powers are permanently lost. Incapacitation results in the hero reaching zero Health points and lapsing into a coma lasting 1 -10 days. After that time, he may regain his Health at the normal rate. Fatal results in the death of the hero as both Health and Endurance drop to zero. The hero can be revived, however, and will eventually recover if revival occurs.
             Conditions: Assuming Deity Aspect
             Note:
               - In the Earth Dimension, forced change back to Demon Aspect after 1d100 turns in Deity Aspect, doubled if a Psyche FEAT has Red result rolled after determining duration, unless in continuous contact with Energy Source while in that Aspect (contact pauses countdown).
               - Cannot resume Deity form until 1d100 turns exposure to Energy Source to recharge, Red Psyche FEAT to halve time (recharge does not begin until duration of change concludes).
           Normal Human: &Weakness_Normal_Human
             Stimulus:
-              - Type: Elemental Allergy
-                Reference: |
-                  The hero suffers adverse effects if he is exposed to a specific one of the hundred-odd elements. This Allergy only occurs if the element is present in a pure state and in an accumulation of at least one ounce. If the element is combined in a molecular state or is in insufficient quantities, no Effect occurs. The element must be within 20 feet of the hero for it to have any Effect.
+              Elemental Allergy: |
+                The hero suffers adverse effects if he is exposed to a specific one of the hundred-odd elements. This Allergy only occurs if the element is present in a pure state and in an accumulation of at least one ounce. If the element is combined in a molecular state or is in insufficient quantities, no Effect occurs. The element must be within 20 feet of the hero for it to have any Effect.
 
-                  This allergy can be overcome by physically insulating the hero from the element or by increasing the distance between them.
-              - Type: Molecular Allergy
-                Reference: |
-                    This is similar to Elemental Allergy. A specific compound causes the Effect. Common examples include water, wood, and Adamantium.
-              - Type: Energy Allergy
-                Reference:
-                  The hero suffers when he is exposed to a specific form of energy. This can be any wavelength or Intensity of energy found in the Energy Emission and Energy Control sections of this book. Sunlight is a common example of Energy Allergy, particularly when dealing with supernatural beings.
+                This allergy can be overcome by physically insulating the hero from the element or by increasing the distance between them.
+              Molecular Allergy: This is similar to Elemental Allergy. A specific compound causes the Effect. Common examples include water, wood, and Adamantium.
+              Energy Allergy: The hero suffers when he is exposed to a specific form of energy. This can be any wavelength or Intensity of energy found in the Energy Emission and Energy Control sections of this book. Sunlight is a common example of Energy Allergy, particularly when dealing with supernatural beings.
             Effect:
-              Type: Fatal
-              Reference: |
-                As in the above, the hero gets ill after the initial exposure to the Stimulus. However, the Health loss does not stop at zero. Death will eventually occur if Health and (subsequently) Endurance drop to zero during the Weakness Duration. The hero can be revived if proper medical attention is given, but only after his Health and Endurance have both reached zero.
+              Fatal: As in the above, the hero gets ill after the initial exposure to the Stimulus. However, the Health loss does not stop at zero. Death will eventually occur if Health and (subsequently) Endurance drop to zero during the Weakness Duration. The hero can be revived if proper medical attention is given, but only after his Health and Endurance have both reached zero.
             Duration: *Permanent
             Conditions: Exposure to sufficient amounts of toxic substances or sufficiently intense dangerous energies causes loss of Health and Endurance.
             Note: This Weakness simply reflects how dangerous substances and energy like poison, fire, radiation, electricity, etc. affect Normal Humans.
@@ -226,11 +196,7 @@ Character Sheet:
               Ethereal: Amazing
               Normal Human: Excellent
           Reason:
-            Rank:
-              Demon: Incredible
-              Deity: Monstrous
-              Ethereal: Incredible
-              Normal Human: Incredible
+            Rank: Incredible
           Intuition:
             Rank:
               Demon: Monstrous
@@ -251,7 +217,7 @@ Character Sheet:
             Normal Human: 80
           Karma:
             Demon: 190
-            Deity: 275
+            Deity: 240
             Ethereal: 190
             Normal Human: 190
           Resources:
@@ -1063,24 +1029,24 @@ Character Sheet:
                   Rank:
                     Demon: Monstrous
                     Deity: Unearthly
-                    Normal Human: Excellent
+                    Normal Human: Remarkable
                   Total:
                     Demon:
                       Rank: Class-1000
-                      Number: 1615
-                      Spread: 55
-                      Turns Until Full Recovery: 49
+                      Number: 2660
+                      Spread: 57
+                      Turns Until Full Recovery: 36
                     Deity:
                       Rank:
                         Name: Class-3000
-                      Number: 3090
-                      Spread: 60
-                      Turns Until Full Recovery: 51
+                      Number: 4290
+                      Spread: 62
+                      Turns Until Full Recovery: 43
                     Normal Human:
-                      Rank: Class-1000
-                      Number: 1029
+                      Rank: Shift-Z
+                      Number: 919
                       Spread: 29
-                      Turns Until Full Recovery: 52
+                      Turns Until Full Recovery: 31
                   Note: Rank-less abilities not included. Focus itself is, but recovery is at full Rank.
                   Reference: &Focus |
                     The hero can channel all his raw energy into a single burst of a chosen Ability or Power. All his Power and Ability rank numbers are totaled together. This rank number replaces the rank number for a chosen Power. Upon the completion of releasing the Power, all the hero's Abilities and Powers temporarily drop to Feeble. This Power's rank number is the total amount of lost points the hero can regain each turn. Points are divided evenly between all the depleted Abilities and Powers. (Okay, this isn't really a Power either. Roll again for an additional Power.)
@@ -1783,18 +1749,18 @@ Character Sheet:
                               Focus:
                                 Ranks:
                                   Demon: Amazing
-                                  Normal Human: Good
+                                  Normal Human: Excellent
                                 Totals:
                                   Demon:
                                     Rank: Shift-Z
                                     Number: 825
-                                    Spread: 24
+                                    Spread: 29
                                     Turns to Full Recovery: 17
                                   Normal Human:
                                     Rank: Shift-Y
-                                    Number: 354
-                                    Spread: 17
-                                    Turns to Full Recovery: 36
+                                    Number: 424
+                                    Spread: 19
+                                    Turns to Full Recovery: 22
                                 Reference: *Focus
                             Self Alteration:
                               Imitation-Face Changer:
@@ -1802,6 +1768,8 @@ Character Sheet:
                                   Normal Human: Excellent
                                 Reference: *Imitation-Face_Changer
                           Advanced Player's Book:
+                            Resistances:
+                              Invulnerability to Fire and Heat: *Invulnerability_to_Fire_and_Heat
                             Body Alterations-Defensive:
                               Immortality: *Immortality
                             Magic:
