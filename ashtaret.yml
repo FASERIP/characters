@@ -1983,24 +1983,7 @@ Character Sheet:
                             Dimensional Energies:
                               Dimensional Aperture:
                                 Reference: *Amazing
-                    Equipment:
-                      Melee and Thrown Weapons:
-                        Whip, Leather: &Leather_Whip
-                          Price: *Poor
-                          Damage: 0
-                          Type:
-                            - Grappling
-                            - Grabbing
-                          Material Strength:
-                            Rank: *Typical
-                          Reference: |
-                            Whips can make Grappling or Grabbing attacks from a distance, as if the whip had a Strength equal to its material strength. Example: a villain using a leather whip tries to entangle a charging hero. The villain rolls a Grappling attack on the Typical column. The result would then be a Miss, Partial hold, or Full hold.
-                      Salaries Sundries and Other Equipment:
-                        Respectable Clothing: ~
-                        Mystic Texts: *Mystic_Texts
-                      Magical Items:
-                        Grimoire:
-                          Reference: *Grimoire
+                    Equipment: []
                     Description:
                       Biography: |
                         The discarded demonic aspect of Ereshkigal, Allatou was absorbed by Ashtaret and focused into a Servant. She serves as Ashtaret's majordomo, executor, and consigliere, and her word is Ashtaret's.
