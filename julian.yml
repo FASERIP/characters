@@ -1534,7 +1534,7 @@ Character Sheet:
                     Total: Remarkable
                     Base: Good
                 Note:
-                  - &+2CS_High-Quality +2CS to Cost for extremely high-quality Package.
+                  - &2CS_High-Quality +2CS to Cost for extremely high-quality Package.
                   - Multiple:
                     - Small
                     - Medium:
@@ -1547,7 +1547,7 @@ Character Sheet:
                   Total: Amazing
                   Base: Remarkable
                 Note:
-                  - *+2CS_High-Quality
+                  - *2CS_High-Quality
                   - Multiple:
                     - Size
                     - Number
@@ -1557,7 +1557,7 @@ Character Sheet:
                 Cost:
                   Total: Amazing
                   Base: Remarkable
-                Note: *+2CS_High-Quality
+                Note: *2CS_High-Quality
                 Reference: &Kitchen_Package |
                   Cost: Good - Occupies one room. Consists of sink, stove (gas or electric), four cabinets, dishware and stainless tableware, counterspace. This version is standard equipment with most residential housing. At Excellent Cost add refrigerator, dishwasher, or microwave, plus a fire extinguisher. At Remarkable Cost add all three and freezer.
               Library Package:
@@ -1565,7 +1565,7 @@ Character Sheet:
                   Total: Amazing
                   Base: Remarkable
                 Note:
-                  - *+2CS_High-Quality
+                  - *2CS_High-Quality
                   - Multiple: Size
                 Reference: &Library_Package |
                   Cost: Excellent - Occupies one room. Consists of two easy chairs, table, desk, straight chair, and up to five bookcases on general subjects (texts readily available, and including encyclopedias, world histories, and atlases). At Remarkable Cost adds globe, microfiche or microfilm reader, computer terminal (only useful if building has computer room or is linked up to computer). Special or rare volumes, such as the Book of the Vishanti, the Necronomicon, or Amazing Fantasy #15, would have to be obtained separately.
@@ -1573,28 +1573,28 @@ Character Sheet:
                 Cost:
                   Total: Amazing
                   Base: Remarkable
-                Note: *+2CS_High-Quality
+                Note: *2CS_High-Quality
                 Reference: &Office_Package |
                   Cost: Good - Occupies one or more rooms. Includes desk, three chairs, two lamps. At Excellent Cost doubles the material, adds file cabinet, typewriter. At Remarkable Cost, add computer terminal, double previous material, add hanging plants, decorative art.
               Rec-Room Package:
                 Cost:
                   Total: Amazing
                   Base: Remarkable
-                Note: *+2CS_High-Quality
+                Note: *2CS_High-Quality
                 Reference: &Rec-Room_Package |
                   Cost: Excellent Occupies one or more rooms. Consists of unmatched sofa and easy chairs, pool table or ping pong table or TV. At Remarkable Cost, contains all of the above, video and/or pinball machines (hot tub is optional, only in California). At Amazing Cost, has all of the above plus computer-assisted holographic entertainment projector.
               Gym Package:
                 Cost:
                   Total: Unearthly
                   Base: Amazing
-                Note: *+2CS_High-Quality
+                Note: *2CS_High-Quality
                 Reference: &Gym_Package |
                   Cost: Excellent Occupies one or more rooms. Consists of typical weight-lifting equipment, universal gym, lockers. At Remarkable Cost includes rings, even and uneven parallel bar, short horse. At Incredible Cost includes separate locker and steam rooms (two additional rooms), diagnostic displays. At Amazing Cost includes a boxing area, robotic opponents, and electronic-based weights capable of reaching 100 tons, and must occupy at least 3 areas.
               Communications Room:
                 Cost:
                   Total: Monstrous
                   Base: Incredible
-                Note: *+2CS_High-Quality
+                Note: *2CS_High-Quality
                 Reference: &Communications_Room |
                   Cost: Remarkable Occupies one room. Includes chair, short-wave monitor, tap-in for computer networks, police band. At Incredible Cost includes national security alert equipment and visual display screens.
               Trophy Room Package:
@@ -1602,7 +1602,7 @@ Character Sheet:
                   Total: Incredible
                   Base: Excellent
                 Note: 
-                  - *+2CS_High-Quality
+                  - *2CS_High-Quality
                   - Multiple
                 Reference: &Trophy_Room_Package |
                   Cost: Excellent Occupies one room. Contains showcase, lighting, frames to display mementos, and may be used as a reception hall or gallery. At Remarkable Cost, contains capability to handle potentially dangerous exhibits at the Incredible level.
@@ -1610,21 +1610,21 @@ Character Sheet:
                 Cost:
                   Total: Amazing
                   Base: Remarkable
-                Note: *+2CS_High-Quality
+                Note: *2CS_High-Quality
                 Reference: &Garage_Package |
                   Cost: Good Occupies one room. Servicing for a single ground vehicle, including repair facilities and fire extinguisher. Excellent Cost may service up to three ground vehicles, and Remarkable up to 12 ground vehicles.
               Workshop Package:
                 Cost:
                   Total: Unearthly
                   Base: Amazing
-                Note: *+2CS_High-Quality
+                Note: *2CS_High-Quality
                 Reference: &Workshop_Package |
                   Cost: Remarkable Occupies one or more rooms. Basic equipment for metal and woodworking: lathes, drills, saws and fire extinguisher. At Incredible Cost includes laser-guided instruments. At Amazing Cost includes all of the above and automatic processing materials (an automatic factory, in effect, for simple goods).
               Laboratory Package:
                 Cost:
                   Total: Unearthly
                   Base: Amazing
-                Note: *+2CS_High-Quality
+                Note: *2CS_High-Quality
                 Reference: &Laboratory_Package |
                   Cost: Remarkable Occupies one or more rooms. Basic lab equipment: scales, sinks, common chemicals, microscope. At Incredible Cost include computer capable of analysis with incredible ability, or clean room (prevent germs from escaping lab). At Amazing Cost include both, plus poison analysis and serum dispenser (Excellent effects against known poisons only). Certain pieces, such as electron micro-probes and stellar mass detectors, may be purchased separately (in general, such items are Incredible Rank purchases).
               Power Room:
@@ -1635,14 +1635,14 @@ Character Sheet:
                 Cost:
                   Total: Monstrous
                   Base: Incredible
-                Note: *+2CS_High-Quality
+                Note: *2CS_High-Quality
                 Reference: &Computer_Room |
                   Cost: Remarkable Occupies one room. Includes computer itself and a terminal for access, or terminal and communication equipment for access to computer outside the building. This computer is capable of performing simple tasks (calculation, information retrieval, monitoring) with Excellent ability. Incredible Cost buys a computer with this at Remarkable ability. Computers with higher forecasting and processing abilities, such as the one running the old Baxter Building and artificial computer intelligences, are unique designs.
               Conference Room Package:
                 Cost:
                   Total: Monstrous
                   Base: Incredible
-                Note: *+2CS_High-Quality
+                Note: *2CS_High-Quality
                 Reference: &Conference_Room_Package |
                   Cost: Remarkable Occupies one room. Contains material for assembling of heroes or alternately for news conferences and presentations. Contains large table and up to 10 normal chairs, or platform, speaker, and 30 ordinary chairs. Wood paneling available at Incredible Cost.
               Security Package:
