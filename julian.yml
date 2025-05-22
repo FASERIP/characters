@@ -846,7 +846,7 @@ Character Sheet:
               Languages: &Languages The character with this Talent has a natural understanding of languages. The character gains 1 additional language at start, and may add other languages at half the cost of a Talent (500 points regardless of who teaches it). Characters without the Languages Talent must gain this Talent first to learn other languages. The gaining of additional languages assumes someone is available to teach these languages. A Player character with this Talent does not have to assign a language at start, but may fill one in later as need be.
               First Aid: &First_Aid The medicine Talent notes that the loss of Endurance ranks may be halted by someone checking on the dying character and administering some form of aid. The First Aid Talent grants the character this immediate halt to Endurance rank loss, the recovery of one rank immediately (one use only per situation), and in addition, the hero with this Talent can stabilize a dying character at Shift 0 Health up to 5 rounds after that character reaches that level.
               Repair/Tinkering: &Repair-Tinkering The character with this Talent gains a +1CS to any Reason FEATs involving the repair and modification of existing items, but not the building of new items. This +1CS may be added to any other bonuses gained from other Talents, so that an Engineer with Tinkering Talent would gain a +2CS on repair.
-              Performer: The character is someone who acts, sings, dances, mimes, or otherwise uses his Talents to entertain (this is related to the Artist, the key difference being that the Artist may leave the scene of creation; the Performer is identified with that creation directly). A Performer receives 10 karma points for a week's worth of performance, whether in a play, doing a nightclub routine, or working for a movie.
+              Performer: &Performer The character is someone who acts, sings, dances, mimes, or otherwise uses his Talents to entertain (this is related to the Artist, the key difference being that the Artist may leave the scene of creation; the Performer is identified with that creation directly). A Performer receives 10 karma points for a week's worth of performance, whether in a play, doing a nightclub routine, or working for a movie.
               Leadership: &Leadership The hero with this Talent has the brains and understanding of a cohesive group, such that he is a benefit to the team. Any Karma Pool to which the character belongs receives a 50-point bonus, provided the character with this Talent is recognized as the "team leader." A Karma Pool may only have one recognized leader, though more than one character with Leadership may belong to one group. When the "Leader" of a group leaves, the 50 points are deducted from the Karma Pool, but the leader does not receive them for personal use (the bonus points only exist as a part of the pool)
             Magic Wielder Talents:
               Bibliophile: &Bibliophile The character has an extensive knowledge of magical books, scrolls, or other primarily informational items, and the lore concerning them. He has a +2CS when using or researching these.
@@ -1839,7 +1839,7 @@ Character Sheet:
                     Reference: The caster surrounds himself or another character with a shining aura that acts as body armor against all forms of attack. It does not hinder the caster in any way. An aura shield has an armor rank equal to the spell rank -1CS. If it is hit by an attack with a higher power rank it is shattered and disappears, though no damage reaches the caster during that round. Only one aura shield can surround a character at any given time.
                   Vapors-Resist Death:
                     Rank: Amazing
-                    Reference: |
+                    Reference: &Vapors-Resist_Death |
                       The caster can conjure forth magical vapors, which pour out from around his feet, hands, or just suddenly begin to swirl in the air (caster’s discretion). These vapors will only cover one individual the caster chooses within the area of spell. This character must be dying or dead for no more than 2 rounds when the spell is cast. These extremely powerful vapors will bring the character up to 0 Health points and keep him there (if he has died) or will freeze him at the level of his current Health and Endurance. This “freezing” of the character will last for the duration of effect and allows for time to treat his wounds or the condition which is killing him (taking him to a hospital, applying spells that heal, etc.)
 
                       Once applied, these vapors wrap the target in a black, swirling shroud. The target remains unconscious while in the vapors.
@@ -1923,9 +1923,9 @@ Character Sheet:
             Magic School:
               Eclectic Magic: This is an unorganized school of magic, that is, it follows no one school of philosophy but is a hodge-podge of “get-as-get-can” magic. It is considered neutral magic. Many of those who “dabble” in magic, and are not up to the level of a Marvel super hero, usually wind up with this type of magic. A spell learned here, an enchantment discovered there, makes up the whole of their philosophy. The bonus with this is that there is very little to bind the character (enemies, rituals, obligations, etc.), the penalty with this type of magic is that there is no one to learn from in a complete and comprehensive manner; thus advancement can be very slow.
             Energy Use:
-              Personal and Universal Energies Only: *Personal-Universal
+              Personal and Universal Energies Only: &Personal-Universal Personal and Universal Energies Only means that the character can use spells listed as both Personal Energies and Universal Energies. The character’s spells will only be able to be utilized by tapping into either his personal energy or the energy of the universe around him.
             Rank:
-              Adept: |
+              Adept: &Adept |
                 The character possesses at least 8 spells. He has a spell rank of at least Excellent in all of them and Incredible or better in at least two of them. He spends more time adventuring than he spends with his master, though he is still at his master’s beck and call. His studying of the writings of the ancient arts gleans him more information than if he were a novice or disciple.
 
                 This is the lowest rank at which a sorcerer could normally gain special attention from dimensional beings (see the Entreaty FEAT Roll Table and the Casting Shifts Table in Book 1.
@@ -2329,7 +2329,7 @@ Character Sheet:
             Magic Wielder: *Magic_Wielder
             Magic School: *Scientific_Magic
             Energy Use:
-              Personal and Universal Energies Only: &Personal-Universal Personal and Universal Energies Only means that the character can use spells listed as both Personal Energies and Universal Energies. The character’s spells will only be able to be utilized by tapping into either his personal energy or the energy of the universe around him.
+              Personal and Universal Energies Only: *Personal-Universal
             Rank:
               Disciple: *Adept
             Master: Julian Constantine
