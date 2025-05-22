@@ -2194,65 +2194,65 @@ Character Sheet:
                 Total Memory: #33
                   Rank: Unearthly
                   Reference: *Total_Memory
-                Physical Enhancement:
-                  Body Resistance: #P2
-                    Rank: Amazing
-                    Reference: 
-                      This is the form of Body Armor most heroes want. The hero's body is composed of apparently normal flesh. However, the tissue of capable of withstanding major damage without showing any effects. The resistance covers physical and energy attacks only.
+              Physical Enhancement:
+                Body Resistance: #P2
+                  Rank: Amazing
+                  Reference: 
+                    This is the form of Body Armor most heroes want. The hero's body is composed of apparently normal flesh. However, the tissue of capable of withstanding major damage without showing any effects. The resistance covers physical and energy attacks only.
 
-                      The Intensity rank number of the attack is reduced by this Power's rank number. The remaining Intensity is the actual damage the hero suffers.
+                    The Intensity rank number of the attack is reduced by this Power's rank number. The remaining Intensity is the actual damage the hero suffers.
 
-                      While the hero's skin shows the effects of the tremendous abuse it suffers, at least it heals quickly. The Power enables the epidermis to heal at a tenfold rate.
+                    While the hero's skin shows the effects of the tremendous abuse it suffers, at least it heals quickly. The Power enables the epidermis to heal at a tenfold rate.
 
-                      An Optional Power is Regeneration.
-                  Regeneration: #P9
-                    Rank: Amazing
-                    Reference: The hero can rapidly recover from any wound. Cuts quickly close and disease symptoms disappear. The hero heals at an accelerated rate equal to the Power rank number times the normal amount of time. For example, a Typical rank can heal six times as fast as normal, an Unearthly rank heals at a hundredfold rate, and so on. With time, the hero can regrow large areas of lost tissue, especially severed limbs. Lost limbs or organs require a red FEAT. It cannot repair losses that resulted in the hero's death unless the hero is revived. If such a fatal loss and subsequent revival occurs, the hero requires life-support equipment to give his Power time to function.
-                  Self-Sustenance: #P11
-                    Rank: Unearthly
-                    Form: Permanent
-                    Reference: |
-                      The hero can survive indefinitely without consuming air, water, or food. Bodily wastes are internally recycled back into useable materials.
+                    An Optional Power is Regeneration.
+                Regeneration: #P9
+                  Rank: Amazing
+                  Reference: The hero can rapidly recover from any wound. Cuts quickly close and disease symptoms disappear. The hero heals at an accelerated rate equal to the Power rank number times the normal amount of time. For example, a Typical rank can heal six times as fast as normal, an Unearthly rank heals at a hundredfold rate, and so on. With time, the hero can regrow large areas of lost tissue, especially severed limbs. Lost limbs or organs require a red FEAT. It cannot repair losses that resulted in the hero's death unless the hero is revived. If such a fatal loss and subsequent revival occurs, the hero requires life-support equipment to give his Power time to function.
+                Self-Sustenance: #P11
+                  Rank: Unearthly
+                  Form: Permanent
+                  Reference: |
+                    The hero can survive indefinitely without consuming air, water, or food. Bodily wastes are internally recycled back into useable materials.
 
-                      Normally the hero would not need to replenish himself when his power reached its limit. He merely resumes normal consumption habits (breathe normally, eat a light snack, etc.). This is the permanent form of the power. The temporary form requires the hero to consume mass quantities at the expiration of the Power. ("That's the fifteenth steak you've eaten, Fred. How long did you say it's been since you ate last?") The required intake is one-quarter what the hero would normally have consumed during the time he was abstaining. The hero can raise his Power rank +1CS by opting for the temporary form.
-                Power Control:
-                  Residual Absorption: #PC12
-                    Rank: Incredible
-                    Reference: 
-                      The hero can duplicate a Power by absorbing the traces left behind whenever a Power is used. The residue may be in anything that was near or the target of a Power's emission.
+                    Normally the hero would not need to replenish himself when his power reached its limit. He merely resumes normal consumption habits (breathe normally, eat a light snack, etc.). This is the permanent form of the power. The temporary form requires the hero to consume mass quantities at the expiration of the Power. ("That's the fifteenth steak you've eaten, Fred. How long did you say it's been since you ate last?") The required intake is one-quarter what the hero would normally have consumed during the time he was abstaining. The hero can raise his Power rank +1CS by opting for the temporary form.
+              Power Control:
+                Residual Absorption: #PC12
+                  Rank: Incredible
+                  Reference: 
+                    The hero can duplicate a Power by absorbing the traces left behind whenever a Power is used. The residue may be in anything that was near or the target of a Power's emission.
 
-                      The Power rank determines what the rank is for any Powers created in this way. The duration of the borrowed Powers is determined by the hero's Reason. A green Reason FEAT gives a duration equal to the Reason rank times 100 turns. A yellow FEAT raises that to 10,000 turns times the Reason rank number. A red FEAT increases that to permanence.
+                    The Power rank determines what the rank is for any Powers created in this way. The duration of the borrowed Powers is determined by the hero's Reason. A green Reason FEAT gives a duration equal to the Reason rank times 100 turns. A yellow FEAT raises that to 10,000 turns times the Reason rank number. A red FEAT increases that to permanence.
 
-                      The average amount of residue bearing material is about the size of a breadloaf. It is completely drained after a single use.
-                Self-Alteration:
-                  Energy Body: #S13
-                    Rank: Incredible
-                    Energy Types:
-                      Fire: Good
-                      Light: Incredible
-                      Shadow: Incredible
-                    Reference: |
-                      The hero can transform his body into a coherent energy field that supports his lifeforce and is capable of controlled actions. The energy can be of any type (see the Energy Emission listings).
+                    The average amount of residue bearing material is about the size of a breadloaf. It is completely drained after a single use.
+              Self-Alteration:
+                Energy Body: #S13
+                  Rank: Incredible
+                  Energy Types:
+                    Fire: Good
+                    Light: Incredible
+                    Shadow: Incredible
+                  Reference: |
+                    The hero can transform his body into a coherent energy field that supports his lifeforce and is capable of controlled actions. The energy can be of any type (see the Energy Emission listings).
 
-                      When creating the character, the player determines the nature of the energy into which the hero can turn. The rank determines the number of possible energy types. The rank for each energy type is originally Good: this is modified by the Ability Modifier Table found on page 6 of the Player's Book. Each Power is rolled separately. Thus, a hero might have a Poor sound-form and an Incredible radiation-form. Damage to the Energy Body is the same as damage to the normal body. The Energy Body is subject to anything that would affect energy of its type. The hero makes a standard Resistance roll to determine such effects on the Energy Body. The hero may find himself confined in a storage field while in energy-form. If so, he must make a red FEAT to attempt to revert to normal. If he fails, he must escape in his energy form.
+                    When creating the character, the player determines the nature of the energy into which the hero can turn. The rank determines the number of possible energy types. The rank for each energy type is originally Good: this is modified by the Ability Modifier Table found on page 6 of the Player's Book. Each Power is rolled separately. Thus, a hero might have a Poor sound-form and an Incredible radiation-form. Damage to the Energy Body is the same as damage to the normal body. The Energy Body is subject to anything that would affect energy of its type. The hero makes a standard Resistance roll to determine such effects on the Energy Body. The hero may find himself confined in a storage field while in energy-form. If so, he must make a red FEAT to attempt to revert to normal. If he fails, he must escape in his energy form.
 
-                      The Energy Body is a relatively unlimited supply of that particular energy type. The hero can expend great amounts of it and still be able to return to normal. Completely depleting the Energy Body requires a red FEAT rolled by the Judge or an adversary. The hero can also ab s orb existing energy of his chosen type to replenish himself.
+                    The Energy Body is a relatively unlimited supply of that particular energy type. The hero can expend great amounts of it and still be able to return to normal. Completely depleting the Energy Body requires a red FEAT rolled by the Judge or an adversary. The hero can also ab s orb existing energy of his chosen type to replenish himself.
 
-                      This Power includes the relevant form of Energy Control and Emission for the purpose of controlling the energy within the body.
-                  Energy Sheath: #S14
-                    Rank: Incredible
-                    Energy Types:
-                      Fire: Good
-                      Light: Incredible
-                      Shadow: Incredible
-                    Reference: |
-                      The hero can surround himself with an energy field. This field provides protection, life support, and a means of manifesting the hero's other Powers. The energy field can be of any type (see the Energy Emission section for available types). Each energy field has its own characteristics that affect the ways the hero can use the Power.
+                    This Power includes the relevant form of Energy Control and Emission for the purpose of controlling the energy within the body.
+                Energy Sheath: #S14
+                  Rank: Incredible
+                  Energy Types:
+                    Fire: Good
+                    Light: Incredible
+                    Shadow: Incredible
+                  Reference: |
+                    The hero can surround himself with an energy field. This field provides protection, life support, and a means of manifesting the hero's other Powers. The energy field can be of any type (see the Energy Emission section for available types). Each energy field has its own characteristics that affect the ways the hero can use the Power.
 
-                      Only one Energy Sheath can be used at a time. The hero may possess several possible Energy Sheathes. The original rank for each is Good: this can be modified by the Ability Modifier Table on page 6 in the Player's Book. Each Power is rolled separately. Thus a hero might possess a Poor Sonic Sheath and an Incredible Vibration Sheath.
+                    Only one Energy Sheath can be used at a time. The hero may possess several possible Energy Sheathes. The original rank for each is Good: this can be modified by the Ability Modifier Table on page 6 in the Player's Book. Each Power is rolled separately. Thus a hero might possess a Poor Sonic Sheath and an Incredible Vibration Sheath.
 
-                      Damage to the Sheath does not affect the hero's Health. If the Sheath is destroyed, the hero. must make a red FEAT to regain it. Possible ways of destroying a Sheath include Energy Control and Conversion, Power Control, and Magic. When the hero is using this Power, he has a special vulnerability to Energy Control and Conversion Powers that can affect his type of Energy Sheath (-2CS). However, he also has +2CS Resistance to attacks using the same energy form as his Sheath. For the duration of the Sheath, it is assumed to be made of an infinite supply of that energy. (Otherwise, the character bookkeeping would be a nightmare. "Let's see, if I throw a fireball, that's gonna cost five minutes of power...")
+                    Damage to the Sheath does not affect the hero's Health. If the Sheath is destroyed, the hero. must make a red FEAT to regain it. Possible ways of destroying a Sheath include Energy Control and Conversion, Power Control, and Magic. When the hero is using this Power, he has a special vulnerability to Energy Control and Conversion Powers that can affect his type of Energy Sheath (-2CS). However, he also has +2CS Resistance to attacks using the same energy form as his Sheath. For the duration of the Sheath, it is assumed to be made of an infinite supply of that energy. (Otherwise, the character bookkeeping would be a nightmare. "Let's see, if I throw a fireball, that's gonna cost five minutes of power...")
 
-                      When creating the hero, the player can opt to replace one of the other Powers with a Transportation Power. The player can also replace other Powers with the appropriate Energy Emission and Control Powers, if he so chooses.
+                    When creating the hero, the player can opt to replace one of the other Powers with a Transportation Power. The player can also replace other Powers with the appropriate Energy Emission and Control Powers, if he so chooses.
             Advanced Player's Book:
               Resistances:
                 Invulnerability to Fire and Heat:
