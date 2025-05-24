@@ -1779,11 +1779,10 @@ Character Sheet:
                 Roller Skates: Roller Skates are used by a variety of heroes from Dazzler to Iron Man. Standard skates allow the hero to move at the listed speed as if Endurance were three ranks higher.
                 Rocket Pack: Rocket Pack, worn either as a belt-pack or a backpack, allows the wearer to fly at Excellent speeds. All limitations on flight apply to the wearer, and Agility FEATs required are at one CS lower.
         Magical Items:
-          Hermetica:
+          Grimoire:
+            Name: Hermetica
             Description: A sturdy tome of gilt-edged, finest vellum, bound in solar-motif tooled and embossed leather over cedar board with heavy leather strap, closed with a gilded brass buckle, large, gilded brass corner protectors, silk cord headband and tailband, and many sewn in bookmarks of brocaded silk.
-            Reference:
-              Grimoire: &Grimoire
-                Reference: The book in which a mage records spells or incantations. Some spells, like many Entreaty spells, cannot be memorized, only read aloud from a text. A character can only have two grimoires at any one time, the primary and a back-up copy. Creating takes 10+1d10 full days of work
+            Reference: &Grimoire The book in which a mage records spells or incantations. Some spells, like many Entreaty spells, cannot be memorized, only read aloud from a text. A character can only have two grimoires at any one time, the primary and a back-up copy. Creating takes 10+1d10 full days of work
           Staff of Polar Power:
             Name: Hēlios Mégistos
             Description: |
@@ -1795,6 +1794,8 @@ Character Sheet:
 
               This item offers the Judge a great opportunity to be creative and is a good item to improve a freshly generated character who is weak.
             Magic:
+              Energy Use:
+                All Energies: *All_Energies
               Spells:
                 Personal Energies:
                   Resistance Aura:
@@ -2249,8 +2250,12 @@ Character Sheet:
           Phylacterium Ianus:
             Description: A bronze amulet whose center rotates on central pintles, top and bottom, like a revolving door. One side bears a single, large garnet cabochon, the other a relief of the Janus-head with garnet eyes.  Around the edge of the center part is imagery and verse sacred to Mercury. The amulet is worn on a thin chain of Uru metal forged in Nidavellir, a millennium newer than the amulet itself.
             Magic:
-
+              Energy Use:
+                All Energies: *All_Energies
               Spells:
+                Dimensional Aperture:
+                  Rank: Amazing
+                  Reference: *Dimensional_Aperture
       Notes: May be summoned via Julian casting the Servant Spell.
       Reference:
         Servant: *Servant
