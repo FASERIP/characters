@@ -2253,9 +2253,10 @@ Character Sheet:
               Energy Use:
                 All Energies: *All_Energies
               Spells:
-                Dimensional Aperture:
-                  Rank: Amazing
-                  Reference: *Dimensional_Aperture
+                Dimensional Energy:
+                  Dimensional Aperture:
+                    Rank: Amazing
+                    Reference: *Dimensional_Aperture
       Notes: May be summoned via Julian casting the Servant Spell.
       Reference:
         Servant: *Servant
