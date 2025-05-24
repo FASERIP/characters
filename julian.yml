@@ -523,9 +523,6 @@ Character Sheet:
                       An immortal character's body will slowly regenerate lost parts and heal. so that short of atomizing the remains and spreading that collection of atoms through a large portion of space, the immortal character will return at some point in the future.
 
                       Immortality is applicable to the Earth Dimension only (including all planets of this dimension). An immortal character in another dimension—such as Asgard or Olympus, but excluding variant or divergent earths-does not age, but may be killed normally while in that dimension.
-                Mental Powers:
-                  Mechanical intuition:
-                    Reference: This is a specific form of Ultimate Skill that affects repairs. inventing, and building things. The character with this Power has a strong intuitive knowledge of machinery. Regardless of Reason, any rolls for determining whether an invention works or not are at Unearthly Rank. No modifiers may be added to this roll. The character with this Power must still provide Resources for these inventions in the standard fashion.
                 Magic:
                   Eldritch Bolts:
                     Rank: Amazing
@@ -539,8 +536,8 @@ Character Sheet:
                       If an attacker directs his attacks against the shield Itself, treat the attack as an attempt to break the material, with the attacker's bolt supplying the strength and the defender's shield the object that may be broken. The mage whose shield is broken that round takes no damage, but has no shield until he raises it the next round. An Eldritch Shield will protect its caster from all forms of magic of up to the Psyche of the caster.
             Battlesuit:
               Name: Panoplia
-              Description: A full suit of powered armor, sleek and futuristic, but reminiscient of Byzantine motifs with an overall dark theme.
-              Material Strength: Psyche
+              Description: A full suit of techomagical powered armor, sleek and futuristic, but reminiscient of Byzantine motifs with an overall dark theme.
+              Material Strength: Psyche +2CS
               Physical Abilities:
                 Minimum Psyche:
                   Excellent:
@@ -1152,7 +1149,7 @@ Character Sheet:
                     This is a particularly long-lived spell, often used by magic wielders stranded in hostile circumstances or alien dimensions. The duration of this spell is left to the Judge, as different conditions and circumstances (time passage in other dimensions for example) can affect the duration. It is suggested that the caster receive a +3CS on the duration of the spell. (For example, the spell would have a Unearthly duration for a caster with an Incredible spell rank.) An Unearthly duration means that the spell lasts indefinitely, usually until the caster escapes from the hostile conditions that caused him to cast the spell.
                 Dimensional Aperture:
                   Rank: Amazing
-                  Reference: |
+                  Reference: &Dimensional_Aperture |
                     This spell causes a temporary opening in the dimension’s fabric, allowing the caster to cross from one dimension to another. Look for the section on Dimensions in the Miscellany of Mysticism for more detail. The caster can automatically open a portal to a dimension with which he is familiar, but opening a portal to an unfamiliar dimension requires a successful spell rank FEAT roll. If a FEAT roll is required, failure indicates that the caster cannot enter the desired dimension that day A beginning caster who does not really know one dimension from another can stumble into any one of them at random.
 
                     A spellcaster who is in a familiar foreign dimension can automatically return to his home dimension. However, if the caster is in an unfamiliar dimension or if his mind has been affected by traveling in a sanity-bending or sanity-threatening dimension, the caster must make a successful spell rank FEAT roll to locate the dimensional position of his home dimension. This roll to return is only allowed once per week. However, the caster can enter another random dimension and try to go home from there.
@@ -1794,7 +1791,7 @@ Character Sheet:
             Material Strength: Excellent
             Type: Blunt Attack
             Reference: |
-              This is actually a class of staves. They can come in any shape or material and range in size from 4 to 8 feet long. A Staff of Polar Power polarizes the holder with the power of the master who created it. Therefore different powers and different levels of mastery are engrained into each staff and no two are alike. All Staves of Power allow the character to become pure energy for the purpose of floating through dimensions. In such form a character can move through dimensions at a rate of 5 dimensions per round and ignore all physical attacks. Another quality of most Staves of Power is their ability to absorb attack spells cast at them (see Magic Effects Table, Agility & Targeting). An Agility FEAT roll of a bull’s-eye indicates the character has intercepted the spell with his staff).
+              This is actually a class of staves. They can come in any shape or material and range in size from 4 to 8 feet long. A Staff of Polar Power polarizes the holder with the power of the master who created it. Therefore different powers and different levels of mastery are ingrained into each staff and no two are alike. All Staves of Power allow the character to become pure energy for the purpose of floating through dimensions. In such form a character can move through dimensions at a rate of 5 dimensions per round and ignore all physical attacks. Another quality of most Staves of Power is their ability to absorb attack spells cast at them (see Magic Effects Table, Agility & Targeting). An Agility FEAT roll of a bull’s-eye indicates the character has intercepted the spell with his staff).
 
               This item offers the Judge a great opportunity to be creative and is a good item to improve a freshly generated character who is weak.
             Magic:
@@ -1888,7 +1885,7 @@ Character Sheet:
   Supporting Cast:
     Leonidas:
       Description:
-        Biography: Leonidas has been with Julian since the latter began his sorcerous journey. Starting out life as an alley kitten in Constantinople, in the Spring of 498, in the sokáki behind Julian's atelier, he was part of the neighborhood colony that Julian and others tended, everyone's pet and no-one's.  Particularly large, cunning, and perceptive from kittenhood, Leonidas bonded closely to Julian, by this point decades immortal.  Once Leonidas was fully grown, Julian decided to share his immortality with his companion, in the process of the ritual of Familiar binding, awakening Leonidas to mystic potential.  Over the centuries, Leonidas grew wiser, stronger, and more adept with his mystic power.
+        Biography: Leonidas has been with Julian since the latter began his sorcerous journey. Starting out life as an alley kitten in Alexandria, in the Spring of 498, in the sokáki behind Julian's atelier at the time, Leonidas was part of the neighborhood colony that Julian and others tended, everyone's pet and no-one's.  Particularly large, cunning, and perceptive from kittenhood, Leonidas bonded closely to Julian, who was, by this point, decades immortal at nearly one-hundred twenty.  Once Leonidas was fully grown, Julian decided to share his immortality with his companion, in the process of the ritual of Familiar binding, awakening Leonidas to mystic potential.  Over the centuries, Leonidas grew wiser, stronger, and more adept with his mystic power.
         Personality: While still very much a cat in personality, that's tempered by intelligence and insight that's far above the human norm and over a millennium of existence in close contact with Julian Constantine, giving him a dry, witty, sarcastic detachment and studious, serious, somewhat pessimistic outlook. Leonidas doesn't speak or use telepathy to communicate per se, but is exceptionally adept at making himself unambiguously understood by others, in sufficient detail, even with complex, nuanced, or conceptual topics, as well as understanding them, regardless of language, the same as if he were conversing like any human.
         Appearance: A particularly large housecat most resembling a strikingly ancient- and wild-looking Oriental breed, somewhat like an oversized Egyptian Mau, with a black spotted silver tabby coat and brilliant green eyes.
       Origin:
@@ -2024,9 +2021,9 @@ Character Sheet:
         Familiar: *Familiar
     Eve:
       Description:
-        Biography: Eve is a technomagical homunculus, an alchemical protoplasm body given animacy by summoning, forging, and binding elemental spirits via Julian Constantine's Servant Spell.  She was created in May, 1898.
-        Personality:
-        Appearance: Shaped in an idealized, statuesque, athletic, youthful, and ever-so-slightly abstracted feminine form, Eve is perfectly humanoid but clearly nonhuman. Her skin has the appearance of swirls of molten bronze and gold, though she is as soft to the touch as a human, if a bit smoother and warmer.  Likewise her hair, again as soft as any human's, seems to be cascades of hair-then tendrils of the same.  Her face is noble, regal even, vaguely Mediterranean, in features, and they're somewhat abstracted like those of a nearly-but-not-entirely realistic statue.
+        Biography: Eve is a technomagical homunculus, an alchemical protoplasm body given animacy by summoning, forging, and binding elemental spirits via Julian Constantine's Servant Spell.  She was created in May, 1698, at Juian's Constantinople atelier and became a formidable mystic and skilled researcher under his tutelage in the centuries since.
+        Personality: Precise, punctual, perceptive, polite, patient, perfectionist. Unflappable, intrepid, impassive, indefatigable, intellectual.
+        Appearance: Shaped in a statuesque, athletic, youthful, and ever-so-slightly abstracted, idealized feminine form, Eve is perfectly humanoid but clearly nonhuman except in low light or from a distance. Her skin has the appearance of Corinthian bronze, though she is as soft to the touch as a human, if a bit smoother and warmer; her lips have a rose-gold tint.  Likewise her hair, again as soft as any human's, seems to be cascades of hair-then tendrils of the same.  Her face is noble, regal even, and vaguely Mediterranean, regarding features features, and they're somewhat smoother and less detailed,  abstracted, like those of a nearly-but-not-entirely realistic statue.  Eve's eyes are like smooth, opalescent, barely-transulcent crystals, with rings of flecked pyrite and partially-verdigrised copper rings, an inclusion just below the surface, as irises around a dark flaw deeper in, appearing as her pupil.
       Origin:
         Physical Form:
           Android: |
@@ -2171,7 +2168,7 @@ Character Sheet:
               Acrobatics: *Acrobatics
             Professional Skills:
               Engineering: *Engineering
-              Medical: *Medical
+              Pilot: *Pilot
             Scientific Skills:
               Biology: *Biology
               Chemistry: *Chemistry
@@ -2241,10 +2238,19 @@ Character Sheet:
           Phylax Integrated Multpurpose Pistol: *Phylax_Integrated_Multipurpose_Pistol
         Melee and Thrown Weapons:
           Phylax Tactical Multipurpose Staff: *Phylax_Tactical_Multipurpose_Staff
+        Vehicles:
+          Arma Tactical Utility Vehicle: *Arma_TUV
+          Arma Tactical Utility Watercraft: *Arma_TUW
+          Arma Tactical Utility Aircraft: *Arma_TUA
         Other Equipment:
           Phylax Integrated Utility Battlesuit: *Phylax_Integrated_Utility_Battlesuit
         Magical Items:
           Grimoire: *Grimoire
+          Phylacterium Ianus:
+            Description: A bronze amulet whose center rotates on central pintles, top and bottom, like a revolving door. One side bears a single, large garnet cabochon, the other a relief of the Janus-head with garnet eyes.  Around the edge of the center part is imagery and verse sacred to Mercury. The amulet is worn on a thin chain of Uru metal forged in Nidavellir, a millennium newer than the amulet itself.
+            Magic:
+
+              Spells:
       Notes: May be summoned via Julian casting the Servant Spell.
       Reference:
         Servant: *Servant
